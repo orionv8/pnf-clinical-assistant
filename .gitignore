@@ -1,0 +1,6 @@
+.env
+data/
+*.pdf
+groq.txt
+__pycache__/
+.streamlit/

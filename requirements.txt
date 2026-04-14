@@ -1,0 +1,8 @@
+streamlit
+groq
+tavily-python
+python-dotenv
+pypdf
+langchain
+langchain-community
+langchain-groq
