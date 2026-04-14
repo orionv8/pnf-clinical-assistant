@@ -7,14 +7,16 @@ from langchain_community.document_loaders import PyPDFLoader
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊")
 
-# 2. API Key Loading (Resilient for Cloud Deployment)
-GROQ_KEY = os.getenv("GROQ_API_KEY") or (st.secrets.get("GROQ_API_KEY") if "GROQ_API_KEY" in st.secrets else None)
-BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY") or (st.secrets.get("BRAVE_SEARCH_API_KEY") if "BRAVE_SEARCH_API_KEY" in st.secrets else None)
+# 2. API Key Loading (Railway Optimized)
+# On Railway, we use os.getenv to read from the 'Variables' tab directly.
+GROQ_KEY = os.getenv("GROQ_API_KEY")
+BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
 with st.sidebar:
     st.header("⚙️ System Status")
+    # If the variables aren't found, we show the manual input boxes
     if not GROQ_KEY or not BRAVE_KEY:
-        st.error("API Keys missing in Railway Variables")
+        st.error("Keys missing in Railway Variables")
         GROQ_KEY = st.text_input("Manual Groq API Key", value=GROQ_KEY if GROQ_KEY else "", type="password")
         BRAVE_KEY = st.text_input("Manual Brave API Key", value=BRAVE_KEY if BRAVE_KEY else "", type="password")
     else:
@@ -35,6 +37,7 @@ def load_pnf_context():
         try:
             loader = PyPDFLoader(path)
             pages = loader.load()
+            # Focusing on pages 50-150 for speed and relevance
             return "\n".join([p.page_content for p in pages[50:150]])
         except Exception as e:
             return f"Error loading PDF: {e}"
@@ -50,8 +53,10 @@ user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 
 
 if user_query:
     with st.spinner("Consulting PNF & Brave AI Context..."):
+        # Check for combination queries
         is_combo = any(x in user_query.lower() for x in ["+", "and", "&", "interaction", "with"])
         
+        # BRAVE SEARCH
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
         params = {"q": f"Philippine National Formulary PNF protocol {user_query}", "count": 3}
         
@@ -59,10 +64,11 @@ if user_query:
             search_resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
             search_data = search_resp.json()
             results = search_data.get('web', {}).get('results', [])
-            web_context = "\n".join([r.get('description', '') for r in results]) if results else "No additional web context found."
+            web_context = "\n".join([r.get('description', '') for r in results]) if results else "No additional context found."
         except Exception as e:
             web_context = f"Search failed: {e}"
 
+        # SMART PROMPT
         prompt = f"""
         USER QUERY: {user_query}
         LOCAL PNF DATA: {pnf_context[:3000]}
@@ -70,9 +76,9 @@ if user_query:
 
         STRICT CLINICAL RULES:
         1. IF query involves TWO or MORE drugs:
-           - IGNORE separate monographs/dosages.
+           - IGNORE separate monographs.
            - Explain the SYNDROMIC MANAGEMENT or CLINICAL PROTOCOL (e.g. STI/PID).
-           - Focus on WHY they are combined and shared precautions.
+           - Focus on the clinical reason for the combination and shared precautions.
         
         2. IF query is a SINGLE DRUG:
            - Provide: Generic Name, PNF Status, Dosage Form & Strengths, Indications, Contraindications.
