@@ -32,16 +32,17 @@ groq_client = Groq(api_key=GROQ_KEY)
 # 4. PNF Data Loading
 @st.cache_resource
 def load_pnf_context():
-    path = "data/PNF-Manual-for-Primary-Healthcare_8th.pdf"
+    # Use a relative path that works on Linux
+    path = os.path.join("data", "PNF-Manual-for-Primary-Healthcare_8th.pdf")
     if os.path.exists(path):
         try:
             loader = PyPDFLoader(path)
             pages = loader.load()
-            # Focusing on pages 50-150 for speed and relevance
             return "\n".join([p.page_content for p in pages[50:150]])
         except Exception as e:
-            return f"Error loading PDF: {e}"
-    return "Local PNF Manual not found in /data folder."
+            return f"PDF Load Error: {e}"
+    # If file is missing, the app should still RUN, not crash
+    return "Clinical Manual currently unavailable (Check data folder)."
 
 pnf_context = load_pnf_context()
 
