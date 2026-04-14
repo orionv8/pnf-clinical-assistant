@@ -7,7 +7,7 @@ from langchain_community.document_loaders import PyPDFLoader
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊")
 
-# 2. API Key Loading (Railway Optimized)
+# 2. API Key Loading 
 GROQ_KEY = os.getenv("GROQ_API_KEY")
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
@@ -27,7 +27,7 @@ if not (GROQ_KEY and BRAVE_KEY):
 # 3. Initialize Groq
 groq_client = Groq(api_key=GROQ_KEY)
 
-# 4. PNF Data Loading (Cached for Speed)
+# 4. PNF Data Loading
 @st.cache_resource
 def load_pnf_context():
     path = os.path.join("data", "PNF-Manual-for-Primary-Healthcare_8th.pdf")
@@ -35,7 +35,6 @@ def load_pnf_context():
         try:
             loader = PyPDFLoader(path)
             pages = loader.load()
-            # Focusing on protocol-heavy pages
             return "\n".join([p.page_content for p in pages[50:200]])
         except Exception as e:
             return f"Error loading PDF: {e}"
@@ -50,13 +49,12 @@ st.markdown("---")
 user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Metronidazole + Azithromycin'")
 
 if user_query:
-    with st.spinner("Consulting PNF Protocols..."):
-        # Detect if it's a combo or interaction query
+    with st.spinner("Analyzing PNF References..."):
         is_combo = any(x in user_query.lower() for x in ["+", "and", "&", "interaction", "with", "vs"])
         
         # BRAVE SEARCH
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
-        params = {"q": f"Philippine National Formulary PNF protocol {user_query}", "count": 3}
+        params = {"q": f"Philippine National Formulary PNF 8th edition {user_query} protocol", "count": 3}
         
         try:
             search_resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
@@ -66,43 +64,63 @@ if user_query:
         except:
             web_context = "Web search unavailable."
 
-        # THE "NO-FLUFF" CLINICAL PROMPT
+        # STRICT TEMPLATED PROMPT
         prompt = f"""
         USER QUERY: {user_query}
         LOCAL PNF DATA: {pnf_context[:4000]}
         WEB SEARCH: {web_context}
 
         STRICT INSTRUCTIONS:
-        - YOU ARE A CLINICAL PHARMACIST. BE DIRECT.
-        
-        1. IF THE QUERY IS A COMBINATION OR INTERACTION (e.g., A + B):
-           - **STRICT RULE:** DO NOT list individual monographs, classifications, or dosages for each drug separately.
-           - **ACTION:** Jump IMMEDIATELY to the '📋 Clinical Summary'.
-           - Explain the 'Syndromic Management' or 'Clinical Protocol' (e.g., PID, STI, etc.) where these drugs are used together.
-           - Detail the combined regimen (e.g., 'Drug A 500mg BID + Drug B 1g single dose').
-           - Highlight 'Key PNF Precautions' (e.g., Alcohol avoidance, QTc prolongation).
-           - Do not give any other background info.
+        You are a Clinical Pharmacist. Follow these formatting rules EXACTLY based on the query type.
 
-        2. IF THE QUERY IS A SINGLE DRUG:
-           - Follow the standard Monograph template:
-             - "Based strictly on the PNF 8th Edition..."
-             - ### 1. Formulary Status
-             - ### 2. Clinical Monograph
-           
-        Always cite 'PNF 8th Edition'.
+        IF THE QUERY IS A SINGLE DRUG:
+        Use this EXACT template and structure. Do not change the headings.
+        
+        Based strictly on the PNF 8th Edition and the PNF Manual for Primary Healthcare, here is the information for [Generic Name] (listed as [Full PNF Listing Name]):
+
+        1. Formulary Status (PNF 8th Edition, 2017)
+        - **Classification:** [Classification]
+        - **Available Forms & Strengths:**
+          - [List forms and strengths]
+
+        2. Clinical Monograph (PNF Manual for Primary Healthcare)
+        - **Indications:**
+          - [List indications]
+        - **Contraindications:**
+          - [List contraindications]
+        - **Common Adverse Reactions:** [List]
+        - **Selected Dosage:**
+          - [List specific doses]
+
+        Note: [Include one key clinical pearl or PNF usage note here]
+
+
+        IF THE QUERY IS A COMBINATION OR INTERACTION (e.g., A + B):
+        Provide strong clinical context without giving two completely separate monographs. Use this EXACT structure:
+        
+        Based strictly on the PNF 8th Edition and primary healthcare protocols, here is the clinical context for combining [Drug A] and [Drug B]:
+        
+        1. Clinical Context & Rationale
+        - [Explain WHY they are used together. e.g., Syndromic management of STIs, covering specific organisms, or overlapping mechanisms.]
+        
+        2. Protocol Regimen & Selected Dosage
+        - **[Drug A]:** [Dose in this specific protocol]
+        - **[Drug B]:** [Dose in this specific protocol]
+        
+        3. Key PNF Precautions & Interactions
+        - [Detail specific drug-drug interactions, overlapping toxicities, or warnings like avoiding alcohol or QTc prolongation.]
         """
 
         try:
             response = groq_client.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=[
-                    {"role": "system", "content": "You are a direct Clinical Pharmacist. If a combination is asked, you answer ONLY with the protocol/interaction. No separate drug summaries allowed."},
+                    {"role": "system", "content": "You are a highly structured clinical AI. You fill in the provided templates exactly as requested without adding conversational filler."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.1,
                 max_tokens=850
             )
-            st.markdown("---")
-            st.write(response.choices[0].message.content)
+            st.markdown(response.choices[0].message.content)
         except Exception as e:
             st.error(f"Groq Error: {e}")
