@@ -11,7 +11,6 @@ GROQ_KEY = os.getenv("GROQ_API_KEY")
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
 # --- CLINICAL DATA: DOH RESTRICTED ANTIMICROBIALS (AMS) ---
-# Drugs requiring special justification/clearance in PH hospitals
 AMS_RESTRICTED = [
     "cefepime", "ertapenem", "meropenem", "vancomycin", 
     "amphotericin b", "voriconazole", "colistin", 
@@ -38,69 +37,69 @@ groq_client = Groq(api_key=GROQ_KEY)
 st.title("🇵🇭 PNF Clinical Assistant")
 st.markdown("---")
 
-user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Merronidazole + Azithromycin'")
+user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Vancocin' or 'Meropenem'")
 
 if user_query:
-    with st.spinner("Consulting Live DOH PNF Site..."):
+    with st.spinner("Searching DOH Portal & Clinical Guidelines..."):
         
-        # --- DUAL-STAGE SEARCH (To fix blank monographs) ---
+        # --- AGGRESSIVE DUAL-SEARCH LOGIC ---
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
         
-        # Search 1: General Listing
-        q1 = f"site:pnf.doh.gov.ph {user_query}"
-        # Search 2: Specific Monograph Details
-        q2 = f"site:pnf.doh.gov.ph {user_query} indications contraindications dosage"
+        # Query 1: Direct DOH Portal lookup
+        q1 = f"site:pnf.doh.gov.ph {user_query} monograph"
+        # Query 2: Broader search to catch Vancomycin/Restricted drug details (PhilHealth/RITM/DOH PDFs)
+        q2 = f"Philippine National Formulary {user_query} indications dosage strengths"
         
         web_context = ""
         try:
             for q in [q1, q2]:
-                params = {"q": q, "count": 3}
+                params = {"q": q, "count": 4}
                 resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
                 results = resp.json().get('web', {}).get('results', [])
-                web_context += "\n".join([r.get('description', '') for r in results])
+                for r in results:
+                    web_context += f"\n---\nSource: {r.get('url')}\nContent: {r.get('description', '')}"
         except:
-            web_context = "Web search unavailable."
+            web_context = "Web search currently unavailable."
 
         # --- AMS FLAG LOGIC ---
         is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
 
-        # --- THE SMART PROMPT ---
+        # --- THE CLINICAL PROMPT ---
         prompt = f"""
         USER QUERY: {user_query}
         WEB SEARCH CONTEXT: {web_context}
 
         STRICT INSTRUCTIONS:
-        You are a Clinical Pharmacist. Your job is to summarize information from the Philippine National Formulary (PNF).
-        DO NOT use pre-trained knowledge for dosages—STRICTLY use the WEB SEARCH CONTEXT.
-
-        RULE 0: IF NOT FOUND
-        If the web search contains no specific clinical data, output ONLY: "Drug not found in official PNF 8th Edition online portal."
-
-        RULE 1: IF THE QUERY IS A SINGLE DRUG
-        Follow this EXACT structure:
+        You are a Clinical Pharmacist. Summarize the Philippine National Formulary (PNF) data.
         
-        Based strictly on the PNF 8th Edition online portal, here is the information for [Generic Name]:
+        RULE 0: IF NO DATA AT ALL
+        If there is zero clinical data in the context, say: "Drug not found in official PNF 8th Edition online portal."
+
+        RULE 1: FORMATTING
+        Use the following structure. Do NOT invent dosages.
+        
+        Based strictly on PNF references and DOH protocols, here is the information for {user_query}:
 
         {'### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL' if is_restricted else ''}
-        {'> This medicine is listed as a RESTRICTED antimicrobial in the PNF. Use requires institutional AMS clearance and specific clinical justification for PhilHealth reimbursement.' if is_restricted else ''}
+        {'> **Note:** This is a RESTRICTED antimicrobial. Usage typically requires institutional AMS committee clearance and specific clinical justification for PhilHealth reimbursement.' if is_restricted else ''}
 
         1. **Formulary Status**
-        - **Classification:** [Classification from context]
-        - **Available Forms & Strengths:** [List only what is in search results]
+        - **Classification:** [Extract classification]
+        - **Available Forms & Strengths:** [List only what is in the search results]
 
         2. **Clinical Monograph**
-        - **Indications:** [Summarize indications from context]
-        - **Contraindications:** [Summarize or write 'Not specified' if missing]
-        - **Selected Dosage:** [List specific doses from context]
+        - **Indications:** [List indications found]
+        - **Contraindications:** [List or 'Not specified']
+        - **Selected Dosage:** [List specific doses found]
 
-        *Note: [One key clinical pearl here]*
+        *Note: [Include one clinical pearl, e.g., infusion rate for Vancomycin or monitor renal function]*
         """
 
         try:
             response = groq_client.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[
-                    {"role": "system", "content": "You are a clinical assistant. You provide structured, accurate medical summaries based ONLY on provided text."},
+                    {"role": "system", "content": "You are a clinical assistant that strictly follows the PNF and DOH guidelines provided in the context."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.0,
@@ -108,6 +107,6 @@ if user_query:
             )
             st.markdown("---")
             st.write(response.choices[0].message.content)
-            st.caption("🔍 Data sourced live from pnf.doh.gov.ph")
+            st.caption("🔍 Data fetched live from pnf.doh.gov.ph and DOH Clinical Guidelines.")
         except Exception as e:
             st.error(f"Groq Error: {e}")
