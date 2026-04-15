@@ -11,7 +11,6 @@ GROQ_KEY = os.getenv("GROQ_API_KEY")
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
 # --- CLINICAL DATA: DOH RESTRICTED ANTIMICROBIALS (AMS) ---
-# Drugs requiring special justification/clearance in PH hospitals
 AMS_RESTRICTED = [
     "cefepime", "ertapenem", "meropenem", "vancomycin", 
     "amphotericin b", "voriconazole", "colistin", 
@@ -38,76 +37,104 @@ groq_client = Groq(api_key=GROQ_KEY)
 st.title("🇵🇭 PNF Clinical Assistant")
 st.markdown("---")
 
-user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Merronidazole + Azithromycin'")
+user_query = st.text_input("Enter Drug(s):", placeholder="e.g. 'Ceftriaxone' or 'Amoxicillin + Clavulanic Acid'")
 
 if user_query:
-    with st.spinner("Consulting Live DOH PNF Site..."):
+    with st.spinner("Searching DOH Portal..."):
         
-        # --- DUAL-STAGE SEARCH (To fix blank monographs) ---
+        # Clean the query so the search engine doesn't get confused by questions
+        clean_query = user_query.lower().replace("what is", "").replace("the dose of", "").replace("for", "").replace("?", "").strip()
+        
+        # Detect if it is a combination or restricted drug
+        is_combo = any(x in clean_query for x in ["+", "and", "&", "vs", ","])
+        is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED)
+
+        # --- BRAVE SEARCH ---
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
         
-        # Search 1: General Listing
-        q1 = f"site:pnf.doh.gov.ph {user_query}"
-        # Search 2: Specific Monograph Details
-        q2 = f"site:pnf.doh.gov.ph {user_query} indications contraindications dosage"
+        # WIDENED SEARCH: Broadens the net for all drugs to prevent blank results
+        if is_restricted:
+            search_term = f"Philippine National Formulary {clean_query} monograph dosage"
+        else:
+            search_term = f"Philippine National Formulary DOH {clean_query} indications dosage"
+            
+        params = {"q": search_term, "count": 5}
         
         web_context = ""
         try:
-            for q in [q1, q2]:
-                params = {"q": q, "count": 3}
-                resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
-                results = resp.json().get('web', {}).get('results', [])
-                web_context += "\n".join([r.get('description', '') for r in results])
+            resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
+            results = resp.json().get('web', {}).get('results', [])
+            for r in results:
+                web_context += f"\nSource: {r.get('title')}\nContent: {r.get('description', '')}\n"
         except:
             web_context = "Web search unavailable."
 
-        # --- AMS FLAG LOGIC ---
-        is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
+        # --- DYNAMIC PROMPT INSTRUCTIONS ---
+        if is_combo:
+            template_instruction = """
+            This is a COMBINATION/MULTIPLE DRUG query. You MUST use this EXACT structure:
+            
+            Based strictly on PNF protocols, here is the clinical context for combining these medicines:
+            
+            1. **Clinical Context & Rationale**
+            - [Explain why they are used together or potential interactions]
+            
+            2. **Protocol Regimen & Selected Dosages**
+            - [List the specific doses for each drug found in the context]
+            
+            3. **Key PNF Precautions**
+            - [List specific warnings or overlapping toxicities]
+            """
+        else:
+            template_instruction = f"""
+            This is a SINGLE DRUG query. You MUST use this EXACT structure:
+            
+            Based strictly on the PNF online portal, here is the information for {clean_query.title()}:
 
-        # --- THE SMART PROMPT ---
+            {'### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL' if is_restricted else ''}
+            {'> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.' if is_restricted else ''}
+
+            1. **Formulary Status**
+            - **Classification:** [Classification]
+            - **Available Forms & Strengths:** [List forms found in context]
+
+            2. **Clinical Monograph**
+            - **Indications:** [List indications]
+            - **Contraindications:** [List or write 'Not specified']
+            - **Selected Dosage:** [List specific doses]
+            """
+
         prompt = f"""
-        USER QUERY: {user_query}
+        USER QUERY: {clean_query}
         WEB SEARCH CONTEXT: {web_context}
 
         STRICT INSTRUCTIONS:
-        You are a Clinical Pharmacist. Your job is to summarize information from the Philippine National Formulary (PNF).
-        DO NOT use pre-trained knowledge for dosages—STRICTLY use the WEB SEARCH CONTEXT.
-
-        RULE 0: IF NOT FOUND
-        If the web search contains no specific clinical data, output ONLY: "Drug not found in official PNF 8th Edition online portal."
-
-        RULE 1: IF THE QUERY IS A SINGLE DRUG
-        Follow this EXACT structure:
+        You are a Clinical Pharmacist. 
+        If the WEB SEARCH CONTEXT contains no clinical data, output ONLY: "Drug not found in official PNF portal."
+        DO NOT invent dosages. STRICTLY use the WEB SEARCH CONTEXT.
         
-        Based strictly on the PNF 8th Edition online portal, here is the information for [Generic Name]:
-
-        {'### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL' if is_restricted else ''}
-        {'> This medicine is listed as a RESTRICTED antimicrobial in the PNF. Use requires institutional AMS clearance and specific clinical justification for PhilHealth reimbursement.' if is_restricted else ''}
-
-        1. **Formulary Status**
-        - **Classification:** [Classification from context]
-        - **Available Forms & Strengths:** [List only what is in search results]
-
-        2. **Clinical Monograph**
-        - **Indications:** [Summarize indications from context]
-        - **Contraindications:** [Summarize or write 'Not specified' if missing]
-        - **Selected Dosage:** [List specific doses from context]
-
-        *Note: [One key clinical pearl here]*
+        {template_instruction}
         """
 
+        # --- GROQ AI RESPONSE ---
         try:
             response = groq_client.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[
-                    {"role": "system", "content": "You are a clinical assistant. You provide structured, accurate medical summaries based ONLY on provided text."},
+                    {"role": "system", "content": "You are a highly accurate clinical AI. You strictly follow the formatting template provided."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.0,
-                max_tokens=1000
+                max_tokens=850
             )
             st.markdown("---")
             st.write(response.choices[0].message.content)
-            st.caption("🔍 Data sourced live from pnf.doh.gov.ph")
+            
+            # --- THE DIAGNOSTIC VIEWER ---
+            with st.expander("👀 See what the bot searched (Debug Viewer)"):
+                st.caption(f"**Exact text sent to Brave Search:** `{search_term}`")
+                st.caption("**Raw Data retrieved from DOH:**")
+                st.write(web_context if web_context else "No data returned from search engine.")
+                
         except Exception as e:
             st.error(f"Groq Error: {e}")
