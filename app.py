@@ -27,20 +27,62 @@ if not (GROQ_KEY and BRAVE_KEY):
 # 3. Initialize Groq
 groq_client = Groq(api_key=GROQ_KEY)
 
-# 4. PNF Data Loading
+# 4. PNF Data Loading (Loads the WHOLE book into memory)
 @st.cache_resource
-def load_pnf_context():
+def load_full_pnf():
     path = os.path.join("data", "PNF-Manual-for-Primary-Healthcare_8th.pdf")
     if os.path.exists(path):
         try:
             loader = PyPDFLoader(path)
-            pages = loader.load()
-            return "\n".join([p.page_content for p in pages[50:200]])
+            return loader.load() # Loads all pages
         except Exception as e:
-            return f"Error loading PDF: {e}"
-    return "Local PNF Manual not found."
+            return None
+    return None
 
-pnf_context = load_pnf_context()
+all_pnf_pages = load_full_pnf()
+
+# 5. Clinical UI
+st.title("🇵🇭 PNF Clinical Assistant")
+st.markdown("---")
+
+user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Metronidazole + Azithromycin'")
+
+if user_query:
+    with st.spinner("Analyzing Full PNF Reference..."):
+        is_combo = any(x in user_query.lower() for x in ["+", "and", "&", "interaction", "with", "vs"])
+        
+        # --- NEW: TARGETED PDF SEARCH ---
+        relevant_text = ""
+        if all_pnf_pages:
+            # Find only the pages that mention the queried drug
+            matched_pages = [p.page_content for p in all_pnf_pages if user_query.lower() in p.page_content.lower()]
+            # Join them and cap at 5000 characters to prevent crashing
+            relevant_text = "\n...\n".join(matched_pages)[:5000]
+            if not relevant_text:
+                relevant_text = "Drug not found in local PDF."
+        else:
+            relevant_text = "Local PNF Manual completely missing."
+
+        # BRAVE SEARCH
+        headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
+        params = {"q": f"site:pnf.doh.gov.ph {user_query}", "count": 3} # Forces Brave to only look at the official DOH site
+        
+        try:
+            search_resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
+            search_data = search_resp.json()
+            results = search_data.get('web', {}).get('results', [])
+            web_context = "\n".join([r.get('description', '') for r in results])
+        except:
+            web_context = "Web search unavailable."
+
+        # STRICT TEMPLATED PROMPT
+        prompt = f"""
+        USER QUERY: {user_query}
+        LOCAL PNF DATA: {relevant_text}
+        WEB SEARCH: {web_context}
+        ...
+        # (Keep your exact strict instructions and rules here)
+
 
 # 5. Clinical UI
 st.title("🇵🇭 PNF Clinical Assistant")
