@@ -2,12 +2,11 @@ import streamlit as st
 import os
 import requests
 from groq import Groq
-from langchain_community.document_loaders import PyPDFLoader
 
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊")
 
-# 2. API Key Loading 
+# 2. API Key Loading (Railway Optimized)
 GROQ_KEY = os.getenv("GROQ_API_KEY")
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
@@ -27,115 +26,85 @@ if not (GROQ_KEY and BRAVE_KEY):
 # 3. Initialize Groq
 groq_client = Groq(api_key=GROQ_KEY)
 
-# 4. PNF Data Loading (Loads the WHOLE book into memory)
-@st.cache_resource
-def load_full_pnf():
-    path = os.path.join("data", "PNF-Manual-for-Primary-Healthcare_8th.pdf")
-    if os.path.exists(path):
-        try:
-            loader = PyPDFLoader(path)
-            return loader.load() # Loads all pages
-        except Exception as e:
-            return None
-    return None
-
-all_pnf_pages = load_full_pnf()
-
-# 5. Clinical UI
+# 4. Clinical UI
 st.title("🇵🇭 PNF Clinical Assistant")
 st.markdown("---")
 
 user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Metronidazole + Azithromycin'")
 
 if user_query:
-    with st.spinner("Analyzing Full PNF Reference..."):
-        is_combo = any(x in user_query.lower() for x in ["+", "and", "&", "interaction", "with", "vs"])
-        
-        # --- TARGETED PDF SEARCH ---
-        relevant_text = ""
-        if 'all_pnf_pages' in locals() and all_pnf_pages:
-            matched_pages = [p.page_content for p in all_pnf_pages if user_query.lower() in p.page_content.lower()]
-            relevant_text = "\n...\n".join(matched_pages)[:5000]
-            if not relevant_text:
-                relevant_text = "Drug not found in local PDF."
-        else:
-            relevant_text = "Local PNF Manual completely missing."
-
+    with st.spinner("Consulting Live DOH PNF Site..."):
         # --- BRAVE SEARCH (Targeted to DOH) ---
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
-        params = {"q": f"site:pnf.doh.gov.ph {user_query}", "count": 3} 
+        # Force Brave to ONLY pull from the official pnf.doh.gov.ph portal
+        params = {"q": f"site:pnf.doh.gov.ph {user_query}", "count": 5} 
         
+        web_context = ""
         try:
             search_resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
             search_data = search_resp.json()
             results = search_data.get('web', {}).get('results', [])
-            web_context = "\n".join([r.get('description', '') for r in results])
+            web_context = "\n".join([f"Source: {r.get('url')}\nContent: {r.get('description', '')}" for r in results])
         except:
             web_context = "Web search unavailable."
 
-        # --- STRICT TEMPLATED PROMPT ---
+        # --- THE "WEB-ONLY" SMART PROMPT ---
         prompt = f"""
         USER QUERY: {user_query}
-        LOCAL PNF DATA: {relevant_text}
-        WEB SEARCH: {web_context}
+        WEB SEARCH CONTEXT: {web_context}
 
         STRICT INSTRUCTIONS:
-        You are a Clinical Pharmacist. Follow these formatting rules EXACTLY based on the query type. Do NOT echo the prompt or web search data in your response.
+        You are a Clinical Pharmacist. Your job is to summarize information from the Philippine National Formulary (PNF).
+        DO NOT use your pre-trained knowledge for dosages—STRICTLY use the WEB SEARCH CONTEXT provided.
 
-        RULE 0: IF NOT FOUND OR IRRELEVANT
-        If the query is not a recognized drug, or if there is no clinical data found in the LOCAL PNF DATA or WEB SEARCH, output EXACTLY this phrase and nothing else:
-        "Drug not found in PNF 8th Edition."
+        RULE 0: IF NOT FOUND
+        If the web search contains no specific clinical data for this drug from pnf.doh.gov.ph, output:
+        "Drug not found in official PNF 8th Edition online portal."
 
         RULE 1: IF THE QUERY IS A SINGLE DRUG
-        Use this EXACT template and structure. Do not change the headings.
+        Use this EXACT structure:
         
-        Based strictly on the PNF 8th Edition and the PNF Manual for Primary Healthcare, here is the information for [Generic Name] (listed as [Full PNF Listing Name]):
+        Based strictly on the PNF 8th Edition online portal, here is the information for [Generic Name]:
 
-        1. Formulary Status (PNF 8th Edition, 2017)
-        - **Classification:** [Classification]
-        - **Available Forms & Strengths:**
-          - [List forms and strengths]
+        1. Formulary Status
+        - **Classification:** [Classification from context]
+        - **Available Forms & Strengths:** [List only what is in the search results]
 
-        2. Clinical Monograph (PNF Manual for Primary Healthcare)
-        - **Indications:**
-          - [List indications]
-        - **Contraindications:**
-          - [List contraindications]
-        - **Common Adverse Reactions:** [List]
-        - **Selected Dosage:**
-          - [List specific doses]
+        2. Clinical Monograph
+        - **Indications:** [List]
+        - **Contraindications:** [List]
+        - **Selected Dosage:** [List specific doses]
 
-        Note: [Include one key clinical pearl or PNF usage note here]
+        Note: [Include one key clinical pearl here]
 
-
-        RULE 2: IF THE QUERY IS A COMBINATION OR INTERACTION (e.g., A + B)
-        Provide strong clinical context without giving two completely separate monographs. Use this EXACT structure:
+        RULE 2: IF THE QUERY IS A COMBINATION (e.g., A + B)
+        Use this structure:
         
-        Based strictly on the PNF 8th Edition and primary healthcare protocols, here is the clinical context for combining [Drug A] and [Drug B]:
+        Based on PNF protocols, here is the clinical context for combining [Drug A] and [Drug B]:
         
         1. Clinical Context & Rationale
-        - [Explain WHY they are used together. e.g., Syndromic management of STIs, covering specific organisms, or overlapping mechanisms.]
+        - [Explain the combined protocol or syndromic management]
         
-        2. Protocol Regimen & Selected Dosage
-        - **[Drug A]:** [Dose in this specific protocol]
-        - **[Drug B]:** [Dose in this specific protocol]
+        2. Protocol Regimen
+        - **[Drug A]:** [Dose]
+        - **[Drug B]:** [Dose]
         
-        3. Key PNF Precautions & Interactions
-        - [Detail specific drug-drug interactions, overlapping toxicities, or warnings like avoiding alcohol or QTc prolongation.]
+        3. Key PNF Precautions
+        - [List interactions or warnings]
         """
 
-        # --- GROQ AI RESPONSE ---
         try:
             response = groq_client.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[
-                    {"role": "system", "content": "You are a highly structured clinical AI. You fill in the provided templates exactly as requested without adding conversational filler."},
+                    {"role": "system", "content": "You are a direct Clinical AI. You never echo the prompt. You use only provided web data for medical values."},
                     {"role": "user", "content": prompt}
                 ],
-                temperature=0.1,
+                temperature=0.0,
                 max_tokens=850
             )
             st.markdown("---")
             st.write(response.choices[0].message.content)
+            st.caption("🔍 Source: Live search of pnf.doh.gov.ph")
         except Exception as e:
             st.error(f"Groq Error: {e}")
