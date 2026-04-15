@@ -46,18 +46,6 @@ pnf_context = load_pnf_context()
 st.title("🇵🇭 PNF Clinical Assistant")
 st.markdown("---")
 
-# TEMPORARY DEBUGGING BLOCK
-with st.sidebar:
-    st.markdown("---")
-    st.write("📂 Root Directory:")
-    st.write(os.listdir("."))
-    if os.path.exists("data"):
-        st.write("📁 'data' Folder:")
-        st.write(os.listdir("data"))
-    else:
-        st.error("🚨 'data' folder is completely missing from Railway!")
-
-
 user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Metronidazole + Azithromycin'")
 
 if user_query:
