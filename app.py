@@ -91,12 +91,22 @@ st.markdown("---")
 user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Metronidazole + Azithromycin'")
 
 if user_query:
-    with st.spinner("Analyzing PNF References..."):
+    with st.spinner("Analyzing Full PNF Reference..."):
         is_combo = any(x in user_query.lower() for x in ["+", "and", "&", "interaction", "with", "vs"])
         
-        # BRAVE SEARCH
+        # --- TARGETED PDF SEARCH ---
+        relevant_text = ""
+        if 'all_pnf_pages' in locals() and all_pnf_pages:
+            matched_pages = [p.page_content for p in all_pnf_pages if user_query.lower() in p.page_content.lower()]
+            relevant_text = "\n...\n".join(matched_pages)[:5000]
+            if not relevant_text:
+                relevant_text = "Drug not found in local PDF."
+        else:
+            relevant_text = "Local PNF Manual completely missing."
+
+        # --- BRAVE SEARCH (Targeted to DOH) ---
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
-        params = {"q": f"Philippine National Formulary PNF 8th edition {user_query} protocol", "count": 3}
+        params = {"q": f"site:pnf.doh.gov.ph {user_query}", "count": 3} 
         
         try:
             search_resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
@@ -106,10 +116,10 @@ if user_query:
         except:
             web_context = "Web search unavailable."
 
-        # STRICT TEMPLATED PROMPT
+        # --- STRICT TEMPLATED PROMPT ---
         prompt = f"""
         USER QUERY: {user_query}
-        LOCAL PNF DATA: {pnf_context[:4000]}
+        LOCAL PNF DATA: {relevant_text}
         WEB SEARCH: {web_context}
 
         STRICT INSTRUCTIONS:
@@ -157,13 +167,10 @@ if user_query:
         - [Detail specific drug-drug interactions, overlapping toxicities, or warnings like avoiding alcohol or QTc prolongation.]
         """
 
-
-
-        
-
+        # --- GROQ AI RESPONSE ---
         try:
             response = groq_client.chat.completions.create(
-                model="llama-3.1-8b-instant",
+                model="llama-3.3-70b-versatile",
                 messages=[
                     {"role": "system", "content": "You are a highly structured clinical AI. You fill in the provided templates exactly as requested without adding conversational filler."},
                     {"role": "user", "content": prompt}
@@ -171,6 +178,7 @@ if user_query:
                 temperature=0.1,
                 max_tokens=850
             )
-            st.markdown(response.choices[0].message.content)
+            st.markdown("---")
+            st.write(response.choices[0].message.content)
         except Exception as e:
             st.error(f"Groq Error: {e}")
