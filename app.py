@@ -6,9 +6,17 @@ from groq import Groq
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊")
 
-# 2. API Key Loading (Railway Optimized)
+# 2. API Key Loading
 GROQ_KEY = os.getenv("GROQ_API_KEY")
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
+
+# --- CLINICAL DATA: DOH RESTRICTED ANTIMICROBIALS (AMS) ---
+# Drugs requiring special justification/clearance in PH hospitals
+AMS_RESTRICTED = [
+    "cefepime", "ertapenem", "meropenem", "vancomycin", 
+    "amphotericin b", "voriconazole", "colistin", 
+    "micafungin", "aztreonam", "linezolid", "imipenem", "tigecycline"
+]
 
 with st.sidebar:
     st.header("⚙️ System Status")
@@ -30,81 +38,76 @@ groq_client = Groq(api_key=GROQ_KEY)
 st.title("🇵🇭 PNF Clinical Assistant")
 st.markdown("---")
 
-user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Metronidazole + Azithromycin'")
+user_query = st.text_input("Generic, Brand, or Combination:", placeholder="e.g. 'Ceftriaxone' or 'Merronidazole + Azithromycin'")
 
 if user_query:
     with st.spinner("Consulting Live DOH PNF Site..."):
-        # --- BRAVE SEARCH (Targeted to DOH) ---
+        
+        # --- DUAL-STAGE SEARCH (To fix blank monographs) ---
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
-        # Force Brave to ONLY pull from the official pnf.doh.gov.ph portal
-        params = {"q": f"site:pnf.doh.gov.ph {user_query}", "count": 5} 
+        
+        # Search 1: General Listing
+        q1 = f"site:pnf.doh.gov.ph {user_query}"
+        # Search 2: Specific Monograph Details
+        q2 = f"site:pnf.doh.gov.ph {user_query} indications contraindications dosage"
         
         web_context = ""
         try:
-            search_resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
-            search_data = search_resp.json()
-            results = search_data.get('web', {}).get('results', [])
-            web_context = "\n".join([f"Source: {r.get('url')}\nContent: {r.get('description', '')}" for r in results])
+            for q in [q1, q2]:
+                params = {"q": q, "count": 3}
+                resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
+                results = resp.json().get('web', {}).get('results', [])
+                web_context += "\n".join([r.get('description', '') for r in results])
         except:
             web_context = "Web search unavailable."
 
-        # --- THE "WEB-ONLY" SMART PROMPT ---
+        # --- AMS FLAG LOGIC ---
+        is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
+
+        # --- THE SMART PROMPT ---
         prompt = f"""
         USER QUERY: {user_query}
         WEB SEARCH CONTEXT: {web_context}
 
         STRICT INSTRUCTIONS:
         You are a Clinical Pharmacist. Your job is to summarize information from the Philippine National Formulary (PNF).
-        DO NOT use your pre-trained knowledge for dosages—STRICTLY use the WEB SEARCH CONTEXT provided.
+        DO NOT use pre-trained knowledge for dosages—STRICTLY use the WEB SEARCH CONTEXT.
 
         RULE 0: IF NOT FOUND
-        If the web search contains no specific clinical data for this drug from pnf.doh.gov.ph, output:
-        "Drug not found in official PNF 8th Edition online portal."
+        If the web search contains no specific clinical data, output ONLY: "Drug not found in official PNF 8th Edition online portal."
 
         RULE 1: IF THE QUERY IS A SINGLE DRUG
-        Use this EXACT structure:
+        Follow this EXACT structure:
         
         Based strictly on the PNF 8th Edition online portal, here is the information for [Generic Name]:
 
-        1. Formulary Status
+        {'### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL' if is_restricted else ''}
+        {'> This medicine is listed as a RESTRICTED antimicrobial in the PNF. Use requires institutional AMS clearance and specific clinical justification for PhilHealth reimbursement.' if is_restricted else ''}
+
+        1. **Formulary Status**
         - **Classification:** [Classification from context]
-        - **Available Forms & Strengths:** [List only what is in the search results]
+        - **Available Forms & Strengths:** [List only what is in search results]
 
-        2. Clinical Monograph
-        - **Indications:** [List]
-        - **Contraindications:** [List]
-        - **Selected Dosage:** [List specific doses]
+        2. **Clinical Monograph**
+        - **Indications:** [Summarize indications from context]
+        - **Contraindications:** [Summarize or write 'Not specified' if missing]
+        - **Selected Dosage:** [List specific doses from context]
 
-        Note: [Include one key clinical pearl here]
-
-        RULE 2: IF THE QUERY IS A COMBINATION (e.g., A + B)
-        Use this structure:
-        
-        Based on PNF protocols, here is the clinical context for combining [Drug A] and [Drug B]:
-        
-        1. Clinical Context & Rationale
-        - [Explain the combined protocol or syndromic management]
-        
-        2. Protocol Regimen
-        - **[Drug A]:** [Dose]
-        - **[Drug B]:** [Dose]
-        
-        3. Key PNF Precautions
-        - [List interactions or warnings]
+        *Note: [One key clinical pearl here]*
         """
 
         try:
             response = groq_client.chat.completions.create(
                 model="llama-3.3-70b-versatile",
                 messages=[
-                    {"role": "system", "content": "You are a direct Clinical AI. You never echo the prompt. You use only provided web data for medical values."},
+                    {"role": "system", "content": "You are a clinical assistant. You provide structured, accurate medical summaries based ONLY on provided text."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.0,
-                max_tokens=850
+                max_tokens=1000
             )
             st.markdown("---")
             st.write(response.choices[0].message.content)
-            st.caption("🔍 Source: Live search of pnf.doh.gov.ph")
+            st.caption("🔍 Data sourced live from pnf.doh.gov.ph")
         except Exception as e:
             st.error(f"Groq Error: {e}")
