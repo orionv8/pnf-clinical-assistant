@@ -1,14 +1,13 @@
 import streamlit as st
 import os
-import requests
 from groq import Groq
+from langchain_community.document_loaders import PyPDFLoader
 
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊")
 
-# 2. API Key Loading
+# 2. API Key Loading (Brave removed, Groq kept)
 GROQ_KEY = os.getenv("GROQ_API_KEY")
-BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
 # --- CLINICAL DATA: DOH RESTRICTED ANTIMICROBIALS (AMS) ---
 AMS_RESTRICTED = [
@@ -19,19 +18,35 @@ AMS_RESTRICTED = [
 
 with st.sidebar:
     st.header("⚙️ System Status")
-    if not GROQ_KEY or not BRAVE_KEY:
-        st.error("Keys missing in Railway Variables")
+    if not GROQ_KEY:
+        st.error("Groq Key missing in Railway Variables")
         GROQ_KEY = st.text_input("Manual Groq API Key", value=GROQ_KEY if GROQ_KEY else "", type="password")
-        BRAVE_KEY = st.text_input("Manual Brave API Key", value=BRAVE_KEY if BRAVE_KEY else "", type="password")
     else:
         st.success("✅ PNF Engine Connected")
 
-if not (GROQ_KEY and BRAVE_KEY):
-    st.info("Awaiting API Keys to initialize...")
+if not GROQ_KEY:
+    st.info("Awaiting API Key to initialize...")
     st.stop()
 
 # 3. Initialize Groq
 groq_client = Groq(api_key=GROQ_KEY)
+
+# --- PDF DATA LOADER (Loads ALL PDFs in the data folder) ---
+@st.cache_resource
+def load_all_pdfs():
+    all_pages = []
+    data_dir = "data"
+    if os.path.exists(data_dir):
+        for filename in os.listdir(data_dir):
+            if filename.lower().endswith(".pdf"):
+                try:
+                    loader = PyPDFLoader(os.path.join(data_dir, filename))
+                    all_pages.extend(loader.load())
+                except Exception as e:
+                    pass
+    return all_pages
+
+all_pnf_pages = load_all_pdfs()
 
 # 4. Clinical UI
 st.title("🇵🇭 PNF Clinical Assistant")
@@ -40,7 +55,7 @@ st.markdown("---")
 user_query = st.text_input("Enter Drug(s):", placeholder="e.g. 'Ceftriaxone' or 'Amoxicillin + Clavulanic Acid'")
 
 if user_query:
-    with st.spinner("Searching DOH Portal..."):
+    with st.spinner("Scanning Local PDFs..."):
         
         # Clean the query so the search engine doesn't get confused by questions
         clean_query = user_query.lower().replace("what is", "").replace("the dose of", "").replace("for", "").replace("?", "").strip()
@@ -49,25 +64,34 @@ if user_query:
         is_combo = any(x in clean_query for x in ["+", "and", "&", "vs", ","])
         is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED)
 
-        # --- BRAVE SEARCH ---
-        headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
+        # --- SMART TARGETED PDF SEARCH ---
+        relevant_text = ""
+        matched_count = 0
         
-        # WIDENED SEARCH: Broadens the net for all drugs to prevent blank results
-        if is_restricted:
-            search_term = f"Philippine National Formulary {clean_query} monograph dosage"
-        else:
-            search_term = f"Philippine National Formulary DOH {clean_query} indications dosage"
+        if 'all_pnf_pages' in locals() and all_pnf_pages:
+            search_terms = [t.strip().lower() for t in clean_query.replace("+", ",").replace("and", ",").replace("&", ",").split(",") if len(t.strip()) > 2]
             
-        params = {"q": search_term, "count": 5}
-        
-        web_context = ""
-        try:
-            resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
-            results = resp.json().get('web', {}).get('results', [])
-            for r in results:
-                web_context += f"\nSource: {r.get('title')}\nContent: {r.get('description', '')}\n"
-        except:
-            web_context = "Web search unavailable."
+            matched_pages = []
+            for p in all_pnf_pages:
+                content_lower = p.page_content.lower()
+                if any(term in content_lower for term in search_terms):
+                    matched_pages.append(p.page_content)
+            
+            matched_count = len(matched_pages)
+            
+            best_pages = []
+            for page in matched_pages:
+                if "indication" in page.lower() or "dosage" in page.lower() or "contraindication" in page.lower():
+                    best_pages.insert(0, page) 
+                else:
+                    best_pages.append(page)
+                    
+            relevant_text = "\n...\n".join(best_pages)[:8000]
+            if not relevant_text:
+                relevant_text = "Drug not found in local PDFs."
+        else:
+            relevant_text = "Local PNF Manuals completely missing. Please upload PDFs to the 'data' folder."
+
 
         # --- DYNAMIC PROMPT INSTRUCTIONS ---
         if is_combo:
@@ -106,12 +130,12 @@ if user_query:
 
         prompt = f"""
         USER QUERY: {clean_query}
-        WEB SEARCH CONTEXT: {web_context}
+        LOCAL PDF CONTEXT: {relevant_text}
 
         STRICT INSTRUCTIONS:
         You are a Clinical Pharmacist. 
-        If the WEB SEARCH CONTEXT contains no clinical data, output ONLY: "Drug not found in official PNF portal."
-        DO NOT invent dosages. STRICTLY use the WEB SEARCH CONTEXT.
+        If the LOCAL PDF CONTEXT contains no clinical data, output ONLY: "Drug not found in official PNF portal."
+        DO NOT invent dosages. STRICTLY use the LOCAL PDF CONTEXT.
         
         {template_instruction}
         """
@@ -132,9 +156,9 @@ if user_query:
             
             # --- THE DIAGNOSTIC VIEWER ---
             with st.expander("👀 See what the bot searched (Debug Viewer)"):
-                st.caption(f"**Exact text sent to Brave Search:** `{search_term}`")
-                st.caption("**Raw Data retrieved from DOH:**")
-                st.write(web_context if web_context else "No data returned from search engine.")
+                st.caption(f"**PDF Pages Matched:** `{matched_count}`")
+                st.caption("**Raw Text extracted from PDFs:**")
+                st.write(relevant_text if relevant_text else "No text extracted from local PDFs.")
                 
         except Exception as e:
             st.error(f"Groq Error: {e}")
