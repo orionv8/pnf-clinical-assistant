@@ -120,7 +120,7 @@ if user_query:
             best_pages = [page["text"] for page in scored_pages]
             
             # 20,000 character limit for deep reading
-            relevant_text = "\n...\n".join(best_pages)[:20000]
+            relevant_text = "\n...\n".join(best_pages)[:10000]
             if not relevant_text:
                 relevant_text = "[No data found in local Index]"
         else:
@@ -191,7 +191,7 @@ if user_query:
         # --- GROQ AI RESPONSE ---
         try:
             response = groq_client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="llama-3.1-8b-instant",
                 messages=[
                     {"role": "system", "content": "You are a clinical AI. You strictly separate web data (brand translation only) from local index data (clinical facts). You never invent dosages."},
                     {"role": "user", "content": prompt}
