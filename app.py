@@ -19,6 +19,12 @@ AMS_RESTRICTED = [
     "micafungin", "aztreonam", "linezolid", "imipenem", "tigecycline"
 ]
 
+# --- SOURCE NAME MAPPER ---
+SOURCE_MAP = {
+    "PNF-EML_8th.pdf": "Philippine National Formulary - Essential Medicines List (8th Ed.)",
+    "PNF-Manual-for-Primary-Healthcare_8th.pdf": "Philippine National Formulary - Primary Healthcare Manual (8th Ed.)"
+}
+
 with st.sidebar:
     st.header("⚙️ System Status")
     if not GROQ_KEY or not BRAVE_KEY:
@@ -26,7 +32,7 @@ with st.sidebar:
         GROQ_KEY = st.text_input("Manual Groq API Key", value=GROQ_KEY if GROQ_KEY else "", type="password")
         BRAVE_KEY = st.text_input("Manual Brave API Key", value=BRAVE_KEY if BRAVE_KEY else "", type="password")
     else:
-        st.success("✅ Sequential PNF Engine Connected")
+        st.success("✅ Hybrid Sequential Engine Connected")
 
 if not (GROQ_KEY and BRAVE_KEY):
     st.info("Awaiting API Keys to initialize...")
@@ -73,7 +79,8 @@ def search_local_index(query, index_data):
             if any(x in content_lower for x in ["indication", "dosage", "contraindication", "interaction"]):
                 boost += 2
                 
-            tagged_text = f"[SOURCE: {p['source']}]\n{p['text']}"
+            readable_source = SOURCE_MAP.get(p['source'], p['source'])
+            tagged_text = f"[SOURCE: {readable_source}]\n{p['text']}"
             scored_pages.append({"text": tagged_text, "score": term_count * boost})
             
     scored_pages.sort(key=lambda x: x["score"], reverse=True)
@@ -84,10 +91,10 @@ def search_local_index(query, index_data):
 st.title("🇵🇭 PNF Clinical Assistant")
 st.markdown("---")
 
-user_query = st.text_input("Enter Drug(s) or Ask a Question:", placeholder="e.g. 'Furosemide', 'Biogesic', or 'Can I combine Metronidazole and Azithromycin?'")
+user_query = st.text_input("Enter Drug(s) or Ask a Question:", placeholder="e.g. 'Furosemide', 'Biogesic', or 'Metronidazole and Azithromycin?'")
 
 if user_query:
-    with st.spinner("Scanning Local PNF Index..."):
+    with st.spinner("Scanning PNF Index & Medical Web..."):
         
         clean_query = user_query.lower().strip()
         is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED)
@@ -102,85 +109,80 @@ if user_query:
 
         scored_pages, active_search_terms = search_local_index(clean_query, all_pnf_pages)
         
-        web_context = "[Web Search Bypassed - Local Matches Found]"
+        # Format Local Text (Capped at 3500 chars to save tokens)
+        best_pages = [page["text"] for page in scored_pages]
+        relevant_text = "\n...\n".join(best_pages)[:3500] 
+        if not relevant_text:
+            relevant_text = "[No data found in local PNF Index]"
+
+        # --- PHASE 2: THE WEB FALLBACK (Brand Translation OR Missing Clinical Data) ---
+        web_context = ""
         
-        # --- PHASE 2 & 3: THE WEB RESCUE (BRAND NAME TRANSLATION) ---
-        if len(scored_pages) == 0:
-            st.info("No local matches found. Checking web for brand name equivalent...")
-            
+        # We search the web if there are 0 local hits (brand name) OR if it's a complex question (interactions)
+        if len(scored_pages) == 0 or is_complex:
             headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
             search_query_string = " ".join(active_search_terms)
-            params = {"q": f"{search_query_string} generic name medicine philippines", "count": 2}
+            
+            # If 0 hits, it's likely a brand name. If complex, look for interactions.
+            if len(scored_pages) == 0:
+                params = {"q": f"{search_query_string} generic name medicine philippines", "count": 2}
+            else:
+                params = {"q": f"{search_query_string} drug interactions clinical guidelines", "count": 3}
             
             try:
                 resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
                 results = resp.json().get('web', {}).get('results', [])
-                raw_web_text = " ".join([r.get('description', '') for r in results])[:800]
                 
-                # Micro-AI Call: Extract Generic Name ONLY
-                trans_prompt = f"Read this web search snippet and reply with ONLY the generic drug name. Do not write anything else. Snippet: {raw_web_text}"
-                trans_response = groq_client.chat.completions.create(
-                    model="llama-3.1-8b-instant",
-                    messages=[{"role": "user", "content": trans_prompt}],
-                    temperature=0.0,
-                    max_tokens=20
-                )
-                
-                generic_name = trans_response.choices[0].message.content.strip().lower()
-                web_context = f"Identified Brand Name. Translating '{search_query_string}' to Generic: {generic_name.title()}"
-                
-                # RE-ROUTE: Search the Local Index again using the new Generic Name!
-                scored_pages, _ = search_local_index(generic_name, all_pnf_pages)
+                for r in results:
+                    web_context += f"[SOURCE: {r.get('url', 'Web Article')}]\nContent: {r.get('description', '')}\n\n"
+                    
+                # Strict Web Cap: 1500 chars to prevent Token Limit 413 Error
+                web_context = web_context[:1500]
                 
             except Exception as e:
-                web_context = "[Web search failed or no generic found]"
+                web_context = "[Web search unavailable]"
+        else:
+            web_context = "[Web Search Bypassed - Sufficient Local Data Found]"
 
-        # --- PREPARE FINAL CONTEXT ---
-        best_pages = [page["text"] for page in scored_pages]
-        relevant_text = "\n...\n".join(best_pages)[:5000] # Kept at 5000 to protect your Token Limits
-        
-        if not relevant_text:
-            relevant_text = "[No data found in local Index, even after brand translation]"
 
         # --- DYNAMIC PROMPT INSTRUCTIONS ---
         if is_complex:
             template_instruction = """
             This is a COMPLEX QUERY (Combination, Interaction, or General Question).
             Provide a highly professional, comprehensive clinical answer structured with clear Markdown headings (e.g., Clinical Context, Interactions, Precautions). 
-            Base your entire answer ONLY on the LOCAL PDF INDEX provided.
             """
         else:
             template_instruction = f"""
             This is a SINGLE DRUG query. You MUST use this EXACT structure:
             
-            Based strictly on the PNF references, here is the information for {clean_query.title()}:
+            Based on the references, here is the information for {clean_query.title()}:
 
             {'### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL' if is_restricted else ''}
             {'> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.' if is_restricted else ''}
 
-            1. **Formulary Status (Source: PNF-EML)**
+            1. **Formulary Status**
             - **Classification:** [Classification]
             - **Available Forms & Strengths:** [List forms found in context]
 
-            2. **Clinical Monograph (Source: PNF Primary Healthcare Manual)**
+            2. **Clinical Monograph**
             - **Indications:** [List indications]
             - **Contraindications:** [List or write 'Not specified']
             - **Selected Dosage:** [List specific doses]
-            - **Key Interactions:** [Briefly list major interactions if found]
             """
 
         prompt = f"""
         USER QUERY: {clean_query}
         
-        WEB CONTEXT (Translation Status): {web_context}
-        
-        LOCAL PDF INDEX (Clinical Facts): 
+        DATA SOURCE 1 - LOCAL PNF INDEX (Primary Authority): 
         {relevant_text}
         
+        DATA SOURCE 2 - WEB MEDICAL CONTEXT (Fallback Data):
+        {web_context}
+        
         STRICT ARCHITECTURAL RULES:
-        1. ALL clinical data, interactions, and formulary statuses MUST be extracted from the LOCAL PDF INDEX.
-        2. Prioritize data tagged with [SOURCE: PNF-EML] for strengths and classifications. Prioritize [SOURCE: PNF-Manual] for dosages and interactions.
-        3. If the LOCAL PDF INDEX says "[No data found]", output ONLY: "Drug or clinical information not found in official PNF indexed references." Do not invent an answer.
+        1. Prioritize DATA SOURCE 1 for all base facts. Use DATA SOURCE 2 to fill in any missing gaps (especially for drug interactions or translating brand names).
+        2. Never invent dosages. If neither source has the answer, state that the information is unavailable.
+        3. AT THE VERY BOTTOM of your response, add a section called "### References". List all the specific sources you used (e.g., "Philippine National Formulary - Primary Healthcare Manual (8th Ed.)" and any specific Web URLs provided in the source brackets).
         
         {template_instruction}
         """
@@ -190,18 +192,13 @@ if user_query:
             response = groq_client.chat.completions.create(
                 model="llama-3.1-8b-instant",
                 messages=[
-                    {"role": "system", "content": "You are a clinical AI. You never invent dosages and rely exclusively on the local index."},
+                    {"role": "system", "content": "You are a clinical AI. You format references clearly at the bottom of your output."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.0,
                 max_tokens=850
             )
             st.markdown("---")
-            
-            # If the web rescue was used, add a small disclaimer at the top
-            if "Translating" in web_context:
-                st.info(f"🔄 **Brand Translation:** {web_context}")
-                
             st.write(response.choices[0].message.content)
             
         except Exception as e:
