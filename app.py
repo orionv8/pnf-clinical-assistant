@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import requests
 import json
+import re
 from groq import Groq
 from langchain_community.document_loaders import PyPDFLoader
 
@@ -53,7 +54,6 @@ def load_or_build_index():
                     loader = PyPDFLoader(os.path.join(data_dir, filename))
                     docs = loader.load()
                     for doc in docs:
-                        # Tag each page with its source file for prioritization later
                         all_pages.append({"text": doc.page_content, "source": filename})
                 except Exception as e:
                     pass
@@ -70,7 +70,7 @@ all_pnf_pages = load_or_build_index()
 st.title("🇵🇭 PNF Clinical Assistant")
 st.markdown("---")
 
-user_query = st.text_input("Enter Drug(s) or Ask a Clinical Question:", placeholder="e.g. 'Furosemide', 'Biogesic', or 'Interactions of Salbutamol'")
+user_query = st.text_input("Enter Drug(s) or Ask a Clinical Question:", placeholder="e.g. 'Furosemide', 'Biogesic', or 'Can I combine Metronidazole and Azithromycin?'")
 
 if user_query:
     with st.spinner("Scanning PNF Index & Guidelines..."):
@@ -79,15 +79,24 @@ if user_query:
         is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED)
         
         # Detect if it's a simple single drug lookup or a complex question/combo
-        is_complex = any(x in clean_query for x in ["+", "and", "&", "vs", ",", "interaction", "what", "how", "why"])
+        complex_triggers = ["+", "and", "&", "vs", ",", "interaction", "what", "how", "why", "can", "use of", "dose of", "safe"]
+        is_complex = any(x in clean_query for x in complex_triggers)
 
         # --- SMART SCORED INDEX SEARCH (EML Priority) ---
         relevant_text = ""
         
         if all_pnf_pages:
-            # Strip common question words for better index matching
-            search_keywords = clean_query.replace("what are", "").replace("the interactions of", "").replace("between", "").replace("+", ",").replace("and", ",").replace("&", ",")
-            search_terms = [t.strip().lower() for t in search_keywords.split(",") if len(t.strip()) > 2]
+            # 1. Strip punctuation from the query
+            text_no_punct = re.sub(r'[^\w\s]', ' ', clean_query)
+            raw_words = text_no_punct.split()
+            
+            # 2. Filter out conversational words so only clinical keywords remain
+            stop_words = {"what", "is", "the", "use", "of", "can", "i", "combine", "and", "vs", "or", "with", "how", "much", "dose", "dosage", "tell", "me", "about", "are", "interactions", "between", "for", "a", "an", "to", "in", "on", "does", "have", "it", "safe", "will"}
+            search_terms = [w for w in raw_words if w not in stop_words and len(w) > 2]
+            
+            # Fallback just in case they only typed stop words somehow
+            if not search_terms:
+                search_terms = [w for w in raw_words if len(w) > 2]
             
             scored_pages = []
             for p in all_pnf_pages:
@@ -119,8 +128,9 @@ if user_query:
 
         # --- BRAVE SEARCH (BRAND TRANSLATION ONLY) ---
         headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
-        # Severely restrict the search to just finding the generic equivalent
-        search_term = f"{clean_query} generic name medicine philippines"
+        # Safely rebuild the search term without punctuation
+        brand_search_query = " ".join(raw_words)
+        search_term = f"{brand_search_query} generic name medicine philippines"
         params = {"q": search_term, "count": 2}
         
         web_context = ""
