@@ -32,7 +32,7 @@ with st.sidebar:
         GROQ_KEY = st.text_input("Manual Groq API Key", value=GROQ_KEY if GROQ_KEY else "", type="password")
         BRAVE_KEY = st.text_input("Manual Brave API Key", value=BRAVE_KEY if BRAVE_KEY else "", type="password")
     else:
-        st.success("✅ Hybrid Sequential Engine Connected")
+        st.success("✅ PNF Clinical Assistant Online")
 
 if not (GROQ_KEY and BRAVE_KEY):
     st.info("Awaiting API Keys to initialize...")
@@ -142,7 +142,8 @@ if user_query:
             except Exception as e:
                 web_context = "[Web search unavailable]"
         else:
-            web_context = "[Web Search Bypassed - Sufficient Local Data Found]"
+            # Leave this completely empty so the AI doesn't cite "Search Bypassed" in its references
+            web_context = "" 
 
 
         # --- DYNAMIC PROMPT INSTRUCTIONS ---
@@ -155,7 +156,7 @@ if user_query:
             template_instruction = f"""
             This is a SINGLE DRUG query. You MUST use this EXACT structure:
             
-            Based on the references, here is the information for {clean_query.title()}:
+            Based on the references, here is the information for [Insert Generic Name Here] (if the user queried a brand name, add the brand name in parentheses here, e.g. "Paracetamol (Biogesic)"):
 
             {'### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL' if is_restricted else ''}
             {'> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.' if is_restricted else ''}
@@ -182,7 +183,7 @@ if user_query:
         STRICT ARCHITECTURAL RULES:
         1. Prioritize DATA SOURCE 1 for all base facts. Use DATA SOURCE 2 to fill in any missing gaps (especially for drug interactions or translating brand names).
         2. Never invent dosages. If neither source has the answer, state that the information is unavailable.
-        3. AT THE VERY BOTTOM of your response, add a section called "### References". List all the specific sources you used (e.g., "Philippine National Formulary - Primary Healthcare Manual (8th Ed.)" and any specific Web URLs provided in the source brackets).
+        3. AT THE VERY BOTTOM of your response, add a section called "### References". List all the specific sources you used (e.g., "Philippine National Formulary - Primary Healthcare Manual (8th Ed.)" and any specific Web URLs provided in the source brackets). DO NOT cite "Fallback Data" or internal system text as a reference.
         
         {template_instruction}
         """
@@ -203,3 +204,8 @@ if user_query:
             
         except Exception as e:
             st.error(f"Groq Error: {e}")
+
+# --- FOOTER & DISCLAIMER ---
+st.markdown("---")
+st.caption("ℹ️ **About PNF Clinical Assistant:** This tool sources its information directly from the Philippine National Formulary (PNF) Essential Medicines List and Primary Healthcare Manual, supplemented by web searches for brand-to-generic translations and complex interactions.")
+st.caption("⚠️ **Disclaimer:** While we strive for accuracy and up-to-date information, this tool is for quick reference only and may occasionally miss details. Always verify dosages and critical protocols directly with the official [DOH PNF Website](https://pnf.doh.gov.ph/) or your institutional guidelines if in doubt.")
