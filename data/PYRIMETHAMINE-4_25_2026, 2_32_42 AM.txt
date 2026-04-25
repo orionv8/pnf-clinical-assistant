@@ -1,0 +1,107 @@
+﻿April 25, 2026, 2:32:44 AM - https://pnf.doh.gov.ph
+
+PYRIMETHAMINE
+
+Drug Classification
+
+ATC CODE
+
+Not available
+
+ANATOMICAL
+
+Antiparasitic Products, Insecticides, and Repellents
+
+THERAPEUTIC
+
+Antiprotozoals
+
+PHARMACOLOGICAL
+
+Antimalarials
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 25 mg tablet (Rx)
+
+ORAL › 75 mg tablet (Rx)
+
+Dosage
+
+ORAL › 25 mg tablet (Rx)
+
+Toxoplasmosis treatment (in combination with a sulfonamide and leucovorin calcium), by mouth, ADULT, 50–75 mg
+daily for 1–3 weeks depending on patient's tolerance and response, then dose may be reduced by 50% and
+continue for 4–5 weeks, with 1–4 g sulfadiazine daily; CHILD, initially 1 mg/kg daily divided into 2 equal daily doses
+for 2 to 4 days, may decrease dose to 0.5 mg/kg daily divided into 2 doses for 4 weeks, with usual pediatric dose of
+sulfadiazine.
+
+Administration
+
+ORAL › 25 mg tablet (Rx)
+
+Administer with meals to minimize GI distress.
+
+Indications
+
+A diaminopyrimidine that inhibits parasitic dihydrofolate reductase, resulting in inhibition of vital tetrahydrofolic acid
+synthesis. It is active against pre-erythrocytic forms and is also a slow-acting schizontocide.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:32:44 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Megaloblastic anemia secondary to folate deficiency; pregnancy; lactation
+
+Precautions
+
+Hematologic effects (most commonly with high doses; monitor CBC and platelets twice weekly in high-dose therapy);
+Folate deficiency (use with caution); G6PD deficiency (use with caution); renal impairment; hepatic impairment;
+Seizure disorders (use with caution).
+Pregnancy (adverse events have been observed in animal reproduction studies; supplementation of folate is
+strongly recommended); lactation (excreted in breast milk; may result in significant systemic concentrations in
+breastfed infants).
+
+Adverse Drug Reactions
+
+Arrhythmias (large doses), rash, anorexia, atrophic glossitis, vomiting, leukopenia, megaloblastic anemia,
+pancytopenia, pulmonary eosinophilia, thrombocytopenia, hematuria, anaphylaxis
+Potentially Fatal: Cutaneous reactions (e.g., erythema multiforme, Stevens-Johnson syndrome, toxic epidermal
+necrolysis (with sulfadoxine at large doses)
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of the following drugs: Bone marrow suppression: Proguanil, Sulfonamides
+e.g. Co-trimoxazole, Zidovudine, Cytostatic Agents Co-trimoxazole (pancytopenia; megaloblastic anemia),
+Lorazepam (hepatotoxicity)
+
+Reduces therapeutic effect of Pyrimethamine: Methylfolate
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Pyrimethamine: Artemether
+
+Increases risk of adverse or toxic effects of the following drugs: Dapsone (hemolytic reactions), Lumefantrine
+
+Mechanism of Action
+
+A diaminopyrimidine that inhibits parasitic dihydrofolate reductase, resulting in inhibition of vital tetrahydrofolic acid
+synthesis. It is active against pre-erythrocytic forms and is also a slow-acting schizontocide.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:32:44 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

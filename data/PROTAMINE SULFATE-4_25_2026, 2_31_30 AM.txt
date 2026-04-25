@@ -1,0 +1,120 @@
+﻿April 25, 2026, 2:31:31 AM - https://pnf.doh.gov.ph
+
+PROTAMINE SULFATE
+
+Drug Classification
+
+ATC CODE
+
+V03AB14
+
+ANATOMICAL
+
+Various
+
+THERAPEUTIC
+
+All Other Therapeutic Products
+
+PHARMACOLOGICAL
+
+Specific Antidotes
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 10 mg/mL, 5 mL ampule (Rx)
+
+IV › 10 mg/mL, 25 mL ampule (Rx)
+
+Dosage
+
+IV › 10 mg/mL, 5 mL ampule (Rx)
+
+NOTE: Individualize doses based on administered heparin, its route of administration, time elapsed since heparin
+administration, and blood coagulation studies. Each mg of protamine, calculated on the dried basis, neutralizes
+not less than 100 USP heparin units. Dosing should be guided by blood coagulation studies. Since heparin
+disappears rapidly from circulation, protamine dose should also decrease with time elapsed following heparin
+administration. Heparin overdose (heparin administered via IV injection), by IV injection, ADULT, administer at ≤5
+mg/minute (maximum, 50 mg/dose); a few minutes after heparin administration, 1 mg for every 100 U of heparin;
+30–60 minutes after heparin administration, 0.5–0.75 mg for every 100 U of heparin; ≥2 hours after heparin
+administration, 0.25 to 0.375 mg for every 100 U of heparin. Heparin overdose (heparin administered via IV
+infusion), by IV injection, ADULT, 25–50 mg after stopping heparin administration. Heparin overdose (heparin
+administered via SQ injection), by IV injection, ADULT, 1–1.5 mg for every 100 U ofheparin; or 25–50 mg loading dose
+via slow IV injection, and the remaining dose via continuous IV infusion over 8–16 hours, or the expected duration
+of heparin absorption. Enoxaparin overdose, by IV infusion, ADULT, if ≤8 hours since administration, 1 mg for every
+1 mg of enoxaparin; if >8 hours since administration, 0.5 mg for every 1 mg of enoxaparin. Dalteparin overdose, by IV
+infusion, ADULT, 1 mg for every 100 anti-Xa U of dalteparin; if aPTT remains prolonged 2–4 hours after first
+infusion, administer a second infusion.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:31:31 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IV › 10 mg/mL, 5 mL ampule (Rx)
+
+For IV use only. Administer undiluted via very slow IV injection over a 10- minute period in doses not exceeding 50
+mg. If further dilution is desired, dilute using D5W or NS. Do NOT store diluted solutions. Inspect visually for
+particulate matter and discoloration prior to administration.
+
+Indications
+
+Treatment of heparin overdose
+
+Contraindications
+
+Known drug intolerance
+
+Precautions
+
+WARNING:
+Can cause severe hypotension, cardiovascular collapse, noncardiogenic pulmonary edema, catastrophic pulmonary
+vasoconstriction, and pulmonary hypertension.
+Vasopressors and resuscitation equipment should be immediately available in case of a severe reaction to
+protamine.
+
+Should NOT be given when bleeding occurs without prior heparin use.
+
+Hyperheparinemia or bleeding has been reported 30 minutes - 18 hours after cardiac surgery. Keep patient under
+close observation after cardiac surgery.
+
+Do NOT administer more than 50 mg over a short period unless a larger dose is clearly needed.
+Hypersensitivity;
+Children;
+Lactation.
+
+Adverse Drug Reactions
+
+Common: Bradycardia, hypotension, flushing (transient),
+feeling of warmth, dyspnea, nausea, vomiting, lassitude,
+back pain, anaphylaxis or anaphylactoid reactions
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:31:31 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Avoid concomitant use with:
+Incompatible with the following products:
+Antibiotics, e.g., Cephalosporins, Penicillins
+
+Mechanism of Action
+
+Simple proteins of low molecular weight that are rich in
+arginine and strongly basic. Forms a stable salt with
+heparin (strongly acidic) to inhibit the anticoagulant
+activity of both drugs.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

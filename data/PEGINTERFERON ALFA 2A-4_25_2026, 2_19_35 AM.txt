@@ -1,0 +1,244 @@
+﻿April 25, 2026, 2:19:36 AM - https://pnf.doh.gov.ph
+
+PEGINTERFERON ALFA 2A
+
+Drug Classification
+
+ATC CODE
+
+L03AB11
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunostimulants
+
+PHARMACOLOGICAL
+
+Interferons
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+SC › 135 micrograms/0.5 mL pre-filled syringe (SC) (Rx)
+
+Dosage
+
+SC › 135 micrograms/0.5 mL pre-filled syringe (SC) (Rx)
+
+Chronic hepatitis C, mono-infection or co-infection with HIV, by SC injection, ADULT, as monotherapy or in
+combination with ribavirin, 180 micrograms once weekly for 48 weeks; Duration of combination therapy for mono-
+infection based on genotype: Genotypes 1 and 2, Refer to the individual HCV antiviral agents Genotype 3, 24 weeks
+(peginterferon + ribavirin without other HCV antiviral drugs) Genotype 4, 48 weeks (peginterferon + ribavirin
+without other HCV antiviral drugs) Genotypes 5 and 6, No dosing recommendations Co-infection with HIV, 48 weeks
+regardless of HCV genotype (without other HCV antiviral drugs) NOTE: Discontinue in patients with HCV (genotype
+1) after 12 weeks if HCV RNA does not decrease by at least 2 log (compared to pretreatment) or if detectable HCV
+RNA is present at 24 weeks. When used in combination with other antiviral drugs, refer to individual agents for
+duration of therapy. Chronic hepatitis C, by SC injection, ADOLESCENT and CHILD =5 years, with ribavirin, 180
+micrograms/1.73 m2 x body surface area (BSA) once weekly (maximum dose, 180 micrograms); Duration of therapy
+based on genotype: Genotypes 1, 4, 5, and 6, 48 weeks Genotype 2 and 3, 24 weeks NOTE: Children who reach their
+18th birthday during treatment should remain on the pediatric regimen until completion of therapy. Chronic
+hepatitis B, by SC injection, 180 micrograms once weekly for 48 weeks.
+
+Administration
+
+SC › 135 micrograms/0.5 mL pre-filled syringe (SC) (Rx)
+
+For SC administration, administer in the abdomen or thigh. Rotate injection site. Administer on the same day and
+at approximately the same time each week. NOTE: Due to differences in dosage, do NOT change brands of
+interferons without the concurrence of healthcare provider.
+
+Page 1 of 6
+
+
+
+April 25, 2026, 2:19:36 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+For patients with CrCl <30 mL/minute, 135 micrograms once weekly and monitor for toxicity.
+For patients with end-stage renal disease (ESRD) requiring hemodialysis, 135 mcg once weekly and monitor for
+toxicity. If severe adverse reactions or laboratory abnormalities occur, reduce dose to 90 micrograms once weekly
+until adverse reactions resolve. If intolerance persists after dose adjustment, discontinue.
+
+Hepatic Impairment:
+For HCV or HBV in adult patients with ALT progressively rising above baseline, decrease dose to 135 micrograms once
+weekly or temporarily discontinue. Monitor transaminases more frequently. If ALT continues to rise despite dose
+reduction or ALT increase is accompanied by increased bilirubin or hepatic decompensation, discontinue therapy
+immediately. Resume therapy after ALT flare subsides.
+For HCV in children with ALT =5 but <10 x ULN, decrease interferon dose to 135 micrograms per 1.73 m2 x BSA once
+weekly. Monitor weekly. Further modify dose if needed until ALT stabilizes or decreases. For persistent ALT =10 x
+ULN, discontinue treatment.
+
+Toxicity:
+For HCV in adolescents and children =5 years with moderate-to severe adverse reactions, initially decrease to 135
+micrograms/1.73 m2 x BSA once weekly. Further reduce dose to 90 micrograms/1.73 m2 x BSA once weekly; or 45
+micrograms/1.73 m2 x BSA once weekly if reaction persists or recurs.
+
+Based on hematologic parameters:
+If ANC 750–999/mm3, week 1 to 2, 135 micrograms per 1.73 m2 x BSA once weekly; weeks 3 to 48, no modification.
+If ANC 500–749/mm3, week 1 to 2, delay or hold dose until ANC >750/mm3 then resume dose with 135 micrograms/1.73
+m2 x BSA once weekly. Assess WBC weekly for 3 weeks to verify ANC >750/mm3; weeks 3 to 48, 135 micrograms per
+1.73 m2 x BSA once weekly.
+If ANC 250 to 499/mm3, week 1 to 2, delay or hold dose until ANC >750/mm3 then resume dose with 90
+micrograms/1.73 m2 x BSA once weekly; weeks 3 to 48, delay or hold dose until ANC >750/mm3 then resume dose
+with 135 micrograms/1.73 m2 x BSA once weekly.
+If ANC <250/mm3 or in febrile neutropenia, discontinue treatment.
+If platelet count <50,000/mm3, 90 micrograms/1.73 m2 x BSA once weekly.
+
+For HCV / HBV in adults with moderate-to-severe adverse reactions, decrease to 135 micrograms weekly for initial
+dose reduction. Further dose reductions to 90 micrograms weekly may be necessary in some cases if reaction
+persists or recurs.
+
+Based on hematologic parameters:
+If ANC <750/mm3, 135 micrograms once weekly.
+If ANC <500/mm3, suspend therapy until ANC >1,000/mm3, then restart at 90 micrograms once weekly.
+If platelet count <50,000/mm3, 90 micrograms once weekly.
+If platelet count <25,000/mm3, discontinue therapy.
+
+Page 2 of 6
+
+
+
+April 25, 2026, 2:19:36 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Management of HBeAg positive and negative in adults, chronic hepatitis B virus (HBV) infection who have
+compensated liver disease and evidence of viral replication and liver inflammation; Management of chronic hepatitis
+C (CHC) with compensated liver disease in adults; Treatment of pediatric patients =5 years with CHC and
+compensated liver disease; management of chronic hepatitis C in compensated liver disease, in patients with
+contraindications, or in significant intolerance to other HCV antiviral drugs
+
+NOTE: NOT for the treatment of chronic HCV who previously failed therapy with an interferon alfa. NOT for treatment
+of CHC who have had solid organ transplantation.
+
+Page 3 of 6
+
+
+
+April 25, 2026, 2:19:36 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Autoimmune hepatitis; hepatic decompensation in cirrhotic patients (Child-Pugh score >6, class B and C) before
+treatment; hepatic decompensation with Child-Pugh score =6 in cirrhotic CHC coinfected with HIV before treatment;
+neonates and infants (due to benzyl alcohol component); pregnancy; men whose female partners are pregnant
+
+Precautions
+
+WARNING: Peginterferon alfa-2a may cause or aggravate fatal or life-threatening neuropsychiatric, autoimmune,
+ischemic, and infectious disorders. Withdraw therapy in patients with persistently severe or worsening signs or
+symptoms of these conditions. Use with caution in the elderly. Certain adverse effects (e.g., neuropsychiatric,
+cardiac, flu-like reactions) may be more severe.
+
+Autoimmune disease (e.g. thyroiditis, thrombotic thrombocytopenic purpura, idiopathic thrombocytopenic purpura,
+rheumatoid arthritis, interstitial nephritis, systemic lupus erythematosus, myositis, hepatitis, and psoriasis)
+
+Hypersensitivity reactions
+
+Bone marrow suppression (e.g. severe cytopenias and aplastic anemia)
+
+Infectious disorders (interferon therapy is commonly associated with flu-like symptoms, including fever)
+
+Cardiovascular disease (hypertension, chest pain, MI, and supraventricular arrhythmias)
+
+Pulmonary effects (may cause or aggravate dyspnea, pulmonary infiltrates, pneumonia, bronchiolitis obliterans,
+interstitial pneumonitis, pulmonary hypertension, and sarcoidosis, which may result in potentially fatal respiratory
+failure)
+
+CNS depression
+
+Ischemic disorders (reported in patients without risk factors for stroke)
+
+Neuropsychiatric disorders (e.g. depression, suicidal ideation, suicide attempt, homicidal ideation, drug overdose,
+and relapse of drug addiction)
+
+Dermatologic effects (e.g. serious cutaneous reactions, including vesiculobullous eruptions, SJS, and exfoliative
+dermatitis)
+
+Diabetes (may require adjustments in antidiabetic medications)
+
+Growth impairment (height and weight may be decreased in pediatric use; closely monitor growth in children during
+and after therapy until growth catch-up has occurred)
+
+Thyroid disorders
+
+Gastrointestinal effects (e.g. GI hemorrhage, ulcerative and
+hemorrhagic/ischemic colitis; may be severe and/or life threatening;Pancreatitis
+
+Hepatic effects (monitor hepatic function closely during use); Hepatitis B (transient and potentially severe increases
+
+Page 4 of 6
+
+
+
+April 25, 2026, 2:19:36 AM - https://pnf.doh.gov.ph
+
+in serum ALT may occur during or after treatment)
+
+Renal impairment
+
+Ophthalmic effects (e.g. decreased or loss of vision and retinopathy, including macular edema, optic neuritis,
+papilledema, retinal hemorrhages, serous retinal detachment, cotton wool spots, and retinal artery or vein
+thrombosis; prior to use, all patients should have a visual exam)
+
+SKILLED TASKS. May impair ability to perform tasks, which require mental alertness, like driving or operating
+machinery.
+
+Adverse Drug Reactions
+
+Common: Abdominal pain, alopecia, anemia, anorexia, anxiety, arthralgia, back pain, bacterial infection, blurred
+vision, cough, depression, dermatitis, diaphoresis, dizziness, dyspnea, diarrhea, eczema, fatigue, growth
+suppression (children), headache, hepatic decompensation, hyperthyroidism, hypothyroidism, injection site reaction,
+fever, insomnia, irritability, lymphocytopenia, lack of concentration, memory impairment, mood changes, myalgia,
+nervousness, neutropenia, nausea, pain, pruritus, rigors, thrombocytopenia, vomiting, weakness, weight loss,
+xeroderma, skin rash, xerostomia
+
+Less Common: Aggressive behavior, anaphylaxis, angina pectoris, angioedema, aplastic anemia, auditory
+impairment, autoimmune disorders, bipolar mood disorder, bronchiolitis obliterans, bronchoconstriction, cerebral
+hemorrhage, chest pain, cholangitis, colitis, coma, corneal ulcer, cardiac arrhythmia, dehydration, dyspepsia,
+diabetes mellitus, erythema multiforme major, endocarditis, dyspnea on exertion, exfoliative dermatitis, GI
+hemorrhage, hallucination, hearing loss, decreased hematocrit and hemoglobin, hepatic insufficiency, exacerbation
+of hepatitis B, graft rejection (hepatic, renal), hyperglycemia, hypersensitivityreaction,hyperpigmentation,
+hypertension, hypoglycemia, influenza, interstitial pneumonitis, liver steatosis, macular edema, mania, myocardial
+infarction, myositis, optic neuritis, pancreatitis, papilledema, peptic ulcer, peripheral neuropathy, pneumonia,
+psychiatric disturbance, psychosis, pulmonary embolism, pulmonary infiltrates, pure red cell aplasia, retinal
+thrombosis (in artery or vein), retinal cotton-wool spot, retinal detachment, retinal hemorrhage, retinopathy,
+rheumatoid arthritis, sarcoidosis, seizures, SJS, substance overdose, SLE, supraventricular arrhythmia, thrombotic
+thrombocytopenic purpura, suicidal ideation, suicide, urticaria, vesiculobullous reaction, vision loss
+
+Page 5 of 6
+
+
+
+April 25, 2026, 2:19:36 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Ribavirin (hemolytic anemia), Zidovudine
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of the following drugs: Aldesleukin (myocardial and renal toxicity),
+Clozapine (agranulocytosis), Dipyrone (agranulocytosis; pancytopenia), Telbivudine (peripheral neuropathy)
+Increases serum concentration of Tizanidine
+Reduces therapeutic effect of this drug: BCG (Intravesical)
+
+Mechanism of Action
+
+An alpha interferon subtype, which binds to a cell wall receptor to initiate intracellular activity resulting in induction
+of gene transcription, cellular growth inhibition, alteration of the state of cellular differentiation, interference with
+oncogene expression, alteration of cell surface antigen expression, increase in phagocytic activity of macrophages,
+and augmentation of cytotoxicity of lymphocytes for target cells.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C; X (combined with ribavirin)
+
+Page 6 of 6

@@ -1,0 +1,138 @@
+﻿April 25, 2026, 2:27:06 AM - https://pnf.doh.gov.ph
+
+PILOCARPINE
+
+Drug Classification
+
+ATC CODE
+
+S01EB01
+
+ANATOMICAL
+
+Sensory Organs
+
+THERAPEUTIC
+
+Ophthalmologicals
+
+PHARMACOLOGICAL
+
+Antiglaucoma Preparations and Miotics
+
+CHEMICAL CLASS
+
+Anticholinesterases (Parasympathomimetics)
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+OPHTHALM › 1% eye drops solution (as hydrochloride), 10 mL bottle (Rx)
+
+OPHTHALM › 1% eye drops solution (as hydrochloride), 15 mL bottle (Rx)
+
+OPHTHALM › 2% eye drops solution (as hydrochloride), 10 mL bottle (Rx)
+
+OPHTHALM › 2% eye drops solution (as hydrochloride), 15 mL bottle (Rx)
+
+Dosage
+
+OPHTHALM › 1% eye drops solution (as hydrochloride), 10 mL bottle (Rx)
+
+Reduction of elevated IOP in open-angle glaucoma or ocular hypertension, into the eye, ADULT, 1 drop of 2%
+solution in the affected eye(s) up to 4 times daily; CHILD <2 years, 1 drop of 2% solution in the affected eye(s) 3
+times daily [NOTE: The frequency of instillation and concentration of pilocarpine are determined by the severity of
+the elevated IOP and miotic response of the patient]. Management of acute angle-closure glaucoma, into the eye,
+ADULT, initially 1 drop of 2% solution in the affected eye(s) up to 3 times over a 30-minute period [NOTE: Treatment
+with secretory suppressants and hyperosmotic agents may be needed to lower IOP below 50 mmHg and relieve iris
+ischemia prior to administration. If laser iridoplasty or iridotomy is used to break the attack, instill 1 drop of 4%
+solution prior to the procedure. Following laser iridoplasty, instill 1 drop of 2% solution 4 times daily until an
+iridotomy can be performed]. Prevention of post-operative elevated IOP associated with laser surgery, into the
+eye, ADULT, instill 1 drop of 1% or 2% solution in the affected eye(s) 15–60 minutes prior to surgery, or 2 drops 5
+minutes apart. Induction of miosis, into the eye, ADULT, instill 1 drop of 2% solution in the affected eye(s) or 2
+drops 5 minutes apart; CHILD <2 years, 1 drop 2% solution in the affected eye(s) 15 to 60 minutes prior to surgery.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:27:06 AM - https://pnf.doh.gov.ph
+
+Administration
+
+OPHTHALM › 1% eye drops solution (as hydrochloride), 10 mL bottle (Rx)
+
+For topical ophthalmic use only. NOT for injection Apply finger pressure to the lacrimal sac (inside corner of the
+eye) during and for 1–2 minutes after instillation to decrease risk of absorption and systemic effects. Contact
+lenses should be removed prior to the administration and may be reinserted 10 minutes after administration. Do
+NOT touch dropper tip to eyelids or other surfaces when placing drops in eyes to avoid contamination. NOTE:
+Pilocarpine-naïve patients should be started on 1% concentration as higher concentrations are often not
+tolerated initially. May be used in combination with beta blockers, carbonic anhydrase inhibitors, hyperosmotic
+agents, or sympathomimetics. If more than one topical ophthalmic product is being used, administer at least 5
+minutes apart.
+
+Dose Adjustment
+
+No information found
+
+Indications
+
+Reduction of elevated IOP in open-angle glaucoma or ocular hypertension; management of acute angle-closure
+glaucoma; prevention of post-operative elevated IOP associated with laser surgery; induction of miosis.
+
+Contraindications
+
+Conditions where constriction is undesirable (e.g., acute iritis).
+
+Precautions
+
+Poor illumination (e.g., accommodation spasm);
+Pre-existing retinal disease (e.g., rare cases of retinal
+detachment);
+Iritis;
+Primary congenital glaucoma (e.g., cases of paradoxical
+increase in IOP);
+Pregnancy (administer only if clearly needed);
+Lactation (not known if excreted in breast milk).
+
+SKILLED TASKS. May cause blurred vision. Avoid performing
+tasks, which require mental alertness, e.g., operating
+machinery or driving.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:27:06 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common:
+Headache, brow ache, accommodative change, blurred vision, eye irritation, visual impairment, eye pain, ciliary
+spasm, conjunctival vascular congestion, induced myopia, reduced visual acuity in poor illumination, lens opacity
+(prolonged use).
+
+Drug Interactions
+
+Avoid concomitant use with: Enhances therapeutic effect of Pilocarpine:
+Parasympathomimetics (additive effect)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Beta Blockers (conduction disturbances), Miotic drugs (toxic reactions)
+
+Reduces anticholinergic effects of Pilocarpine:Atropine, Ipratropium (Inhalation)
+
+Mechanism of Action
+
+A direct acting cholinergic parasympathomimetic agent that acts through direct stimulation of muscarinic receptors
+and smooth muscle, such as the iris and secretory glands. It contracts the ciliary muscle, causing increased tension
+on the scleral spur and opening of the trabecular meshwork spaces. This reduces outflow resistance, resulting in a
+decrease in intraocular pressure (IOP). Pilocarpine also causes a contraction of the iris sphincter muscle, producing
+miosis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

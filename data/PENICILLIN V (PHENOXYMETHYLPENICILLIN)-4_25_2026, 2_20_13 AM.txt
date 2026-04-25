@@ -1,0 +1,123 @@
+﻿April 25, 2026, 2:20:14 AM - https://pnf.doh.gov.ph
+
+PENICILLIN V (PHENOXYMETHYLPENICILLIN)
+
+Drug Classification
+
+ATC CODE
+
+J01CE02
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Beta-Lactam Antibacterials, Penicillins
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [ACCESS] 250 mg tablet / capsule (as potassium salt) (Rx)
+
+ORAL › [ACCESS] 500 mg tablet / capsule (as potassium salt) (Rx)
+
+ORAL › [ACCESS] 250 mg/5 mL granules / powder for syrup / suspension (as potassium salt), 60 mL (Rx)
+
+Dosage
+
+ORAL › [ACCESS] 250 mg tablet / capsule (as potassium salt) (Rx)
+
+Acute rheumatic fever, by mouth, ADULT, 250mg twice daily for 3 weeks. Acute gingivitis, by mouth, ADULT, 500mg
+every 4 hours with metronidazole 500mg every 8 hours. Acute necrotizing ulcerative gingivitis, by mouth, ADULT,
+500mg every 6 hours with metronidazole 500mg every 8 hours. Pericoronitis, by mouth, ADULT, 500mg every 6
+hours for 7 days. Pharyngitis or tonsillitis, by mouth, CHILD, 25-50mg/kg every 6 hours for 10 days; ADULT, 500mg
+every 12 hours or 250mg every 6 hours for 10 days. Recurrent pharyngitis, by mouth, CHILD, 25-50mg/kg in divided
+doses every 6 hours for 10 days; ADULT, 500mg every 12 hours or 250mg every 6 hours for 10 days.
+
+Administration
+
+ORAL › [ACCESS] 250 mg tablet / capsule (as potassium salt) (Rx)
+
+Administer on an empty stomach to increase oral absorption.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:20:14 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Renal Impairment:
+ClCr 10-50mL/minute: Administer every 8-12 hours.
+ClCr <10mL/minute: Administer every 12-16 hours.
+
+Indications
+
+Treatment of acute rheumatic fever, acute gingivitis, acute necrotizing ulcerative gingivitis, pericoronitis,
+pharyngitis, erisipelas and tonsillitis.
+
+Contraindications
+
+Hypersensitivity to penicillin or any component of the formulation.
+
+Precautions
+
+WARNING: Serious and occasionally severe or fatal hypersensitivity reactions have been reported in patients on
+penicillin therapy, especially with a history of beta-lactam hypersensitivity, history of sensitivity to multiple allergens,
+or previous IgE-mediated reactions. Use with caution in asthmatic patients.
+
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis;
+Use with caution in patients with severe renal impairment (dosage adjustment necessary);
+Use with caution in patients with a history of seizure disorder; high levels, particularly in the presence of renal
+impairment, may increase risk of seizures.
+
+Adverse Drug Reactions
+
+Common: Mild diarrhea, vomiting, nausea, oral candidiasis.
+Rare: Acute interstitial nephritis, convulsions, hemolytic anemia, positive Coombs’ reaction.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:20:14 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Reduces therapeutic effect of the following drugs:
+BCG vaccine, Typhoid vaccine
+
+Reduces therapeutic effect of Penicillin:
+Fusidic acid, Tetracycline derivatives
+
+Decreases excretion of the following drugs:
+Methotrexate
+
+Decreases serum concentration of the following drugs:
+Mycophenolate
+
+Increases serum concentration of Penicillin:
+Probenecid
+
+Mechanism of Action
+
+This class of antibiotics binds to penicillin binding proteins that catalyzes the synthesis of peptidoglycan and this
+leads to the interruption of cell wall synthesis, leading to bacterial cell growth inhibition and cell lysis
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

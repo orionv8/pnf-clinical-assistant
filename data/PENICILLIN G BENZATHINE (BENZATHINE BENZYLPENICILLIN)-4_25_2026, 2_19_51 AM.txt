@@ -1,0 +1,117 @@
+﻿April 25, 2026, 2:19:53 AM - https://pnf.doh.gov.ph
+
+PENICILLIN G BENZATHINE (BENZATHINE BENZYLPENICILLIN)
+
+Drug Classification
+
+ATC CODE
+
+J01CE08
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Beta-Lactam Antibacterials, Penicillins
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › [ACCESS] 1,200,000 units (MR), vial (Rx)
+
+Dosage
+
+IM › [ACCESS] 1,200,000 units (MR), vial (Rx)
+
+Acute rheumatic fever, secondary prevention, by IM injection, CHILD ≤27kg, 600000 units every 3 weeks; CHILD
+>27kg, 1200000 units every 3 weeks. Pharyngitis or tonsillitis, by IM injection, ADULT, 1200000 units.
+
+Administration
+
+IM › [ACCESS] 1,200,000 units (MR), vial (Rx)
+
+Warm to room temperature before administration to lessen the pain associated with injection. Administer by deep
+IM injection in the upper outer quadrant of the buttock; in children <2 years of age, IM injections should be made
+into the mid-lateral muscle of the thigh, not the gluteal region. Do not inject near an artery or a nerve; permanent
+neurological damage or gangrene may result. When doses are repeated, rotate the injection site. Do NOT
+administer by IV, SC, or intra-arterially.
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Indications
+
+Secondary prevention for acute rheumatic fever and treatment for pharyngitis or tonsilitis
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:19:53 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to penicillin or any component of the formulation.
+
+Precautions
+
+WARNING: Not for intravenous use; cardiopulmonary arrest and death have occurred from inadvertent IV
+administration.
+
+Serious and occasionally severe or fatal hypersensitivity reactions have been reported in patients on penicillin
+therapy, especially a history of beta-lactam hypersensitivity, history of sensitivity to multiple allergens, or previous
+IgE-mediated reactions (Use with caution in asthmatic patients);
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis.
+
+Adverse Drug Reactions
+
+Cerebral vascular accident, cyanosis, gangrene, hypotension, pallor, palpitations, syncope, tachycardia, vasodilation,
+vasospasm, vasovagal reaction, anxiety, coma, confusion, dizziness, euphoria, fatigue, headache, nervousness, pain,
+seizure, somnolence, bloody stool, intestinal necrosis, nausea, vomiting, impotence, priapism, arthritis,
+exacerbation, joint disorder, neurovascular damage, numbness, periostitis, rhabdomyolisis, transverse myelitis,
+tremor, weakness, blindness, blurred vision, hematuria, myoglobinuria, neurogenic bladder, proteinuria, renal failure,
+diaphoresis, hypersensitivity reactions, Jarisch- Herxheimer reaction, lymphadenopathy, mottling, warmth
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:19:53 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Reduces therapeutic effect of Penicillin G benzathine:
+Fusidic acid, Tetracycline derivatives
+
+Reduces therapeutic effect of the following drugs:
+BCG, Typhoid vaccine (only the live attenuated Ty21a strain is affected)
+
+Decreases serum concentration of the following drugs:
+Mycophenolate
+
+Decreases excretion of the following drugs:
+Methotrexate
+
+Increases serum concentration of Penicillin G benzathine:
+Probenecid
+
+Mechanism of Action
+
+This class of antibiotics binds to penicillin binding proteins that catalyzes the synthesis of peptidoglycan and this
+leads to the interruption of cell wall synthesis, leading to bacterial cell growth inhibition and cell lysis
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

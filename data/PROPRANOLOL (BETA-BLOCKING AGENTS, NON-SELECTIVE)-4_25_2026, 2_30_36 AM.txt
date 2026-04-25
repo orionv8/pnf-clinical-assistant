@@ -1,0 +1,179 @@
+﻿April 25, 2026, 2:30:38 AM - https://pnf.doh.gov.ph
+
+PROPRANOLOL (BETA-BLOCKING AGENTS, NON-SELECTIVE)
+
+Drug Classification
+
+ATC CODE
+
+C07AA05
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Beta-Blocking Agents
+
+PHARMACOLOGICAL
+
+Beta-Blocking Agents, Non-Selective
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 40 mg tablet (as hydrochloride) (Rx)
+
+ORAL › 10 mg tablet (as hydrochloride) (Rx)
+
+Dosage
+
+ORAL › 40 mg tablet (as hydrochloride) (Rx)
+
+Hypertension, by mouth, ADULT, 40 mg twice daily; increase dosage every 3–7 days; usual dosage range, 40–160 mg
+twice daily; usual dose, 120 to 240 mg divided in 2–3 doses daily (maximum daily dose, 640 mg); ADOLESCENT and
+CHILD, initially 1–2 mg/kg daily divided in 2–3 doses daily; titrate dose to effect (maximum dose, 4 mg/kg daily up to
+640 mg daily). Obstructive hypertrophic cardiomyopathy, by mouth, ADULT, 20–40 mg 3–4 times daily. Post-MI
+mortality reduction, by mouth, ADULT, initially 40 mg 3 times daily; usual dosage range, 180 to 240 mg daily in 3–4
+divided doses. Stable angina, by mouth, ADULT, 80–320 mg daily in divided doses 2–4 times daily.
+
+Administration
+
+ORAL › 40 mg tablet (as hydrochloride) (Rx)
+
+To be taken on an empty stomach. NOTE: Do NOT withdraw abruptly, particularly in patients with CAD. Gradually
+taper dose to avoid acute tachycardia, hypertension, and/or ischemia.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:30:38 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+For use in hypertension, consider lower initial doses and titrate to response.
+
+Renal and Hepatic Impairment:
+Use with caution. Renal and/or hepatic impairment increases systemic exposure to propranolol.
+
+Indications
+
+Antianginal; Management of acute coronary syndrome; post-myocardial infarction (MI) maintenance;
+antihypertensive
+
+Precautions
+
+To be taken on an empty stomach.
+
+Adverse Drug Reactions
+
+Common: Cold extremities, angina pectoris, AV conduction disturbance, bradycardia, cardiogenic shock, congestive
+heart failure, hypotension, ineffective myocardial contractions, syncope, sleep disorder, agitation, fatigue, dizziness,
+nightmares, irritability, drowsiness, amnesia, catatonia, cognitive dysfunction, confusion, hypersomnia, lethargy,
+paresthesia, psychosis, vertigo, changes in nails, contact dermatitis, dermal ulcer, eczematous rash, erosive lichen
+planus, hyperkeratosis, pruritus, skin rash, hyperglycemia, hyperkalemia, hyperlipidemia, diarrhea, abdominal pain,
+hypoglycemia, decreased appetite, constipation, stomach discomfort, immune thrombocytopenia, anorexia,
+thrombocytopenia, increased serum alkaline phosphatase and transaminases, oculomucocutaneous syndrome,
+arthropathy, conjunctival hyperemia, decreased visual acuity, polyarthritis, mydriasis, increased blood urea nitrogen,
+bronchiolitis, bronchospasm, dyspnea, bronchitis, pulmonary edema, wheezing, ulcer
+Less Common: Abdominal cramps, agranulocytosis, alopecia, arterial insufficiency, arterial mesenteric thrombosis,
+decreased heart rate, decreased serum glucose, depression, emotional lability, epigastric distress, erythema
+multiforme, erythematous rash, exfoliative dermatitis, fever, hallucination, hypersensitivity reaction, impotence,
+insomnia, ischemic colitis, lassitude, lupus-like syndrome, myotonia, myopathy, nausea, nonthrombocytopenic
+purpura, peripheral arterial disease, Peyronie's disease, pharyngitis, psoriasiform eruption, purpura, Raynaud's
+phenomenon, second-degree atrioventricular block, slightly clouded sensorium, Stevens-Johnson syndrome,
+systemic lupus erythematosus, temporary amnesia, tingling of extremities, toxic epidermal necrolysis, urticaria,
+visual disturbance, vivid dream, vomiting, weakness, xerophthalmia
+Rare: Carpal tunnel syndrome, oliguria, proteinuria, interstitial nephritis
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:30:38 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Propranolol:
+Bradycardic effect: Acetylcholinesterase Inhibitors e.g. Neostigmine, Amiodarone (may induce cardiac arrest),
+Bretylium, Dipyridamole, Disopyramide, Regorafenib, Reserpine, Ruxolitinib, Tofacitinib, Other Bradycardia-causing
+Agents
+Antihypertensive effect: Phenothiazine Antipsychotic Agents, Barbiturates e.g Phenobarbital, Brimonidine (topical),
+Calcium Channel Blockers (Non-Dihydropyridine e.g. Verapamil), Diazoxide, Lacidipine, Molsidomine, Nicorandil,
+Nifedipine (also negative inotropic effect), Pentoxifylline, Phosphodiesterase-5 Inhibitors, Prostacyclin Analogues
+e.g., Epoprostenol, Propafenone (possesses independent beta-blocking activity), Anilidopiperidine Opioids e.g.,
+Fentanyl (bradycardic and hypotensive effects),
+
+Enhances therapeutic effect of the following drugs:
+Bretylium (AV blockade), Cardiac Glycosides (bradycardic effect), Disopyramide (negative inotropic effect), Fingolimod
+(bradycardic effect), Insulin (hypoglycemic effect), Ivabradine (bradycardic effect), Lacosamide (AV blocking effect),
+Midodrine (bradycardic effect), Other Antihypertensives (antihypertensive effect), Sulfonylureas (hypoglycemic
+effect)
+
+Increases metabolism of Propranolol:
+CYP1A2 Inducers, CYP2D6 Inducers
+
+Increases risk of adverse or toxic effects of Propranolol:
+MAO Inhibitors (orthostatic hypotensive effect)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Cholinergic Agonists (potential for cardiac conduction abnormalities and bronchoconstriction), Duloxetine
+(orthostatic hypotensive effect), Levodopa (orthostatic hypotensive effect), MAO Inhibitors [except Linezolid,
+Tedizolid] (orthostatic hypotensive effect), Other Antihypertensive Agents
+
+Reduces therapeutic effect (anti-hypertensive effect) of Propranolol:
+Methylphenidate (antihypertensive effect), NSAIDS (antihypertensive effect)
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Propranolol:
+Alpha2agonists [except Apraclonidine] (AV blocking effect), Dronedarone (bradycardic effect), Rivastigmine
+(bradycardic effect)
+
+Enhances therapeutic effect of the following drugs:
+Alpha / Beta-Agonists, Direct-Acting (vasopressor effect)
+Ceritinib (bradycardic effect), Ergot Derivatives e.g., Ergotamine (vasoconstricting effect)
+
+Increases metabolism of Propranolol:
+CYP1A2 Inducers, CYP2D6 Inducers
+
+Increases risk of adverse or toxic effects of the following drugs:
+Alpha / Beta-Agonists, Direct-Acting (reduced beta-adrenoceptor-mediated effects, including anaphylactic effects
+of epinephrine), Alpha1 Blocker e.g. Tamsulosin (orthostatic hypotensive effect), Alpha2agonists [except
+Apraclonidine] (rebound hypertension; may enhance sinus node dysfunction), Amifostine (hypotensive effect), Grass
+Pollen Allergen Extract / 5 Grass Extract (may inhibit the ability to effectively treat severe allergic reactions with
+epinephrine), Methacholine, Obinutuzumab (hypotensive effect), Rituximab (hypotensive effect)
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:30:38 AM - https://pnf.doh.gov.ph
+
+Increases serum concentration of Propranolol:
+Abiratone Acetate, Dronedarone, Fluvoxamine, Panobinostat
+
+Increases serum concentration of the following drugs:
+Afatinib, Bosutinib, Colchicine (may increase distribution to certain tissues, e.g., brain), Dabagitran Etexilate [active
+metabolites], Doxorubicin (Conventional), Edoxaban, Everolimus, Pazopanib, Rizatriptan [reduce dose to 5 mg when
+used concomitantly], Silodosin, Tizanidine, Topotecan, Vemurafenib, Vincristine (Liposomal)
+
+Reduces therapeutic effect of the following drugs:
+Beta2agonists e.g Salbutamol (bronchodilatory effect), Theophylline Derivatives e.g., Aminophylline (bronchodilatory
+effect)
+
+Mechanism of Action
+
+A non-selective beta-adrenergic blocker that competitively blocks responses to beta1 and beta2adrenergic
+stimulation, which results in decreases in heart rate, myocardial contractility, blood pressure, and myocardial oxygen
+demand. Propranolol exhibits no intrinsic sympathomimetic activity (ISA)
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4
