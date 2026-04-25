@@ -1,0 +1,172 @@
+﻿April 25, 2026, 4:06:47 AM - https://pnf.doh.gov.ph
+
+VALSARTAN
+
+Drug Classification
+
+ATC CODE
+
+C09CA03
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Agents Acting on the Renin-Angiotensin System
+
+PHARMACOLOGICAL
+
+Angiotensin II Antagonists, Plain
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 80 mg tablet / film coated tablet (Rx)
+
+ORAL › 160 mg tablet / film coated tablet (Rx)
+
+Dosage
+
+ORAL › 80 mg tablet / film coated tablet (Rx)
+
+Hypertension, by mouth, ADULT, initially 80 mg or 160 mg once daily if not volume-depleted; dose may be increased
+to achieve desired effect; usual dosage range, 80–320 mg daily; target dose, 160–320 mg daily (maximum
+recommended dose, 320 mg daily); CHILD 6–16 years, initially 1.3 mg/kg once daily (maximum dose, 40 mg daily); may
+increase dose to achieve desired effect. Heart failure, by mouth, ADULT, initially 40 mg twice daily, titrate dose to
+80–160 mg twice daily, as tolerated (maximum daily dose, 320 mg). Left ventricular dysfunction after MI, by mouth,
+ADULT, initially 20 mg twice daily, titrate dose to target of 160 mg twice daily as tolerated; may initiate ≥12 hours
+following MI.
+
+Administration
+
+ORAL › 80 mg tablet / film coated tablet (Rx)
+
+Administer consistently with regard to meals. Food decreases peak plasma concentration by 50% and extent of
+absorption by 40%. Avoid salt substitutes which contain potassium. NOTE: May contain sorbitol (refer to product
+labelling prior to administration in patients with fructose intolerance).
+
+Dose Adjustment
+
+Renal Impairment:
+Use with caution in patients with CrCl <30 mL/min. Safety and efficacy have not been established.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 4:06:47 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Treatment of primary hypertension, alone or in combination with other antihypertensive agents; reduction of
+cardiovascular mortality in left ventricular dysfunction post-myocardial infarction; treatment of HF, NYHA Class II–IV
+
+Contraindications
+
+Concomitant use with aliskiren in patients with diabetes mellitus
+
+Precautions
+
+WARNING: Fetal Toxicity. Drugs acting directly on the renin-angiotensin system can cause injury and death to the
+developing fetus. When pregnancy is detected, discontinue as soon as possible.
+
+Peripheral vascular disease (patients may be more likely to have renal artery stenosis)
+Volume or sodium depletion (may activate the renin-angiotensin system leading to excessive hypotension)
+Aortic or mitral valve stenosis and hypertrophic cardiomyopathy; angioedema (may occur rarely; may involve head
+and neck or the intestine)
+Hypotension (symptomatic hypotension may occur upon initiation in patients who are salt- or volume-depleted);
+Heart failure
+Hyperkalemia; renal function deterioration (increased risk of hyperkalemia);
+Hepatic impairment
+Renal artery stenosis (avoid use in patients with unstented unilateral or bilateral renal artery stenosis).
+Surgical patients (if on chronic ARB therapy, intraoperative hypotension may occur with induction and maintenance
+of general anesthesia).
+Elderly (may be volume-depleted due to diuretic use and/or blunted thirst reflex resulting in inadequate fluid intake).
+Pregnancy (avoid use unless essential; may adversely affect fetal and neonatal BP control and renal function)
+Lactation (not known if excreted into breastmilk; information is limited).
+
+NOTE: Concomitant use of an ACE inhibitor or renin inhibitor, e.g., Aliskiren, is associated with an increased risk of
+hypotension, hyperkalemia, and renal dysfunction.
+
+Adverse Drug Reactions
+
+Common: Hypotension, orthostatic hypotension, syncope, dizziness, fatigue, orthostatic dizziness, headache,
+vertigo, increased serum potassium, hyperkalemia, diarrhea, abdominal pain, nausea, neutropenia, viral infection,
+arthralgia, back pain, blurred vision, increased BUN and serum creatinine, renal insufficiency, cough
+Less Common: Alopecia, anaphylaxis, anemia, angioedema, anorexia, anxiety, bullous dermatitis, chest pain,
+constipation, drowsiness, dyspepsia, flatulence, hypersensitivity reaction, impotence, insomnia, muscle cramps,
+myalgia, palpitation, photosensitivity, pruritus, renal failure, rhabdomyolysis, skin rash, taste disorder, paresthesia,
+vasculitis, vomiting, weakness, xerostomia
+Rare: Hepatitis, thrombocytopenia
+
+Page 2 of 4
+
+
+
+April 25, 2026, 4:06:47 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of ARB:
+Antifungal Agents, e.g., Azole Derivatives, (Systemic), CYP2C8 Substrates, CYP2C9 Substrates
+
+Enhances therapeutic effect (antihypertensive effect) of ARB:
+Alfuzosin, Barbiturates e.g. Phenobarbital, Brimonidine (Topical), Canagliflozin, Diazoxide, MAO Inhibitors [except
+Linezolid, Tedizolid], Molsidomine, Nicorandil, NSAIDs, Other Antihypertensive Agents, Pentoxifylline,
+Phosphodiesterase-5 Inhibitors e.g. Sildenafil, Prostacyclin Analogues e.g. Epoprostenol
+
+Increases risk of adverse or toxic effects of ARB:
+Antifungal Agents, e.g., Azole Derivatives, (Systemic)
+Hyperkalemic effect: Canagliflozin, Heparin, Eplerenone, Nicorandil NSAIDS (also acute renal failure), Tolvaptan,
+Trimethoprim
+Orthostatic hypotension: Dapoxetine, MAO Inhibitors [except Linezolid, Tedizolid]
+First ARB dose hypotension: Loop diuretics, Thiazide diuretics
+Other Antihypertensive Agents
+
+Increases risk of adverse or toxic effects of the following drugs:
+Ciprofloxacin (systemic) (arrhythmogenic effect), Cyclosporine (systemic) (hyperkalemic effect), Drospirenone
+(hyperkalemic effect), Duloxetine (orthostatic hypotension), Levodopa (orthostatic hypotension), Risperidone
+(hypotensive effect)
+
+Reduces therapeutic effect of ARB:
+Methylphenidate, Rifampicin
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects (hyperkalemia) of ARB:
+Aliskiren (also hypotensive, and nephrotoxic effects), Potassium Supplements, Drugs that cause Potassium
+retention, e.g., Potassium-sparing Diuretics, Spironolactone
+
+Increases risk of adverse or toxic effects (hypotensive effect) of the following drugs:
+ACE Inhibitors e.g. Enalapril, Amifostine [withhold ARB 24 hours prior to Amifostine administration], Obinutuzumab
+[withhold ARB 12 hours prior to Obinutuzumab infusion until 1 hour after the end of the infusion], Ramipril, Rituximab,
+Sodium Phosphates (also nephrotoxic effect, specifically acute phosphate nephropathy)
+
+Increases serum concentration of the following drugs:
+ACE Inhibitors e.g. Enalapril, Amodiaquine, Lithium, Ramipril [Ramiprilat]
+
+NOTE: Dual blockade of the Renin-Angiotensin-Aldosterone system, i.e., ARB and ACEI combination, in patients with
+established heart failure, atherosclerotic disease, or diabetes with end-organ damage is associated with higher risk
+for hypotension, syncope, hyperkalemia, and disordered renal function, including acute renal failure.
+
+Mechanism of Action
+
+A direct antagonist of the angiotensin II (AT2) receptors, displacing angiotensin II from the AT1 receptor. It produces
+its blood pressure lowering effects by antagonizing AT1induced vasoconstriction, aldosterone release,
+
+Page 3 of 4
+
+
+
+April 25, 2026, 4:06:47 AM - https://pnf.doh.gov.ph
+
+catecholamine release, arginine vasopressin release, water intake, and hypertrophic responses.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

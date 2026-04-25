@@ -1,0 +1,125 @@
+﻿April 25, 2026, 4:06:18 AM - https://pnf.doh.gov.ph
+
+VALGANCICLOVIR
+
+Drug Classification
+
+ATC CODE
+
+J05AB14
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 450 mg Tablet (Rx)
+
+Dosage
+
+ORAL › 450 mg Tablet (Rx)
+
+Cytomegalovirus Retinitis in Patients with AIDS, by mouth, ADULT, induction dose 900 mg every 12 hours for 21
+days. Maintenance dose 900 mg every day following induction treatment, or in patients with inactive
+Cytomegalovirus retinitis. Cytomegalovirus prevention in solid organ transplant: Kidney and kidney-pancreas
+transplantation, by mouth, ADULT, 900 mg once a day; begin within 10 days of transplant until 200 days post-
+transplant; INFANT, <4 months old: Safety and efficacy not established; CHILD, 4 months-16 years old, daily dose
+(mg) = 7 x BSA x CrCl; not to exceed 900mg/day; begin within 10 days of transplant and continue until 200 days
+post-transplant. Heart transplantation, by mouth, ADULT, 900 mg once a day. Begin within 10 days of transplant
+until 100 days post transplant. CHILD, 1 month-16 years old, daily dose (mg) = 7 x BSA x CrCl; not to exceed 900
+mg/day; begin within 10 days of transplant and continue until 100 days post-transplant.
+
+Administration
+
+ORAL › 450 mg Tablet (Rx)
+
+Administer orally with food. Do NOT break or crush the tablets. Maintain adequate hydration.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 4:06:18 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Start at lower end of dosing range.
+Renal Impairment:
+CrCl 40-59mL/min: 450 mg every 12 hours (induction),
+THEN 450mg/day.
+CrCl 25-39mL/min: 450 mg daily (induction), THEN 450 mg
+every 2 days.
+CrCl 10-24mL/min: 450 mg every 2 days (induction), THEN
+450 mg 2 times per week.
+<10mL/minute (on hemodialysis): Not recommended.
+
+Indications
+
+Treatment of cytomegalovirus (CMV) retinitis in patients with acquired immunodeficiency syndrome (AIDS).
+
+Precautions
+
+WARNING: May cause dose- or therapy-limiting
+granulocytopenia, anemia, and/or
+thrombocytopenia. May be teratogenic,
+carcinogenic and cause aspermatogenesis.
+Monitor patients for hematologic toxicity; female infertility,
+aspermatogenesis;
+Use with caution in patients with preexisting cytopenias;
+concomitant use nephrotoxic drugs;
+May be teratogenic or embryotoxic;
+Avoid pregnancy; male patients advised to use barrier method during and for 90 days after treatment;
+Maintain adequate hydration.
+
+Adverse Drug Reactions
+
+Common: Fever, diarrhea, anorexia, vomiting,
+thrombocytopenia, leukopenia, anemia, neutropenia,
+retinal detachment, sepsis, diaphoresis.
+Less Common: Chills, neuropathy, pruritus.
+Rare: Anaphylaxis, alopecia, arrhythmia, bronchospasm,
+cardiac arrest, cataracts, cholestasis, coma, dyspnea,
+edema, encephalopathy, exfoliative dermatitis,
+extrapyramidal symptoms, hepatitis, hepatic failure,
+pancytopenia, pulmonary fibrosis, seizure, urticaria, SJS,
+torsades de pointes, renal failure, visual loss.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 4:06:18 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Imipenem
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Reverse
+Transcriptase Inhibitors
+Increases serum concentration of Tenofovir
+Administration:
+Administer orally with food. Do NOT break or crush the
+tablets. Maintain adequate hydration.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

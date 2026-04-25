@@ -1,0 +1,129 @@
+﻿April 25, 2026, 4:11:03 AM - https://pnf.doh.gov.ph
+
+VORICONAZOLE
+
+Drug Classification
+
+ATC CODE
+
+J02AC03
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antifungals for Systemic Use
+
+PHARMACOLOGICAL
+
+Triazole Derivatves
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [Reserve] 200 mg film-coated tablet (Rx)
+
+IV INFUSION › [Reserve] Infusion: 200 mg lyophilized powder for solution, 30 mL vial (Rx)
+
+Dosage
+
+ORAL › [Reserve] 200 mg film-coated tablet (Rx)
+
+Anti-aspergillus prophylaxis, by mouth, by IV infusion, ADULT, 200 mg twice daily. Endophthalmitis, Candida sp., by
+IV infusion, ADULT, 400 mg twice a day for 2 doses loading dose then 300 mg, by mouth or IV infusion, twice a day;
+CHILD, 12 mg/kg twice a day for 2 doses loading dose then 4 mg/kg, by mouth or IV infusion, twice a day.
+
+Administration
+
+ORAL › [Reserve] 200 mg film-coated tablet (Rx)
+
+Should be taken on an empty stomach: Take at least 1 hour before or after meals.
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing
+
+Indications
+
+Treatment of candida endophthalmitis, reserve drug for the treatment of severe fungal infections; prophylaxis for
+aspergillus in patients undergoing chemotherapy for AML/MDS with neutropenia and allogeneic HSCT recipients
+
+Page 1 of 3
+
+
+
+April 25, 2026, 4:11:03 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity. Concomitant use of CYP3A4 substrates, terfenadine, astemizole, cisapride, pimozide or quinidine;
+sirolimus, rifabutin, rifampicin, carbamazepine, long-acting barbiturates, efavirenz, ritonavir, ergot alkaloids
+
+Precautions
+
+Hypersensitivity to other azoles. Infusion-related reactions; patients with potentially proarrhythmic conditions e.g.,
+congenital or acquired QT prolongation, cardiomyopathy, sinus bradycardia, existing symptomatic arrhythmias,
+concomitant use w/ drugs known to prolong QT interval;
+
+Monitor & correct electrolyte imbalances (hypokalemia, hypomagnesemia and hypocalcemia) prior to and during
+therapy.
+
+Monitor for hepatic toxicity and lab evaluation of hepatic function (AST/ALT) at least weekly for the 1st month of
+therapy;
+
+Acute renal failure & visual adverse events in severely ill patients with underlying conditions and/or concomitant
+medications;
+
+Adults and children with risk factors for acute pancreatitis. Rare exfoliative cutaneous reaction, photosensitivity;
+squamous cell carcinoma of the skin & melanoma, periostitis on long-term therapy;
+
+Pregnancy and lactation
+
+Adverse Drug Reactions
+
+Pseudomembranous colitis, sinusitis, bone marrow failure, agranulocytosis, pancytopenia, thrombocytopenia,
+leukopenia, anaemia, lymphadenopathy, eosinophilia, anaphylactoid reaction, hypersensitivity, adrenal insufficiency,
+hypothyroidism, hyperthyroidism, hypoglycemia, hypokalemia, hyponatremia, peripheral edema, depression,
+hallucination, anxiety, insomnia, agitation, confusional state, hepatic encephalopathy, brain edema, encephalopathy,
+syncope, extrapyramidal disorder, tremor, hypertonia, Guillain-Barré syndrome, peripheral neuropathy, ataxia,
+paresthesia, hypoesthesia, nystagmus, dysgeusia, somnolence, dizziness, headache, optic atrophy and nerve
+disorder, papilloedema, retinal hemorrhage, oculogyric crisis, corneal opacity, visual impairment, diplopia, scleritis,
+blepharitis, hypoacusis, vertigo, tinnitus, torsades de pointes, thrombophlebitis, hypotension, phlebitis,
+lymphangitis, acute respiratory distress syndrome, pulmonary edema, peritonitis, pancreatitis, swollen tongue,
+diarrhea, vomiting, duodenitis, cheilitis, gastroenteritis, dyspepsia, abdominal pain, glossitis, constipation, gingivitis,
+nausea, hepatic failure, jaundice, jaundice cholestatic, hepatitis, hepatomegaly, cholecystitis, cholelithiasis, toxic
+epidermal necrolysis, SJS, angioedema, pseudoporphyria, erythema multiforme, dermatitis exfoliative, psoriasis,
+cutaneous lupus erythematosus, drug eruption, alopecia, photosensitivity reaction, purpura, rash maculopapular,
+urticaria, rash, eczema, pruritus, back pain, arthritis, renal failure acute, renal tubular necrosis, proteinuria, nephritis,
+hematuria, chest pain, face edema, infusion site reaction, flu like illness, asthenia, chills
+
+Page 2 of 3
+
+
+
+April 25, 2026, 4:11:03 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Decreases excretion of the following drugs:
+Ergot alkaloids, Disopyramide
+Simvastatin, Pimozide, Ranozaline, Sirolimus
+
+Decreases excretion of Voriconazole:
+Efavirenz, Rifabutin, Rifampin, Rionavir, Carbamazepine, Phenobarbital
+
+Mechanism of Action
+
+Azoles are synthetic compounds that can be classified as either imidazoles or triazoles according to the number of
+nitrogen atoms. Azoles exhibit activity by reducing the ergosterol synthesis through inhibition of fungal cytochrome
+P450 enzymes.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 3 of 3

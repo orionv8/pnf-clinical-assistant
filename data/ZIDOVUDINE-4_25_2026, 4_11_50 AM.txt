@@ -1,0 +1,93 @@
+﻿April 25, 2026, 4:11:52 AM - https://pnf.doh.gov.ph
+
+ZIDOVUDINE
+
+Drug Classification
+
+ATC CODE
+
+J05AF01
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 100 mg capsule (Rx)
+
+ORAL › 300 mg tablet (Rx)
+
+ORAL › 50 mg/5 mL suspension, 240 mL per bottle (Rx)
+
+Dosage
+
+Administration
+
+Dose Adjustment
+
+Renal Impairment:
+CrCl <15mL/minute: 100mg every 6-8 hours, alternate dosing: 100mg 3 times a day or 300 mg once a day; End-Stage
+Renal Disease on Intermittent Hemodialysis (admin dose after dialysis on dialysis days): 100mg every 6-8 hours,
+alternate dosing: 100mg 3 times a day or 300mg/day. Peritoneal Dialysis: 100mg every 6-8 hours.
+
+Indications
+
+Treatment of HIV-1 infection in combination with at least two other antiretroviral agents.
+
+Page 1 of 2
+
+
+
+April 25, 2026, 4:11:52 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Neutrophil count <750/mm3 or hemoglobin <7.5g/dL (4.65mmol/L).
+
+Precautions
+
+WARNING: matologic toxicity; Lactic acidosis/severe hepatomegaly.
+
+Monitor patients for: Fat Redistribution; Hematologic Toxicity, Immune Reconstitution Syndrome), Lactic Acidosis,
+Severe Hepatomegaly with Steatosis, Myopathy.
+
+Adverse Drug Reactions
+
+Common: Headache, malaise, nausea, anorexia, vomiting.
+
+Less common: Constipation, anemia, muscle weakness.
+
+Rare: Cardiomyopathy, rash, body fat redistribution, abdominal pain, hepatitis, hearing loss.
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Zidovudine:
+Aciclovir, Valaciclovir, Divalproex, Fluconazole,
+Interferons, Protease inhibitors, Rifamycin
+Avoid concomitant use with:
+Reduces therapeutic effects of Stavudine
+Increases risk of adverse or toxic effects of the following drugs:
+Ribavirin, Ganciclovir, Valganciclovir, Doxorubicin,
+Clarithromycin
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 2 of 2

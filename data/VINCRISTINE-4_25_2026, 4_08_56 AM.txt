@@ -1,0 +1,168 @@
+﻿April 25, 2026, 4:08:58 AM - https://pnf.doh.gov.ph
+
+VINCRISTINE
+
+Drug Classification
+
+ATC CODE
+
+L01CA02
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Plant Alkaloids and Other Natural Products
+
+CHEMICAL CLASS
+
+Vinca Alkaloids
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 1 mg/mL (as sulfate), 1 mL vial (Rx)
+
+IV › 1 mg/mL (as sulfate), 2 mL vial (Rx)
+
+Dosage
+
+IV › 1 mg/mL (as sulfate), 1 mL vial (Rx)
+
+NOTE: Dosing and frequency may vary by protocol and/or treatment phase. Cap doses at a maximum of 2 mg/dose.
+Cancer chemotherapy, by IV infusion, ADULT, 1.4 mg/m2 per dose, frequency may vary based on protocol; CHILD
+=10 kg, 0.05 mg/kg per dose once weekly; CHILD >10 kg, 1.5 – 2.0 mg/m2 per dose, frequency may vary based on
+protocol. Maximum allowable dose is 2 mg.
+
+Administration
+
+IV › 1 mg/mL (as sulfate), 1 mL vial (Rx)
+
+For IV use only. A short 5– to 10– minute IV infusion in a 25–50 mL mini-bag is preferred. If not possible, administer
+as a slow 1-minute IV push. Administer concomitantly with prophylactic bowel management regimen to minimize GI
+adverse effects. NOTE: Extravasation may cause significant irritation. If extravasation occurs, discontinue
+immediately and initiate appropriate extravasation management, including local injection of hyaluronidase and
+moderate heat application to the affected area. Use a separate vein to administer any remaining portion of the
+dose.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 4:08:58 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Hepatic Impairment:
+For serum bilirubin >3 mg/dL, administer 50% of dose.
+
+Obesity:
+Use actual body weight (full weight) for calculation of BSAbased or weight-based dosing, especially if the intent of
+therapy is curative.
+If dose reduction is done due to toxicity, consider resumption of full weight-based dosing with subsequent cycles,
+especially if cause of toxicity is resolved.
+
+Indications
+
+Treatment of acute lymphocytic leukemia (ALL), acute myeloid leukemia (AML), chronic myelogenous leukemia (CML),
+Hodgkin’s lymphoma, non-Hodgkin’s lymphomas, Wilms' tumor, neuroblastoma, small cell lung cancer, and
+rhabdomyosarcoma
+
+Contraindications
+
+Demyelinating form of Charcot-Marie-Tooth syndrome
+
+Precautions
+
+WARNING: For IV use only. Fatal if given by other routes. Should be administered under the supervision of an
+experienced cancer chemotherapy physician, experienced in vinblastine administration.
+
+WARNING: Hazardous agent. Use appropriate precautions for handling and disposal.
+
+Gastrointestinal effects (e.g. constipation, paralytic ileus, intestinal necrosis and/or perforation; responds to high
+enemas and laxatives).
+
+Hepatic impairment (e.g. hepatic sinusoidal obstruction syndrome, characterized by bilirubin >1.4 mg/dL, unexpected
+weight gain, ascites, hepatomegaly, or unexplained right upper quadrant pain).
+
+Neurotoxicity (alterations in mental status such as depression, confusion, or insomnia may occur; use with caution in
+patients with pre-existing neuromuscular disease and/or with concomitant neurotoxic agents).
+
+Pulmonary toxicity (e.g. acute shortness of breath, severe bronchospasm, or progressive dyspnea; use caution in
+patients with preexisting pulmonary disease; permanently discontinue if pulmonary dysfunction occurs)
+
+Uric acid nephropathy
+
+Elderly (may cause or exacerbate syndrome of inappropriate antidiuretic hormone secretion or hyponatremia;
+monitor sodium closely); children (increased risk of developing hepatic impairment in children <3 years of age).
+
+Page 2 of 4
+
+
+
+April 25, 2026, 4:08:58 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common and Less Common: Abdominal cramps, abdominal pain, acute uric acid nephropathy, alopecia, anemia (mild),
+anorexia, ataxia, back pain, bladder atony, bone pain, bronchospasm, coma, cortical blindness (transient), cranial
+nerve dysfunction (e.g., extraocular muscle impairment, auditory damage, laryngeal muscle impairment, paresis,
+vestibular damage, vocal cord paralysis), constipation, deafness, deep tendon reflex loss, paralysis, diarrhea,
+difficulty walking, dizziness, dyspnea, dysuria, edema, fever, foot drop, gait changes, headache, hemolytic uremic
+syndrome, hepatic sinusoidal obstruction syndrome, intestinal necrosis, hypertension or hypotension,
+hyperuricemia, intestinal perforation, jaw pain, leukopenia (mild), limb pain, MI, motor difficulties, muscle wasting,
+myalgia, myocardial ischemia, nausea, neuropathic pain, neurotoxicity (doserelated), nystagmus, optic atrophy with
+blindness, oral ulcers, paralysis, paralytic ileus, paresthesia, parotid pain, peripheral neuropathy, pharyngeal pain,
+polyuria, rash, seizure, sensorimotor dysfunction, sensory loss, thrombocytopenia (mild), thrombotic
+thrombocytopenic purpura, phlebitis, vertigo, tissue irritation or necrosis (if infiltrated), urinary retention, vomiting,
+weight loss
+
+Rare: Allergic reactions, anaphylaxis, hypersensitivity, SIADH
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Vincristine: Trastuzumab (neutropenic effect)
+Increases risk of adverse or toxic effects of Vincristine: Denosumab (serious infections), Teniposide (neurotoxic
+effect)
+Increases risk of adverse or toxic effects of the following drugs: MAO Inhibitors [except Linezolid, Tedizolid]
+(orthostatic hypotension), Mitomycin, Systemic (pulmonary toxicity)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Decreases serum concentration of Vincristine: Dabrafenib, Mitotane
+Enhances therapeutic effect of Vincristine: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases serum concentration of Vincristine: Fusidic Acid (Systemic), Itraconazole, Lopinavir,
+Macrolide Antibiotics, e.g. Erythromycin, Clarithromycin [except Azithromycin, systemic], Mifepristone,
+Posaconazole, Ritonavir
+Increases risk of adverse or toxic effects of Vincristine: Itraconazole, Pimecrolimus, Posaconazole, Tacrolimus
+(Topical), Voriconazole
+Increases risk of adverse or toxic effects of the following drugs: Leflunomide (hematologic toxicity such as
+pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent infection)
+Reduces therapeutic effect of Vincristine: Echinacea
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (live virus vaccines may progress to
+infection)
+
+Mechanism of Action
+
+It inhibits microtubule formation and arrests division, specifically for cells in the M and S phases of the cell cycle.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 4:08:58 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

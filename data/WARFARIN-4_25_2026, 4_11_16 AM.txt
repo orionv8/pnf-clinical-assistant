@@ -1,0 +1,241 @@
+﻿April 25, 2026, 4:11:18 AM - https://pnf.doh.gov.ph
+
+WARFARIN
+
+Drug Classification
+
+ATC CODE
+
+B01AA03
+
+ANATOMICAL
+
+Blood and Blood Forming Organs
+
+THERAPEUTIC
+
+Antithrombotic Agents
+
+PHARMACOLOGICAL
+
+Vitamin K Antagonists
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 1 mg tablet (as sodium salt) (Rx)
+
+ORAL › 2.5 mg tablet (as sodium salt) (Rx)
+
+ORAL › 5 mg tablet (as sodium salt) (Rx)
+
+Dosage
+
+ORAL › 5 mg tablet (as sodium salt) (Rx)
+
+NOTE: Carefully individualize dose based on clinical and laboratory findings (i.e., INR, hepatic function, cardiac
+function, age, nutritional status, concurrent therapy, risk of bleeding, prior dose response, clinical situation).
+Consider other patient related factors when determining initial dose (e.g., age, body weight, concomitant
+medications, comorbidities). Determine optimum dose and duration of therapy by the condition being treated.
+Adjust dosage in small increments and carefully monitor patient response. ORAL Thrombosis or embolism,
+prevention and/or treatment: by mouth, ADULT, start with 2–5 mg once daily for 2 days or for healthy individuals, 10
+mg once daily for 2 days; lower doses (e.g., 5 mg once daily) are recommended for patients with confirmed heparin
+induced thrombocytopenia (HIT) once platelet recovery has occurred; in patients with acute venous
+thromboembolism, initiation may begin on the first or second day of low molecular weight heparin or
+unfractionated heparin therapy; adjust dose according to INR results; maintenance dose, 2–10 mg daily; CHILD, if
+baseline INR is 1–1.3, initiate at 0.2 mg/kg (maximum 10 mg/dose); adjust dose based on INR to maintain INR of 2–3;
+administer 0.09–0.33 mg/kg daily; INFANT <12 months, may require an average dose of 0.33 mg/kg daily to maintain
+an INR of 2–3. NOTE: Consistent anticoagulation may be difficult to maintain in children <5 years. Overlapping
+parenteral anticoagulant and warfarin by at least 5 days is necessary in the treatment of DVT/PE even if the INR is
+therapeutic earlier than 5 days.
+
+Page 1 of 6
+
+
+
+April 25, 2026, 4:11:18 AM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 5 mg tablet (as sodium salt) (Rx)
+
+May be taken with or without food. Take at the same time each day. Maintain a consistent diet. Avoid drastic
+changes in diet which decrease efficacy of warfarin. Consult prescriber before making changes in diet. NOTE:
+Instruct patients to report bleeding, accidents, or falls as well as any new or discontinued medications, herbal or
+alternative products used, or significant changes in smoking or dietary habits. Unrecognized bleeding sites (e.g.,
+colon cancer) may be uncovered by anticoagulation.
+
+Dose Adjustment
+
+Geriatric:
+Initiate at ≤5 mg. Usual maintenance dose is 2–5 mg daily. May require lower doses to produce a therapeutic level of
+anticoagulation.
+
+Indications
+
+Prophylaxis and treatment of thromboembolic disorders (e.g., venous, pulmonary) and embolic complications arising
+from atrial fibrillation or cardiac valve replacement; adjunct to reduce risk of systemic embolism (e.g., recurrent MI,
+stroke) after myocardial infarction; acute coronary syndrome.
+
+Page 2 of 6
+
+
+
+April 25, 2026, 4:11:18 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hemorrhagic tendencies (e.g., cerebral aneurysm, cerebrovascular hemorrhage, dissecting aortic aneurysm, spinal
+puncture, other diagnostic or therapeutic procedures with potential for significant bleeding, history of bleeding
+disorders); recent or potential surgery of the eye or CNS; major regional or lumbar block anesthesia or traumatic
+surgery resulting in large, open surfaces; blood dyscrasias; severe uncontrolled or malignant hypertension;
+pericarditis or pericardial effusion; bacterial endocarditis; unsupervised patients with conditions associated with a
+high potential for nonadherence; eclampsia or preeclampsia; threatened abortion; pregnancy (except in women with
+mechanical heart valves at high risk for thromboembolism).
+
+Precautions
+
+WARNING: Administration of large loading doses (i.e., >10 mg) is NOT recommended due to possible increased risk of
+hemorrhage or necrosis.
+
+Can cause major or fatal bleeding. Perform regular monitoring of international normalized ratio (INR) on all treated
+patients. Drugs, dietary changes, and other factors affect INR levels achieved with warfarin therapy. Instruct patients
+about prevention measures to minimize the risk of bleeding and to report immediately to their healthcare provider
+signs and symptoms of bleeding.
+
+Risk factors for bleeding include high intensity anticoagulation (INR >4), age (≥65 years), variable INRs, history of GI
+bleeding, hypertension, cerebrovascular disease, serious heart disease, anemia, severe diabetes, malignancy,
+trauma, renal insufficiency, polycythemia vera, vasculitis, open wound, history of PUD, indwelling catheters,
+menstruating and postpartum women, drug-drug interactions, long duration of therapy, or known genetic deficiency
+in CYP2C9 activity.
+Anaphylaxis or hypersensitivity; skin necrosis or gangrene.
+Artheroemboli or cholesterol microemboli;
+Infection (use with caution in acute infection or active TB, or any disruption of normal GI flora).
+Dietary insufficiency (e.g. vitamin K deficiency);
+Heparin-induced thrombocytopenia and DVT (limb ischemia, necrosis, and gangrene have occurred).
+Hepatic impairment; renal impairment; thyroid disease.
+Surgery (discontinue for approximately 5 days before surgery; may reinstitute warfarin therapy ~12–24 hours after
+surgery).
+Patients with genomic variants in CYP2C9 and/or VKORC1.
+Elderly (may be more sensitive to anticoagulant therapy; risk of bleeding complications has been associated with
+increased age).
+Lactation (carefully monitor breastfeeding women to avoid excessive anticoagulation; monitor nursing infants for
+bruising or bleeding).
+
+Page 3 of 6
+
+
+
+April 25, 2026, 4:11:18 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Vasculitis, signs or symptoms of bleeding (e.g., dizziness, fatigue, fever, headache, lethargy, malaise, pain), alopecia,
+bullous eruptions, dermatitis, rash, pruritus, urticaria, abdominal pain, diarrhea, flatulence, gastrointestinal bleeding,
+nausea, taste disturbance, vomiting, hematuria, anemia, retroperitoneal hematoma, unrecognized bleeding sites
+(e.g., colon cancer), hepatitis (including cholestatic hepatitis), transaminases increased, osteoporosis (potential
+association with long-term use), paralysis, paresthesia, weakness, respiratory tract bleeding, tracheobronchial
+calcification, anaphylactic reaction, hypersensitivity / allergic reactions, skin necrosis, gangrene, “purple toe”
+syndrome.
+
+Page 4 of 6
+
+
+
+April 25, 2026, 4:11:18 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases absorption of Warfarin:
+Bile Acid Sequestrants, Lixisenatide
+
+Enhances anticoagulant effect of Warfarin:
+Paracetamol, Agents with Antiplatelet Properties, e.g., P2Y12 Inhibitors, Amikacin, Amoxicillin, Bupropion.
+Cephalosporins e.g., Cefuroxime, Chloramphenicol, Chondroitin Sulfate, Cloxacillin, Systemic Corticosteroids, COX-2
+nhibitors e.g., Celecoxib, Cyclophosphamide, Etoposide, Exenatide, Fibrates e.g., Fenofibrate, Gefitinib,
+Gemcitabine, Glucagon, Glucosamine, HMG-CoA Reductase Inhibitors [except Atorvastatin], Ifosfamide, systemic
+vermectin, Leflunomide, Levocarnitine, Mirtazapine, Multivitamins with Fluoride with ADE
+
+Enhances anticoagulant effect of Warfarin:
+Multivitamins and Minerals with AE, no Iron, Neomycin, Nonsteroidal Anti-Inflammatory Agents, Omega-3 Fatty Acids,
+Orlistat, Other Anticoagulants, Penicillins [except Dicloxacillin, Nafcillin, Pentoxifylline, Proguanil, Propacetamol,
+Quinidine, Quinine, Quinolone Antibiotics e.g. Levofloxacin, Salicylates, Selective Serotonin Reuptake Inhibitors e.g.
+Sertraline, Sugammadex, Sulfonylureas e.g., Gliclazide, Tetracycline Derivatives e.g. Clarithromycin, Thrombolytic
+Agents e.g. Alteplase, Thyroid Products, Tibolone, Tramadol, Tricyclic Antidepressants e.g., Amitriptyline, Vitamin E
+
+Enhances therapeutic effect of the following drugs:
+Sulfonylureas e.g., Gliclazide (hypoglycemic effect)
+
+Increases metabolism of Warfarin:
+Anticholinergic/Sedative combination, Bosentan, Rifamycin Derivatives
+
+Increases risk of adverse or toxic effects of Warfarin (may increase INR/ risk of bleeding):
+Ampicillin, Clindamycin, Desvenlafaxine, Prostacyclin Analogues e.g., Quinidine, Venlafaxine, Vitamin E
+
+Increases risk of adverse or toxic effects (bleeding effect) of the following drugs:
+Deferasirox, Deoxycholic Acid, Nintedanib, Obinutuzumab, Regorafenib, Iodine I131
+
+Reduces anticoagulant effect of Warfarin:
+Azathioprine, Cloxacillin, Coenzyme Q-10, Dicloxacillin, Flucloxacillin, Floxacillin, Mercaptopurine, Multivitamins and
+Minerals with ADEK, Folate, Iron
+
+Avoid concomitant use with:
+Counteracts anticoagulant effect of Warfarin:
+Estrogen Derivatives or Progestins (potential prothrombotic effects)
+
+Decreases absorption of Warfarin:
+Sucralfate [administer Warfarin at least 2 hours before or 6 hours after Sucralfate]
+
+Decreases metabolism of Warfarin and increases PT/ INR:
+Acute alcoholism, strong CYP2C9 Inhibitors, Imatinib, Sulfinpyrazone
+
+Decreases protein binding of Warfarin:
+Sulfinpyrazone
+
+Decreases serum concentration of Warfarin:
+Carbamazepine, Dabrafenib, Enzalutamide, Sucralfate
+
+Page 5 of 6
+
+
+
+April 25, 2026, 4:11:18 AM - https://pnf.doh.gov.ph
+
+Enhances anticoagulant effect of Warfarin:
+Allopurinol, Amiodarone, Androgens, Apixaban, Cimetidine, Clopidogrel, Dabigatran Etexilate, Fibric Acid
+Derivatives, Fosphenytoin, Imatinib, NSAID, Phenytoin, Salicylates [except Salsalate], Sorafenib, Streptokinase,
+Sulfonamide Derivatives
+
+Enhances therapeutic effect of the following drugs:
+Rivaroxaban (anticoagulant effect)
+
+Increases metabolism of Warfarin and decreases PT / INR:
+Chronic alcoholism, Barbiturates e.g., Phenobarbital, strong CYP2C9 Inducers
+
+Increases serum concentration of Warfarin:
+Amiodarone [reduce Warfarin dose by 30 to 50%], Capecitabine, Ceritinib, Fluconazole, systemic and topical
+Fluorouracil, Fosphenytoin, systemic Fusidic Acid, systemic Metronidazole, topical Miconazole, Phenytoin, Sorafenib,
+Tamoxifen
+
+Reduces anticoagulant effect of Warfarin:
+Antithyroid Agents e.g., PTU, Contraceptives, e.g., Estrogens, Progestins, Phytonadione, Sucralfate
+
+FOOD/SUPPLEMENT INTERACTIONS.
+Cranberry juice, Ginkgo biloba, herbs with anticoagulant or antiplatelet properties, e.g., alfalfa, anise, bilberry
+(bleeding) may increase warfarin effect.
+
+Vitamin K-rich foods, including green tea (Camellia sinensis), chewing tobacco, a variety of oils (canola, corn, olive,
+peanut, safflower, sesame seed, soybean, or sunflower, may decrease anticoagulant effects of Warfarin.
+
+Mechanism of Action
+
+A coumarin derivative anticoagulant that exerts its effect by interfering with the hepatic synthesis of vitamin K-
+dependent coagulation factors II (prothrombin), VII, IX, and X, as well as the anticoagulant proteins C and S.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D (women with mechanical heart valves); X (other indications
+
+Page 6 of 6
