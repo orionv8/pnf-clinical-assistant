@@ -1,0 +1,121 @@
+﻿April 25, 2026, 12:00:03 AM - https://pnf.doh.gov.ph
+
+DEXTROMETHORPHAN
+
+Drug Classification
+
+ATC CODE
+
+R05DA09
+
+ANATOMICAL
+
+Respiratory System
+
+THERAPEUTIC
+
+Cough and Cold Preparations
+
+PHARMACOLOGICAL
+
+Cough Suppressants, Excluding Combinations with Expectorants
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 10 mg tablet (as hydrobromide) (OTC)
+
+Dosage
+
+ORAL › 10 mg tablet (as hydrobromide) (OTC)
+
+Cough suppressant, by mouth, ADULT and CHILD >12 years, 10–20 mg every 4 hours or 30 mg every 6–8 hours
+(maximum 120 mg daily); CHILD 6–12 years, 5–10 mg every 4 hours or 15 mg every 6–8 hours (maximum 60 mg every
+24 hours). NOTE: NOT for use in children <4 years of age.
+
+Administration
+
+ORAL › 10 mg tablet (as hydrobromide) (OTC)
+
+May be taken with or without food.
+
+Dose Adjustment
+
+Hepatic Impairment:
+Use with caution. Metabolized in the liver.
+
+Indications
+
+Symptomatic relief of coughs caused by the common cold or inhaled irritants
+
+Page 1 of 3
+
+
+
+April 25, 2026, 12:00:03 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Known hypersensitivity to dextromethorphan or any component of the formulation; concurrent administration with
+or within 2 weeks of discontinuing an MAO inhibitor
+
+Precautions
+
+Serotonin syndrome (symptoms of agitation, confusion, hallucinations, hyperreflexia, myoclonus, shivering, and
+tachycardia may occur with concomitant pro serotonergic drugs); Elderly (no specific information found on use in
+elderly); children; debilitated patients
+
+Adverse Drug Reactions
+
+Confusion, excitement, irritability, nervousness, serotonin syndrome
+
+Page 2 of 3
+
+
+
+April 25, 2026, 12:00:03 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with: Enhances therapeutic effect of Dextromethorphan: Antiemetics, 5-HT3 Antagonists
+(serotonergic effect)
+
+Enhances therapeutic effect of Antipsychotic Agents (dopamine blockade; serotonergic effect)
+
+Increases risk of adverse or toxic effects of
+Dextromethorphan:
+Antiemetics, 5-HT3 Antagonists (serotonin syndrome)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Antipsychotic Agents (neuroleptic malignant syndrome; serotonin syndrome)
+Memantine, Metoclopramide (neuroleptic malignant syndrome; serotonin syndrome), Parecoxib, Peginterferon Alfa-
+2b
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Dextromethorphan:
+MAO Inhibitors e.g. Phenelzine (serotonergic effect), Selective Serotonin Reuptake Inhibitors [except Fluvoxamine]
+(serotonergic effect)
+
+Increases risk of adverse or toxic effects of
+Dextromethorphan:
+Dapoxetine, MAO Inhibitors e.g. Phenelzine (serotonin syndrome), Other Serotonin Modulators [except Tedizolid]
+(serotonin syndrome)
+
+Increases serum concentration of Dextromethorphan:
+Abiraterone Acetate, CYP2D6 Inhibitors, Panobinostat, Quinidine, Selective Serotonin Reuptake Inhibitors [except
+Fluvoxamine]
+
+TEST INTERACTIONS: False-positive phencyclidine, opioids
+and heroin urine drug screen.
+
+Mechanism of Action
+
+An N-methyl-D-aspartate receptor antagonist that decreases the sensitivity of cough receptors and interrupts
+cough impulse transmission by depressing the medullary cough center through sigma receptor stimulation
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

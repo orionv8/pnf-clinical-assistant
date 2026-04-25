@@ -1,0 +1,219 @@
+﻿April 25, 2026, 12:11:18 AM - https://pnf.doh.gov.ph
+
+DOXORUBICIN (ACTINOMYCIN D)
+
+Drug Classification
+
+ATC CODE
+
+L01DB01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Cytotoxic Antibiotics and Related Substances
+
+CHEMICAL CLASS
+
+Anthracyclines and Related Substances
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 10 mg powder (as hydrochloride), vial (Rx)
+
+IV › 50 mg powder (as hydrochloride), vial (Rx)
+
+IV › 2 mg/mL (as hydrochloride), 5 mL vial (Rx)
+
+IV › 2 mg/mL (as hydrochloride), 25 mL vial (Rx)
+
+Dosage
+
+IV › 10 mg powder (as hydrochloride), vial (Rx)
+
+Breast cancer, by IV push, ADULT, in combination with cyclophosphamide, 50-60 mg/m2 on day 1 of a 14 or 21day
+cycle for 4-6 cycles. Metastatic solid tumors, leukemia, or lymphoma, by IV push, ADULT, as single-agent, 60–75
+mg/m2 every 21 days; in combination therapy, 40–75 mg/m2 every 21 to 28 days. Acute lymphoblastic leukemia,
+acute myeloid leukemia, Wilms’ tumor. Ewing’s sarcoma, osteosarcoma, and soft tissue sarcoma, CHILD: Always
+consult institutional protocols. Maximum cumulative dose in children in 450 mg/m2. Lifetime cumulative dose
+above 550 mg/m2 are associated with an increased risk of cardiotoxicity.
+
+Page 1 of 5
+
+
+
+April 25, 2026, 12:11:18 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IV › 10 mg powder (as hydrochloride), vial (Rx)
+
+For IV administration only. Administer IV push over at least 3–10 minutes or by continuous IV infusion via a central
+venous line. Rate of administration varies by protocol, refer to individual protocol for details. Do NOT administer by
+IM or SC. Protect from light until completionof infusion. Avoid contact with alkaline solutions. Monitor for local
+erythematous streaking along vein and/or facial flushing, which indicates rapid infusion rate. Decrease rate if this
+occurs. NOTE: Avoid extravasation. Ensure proper needle or catheter position prior to and during administration.
+If extravasation occurs, discontinue infusion immediately and apply ice to the affected area. Associated with a
+high emetic potential. Antiemetics are recommended to prevent nausea and vomiting.
+
+Dose Adjustment
+
+Hepatic Impairment:
+Reduce doses in patients with impaired hepatic function.
+For transaminases 2–3 times Upper Limit of Normal (ULN), administer 75% of dose.
+For transaminases >3 times ULN or serum bilirubin 1.2 to 3 mg/dL, administer 50% of dose.
+For serum bilirubin 3.1–5 mg/dL, administer 25% of dose.
+In severe hepatic impairment, i.e., Child-Pugh class C or bilirubin >5 mg/dL, use is contraindicated.
+
+Obesity:
+Use actual body weight (full weight) for calculation of BSAbased or weight-based dosing, especially if the intent of
+therapy is curative.
+If dose reduction is done due to toxicity, consider resumption of full weight-based dosing with subsequent cycles,
+especially if cause of toxicity is resolved.
+
+Inadequate Marrow Reserve:
+Consider lower doses due to advanced age, prior treatment, or neoplastic marrow infiltration. Cumulative doses
+above 550 mg/m2 are associated with an increased risk of cardiomyopathy. Discontinue in patients who develop
+signs or symptoms of cardiomyopathy.
+
+Indications
+
+Adjuvant therapy in women with evidence of axillary lymph node involvement following resection of primary breast
+cancer; treatment of acute lymphoblastic leukemia, acute myeloid leukemia,Wilms’ tumor, neuroblastoma, soft
+tissue and bone sarcomas, breast cancer, ovarian cancer, thyroid carcinoma, transitional cell bladder carcinoma,
+gastric carcinoma, Hodgkin’s lymphoma, non-Hodgkin’s lymphoma, and bronchogenic carcinoma in which thesmall
+cell histologic type is the most responsive compared with other cell types
+
+Page 2 of 5
+
+
+
+April 25, 2026, 12:11:18 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to doxorubicin, other anthracyclines, e.g., daunorubicin, epirubicin, idarubicin, anthracenediones,
+e.g., mitoxantrone, or any component of the formulation; severe myocardial insufficiency; recent MI (within 4–6
+weeks); severe arrhythmia; previous therapy with high cumulative doses of doxorubicin, daunorubicin, idarubicin, or
+other anthracyclines, e.g., epirubicin, and anthracenediones, e.g., mitoxantrone; severe persistent drug-induced
+myelosuppression or baseline neutrophil count <1500/mm3; severe hepatic impairment, i.e., Child-Pugh class C or
+bilirubin >5 mg/dL; G6PD deficiency
+
+Precautions
+
+WARNING: Should be administered under the supervision of an experienced cancer chemotherapy physician,
+experienced in the use of cancerchemotherapeutic agents. Administer in a facility sufficient to appropriately
+diagnose and manage complications.
+
+The risk for myocardial toxicity increases with cumulative exposure and with concomitant cardiotoxic therapy. The
+incidence of irreversible myocardial toxicity increases as the total cumulative (lifetime) doses approach 300–500
+mg/m2 (with an every-3-week regimen). Assess left ventricular ejection fraction (LVEF) with either an
+echocardiogram or MUGA scan before, during, and after therapy. Increase frequency of assessments as the
+cumulative dose exceeds 300 mg/m2.
+
+Secondary acute myelogenous leukemia (AML) and myelodysplastic syndrome (MDS) have been reported following
+treatment.
+
+May cause severe myelosuppression, which may result in serious infection, septic shock, transfusion requirements,
+hospitalization, and death. May cause hemolytic anemia with G6PD deficiency.
+
+WARNING: Hazardous agent. Use appropriate precautions for handling and disposal.
+
+Bone marrow suppression (e.g. leukopenia, neutropenia, anemia, thrombocytopenia; monitor blood counts at
+baseline and regularly during therapy).
+
+Cardiotoxicity (delayed cardiotoxicity, sub-acute effects, e.g., pericarditis or myocarditis, early toxicity, e.g.,
+tachyarrhythmias, sinus tachycardia, premature ventricular contractions, ventricular tachycardia, or bradycardia, and
+ECG changes; dose-limiting, delayed toxicity may occur late in treatment or months to years after therapy; total
+cumulative dose should be taken into account before treating with other anthracyclinesor anthracenediones,
+cardiotoxic agents, or irradiation of chest; irreversible cardiotoxicity may occur at any dose level).
+
+Fertility impairment (e.g. damage to spermatozoa and testicular tissue, oligospermia, azoospermia, or loss of fertility
+may occur in men; infertility, amenorrhea, premature menopause may occur in women of reproductive potential).
+
+Secondary malignancy (may occur within 1-3 years of treatment)
+
+Tumor lysis syndrome (tumor lysis syndrome or hyperuricemia; urinary alkalinization and antihyperuricemic
+prophylaxis may be required; monitor electrolytes, renal function, and hydration status).
+
+Concurrent radiation therapy (radiation recall may occur; may increase radiation-induced toxicity to the myocardium,
+mucosa, skin, and liver).
+
+Page 3 of 5
+
+
+
+April 25, 2026, 12:11:18 AM - https://pnf.doh.gov.ph
+
+Extravasation (extravasation during IV use causes severe local tissue damage leading to tissue injury, blistering,
+ulceration, and necrosis may occur, requiring wide excision of the affected area and skin grafting).
+
+Children (at an increased risk for developing delayed cardiotoxicity;may contribute to prepubertal growth failure in
+children; may also contribute to gonadal impairment, usually temporary; radiation recall pneumonitis has been
+reported in children receiving concomitant dactinomycin and doxorubicin).
+
+Adverse Drug Reactions
+
+Common: Abdominal pain, acute cardiotoxicity (AV block, bradycardia, bundle branch block, ECG abnormalities,
+extrasystoles (atrial orventricular), sinus tachycardia, ST-T wave changes, SVT, VT, tachyarrhythmia), alopecia,
+amenorrhea, anemia, anorexia, colon necrosis, dehydration, delayed cardiotoxicity (decreased LVEF, CHF,
+myocarditis, pericarditis), diarrhea, fluid discoloration (saliva, sweat, tears, urine), GI ulceration, hyperuricemia,
+infertility (may be temporary), itching, leukopenia or neutropenia, malaise, mucositis, nausea, photosensitivity,
+radiation recall, rash, skin “flare” at injection site, thrombocytopenia, urticaria, vomiting, weakness
+
+Less Common: Anaphylaxis, azoospermia, bilirubin increased, chills, coma (in combination with cisplatin or
+vincristine), conjunctivitis, fever, gonadal impairment (children), growth failure (prepubertal), hepatitis,
+hyperpigmentation (nail, skin, oral mucosa), keratitis, lacrimation, myelodysplastic syndrome, neutropenic fever,
+infection, neutropenic typhlitis, oligospermia, onycholysis, phlebosclerosis, radiation recall pneumonitis (children),
+secondary acute myelogenous leukemia, seizure (in combination with cisplatin or vincristine), sepsis, shock,
+systemic hypersensitivity (including urticaria, pruritus, angioedema, dysphagia, and dyspnea), SJS, TEN, urticaria
+
+Page 4 of 5
+
+
+
+April 25, 2026, 12:11:18 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Doxorubicin: Bevacizumab (cardiotoxic effect), Cyclophosphamide
+(cardiotoxic effect), Denosumab (serious infections)
+Increases risk of adverse or toxic effects of Mercaptopurine (hepatotoxic effect)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Decreases metabolism of Doxorubicin: Taxane Derivatives [e.g., Paclitaxel (except Docetaxel)]
+Decreases serum concentration of Doxorubicin: Dabrafenib, Mitotane, P-glycoprotein / ABCB1 Inducers,
+Enhances therapeutic effect of Doxorubicin: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Doxorubicin: Dipyrone (agranulocytosis, pancytopenia), Pimecrolimus,
+Tacrolimus (Topical), Trastuzumab (cardiotoxic effects)
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Leflunomide
+(hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent
+infection), Taxane Derivatives (e.g. Paclitaxel, Docetaxel), Zidovudine
+Increases serum concentration of Doxorubicin: Abiraterone Acetate, Cyclosporine, CYP2D6 Inhibitors (Moderate),
+CYP2D6 Inhibitors (Strong), Fusidic Acid (Systemic), Mifepristone, P-glycoprotein / ABCB1 Inhibitors,
+Reduces therapeutic effect of Doxorubicin: Dexrazoxane, Echinacea
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Stavudine, Vaccines (immune response; live
+virus vaccines may progress to infection), Zidovudine
+
+Mechanism of Action
+
+An anthracycline that inhibits DNA and RNA synthesis by intercalating with DNA and by inhibiting DNA repair through
+topoisomerase II inhibition.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 5 of 5

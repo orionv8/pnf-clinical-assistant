@@ -1,0 +1,118 @@
+﻿April 25, 2026, 12:10:11 AM - https://pnf.doh.gov.ph
+
+DOMPERIDONE
+
+Drug Classification
+
+ATC CODE
+
+A03FA03
+
+ANATOMICAL
+
+Alimentary Tract and Metabolism
+
+THERAPEUTIC
+
+Drugs for Functional Gastrointestinal Disorders
+
+PHARMACOLOGICAL
+
+Propulsives
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 10 mg tablet (Rx)
+
+ORAL › 1 mg/mL suspension, 60 mL bottle (Rx)
+
+Dosage
+
+ORAL › 10 mg tablet (Rx)
+
+Gastrointestinal motility disorders: by mouth, ADULT, 10 mg 3 times daily (maximum, 30 mg daily), (use the lowest
+effective dose for the shortest duration necessary); ADOLESCENT <35 kg, CHILD <12 years, and INFANT, 0.25
+mg/kg up to 3 times daily (maximum, 0.75 mg/kg daily or 30 mg daily). Gastroparesis: by mouth, ADULT, initially 10
+mg 3 times daily.
+
+Administration
+
+ORAL › 10 mg tablet (Rx)
+
+It should be taken on an empty stomach, 15–30 minutes before meals.
+
+Dose Adjustment
+
+Geriatrics: There is an increased risk of serious ventricular arrhythmia or sudden cardiac death. Use with caution
+Severe renal impairment: Reduce dose or dosing frequency with prolonged treatment.
+Mild hepatic impairment: Use with caution (undergoes hepatic metabolism).
+Moderate to severe hepatic impairment: Use is contraindicated.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 12:10:11 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Gastrointestinal motility disorders e.g., diabetic gastroparesis and gastritis.
+
+Contraindications
+
+Prolactin-releasing pituitary tumor (prolactinoma); known existing prolongation of cardiac conduction intervals,
+particularly QT; significant electrolyte disturbances; underlying cardiac disease (e.g., heart failure); moderate or
+severe hepatic impairment; patients with GI hemorrhage, mechanical obstruction, or perforation; concomitant use
+with potent CYP3A4 inhibitors, macrolides (e.g., erythromycin), protease inhibitors, or nefazodone; concomitant use
+with QT-prolonging drugs.
+
+Precautions
+
+WARNING: Prolongs QT interval and poses a risk of torsades de pointes. Consult with physician prior to concomitant
+use of a vasoconstrictor. Use epinephrine, mepivacaine, and levonordefrin with caution.
+Cardiac conduction disorders or cardiac disease; Moderate or severe hepatic impairment;
+Prolactinoma;
+In patients >60 years, there is an increased risk of serious ventricular arrhythmia or sudden cardiac death.
+
+Adverse Drug Reactions
+
+Common: Headache, migraine, xerostomia
+Less Common: Abdominal cramps, appetite changes, conjunctivitis, constipation, diarrhea, dizziness, drug
+intolerance, dysuria, edema, extrapyramidal symptoms (EPS).
+Rare: Galactorrhea, gynecomastia, heartburn, hot flashes, insomnia, irritability, lethargy, leg cramps, mastalgia,
+menstrual irregularities, nausea, nervousness, palpitation, increased prolactin, pruritus, rash, regurgitation,
+stomatitis, sudden death, thirst, torsade de pointes, urinary frequency, urticaria, weakness.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 12:10:11 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases therapeutic effects of both Domperidone and MAO Inhibitors e.g., Selegeline
+Increases risk of adverse or toxic effects of Domperidone: MAO Inhibitors e.g., Selegeline
+
+Avoid concomitant use with:
+Enhances QTc-prolonging effect of the following drugs: Ivabradine, Mifepristone, QTc-prolonging Agents
+Increase serum concentration of Domperidone: Conivaptan, CYP3A4 Inhibitors, Fusidic Acid
+
+Mechanism of Action
+
+A peripheral dopamine-receptor blocker that facilitates gastric emptying by increasing esophageal peristalsis,
+enhancing gastroduodenal coordination and lower esophageal sphincter pressure, as well as gastric motility and
+peristalsis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+REMARKS
+
+Added therapeutic class
+
+Page 3 of 3

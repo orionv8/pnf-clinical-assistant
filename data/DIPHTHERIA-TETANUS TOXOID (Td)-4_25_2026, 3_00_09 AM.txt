@@ -1,0 +1,133 @@
+﻿April 25, 2026, 3:00:10 AM - https://pnf.doh.gov.ph
+
+DIPHTHERIA-TETANUS TOXOID (Td)
+
+Drug Classification
+
+ATC CODE
+
+J07AM51
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Vaccines
+
+PHARMACOLOGICAL
+
+Bacterial Vaccines
+
+CHEMICAL CLASS
+
+Tetanus Vaccines
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › ≥ 2 IU diphtheria toxoid + ≥ 40 IU tetanus toxoid per 0.5 mL ampule (For 7 yrs. old and above) (Rx)
+
+IM › ≥ 2 IU diphtheria toxoid + ≥ 40 IU tetanus toxoid per 0.5 mL , multidose vial (10 doses per vial) (Rx)
+
+Dosage
+
+IM › ≥ 2 IU diphtheria toxoid + ≥ 40 IU tetanus toxoid per 0.5 mL ampule (For 7 yrs. old and above) (Rx)
+
+Primary immunization, by IM injection, ADULT (NOT previously immunized), 2 primary doses of 0.5 mL each, given at
+an interval of 8 weeks, then a third (reinforcing) dose of 0.5 mL 6–8 months later. Booster immunization, by IM
+injection, ADULT (with complete primary immunization series), 0.5 mL every 10 years; CHILD 11–12 years, 0.5 mL as a
+single dose when at least 5 years have elapsed since last dose of toxoid-containing vaccine; subsequent routine
+doses are not recommended more often than every 10 years [NOTE: If Tdap is given as part of catchup dosing at 7–
+10 years of age, the 11–12 year booster is not needed; regular Td booster immunizations should begin 10 years after
+the last dose of the primary series]. Tetanus prophylaxis in wound management should be based on if the status
+of the wound (clean or contaminated) and the immunization status of the patient. Wound management includes
+proper use of tetanus toxoid and/or tetanus immune globulin (TIG), wound cleaning, and (if required) surgical
+debridement and the proper use of antibiotics. Clean Minor Wounds History of Immunization Doses: Uncertain or
+<3 doses Tetanus Toxoid: Yes TIG: No History of Immunization Doses: 3 or more doses Tetanus Toxoid: No, Yes if
+≥10 years since last dose TIG: No All Other Wounds History of Immunization Doses: Uncertain or <3 doses Tetanus
+Toxoid: Yes TIG: Yes History of Immunization Doses: 3 or more doses Tetanus Toxoid: No, Yes if ≥5 years TIG: No
+
+Page 1 of 3
+
+
+
+April 25, 2026, 3:00:10 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IM › ≥ 2 IU diphtheria toxoid + ≥ 40 IU tetanus toxoid per 0.5 mL ampule (For 7 yrs. old and above) (Rx)
+
+For IM administration only into the deltoid muscle. Do NOT administer by IV or SC administration. Shake suspension
+well before use. Do NOT mix with other vaccines or injections. Use different needles and syringes for each
+injection. Administer while patient is seated or lying down to prevent syncope related injuries. NOTE: For patients
+at risk of hemorrhage following IM injection, administer by IM only if, in the opinion of the physician familiar with the
+patient's bleeding risk, the vaccine can be administered by this route with reasonable safety. Use a fine needle (23
+gauge or smaller) and apply firm pressure to the site (without rubbing) for at least 2 minutes. If the patient
+receives anti-hemophilia or other similar therapy, intramuscular vaccination can be scheduled shortly after such
+therapy is administered. Patients on anticoagulant therapy should be considered to have the same bleeding risks
+and treated as those with clotting factor disorders.
+
+Indications
+
+Tetanus and diphtheria toxoids adsorbed for adult use
+
+NOTE: For 10 years old and above.
+
+Contraindications
+
+Hypersensitivity to diphtheria, tetanus toxoid, or any component of the formulation
+
+Precautions
+
+Anaphylactoid or hypersensitivity reactions;
+Arthus-type hypersensitivity; syncope (has been reported with use);
+Acute illness;
+Bleeding disorders, including thrombocytopenia;
+Guillain-Barré syndrome;
+Altered immunocompetence (may have a reduced response to vaccination);
+Children (pediatric dosage form (DT) should only be used in patients 6 weeks to ≤6 years of age;
+Administer Td for children ≥7 years of age; apnea has occurred following administration in premature infants).
+Pregnancy (reproduction studies have not been conducted);
+Lactation (not known if excreted into breast milk; inactivated vaccines do not affect the safety of breastfeeding for
+the mother or the infant).
+
+Page 2 of 3
+
+
+
+April 25, 2026, 3:00:10 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Headache, tiredness, chills, fever, rash, lymph node swelling, nausea, vomiting, diarrhea, injection site
+reactions (pain, erythema, swelling), body ache, muscle weakness, sore or swollen joints
+Less Common: Allergic reactions, anaphylactic reactions, arthralgia, dizziness, fatigue, injection site reactions
+(cellulitis, induration, nodules, warmth), lymphadenopathy, musculoskeletal stiffness, myalgia, pain, pain in
+extremities, paresthesia, peripheral edema, seizure, syncope, weakness
+
+Drug Interactions
+
+Avoid concomitant use with:
+Reduces therapeutic effect of Diphtheria-Tetanus Toxoids:
+Belimumab
+Fingolimod [administer at least 2 weeks apart; if vaccinated during fingolimod therapy, revaccinate 2–3 months after
+fingolimod discontinuation]
+Immunosuppressants [Cytarabine, Liposomal] [administer at least 2 weeks apart; if vaccinated during
+immunosuppressant therapy, revaccinate at least 3 months after immunosuppressant discontinuation]
+Meningococcal Polysaccharide (Groups A / C / Y and W135) Tetanus Toxoid Conjugate Vaccine [administer the
+meningococcal polysaccharide (groups A / C / Y and W135) tetanus toxoid conjugate vaccine either together with or
+at least one month before a tetanus toxoids-containing vaccine]
+
+Mechanism of Action
+
+A combination vaccine that promotes active immunity to diphtheria and tetanus by inducing production of specific
+antibodies.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

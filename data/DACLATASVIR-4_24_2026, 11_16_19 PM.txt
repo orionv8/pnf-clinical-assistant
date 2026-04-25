@@ -1,0 +1,146 @@
+﻿April 24, 2026, 11:16:19 PM - https://pnf.doh.gov.ph
+
+DACLATASVIR
+
+Drug Classification
+
+ATC CODE
+
+J05AP07
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Antivirals for Treatment of HCV Infections
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 60 mg Tablet (Rx)
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:16:19 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 60 mg Tablet (Rx)
+
+Chronic hepatitis C genotype 1a or 1b, by mouth, ADULT, treatment-naïve without cirrhosis: 60 mg once daily with
+concomitant sofosbuvir for 12 weeks; peginterferon/ribavirin-experienced patients without cirrhosis: 60 mg once
+daily with concomitant sofosbuvir for 12 weeks; decompensated cirrhosis: 60 mg once daily with concomitant
+sofosbuvir and ribavirin for 12 weeks. Chronic hepatitis C genotype 2, by mouth, ADULT, treatment naïve without
+cirrhosis: 60 mg once daily with concomitant sofosbuvir for 12 weeks; treatment-naïve with compensated
+cirrhosis: 60 mg once daily with concomitant sofosbuvir for 16-24 weeks; peginterferon/ribavirin-experienced
+without cirrhosis: 60 mg once daily with concomitant sofosbuvir for 12 weeks; peginterferon/ribavirin-
+experienced with compensated cirrhosis: 60 mg once daily with concomitant sofosbuvir for 16-24 weeks; patients
+with decompensated cirrhosis: 60 mg once daily with concomitant sofosbuvir and ribavirin for 12 weeks, and 24
+weeks for patients not eligible for ribavirin; liver transplant recipients with or without cirrhosis: 60 mg once daily
+with concomitant sofosbuvir and ribavirin for 12 weeks; kidney transplant recipients with or without compensated
+cirrhosis: 60 mg once daily with sofosbuvir and ribavirin for 12 weeks. Chronic hepatitis C genotype 3, by mouth,
+ADULT, treatment naïve without cirrhosis: 60 mg once daily with concomitant sofosbuvir for 12 weeks; treatment-
+naïve with compensated cirrhosis: 60 mg once daily with concomitant sofosbuvir with or without ribavirin, for 24
+weeks; peginterferon/ribavirin-experienced without cirrhosis: 60 mg once daily with concomitant sofosbuvir for
+12 weeks; patients with decompensated cirrhosis: 60 mg once daily with concomitant sofosbuvir and ribavirin for
+12 weeks, and 24 weeks for patients not eligible for ribavirin; liver transplant recipients with or without cirrhosis:
+60 mg once daily with concomitant sofosbuvir and ribavirin for 12 weeks; kidney transplant recipients with or
+without compensated cirrhosis: 60 mg once daily with sofosbuvir and ribavirin for 12 weeks. Chronic hepatits C
+genotype 4, by mouth, ADULT, patients with decompensated cirrhosis: 60 mg once daily with concomitant
+sofosbuvir and ribavirin for 12 weeks, and 24 weeks for patients not eligible for ribavirin; liver transplant recipients
+with or without cirrhosis: 60 mg once daily with concomitant sofosbuvir and ribavirin for 12 weeks; kidney
+transplant recipients with or without compensated cirrhosis: 60 mg once daily with sofosbuvir and ribavirin for 12
+weeks.
+
+Administration
+
+ORAL › 60 mg Tablet (Rx)
+
+May be taken with or without food.
+
+Dose Adjustment
+
+Renal and Hepatic impairment:
+No dosage adjustment necessary.
+
+Indications
+
+Treatment of hepatitis C genotypes 1, 2, 3, and 4 in combination of sofosbuvir with or without ribavirin.
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:16:19 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Concurrent use with strong inducers of CYP3A4 and P-glycoprotein.
+
+Precautions
+
+May cause bradycardia; use in caution patients with cardiovascular disease, hepatic disease, hepatitis B virus
+reactivation; not to be used as monotherapy, use only in combination with other antihepatitis C virus drugs.
+
+Adverse Drug Reactions
+
+Common: Fatigue, headache, nausea, and anemia.
+Less Common: Drowsiness, insomnia, skin rash, diarrhea
+Rare: Reactivation of hepatitis B virus.
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:16:19 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+
+Increased level or effect due to Daclatasvir:
+Atorvastatin, Azithromycin, Budesonide, Carvedilol, Cetirizine, Ciprofloxacin, Cyclosporine, Dexamethasone, Digoxin,
+Diltiazem, Docetaxel, Doxorubicin, Erythromycin, Etoposide, Everolimus, Fentanyl, Hydrocortisone, Idarubicin,
+Imatinib, Irinotecan, Lansoprazole, Ledipasvir/Sofosbuvir, Levothyroxine, Lidocaine, Loreramide, Loratadine,
+Methotrexate, Methylprednisolone, Morphine, Nicardipine, Nitrofurantoin, Omeprazole, Ondansetron, Paclitaxel,
+Paliperidone, Prednisone, Quinine, Ranitidine, Rifampin, Rifaximin, Risperidone, Rosuvastatin, Sacubitril/Valsartan,
+Sertraline, Simvastatin, Tacrolimus, Telmisartan, Tenofovir, Testosterone, Valsartan, Verapamil, Vinblastine,
+Vincristine, Warfarin
+
+Increases the level or effect of Daclatasvir:
+Ciprofloxacin, Fluconazole, Itraconazole, Verapamil
+
+Increases toxicity of Amiodarone
+
+Avoid concomitant use with:
+
+Decreases the level or effect of Daclatasvir:
+Carbamazepine, Oxcarbazepine, Phenobarbital, Phenytoin, Rifabutin, Rifampin, Dexamethasone, Efavirenz
+Increases the level or effect of Daclatasvir:
+Clarithromycin, Colchicine, Imatinib, Isoniazid, Ketoconazole, Nicardipine, Voriconazole
+
+Increases the level or effect of Sofosbuvir
+
+Mechanism of Action
+
+Daclatasvir binds to the N-terminus within Domain 1 of HCV nonstructural protein 5A (NS5A) and inhibits viral RNA
+replication and virion assembly.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

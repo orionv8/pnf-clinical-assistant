@@ -1,0 +1,144 @@
+﻿April 25, 2026, 2:59:59 AM - https://pnf.doh.gov.ph
+
+DIPHTHERIA-TETANUS TOXOIDS AND ACELLULAR PERTUSSIS
+VACCINE (DTaP)
+
+Drug Classification
+
+ATC CODE
+
+J07AJ52
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Vaccines
+
+PHARMACOLOGICAL
+
+Bacterial Vaccines
+
+CHEMICAL CLASS
+
+Pertussis Vaccines
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › 0.5 mL pre-filled syringe (Rx)
+
+IM › 0.5 mL vial (Rx)
+
+Dosage
+
+IM › 0.5 mL pre-filled syringe (Rx)
+
+NOTE: Whenever possible, use the same product for all doses. Interruption of recommended schedule does not
+require starting the series over. A delay between doses should not interfere with final immunity. Primary
+immunization, by IM injection, CHILD and INFANT 6 weeks to <7 years, five 0.5 mL doses administered as follows:
+Three doses at 2, 4, and 5 months of age; may be given as early as 6 weeks of age and repeated every 4–8 weeks;
+Fourth doses at ~15 to 20 months of age but at least 6 months after third dose; may be given as early as 12 months
+of age; Fifth doses at 4–6 years of age, prior to starting school or kindergarten; if fourth dose is given at ≥4 years
+of age, the fifth dose may be omitted. Booster immunization, by IM injection, ADULT ≥19 years, 0.5 mL as a single
+dose 5 years after last dose of tetanus toxoid, diphtheria toxoid, and/or pertussis-containing vaccine [NOTE:
+Administer a single dose to replace a single dose of the 10 year Td booster in patients who have not previously
+received Tdap or for whom vaccine status is not known];CHILD ≥10 years and ADOLESCENT ≤18 years, 0.5 mL as a
+single dose 5 years after last dose of tetanus toxoid, diphtheria toxoid, and/or pertussis-containing vaccine
+[NOTE: Administer as a single booster dose at 11 or 12 years of age in adolescents who have completed a childhood
+DTaP vaccination series, followed by booster doses of Td every 10 years. Adolescents who have not received Tdap
+at age 11 or 12 should receive a single dose of Tdap in place of a single Td booster dose]. For Wound Management,
+see Diphtheria-Tetanus Toxoid (Td) under Vaccines – Bacterial Vaccines in Chapter 7: Anti-infectives for Systemic
+Use for other information.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:59:59 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IM › 0.5 mL pre-filled syringe (Rx)
+
+For IM administration only into the anterolateral aspect of the thigh or the deltoid muscle. Do NOT administer by IV
+or SC. Shake suspension well before use. Store at 2–8°C. Freezing is the most common cause of vaccine damage.
+Do NOT use a defrosted vaccine unless freezing is the recommended storage condition. Administer vaccines
+while patient is seated or lying down to prevent syncope related injuries. NOTE: For patients at risk of hemorrhage
+following IM injection, administer by IM only if, in the opinion of the physician familiar with the patient's bleeding
+risk, the vaccine can be administered by this route with reasonable safety. If the patient receives antihemophilia or
+other similar therapy, IM vaccination can be scheduled shortly after such therapy is administered. Patients on
+anticoagulant therapy should be considered to have the same bleeding risks and treated as those with clotting
+factor disorders. Administer to travelers regardless of the limitations if time is short. See Diphtheria-Tetanus
+Toxoids (DT) under Vaccines – Bacterial Vaccines in Chapter 7: Antiinfectives for Systemic Use for other
+information.
+
+Indications
+
+Active immunization against diphtheria, tetanus, and pertussis
+
+Contraindications
+
+Hypersensitivity to diphtheria, tetanus toxoids, pertussis, or any component of the formulation; progressive
+neurologic disorder, including infantile spasms, uncontrolled epilepsy or progressive epilepsy; encephalopathy
+occurring within 7 days of administration and not attributable to another cause
+
+Precautions
+
+Anaphylactoid or hypersensitivity reactions;
+Arthus-type hypersensitivity; syncope (has been reported with use);
+Acute illness;
+Bleeding disorders, including thrombocytopenia;
+Guillain-Barré syndrome;
+Altered immunocompetence (may have a reduced response to vaccination);
+Children (pediatric dosage form (DT) should only be used in patients 6 weeks to ≤6 years of age;
+Administer Td for children ≥7 years of age; apnea has occurred following administration in premature infants).
+Pregnancy (reproduction studies have not been conducted);
+Lactation (not known if excreted into breast milk; inactivated vaccines do not affect the safety of breastfeeding for
+the mother or the infant).
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:59:59 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Apathy, drowsiness, irritability, lethargy, headache, fatigue, chills, skin rash, increased arm circumference,
+GI disease, adenopathy, injection site reactions (erythema, pain, edema, tenderness, swelling), crying (prolonged or
+persistent), fever, fussiness, myalgia, arthralgia
+Less Common: Anaphylaxis, angioedema, apnea, back pain, brain disease, bronchitis, cellulitis, cough, cyanosis,
+diabetes mellitus, diarrhea, encephalitis, erythema, facial paralysis, fatigue, Guillain-Barré syndrome,
+hypersensitivity reaction, headache, hypoesthesia, hypotonia, hypotonic or hyporesponsive episode, IgA vasculitis,
+immune thrombocytopenia, infantile spasm, injection site reaction (bruising, induration, mass, nodule, pruritus, rash,
+sterile abscess, warmth), intussusception, lymphadenitis, lymphadenopathy, myalgia, myocarditis, myositis, nausea,
+nerve compression, otalgia, paresthesia, peripheral edema (extensive), pruritus, respiratory tract infection,
+screaming, seizure, sudden infant death syndrome, syncope, thrombocytopenia, urticaria
+
+Drug Interactions
+
+Avoid concomitant use with:
+Reduces therapeutic effect of Diphtheria-Tetanus Toxoids:
+Belimumab
+Fingolimod [administer at least 2 weeks apart; if vaccinated during fingolimod therapy, revaccinate 2–3 months after
+fingolimod discontinuation]
+Immunosuppressants [Cytarabine, Liposomal] [administer at least 2 weeks apart; if vaccinated during
+immunosuppressant therapy, revaccinate at least 3 months after immunosuppressant discontinuation]
+Meningococcal Polysaccharide (Groups A / C / Y and W135) Tetanus Toxoid Conjugate Vaccine [administer the
+meningococcal polysaccharide (groups A / C / Y and W135) tetanus toxoid conjugate vaccine either together with or
+at least one month before a tetanus toxoids-containing vaccine]
+
+Mechanism of Action
+
+A three-component preparation of diphtheria and tetanus toxoids, and acellular pertussis vaccine that promotes
+active immunity to diphtheria, tetanus, and pertussis by inducing production of specific antibodies.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

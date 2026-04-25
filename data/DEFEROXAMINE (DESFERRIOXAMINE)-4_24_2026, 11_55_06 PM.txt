@@ -1,0 +1,163 @@
+﻿April 24, 2026, 11:55:07 PM - https://pnf.doh.gov.ph
+
+DEFEROXAMINE (DESFERRIOXAMINE)
+
+Drug Classification
+
+ATC CODE
+
+V03AC01
+
+ANATOMICAL
+
+Various
+
+THERAPEUTIC
+
+All Other Therapeutic Products
+
+PHARMACOLOGICAL
+
+Iron Chelating Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV INFUSION › SC › 500 mg powder (as mesylate), vial (Rx)
+
+Dosage
+
+IM / IV INFUSION / SC › 500 mg powder (as mesylate), vial (Rx)
+
+Acute iron toxicity, by IM injection, ADULT, initially 1,000 mg, may be followed by 500 mg every 4 hours for 2 doses,
+subsequent doses of 500 mg have been administered every 4–12 hours based on clinical response (maximum
+recommended dose, 6,000 mg daily); ADOLESCENT and CHILD, 90 mg/kg per dose every 8 hours (maximum, 6,000
+mg in 24 hours); by IV infusion, ADULT, initially 1,000 mg at 15 mg/kg per hour, subsequent doses may be given over
+4–12 hours at a rate not to exceed 125 mg/hour; ADOLESCENT and CHILD, 15 mg/kg per hour (maximum, 6,000 mg in
+24 hours). Chronic iron overload, by IM injection, ADULT, 500 to 1,000 mg daily (maximum, 1,000 mg daily); by IV
+infusion, ADULT, 40–50 mg/kg daily (maximum, 60 mg/kg daily) over 8–12 hours for 5–7 days per week; ADOLESCENT
+and CHILD ≥3 years, 20–40 mg/kg daily over 8–12 hours for 5–7 days per week, not to exceed 40 mg/kg daily until
+growth has ceased; by SQ injection, ADULT, 1,000–2,000 mg daily or 20–40 mg/kg daily over 8–24 hours;
+ADOLESCENT and CHILD ≥3 years, 20–40 mg/kg daily over 8–12 hours (maximum daily dose, 1,000–2,000 mg).
+
+Administration
+
+IM / IV INFUSION / SC › 500 mg powder (as mesylate), vial (Rx)
+
+Administer by IV injection when severe toxicity is evidenced by cardiovascular collapse or systemic symptoms
+(coma, shock, metabolic acidosis, or GI bleeding) or potentially severe intoxications (peak serum iron level >500
+micrograms/dL). IM injection may be used for patients with acute iron toxicity that do not exhibit severe symptoms,
+and in the treatment of chronic iron toxicity. NOTE: Limit vitamin C supplements in adults at 200 mg daily in divided
+doses, in children ≥10 years at 100 mg daily, and in children <10 years at 50 mg daily.
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:55:07 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Initiate at the lower end of the dosing range.
+Renal Impairment:
+Deferoxamine is readily dialyzable.
+In CrCl 10–50 mL/minute and CRRT, administer 25 to 50%
+of normal dose.
+
+In CrCl <10 mL/minute, hemodialysis, and peritoneal
+dialysis, avoid use.
+
+Indications
+
+Adjunct in the treatment of acute iron
+intoxication; treatment of chronic iron overload
+secondary to multiple transfusions
+
+Contraindications
+
+Severe renal disease; anuria
+
+Precautions
+
+Acute respiratory distress syndrome, ARDS;
+Auditory effects (eg. tinnitus, high frequency hearing loss);
+Ocular effects (eg. blurred vision, cataracts, corneal
+opacities, decreased visual acuity, impaired peripheral,
+color, and night vision, optic neuritis, retinal pigment
+abnormalities, scotoma, visual loss or defect);
+Growth retardation;
+Infection (increased susceptibility to infection with Yersinia
+enterocolitica and Yersinia pseudotuberculosis);
+Mucormycosis;
+Renal effects (e.g., increases in serum creatinine, acute
+renal failure and renal tubular disorders; monitor for
+changes in renal function);
+Urine discoloration;
+Elderly (eg. hearing loss and ocular disorders);
+Pregnancy;
+Lactation.
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:55:07 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common and Less Common:
+Flushing, hypotension, shock,
+tachycardia, brain disease, dizziness, headache,
+neuropathy, paresthesia, seizure, skin rash, urticaria,
+growth suppression (children), hyperparathyroidism
+(aggravated), hypocalcemia, abdominal distress,
+abdominal pain, diarrhea, nausea, vomiting, dysuria,
+urine discoloration (reddish), dysplasia (metaphyseal;
+children <3 years; dose related), leukopenia,
+thrombocytopenia, anaphylaxis, hepatic insufficiency,
+muscle spasm, angioedema, hypersensitivity, infection
+(Yersinia, mucormycosis), injection site reaction,
+arthralgia, myalgia, blurred vision, cataract,
+chromatopsia, corneal opacity, decreased peripheral
+vision, decreased visual acuity, nocturnal amblyopia,
+optic neuritis, retinal pigment changes, scotoma, vision
+loss, visual field defect, hearing loss, tinnitus, acute renal
+failure, renal tubular disease, acute respiratory distress
+(dyspnea, cyanosis, and/or interstitial infiltrates),
+asthma, fever
+
+Drug Interactions
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects Deferoxamine:
+Ascorbic Acid (left ventricular dysfunction), Multivitamins
+/ Fluoride with ADE, Multivitamins / Minerals with ADEK,
+Folate, Iron (left ventricular dysfunction), Multivitamins /
+Minerals with AE, no Iron
+
+Increases risk of adverse or toxic effects of Prochlorperazine
+(prolonged loss of consciousness)
+
+TEST INTERATIONS. TIBC may be falsely elevated with high
+serum iron concentrations or deferoxamine therapy.
+
+Mechanism of Action
+
+A chelating agent that complexes with ferric trivalent ions to
+form ferrioxamine, which is removed by the kidneys. This
+slows accumulation of hepatic iron and retards or
+eliminated progression of hepatic fibrosis.
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:55:07 PM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

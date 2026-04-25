@@ -1,0 +1,95 @@
+﻿April 24, 2026, 11:58:54 PM - https://pnf.doh.gov.ph
+
+DELAMANID
+
+Drug Classification
+
+ATC CODE
+
+J04AK06
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antimycobacterials
+
+PHARMACOLOGICAL
+
+Drugs for Treatment of Tuberculosis
+
+CHEMICAL CLASS
+
+Drugs for Tuberculosis
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+UNASSIGNED › 50 mg film-coated tablet (Rx)
+
+Dosage
+
+UNASSIGNED › 50 mg film-coated tablet (Rx)
+
+Combination therapy, by mouth, ADULT ≥18 years, 100 mg twice daily for 24 weeks. (no data in the elderly)
+
+Administration
+
+UNASSIGNED › 50 mg film-coated tablet (Rx)
+
+For oral use. Delamanid should be taken with food. Administer by directly observed therapy and used only in
+combination with other antimycobacterial drugs. Emphasize the need for compliance with full course of therapy.
+Note: Delamanid must be given in combination with other drugs. Treatment with an appropriate combination
+regimen should continue after completion of the 24-week Delamanid treatment period.
+
+Indications
+
+Treatment of pulmonary multi-drug resistant tuberculosis in combination with other drugs.
+
+Page 1 of 2
+
+
+
+April 24, 2026, 11:58:54 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to Delamanid, patients with serum albumin <2.8 g/dL.
+
+Precautions
+
+Resistance to Delamanid: Use only in combination with other MDR-TB treatment.
+QT Prolongation
+
+Note: Monitor ECG and serum electrolytes.
+
+Adverse Drug Reactions
+
+Common:
+Incidence >10%: nausea, vomiting, headache, insomnia, dizziness, tinnitus, hypokalemia, gastritis, decreased
+appetite, and asthenia
+
+Less Common:
+Anemia, eosinophilia, hypertriglyceridemia, psychotic disorder, agitation, anxiety and anxiety disorder, depression
+and depressed mood, restlessness, neuropathy peripheral, somnolence, hypoesthesia, dry eye, photophobia, ear
+pain, low and high blood pressure, hematoma, hot flush, dyspnea, cough, oropharyngeal pain, throat irritation, dry
+throat, rhinorrhea, gastritis, constipation, abdominal pain and discomfort, dyspepsia, dermatitis, urticaria, rash,
+pruritus, hyperhidrosis, osteochondrosis, muscular weakness, musculoskeletal pain, pain in extremity, hematuria,
+pyrexia, chest pain, malaise, chest discomfort, peripheral edema, increased blood cortisol.
+
+Drug Interactions
+
+Avoid concomitant use with:
+Reduces the therapeutic effect of Delamanid:
+Strong inducers of CYP3A4 (rifampicin, carbamazepine)
+
+Increases the therapeutic effect of Delamanid:
+Antiretroviral drugs (lopinavir/tenofovir)
+
+Mechanism of Action
+
+Delamanid is an antimycobacterial which can inhibit the synthesis of mycobacterial cell wall components, methoxy-
+mycolic and keto-mycolic acid.
+
+Page 2 of 2

@@ -1,0 +1,126 @@
+﻿April 24, 2026, 11:16:39 PM - https://pnf.doh.gov.ph
+
+DOBUTAMINE
+
+Drug Classification
+
+ATC CODE
+
+C01CA07
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Cardiac Therapy
+
+PHARMACOLOGICAL
+
+Cardiac Stimulants, Excluding Cardiac Glycosides
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 50 mg/mL (concentrate, as hydrochloride) (Rx)
+
+IV › 5 mL ampule (Rx)
+
+IV › 2 mg/mL (as hydrochloride) (Rx)
+
+IV › 250 mL D5W (pre-mixed) (Rx)
+
+Dosage
+
+IV › 50 mg/mL (concentrate, as hydrochloride) (Rx)
+
+Immediate postcardiac arrest care setting, based on Adult Advanced Cardiovascular Life Support (ACLS)
+guidelines: by IV infusion, ADULT, initially 5–10 micrograms/kg per minute; titrate to effect. Cardiac output
+maintenance and post-resuscitation stabilization, based on Pediatric Advanced Life Support (PALS) guidelines: by
+IV injection, CHILD, 2–20 micrograms/kg per minute. Cardiac decompensation: by IV infusion, ADULT, initially 0.5–1
+micrograms/kg per minute; may initiate at higher doses, e.g., 2.5 micrograms/kg per minute, depending on
+severity of decompensation with titration to desired response (maintenance dose, 2–20 micrograms/kg per
+minute; maximum dose, 40 micrograms/kg per minute).
+
+Administration
+
+IV › 50 mg/mL (concentrate, as hydrochloride) (Rx)
+
+For IV administration. Always administer via infusion device into a large vein.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 11:16:39 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Heart Failure:
+Reduce doses to minimize adverse effects (maximum dose, 20 micrograms/kg per minute).
+
+Indications
+
+For management of cardiogenic or vascular shock; inotropic agent; cardiac decompensation
+
+Contraindications
+
+Hypertrophic cardiomyopathy with outflow tract obstruction (formerly known as idiopathic hypertrophic subaortic
+stenosis [IHSS])
+
+Precautions
+
+Arrhythmias (e.g. ventricular arrhythmias and sudden cardiac death; may increase ventricular response rate)
+Blood pressure effects (increase in blood pressure is more common due to augmented cardiac output; may also
+cause hypotension due to peripheral vasodilation)
+Heart failure complications (increased risk of hospitalization and death with prolonged use)
+Tachycardia and ventricular ectopy (dose-related)
+Aortic stenosis (renders therapy ineffective); electrolyte imbalance (correct hypokalemia or hypomagnesemia prior
+to use and throughout therapy to minimize the risk of arrhythmias); hypovolemia; active myocardial ischemia or
+recent myocardial infarction (can increase myocardial oxygen demand)
+Lactation (not known if excreted in breastmilk; use with caution in nursing women)
+
+Adverse Drug Reactions
+
+Common: Ventricular premature contractions, angina pectoris, chest pain, palpitations, hypotension, increased
+blood pressure, increased heart rate, localized phlebitis, ventricular ectopy (increased), headache, paresthesia,
+nausea, local inflammation, local pain (from infiltration), leg cramps, dyspnea, fever
+Rare: Skin necrosis, thrombocytopenia
+
+Page 2 of 3
+
+
+
+April 24, 2026, 11:16:39 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Dobutamine:
+COMT Inhibitors e.g. Entacapone
+
+Enhances therapeutic effect (hypertensive and tachycardic effects) of Dobutamine:
+Atomoxetine, Tedizolid
+
+Increases risk of adverse or toxic effects of the following drugs:
+Doxofylline, Other Sympathomimetics
+
+Reduces therapeutic effect of Dobutamine:
+Calcium Salts
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Dobutamine:
+Linezolid (hypertensive effect)
+
+Mechanism of Action
+
+A racemic mixture of dobutamine. It stimulates myocardial beta1adrenergic receptors and some alpha1-receptors.
+This results in increased contractility and heart rate, and some peripheral vasodilation.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3
