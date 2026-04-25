@@ -1,0 +1,150 @@
+﻿April 25, 2026, 1:53:28 AM - https://pnf.doh.gov.ph
+
+MANNITOL (OTHER DIURETICS)
+
+Drug Classification
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Diuretics
+
+PHARMACOLOGICAL
+
+Other Diuretics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 20%, 500 mL bottle (Rx)
+
+IV › 20%, 250 mL bottle (Rx)
+
+Dosage
+
+IV › 20%, 500 mL bottle (Rx)
+
+Increased intracranial pressure, cerebral edema, by IV injection, ADULT, 0.25–1 g/kg per dose; may repeat every 6–8
+hours, as needed; maintain serum osmolality <300–320 mOsm/kg; CHILD, 0.25–1 g/kg per dose; repeat as needed
+to maintain serum osmolality <300–320 mOsm/kg; administer over 30–60 minutes. Reduction of intraocular
+pressure, by IV injection, ADULT, 0.25–2 g/kg administered over 30–60 minutes 1–1.5 hours prior to surgery; CHILD,
+1 to 2 g/kg or 30–60 g/m2 administered over 30–60 minutes 1–1.5 hours prior to surgery. Reduction of intraocular
+pressure, traumatic hyphema, by IV injection, ADULT, 1.5 g/kg administered over 45 minutes twice daily for IOP >35
+mm Hg; may administer every 8 hours; CHILD, 1.5 g/kg administered over 45 minutes twice daily for IOP >35 mm Hg;
+may administer every 8 hours in patients with extremely high pressure.
+
+Administration
+
+IV › 20%, 500 mL bottle (Rx)
+
+Administer by intravenous route. Concentration and rate of administration depends on indication, severity, or
+adjusted to urine flow. Inspect for crystals prior to administration. If crystals are present, warm solution to re-
+dissolve crystals. Use filter type administration set for infusion solutions greater than or equal to 20%. Do NOT
+administer until adequacy of renal function and urine flow is established. Use 1–2 test doses to assess renal
+response. NEVER add to whole blood for transfusion or administer through the same set by which blood is being
+infused to prevent crenation and agglutination of red blood cells.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:53:28 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Consider initiation at lower end of dosing range.
+
+Small and/ or debilitated patients:
+Consider giving 500 mg/kg.
+
+Indications
+
+To reduce cerebral edema; to reduce increased intraocular pressure
+
+NOTE: NOT recommended for the prevention of acute renal failure and/or promotion of diuresis.
+
+Contraindications
+
+Hypersensitivity to mannitol or any component of the formulation; severe renal disease (anuria); severe dehydration;
+active intracranial bleeding except during craniotomy; progressive heart failure, pulmonary congestion, or renal
+dysfunction after administration; severe pulmonary edema or congestion.
+
+Precautions
+
+WARNING: Use caution in patients with underlying renal disease. May be used to reduce the incidence of acute
+tubular necrosis when administered prior to revascularization during kidney transplantation.
+
+Carefully monitor fluid balance, electrolytes, renal function, and vital signs during infusion to prevent fluid and
+electrolyte imbalance, including circulatory overload and tissue dehydration; Extravasation (vesicant at
+concentrations >5%; ensure proper catheter or needle position prior to and during IV infusion); fluid or electrolyte
+loss (close medical supervision and dose evaluation are required; adjust dose to avoid dehydration); Nephrotoxicity
+(use caution in patients taking other nephrotoxic agents, with sepsis or preexisting renal disease; maintain serum
+osmolality less than 320 mOsm/L to minimize adverse effects; discontinue if evidence of acute tubular necrosis
+occurs); Cerebral edema; cardiovascular status should also be evaluated; Lactation (use with caution).
+
+Adverse Drug Reactions
+
+Common: Fluid and electrolyte imbalance including circulatory overload and acidosis (large doses), nausea, vomiting,
+thirst, headache, dizziness, chills, fever, tachycardia, chest pain, hyponatremia, dehydration, blurred vision, urticaria,
+hypotension or hypertension, hypersensitivity reactions, extravasation (leading to edema and skin necrosis),
+thrombophlebitis.
+Rare: Acute renal failure (large doses)
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:53:28 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Mannitol:
+Barbiturates (hypotensive effect)
+Brimonidine, topical (hypotensive effect)
+MAO Inhibitors (hypotensive effect)
+Nicorandil (hypotensive effect)
+Pentoxifylline (antihypertensive effect)
+Phosphodiesterase-5 Inhibitors (antihypertensive effect)
+Prostacyclin Analogues (hypotensive effect)
+
+Enhances therapeutic effect of the following drugs:
+Alfuzosin (hypotensive effect), Other Antihypertensives (hypotensive effect), Herbs with hypertensive properties
+(hypotensive effect), Risperidone (hypotensive effect)
+
+Increases risk of adverse or toxic effects of Mannitol:
+Opioid Analgesics, Other Hypotensive Agents, MAO Inhibitors [except Linezolid, Tedizolid] (orthostatic hypotensive
+effect)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Duloxetine (orthostatic hypotensive effect)
+Levodopa (orthostatic hypotensive effect)
+
+Reduces therapeutic effect of Mannitol:
+Herbs with hypertensive properties (antihypertensive effect)
+Methylphenidate (antihypertensive effect)
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of the following drugs:
+Aminoglycosides (nephrotoxic effect)
+Obinutuzumab [withhold Mannitol 12 hours prior to Obinutuzumab infusion until 1 hour after the end of the infusion]
+(hypotensive effect)
+Rituximab (hypotensive effect)
+Sodium Phosphates (nephrotoxic effect; risk of acute phosphate nephropathy)
+
+Mechanism of Action
+
+A hexahydric alcohol related to mannose that acts as an osmotic agent with little energy value. It is eliminated from
+the body before any metabolism can take place. When given parenterally, mannitol raises the osmotic pressure of the
+plasma, thus drawing water out of body tissues and producing an osmotic diuresis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

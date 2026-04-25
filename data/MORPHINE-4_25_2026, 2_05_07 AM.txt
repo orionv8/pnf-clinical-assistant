@@ -1,0 +1,200 @@
+﻿April 25, 2026, 2:05:08 AM - https://pnf.doh.gov.ph
+
+MORPHINE
+
+Drug Classification
+
+ATC CODE
+
+N02AA01
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Analgesics
+
+PHARMACOLOGICAL
+
+Opioids
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 10 mg tablet / capsule (as sulfate) (Rx)
+
+ORAL › 20 mg tablet / capsule (as sulfate) (Rx)
+
+ORAL › 30 mg tablet / capsule (as sulfate) (Rx)
+
+ORAL › 10 mg MR tablet (as sulfate) (Rx)
+
+ORAL › 30 mg MR tablet (as sulfate) (Rx)
+
+ORAL › 60 mg MR tablet (as sulfate) (Rx)
+
+IM › IV › SC › 10 mg/mL (as sulfate), 1 mL ampule (Rx)
+
+IM › IV › SC › 16 mg/mL (as sulfate), 1 mL ampule (Rx)
+
+Page 1 of 5
+
+
+
+April 25, 2026, 2:05:08 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 10 mg tablet / capsule (as sulfate) (Rx)
+
+NOTE: Tailor dosing based on patient's needs, type of pain being treated, route of administration, degree of
+tolerance for opioids, age, weight, and medical condition. The optimal analgesic dose varies widely among
+patients. Titrate doses to pain relief/prevention. Acute pain, moderate to severe, by mouth, ADULT (opioid naïve),
+as immediate-release tablet or capsule, initially 15–30 mg every 4 hours as needed; patients with prior opioid
+exposure may require higher initial doses; CHILD >6 months and <50 kg, as immediate-release tablet or capsule,
+0.15–0.3 mg/kg every 3–4 hours as needed; if pain is severe, an initial dose of 0.3 mg/kg may be administered; by IM
+or SC injection, ADULT (opioid naïve), initially 5–10 mg every 4 hours as needed; usual range, 5–15 mg every 4 hours
+as needed; patients with prior opioid exposure may require higher initial doses; CHILD >6 months and <50 kg, 0.1–
+0.2 mg/kg; by IV injection, ADULT (opioid naïve), initially 2.5–5 mg every 3–4 hours; patients with prior opioid
+exposure may require higher initial doses. [NOTE: Administer 2–3 mg every 5 minutes until pain relief or if
+associated sedation, oxygen saturation <95%, or serious adverse event occurs, may be appropriate in treating
+acute moderate-to-severe pain in immediate postoperative period or the emergency department; maximum
+cumulative dose prompting reevaluation of continued morphine use and/or dose should be included as part of any
+medication order intended for short-term use.]; CHILD >6 months and <50 kg, 0.05–0.3 mg/kg every 3–4 hours as
+needed, not to exceed 10 mg per dose; by continuous IV or SC infusion, ADULT, 0.8–10 mg/hour; usual range is up
+to 80 mg/hour; may administer a loading dose prior to initiating the infusion; ADULT (critically ill patients), usual
+range Is 2–30 mg/hour; ADULT (patient-controlled analgesia), usual concentration is 1 mg/mL; usual demand dose
+is 1 mg, ranging from 0.5–2.5 mg; lockout interval is 5–10 minutes; CHILD >6 months and <50 kg, initially 10–30
+micrograms/kg per hour, titrate as needed to control pain; CHILD >6 months and <50 kg (patient-controlled
+analgesia; opioid-naive), consider using lower end of dosing range; usual concentration is 1 mg/mL; usual demand
+dose is 0.02 mg/kg per dose ranging from 0.01–0.03 mg/kg per dose; lockout interval is 8–10 minutes; usual basal
+rate is 0–0.03 mg/kg per hour. Chronic pain, by mouth, ADULT (opioid-tolerant), as MR tablet, 90–120 mg once daily
+at the same time each day; ADULT (opioid naïve), initially 30 mg once daily; adjust in increments =30 mg daily every
+3–4 days (maximum dose, 1,600 mg daily).
+
+Administration
+
+ORAL › 10 mg tablet / capsule (as sulfate) (Rx)
+
+For oral administration, swallow MR tablets whole. Do NOT crush, chew, or dissolve to prevent the rapid release of
+a potentially fatal dose of morphine. Take consistently with regards to meals. Administration with food may
+increase bioavailability. Morphine may cause GI upset. Take with food if GI upset occurs. Avoid alcohol. Do NOT
+administer with alcoholic beverages or ethanol-containing prescription or nonprescription products. Establish a
+patient's morphine requirement using immediate-release tablets or capsules. Conversion to MR tablets may be
+considered when chronic, continuous treatment is required. Reserve the use of higher doses in opioid-tolerant
+patients only. Reserve use of MR tablets in patients for whom alternative treatment options are ineffective, not
+tolerated, or would be otherwise inadequate to provide sufficient management of pain. When administering by IV
+push, dilute with sterile water or NS to a concentration of 1 mg/mL in adults or 0.1–1 mg/mL in children. Administer
+slowly over 4–5 minutes. Repeated SC administration causes local tissue irritation, pain, and induration. The use of
+IM injections is no longer recommended for repeated administration due to painful administration, variable
+absorption, and lag time to peak effect. Do NOT use unless the solution is colorless or pale yellow. Protect from
+light. NOTE: Conversion from parenteral to MR tablet. Substantial interpatient variability exists in relative potency.
+Therefore, it is safer to underestimate a patient's daily oral morphine requirement and provide breakthrough pain
+relief with immediate-release morphine. Consider the parenteral to oral morphine ratio. Parenteral to oral
+morphine ratio. Between 2–6 mg of oral morphine may be required for analgesia equivalent to 1 mg of parenteral
+morphine. An oral dose 3 times the daily parenteral dose may be sufficient in chronic pain settings.
+
+Page 2 of 5
+
+
+
+April 25, 2026, 2:05:08 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric and Debilitated Patients:
+Use with caution. May require reduced doses.
+
+Renal Impairment:
+For CrCl 10–50 mL/minute and patients on CRRT, administer 75% of normal dose.
+For CrCl <10 mL/minute and patients on peritoneal dialysis, administer 50% of normal dose.
+
+Hepatic Impairment:
+Substantial extrahepatic metabolism may occur. In cirrhosis, increases in half-life and AUC may require dose
+adjustment.
+
+Indications
+
+[Oral]: Relief of moderate to severe acute and chronic pain for which use of an opioid analgesic is appropriate;
+management of pain severe enough to require daily, around-the-clock, long-term opioid treatment and for which
+alternative treatment options are inadequate.
+
+[Injection]: Relief of severe pain, such as MI and severe injuries; relief of dyspnea of acute left ventricular failure and
+pulmonary edema; preanesthetic medication; management of pain for extended periods without attendant loss of
+motor, sensory, or sympathetic function.
+
+Page 3 of 5
+
+
+
+April 25, 2026, 2:05:08 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+[Oral]: GI obstruction and hypercarbia.
+
+[Injection]: Severe respiratory depression; acute or severe asthma (in an unmonitored setting or without
+resuscitative equipment); known or suspected paralytic ileus; presence of infection at infusion site; concomitant
+anticoagulant therapy; uncontrolled bleeding diathesis; heart failure due to chronic lung disease; cardiac
+arrhythmias; increased intracranial pressure; head injuries; brain tumors; acute alcoholism; deliriums tremens;
+seizure disorders; use during labor when a premature birth is anticipated.
+
+NOTE: Some contraindications are product specific. See detailed product prescribing information.
+
+Precautions
+
+WARNING: Risk of overdose. NOT recommended for single-dose IV, IM, or SC administration because of the very large
+amount of morphine in the ampule and the associated risk of overdosage.
+
+Naloxone injection and resuscitative equipment should be immediately available for use in case of life-threatening or
+intolerable side effects and whenever therapy is being initiated, the reservoir is being refilled, or any manipulation of
+the reservoir system is taking place.
+
+Each ampule contains a large amount of a potent narcotic which has been associated with abuse and dependence
+among healthcare providers. Due to the limited indications for this product, the risk of overdosage and the risk of its
+diversion and abuse, it is recommended that special measures be taken to control this product within the hospital or
+clinic, including wastage and access.
+
+Page 4 of 5
+
+
+
+April 25, 2026, 2:05:08 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Circulatory depression, flushing, shock, bradycardia, hypotension, atrial fibrillation, chest pain, edema,
+hypertension, palpitation, syncope, tachycardia, vasodilation, dysphonia, physical and psychological dependence,
+sedation, drowsiness, dizziness, confusion, amnesia, fever, agitation, anxiety, apathy, apprehension, ataxia, chills,
+coma, delirium, depression, dream abnormalities, euphoria, false sense of well-being, hallucination, hypoesthesia,
+insomnia, lethargy, malaise, nervousness, restlessness, seizure, slurred speech, somnolence, vertigo, pruritus (dose
+related), dry skin, rash, urticaria, antidiuretic hormone release, hypogonadism, gynecomastia, hypokalemia,
+hyponatremia, decreased libido, constipation, nausea, vomiting, abdominal distension, abdominal pain, anorexia,
+biliary colic, diarrhea, dyspepsia, dysphagia, flatulence, gastroenteritis, GERD, GI irritation, paralytic ileus, rectal
+disorder, taste perversion, weight loss, xerostomia, bladder spasm, dysuria, abnormal ejaculation, impotence,
+decreased urination, leukopenia, thrombocytopenia, pain at injection site, decreased bone mineral density,
+weakness, arthralgia, back pain, bone pain, foot drop, gait abnormalities, paresthesia, rigors, skeletal muscle rigidity,
+amblyopia, conjunctivitis, tremor, eye pain, vision problems or disturbance, decreased oxygen saturation, oliguria,
+asthma, atelectasis, dyspnea, hiccups, pulmonary edema (noncardiogenic), hypoxia, hypercapnia, respiratory
+depression, rhinitis, flulike syndrome, diaphoresis, infection, thirst, histamine release, voice alteration, withdrawal
+syndrome.
+
+Less Common: Amenorrhea, anaphylaxis, apnea, biliary tract spasm, bronchospasm, blurred vision, cardiac arrest,
+decreased cough reflex, dehydration, intestinal obstruction, diplopia, disorientation, hemorrhagic urticaria,
+intracranial pressure increased, laryngospasm, menstrual irregularities, miosis, myoclonus, nystagmus, paradoxical
+CNS stimulation, respiratory arrest, sepsis, thermal dysregulation, toxic psychoses, urinary tract spasm.
+
+Mechanism of Action
+
+Morpine is a mu receptor agonist in the CNS and PNS. It binds to opioid receptors in the CNS, causing inhibition of
+ascending pain pathways, altering the perception of and response to pain, as well as producing generalized CNS
+depression.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

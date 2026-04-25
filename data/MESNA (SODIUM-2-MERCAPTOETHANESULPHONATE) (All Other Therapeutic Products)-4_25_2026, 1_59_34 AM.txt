@@ -1,0 +1,149 @@
+﻿April 25, 2026, 1:59:35 AM - https://pnf.doh.gov.ph
+
+MESNA (SODIUM-2-MERCAPTOETHANESULPHONATE) (All
+Other Therapeutic Products)
+
+Drug Classification
+
+ATC CODE
+
+V03AF01
+
+ANATOMICAL
+
+Various
+
+THERAPEUTIC
+
+All Other Therapeutic Products
+
+PHARMACOLOGICAL
+
+All Other Therapeutic Products
+
+CHEMICAL CLASS
+
+Detoxifying Agents for Antineoplastic Treatment
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 100 mg/mL, 4 mL ampule (Rx)
+
+Dosage
+
+IV › 100 mg/mL, 4 mL ampule (Rx)
+
+NOTE: Given as IV bolus injection in a dose equal to 20% of the ifosfamide dose weight by weight (w/w) at the time
+of ifosfamide administration, then at 4 and 8 hours after each dose of ifosfamide. The total daily dose of mesna
+injection is 60% of the ifosfamide dose. Prophylaxis against ifosfamide-induced hemorrhagic cystitis, by IV bolus
+injection, ADULT, recommended dosing schedule: Ifosfamide 0 hours: 1.2 g/m² 4 hours: 8 hours: Mesna 0
+hours:240 mg/m² 4 hours:240 mg/m² 8 hours:240 mg/m² Repeat on each day of ifosfamide administration.
+
+Administration
+
+IV › 100 mg/mL, 4 mL ampule (Rx)
+
+May be given on a fractionated dosing schedule of 3 bolus IV injections. Maintain adequate hydration and urinary
+output during ifosfamide treatment. See Mesna (sodium-2-mercaptoethanesulphonate) under Antineoplastic
+Agents – Adjuncts to Antineoplastic Chemotherapy in Chapter 8: Antineoplastic and Immunomodulating Agents
+for other information.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:59:35 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Select doses with caution, reflecting greater frequency of
+decreased hepatic, renal, or cardiac function, and of
+concomitant disease or other drugs. The ratio of
+ifosfamide to mesna should remain unchanged.
+
+Indications
+
+Prophylactic agent in reducing incidence of
+ifosfamide-induced hemorrhagic cystitis
+
+Precautions
+
+WARNING: Hazardous agent. Use appropriate
+precautions for handling and disposal.
+
+Hypersensitivity reactions (eg. anaphylaxis; may cause
+fever, hypotension, tachycardia, acute renal impairment,
+hypoxia, respiratory distress, urticaria, angioedema,
+laboratory signs of disseminated intravascular
+coagulation, hematological abnormalities, nausea,
+vomiting, arthralgia, myalgia);
+Dermatologic toxicity (eg. urticaria, rash, erythema, pruritus,
+burning sensation, angioedema, periorbital edema,
+flushing, and stomatitis reactions consistent with SJS or
+TENhave);
+Hematuria (monitor urine for hematuria; severe hematuria
+despite utilization of mesna may require ifosfamide dose
+reduction or discontinuation; examine morning urine
+specimen for hematuria prior to ifosfamide or
+cyclophosphamide treatment);
+Ifosfamide or cyclophosphamide toxicities;
+Elderly;
+Children (avoid use in neonates, premature, and low-birth
+weight infants);
+Lactation.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:59:35 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common:
+Anorexia, arthralgia, conjunctivitis, back pain,
+constipation, cough, diarrhea, dizziness, fever,
+flatulence, flu-like syndrome, flushing, headache,
+hyperesthesia, rash, injection site reactions, nausea,
+pharyngitis, rhinitis, rigors, somnolence, vomiting,
+leukopenia, fatigue, thrombocytopenia, anemia,
+granulocytopenia, asthenia, abdominal pain, alopecia,
+dyspnea, chest pain, hypokalemia, pain, increased
+sweating, hematuria, edema, anxiety, confusion,
+insomnia, dyspepsia, hypotension, pallor, dehydration,
+pneumonia
+
+Less Common:
+Anaphylactic reaction, hypertension,
+injection site erythema, injection site pain, limb pain,
+malaise, myalgia, tachycardia, tachypnea
+
+Rare:
+Dysgeusia, hepatitis, convulsion, hemoptysis
+
+Drug Interactions
+
+No information found
+
+TEST INTERACTIONS. False-positive results for urinary
+ketones with nitroprusside-based urine tests, including
+dipstick tests
+Falsely low creatinine kinase levels by interfering with
+enzymatic creatinine kinase activity tests, which use thiol
+compounds
+False-positive results for ascorbic acid with Tillman’s
+reagent-based urine screening tests for ascorbic acid
+
+Mechanism of Action
+
+A detoxifying agent that inhibits the hemorrhagic cystitis induced by ifosfamide by binding to the 4-hydroxy
+ifosfamide forming a non-urotoxic 4- sulfoethylthioifosfamide.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

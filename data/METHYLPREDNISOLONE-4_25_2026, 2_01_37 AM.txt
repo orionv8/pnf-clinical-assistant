@@ -1,0 +1,205 @@
+﻿April 25, 2026, 2:01:38 AM - https://pnf.doh.gov.ph
+
+METHYLPREDNISOLONE
+
+Drug Classification
+
+ATC CODE
+
+H02AB04
+
+ANATOMICAL
+
+Systemic Hormonal Preparations, Excluding Sex Hormones and Insulins
+
+THERAPEUTIC
+
+Corticosteroids for Systemic Use
+
+PHARMACOLOGICAL
+
+Glucocorticoids
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 4 mg tablet (Rx)
+
+ORAL › 16 mg tablet (Rx)
+
+IM › IV › 500 mg lyophilized powder (as sodium succinate), vial (Rx)
+
+IM › IV › IV INFUSION › 1 g lyophilized powder (as sodium succinate), vial (Rx)
+
+IM › IV › IV INFUSION › 40 mg solution (as sodium succinate), single-dose vial (Rx)
+
+IM › IV › IV INFUSION › 125 mg/mL powder (as sodium succinate), 2 mL vial + diluent vial (Rx)
+
+IM › IV › IV INFUSION › 500 mg/7.7 mL powder (as sodium succinate), vial + diluent vial (Rx)
+
+IM › IV › IV INFUSION › 500 mg/8.0 mL powder (as sodium succinate), vial + diluent vial (Rx)
+
+IM › IV › IV INFUSION › 1 g/16 mL powder (as sodium succinate), vial + diluent vial (Rx)
+
+Page 1 of 5
+
+
+
+April 25, 2026, 2:01:38 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 4 mg tablet (Rx)
+
+Anti-inflammatory or immunosuppressive, by mouth, ADULT, initiallymg daily in 1–4 divided doses, followed by a
+gradual reduction in dose to the lowest effective dose; by IM injection, ADULT, as sodium succinate, 10–80 mg once
+daily; by IM injection, ADULT, as acetate, 10–80 mg every 1–2 weeks; by IV injection, ADULT, as sodium succinate, 10
+to 40 mg over a period of several minutes and repeated IV or IM at intervals depending on the clinical response;
+when high doses are required, a 30 mg/kg dose over a period of at least 30 minutes may be given and may be
+repeated every 4–6 hours for 48 hours; by mouth or by IM or IV injection, CHILD, as sodium succinate, 0.5–1.7 mg/kg
+daily or 5–25 mg/m2 daily in divided doses every 6–12 hours (“pulse” therapy may also be given at 15–30 mg/kg per
+dose for at least 30 minutes given once daily for 3 days). Asthma exacerbations, including status asthmaticus,
+emergency medical care or hospital doses, by mouth or IV injection, ADULT, 32–64 mg daily in 1–2 divided doses
+until peak expiratory flow is 70% of predicted or personal best; CHILD ≥12 years, 32–48 mg/kg daily in 2 divided
+doses until symptoms resolve and peak expiratory flow is 80% of predicted or personal best; CHILD <12 years, 0.8–
+1.6 mg/kg daily in 2 divided doses (maximum, 60 mg daily), until peak expiratory flow is 80% of predicted or personal
+best. Severe persistent asthma or long-term control, by mouth, ADULT and CHILD ≥12 years, 6–48 mg once daily or
+every other day as needed for asthma control; CHILD <12 years, 0.2–1.6 mg/kg once daily or every other day as
+needed for asthma control (maximum dose, 48 mg). For acute gout, by IM injection, ADULT, 4–120 mg. For
+dermatomyositis or polymyositis, by IV injection, ADULT, as sodium succinate, 1 g daily for 3–5 days for severe
+muscle weakness, followed by conversion to oral prednisone.
+
+Administration
+
+ORAL › 4 mg tablet (Rx)
+
+For IM, intraarticular or intralesional use only. Do NOT administer by IV or epidural injection. Avoid injection into the
+deltoid muscle due to high incidence of SC atrophy. Use caution when transferring from systemic to inhaled
+corticosteroids due to possible adrenal insufficiency or withdrawal from steroids, including an increase in allergic
+symptoms. NOTE: Withdraw therapy with gradual tapering of dose. Chronic use may result in hypothalamic-
+pituitary adrenal axis suppression, Cushing’s syndrome, and hyperglycemia
+
+Dose Adjustment
+
+Geriatric:
+Use in the smallest effective dose for the shortest duration possible.
+
+Indications
+
+For the suppression of inflammatory and allergic disorders, rheumatic diseases, and various skin disorders;
+emergency management of acute idiopathic thrombocytopenic purpura (ITP); management of the chronic form of ITP
+
+Page 2 of 5
+
+
+
+April 25, 2026, 2:01:38 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Systemic fungal infection; formulations containing benzyl alcohol preservative are contraindicated in premature
+infants; IM administration in idiopathic thrombocytopenic purpura; intrathecal administration
+
+Precautions
+
+Adrenal suppression;
+Anaphylactoid reactions;
+Diabetes;
+Immunosuppression;
+Latent TB;
+Kaposi sarcoma;
+Myopathy;
+Myasthenia gravis;
+Psychiatric disturbances;
+Seizure disorders;
+Cardiovascular disease;
+Myocardial infarction;
+GI disease (avoid ethanol since this may enhance gastric mucosal irritation);
+Head injury (high doses should not be used for the management of head injury);
+Ocular disease;
+Hepatic impairment, i.e. cirrhosis, and renal impairment;
+Osteoporosis;
+Thyroid disease;
+Stress (may require higher doses when subject to stress, i.e., trauma, surgery, severe infection);
+Elderly;
+Children;
+Pregnancy (use in early pregnancy may slightly increase the risk of orofacial clefts);
+Lactation (allow a 4-hour interval between administration and breastfeeding).
+
+Page 3 of 5
+
+
+
+April 25, 2026, 2:01:38 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Methylprednisolone:
+Trastuzumab (neutropenic effect)
+
+Enhances therapeutic effect of the following drugs:
+Warfarin (anticoagulant effect)
+
+Increases risk of adverse or toxic effects of Methylprednisolone:
+Denosumab (serious infections), Salicylates (GI ulceration and bleeding)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Acetylcholinesterase Inhibitors (increased muscular weakness), Amphotericin B (hypokalemic effect), Androgens
+(fluid-retaining effect), COX-2 Inhibitor, Deferasirox (GI ulceration or irritation; GI bleeding), Loop Diuretics
+(hypokalemic effect), NSAID (Non-selective), Quinolone Antibiotics (tendonitis; tendon rupture), Thiazide Diuretics
+(hypokalemic effect)
+
+Reduces absorption of Methylprednisolone:
+Bile Acid Sequestrants
+
+Reduces diagnostic effect of the following agents:
+Coccidioides immitis Skin Test
+
+Reduces therapeutic effect of the following drugs:
+Antidiabetic Agents, Calcitriol (Systemic), Corticorelin (blunts plasma ACTH response to Corticorelin), Urea Cycle
+Disorder Agents (increases protein catabolism and plasma ammonia concentrations, increasing doses of Urea Cycle
+Disorder Agents needed to maintain concentrations in target range)
+
+Avoid concomitant use with:
+Decreases bioavailability of Methylprednisolone:
+Antacids [separate doses by at least 2 hours]
+
+Increases risk of adverse or toxic effects of Methylprednisolone:
+Neuromuscular-blocking agents [Non-depolarizing (increased muscle weakness, possibly progressing to
+polyneuropathies and myopathies)], Pimecrolimus, Tacrolimus
+
+Increases risk of adverse or toxic effects of the following drugs:
+Leflunomide (hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia), Tofacitinib
+(immunosuppressive effect), Vaccines (Live)
+
+Increases serum concentration of Methylprednisolone:
+Mifepristone
+
+Reduces therapeutic effect of Methylprednisolone:
+Mifepristone
+
+Reduces therapeutic effect of the following drugs:
+Aldesleukin (antineoplastic effect), BCG (Intravesical), Hyaluronidase, Vaccines (Inactivated [complete all age-
+appropriate vaccinations at least 2 weeks prior to starting Dexamethasone; if vaccinated during Dexamethasone
+therapy, revaccinate at least 3 months after discontinuation]), Vaccines (Live)
+
+Page 4 of 5
+
+
+
+April 25, 2026, 2:01:38 AM - https://pnf.doh.gov.ph
+
+Unknown impact on the therapeutic effect of the following drugs:
+Budesonide EC Tablets (could dissolve prematurely if given with drugs that lower gastric acid)
+
+Mechanism of Action
+
+A synthetic glucocorticoid used principally as an anti-inflammatory or immunosuppressant agent.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

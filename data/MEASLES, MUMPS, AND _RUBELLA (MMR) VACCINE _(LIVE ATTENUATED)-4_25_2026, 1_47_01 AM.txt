@@ -1,0 +1,173 @@
+﻿April 25, 2026, 1:47:02 AM - https://pnf.doh.gov.ph
+
+MEASLES, MUMPS, AND RUBELLA (MMR) VACCINE (LIVE
+ATTENUATED)
+
+Drug Classification
+
+ATC CODE
+
+J07BD52
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Vaccines
+
+PHARMACOLOGICAL
+
+Viral Vaccines
+
+CHEMICAL CLASS
+
+Measles Vaccines
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+SC › Monodose vial + 0.5 mL Diluent (Rx)
+
+SC › Multidose vial + 5 mL Diluent (Rx)
+
+Dosage
+
+SC › Monodose vial + 0.5 mL Diluent (Rx)
+
+NOTE: The minimum interval between 2 doses is 28 days. Immunization, by SC injection, ADULT, one or two 0.5 mL
+doses administered at least 28 days apart; CHILD ≥12 months, two 0.5 mL doses, first dose is recommended at 12–
+15 months of age; second dose is recommended at 4–6 years of age, prior to entering kindergarten or first grade;
+second dose may be administered at any time provided 28 days have elapsed.
+
+Administration
+
+SC › Monodose vial + 0.5 mL Diluent (Rx)
+
+For SC administration into the outer aspectof the upper arm in patients ≥12 months. Do NOT inject by IV.
+Reconstitute vaccine using the provided diluent. Gently agitate to mix thoroughly. Discard if powder does not
+dissolve. Use immediately after reconstitution. Do NOT mix with other vaccines or injections. Use different
+needles and syringes for each injection. Administer while patient is seated or lying down to prevent syncope
+related injuries. Store the powder at 2–8°C prior to reconstitution. Protect from light. Store diluent in refrigerator
+or at room temperature. Do NOT freeze diluent. Store the lyophilized vaccine between 50 to 8˚C to maintain
+potency. May be stored under refrigeration for up to 8 hours. Discard unused portions after 8 hours.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 1:47:02 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Active immunization for simultaneous vaccination against measles, mumps, and rubella in patients ≥12 months of
+age
+
+Contraindications
+
+Hypersensitivity to measles, mumps, and/or rubella vaccine or any component of the formulation (including
+neomycin); current febrile respiratory illness or other febrile infection; primary and acquired immunodeficiency
+states; patients on immunosuppressive therapy; blood dyscrasias, leukemia, lymphomas, or other malignant
+neoplasms
+affecting the bone marrow or lymphatic systems; family history of congenital or hereditary immunodeficiency;
+pregnancy
+
+Precautions
+
+Anaphylactoid or hypersensitivity reactions (immediate treatment, including epinephrine 1:1000 should be available
+during vaccine use);
+Syncope (has been reported with use);
+Acute illness;
+CNS disorders;
+Measles, Mumps and Rubella exposure;
+Thrombocytopenia;
+Tuberculosis;
+Immunodeficiency;
+Elderly (antibody responses may be lower and decline
+faster);
+Children (safety and efficacy of measles vaccine have not been established in children <6 months of age; safety and
+efficacy of mumps and rubella vaccines have not been established in children <12 months of age); Pregnancy (animal
+reproduction studies have not been conducted; not known if can cause fetal harm; avoid pregnancy for 28 days after
+vaccination).
+
+Adverse Drug Reactions
+
+Common: Syncope, vasculitis, acute disseminated encephalomyelitis, ataxia, dizziness, brain disease, encephalitis,
+Guillain-Barré syndrome, headache, irritability, malaise, measles inclusion body encephalitis, paresthesia,
+polyneuropathy, retrobulbar neuritis, seizure, subacute sclerosing panencephalitis, transverse myelitis, erythema
+multiforme, morbilliform rash, pruritus, rash, Stevens-Johnson syndrome, urticaria, diabetes mellitus, nausea,
+diarrhea, pancreatitis, parotitis, sore throat, vomiting, epididymitis, leukocytosis, orchitis, purpura, anaphylactoid
+reaction,thrombocytopenia, anaphylaxis, angioedema, injection site reactions (burning, induration, redness,
+stinging, swelling, tenderness, vesiculation, wheal, flare), arthropathy, myalgia, conjunctivitis, oculomotor nerve
+paralysis, optic neuritis, optic papillitis, retinitis, nerve deafness, otitis media, bronchospasm, cough, pneumonia,
+pneumonitis, rhinitis, atypical measles, febrile seizures, fever, panniculitis, lymphadenopathy
+
+Less Common: Aseptic meningitis
+
+Page 2 of 4
+
+
+
+April 25, 2026, 1:47:02 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of MMR Vaccine:
+Azathioprine
+Belimumab
+Corticosteroids (Systemic)
+Dimethyl Fumarate (vaccinal infection)
+Fingolimod (vaccinal infection)
+Immunosuppressants
+Leflunomide
+Mercaptopurine
+Methotrexate
+
+Reduces diagnostic effect of Tuberculin Test [separate administration by at least 4–6 weeks]
+
+Reduces therapeutic effect of MMR Vaccine:
+Azathioprine [avoid doses >3 mg/kg daily]
+Corticosteroids (Systemic) [avoid doses greater than an
+equivalent of 2 mg/kg or 20 mg/day of prednisone for
+≥2 weeks]
+Dimethyl Fumarate
+Fingolimod
+Immune Globulins [consult full interaction monograph
+for dose interval recommendations]
+Immunosuppressants [except Azathioprine;
+Beclomethasone (Oral Inhalation); Betamethasone
+(Systemic); Budesonide (Systemic); Budesonide
+(Systemic and Oral Inhalation); Corticotropin; Cortisone;
+Cytarabine (Liposomal); Deflazacort; Dexamethasone
+(Systemic); Fludrocortisone; Fluticasone (Oral
+Inhalation); Hydrocortisone (Systemic); Leflunomide;
+Mercaptopurine; Methotrexate; Methylprednisolone;
+Prednisolone (Systemic); Prednisone; Triamcinolone,
+(Systemic) [separate administration by at least 3
+months]
+Leflunomide [separate administration by at least 3
+months]
+Mercaptopurine [avoid doses >1.5 mg/kg daily]
+Methotrexate [avoid doses >0.4 mg/kg weekly]
+TEST INTERACTION. Temporarily suppresses tuberculin skin
+test reactivity.
+
+Mechanism of Action
+
+A bacterially sterile, freeze-dried preparation of live, attenuated strains of measles, mumps, and rubella virus that
+offers active immunity to disease caused by the measles, mumps, and rubella viruses.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 1:47:02 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

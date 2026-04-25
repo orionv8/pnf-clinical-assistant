@@ -1,0 +1,177 @@
+﻿April 25, 2026, 2:05:22 AM - https://pnf.doh.gov.ph
+
+MOXIFLOXACIN
+
+Drug Classification
+
+ATC CODE
+
+J01MA14
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Quinolone
+
+CHEMICAL CLASS
+
+Fourth-Generation Fluoroquinolones
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [WATCH] 400 mg film coated tablet (Rx)
+
+Dosage
+
+ORAL › [WATCH] 400 mg film coated tablet (Rx)
+
+Acute bacterial rhinosinusitis, by mouth, ADULT, 400 mg every 24 hours for 10 days (manufacturer’s labeling) or 5 to
+7 days. (Note: Recommended in patients with beta-lactam allergy; may also be used if initial therapy fails, in areas
+with high endemic rates of penicillin non susceptible S. pneumoniae, those with severe infections, age >65 years,
+recent hospitalization, antibiotic use within the past month, or who are immunocompromised). Chronic bronchitis,
+acute bacterial exacerbation, by mouth, ADULT, 400 mg every 24 hours for 5 days Community-acquired pneumonia
+(CAP) including MDRSP, by mouth, ADULT, 400 mg every 24 hours for 7 to 14 days Intra-abdominal infections,
+complicated, by mouth, ADULT, 400 mg every 24 hours for 5 to 14 days (initiate with IV); Note: 2010 IDSA guidelines
+recommend a treatment duration of 4 to 7 days (provided source controlled) for community-acquired, mild to
+moderate IAI Plague, by mouth, ADULT, 400 mg every 24 hours for 10 to 14 days Skin and skin structure infections
+(Complicated), by mouth, ADULT, 400 mg every 24 hours for 7 to 21 days Skin and skin structure infections
+(Uncomplicated), by mouth, ADULT, 400 mg every 24 hours for 7 days
+
+Administration
+
+ORAL › [WATCH] 400 mg film coated tablet (Rx)
+
+Administer without regard to meals. Administer at least 4 hours before or 8 hours after products containing
+magnesium, aluminum, iron, or zinc, including antacids, sucralfate, multivitamins, and didanosine (buffered tablets
+for oral suspension or the pediatric powder for oral solution).
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:05:22 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric: Refer to adult dosing.
+
+Hepatic Impairment: No dosage adjustment necessary; however, use with caution in this patient population
+secondary to the risk of QT prolongation.
+
+Indications
+
+Treatment of multidrug resistant tuberculosis (MDRTB); mild to moderate community-acquired pneumonia, including
+multidrug-resistant Streptococcus pneumoniae; acute bacterial exacerbation of chronic bronchitis; acute bacterial
+sinusitis; complicated and uncomplicated skin and skin structure infections; complicated intra-abdominal infections;
+prophylaxis and treatment of plague, including pneumonic and septicemic plague, due to Yersinia pestis.
+
+Precautions
+
+WARNING:
+Fluoroquinolones are associated with disabling and potentially irreversible serious adverse reactions that may occur
+together, including tendinitis and tendon rupture, peripheral neuropathy, and CNS
+effects. Discontinue moxifloxacin immediately and avoid use of fluoroquinolones in patients who experience any of
+these serious adverse reactions.
+Patients of any age or without pre-existing risk factors have experienced these reactions; may occur within hours to
+weeks after initiation.
+QTc prolongation (avoid use in patients with a history of QTc prolongation, uncorrected hypokalemia,
+hypomagnesemia, or concurrent administration of other medications known to prolong the QT interval e.g. Class Ia
+and Class III antiarrhythmics, cisapride, erythromycin, antipsychotics, and tricyclic antidepressants;
+Hypoglycemia/hyperglycemia (Patients should be monitored closely for signs/symptoms of disordered glucose
+regulation particularly severe hypoglycemia);
+Severe hepatotoxicity (including acute hepatitis and fatalities) has been reported. (Discontinue therapy immediately
+if signs and symptoms of hepatitis occur);
+Severe hypersensitivity reactions, including anaphylaxis (Prompt discontinuation of drug should occur if skin rash or
+other symptoms arise;
+Photosensitivity (Discontinue use if photosensitivity occurs);
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis.
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:05:22 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: headache, dizziness, insomnia, hyperchloremia, nausea, diarrhea, constipation, vomiting, abdominal pain,
+decreased hemoglobin, eosinopenia, leukocytosis, hypoxia
+
+Less Common:
+angina pectoris, atrial fibrillation, bradycardia, cardiac arrest, cardiac failure, chest pain, edema, hypertension,
+hypotension, palpitations, peripheral edema, phlebitis, prolonged Q-T interval on ECG, syncope, tachycardia,
+agitation, anxiety, chills, confusion, depression, disorientation, drowsiness, facial pain, fatigue, hallucination,
+hypoesthesia, lethargy, malaise, nervousness, noncardiac chest pain, pain, paresthesia, restlessness, vertigo,
+erythema, hyperhidrosis, night sweats, pruritus, skin rash, urticaria, hypokalemia, dehydration, hyperglycemia,
+hyperlipidemia, abdominal discomfort, abdominal distension, anorexia, decreased appetite, dysgeusia, flatulence,
+gastritis, gastroenteritis, gastroesophageal reflux disease, oral candidiasis, tinnitus, blurred vision, fever, asthma,
+hypersensitivity reaction
+
+Rare:
+agranulocytosis, anaphylactic shock, anaphylaxis, angioedema, aplastic anemia, ataxia, auditory impairment,
+cholestatic jaundice, Clostridium difficile
+associated diarrhea, deafness (reversible), exacerbation of myasthenia gravis, facial edema, hemolytic anemia,
+hepatic failure, hepatic necrosis, hepatitis,
+hypoglycemia, increased intracranial pressure, interstitial nephritis, jaundice, laryngeal edema, myasthenia,
+nightmares, pancytopenia, paranoia, peripheral neuropathy (may be irreversible), pharyngeal edema, phototoxicity,
+pneumonitis (allergic), polyneuropathy, pseudomembranous colitis, pseudotumor cerebri, psychotic reaction, renal
+insufficiency, rupture of tendon, seizure, serum sickness, skin photosensitivity, SJS, suicidal ideation, suicidal
+tendencies, tendonitis, thrombotic thrombocytopenic purpura, toxic epidermal necrolysis, ventricular
+tachyarrhythmias (including torsades de pointes and cardiac arrest
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:05:22 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitory closely with:
+Enhances therapeutic effect of the following drugs: Blood Glucose Lowering Agents, Fluoxetine, Porfimer, QTc-
+Prolonging Agents, Tacrolimus, Verteporfin, Vitamin K Antagonists (e.g. Warfarin)
+
+Reduces absorption of Moxifloxacin: Antacids (except: sodium bicarbonate), Calcium Salts (except: calcium chloride),
+Sevelamer
+Reduces therapeutic effect of the following drugs: BCG Vaccine, Lactobacillus and Estriol, Sodium Picosulfate,
+Typhoid Vaccine
+
+Increases risk of adverse or toxic effects Moxifloxacin: Corticosteroids
+Decreases excretion of Moxifloxacin: Probenecid
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects Moxifloxacin: Nadifloxacin
+
+Reduces therapeutic effect of the following drugs: BCG, Cholera Vaccine
+
+Enhances therapeutic effect of the following drugs: Hydroxychloroquine, Macimorelin, Mifepristone, Probucol,
+Promazine, QTc-Prolonging Agents, Vinflunine
+
+Decreases serum concentration of Moxifloxacin: Strontium Ranelate
+
+Mechanism of Action
+
+Quinolones are broad-spectrum antibacterial agents. They act by blocking bacterial DNA synthesis by inhibiting
+bacterial topoisomerase II and topoisomerase IV.
+Inhibition of topoisomerase II prevents the relaxation of positively supercoiled DNA while inhibition of
+topoisomerase IV interferes with separation of replicated chromosomal DNA.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+REMARKS
+
+WHO anti-biotic category: WATCH
+
+Page 4 of 4

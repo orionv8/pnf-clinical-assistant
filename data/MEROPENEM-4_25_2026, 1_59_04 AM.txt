@@ -1,0 +1,135 @@
+﻿April 25, 2026, 1:59:05 AM - https://pnf.doh.gov.ph
+
+MEROPENEM
+
+Drug Classification
+
+ATC CODE
+
+J01DH02
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Carboxamide Derivatives
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › [Reserve] 500 mg powder (as trihydrate) (Rx)
+
+IV › [Reserve] 1 g powder (as trihydrate) (Rx)
+
+Dosage
+
+IV › [Reserve] 500 mg powder (as trihydrate) (Rx)
+
+Healthcare-associated sepsis, by IV injection/ infusion, CHILD, 60-120 mg/kg in divided doses every 8 hours with or
+without amikacin OR vancomycin. Severe sepsis and septic shock, by IV injection/ infusion, CHILD, 60-120 mg/kg in
+divided doses every 8 hours with vancomycin for 10-14 days. Febrile neutropenia, by IV injection/ infusion, CHILD,
+60-120 mg/kg in divided doses every 8 hours; ADULT, 1-2g every 8 hours with aminoglycoside/
+fluoroquinolone/vancomycin and antifungal treatment for 4-6 weeks.
+
+Administration
+
+IV › [Reserve] 500 mg powder (as trihydrate) (Rx)
+
+For IV: injections of meropenem should be given over a 3-5 minutes period; infusions of meropenem should be
+given over approximately 15–30 minutes. Infants <3 months old: Administer as an IV infusion over 30 minutes;
+Infants ≥3 months old, children, adolescents, and adults: Administer IV infusion over 15-30 minutes; IV bolus
+injection (5-20mL) over 3-5 minutes; Extended infusion administration: Adults: Administer over 3 hours. Note:
+Must consider meropenem’s limited room temperature stability if using extended infusions.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:59:05 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Dosage adjustment is not necessary for geriatric patients with creatinine clearances >50mL/minute; For geriatric
+patients with reduced renal function, dosage should be adjusted according to the guidelines for other adults with
+renal impairment.
+
+Renal Impairment:
+Adults:
+ClCr 26-50mL/minute: Administer recommended dose based on indication every 12 hours.
+ClCr 10-25mL/minute: Administer onehalf recommended dose based on indication every 12 hours.
+ClCr <10mL/minute: Administer onehalf recommended dose based on indication every 24 hours.
+Children:
+Glomerular Filtration Rate 30-50mL/minute: Administer 20-40mg/kg every 12 hours.
+Glomerular Filtration Rate 10-29mL/minute: Administer 10-20mg/kg every 12 hours.
+Glomerular Filtration Rate <10mL/minute: Administer 10-20mg/kg every 24 hours. Intermittent hemodialysis (IHD):
+10-20mg/kg every 24 hours administer after hemodialysis on dialysis days).
+Peritoneal dialysis: 10-20mg/kg every 24 hours.
+Continuous renal replacement therapy: 20-40mg/kg every 12 hours.
+
+Indications
+
+Treatment of intra-abdominal infections, meningitis, and skin and skin structure infections, respiratory tract
+infections, septicemia, and urinary tract infections caused by susceptible bacteria; empiric anti-infective therapy in
+febrile neutropenic patients.
+
+Contraindications
+
+Patients who have experienced anaphylactic reactions to beta-lactams.
+
+Precautions
+
+Monitor patients for: anaphylaxis/hypersensitivity reactions, central nervous system effects (including confusional
+states and seizures), superinfection;
+Use with caution in patients with renal Impairment, elderly, pediatrics (Safety and efficacy not established in children
+<3 months old).
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:59:05 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Peripheral vascular disease, shock, bradycardia, cardiac arrest, cardiac failure, chest pain, hypertension,
+hypotension, myocardial infarction, peripheral edema, pulmonary embolism, syncope, tachycardia, headache,
+convulsions, pain, agitation, anxiety, chills, confusion, delirium, depression, dizziness, drowsiness, hallucination,
+insomnia, nervousness, paresthesia, seizure, skin rash, pruritus, dermal ulcer, diaphoresis, urticaria, hypoglycemi,
+hypervolemia, nausea, diarrhea, constipation, vomiting, oral candidiasis, gastrointestinal disease, glossitis,
+abdominal pain, anorexia, dyspepsia, enlargement of abdomen, flatulence, intestinal obstruction, dysuria, pelvic
+pain, urinary incontinence, vulvovaginal candidiasis, anemia, hypochromic anemia, hyperbilirubinemia, cholestatic
+jaundice, hepatic failure, jaundice, sepsis, inflammation at injection site, back pain, weakness, renal failure,
+pharyngitis, pneumonia, apnea, asthma, cough, dyspnea, hypoxia, pleural effusion, pulmonary edema, respiratory
+tract disease, fever
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of the following drugs:
+Aminoglycosides e.g. Streptomycin
+
+Avoid concomitant use with:
+Increases serum concentration of Meropenem:
+Probenecid
+
+Decreases serum concentration of the following drugs:
+Valproic acid
+
+Mechanism of Action
+
+Carbapenems have an extremely broad spectrum of antimicrobial activity and are highly resistant to a variety of β-
+lactamases. They bind to penicillin-binding proteins and inhibit bacterial cell wall synthesis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

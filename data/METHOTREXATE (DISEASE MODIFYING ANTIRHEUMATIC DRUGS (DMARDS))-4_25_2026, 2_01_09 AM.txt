@@ -1,0 +1,96 @@
+﻿April 25, 2026, 2:01:10 AM - https://pnf.doh.gov.ph
+
+METHOTREXATE (DISEASE MODIFYING ANTIRHEUMATIC
+DRUGS (DMARDS))
+
+Drug Classification
+
+ATC CODE
+
+L01BA01; L04AX03
+
+ANATOMICAL
+
+Musculo-Skeletal System
+
+THERAPEUTIC
+
+Other Drugs for Disorders of the Musculo-Skeletal System
+
+PHARMACOLOGICAL
+
+Disease Modifying Antirheumatic Drugs (Dmards)
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 2.5 mg tablet (as base, sodium salt or disodium salt) (Rx)
+
+IM › IV › 5 mg/mL, 3 mL vial (as sodium salt) (Rx)
+
+IM › IT › IV › 25 mg/mL, 2 mL ampule/vial (as base) (Rx)
+
+IM › IT › IV › 25 mg/mL, 2 mL vial (as sodium salt, preservative-free) (Rx)
+
+IM › IT › IV › 25 mg/mL, 20 mL vial (as sodium salt, preservative-free) (Rx)
+
+IM › IT › IV › 100 mg/mL, 10 mL vial (as base) (Rx)
+
+IM › IT › IV › 100 mg/mL, 10 mL vial (as sodium salt, preservative-free) (Rx)
+
+Dosage
+
+ORAL › 2.5 mg tablet (as base, sodium salt or disodium salt) (Rx)
+
+RA, by mouth, ADULT, initially 7.5 mg once weekly or 2.5 mg every 12 hours for 3 doses per week; adjust dose
+gradually to optimal response; alternatively, 10-15 mg once weekly, increased by 5 mg every 2-4 weeks (maximum
+dose, 20-30 mg once weekly); by intramuscular injection, 7.5 mg once weekly; adjust dose gradually to optimal
+response; by mouth, ADULT >60 years, initially 5-7.5 mg per week, not to exceed 20 mg per week. pJIA, by mouth or
+IM injection, CHILD, initially 10 mg/m2 once weekly, adjust gradually to optimum response; doses up to 20-30
+mg/m2 once weekly have been used. NOTE: Doses above 20 mg (20 mg/m2 in children) once weekly are associated
+with an increased incidence of toxicity. Doses between 100–500 mg/m2 may require leucovorin calcium rescue.
+Doses >500 mg/m2 require leucovorin calcium rescue.
+
+Page 1 of 2
+
+
+
+April 25, 2026, 2:01:10 AM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 2.5 mg tablet (as base, sodium salt or disodium salt) (Rx)
+
+For oral administration, administer without regard to food. This is the preferred route for low doses. For IV
+administration, administer as slow IV push at a rate of 10 mg/minute, as bolus injection, or as 24-hour continuous
+infusion. The route and rate of administration depends on indication and/or protocol. For intrathecal
+administration, do NOT prepare during the preparation of any other agents. After preparation, store in an isolated
+location or container clearly marked with a label "intrathecal" use only. Administer only with other medications
+intended for administration into the central nervous system. NOTE: Optimal intrathecal chemotherapy dosing
+should be based on age rather than on body surface area (BSA) as CSF volume correlates with age and not to BSA.
+Doses =250 mg/m2 (=12 g/m2 in children) are associated with moderate emetic potential. Antiemetics may be
+given to prevent nausea and vomiting. Doses >500 mg/m2 require leucovorin calcium rescue. Doses between 100–
+500 mg/m2 may require leucovorin calcium rescue. See Methotrexate under Antineoplastic Agents –
+Antimetabolites in Antineoplastic and Immunomodulating Agents section for other information.
+
+Indications
+
+Severe, active rheumatoid arthritis (RA); active polyarticular-course juvenile idiopathic arthritis (pJIA)
+
+Contraindications
+
+Breastfeeding; pregnancy; alcoholism; alcoholic liver disease or other chronic liver disease; immunodeficiency
+syndrome; preexisting blood dyscrasias
+
+Mechanism of Action
+
+A folate antimetabolite that inhibits DNA synthesis and repair, and cellular replication. Methotrexate irreversibly
+binds to and inhibits dihydrofolate reductase thereby preventing the formation of reduced folates and thymidylate
+synthetase. The use of this drug results to the inhibition of purine and thymidylic acid synthesis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+X
+
+Page 2 of 2
