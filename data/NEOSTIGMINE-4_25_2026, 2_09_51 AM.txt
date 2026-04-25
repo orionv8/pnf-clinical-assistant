@@ -1,0 +1,147 @@
+﻿April 25, 2026, 2:09:52 AM - https://pnf.doh.gov.ph
+
+NEOSTIGMINE
+
+Drug Classification
+
+ATC CODE
+
+N07AA01
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Other Nervous System Drugs
+
+PHARMACOLOGICAL
+
+Parasympathomimetics
+
+CHEMICAL CLASS
+
+Anticholinesterases (Parasympathomimetics)
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+UNKNOWN › 500 micrograms/mL, 10 mL vial (Rx)
+
+IM › IV › SC › 500 mcg/mL solution for injection, 1 mL ampule (Rx)
+
+Dosage
+
+UNKNOWN › 500 micrograms/mL, 10 mL vial (Rx)
+
+NOTE: individualize doses based on weight. Determine time of initiation of neostigmine and need for additional
+doses using a peripheral nerve stimulator. Reversal of neuromuscular blockade, by IV injection, ADULT and CHILD,
+0.05–0.07 mg/kg over 60 seconds, as required.
+
+Administration
+
+UNKNOWN › 500 micrograms/mL, 10 mL vial (Rx)
+
+For IV use only. Inject slowly over a period of at least 1 minute. Prior to administration and until complete recovery
+of normal ventilation, keep patient well-ventilated, and maintain a patent airway. Administer an anticholinergic
+agent, e.g., atropine sulfate or glycopyrrolate prior to or concomitantly with neostigmine. Administer
+intravenously using a separate syringe. In the presence of bradycardia, administer the anticholinergic agent prior
+to neostigmine. NOTE: Judge satisfactory recovery based on adequacy of skeletal muscle tone and respiratory
+measurements in addition to response to peripheral nerve stimulation.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:09:52 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+Dose adjustment may be required.
+
+Indications
+
+Reversal of neuromuscular blockade
+
+Contraindications
+
+Peritonitis; mechanical GI; urinary obstruction
+
+Precautions
+
+WARNING: Should be administered by trained healthcare
+providers familiar with the use, actions, characteristics,
+and complications of neuromuscular blocking agents
+(NMBA) and neuromuscular block reversal agents.
+
+Bradycardia;
+Cardiovascular disorders;
+Bronchial asthma;
+Neuromuscular dysfunction;
+Peptic ulcer disease;
+Vagotonia;
+Epilepsy;
+Parkinsonism;
+Hyperthyroidism;
+Recent intestinal or bladder surgery;
+Renal impairment;
+Elderly (use with caution);
+Children;
+Pregnancy;
+Lactation.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:09:52 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common:
+Bradycardia, hypotension, tachycardia, dry
+mouth, nausea, vomiting, incision site complication,
+pharyngolaryngeal pain, procedural complication,
+procedural pain, dizziness, headache, postoperative
+shivering, prolonged neuromuscular blockade, insomnia,
+dyspnea, oxygen desaturation <90%, pruritus
+
+Less Common:
+Hypersensitivity reactions, allergic reactions,
+convulsions, drowsiness, dysarthria, fasciculation, loss
+of consciousness, miosis, visual changes, cardiac arrest,
+cardiac arrhythmias, non-specific EKG changes,
+syncope, bronchospasm, increased salivation,
+respiratory arrest, rash, urticaria, abdominal cramps,
+diarrhea, flatulence, increased peristalsis, urinary
+frequency, arthralgia, muscle cramps, spasms,
+weakness, diaphoresis, flushing, neuromuscular
+dysfunction (high doses), respiratory failure (potentially
+fatal)
+
+Drug Interactions
+
+Monitor closely with:
+Reduces therapeutic effect of Neostigmine:
+Chloroquine, Hydroxychloroquine, Lithium,
+Procainamide, Propafenone, Quinidine, Quinine
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of the following drugs:
+Beta Blockers (prolonged bradycardia), Depolarizing
+Muscle Relaxants, e.g., Suxamethonium (prolonged
+apnea due to potentiation of neuromuscular blockade)
+
+Mechanism of Action
+
+A cholinesterase inhibitor competitively binds to acetylcholinesterase binding sites, inhibiting the hydrolysis of
+acetylcholine.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

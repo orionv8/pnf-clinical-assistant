@@ -1,0 +1,218 @@
+﻿April 25, 2026, 2:10:30 AM - https://pnf.doh.gov.ph
+
+NICARDIPINE
+
+Drug Classification
+
+ATC CODE
+
+C08CA04
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Calcium Channel Blockers
+
+PHARMACOLOGICAL
+
+Selective Calcium Channel Blockers with Mainly Vascular Effects
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 1 mg/mL (as hydrochloride), 2 mL ampule (Rx)
+
+IV › 1 mg/mL (as hydrochloride), 10 mL ampule (Rx)
+
+Dosage
+
+IV › 1 mg/mL (as hydrochloride), 2 mL ampule (Rx)
+
+Acute hypertension, by IV infusion, ADULT, 5 mg/ hour initially, may increase by 2.5 mg/hour every 5 minutes for
+rapid titration, to every 15 minutes for gradual titration (maximum dose, 15 mg/hour); in rapidly titrated patients,
+consider reduction to 3 mg/hour after response is achieved
+
+Administration
+
+IV › 1 mg/mL (as hydrochloride), 2 mL ampule (Rx)
+
+Administer by slow continuous IV infusion via a central line or through a large peripheral vein. Avoid use of small
+peripheral veins to minimize infusion site reactions. Do NOT combine or run in the same line as other medications.
+Monitor infusion site closely to prevent extravasation. Peripheral venous irritation may be minimized by changing
+the site of infusion every 12 hours. Evaluate cardiac status and blood pressure and monitor for rash, hypotension,
+bradycardia, confusion, and nausea when starting, adjusting dose, or discontinuing. NOTE: Parenteral
+administration is indicated only for short-term use. Teach patient orthostatic precautions.
+
+Page 1 of 5
+
+
+
+April 25, 2026, 2:10:30 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Initiate at the low end of the dosage range. Monitor closely.
+
+Renal and Hepatic Impairment:
+Dose adjustment may be necessary. Titrate slowly with careful monitoring. Consider lower starting dose and closely
+monitor response.
+
+Indications
+
+Management of acute hypertension
+
+Contraindications
+
+Advanced aortic stenosis
+
+Precautions
+
+WARNING: Significant differences exist between oral and IV dosing. Use caution when converting from one route of
+administration to another.
+
+Angina, myocardial infarction (increased frequency, duration, or severity of angina and/or MI has occurred with
+initiation or dosage titration; reflex tachycardia may occur);
+Hypotension; Syncope (rarely occurs); Peripheral edema (dose-dependent); Tachycardia (may occur).
+Aortic stenosis (may reduce coronary perfusion resulting in ischemia)
+Heart failure (may worsen symptoms of HF due to mild negative inotropic effects of nicardipine, particularly with
+concomitant beta blockade)
+Hypertrophic cardiomyopathy with outflow tract obstruction (reduction in afterload may worsen symptoms
+associated with this condition)
+Hepatic impairment; Renal impairment
+Abrupt withdrawal may cause rebound angina in patients with CAD
+Elderly (constipation may be more of a problem; may experience greater hypotensive response)
+Pregnancy (adverse events have been observed in some animal reproduction studies; crosses the placenta; changes
+in fetal heart rate, neonatal hypotension and neonatal acidosis have been observed following maternal use);
+lactation (minimally excreted in breastmilk; breastfeeding is not recommended).
+
+Page 2 of 5
+
+
+
+April 25, 2026, 2:10:30 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Flushing, pedal edema, exacerbation of angina pectoris, hypotension, palpitations, tachycardia, chest pain,
+extrasystoles, hemopericardium, supraventricular tachycardia, hypertension, edema, headache, dizziness,
+hypoesthesia, intracranial hemorrhage, pain, somnolence, diaphoresis, skin rash, hypokalemia, nausea, vomiting,
+dyspepsia, abdominal pain, xerostomia, hematuria, injection site reaction, pain at injection site, weakness, myalgia,
+paresthesia
+Less Common: Abnormal dreams, abnormal vision, angina pectoris, anxiety, atrial fibrillation, atrioventricular block,
+arthralgia, atypical chest pain, blurred vision, cerebral ischemia, confusion, conjunctivitis, constipation, deep vein
+thrombophlebitis, depression, ST segment depression, dyspnea, ear disease, fever, gingival hyperplasia, heart block,
+hot flash, hyperkinesia, hypersensitivity reaction, hypophosphatemia, hypertonia, impotence, infection, insomnia,
+inversion T wave on ECG, malaise, myocardial infarction, neck pain, nervousness, nocturia, orthostatic hypotension,
+parotitis, pericarditis, peripheral vascular disease, respiratory tract disease, rhinitis, sinus node dysfunction,
+sinusitis, sore throat, sustained tachycardia, syncope, thrombocytopenia, tinnitus, tremor, urinary frequency,
+ventricular extrasystoles, ventricular tachycardia, vertigo, vomiting
+
+Page 3 of 5
+
+
+
+April 25, 2026, 2:10:30 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Nicardipine:
+Cyclosporine (Systemic), CYP2C19 Substrates, CYP2D6 Substrates
+
+Enhances therapeutic effects of Nicardipine:
+Antihypertensive effect: Alpha1 Blockers e.g. Alfuzosin, Barbiturates e.g. Phenobarbital, Brimonidine (Topical), Non-
+Dihydropyridine Calcium Channel Blockers, Diazoxide, Magnesium Salts, Molsidomine, Nicorandil, Pentoxifylline,
+Phosphodiesterase-5 Inhibitors e.g. Sildenafil, Prostacyclin Analogues e.g. Epoporestenol, Other Antihypertensive
+Agents
+Moderate Risk QTc-prolonging Agents, Indeterminate Risk and Risk Modifying (QTc-prolonging agents)
+
+Enhances therapeutic effect of the following drugs:
+Aripiprazole, Carvedilol (hypotensive effect), Nondepolarizing Neuromuscular-blocking Agents e.g. Pancuronium
+(neuromuscular-blocking effect), Nitroprusside (hypotensive effect)
+
+Increases metabolism of Nicardipine:
+Barbiturates e.g. Phenobarbital
+
+Increases risk of adverse or toxic effects of Nicardipine:
+Dapoxetine (orthostatic hypotension), MAO Inhibitors [except Linezolid, Tedizolid] (orthostatic hypotension), Other
+Antihypertensive Agents
+
+Increases risk of adverse or toxic effects of the following drugs:
+Atosiban (pulmonary edema and/or dyspnea), Carvedilol (may precipitate signs of heart failure), Duloxetine
+(orthostatic hypotension), Levodopa (orthostatic hypotension), Magnesium Salts, Risperidone (hypotensive effect)
+
+Reduces therapeutic effect of Nicardipine:
+Barbiturates e.g Phenobarbital, Calcium Salts, Methylphenidate
+
+Reduces therapeutic effect of the following drugs:
+Codeine (prevents metabolic conversion to its active metabolite, morphine); Tramadol (prevents metabolic
+conversion to its active metabolite)
+
+Avoid concomitant use with:
+Decreases metabolism of Nicardipine:
+Antifungal Agents, Azole Derivatives, Systemic [except Fluconazole], CYP2C9 Substrates, CYP3A4 Inhibitors;
+Macrolide Antibiotics [except Azithromycin, Spiramycin]
+
+Decreases serum concentration of Nicardipine:
+Dabrafenib, Efavirenz, Mitotane, Phenytoin, Rifamycin Derivatives, Siltuximab
+
+Decreases serum concentration of the following drugs:
+Clopidogrel, Tamoxifen
+
+Enhances therapeutic effect of the following drugs:
+Highest Risk QTc-prolonging Agents, Indeterminate Risk and Risk Modifying (QTc-prolonging effect)
+
+Enhances therapeutic effect of Nicardipine:
+Mifepristone (QTc-prolonging effect)
+
+Page 4 of 5
+
+
+
+April 25, 2026, 2:10:30 AM - https://pnf.doh.gov.ph
+
+Increases metabolism of Nicardipine:
+Carbamazepine, CYP3A4 Inducers, Nafcillin
+
+Increases risk of adverse or toxic effects of Nicardipine:
+Azole Antifungal Agents (Systemic) [except Fluconazole,] (negative inotropic effects), Grapefruit Juice, Mifepristone,
+Stiripentol
+
+Increases risk of adverse or toxic effects of the following drugs:
+Amifostine [withhold Nicardipine 24 hours prior to Amifostine administration] (hypotensive effect), Citalopram
+(serotonin syndrome; QT prolongation), Fosphenytoin, Highest Risk QTc-prolonging Agents, Indeterminate Risk and
+Risk Modifying (alterations of cardiac rhythm), Obinutuzumab [withhold Nicardipine 12 hours prior to Obinutuzumab
+infusion until 1 hour after the end of the infusion] (hypotensive effect), Phenytoin, Rituximab (hypotensive effect)
+
+Increases serum concentration of Nicardipine:
+Fosphenytoin, Fusidic Acid (Systemic), Grapefruit Juice, Idelalisib, Mifepristone, Simeprevir, Stiripentol
+
+Increases serum concentration of the following drugs:
+Afatinib [reduce Afatinib dose by 10mg], Bosutinib, Cilostazol [reduce Cilostazol dose to 50 mg twice daily],
+Citalopram [limit Citalopram dose to a maximum of 20 mg daily], Colchicine (increases distribution into certain
+tissues, e.g., brain), Dabigatran Etexilate, Diclofenac (Systemic), Doxorubicin (Conventional), Edoxaban, Eliglustat
+[reduce Eliglustat dose to 84 mg daily], Everolimus, Lacosamide, Lomitapide [limit maximum Lomitapide dose to 30
+mg daily], Metoprolol, Pazopanib, Phenytoin, Pimozide, Silodosin, Thioridazine, Topotecan, Vincristine (Liposomal)
+
+Reduces therapeutic effect of Nicardipine:
+Phenytoin
+
+Reduces therapeutic effect of the following drugs:
+Clopidogrel, Fosphenytoin
+
+Mechanism of Action
+
+A calcium channel blocker that inhibits calcium ions from entering select voltage-sensitive areas of vascular smooth
+muscle and myocardium. It produces a relaxation of coronary vascular smooth muscle and coronary vasodilation,
+thus increasing myocardial oxygen delivery in patients with vasospastic angina.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

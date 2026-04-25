@@ -1,0 +1,155 @@
+﻿April 25, 2026, 2:14:09 AM - https://pnf.doh.gov.ph
+
+OCTREOTIDE
+
+Drug Classification
+
+ATC CODE
+
+H01CB02
+
+ANATOMICAL
+
+Systemic Hormonal Preparations, Excluding Sex Hormones and Insulins
+
+THERAPEUTIC
+
+Pituitary and Hypothalamic Hormones and Analogues
+
+PHARMACOLOGICAL
+
+Hypothalamic Hormones
+
+CHEMICAL CLASS
+
+Somatostatin and analogues
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 100 mcg/mL solution for injection, 1 mL ampule (Rx)
+
+IV › 500 mcg/mL solution for injection, 1 mL ampule (Rx)
+
+Dosage
+
+IV › 100 mcg/mL solution for injection, 1 mL ampule (Rx)
+
+INTRAVENOUS For esophageal varices bleeding: by IV injection, ADULT, IV bolus of 25–100 micrograms (usual bolus
+dose, 50 micrograms) followed by continuous IV infusion of 25– 50 micrograms per hour for 2–5 days; may repeat
+bolus in first hour if hemorrhage is not controlled. [NOTE: Withdraw yearly for a 4-week interval (8 for depot
+injection) in patients who have received irradiation. Resume if levels increase and signs or symptoms recur]. For
+vasoactive intestinal peptide tumors (VIPomas): by IV injection, ADULT, 200–300 micrograms daily in 2–4 divided
+doses for the first 2 weeks; titrate dose based on response or tolerance (range, 150–750 micrograms daily; doses
+>450 micrograms daily are rarely required).
+
+Administration
+
+IV › 100 mcg/mL solution for injection, 1 mL ampule (Rx)
+
+For IV administration, administer IV injections between meals to decrease GI effects. May alter absorption of
+dietary fats.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:14:09 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric: Dose adjustment may be required. Begin dosing at the lower end of dosing range. Elimination half-life is
+increased by 46% and clearance is decreased by 26%.
+
+Renal Impairment: If dialysis-dependent, no specific dose adjustments indicated. However, dose adjustment may be
+needed since clearance is reduced by ~50%.
+
+Indications
+
+For hemostasis for esophageal varices
+
+Precautions
+
+Cholelithiasis; Glucose regulation; Hypothyroidism; Pancreatitis; Cardiovascular disease; Excessive fluid loss.
+
+Prophylactic cholecystectomy is recommended in patients with gastrointestinal or pancreatic neuroendocrine
+tumors undergoing abdominal surgery if octreotide treatment is planned
+
+Patients on TPN (periodically monitor for elevations in zinc levels).
+TEST INTERACTION: Chronic treatment has been associated with abnormal Schillings test.
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:14:09 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Sinus bradycardia, fatigue, headache, malaise, dizziness, pruritus, hyperglycemia, fever, abdominal pain,
+loose stools, nausea, diarrhea, flatulence, cholelithiasis, biliary sludge, constipation, vomiting, biliary duct dilatation,
+injection site pain, back pain, arthropathy, myalgia, upper respiratory tract infection, dyspnea, antibodies to
+octreotide, flu symptoms
+
+Less Common: Hypertension, conduction abnormalities, arrhythmia, palpitation, peripheral edema, pain, anxiety,
+confusion, hypoesthesia, insomnia, rash, alopecia, dyspepsia, steatorrhea, tenesmus, anorexia, cramping, arthralgia,
+myalgia, paresthesia, anemia, weakness, earache, renal calculus, cough, pharyngitis, rhinitis, sinusitis, allergy,
+diaphoresis, angina, cardiac failure, edema, flushing, hematoma, phlebitis, abnormal gait, amnesia, depression,
+dysphonia, hallucinations, nervousness, neuralgia, somnolence, vertigo, acne, rigors, bruising, cellulitis,
+hypoglycaemia, hypokalemia, gout, cachexia, breast pain, impotence, colitis, diverticulitis, dysphagia, gastritis,
+gastroenteritis, gingivitis, glossitis, melena, stomatitis, taste perversion, xerostomia, incontinence, urinary tract
+infection, injection site hematoma, fat malabsorption, hyperkinesia, hypertonia, joint pain, neuropathy, tremor,
+blurred vision, visual disturbance, tinnitus, renal abscess, bronchitis, epistaxis, bacterial infection, moniliasis
+
+Rare: Amenorrhea, anaphylactic shock, anaphylactoid reactions, aneurysm, aphasia, appendicitis, arthritis,
+ascending cholangitis, ascites, atrial fibrillation, basal cell carcinoma, Bell's palsy, biliary obstruction, breast
+carcinoma, cardiac arrest, cerebral vascular disorder, CHF, cholecystitis, cholestatic hepatitis, CK increased,
+creatinine increased, deafness, diabetes insipidus, diabetes mellitus, facial edema, fatty liver, galactorrhea, GI
+bleeding, GI hemorrhage, GI ulcer, glaucoma, gynecomastia, gallbladder polyp, hematuria, hemiparesis, hemorrhoids,
+hearing impairment, hepatitis, hyperesthesia, hypertensive reaction, hypoadrenalism, hypoxia (children), intestinal
+obstruction, intracranial hemorrhage, intraocular pressure increased, iron deficiency, ischemia, jaundice, joint
+effusion, increased LFTs, decreased libido, malignant hyperpyrexia, MI, necrotizing enterocolitis (neonates),
+migraine, nephrolithiasis, neuritis, oligomenorrhea, pancreatitis, orthostatic hypotension, pancytopenia, paranoia,
+paresis, petechiae, pituitary apoplexy, pleural effusion, pneumonia, pneumothorax, polymenorrhea, pulmonary
+embolism, pulmonary hypertension, pulmonary nodule, QT prolongation, Raynaud’s syndrome, rectal bleeding, renal
+failure, renal insufficiency, retinal vein thrombosis, scotoma, seizures, status asthmaticus, suicide attempt, syncope,
+tachycardia, thrombocytopenia, thrombophlebitis, thrombosis, urticaria, vaginitis, visual field defect, vitamin B12
+deficiency, weight loss, wheal or erythema
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:14:09 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Codeine (Impairs formation of two major metabolites, morphine and norcodeine)
+Enhances therapeutic effect of the following drugs: Antidiabetic Agents, Bradycardia-causing Agents, Ivabradine
+(bradycardic effect)
+Increases risk of adverse or toxic effects of Octreotide: Androgens (except Danazol) (hypoglycemic effect), Bretylium
+(bradycardic effect; AV blockade), Herbs with hypoglycemic Properties (hypoglycemic effect), MAO Inhibitors
+(hypoglycemic effect), Other Hypoglycemia- associated Agents (hypoglycemic effect), Pegvisomant (hypoglycemic
+effect), Quinolone Antibiotics (hypoglycemic effect), Ruxolitinib (bradycardic effect), Salicylates (hypoglycemic
+effect), Selective Serotonin Reuptake Inhibitors e.g. fluoxetine (hypoglycemic effect), Tofacitinib (bradycardic effect)
+Increases risk of adverse or toxic effects of the following drugs: Lacosamide (AV-blocking effect), Moderate Risk QTc-
+Prolonging Agents (QTc-prolonging effect), Pegvisomant (significant elevations of liver enzymes)
+Reduces therapeutic effect of Octreotide: Quinolone Antibiotics e.g. Levofloxacin
+Reduces therapeutic effect of Antidiabetic Agents
+
+Avoid concomitant use with:
+Decreases serum concentration of Cyclosporine (Systemic)
+Increases risk of adverse or toxic effects of the following drugs: Ceritinib (bradycardic effect), Highest-Risk QTc-
+Prolonging Agent (QTc-prolonging effect), Mifepristone (QTc-prolonging effect)
+
+Mechanism of Action
+
+A synthetic polypeptidew related to somatostatin, a growth hormone inhibiting factor.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 4 of 4

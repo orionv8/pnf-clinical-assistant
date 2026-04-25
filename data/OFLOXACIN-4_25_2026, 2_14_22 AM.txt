@@ -1,0 +1,176 @@
+﻿April 25, 2026, 2:14:23 AM - https://pnf.doh.gov.ph
+
+OFLOXACIN
+
+Drug Classification
+
+ATC CODE
+
+J01MA01
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Quinolone
+
+CHEMICAL CLASS
+
+Second-Generation Fluoroquinolones
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [WATCH] 200 mg tablet (Rx)
+
+Dosage
+
+ORAL › [WATCH] 200 mg tablet (Rx)
+
+Cervicitis/urethritis, by mouth, non-gonococcal (due to Chlamydia trachomatis), ADULT, 300 mg twice daily for 7
+days Chronic bronchitis (acute exacerbation), community-acquired pneumonia, skin and skin structure infections
+(uncomplicated), by mouth, ADULT, 400 mg every 12 hours for 10 days. Pelvic inflammatory disease (acute), by
+mouth, ADULT, 400 mg every 12 hours for 10 to 14 days. Prostatitis, by mouth, ADULT, 300 mg every 12 hours for 6
+weeks. Urinary tract infection, by mouth, ADULT, uncomplicated, 200 mg every 12 hours for 3 to 7 days;
+complicated, 200 mg every 12 hours for 10 days.
+
+Administration
+
+ORAL › [WATCH] 200 mg tablet (Rx)
+
+Administer with or without food; do not take within 2 hours of sucralfate, didanosine, iron, zinc, or antacids
+containing magnesium, calcium, or aluminum.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:14:23 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Renal Impairment:
+After a normal initial dose, adjust as follows:
+CrCl >20 mL/minute: Administer usual recommended dose every 24 hours.
+CrCl <20 mL/minute: Administer half the usual recommended dose every 24 hours.
+Intermittent hemodialysis (IHD): 100 to 200 mg after dialysis.
+Peritoneal dialysis: 200 mg every 24 hours.
+Continuous renal replacement therapy (CRRT): 300 mg every 24 hours.
+
+Hepatic Impairment:
+Use with caution for patients with severe impairment (e.g., cirrhosis with or without ascites).
+
+Indications
+
+Treatment of acute exacerbations of chronic bronchitis, community-acquired pneumonia, skin and skin structure
+infections (uncomplicated), urethritis and cervicitis (non-gonococcal) due to Chlamydia trachomatis infection, mixed
+infections of the urethra and cervix, pelvic inflammatory disease (acute), cystitis (uncomplicated), urinary tract
+infections (complicated), prostatitis.
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:14:23 AM - https://pnf.doh.gov.ph
+
+Precautions
+
+WARNING: Significant hypoglycemia and certain mental health side effects. Low blood sugar levels can lead to coma;
+and the mental health side effects to be added or updated across all fluoroquinolones are disturbances in attention,
+disorientation, agitation, nervousness, memory impairment, and serious disturbances in mental abilities called
+delirium.
+Associated with an increased risk of tendinitis and tendon rupture in all ages. This risk is further increased in older
+patients (usually older than 60 years), patients taking corticosteroid drugs, and patients with kidney, heart, or lung
+transplants.
+May exacerbate muscle weakness in persons with myasthenia gravis. Avoid ofloxacin in patients with a known history
+of myasthenia gravis.
+
+Fluoroquinolones may prolong QTc interval, avoid use in patients with a history of QTc prolongation, uncorrected
+hypokalemia, hypomagnesemia, or concurrent administration of other medications known to prolong the QT interval
+(including Class Ia and Class III antiarrhythmics, cisapride, erythromycin, antipsychotics, and tricyclic
+antidepressants);
+Tremor, restlessness, confusion and very rare hallucinations, increased intracranial pressure or seizures may occur
+(use with caution in patients with known or suspected CNS disorder. Discontinue in patients who experience
+significant CNS adverse effects);
+Severe, sometimes, fatal, hypersensitivity reactions, including anaphylaxis, have occurred with quinolone therapy.
+(Prompt discontinuation of drug should occur if skin rash or other symptoms arise);
+Peripheral neuropathy (discontinue if symptoms of sensory of sensorimotor neuropathy occur);
+Photosensitivity (discontinue use if photosensitivity occurs);
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis.
+
+Adverse Drug Reactions
+
+Less Common: Chest pain, headache, insomnia, dizziness, fatigue, drowsiness, sleep disorder, nervousness, trunk
+pain, pruritus, skin rash, genital pruritus, nausea, diarrhea, vomiting, abdominal cramps, constipation, decreased
+appetite, dysgeusia, flatulence, gastrointestinal distress, xerostomia, vaginitis, visual disturbances, pharyngitis,
+fever.
+Rare: Abnormal dreams, anaphylaxis, anxiety, auditory disturbance, blurred vision, chills, cognitive dysfunction,
+cough, depression, ecchymosis, edema, erythema nodosum, euphoria, exacerbation of myasthenia gravis, Gilles de
+la Tourette’s syndrome, hallucination, hepatic insufficiency, hepatic failure, hepatitis, hepatotoxicity, hyperglycemia,
+hypoglycemia, hypertension, increased intracranial pressure, polydipsia, interstitial nephritis, limb pain, malaise,
+palpitations, paresthesia, peripheral neuropathy, photophobia, pneumonitis, pseudotumor cerebri, psychotic
+reaction, rhabdomyolysis, rupture of tendon, seizure, skin photosensitivity, SJS, syncope, tendonitis, tinnitus,
+torsades de pointes, toxic epidermal necrolysis, vasculitis, vasodilation, vertigo, weakness, weight loss.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:14:23 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of the following drugs:
+Glucose Lowering Agents e.g. Insulin
+Delamanid, Fluoxetine, Porfimer, QTc-Prolonging Agents, Tacrolimus, Vitamin K Antagonists e.g. Warfarin
+
+Reduces absorption of Ofloxacin:
+Antacids (except: sodium bicarbonate), Calcium Salts (except: calcium chloride), Phosphate binder e.g. Sevelamer
+
+Reduces therapeutic effect of the following drugs:
+BCG Vaccine, Lactobacillus, Estriol, Sodium Picosulfate, Typhoid Vaccine
+
+Increases risk of adverse or toxic effects Ofloxacin:
+Corticosteroids
+
+Decreases excretion of Ofloxacin:
+Probenecid
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects Ofloxacin:
+Nadifloxacin
+
+Increases risk of adverse or toxic effects of Aminolevulinic Acid
+
+Reduces therapeutic effect of the following drugs:
+BCG, Cholera Vaccine
+
+Enhances therapeutic effect of the following drugs:
+Hydroxychloroquine, Mifepristone, Probucol, QTc-Prolonging Agents
+
+Decreases serum concentration of Ofloxacin:
+Strontium Ranelate
+
+Mechanism of Action
+
+Quinolones are broad-spectrum antibacterial agents. They act by blocking bacterial DNA synthesis by inhibiting
+bacterial topoisomerase II and topoisomerase IV. Inhibition of topoisomerase II prevents the relaxation of positively
+supercoiled DNA while inhibition of topoisomerase IV interferes with separation of replicated chromosomal DNA.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

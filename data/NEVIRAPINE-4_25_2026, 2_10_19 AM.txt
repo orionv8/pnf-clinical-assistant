@@ -1,0 +1,102 @@
+﻿April 25, 2026, 2:10:20 AM - https://pnf.doh.gov.ph
+
+NEVIRAPINE
+
+Drug Classification
+
+ATC CODE
+
+J05AG01
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 50 mg/5 mL Suspension in 240 mL (Rx)
+
+ORAL › 50 mg Dispersible tablet (Rx)
+
+ORAL › 200 mg Tablet (Rx)
+
+Dosage
+
+Administration
+
+Dose Adjustment
+
+Geriatric: Refer to adult dosing.
+
+Renal Impairment: Patients requiring dialysis: Administer additional 200 mg dose after each dialysis treatment.
+
+Hepatic Impairment: Moderate to severe: Not recommended for use.
+
+Indications
+
+In combination therapy with other antiretroviral agents for the treatment of HIV-1.
+
+Page 1 of 2
+
+
+
+April 25, 2026, 2:10:20 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Moderate-to-severe hepatic impairment;
+use in occupational or non-occupational post-exposure prophylaxis regimen
+
+Precautions
+
+Patients taking nevirapine should be closely monitored for adverse skin reactions and hepatotoxicity during the first
+18 weeks of treatment, extra vigilance is advised during the first 6 weeks of treatment. Use with extreme caution in
+patients with moderate hepatic impairment, contraindicated in those with severe hepatic impairment, Treatment
+should be permanently stopped in patients who suffer a severe rash, rash accompanied by constitutional symptoms,
+hypersensitivity reactions or clinical hepatitis.
+
+Adverse Drug Reactions
+
+Common: Rash
+Less common: Hypersensitivity reactions
+Rare: Hepatitis, hepatic failure, SJS, and toxic epidermal necrolysis.
+
+Drug Interactions
+
+Avoid concomitant use with:
+Decreases serum concentration of the following drugs:
+Aripiprazole, Caspofungin, Contraceptives, Dolutegravir, Fosamprenavir, Indinavir, Itraconazole, Ketoconazole,
+Lopinavir, Voriconazole
+
+Decreases serum concentration of Nevirapine:
+Carbamazepine, Dabrafenib, Mitotane, Rifampin
+
+Increases serum concentration of the following drugs:
+Rilpivirine, Tizanidine
+
+Increases risk of adverse or toxic effects of Efavirenz
+
+Increases metabolism of Nevirapine:
+CYP2B6 Inducers (Strong), CYP3A4 Inducers (Strong)
+
+Increases metabolism of Methadone
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 2 of 2

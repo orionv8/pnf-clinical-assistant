@@ -1,0 +1,127 @@
+﻿April 25, 2026, 2:08:17 AM - https://pnf.doh.gov.ph
+
+NALOXONE
+
+Drug Classification
+
+ATC CODE
+
+V03AB15
+
+ANATOMICAL
+
+Various
+
+THERAPEUTIC
+
+All Other Therapeutic Products
+
+PHARMACOLOGICAL
+
+Specific Antidotes
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › SC › 400 micrograms/mL (as hydrochloride), 1 mL ampule (Rx)
+
+Dosage
+
+IM / IV / SC › 400 micrograms/mL (as hydrochloride), 1 mL ampule (Rx)
+
+Opioid overdose (with standard ACLS protocols), by IV, IM, or SQ injection, ADULT, initially 0.4–2 mg, may need to
+repeat doses every 2–3 minutes; ADOLESCENT, INFANT, and CHILD ≥5 years or >20 kg, 2 mg; if no response, repeat
+every 2 to 3 minutes; ADOLESCENT, CHILD <5 years or ≤20 kg, and INFANT, 0.1 mg/kg per dose (maximum dose, 2
+mg), repeat every 2–3 minutes if needed. [NOTE: After reversal, re-administration of dose(s) may be needed at a
+later interval (i.e., 20–60 minutes) depending on type or duration of opioid. If no response is observed after 10 mg
+total, consider other causes of respiratory depression]. Reversal of respiratory depression with therapeutic
+opioid doses, by IV, IM, or SQ injection, ADULT, initially 0.04– 0.4 mg, may repeat until desired response achieved;
+ADOLESCENT, CHILD, and INFANT, 0.001–0.015 mg/kg per dose; may be repeated as needed. [NOTE: If desired
+response is not observed after 0.8 mg total, consider other causes of respiratory depression]. Reversal of
+respiratory depression in opioid-dependent patients being treated for cancer pain, by slow IV push, ADULT, 40–80
+micrograms every 30 to 60 seconds until improvement in symptoms. [NOTE: If no response is observed after total
+naloxone dose 1 mg, consider other causes of respiratory depression.] Postoperative reversal, by IV injection,
+ADULT, 0.1–0.2 mg every 2–3 minutes until desired response (adequate ventilation and alertness without
+significant pain); repeat doses may be needed within 1– to 2-hour intervals depending on type, dose, and timing of
+the last dose of opioid administered; ADOLESCENT, CHILD, and INFANT, 0.005–0.01 mg/kg, may repeat every 2–3
+minutes as needed based on response (adequate ventilation without significant pain).
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:08:17 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IM / IV / SC › 400 micrograms/mL (as hydrochloride), 1 mL ampule (Rx)
+
+IV administration is the preferred route. Administer via IV push over 30 seconds as undiluted preparation or via
+slow IV push as diluted preparation by diluting 0.4 mg (1 mL) ampule with 9 mL of normal saline for a total volume of
+10 mL to achieve a concentration of 0.04 mg/mL. May also be administered via continuous IV infusion a diluted
+preparation by diluting 2 mg in 500 mL of D5W or normal saline to make 4 micrograms/mL. May administer by IM or
+SQ route if unable to obtain IV access.
+
+Indications
+
+For the complete or partial reversal of opioid
+depression (including respiratory depression) induced by
+natural and synthetic opioids (e.g., propoxyphene,
+methadone, nalbuphine, butorphanol, pentazocine)
+
+Precautions
+
+Acute opioid withdrawal (e.g. precipitate acute withdrawal,
+unmask pain);
+Cardiovascular disease (e.g. pulmonary edema,
+cardiovascular instability, including ventricular
+fibrillation);
+Seizures (use with caution);
+Pregnancy (use with caution in mild-to-moderate
+hypertension during labor; severe hypertension may
+occur);
+Lactation (consider opioid concentrations in the milk of a
+breastfeeding mother and potential transfer of the
+opioid to the infant).
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:08:17 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+NOTE: Adverse reactions are related to reversing
+dependency and precipitating withdrawal. Withdrawal
+symptoms are the result of sympathetic excess.
+
+Common:
+Cardiac arrest, fever, flushing, hypotension,
+hypertension, tachycardia, ventricular fibrillation
+ventricular tachycardia, agitation, hallucination, crying
+(excessive; neonates), encephalopathy, irritability,
+nervousness, restlessness, seizure (neonates),
+tremulousness, abdominal cramps, coma, diarrhea,
+nausea, vomiting, injection site reaction, ache,
+hyperreflexia (neonates), paresthesia, piloerection,
+tremor, weakness, dyspnea, hypoxia, pulmonary edema,
+respiratory depression, rhinorrhea, sneezing,
+diaphoresis, hot flashes, shivering, yawning
+
+Drug Interactions
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Naloxone:
+Methylnaltrexone (opioid withdrawal)
+
+Mechanism of Action
+
+A pure opioid antagonist that competes and displaces opioids at opioid receptor sites.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B / C (product-specific)
+
+Page 3 of 3

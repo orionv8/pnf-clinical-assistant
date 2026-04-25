@@ -1,0 +1,143 @@
+﻿April 25, 2026, 2:15:28 AM - https://pnf.doh.gov.ph
+
+ONDANSETRON
+
+Drug Classification
+
+ATC CODE
+
+A04AA01
+
+ANATOMICAL
+
+Alimentary Tract and Metabolism
+
+THERAPEUTIC
+
+Antiemetics and Antinauseants
+
+PHARMACOLOGICAL
+
+Serotonin (5HT3) Antagonists
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 8 mg tablet (Rx)
+
+IM › IV › 2 mg/mL solution for injection, 2 mL ampule (Rx)
+
+IM › IV › 2 mg/mL solution for injection, 4 mL ampule (Rx)
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:15:28 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 8 mg tablet (Rx)
+
+Prevention of nausea and vomiting associated with chemotherapy: by mouth, ADULT, 8 mg twice daily; Prevention
+of nausea and vomiting associated with highly emetogenic chemotherapy: by mouth, ADULT, 24 mg 30 minutes
+prior to the start of single-day chemotherapy. Prevention of nausea and vomiting associated with moderately
+emetogenic chemotherapy: by mouth, ADULT, 8 mg 30 minutes prior to the beginning of chemotherapy, repeat
+dose 8 hours after initial dose, then 8 mg every 12 hours for 1 to 2 days after completion of chemotherapy; CHILD 4–
+11 years, 4 mg 30 minutes prior to chemotherapy, repeat 4 and 8 hours after the first dose, then 4 mg every 8 hours
+for 1–2 days after completion of chemotherapy. Prevention of radiation therapy-induced nausea and vomiting
+(Total body irradiation): by mouth, ADULT, 8 mg 1–2 hours before each fraction of radiotherapy. Prevention of
+radiation therapy-induced nausea and vomiting (Single high-dose fraction radiotherapy to abdomen): by mouth,
+ADULT, 8 mg 1–2 hours before irradiation, then 8 m every 8 hours after first dose for 1– 2 days after completion of
+radiotherapy. Prevention of radiation therapy-induced nausea and vomiting (Daily fractionated radiotherapy to
+abdomen): by mouth, ADULT, 8 mg 1–2 hours before irradiation, then 8 mg every 8 hours after first dose for each
+day of radiotherapy. INTRAMUSCULAR AND INTRAVENOUS Prevention of nausea and vomiting associated with
+chemotherapy: by IV injection, ADULT, 0.15 mg/kg per dose (maximum, 16 mg/dose) administered over 15 minutes
+for 3 doses, beginning 30 minutes prior to chemotherapy, followed by subsequent doses 4–8 hours after the first
+dose; ADOLESCENT, CHILD, and INFANT ≥6 months, 0.15 mg/kg per dose (maximum, 16 mg/dose) over 15 minutes
+for 3 doses, beginning 30 minutes prior to chemotherapy, followed by subsequent doses administered 4–8 hours
+after the first dose. Prevention of postoperative nausea and vomiting: by IM or IV injection, ADULT, 4 mg as a single
+dose (over 2–5 minutes if by IV), administered approximately 30 minutes before the end of anesthesia or as
+treatment if vomiting occurs after surgery, repeat doses are generally ineffective; by IV injection, CHILD >40 kg, 4
+mg as a single dose over 2–5 minutes; CHILD ≤40 kg, 0.1 mg/kg as a single dose over 2–5 minutes. NOTE: Single IV
+doses >16 mg is not recommended due to the potential for QT prolongation.
+
+Administration
+
+ORAL › 8 mg tablet (Rx)
+
+For oral administration, administer 30 minutes prior to chemotherapy, 1–2 hours before radiotherapy, or 1 hour
+prior to induction of anesthesia. For IM injection, administer undiluted. For IVPB, infuse diluted solution over 15–30
+minutes. For IV push, single doses may be administered by IV injection as undiluted solution over 2–5 minutes. For
+IV infusion, dilute in 50 mL D5W or NS.
+
+Dose Adjustment
+
+Severe hepatic impairment: Maximum daily dose for oral and parenteral administration is 8 mg.
+
+Indications
+
+Treatment of nausea and vomiting induced by cytotoxic chemotherapy and radiotherapy; prevention and treatment
+of postoperative nausea and vomiting.
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:15:28 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Concomitant use of apomorphine
+
+Precautions
+
+QT prolongation (e.g., torsade de pointes); ileus or gastric distention.
+
+Adverse Drug Reactions
+
+Common: Headache, fatigue, malaise, constipation, drowsiness, sedation, dizziness, agitation, anxiety, paresthesia,
+sensation of cold, pruritus, skin rash, diarrhea, urinary retention, elevated ALT and AST, injection site reaction,
+hypoxia, fever.
+Less Common: Abdominal pain, accommodation disturbance, anaphylaxis, angina pectoris, angioedema, atrial
+fibrillation, anaphylactoid reaction, bradycardia, bronchospasm, cardiac arrhythmia, cardiorespiratory arrest, bullous
+skin disease, chest pain, chills, depression of ST segment on ECG, dyspnea, dystonic reaction, ECG changes,
+extrapyramidal reaction, hypersensitivity reaction, hypokalemia, hepatic failure, hypotension, ischemic heart
+disease, laryngeal edema, laryngospasm, mucosal tissue reaction, myocardial infarction, neuroleptic malignant
+syndrome, oculogyric crisis, palpitations, positive lymphocyte transformation test, prolonged QT interval on ECG,
+second-degree atrioventricular block, serotonin syndrome, shock, Stevens-Johnson syndrome, stridor,
+supraventricular tachycardia, syncope, tachycardia, tonic-clonic seizures, torsade de pointes, toxic epidermal
+necrolysis, transient blindness (≤48 hours), transient blurred vision (following infusion), urticaria, vascular occlusive
+events, ventricular premature contractions, ventricular tachycardia, weakness, xerostomia.
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of the following drugs: QTc-prolonging agents, Serotonin Modulators (serotonergic
+effect)
+Increases risk of adverse or toxic effects of Serotonin Modulators
+Reduces therapeutic effect of the following drugs: Tapentadol (analgesic effect), Tramadol (analgesic effect)
+Avoid concomitant use with:
+Decreases serum concentration of Ondansetron: CYP3A4 Inducers, Dabrafenib, Mitotane
+Increases risk of adverse or toxic effects of the following drugs: Apomorphine (hypotensive effect), Ivabradine,
+Mifepristone, QTc-prolonging agents (QTc-prolonging effect)
+Increases serum concentration of the following drugs: Tizanidine [if concomitant use cannot be avoided, initiate
+tizanidine at 2 mg and increase in 2–4 mg increments based on patient response]
+
+Mechanism of Action
+
+A selective type 3 serotonin (5-HT3) receptor inhibitor that acts as an antiemetic by blocking the effect of serotonin
+on the vagal afferent nerves.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:15:28 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 4 of 4

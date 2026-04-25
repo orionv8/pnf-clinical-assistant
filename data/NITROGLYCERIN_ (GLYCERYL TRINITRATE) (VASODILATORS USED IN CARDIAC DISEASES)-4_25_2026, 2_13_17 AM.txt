@@ -1,0 +1,137 @@
+﻿April 25, 2026, 2:13:18 AM - https://pnf.doh.gov.ph
+
+NITROGLYCERIN (GLYCERYL TRINITRATE) (VASODILATORS
+USED IN CARDIAC DISEASES)
+
+Drug Classification
+
+ATC CODE
+
+C01DA02
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Cardiac Therapy
+
+PHARMACOLOGICAL
+
+Vasodilators Used in Cardiac Diseases
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 1 mg/mL in 10 mL Ampul (IV infusion) (Rx)
+
+IV › 1 mg/mL in 25 mL Ampul (IV infusion) (Rx)
+
+Dosage
+
+IV › 1 mg/mL in 10 mL Ampul (IV infusion) (Rx)
+
+Angina: by IV infusion, ADULT, 5 micrograms/minute, increase by 5 micrograms/minute every 3–5 minutes until 20
+micrograms/minute; if no response at 20 micrograms/minute, may increase dose by 10–20 micrograms/minute
+every 3–5 minutes (maximum dose, 400 micrograms/minute). Unstable angina, management, by IV infusion, ADULT,
+initially 10 micrograms/minute, increase by 10 micrograms/minute every 3–5 minutes until relief of symptoms; if no
+response at 20 micrograms/minute, may increase by 10 micrograms/minute and later by 20 micrograms/minute.
+NOTE: If nitroglycerin is prescribed, advise the patient to take 1 dose promptly in response to chest pain
+
+Administration
+
+IV › 1 mg/mL in 10 mL Ampul (IV infusion) (Rx)
+
+For IV administration, administer via infusion pumps. Prepare in glass bottles, EXCEL, or PAB containers.
+Adsorption occurs to soft plastic (e.g., PVC). Use administration sets intended for nitroglycerin. Prepare a 100
+micrograms/mL solution by withdrawing 25 mL D5W from a 250-mL bottle of D5W and replace this volume with 25
+mg (25 mL) of nitroglycerin. Prepare a 200 micrograms/mL solution by withdrawing 50 mL D5W from a 250-mL
+bottle of D5W and replace volume with 50 mg (50 mL) of nitroglycerin.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:13:18 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Management of unstable angina
+
+Contraindications
+
+Concurrent use with PDE5 Inhibitors or Riociguat; hypersensitivity to corn or corn products (solutions containing
+dextrose); constrictive pericarditis; pericardial tamponade; restrictive cardiomyopathy; hypotension (SBP <90 mmHg
+or ≥30 mmHg below baseline); marked bradycardia or tachycardia; right ventricular infarction
+
+Precautions
+
+Long-term therapy (may develop hemodynamic and antianginal tolerance; administer 10–12 hours nitrate-free
+interval daily to prevent tolerance; gradually decrease dose to avoid withdrawal reaction).
+Headache (dose-related; may occur during initial dosing); increased intracranial pressure (may precipitate or
+aggravate increased intracranial pressure; may worsen clinical outcomes in patients with neurologic injury).
+Hypotension or bradycardia (severe hypotension and orthostatic hypotension can occur; paradoxical bradycardia and
+increased angina pectoris can accompany hypotension)
+Hypertrophic cardiomyopathy (may reduce preload, exacerbating obstruction and cause hypotension or syncope
+and/or worsening of heart failure).
+Elderly (hypotension is enhanced due to decreased baroreceptor response, decreased venous tone, hypovolemia, or
+other hypotensive drugs).
+Lactation (not known if excreted in breastmilk; limited information available; use with caution when administering to
+nursing women)
+
+Adverse Drug Reactions
+
+Common: Bradycardia, flushing, hypotension, orthostatic hypotension, peripheral edema, syncope, tachycardia,
+headache, dizziness, lightheadedness, nausea, vomiting, xerostomia, paresthesia, weakness, dyspnea, pharyngitis,
+rhinitis, diaphoresis
+Less Common: Allergic reactions, anaphylactoid reaction, blurred vision, cardiovascular collapse, crescendo angina,
+exfoliative dermatitis, pallor, palpitation, rash, rebound hypertension, restlessness, shock, vertigo
+Rare: Methemoglobinemia
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:13:18 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Nitroglycerin:
+Antihypertensive effects: Alfuzosin, Barbiturates e.g. Phenobarbital, Molsidomine, Nicorandil
+Vasodilatory effect: Ethyl alcohol
+
+Increases risk of adverse or toxic effects of Nitroglycerin:
+Dapoxetine (orthostatic hypotension), Other Antihypertensive Agents
+
+Increases risk of adverse or toxic effects of the following drugs:
+Methemoglobinemia: Dapsone, (Topical), Nitric Oxide, Prilocaine, Sodium Nitrite,
+Orthostatic hypotension: Duloxetine, Levodopa
+Risperidone (hypotensive effect), Rosiglitazone (ischemia)
+
+Reduces therapeutic effect of the following drugs:
+Heparin (anticoagulant effect)
+
+Avoid concomitant use with:
+Enhances therapeutic effect of ISMN:
+Phosphodiesterase-5 Inhibitors e.g. Sildenafil (vasodilatory effects), Ergot Derivatives (vasodilatory effects)
+
+Enhances therapeutic effect of the following drugs:
+Riociguat (antihypertensive effects)
+
+Increases serum concentration of the following drugs:
+Ergot Derivatives
+
+Mechanism of Action
+
+An antianginal agent which releases nitric oxide. Nitric oxide produces a more prominent vasodilator effect on the
+peripheral veins than arteries. In turn, it reduces cardiac oxygen demand by decreasing preload and afterload. It
+likewise causes epicardial coronary arteries vasodilation
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B / C (product-specific)
+
+Page 3 of 3

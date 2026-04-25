@@ -1,0 +1,156 @@
+﻿April 24, 2026, 11:19:21 PM - https://pnf.doh.gov.ph
+
+NALBUPHINE
+
+Drug Classification
+
+ATC CODE
+
+N02AF02
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Analgesics
+
+PHARMACOLOGICAL
+
+Opioids
+
+CHEMICAL CLASS
+
+Morphinan Derivatives
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › SC › 10 mg/mL (as hydrochloride), 1 mL ampule (Rx)
+
+Dosage
+
+IM / IV / SC › 10 mg/mL (as hydrochloride), 1 mL ampule (Rx)
+
+NOTE: Individualize doses based on severity of pain, patient response, prior analgesic treatment experience, and
+risk factors for addiction, abuse, and misuse. Moderate to severe pain, by IM or SC injection, or by IV infusion,
+ADULT, 10 mg every 3-6 hours as needed based on a 70 kg patient; may titrate dose to appropriate effect (maximum
+single dose in nonopioid-tolerant patients, 20 mg; maximum daily dose, 160 mg).
+
+Administration
+
+IM / IV / SC › 10 mg/mL (as hydrochloride), 1 mL ampule (Rx)
+
+For IM or SC injection, administer undiluted. For IV infusion, administer undiluted over at least 2–3 minutes. Larger
+induction doses should be administered over 10–15 minutes. Inspect visually for particulate matter and
+discoloration prior to administration whenever solution and container permit. NOTE: When discontinuing therapy,
+decrease dose by 25– 50% every 2–4 days. Monitor carefully for signs or symptoms of withdrawal. If patient
+displays withdrawal symptoms, increase dose to previous level and then reduce dose more slowly by increasing
+interval between dose reductions, decreasing amount of daily dose reduction, or both.
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:19:21 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Initiate therapy with reduced doses and use with caution.
+
+Renal and Hepatic Impairment:
+Reduce dose.
+
+Indications
+
+Management of pain severe enough to require an opioid analgesic; supplement to balanced anesthesia;
+preoperative and postoperative analgesia; obstetrical analgesia during labor and delivery.
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:19:21 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Significant respiratory depression; acute or severe bronchial asthma in an unmonitored setting or in the absence of
+resuscitative equipment; known or suspected GI obstruction, including paralytic ileus.
+
+Precautions
+
+WARNING: Life-threatening respiratory depression. Serious, life-threatening, or fatal respiratory depression may
+occur, particularly when used concomitantly with other opioids or CNS depressants. Monitor for respiratory
+depression, especially during initiation of nalbuphine or following a dose increase.
+
+Risks from concomitant use with benzodiazepines or other CNS depressants. May result in profound sedation,
+respiratory depression, coma, and death. Reserve concomitant prescribing of nalbuphine and benzodiazepines or
+other CNS depressants for use in patients for whom alternative treatment options are inadequate. Limit doses and
+durations to the minimum required. Follow patients for signs and symptoms of respiratory depression and sedation.
+
+Should be administered by personnel trained in the use of IV anesthetics and the management of the respiratory
+effects of potent opioids. Resuscitative and intubation equipment and oxygen should be readily available.
+
+Abuse, misuse, and diversion. Users are exposed to the risks of addiction, abuse, and misuse, potentially leading to
+overdose and death. Monitor all patients for development of these behaviors or conditions. Risk for opioid abuse is
+increased in patients with a personal or family history of substance abuse, including drug or alcohol abuse or
+addiction, or mental illness.
+
+Chronic pulmonary disease (monitor for decreased respiratory drive including apnea); Adrenal insufficiency (monitor
+for nausea, vomiting, anorexia, fatigue, weakness, dizziness, and low blood pressure); Head injury and increased
+intracranial pressure (may obscure the clinical course of patients with head injuries); Renal or hepatic impairment;
+Biliary tract surgery (may cause spasm of the sphincter of Oddi); Myocardial infarction; Cardiovascular effects
+(monitor for bradycardia); Cachectic or debilitated patients (life-threatening depression is more likely to occur);
+
+Elderly (life-threatening depression is more likely to occur); Children (safety and effectiveness in patients <18 years
+have not been established); Pregnancy (severe fetal bradycardia has been reported when used during labor;
+sinusoidal fetal heart rate pattern associated with the use of nalbuphine has been reported); Lactation (monitor
+nursing infants for excess sedation and respiratory depression).
+
+Adverse Drug Reactions
+
+Common: Sedation, sweaty or clammy, nausea, vomiting, dizziness or vertigo, dry mouth, headache.
+
+Less Common: Nervousness, restlessness, crying, depression, euphoria, floating, hostility, unusual dreams,
+confusion, faintness, dysphoria, feeling of heaviness, hallucinations, numbness, tingling, unreality, bradycardia,
+tachycardia, hypotension, hypertension, cramps, dyspepsia, bitter taste, depression, dyspnea, asthma, itching,
+burning, urticaria, speech difficulty, urinary urgency, blurred vision, flushing and warmth, anaphylactic or
+anaphylactoid and other serious hypersensitivity reactions.
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:19:21 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Butorphanol: Amphetamines (analgesic effect)
+Enhances therapeutic effect of the following drugs: Pramipexole, Ropinirole, Rotigotine (sedative effect); Selective
+Modulators (serotonergic effect)
+Reduces therapeutic effect of the following drugs: Buprenorphine; Prokinetics
+Increases risk of adverse or toxic effects of the following drugs: Buprenorphine (opioid withdrawal); Desmopressin;
+Diuretics; Ramosetron (constipating effect); Selective Modulators (serotonin syndrome); SSRIs (psychomotor
+impairment)
+Increases risk of adverse or toxic effects of Butorphanol: Anticholinergic Agents (constipation and urinary
+retention); CNS Depressants; Rufinamide (sleepiness and dizziness); Succinylcholine (bradycardic effect)
+
+Avoid concomitant use with:
+Reduces therapeutic effect of Butorphanol: Nalmefene; Naltrexone; Other Opioid Analgesics [except
+Buprenorphine, Butorphanol, Nalbuphine, Pentazocine]
+
+Mechanism of Action
+
+Nalbuphine is a synthetic morphine opioid agonistantagonist analgesic and a phenanthrene derivative that is a
+potent analgesic essentially equivalent to morphine on a milligram basis and may produce the same degree of
+respiratory depression.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 4 of 4
