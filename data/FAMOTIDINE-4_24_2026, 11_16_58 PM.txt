@@ -1,0 +1,129 @@
+﻿April 24, 2026, 11:16:58 PM - https://pnf.doh.gov.ph
+
+FAMOTIDINE
+
+Drug Classification
+
+ATC CODE
+
+A02BA03
+
+ANATOMICAL
+
+Alimentary Tract and Metabolism
+
+THERAPEUTIC
+
+Drugs for Acid Related Disorder
+
+PHARMACOLOGICAL
+
+Drugs for Peptic Ulcer and Gastro-Esophageal Reflux Disease (GERD)
+
+CHEMICAL CLASS
+
+H2-Receptor Antagonists
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 20 mg tablet (Rx)
+
+IM › IV › 10 mg/mL solution for injection, 2 mL ampule (Rx)
+
+IM › IV › 20 mg powder/lyophilized powder for injection, vial (Rx)
+
+Dosage
+
+ORAL › 20 mg tablet (Rx)
+
+Duodenal ulcer (Acute therapy): by mouth, ADULT, 40 mg daily at bedtime (or 20 mg twice daily) for 4-8 weeks.
+Duodenal ulcer (Maintenance therapy): by mouth, ADULT, 20 mg daily at bedtime. Gastric ulcer (Acute therapy): by
+mouth, ADULT, 40 mg daily at bedtime. Peptic ulcer: by mouth, CHILD 1-16 years, 0.5 mg/kg daily at bedtime or
+divided twice daily (maximum dose, 40 mg daily) (doses of up to 1 mg/kg daily have been used in clinical studies).
+GERD: by mouth, ADULT, 20 mg twice daily for 6 weeks; CHILD 1-16 years, 1 mg/kg daily divided twice daily
+(maximum dose, 40 mg twice daily) (doses of up to 2 mg/kg/day have been used in clinical studies); CHILD 3- 12
+months, 0.5 mg/kg twice daily; CHILD <3 months, 0.5 mg/kg once daily. Esophagitis and accompanying symptoms
+due to GERD: by mouth, ADULT, 20 mg or 40 mg twice daily for up to 12 weeks. Hypersecretory conditions: by
+mouth, ADULT, initially, 20 mg every 6 hours, may increase in increments up to 160 mg every 6 hours.
+INTRAVENOUS/INTRAMUSCULAR Peptic ulcer: by IV injection, CHILD 1-16 years, 0.25 mg/kg every 12 hours
+(maximum dose, 40 mg daily) (doses of up to 0.5 mg/kg have been used in clinical studies). Patients unable to take
+oral medication: by IV injection, ADULT, 20 mg every 12 hours.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 11:16:58 PM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 20 mg tablet (Rx)
+
+For oral administration, may be taken with or without food. For IV injection or IV push, inject over at least 2 minutes.
+For IV infusion, administer over 15–30 minutes.
+
+Dose Adjustment
+
+Renal Impairment: For creatinine clearance <50, reduce dose by half or increase dosing interval to 36–48 hours.
+
+Indications
+
+Relief and prevention of heartburn; treatment and maintenance of active duodenal ulcers, pathological
+hypersecretory conditions (e.g., Zollinger-Ellison Syndrome or multiple endocrine adenomas), Gastroesophageal
+Reflux Disease (GERD) and active benign gastric ulcer.
+
+Contraindications
+
+Cirrhosis of the liver; impaired renal or hepatic function; lactation; other H2 antagonists.
+
+Precautions
+
+Increases risk of community-acquired pneumonia with prolonged use; prolonged treatment (≥2 years) may lead to
+vitamin B12 malabsorption and subsequent vitamin B12 deficiency; gastric malignancy;
+Elderly >50 years;
+Lactation (excreted into breast milk).
+
+Adverse Drug Reactions
+
+Common: Headache, dizziness, constipation, diarrhea, nausea and vomiting, anxiety, confusion.
+
+Less Common: Acne, pruritus, urticaria, dry skin, fever, hypertension, flushing, musculoskeletal pain, arthralgia,
+tinnitus
+
+Page 2 of 3
+
+
+
+April 24, 2026, 11:16:58 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases absorption of the following drugs: Cefpodoxime, Cefuroxime, Iron salts.
+Decreases serum concentration of the following drugs: Indinavir, Multivitamins / Minerals with ADEK, Folate, Iron.
+Increases the absorption of: Methylphenidate
+Increases serum concentration of Famotidine: Bupropion
+
+Avoid concomitant use with:
+Decreases absorption of Famotidine: Antacid
+Decreases absorption of Diazepam
+Decreases serum concentration of the following drugs: Atazanavir, Cefditoren, Itraconazole, Ketoconazole
+(systemic)
+Increases serum concentration of Risedronate
+
+Mechanism of Action
+
+A competitive inhibitor of histamine H2-receptor, inhibiting both daytime and nocturnal basal gastric acid secretion,
+as well as food-stimulated and pentagastrin-stimulated gastric acid secretion.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+REMARKS
+
+IV form problematic
+
+Page 3 of 3

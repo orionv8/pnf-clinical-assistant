@@ -1,0 +1,179 @@
+﻿April 25, 2026, 12:59:03 AM - https://pnf.doh.gov.ph
+
+FELODIPINE
+
+Drug Classification
+
+ATC CODE
+
+C08CA02
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Calcium Channel Blockers
+
+PHARMACOLOGICAL
+
+Selective Calcium Channel Blockers with Mainly Vascular Effects
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 5 mg MR tablet (Rx)
+
+ORAL › 10 mg MR tablet (Rx)
+
+Dosage
+
+ORAL › 5 mg MR tablet (Rx)
+
+Hypertension, by mouth, ADULT, 5 mg once daily; adjust dose as needed at no less than 2-week intervals; usual
+dose range, 5–10 once daily; ADOLESCENT and CHILD ≥6 years, initially 2.5 mg once daily; may increase as needed
+at no less than 2-week intervals (maximum dose, 10 mg once daily).
+
+Administration
+
+ORAL › 5 mg MR tablet (Rx)
+
+May be administered without food or with a small meal that is low in fat and carbohydrates. Avoid grapefruit juice
+during therapy. Swallow tablet whole. Do NOT divide, crush, or chew. NOTE: Felodipine peak plasma
+concentrations are increased up to two-fold when taken after a meal high in fat or carbohydrates. Grapefruit juice
+similarly increases felodipine Cmax by two-fold. Increased therapeutic and vasodilator side effects, including
+severe hypotension and myocardial ischemia, may occur.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 12:59:03 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Consider lower initial doses and titrate at no less than 2-week intervals to response.
+
+Hepatic Impairment:
+Initially administer 2.5 mg once daily. Monitor blood pressure closely during titration.
+
+Indications
+
+Management of hypertension
+
+Precautions
+
+Angina or myocardial infarction (reflex tachycardia may occur)
+Hypotension or syncope (symptomatic hypotension with or without syncope rarely occur)
+Peripheral edema (dose-dependent)
+Aortic stenosis (may reduce coronary perfusion resulting in ischemia); Heart failure (avoid use)
+Hepatic impairment (may require lower starting dose)
+Hypertrophic cardiomyopathy (reduction in afterload may worsen symptoms associated with this condition)
+Elderly (may experience a greater hypotensive response; constipation may be more of a problem)
+Pregnancy (untreated chronic maternal hypertension is associated with adverse events in the fetus, infant, and
+mother); lactation (not known if excreted in breastmilk)
+
+Adverse Drug Reactions
+
+Common: Headache, peripheral edema, flushing, tachycardia
+Less Common: Abdominal pain, acid regurgitation, anemia, angioedema, angina pectoris, anxiety disorders, arm pain,
+arrhythmia, arthralgia, back pain, bronchitis, chest pain, CHF, constipation, contusion, CVA, decreased libido,
+depression, diarrhea, dizziness, dry mouth, dyspnea, dysuria, epistaxis, erythema, facial edema, flatulence, flulike
+illness, flushing, foot pain, gingival hyperplasia, gynecomastia, hip pain, hypotension, impotence, influenza, insomnia,
+irritability, knee pain, leg pain, leukocytoclastic vasculitis, MI, muscle cramps, myalgia, nausea, nervousness,
+palpitation, paresthesia, pharyngitis, polyuria, premature beats, respiratory infection, sinusitis, somnolence,
+syncope, urinary frequency, urinary urgency, urticaria, visual disturbances, vomiting
+
+NOTE: Doses >10 mg daily are associated with greater antihypertensive effects but also with a large increase in the
+incidence of peripheral edema and other vasodilatory adverse effects.
+
+Page 2 of 4
+
+
+
+April 25, 2026, 12:59:03 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Felodipine:
+Cyclosporine (Systemic), CYP2C8 Substrates, CYP3A4 Inhibitors (Moderate)
+
+Enhances antihypertensive effect of Felodipine:
+Alfuzosin, Alpha1 Blockers, Barbiturates e.g., Phenobarbital, Brimonidine (Topical); Non-Dihydropyridine Calcium
+Channel Blockers e.g., Verapamil, Diazoxide, Magnesium Salts, MAO Inhibitors [except Linezolid, Tedizolid],
+Molsidomine, Nicorandil, Other Antihypertensive Agents; Pentoxifylline, Phosphodiesterase-5 Inhibitors e.g.,
+Sildenafil, Prostacyclin Analogues e.g., Epoprostenol
+
+Enhances therapeutic effect of the following drugs:
+Nondepolarizing neuromuscular-blocking Agents e.g., Vecuronium (neuromuscular-blocking effect), Nitroprusside
+(hypotensive effect)
+
+Increases absorption of Felodipine:
+Ethyl Alcohol
+
+Increases metabolism of Felodipine:
+Barbiturates e.g., Phenobarbital
+
+Increases risk of adverse or toxic effects of Felodipine:
+Dapoxetine (orthostatic hypotension), MAO Inhibitors [except Linezolid, Tedizolid] (orthostatic hypotension), Other
+Antihypertensive Agents
+
+Increases risk of adverse or toxic effects of the following drugs:
+Atosiban (pulmonary edema and/or dyspnea), Duloxetine (orthostatic hypotension), Levodopa (orthostatic
+hypotension), Magnesium Salts, Risperidone (hypotensive effect)
+
+Reduces antihypertensive effect of Felodipine:
+Calcium Salts, Methylphenidate
+
+Reduces therapeutic effect of the following drugs:
+Clopidogrel
+
+Avoid concomitant use with:
+Decreases metabolism of Felodipine:
+Antifungal Agents, Azole Derivatives, (Systemic) [except Fluconazole, Isavuconazonium Sulfate], CYP3A4 Inhibitors
+(Strong), Macrolide Antibiotics [except Azithromycin, Fidaxomicin, Spiramycin]
+
+Decreases serum concentration of Felodipine:
+Dabrafenib, Mitotane, Phenytoin, Rifamycin Derivatives
+
+Increases metabolism of Felodipine:
+Carbamazepine, CYP3A4 Inducers (Strong), Nafcillin
+
+Increases risk of adverse or toxic effects of Felodipine:
+Antifungal Agents, Azole Derivatives, Systemic [except Fluconazole] (negative inotropic effects), Mifepristone,
+Stiripentol
+
+Page 3 of 4
+
+
+
+April 25, 2026, 12:59:03 AM - https://pnf.doh.gov.ph
+
+Increases risk of adverse or toxic effects of the following drugs:
+Amifostine (hypotensive effect), Obinutuzumab [withhold Felodipine 12 hours prior to Obinutuzumab infusion until 1
+hour after the end of the infusion] (hypotensive effect), Phenytoin, Rituximab (hypotensive effect)
+Increases serum concentration of Felodipine:
+Cimetidine, Fosphenytoin, Fusidic Acid (Systemic), Grapefruit Juice, Idelalisib, Itraconazole, Ketoconazole (Systemic),
+Mifepristone, Stiripentol
+
+Increases serum concentration of the following drugs:
+Amodiaquine, Phenytoin
+
+Reduces therapeutic effect of Felodipine:
+Phenytoin
+
+Mechanism of Action
+
+A dihydropyridine calcium channel blocker that inhibits calcium ions from entering select voltage-sensitive areas of
+vascular smooth muscle and myocardium during depolarization, producing a relaxation of coronary vascular smooth
+muscle and coronary vasodilation.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

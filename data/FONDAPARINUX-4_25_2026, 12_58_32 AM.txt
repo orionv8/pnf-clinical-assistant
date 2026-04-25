@@ -1,0 +1,156 @@
+﻿April 25, 2026, 12:58:33 AM - https://pnf.doh.gov.ph
+
+FONDAPARINUX
+
+Drug Classification
+
+ATC CODE
+
+B01AX05
+
+ANATOMICAL
+
+Blood and Blood Forming Organs
+
+THERAPEUTIC
+
+Antithrombotic Agents
+
+PHARMACOLOGICAL
+
+Other Antithrombotic Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › SC › 2.5 mg/0.5 mL solution (as sodium salt) (Rx)
+
+Dosage
+
+IM / IV / SC › 2.5 mg/0.5 mL solution (as sodium salt) (Rx)
+
+NOTE: PT and aPTT are insensitive measures of Fondaparinux activity. If unexpected changes in coagulation
+parameters or major bleeding occur, discontinue fondaparinux. SUBCUTANEOUS UA or NSTEMI: by SC injection,
+ADULT, 2.5 mg once daily for the duration of hospitalization or up to 8 days, initiate as soon as possible after
+presentation. INTRAVENOUS STEMI: by IV injection, ADULT, 2.5 mg once; for subsequent doses, starting the
+following day, by SC injection, 2.5 mg once daily for the duration of the hospitalization up to 8 days, or until
+revascularization [NOTE: Discontinue Fondaparinux 24 hours prior to CABG surgery and administer UFH instead,
+as per institutional practice].
+
+Administration
+
+IM / IV / SC › 2.5 mg/0.5 mL solution (as sodium salt) (Rx)
+
+Initiate therapy 6–8 hours following surgery. When used for DVT prophylaxis, early initiation (before 6 hours after
+orthopedic surgery) has been associated with increased bleeding. For STEMI, administer via IV route. Administer
+initial dose as IV push or mix in NS and infuse over 1–2 minutes. Flush tubing with NS after infusion to ensure
+complete administration. If to be administered via SC route, alternate injection sites. Administer according to
+recommended regimen. Do NOT expel air bubble from syringe before injection. Do NOT administer with other
+agents that increase the risk of hemorrhage unless they are essential for the management of the underlying
+condition. Do NOT administer via IM route. CONVERSION. To convert from IV UFH infusion to SC Fondparinux,
+calculate specific dose for Fondaparinux based on indication. Discontinue UFH and begin Fondaparinux within 1
+hour. To convert from SC Fondaparinux to IV UFH infusion, discontinue Fondaparinux, calculate specific dose for IV
+UFH infusion based on indication. Omit Heparin loading dose. For SC Fondaparinux dosed every 24 hours, start IV
+UFH infusion 22–23 hours after last Fondaparinux dose.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 12:58:33 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+For CrCl >50 mL/minute, no dose adjustment is necessary, however, total clearance is reduced ~25%.
+For CrCl of 30–50 mL/minute, use with caution. Total clearance ~40% lower compared to normal renal function. When
+used for thromboprophylaxis, reduce dose 50% or use low-dose heparin.
+For CrCl <30 mL/minute, use is contraindicated.
+
+Hepatic Impairment:
+For severe impairment, use with caution. Monitor closely for signs of bleeding.
+
+Indications
+
+Management of unstable angina (UA) or non-ST segment elevation myocardial infarction (NSTEMI); management of ST
+segment elevation myocardial infarction (STEMI).
+
+Contraindications
+
+Severe renal impairment; body weight <50 kg; active major bleeding; bacterial endocarditis; Thrombocytopenia
+associated with a positive in vitro test for antiplatelet antibodies in the presence of Fondaparinux.
+
+Precautions
+
+WARNING: Epidural or spinal hematomas may occur in patients who are anticoagulated with low molecular weight
+heparins, heparinoids, or fondaparinux and are receiving neuraxial anesthesia or undergoing spinal puncture. This
+may result in longterm or permanent paralysis. Monitor patients frequently for signs and symptoms of neurologic
+impairment. If neurologic compromise is noted, urgent treatment is necessary.
+
+Hemorrhage may occur at any site. Risk appears increased by several factors including renal dysfunction, age (>75
+years), and weight (<50 kg).
+
+Bleeding; thrombocytopenia; Hepatic impairment; Renal impairment; Patients <50 kg (use with caution; dose
+reduction recommended); Elderly (use with caution ; increased risk of bleeding in patients >75 years of age);
+Lactation (use with caution).
+
+Page 2 of 4
+
+
+
+April 25, 2026, 12:58:33 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Anemia, hypotension, insomnia, dizziness, confusion, increased wound secretion, skin blister,
+hypokalemia, thrombocytopenia, purpura, hematoma, minor or major hemorrhage, postoperative hemorrhage,
+increased serum ALT and AST, postoperative wound infection, epistaxis.
+Less Common: Anaphylactoid reaction, anaphylaxis, angioedema, catheter site thrombosis, elevated aPTT
+associated with bleeding, epidural hematoma, hemorrhagic death, injection site reaction (bleeding, skin rash,
+pruritus), intracranial hemorrhage, reoperation due to bleeding, spinal hematoma, thrombocytopenia, severe
+thrombocytopenia (<50,000/mm3).
+
+Drug Interactions
+
+Monitor closely with:
+Enhances anticoagulant effect of Fondaparinux:
+Agents with Antiplatelet Properties, e.g., P2Y12 Inhibitors, NSAIDs, SSRIs; Omega-3 Fatty Acids; Other
+Anticoagulants; Salicylates e.g. Aspirin; Sugammadex; Thrombolytic Agents; Tibolone; Vitamin E (increases overall
+risk for bleeding)
+
+Increases risk of adverse or toxic effects of Fondaparinux:
+Ibrutinib; Prostacyclin Analogues
+
+Increases risk of adverse or toxic effects of the following drugs:
+Deferasirox (GI ulceration or irritation; GI bleeding;); Deoxycholic Acid (bleeding or bruising in the treatment area)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Bleeding: Nintedanib; Obinutuzumab; Iodine I131
+
+Avoid concomitant use with:
+Enhances anticoagulant effect of the following drugs:
+Apixaban; Dabigatran Etexilate; Rivaroxaban
+
+Increases risk of bleeding of Fondaparinux:
+Herbs with anticoagulant or antiplatelet properties, e.g., Alfalfa, Anise, Bilberry;
+
+Reduces anticoagulant effect of Fondaparinux:
+Estrogen Derivatives, Progestins [except Tibolone]
+
+Mechanism of Action
+
+A synthetic activated factor X (Xa) inhibitor used as an anticoagulant. It increases the affinity of antithrombin III for
+factor Xa, a key enzyme in the coagulation cascade.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 12:58:33 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 4 of 4

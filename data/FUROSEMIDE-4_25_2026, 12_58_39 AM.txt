@@ -1,0 +1,193 @@
+﻿April 25, 2026, 12:58:40 AM - https://pnf.doh.gov.ph
+
+FUROSEMIDE
+
+Drug Classification
+
+ATC CODE
+
+C03CA01
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Diuretics
+
+PHARMACOLOGICAL
+
+High-Ceiling Diuretics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 20 mg tablet (Rx)
+
+ORAL › 40 mg tablet (Rx)
+
+IM › IV › 10 mg/mL, 2 mL ampule (Rx)
+
+IV › 10 mg/mL, 25 mL ampule (Rx)
+
+Page 1 of 5
+
+
+
+April 25, 2026, 12:58:40 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 20 mg tablet (Rx)
+
+Edema, by mouth, ADULT, 40 mg daily in divided doses, may be increased gradually to 120 mg in resistant edema;
+CHILD, 1–3 mg/kg daily (maximum, 40 mg daily); INFANT, 1–6 mg/kg daily given in divided doses every 6–12 hours;
+NEONATES or PREMATURE INFANTS, 1–4 mg/kg per dose once or twice daily due to poor bioavailability; by IV
+injection, NEONATES or PREMATURE INFANTS, 1–2 mg/kg per dose every 12–24 hours; by continuous IV infusion,
+NEONATES or PREMATURE INFANTS, 0.05 mg/kg per hour (maximum, 0.4 mg/kg per hour). Heart failure, by mouth,
+ADULT, initially 20–40 mg; may repeat the same dose or increase dose in increments of 20–40 mg per dose at
+intervals of 6–8 hours (maximum total daily dose, 600 mg); usual maintenance dose interval is once or twice daily;
+adjust dosing frequency based on patient-specific needs; CHILD and INFANT, initially 2 mg/kg per dose, increased
+in increments of 1–2 mg/kg per dose at intervals of 6–8 hours until a satisfactory response is achieved (maximum
+dose, 6 mg/kg per dose); by IM or IV injection, ADULT, initially 20–40 mg per dose, may repeat the same dose or
+increase dose in increments of 20 mg per dose and administer 1–2 hours after previous dose (maximum dose, 200
+mg per dose); given once or twice daily; CHILD and INFANT, initially 1 mg/kg per dose, may increase dose in
+increments of 1 mg/kg per dose and administer not sooner than 2 hours after previous dose, until a satisfactory
+response is achieved; may administer maintenance dose at intervals of every 6–12 hours (maximum dose, 6 mg/kg
+per dose); by continuous IV infusion, ADULT, initially administer an IV bolus dose 40–100 mg over 1 to 2 minutes,
+followed by continuous IV infusion rate of 10–40 mg/hour; repeat loading dose before increasing infusion rate.
+Acute pulmonary edema, by slow IV injection, ADULT, 40 mg initially, dose may be doubled every hour until a ceiling
+dose of 160 mg; CHILD 1 mg/kg daily (maximum, 6mg/kg daily); by slow IV drip or infusion, ADULT, 40 mg/hour.
+Oliguria with glomerular filtration rate <20 mL/minute, by slow IV infusion at a rate not exceeding 4 mg/minute,
+ADULT, initially 250 mg over 1 hour; if urine output is not satisfactory during the hour after the first dose, infuse
+500 mg over 2 hours then, if there is no satisfactory response during the hour after the second dose, infuse 1 g
+over 4 hours; if there still is no response after the third dose, dialysis is probably necessary; may repeat effective
+dose, up to 1 g, every 24 hours.
+
+Administration
+
+ORAL › 20 mg tablet (Rx)
+
+For oral administration, take tablet once daily, in the morning. If to be taken twice daily, take the first dose in the
+morning and the second dose at lunchtime. Advise the patient to get up gradually from sitting or lying to minimize
+dizziness upon standing when taking the medicine. The patient should sit or lie down if dizziness occurs For IV
+administration, administer no faster than 4 mg/minute to avoid ototoxicity. Dilute dose in a suitable amount of
+infusion fluid, according to the hydration of the patient.
+
+Page 2 of 5
+
+
+
+April 25, 2026, 12:58:40 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Reduce dose.
+
+Renal Impairment:
+In acute renal failure, higher doses may be required to initiate desired response. Avoid use in oliguric states.
+Not removed by hemodialysis or peritoneal dialysis. Supplemental dose is not necessary.
+In CrCl <25 mL/minute, use upper end of the initial infusion dosage range. If urine output is <1 mL/kg per hour, double
+as necessary to a maximum of 80–160 mg/hour.
+Monitor effects, particularly with high doses.
+
+NOTE: Dose equivalency for patients with normal renal function (approximate): Furosemide 40 mg = Bumetanide 1 mg
+= Torsemide 20 mg = Ethacrynic Acid 50 mg
+
+Indications
+
+Management of edema; pulmonary edema; cerebral edema; hepatic cirrhosis; nephrotic syndrome; oliguria due to
+renal failure; congestive heart failure
+
+Contraindications
+
+Severe fluid and sodium depletion
+
+Precautions
+
+WARNING: Cases of tinnitus, hearing impairment, and deafness have been reported. Ototoxicity is related to rapid
+injection, severe renal impairment, use of higher than recommended doses, hyponatremia, or concomitant therapy
+with aminoglycoside antibiotics or other ototoxic drugs. If high doses are necessary, parenteral therapy with
+controlled IV infusion is advisable.
+
+Prostatic enlargement and/or obstruction (may precipitate acute urinary retention).
+Gout (may be aggravated by diuretic-induced hyperuricemia).
+Hypotension.
+Diabetes (may see changes in glucose control); SLE (may cause SLE exacerbation or activation).
+Oliguria (correct hypovolemia before administration).
+Renal impairment (monitor electrolytes particularly potassium and sodium, as well as creatinine).
+Hepatic impairment (hypokalemia may precipitate coma); cirrhosis (diminished natriuretic effect with increased
+sensitivity to hypokalemia and volume depletion); alcoholic cirrhosis (increased risk of hypomagnesemia).
+Severe urinary retention.
+Patients at high risk for radiocontrast nephropathy (can lead to higher incidence of deterioration in renal function).
+Elderly (more susceptible to electrolyte imbalance and orthostatic hypotension).
+Pregnancy (avoid use; may cause electrolyte disturbance in fetus; possible neonatal thrombocytopenia; monitor fetal
+growth because of potential for higher fetal birth weights); lactation (enters breastmilk; use with caution).
+
+Page 3 of 5
+
+
+
+April 25, 2026, 12:58:40 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Dehydration, dizziness, gout, hyperuricemia, hypokalemia, hypomagnesemia, hyponatremia, orthostatic
+hypotension, syncope
+Less Common: Dyslipidemia, hyperglycemia, hypocalcemia, increased creatinine concentration, rash
+Rare: Acute pancreatitis, agranulocytosis, bone marrow depression, bullous eruptions, exfoliative dermatitis,
+hemolytic anemia, interstitial nephritis, jaundice, photosensitivity, Stevens-Johnson syndrome, thrombocytopenia,
+tinnitus, vertigo
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Furosemide:
+Alcohol (antihypertensive effect), Thiazide Diuretics [e.g., Hydrochlorothiazide (profound diuresis; serious
+electrolyte disturbance)]
+
+Increases risk of adverse or toxic effects of Furosemide:
+Salbutamol (hypokalemia)
+
+Increases risk of adverse or toxic effects of the following drugs:
+ACE Inhibitors [e.g., Enalapril (severe hypotension with the first ACEi dose; ACEi-induced renal impairment)], ARBs
+(excessive hypotension with the first ARB dose due to volume depletion), Drugs causing hypotension [e.g.,
+Amlodipine, Diazepam, Hydrochlorothiazide, Methyldopa (hypotension)], Digoxin (cardiac toxicity due to hypokalemia),
+NSAIDs including COX-2 Inhibitors (nephrotoxicity), Ototoxic Drugs [e.g., Gentamicin, Streptomycin (ototoxicity)]
+
+Reduces therapeutic effect of Furosemide:
+Selective and non-selective NSAIDs
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Furosemide:
+Hydrocortisone (hypokalemia)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Ibuprofen (nephrotoxicity)
+
+Reduces therapeutic effect of Furosemide:
+Hydrocortisone (antagonism of diuretic effect), Ibuprofen (antagonism of diuretic effect), Oral Contraceptives
+(Estrogen antagonizes diuretic effect)
+
+Reduces therapeutic effect of the following drugs:
+Lidocaine (antagonized by hypokalemia), Metformin (antagonism of hypoglycemic effect)
+
+Mechanism of Action
+
+A potent, high-ceiling, sulfonamide loop diuretic, which produces dose dependent diuresis of relatively short
+duration
+
+Page 4 of 5
+
+
+
+April 25, 2026, 12:58:40 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

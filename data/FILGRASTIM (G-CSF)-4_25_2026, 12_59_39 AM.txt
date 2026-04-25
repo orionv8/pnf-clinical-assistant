@@ -1,0 +1,200 @@
+﻿April 25, 2026, 12:59:40 AM - https://pnf.doh.gov.ph
+
+FILGRASTIM (G-CSF)
+
+Drug Classification
+
+ATC CODE
+
+L03AA02
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunostimulants
+
+PHARMACOLOGICAL
+
+Colony Stimulating Factors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › SC › 150 micrograms/0.6 mL vial (Rx)
+
+IV › SC › 300 micrograms/0.5 mL solution, pre-filled syringe (Rx)
+
+IV › SC › 300 micrograms/mL vial (Rx)
+
+IV › SC › 300 micrograms/1.2 mL vial (Rx)
+
+IV › SC › 300 mcg/0.9 mL Solution in 0.9 mL Pre-filled syringe (Rx)
+
+Page 1 of 5
+
+
+
+April 25, 2026, 12:59:40 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+IV / SC › 150 micrograms/0.6 mL vial (Rx)
+
+Myelosuppressive chemotherapy recipient with non-myeloid malignancies, by SC injection or IV infusion, ADULT/
+CHILD/ ADOLESCENT, 5 micrograms/kg per day, may increase by 5 micrograms/kg for each chemotherapy cycle
+according to the duration and severity of the neutropenia; continue for up to 14 days until the absolute neutrophil
+count (ANC) reaches 10,000/mm3; discontinue if the ANC surpasses 10,000/mm3 after the expected
+chemotherapy-induced neutrophil nadir. AML following induction or consolidation chemotherapy, by SC injection
+or IV infusion, ADULT/ CHILD/ ADOLESCENT, 5 micrograms/kg per day, may increase by 5 micrograms/kg (for each
+chemotherapy cycle) according to the duration and severity of the neutropenia; continue for up to 14 days until the
+absolute neutrophil count (ANC) reaches 10,000/mm3; discontinue if the ANC surpasses 10,000/mm3 after the
+expected chemotherapy-induced neutrophil nadir. Bone marrow transplantation, by IV infusion, ADULT, 10
+micrograms/kg per day, =24 hours after chemotherapy and =24 hours after bone marrow infusion; adjust the dose
+according to the duration and severity of neutropenia; If ANC >1,000/mm3 for 3 consecutive days, reduce dose to 5
+micrograms/kg per day; If ANC remains >1,000/mm3 for 3 more consecutive days, discontinue; If ANC decreases to
+<1,000/mm3, resume at 5 micrograms/kg per day; If ANC decreases to <1,000/mm3 during the 5 micrograms/kg per
+day dose, increase dose to 10 micrograms/kg per day and follow the above steps. Hematopoietic radiation injury
+syndrome, by SC injection, ADULT, 10 micrograms/kg once daily; begin as soon as possible after suspected or
+confirmed radiation doses >2 gray (Gy) and continue until ANC remains >1,000/mm3 for 3 consecutive CBCs or ANC
+exceeds 10,000/mm3 after the radiation-induced nadir. [NOTE: Initiate within 24 hours of exposure of a dose =2 Gy
+and/or significant decrease in absolute lymphocyte count, or for anticipated neutropenia <500/mm3 for =7 days.]
+Peripheral blood progenitor cell collection and therapy, by SC injection, ADULT, 10 micrograms/kg daily, usually for
+6–7 days with apheresis occurring on days 5, 6, and 7; begin at least 4 days before the first apheresis and continue
+until the last apheresis; discontinue for WBC >100,000/mm3. Severe chronic neutropenia, congenital, by SC
+injection, ADULT/ADOLESCENT/ CHILD/INFANT 7 months & older, initially 6 micrograms/kg per day in 2 divided
+doses; adjust dose based on ANC and clinical response; mean dose is 6 micrograms/kg daily; Severe chronic
+neutropenia, idiopathic, by SC injection, ADULT/ADOLESCENT/ CHILD/INFANT 7 months & older, initially 5
+micrograms/kg once daily; adjust dose based on ANC and clinical response; mean dose is 1.2 micrograms/kg daily;
+Severe chronic neutropenia, cyclic, by SC injection, ADULT/ADOLESCENT/ CHILD/INFANT 7 months & older, initially
+5 micrograms/kg once daily; adjust the dose based on ANC and clinical response; mean dose is 2.1 micrograms/kg
+daily. Primary prophylaxis for children with high likelihood of febrile neutropenia (e.g., children receiving dose-
+intense chemotherapy for Ewing’s sarcoma/Primitive neuroectodermal tumors, rhabdomyosarcoma), 5-10 mcg/kg
+48-72 hours after completion of chemotherapy.
+
+Administration
+
+IV / SC › 150 micrograms/0.6 mL vial (Rx)
+
+For IV administration, administer as a short infusion over 15–30 minutes for chemotherapy-induced neutropenia,
+by continuous infusion for chemotherapy-induced neutropenia, or as an infusion of no longer than 24 hours for
+bone marrow transplantation. For SC administration, administer into the outer upper arm, abdomen (except within
+2 inches of navel), front middle thigh, or the upper outer buttocks area. Rotate the injection site. Do NOT inject
+into areas that are tender, red, bruised, hardened, or scarred, or sites with stretch marks. Do NOT administer
+earlier than 24 hours after or in the 24 hours prior to cytotoxic chemotherapy. Should NOT be routinely used in the
+treatment of established neutropenic fever. Vials may be diluted in D5W to >15 mcg/mL for infusion. DO NOT dilute
+with saline at any time, because the product may precipitate. For 5-15 mcg/mL dilution: Add human albumin to a
+final concentration of 2 mg/mL to protect from adsorption to plastic materials
+
+Page 2 of 5
+
+
+
+April 25, 2026, 12:59:40 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+If patient develops glomerulonephritis, consider dose reduction or treatment interruption.
+
+Indications
+
+To decrease the incidence of infection (neutropenic fever) in patients with non-myeloid malignancies receiving
+myelosuppressive chemotherapy associated with a significant incidence of severe neutropenia with fever; to
+reduce the time to neutrophil recovery and the duration of fever following induction or consolidation chemotherapy
+in adults with acute myeloid leukemia (AML); to reduce the duration of neutropenia and neutropenia-related events
+in patients with nonmyeloid malignancies receiving myeloablative chemotherapy followed by marrow
+transplantation; to increase survival in patients acutely exposed to myelosuppressive doses of radiation; for
+mobilization of peripheral blood progenitor cells (PBPCs) for collection by leukapheresis in autologous or allogeneic
+hematopoietic cell transplantation; long-term administration to reduce the incidence and duration of neutropenic
+complications in symptomatic patients with congenital, cyclic, or idiopathic neutropenia.
+
+Page 3 of 5
+
+
+
+April 25, 2026, 12:59:40 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+History of serious allergic reactions to human granulocyte colony-stimulating factors, such as filgrastim or
+pegfilgrastim, or any component of the formulation
+
+Precautions
+
+Allergic reactions (serious allergic reactions, including anaphylaxis may occur; may be managed
+
+symptomatically with antihistamines, steroids, bronchodilators, or epinephrine; reactions may recur within days
+after initial allergy management has been stopped; permanently discontinue in serious allergic reactions).
+
+Alveolar hemorrhage (pulmonary infiltrates, hemoptysis may occur; resolved upon discontinuation)
+
+Respiratory distress syndrome
+
+Capillary leak syndrome (hypoalbuminemia, hypotension, edema, or hemoconcentration may occur; may vary in
+frequency and severity; may be life-threatening if treatment is delayed)
+
+Cutaneous vasculitis (generally occurs in patients with severe chronic neutropenia on chronic therapy; withhold
+treatment if cutaneous vasculitis occurs)
+
+Hematologic effects (excessive leukocytosis or thrombocytopenia may occur; discontinue when absolute neutrophil
+count (ANC) exceeds 10,000/mm3 after the ANC nadir has occurred; monitor CBC twice weekly during therapy;
+monitor platelet counts)
+
+Severe chronic neutropenia (myelodysplastic syndrome (MDS) and acute myeloid leukemia (AML) have been reported)
+
+Sickle cell disorders (may precipitate severe sickle cell crises, some fatal; discontinue in patients undergoing sickle
+cell crisis)
+
+Nephrotoxicity (glomerulonephritis, resulting in azotemia, hematuria, or proteinuria may occur; if glomerulonephritis
+is suspected, evaluate for cause).
+
+Splenic rupture (if upper abdominal pain, left upper quadrant pain, or shoulder tip pain occurs, withhold treatment
+and evaluate for enlarged spleen or splenic rupture).
+
+Page 4 of 5
+
+
+
+April 25, 2026, 12:59:40 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Alopecia, anemia, antibody development, arthralgia, back pain, cardiac arrhythmia, chest pain, dizziness,
+dyspnea, epistaxis, erythema, cough, fatigue, fever, headache, hypertension, hypoesthesia, increased lactate
+dehydrogenase and uric acid (mild-to-moderate; reversible), leukocytosis, limb pain, maculopapular rash,
+musculoskeletal pain, MI, muscle spam, nausea, ostealgia (dose and cycle related), pain, petechia, splenomegaly, skin
+rash, thrombocytopenia, transfusion reaction, upper respiratory tract infection, urinary tract infection, vomiting
+
+Less Common: Anaphylaxis, capillary leak syndrome, cerebral hemorrhage, constipation, decreased bone mineral
+density, decreased hemoglobin, diarrhea, ethema nodosum, exacerbation of psoriasis, facial edema, hematuria,
+hemoptysis, hepatomegaly, hypersensitivity reaction, renal insufficiency, hypersensitivity angiitis, injection site
+reaction, hypotension, malaise, mouth pain, oropharyngeal pain, osteoporosis, peripheral edema, proteinuria,
+pulmonary hemorrhage, pulmonary infiltrates, severe sickle cell crisis, respiratory distress syndrome, splenic
+rupture, Sweet’s syndrome, tachycardia, weakness, urticaria, wheezing
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of the following drugs: Bleomycin (pulmonary toxicity), Cyclophosphamide
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Topotecan
+Drugs that may potentiate the release of neutrophils‚ such as lithium‚ should be used with caution
+
+DRUG-DIAGNOSTIC TEST INTERACTION. May interfere with bone imaging studies, increased hematopoietic activity of
+the bone marrow may appear as transient positive bone imaging changes.
+
+Mechanism of Action
+
+A granulocyte colony stimulating factor (G-CSF) produced by recombinant DNA technology. It stimulates the
+production, maturation, and activation of neutrophils.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

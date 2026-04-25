@@ -1,0 +1,134 @@
+﻿April 25, 2026, 12:59:08 AM - https://pnf.doh.gov.ph
+
+FENOFIBRATE
+
+Drug Classification
+
+ATC CODE
+
+C10AB05
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Lipid Modifying Agents
+
+PHARMACOLOGICAL
+
+Fibrates
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 160 mg tablet (Rx)
+
+ORAL › 200 mg capsule (Rx)
+
+ORAL › 200 mg Tablet (Rx)
+
+Dosage
+
+ORAL › 160 mg tablet (Rx)
+
+NOTE: At least 2-3 months of therapy is required to determine efficacy. Hyperlipidemias, by mouth, ADULT, 200–
+300 mg once daily in divided doses; usual range, 200–400 mg daily; CHILD >10 years old, up to maximum of 5 mg/kg
+daily.
+
+Administration
+
+ORAL › 160 mg tablet (Rx)
+
+Best taken with food as food increases the bioavailability of fenofibrate.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 12:59:08 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Use with caution. May need dose adjustment.
+
+Renal Impairment:
+For mild-to-moderate impairment, dose reduction is warranted. Initiate dose at 40–50 mg once daily in adults. Refer
+child to pediatrician.
+For severe impairment, fenofibrate is contraindicated.
+
+Indications
+
+Hypertriglyceridemia; dyslipidemia associated with type 2 diabetes; second-line treatment in hypercholesterolemia
+
+Contraindications
+
+Photosensitivity to ketoprofen; pancreatitis, unless due to hypertriglyceridemia; severe renal impairment, including
+patients receiving dialysis; hepatic impairment; primary biliary cirrhosis; gallstones; gall bladder disease;
+unexplained, persistent liver function abnormality; pregnancy; lactation
+
+Precautions
+
+NOTE: Fenofibrate has a uricosuric effect, which may reduce uric acid concentrations by about 25%.
+
+Hyperlipidemia; myopathy, myositis, and rhabdomyolysis (have been reported; concomitant HMG-CoA reductase
+inhibitor may potentiate rhabdomyolysis and lead to acute renal failure).
+Increase in hepatic transaminases (monitor regularly and discontinue if enzyme levels persist 3 times above the
+upper limit of normal); increase in serum creatinine (may occur; monitor renal function).
+Avoid exposure of skin to sun, wear protective clothing and use sunscreen
+Lack of optimal response (withdraw therapy if an adequate response is not obtained after 2–3 months of therapy at
+the maximal daily dose).
+Women and obese individuals (at high risk for biliary tract disease; modest increase in the risk of cholesterol
+gallstones, reflecting an increase in the cholesterol content of bile; may cause cholelithiasis)
+Patients at risk for venous thromboembolism (associated with pulmonary embolism and deep venous thrombosis).
+Elderly (higher incident of renal impairment)
+Pregnancy (embryotoxicity in animal studies); lactation.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 12:59:08 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Arthralgia, bronchitis, cough, dizziness, fatigue, headache, insomnia, GI disturbances (e.g., dyspepsia,
+abdominal pain); hypertension, nausea, rhinitis, infections (e.g., urinary tract, respiratory tract)
+Less Common: Pancreatitis, photosensitivity, pulmonary embolism, VTE
+Rare: Agranulocytosis, anemia, arrhythmias, hepatitis, cholestatic jaundice, gallstones, hypersensitivity reactions
+(e.g., angioedema, anaphylaxis, exfoliative dermatitis), hypokalemia, leukopenia, myopathy, rhabdomyolysis,
+thrombocytopenia
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of the following drugs:
+Insulins, Sulfonylureas e.g. Gliclazide (hypoglycemic effect)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Statins e.g. Atorvastatin (myopathy; rhabdomyolysis)
+
+Avoid concomitant use with:
+Enhances therapeutic effect of the following drugs:
+Anticoagulants, e.g., Warfarin (anticoagulant effect)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Anticoagulants, e.g., Warfarin (bleeding)
+
+Reduces absorption of Fenofibrate:
+Bile Acid Sequestrants
+
+Mechanism of Action
+
+A peroxisome proliferator receptor alpha (PPARα) activator, which modulates lipoprotein synthesis and catabolism. It
+reduces plasma triglyceride, moderately increases high-density lipoprotein (HDL) and has a variable effect on LDL
+concentrations.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

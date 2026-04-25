@@ -1,0 +1,127 @@
+﻿April 25, 2026, 1:06:59 AM - https://pnf.doh.gov.ph
+
+FLUTAMIDE
+
+Drug Classification
+
+ATC CODE
+
+L02BB01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Endocrine Therapy
+
+PHARMACOLOGICAL
+
+Hormone Antagonists and Related Agents
+
+CHEMICAL CLASS
+
+Anti-Androgens
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 250 mg tablet (Rx)
+
+Dosage
+
+ORAL › 250 mg tablet (Rx)
+
+Prostate cancer, metastatic, by mouth, ADULT, 250 mg given 3 times daily (every 8 hours), preferably at least 3 days
+before gonadorelin analogue treatment.
+
+Administration
+
+ORAL › 250 mg tablet (Rx)
+
+May be administered with or without food.
+
+Dose Adjustment
+
+No information found
+
+Indications
+
+Prostate cancer
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:06:59 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Severe hepatic impairment
+
+Precautions
+
+WARNING: Hazardous agent. Use appropriate precautions for handling and disposal. Hospitalization and death (rare)
+due to liver failure have been reported. Use is not recommended in patients with ALT values greater than 2 times
+ULN.
+
+Gynecomastia (may occur when administered in combination with medical castration)
+
+Hepatic impairment (e.g. elevated serum transaminase levels, jaundice, hepatic encephalopathy, and acute hepatic
+failure; hepatotoxicity is reversible; monitor serum transaminase levels periodically).
+
+Cardiovascular disease (may increase risk of cardiovascular disease)
+
+Hemoglobin M disease (increased risk of toxicities associated with aniline exposure).
+
+Glucose-6-phosphate dehydrogenase (G6PD) deficiency and smoking (increased risk of toxicities associated with
+aniline exposure)
+
+Women (should not be used in women, particularly for nonserious or nonlife-threatening conditions).
+
+Pregnancy (may cause fetal harm); lactation (no information available; use is not recommended).
+
+Adverse Drug Reactions
+
+Common: Edema, hypertension, anxiety, confusion, depression, dizziness, drowsiness, headache, insomnia,
+nervousness, skin rash, ecchymoses, pruritus,hot flash, decreased libido, increased lactate dehydrogenase,
+gynecomastia, diarrhea, vomiting, nausea, proctitis, anorexia, tumor flare, constipation, dyspepsia, increased
+appetite, impotence, cystitis, breast tenderness, gastric distress, hematuria, rectal hemorrhage, anemia, anemia,
+leukopenia, thrombocytopenia, herpes zoster, weakness
+
+Less Common: Cholestatic jaundice, hemolytic anemia, hepatic encephalopathy, hepatic failure, hepatic necrosis,
+hepatitis, hypersensitivity pneumonitis, jaundice, macrocytic anemia, MI, malignant neoplasm of breast (male), skin
+methemoglobinemia, oligospermia, pulmonary embolism, photosensitivity, thrombophlebitis, sulf-hemoglobinemia,
+urine discoloration (amber, yellowgreen)
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:06:59 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects (methemoglobinemia) of Flutamide: Dapsone (Topical), Nitric Oxide,
+Prilocaine, Sodium Nitrite
+Reduces therapeutic effect of Choline C11
+
+Avoid concomitant use with:
+Decreases serum concentration of Flutamide: Dabrafenib, Mitotane Enhances therapeutic effect of Warfarin
+Increases serum concentration of Flutamide: Conivaptan, Fusidic Acid (Systemic), Idelalisib, Mifepristone,
+Stiripentol, Tizanidine [if concomitant use cannot be avoided, initiate tizanidine at 2 mg and increase in 24 mg
+increments based on patient response], Vemurafenib
+Reduces diagnostic effect of Indium111 Capromab Pendetide
+
+Mechanism of Action
+
+A nonsteroidal antiandrogen that inhibits androgen uptake and/or inhibits binding of androgen in target tissues.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 3 of 3
