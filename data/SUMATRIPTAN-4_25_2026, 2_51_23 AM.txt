@@ -1,0 +1,137 @@
+﻿April 25, 2026, 2:51:24 AM - https://pnf.doh.gov.ph
+
+SUMATRIPTAN
+
+Drug Classification
+
+ATC CODE
+
+N02CC01
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Analgesics
+
+PHARMACOLOGICAL
+
+Antimigraine Preparations
+
+CHEMICAL CLASS
+
+Selective Serotonin (5HT1) Agonists
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 50 mg tablet (Rx)
+
+Dosage
+
+ORAL › 50 mg tablet (Rx)
+
+Acute treatment of migraine, by mouth, ADULT >18 years, initially a single dose 50 mg tablet; if the migraine has not
+resolved by 2 hours after administration, or returns after a transient improvement, administer a second dose at
+least 2 hours after the first dose (maximum daily dose, 200 mg in a 24-hour period).
+
+Administration
+
+ORAL › 50 mg tablet (Rx)
+
+Administer as soon as symptoms appear.
+
+Dose Adjustment
+
+Geriatric:
+Administer first dose at physician’s office, if needed.
+
+Hepatic Impairment:
+Reduce doses, in mild-to-moderate hepatic impairment, the maximum single dose should not exceed 50 mg.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:51:24 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Acute treatment of migraine with or without aura.
+
+NOTE: NOT for the prevention of migraine attacks
+
+Contraindications
+
+Hypersensitivity to sumatriptan or any component of the formulation; Severe hepatic impairment; ischemic coronary
+artery disease or coronary artery vasospasm, including Prinzmetal’s angina; uncontrolled hypertension; Wolff-
+Parkinson-White syndrome or arrhythmias associated with other cardiac accessory conduction pathway disorders;
+history of stroke or transient ischemic attack; history of hemiplegic or basilar migraine; peripheral vascular disease;
+ischemic bowel disease; recent use (within 24 hours) of ergotamine-containing medication or another 5-HT1 agonist;
+concurrent or recent (within 2 weeks) use of a MAO-A inhibitor.
+
+Precautions
+
+Cardiac events (e.g., coronary artery vasospasm, transient ischemia, MI, ventricular tachycardia or fibrillation, cardiac
+arrest, and death); arrhythmias (lifethreatening); elevated blood pressure (hypertensive crisis) Cerebrovascular
+events (e.g., cerebral hemorrhage, subarachnoid hemorrhage, and stroke; some fatal); vasospasm reactions; CNS
+depression; seizures; ocular effects.
+
+Serotonin syndrome; anaphylactic or anaphylactoid reactions (may be fatal); hepatic impairment.
+
+Elderly (may be at increased cardiovascular risk); children (safety and effectiveness have not been established).
+
+Pregnancy; (has been associated with embryolethality, fetal abnormalities, and pup mortality in animal studies);
+lactation (excreted in breastmilk; use with caution).
+
+SKILLED TASKS. May impair ability to perform tasks, which require mental alertness, like driving or operating
+machinery.
+
+Adverse Drug Reactions
+
+Common: Hot and cold flashes, chest pain, chest pressure, chest tightness, pain, sensation of pressure, paresthesia,
+malaise, fatigue, feeling of heaviness, sensation of tightness, heaviness of chest, sore throat, jaw pain, jaw
+pressure, jaw tightness, pharyngeal edema, neck pain, local pain
+
+Less Common: Hypotension, palpitations, dystonia, tremor, vertigo
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:51:24 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Sumatriptan: Antipsychotic Agents (serotonergic effect)
+Increases risk of adverse or toxic effects of Sumatriptan: Antipsychotic Agents (enhances dopamine blockade,
+possibly increasing the risk for neuroleptic malignant syndrome; serotonin syndrome) Metoclopramide (serotonin
+syndrome; neuroleptic malignant syndrome)
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Sumatriptan: Beta Blockers Ergot Derivatives [except Nicergoline] (vasoconstricting
+effect) Metaxalone, Methylene blue, Methylphenidate, Opioid Analgesics, Tramadol (serotonergic effect) Other
+Serotonin 5HT1D Receptor Agonists
+Enhances therapeutic effect of the following drugs: Ergot Derivatives [except Nicergoline], Serotonin 5HT1D
+Receptor Agonists (vasoconstricting effect)
+Increases risk of adverse or toxic effects of Sumatriptan: Other Serotonin Modulators [except Tedizolid] Metaxalone,
+Methylene blue (serotonin syndrome) Methylphenidate (serotonin toxicity) Opioid Analgesics, Tramadol
+Increases risk of adverse or toxic effects of the following drugs: Dapoxetine Tramadol (seizures)
+Increases serum concentration of Sumatriptan: MAO Inhibitors
+
+Mechanism of Action
+
+A selective serotonin agonist that acts at 5-HT1B/1D receptor, causing vasoconstriction of meningeal vessels and/or
+inhibition of neurogenic inflammatory processes in the CNS. Its nociceptive effect is likely due to blocking the pain
+transmission signals at trigeminal nerve terminals and synapses of second-order neurons in trigeminal nucleus
+caudalis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

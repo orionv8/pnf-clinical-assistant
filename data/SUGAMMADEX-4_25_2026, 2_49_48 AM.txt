@@ -1,0 +1,152 @@
+﻿April 25, 2026, 2:49:49 AM - https://pnf.doh.gov.ph
+
+SUGAMMADEX
+
+Drug Classification
+
+ATC CODE
+
+V03AB35
+
+ANATOMICAL
+
+Various
+
+THERAPEUTIC
+
+All Other Therapeutic Products
+
+PHARMACOLOGICAL
+
+Specific Antidotes
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 100 mg/mL solution for injection, 2 mL vial (Rx)
+
+Dosage
+
+IV › 100 mg/mL solution for injection, 2 mL vial (Rx)
+
+NOTE: Doses and timing of administration should be based on monitoring for twitch responses and the extent of
+spontaneous recovery that has occurred. Neuromuscular blockade reversal, rocuronium and/or vecuronium, by IV
+bolus injection, ADULT, 4 mg/kg if spontaneous recovery of the twitch response has reached 1 to 2 post-tetanic
+counts (PTC) and there are no twitch responses to train-of-four (TOF) stimulation; 2 mg/kg if spontaneous recovery
+has reached the reappearance of the second twitch (T2) in response to TOF stimulation. Neuromuscular blockade
+reversal, rocuronium only, by IV bolus injection, ADULT, 16 mg/kg if there is a clinical need to reverse
+neuromuscular blockade soon (approximately 3 minutes) after administration of a single dose of 1.2 mg/kg of
+rocuronium.
+
+Administration
+
+IV › 100 mg/mL solution for injection, 2 mL vial (Rx)
+
+For IV use only. Administer as a single bolus injection over 10 seconds, into an existing intravenous line of a
+running infusion with either of the following: 0.9% sodium chloride 5% dextrose 0.45% sodium chloride and 2.5%
+dextrose Isolyte P with 5% dextrose Ringer’s lactate solution Ringer’s solution Ensure the infusion line is
+adequately flushed between administration of sugammadex and other drugs. Visually inspect for particulate
+matter and discoloration prior to administration. NOTE: Ventilatory support is mandatory until adequate
+spontaneous respiration is restored and the ability to maintain patent airway is assured.
+
+Dose Adjustment
+
+No information found
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:49:49 AM - https://pnf.doh.gov.ph
+
+Indications
+
+For the reversal of neuromuscular blockade
+induced by rocuronium and vecuronium in adults
+undergoing surgery
+
+Precautions
+
+WARNING: Should be administered by trained health care providers familiar with the characteristics, actions, use,
+and complications of neuromuscular blocking agents and neuromuscular block reversal agents.
+
+NOT for use in the reversal of neuromuscular blockade for agents other than rocuronium or vecuronium.
+
+Anaphylaxis and hypersensitivity (eg. anaphylaxis);
+Marked bradycardia;
+Severe renal impairment (not recommended);
+Elderly;
+Pregnancy;
+Lactation.
+
+RE-ADMINISTRATION. A minimum waiting time is necessary
+before administration of steroidal neuromuscular
+blocking agent after sugammadex administration.
+
+Minimum Waiting Time: 5 minutes
+Dose to be administered: 1.2 mg/kg rocuronium
+
+Minimum Waiting Time: 4 hours
+Dose to be administered: 0.6 mg/kg rocuronium, or 0.1 mg/kg vecuronium
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:49:49 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common:
+Incision site pain, procedural complication, airway
+complication of anesthesia, anesthetic complication,
+wound hemorrhage, nausea, vomiting, abdominal pain,
+flatulence, dry mouth, pain at administration site,
+pyrexia, chills, headache, dizziness, hypoesthesia,
+oropharyngeal pain, cough, pain in extremity,
+musculoskeletal pain, myalgia, insomnia, anxiety,
+decreased RBC count, abnormal ECG QT-interval,
+hypertension, hypotension, pruritus, erythema,
+hypocalcemia, tachycardia, bradycardia
+
+Less Common:
+Recurrence of neuromuscular blockade,
+restlessness, depression
+
+Rare:
+Hysterectomy
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of the following drugs,
+specifically increased aPTT and prothrombin time:
+Dabigatran, Rivaroxaban, Unfractionated Heparin
+
+Reduces therapeutic effect of the following drugs due to
+decreased serum concentration:
+Hormonal Contraceptives
+
+Avoid concomitant use with:
+Reduces therapeutic effect of Sugammadex:
+Fusidic Acid (delayed reversal time), Toremifene (delayed
+recovery; high binding affinity for sugammadex)
+
+Mechanism of Action
+
+A modified gamma cyclodextrin that reverses neuromuscular blockade induced by rocuronium and vecuronium by
+complex formation, reducing the amount of neuromuscular blocking agent available to bind to nicotinic receptors in
+the neuromuscular junction.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:49:49 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+Not classified
+
+Page 4 of 4

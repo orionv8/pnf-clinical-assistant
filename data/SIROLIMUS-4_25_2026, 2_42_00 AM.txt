@@ -1,0 +1,198 @@
+﻿April 25, 2026, 2:42:02 AM - https://pnf.doh.gov.ph
+
+SIROLIMUS
+
+Drug Classification
+
+ATC CODE
+
+L04AA10
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunosuppressants
+
+PHARMACOLOGICAL
+
+Selective Immunosuppressants
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 0.5 mg tablet (Rx)
+
+ORAL › 1 mg tablet (Rx)
+
+Dosage
+
+ORAL › 0.5 mg tablet (Rx)
+
+Low-to-moderate immunologic risk renal transplant, by mouth, ADULT and CHILD =13 years or<40 kg, in
+combination with cyclosporine and corticosteroids, initially, 3 mg/m2 on day 1 as loading dose, followed by 1 mg/m2
+once daily as maintenance; ADULT and CHILD =13 years or =40 kg, 6 mg on day 1 as loading dose, followed by 2 mg
+once daily as maintenance [NOTE: May be withdrawn after 2–4 months, in conjunction with an increase in sirolimus
+dosage]. High immunologic risk renal transplant patients, by mouth, ADULT, in combination with cyclosporine and
+corticosteroids for the first year, 15 mg on day 1 as loading dose, followed by 5 mg daily as maintenance; obtain
+trough concentration between days 5–7 and adjust accordingly; continue concurrent cyclosporine + sirolimus +
+corticosteroid therapy for 1 year following transplantation; further adjustment of the regimen must be based on
+clinical status [NOTE: Adjustment of immunosuppressive therapy beyond 12 months should be considered based
+on clinical judgment]. Lymphangioleiomyomatosis, by mouth, ADULT, initially 2 mg once daily; obtain trough
+concentration in 10–20 days and adjust dose to maintain a target concentration of 5– 15 nanograms/mL. Note:
+Maximum dose for all approved indications (Adults, Geriatric, Adolescents) is 40 mg/day.
+
+Administration
+
+ORAL › 0.5 mg tablet (Rx)
+
+Administer consistently with regards to meals. Ingestion with high-fat meals decreases peak concentrations but
+increases AUC by 23–35%. Administer initial dose as soon as possible after transplant. To be taken 4 hours after
+oral cyclosporine. Do NOT crush, split, or chew the tablet. NOTE: Limit exposure to sunlight and ultraviolet light by
+wearing protective clothing and using effective sunscreen to minimize the risk for malignancy.
+
+Page 1 of 5
+
+
+
+April 25, 2026, 2:42:02 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Hepatic Impairment:
+For mild-to-moderate impairment (Child-Pugh classes A and B), reduce maintenance dose by ~33%.
+For severe impairment (Child-Pugh class C), reduce maintenance dose by ~50%.
+
+Indications
+
+Management of lymphangioleiomyomatosis; prophylaxis of organ rejection in renal transplants
+
+Page 2 of 5
+
+
+
+April 25, 2026, 2:42:02 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+No information found
+
+Precautions
+
+WARNING: Should only be used by physicians experienced in immunosuppressive therapy and management of
+transplant patients. Adequate laboratory and supportive medical resources must be readily available.
+
+Therapeutic drug monitoring is recommended, however, variations in methods to determine sirolimus whole blood
+concentrations, as well as interlaboratory variations, may result in improper dosage adjustments, which may lead to
+subtherapeutic or toxic levels. Determine the assay method used to assure consistency, and be aware of alterations
+to assay method or reference range and that values from different assays may not be interchangeable.
+
+May cause increased susceptibility to infection and the development of lymphoma and other malignancies. NOT
+recommended for use in liver transplantation.
+
+Associated with an increased risk of hepatic artery thrombosis (HAT), graft failure, and increased mortality with
+evidence of infection.
+
+NOT recommended for use in lung transplantation. Bronchial anastomotic dehiscence cases have been reported,
+mostly fatal.
+
+Anaphylactic or hypersensitivity reactions (e.g. anaphylactic or anaphylactoid reactions, angioedema, exfoliative
+dermatitis, and hypersensitivity vasculitis); angioedema
+
+Infections (opportunistic infections including activation of latent viral infections, fatal infections, and sepsis may
+occur; progressive multifocal leukoencephalopathy (PML), an opportunistic CNS infection caused by reactivation of
+the JC virus, has been reported)
+
+Interstitial lung disease (e.g. pneumonitis, bronchiolitis obliterans organizing pneumonia [BOOP], pulmonary fibrosis;
+may be fatal; may be associated with pulmonary hypertension).
+
+Hemolytic uremic syndrome (HUS); Thrombotic thrombocytopenic purpura, or thrombotic microangiopathy;
+
+Hyperlipidemia
+
+Lymphocele or fluid accumulation (e.g. peripheral edema, lymphedema, ascites, and pleural and pericardial effusions)
+
+Malignancy (increased risk of other malignancies such as skin cancer)
+
+Proteinuria (may increase urinary protein excretion; new onset nephrotic syndrome has been reported)
+
+Renal effects (may increase serum creatinine and decrease GFR; may delay recovery of renal function in patients
+with delayed allograft function)
+
+Wound dehiscence or healing (may cause wound dehiscence and impaired healing)
+
+Page 3 of 5
+
+
+
+April 25, 2026, 2:42:02 AM - https://pnf.doh.gov.ph
+
+Children (safety and efficacy of de novo use of sirolimus without cyclosporine have not been established; safety and
+efficacy have not been established in <13 years or in renal transplant patients <18 years).
+
+Adverse Drug Reactions
+
+Common and Less Common: Abdominal pain, abnormal hepatic function tests, acne vulgaris, amenorrhea, anemia,
+anaphylactoid reaction, anaphylaxis, angioedema, arthralgia, ascites, azoospermia, cardiac tamponade, chest pain,
+constipation, cytomegalovirus, deep vein thrombosis, dehiscence (fascial), diabetes mellitus, diarrhea, dizziness,
+edema, epistaxis, Epstein-Barr infection, exfoliative dermatitis, fluid retention, focal segmental glomerulosclerosis,
+gingival hyperplasia, headache, hemolytic-uremic syndrome, hepatic necrosis, herpes simplex infection,
+hepatotoxicity, hyperglycemia, herpes zoster, hypercholesterolemia, incisional hernia, hypermenorrhea,
+hypersensitivity angiitis, hypertension, hypertriglyceridemia, hypophosphatemia, hypervolemia, increased
+susceptibility to infection, hypokalemia, interstitial pulmonary disease (dose-related), joint disorders, leukopenia,
+lymphedema, lymphocele, lympho proliferative disorder, pain, menstrual disease, myalgia, mycobacterium infection,
+nasopharyngitis, nausea, nephrotic syndrome, neutropenia, osteonecrosis, ovarian cyst, pancreatitis, pancytopenia,
+pericardial effusion, pleural effusion, pneumonia due to Pneumocystis jiroveci (P. carinii), peripheral edema,
+pneumonia, progressive multifocal leukoencephalopathy, proteinuria, pseudomembranous colitis, pulmonary
+alveolitis, pulmonary hemorrhage, pulmonary embolism, pyelonephritis, renal disease, sepsis, skin carcinoma,
+reversible posterior leukoencephalopathy syndrome, skin rash, stomatitis, tachycardia, thrombocytopenia,
+thrombotic thrombocytopenic purpura, upper respiratory tract infection, tuberculosis, urinary tract infection, weight
+loss, wound dehiscence, wound healing impairment
+
+Page 4 of 5
+
+
+
+April 25, 2026, 2:42:02 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Enhances therapeutic effect of Sirolimus: Trastuzumab (neutropenic effect)
+Increases risk of adverse or toxic effects of Sirolimus: Denosumab (serious infections)
+Increases risk of adverse or toxic effects of ACE Inhibitors, e.g., Captopril, Enalapril
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+Reduces therapeutic effect of the following drugs: Antidiabetic Agents, Sipuleucel-T
+
+Avoid concomitant use with:
+Decreases serum concentration of Sirolimus: Dabrafenib, Efavirenz, Enzalutamide, Fosphenytoin, Mitotane,
+Phenytoin, Rifampin
+Decreases serum concentration of Tacrolimus (Systemic)
+Enhances therapeutic effect of Sirolimus: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Sirolimus: Pimecrolimus, Tacrolimus
+Increases risk of adverse or toxic effects of the following
+drugs: Clozapine (agranulocytosis), Cyclosporine (Systemic) (calcineurin inhibitor-induced hemolytic uremic
+syndrome, thrombotic thrombocytopenic purpura, or thrombotic microangiopathy), Dipyrone (agranulocytosis;
+pancytopenia), Leflunomide (hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia),
+Natalizumab (concurrent infection), Tacrolimus
+Increases serum concentration of Sirolimus: Boceprevir, Conivaptan, Crizotinib, Cyclosporine (Systemic), Dasabuvir,
+Fluconazole, Fusidic Acid (Systemic), Itraconazole, Ketoconazole (Systemic), Macrolide Antibiotics [except
+Azithromycin, Fidaxomicin, Spiramycin], Mifepristone, Ritonavir, Telaprevir; Vaccines, Live (infection), Voriconazole
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (immune response)
+
+FOOD INTERACTION. Grapefruit Juice may decrease the clearance of Sirolimus.
+
+Mechanism of Action
+
+Inhibits the regulatory kinase, mTOR (mechanistic target of rapamycin). This inhibition suppresses cytokine mediated
+T-cell proliferation and the proliferation of lymphangioleiomyomatosis cells, thus preventing acute rejection of
+allografts and prolongs graft survival.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

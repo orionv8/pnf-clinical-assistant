@@ -1,0 +1,126 @@
+﻿April 25, 2026, 2:41:22 AM - https://pnf.doh.gov.ph
+
+SEVOFLURANE
+
+Drug Classification
+
+ATC CODE
+
+N01AB08
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Anesthetics
+
+PHARMACOLOGICAL
+
+Anesthetics, General
+
+CHEMICAL CLASS
+
+Halogenated Hydrocarbons
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+RESPIR › Inhalation: 250 mL bottle (Rx)
+
+Dosage
+
+RESPIR › Inhalation: 250 mL bottle (Rx)
+
+Anesthesia, induction and maintenance, by inhalation, ADULT, 0.5–3% v/v with or without the concomitant use of
+nitrous oxide; amnesia and loss of awareness occurs at 0.6%. Patient Age and Minimum Alveolar Concentration
+(MAC): Age [MAC with 100% Oxygen] [MAC with 65% N2O/ 35% O2] 0–1 month old fullterm neonates [3.3%] [-] 1 to
+<6 months [3%] [-] 6 months to <1 year [2.8%] [2%] 1 to <3 years [2.8%] [2%] 3–12 years [2.5%] [-] 25 years [2.6%]
+[1.4%] 40 years [2.1%] [1.1%] 60 years [1.7%] [0.9%] 80 years [1.4%] [0.7%]
+
+Administration
+
+RESPIR › Inhalation: 250 mL bottle (Rx)
+
+Administer via sevoflurane-specific calibrated vaporizers. Use with caution in low-flow or closed-circuit systems
+since sevoflurane isunstable and may liberate potentially toxic breakdown products.
+
+Dose Adjustment
+
+Renal and Hepatic Impairment:
+Use with caution in severe impairment. Safety has not been established.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:41:22 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Induction and maintenance of general anesthesia.
+
+Contraindications
+
+Known or suspected susceptibility to malignant hyperthermia; history of moderate to severe hepatic impairment
+associated with halogenated
+anesthetics.
+
+Precautions
+
+Increased intracranial pressure; Neuromuscular disease e.g. Duchenne muscular dystrophy; mitochondrial disorder;
+Hypovolemia; Hypotension; Hemodynamically compromised patients; Patients at risk of QT prolongation; Hepatic and
+renal impairment
+
+Children; Pregnancy and lactation
+
+Adverse Drug Reactions
+
+Common: Hypotension, tachycardia, bradycardia, hypertension, agitation, drowsiness, shivering, dizziness,
+headache, hypothermia, myoclonus, delirium (emergence), sialorrhea, cough, airway obstruction, laryngospasm,
+breath-holding, apnea, fever
+
+Less Common: Acidosis, albuminuria, amblyopia, anaphylactoid reaction, anaphylaxis, atrial arrhythmia, bigeminy,
+bronchospasm, atrial fibrillation, cardiac arrhythmia, chest discomfort, complete AV block, confusion, conjunctivitis,
+crying, dysgeusia, ST-segment depression on ECG, dyspnea, extrasystoles (supraventricular), facial edema,
+glycosuria, hemorrhage, hepatic failure, hepatic insufficiency, hepatic necrosis, hepatitis, hepatotoxicity
+(idiosyncratic), hiccups, hypertonia, hyperbilirubinemia, hyperglycemia, hypoxia, hypersensitivity reaction,
+hyperkalemia (pediatric; postoperative), hyperventilation, hypophosphatemia, hypoventilation, insomnia, jaundice,
+leukocytosis (transient), malignant hyperthermia, myoglobinuria, nervousness, oliguria, pain, pharyngitis, pruritus,
+second degree atrioventricular block, skin rash, stridor, syncope, thrombocytopenia, tooth enamel damage
+(fluorosis), urinary retention, urticaria, ventricular premature contractions, weakness, wheezing, xerostomia
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:41:22 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Avoid concomitant use with:
+Enhances therapeutic effect of the following drugs: Blood pressure-lowering agents and Hypotensive agents
+(hypotensive effect); Dopamine; Epinephrine nasal, oral inhalation and systemic; Norepinephrine (arrhythmogenic
+effect); Metyrosine, Pramipexole, Ropinirole, Rotigotine (sedative effect); Neuromuscular-blocking Agents;
+Nondepolarizing (neuromuscular-blocking effect); QTcprolonging Agents (QTc-prolonging effect)
+
+Increases risk of adverse or toxic effects of Sevoflurane: Bambuterol; Epinephrine nasal, oral inhalation and
+systemic (arrhythmogenic effect); Methylphenidate (hypertensive effect); Rufinamide (sleepiness and dizziness)
+
+Increases risk of adverse or toxic effects of the following drugs: Fenoterol; Formoterol; Isoproterenol; Metaraminol
+(arrhythmogenic effect); Other CNS depressants; SSRIs (psychomotor impairment)
+
+Mechanism of Action
+
+Sevoflurane is a fluorinated isopropyl esther. It may act by interfering with the release and re-uptake of
+neurotransmitters at post-synaptic terminals and/or alter ionic conduction following receptor activation. It also
+activates GABA receptors that produces general anesthetic effect, a decrease in myocardial contractility and mean
+arterial pressure and increases respiratory rate.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

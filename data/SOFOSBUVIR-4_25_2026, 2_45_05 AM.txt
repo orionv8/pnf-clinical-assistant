@@ -1,0 +1,124 @@
+﻿April 25, 2026, 2:45:06 AM - https://pnf.doh.gov.ph
+
+SOFOSBUVIR
+
+Drug Classification
+
+ATC CODE
+
+J05AP08
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Antivirals for Treatment of HCV Infections
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 400 mg Tablet (Rx)
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:45:06 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 400 mg Tablet (Rx)
+
+Hepatitis C genotype 1, by mouth, ADULT, treatment-naïve or peginterferon + ribavirin treatment-experienced
+without cirrhosis: 400 mg once daily in combination with simeprevir or daclatasvir for 12 weeks; patients with
+decompensated cirrhosis: 400 mg once daily in combination with daclatasvir and ribavirin for 12 weeks; liver
+transplant recipients without cirrhosis or with compensated cirrhosis: 400 mg once daily in combination with
+daclatasvir and ribavirin or simeprevir with or without ribavirin for 12 weeks. Hepatitis C genotype 2, by mouth,
+ADULT, treatment-naïve or peginterferon + ribavirin treatment-experienced patients: 400 mg once daily in
+combination with daclatasvir for 12 weeks (without cirrhosis) or 16-24 weeks (with compensated cirrhosis);
+patients with decompensated cirrhosis: 400 mg once daily in combination with daclatasvir and ribavirin for 12
+weeks; liver transplant recipients with or without cirrhosis, including decompensated cirrhosis: 400 mg once daily
+in combination with daclatasvir and ribavirin for 12 weeks; renal transplant recipients without cirrhosis or with
+compensated cirrhosis: 400 mg once daily in combination with daclatasvir and ribavirin for 12 weeks. Hepatitis C
+genotype 3, by mouth, ADULT, treatment-naïve or peginterferon + ribavirin treatment-experienced without
+cirrhosis: 400 mg once daily in combination with daclatasvir for 12 weeks; treatment-naïve patients with
+compensated cirrhosis: 400 mg once daily in combination with daclatasvir with or without ribavirin for 24 weeks;
+patients with decompensated cirrhosis: 400 mg once daily in combination with daclatasvir and ribavirin for 12
+weeks; liver transplant recipients with or without cirrhosis, including decompensated cirrhosis: 400 mg once
+daily, in combination with daclatasvir and for 12 weeks; renal transplant recipients without cirrhosis or with
+compensated cirrhosis: 400 mg once daily in combination with daclatasvir and ribavirin for 12 weeks. Hepatitis C
+genotype 4, by mouth, ADULT, patients with decompensated cirrhosis: 400 mg once daily in combination with
+daclatasvir and ribavirin for 12 weeks; liver transplant recipients without cirrhosis or with compensated cirrhosis:
+400 mg once daily, in combination with daclatasvir and ribavirin or simeprevir with or without ribavirin for 12
+weeks. Hepatitis C genotype 5 and 6, by mouth, ADULT, liver transplant recipients without cirrhosis or with
+compensated cirrhosis: 400 mg once daily in combination with daclatasvir and ribavirin for 12 weeks; renal
+transplant recipients without cirrhosis or with compensated cirrhosis: 400 mg once daily in combination with
+daclatasvir and ribavirin for 12 weeks.
+
+Administration
+
+ORAL › 400 mg Tablet (Rx)
+
+Administer with or without food.
+
+Dose Adjustment
+
+Renal impairment:
+No dosage adjustments provided in the manufacturer’s labeling.
+
+Indications
+
+Treatment of hepatitis C genotypes 1, 2, 3, 4, 5, and 6 in combination with other direct acting antivirals.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:45:06 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to sofosbuvir or any component of the formulation; males whose female partners may become
+pregnant.
+
+Precautions
+
+Hepatitis B virus reactivation has been reported in HBsAg positive patients and in patients with serologic evidence
+of resolved HBV infection.
+
+Adverse Drug Reactions
+
+Common: Fatigue, headache, insomnia, chills, irritability, pruritus, skin rash, nausea, decreased appetite, diarrhea,
+anemia, neutropenia, asthenia, myalgia, flulike symptoms, and fever.
+
+Less Common: Thrombocytopenia
+
+Rare: Angioedema, bradycardia, pancytopenia, reactivation of HBV, severe depression, and suicidal ideation.
+
+Drug Interactions
+
+Monitor closely with:
+Increases the level or effect of Tenofovir:
+Sofosbuvir
+
+Mechanism of Action
+
+Sofosbuvir inhibits HCV NS5B RNA-dependent RNA polymerase, essential for viral replication, and acts as a chain
+terminator.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

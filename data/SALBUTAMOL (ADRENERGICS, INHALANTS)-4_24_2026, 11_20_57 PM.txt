@@ -1,0 +1,137 @@
+﻿April 24, 2026, 11:20:58 PM - https://pnf.doh.gov.ph
+
+SALBUTAMOL (ADRENERGICS, INHALANTS)
+
+Drug Classification
+
+ATC CODE
+
+R03AC02
+
+ANATOMICAL
+
+Respiratory System
+
+THERAPEUTIC
+
+Drugs for Obstructive Airway Disease
+
+PHARMACOLOGICAL
+
+Adrenergics, Inhalants
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+RESPIR › DPI: 200 micrograms per dose (as sulfate) with appropriate accompanying dispenser (Rx)
+
+RESPIR › MDI: 100 micrograms per dose (as sulfate) x 200 doses (Rx)
+
+RESPIR › Breath Actuated MDI: 100 micrograms per dose (as sulfate) x 200 doses (Rx)
+
+RESPIR › Respiratory solution for nebulization: 1 mg/mL (as sulfate), 2.5 mL (unit dose) (Rx)
+
+RESPIR › Respiratory solution for nebulization: 2 mg/mL (as sulfate), 2.5 mL (unit dose) (Rx)
+
+Dosage
+
+RESPIR › DPI: 200 micrograms per dose (as sulfate) with appropriate accompanying dispenser (Rx)
+
+Chronic asthma (as adjunct in stepped treatment), by aerosol inhalation, ADULT, 100–200 micrograms (1–2 puffs) up
+to 3–4 times daily; CHILD, 100 micrograms (1 puff) 3–4 times daily, increased to 200 micrograms (2 puffs) 3–4 times
+daily if necessary. Prophylaxis of exercise-induced bronchospasm, by aerosol inhalation, ADULT, 200 micrograms
+(2 puffs); CHILD, 100 micrograms (1 puff) increased to 200 micrograms (2 puffs) if required. Prophylaxis of exercise-
+induced bronchospasm, by aerosol inhalation, ADULT, 200 micrograms (2 puffs); CHILD, 100 micrograms (1 puff)
+increased to 200 micrograms (2 puffs) if required. Severe acute asthma, chronic bronchospasm (unresponsive to
+conventional treatment), by inhalation of nebulized solution, ADULT and CHILD >18 months, 2.5 mg repeated up to
+4 times daily; may be increased to 5 mg if necessary (consider medical assessment since alternative therapy may
+be indicated); CHILD <18 months, clinical efficacy uncertain (transient hypoxemia may occur – consider oxygen
+supplementation).
+
+Page 1 of 3
+
+
+
+April 24, 2026, 11:20:58 PM - https://pnf.doh.gov.ph
+
+Administration
+
+RESPIR › DPI: 200 micrograms per dose (as sulfate) with appropriate accompanying dispenser (Rx)
+
+Multi-dose solution for nebulization may need dilution with 0.9% sodium chloride to obtain final volume for the
+nebulizer
+
+Dose Adjustment
+
+Geriatric: Start with a lower dose than the usual adult dose. Gradually increase if needed.
+
+Indications
+
+Prophylaxis and treatment of asthma; bronchospasm in patients with reversible obstructive airway disease;
+prevention of exercise-induced bronchospasm
+
+Contraindications
+
+Severe pre-eclampsia and eclampsia; intrauterine infection; intrauterine fetal death; ante partum hemorrhage,
+placenta previa; cord compression; threatened miscarriage; cardiac disease
+
+Precautions
+
+WARNING: Excessive use and reliance on beta2- agonists for the treatment of asthma without an
+anti_x0002_inflammatory agent have been associated with an increased incidence of sudden deaths. Beta2-
+agonists inhalation can occasionally cause paradoxical bronchospasm and hypoxemia.
+
+Paradoxical bronchospasm (should be treated immediately
+with alternative therapy); discontinue treatment if the
+patient develops signs of pulmonary edema; Myocardial
+insufficiency, arrhythmias, susceptibility to QT-interval
+prolongation, hypertension; Diabetes mellitus, especially
+IV administration (monitor blood glucose);
+hyperthyroidism; renal and hepatic impairment (use with
+caution in high-dose treatments); Pregnancy (high doses
+should be given through inhalation only); lactation
+(monitor breastfeeding infant).
+
+Page 2 of 3
+
+
+
+April 24, 2026, 11:20:58 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Cough, headache, musculoskeletal pain, palpitations, throat irritation, tremor, upper respiratory
+inflammation, viral respiratory infections
+
+Less Common: Agitation, hyperactivity in children, hyperglycemia (high doses), insomnia, tachycardia
+
+Rare: Allergic reactions, hypokalemia, lactic acidosis, paradoxical bronchospasm
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Methyldopa (acute hypotension)
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Salbutamol:
+Corticosteroids (serious hypokalemia), Diuretics (serious hypokalemia), Drugs that increase blood glucose
+concentration e.g., Glucocorticoids, Antipsychotics, Calcineurin Inhibitors, high-dose Thiazide Diuretics, Somatropin
+(hyperglycemia), Drugs that reduce
+potassium concentration e.g., Amphotericin B, Diuretics (hypokalemia), Theophylline (serious hypokalemia)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Sympathomimetic Amines e.g., Ephedrine, Phenylephrine, Pseudoephedrine (sympathetic adverse effects e.g.,
+tremor, tachycardia, headache)
+
+Reduces therapeutic effect of Beta Blockers e.g., Propranolol (may precipitate asthma)
+
+Mechanism of Action
+
+A short-acting, beta2-adrenergic agonist used in the treatment or prevention of bronchospasm.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

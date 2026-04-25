@@ -1,0 +1,149 @@
+﻿April 25, 2026, 2:43:32 AM - https://pnf.doh.gov.ph
+
+SODIUM NITROPRUSSIDE
+
+Drug Classification
+
+ATC CODE
+
+C02DD01
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Antihypertensives
+
+PHARMACOLOGICAL
+
+Agents Acting on Arteriolar Smooth Muscle
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 50 mg powder (Rx)
+
+Dosage
+
+IV › 50 mg powder (Rx)
+
+Hypertensive crises: by IV infusion, ADULT and CHILD, 0.1–10 micrograms/kg per minute (usual dose, 3
+micrograms/kg per minute); start infusion at 0.25–0.3 micrograms/kg per minute and gradually increase every few
+minutes until adequate blood pressure control is achieved (maximum rate, 10 micrograms/kg per minute); if well-
+tolerated, gradually reduce dose toward normal in the next 24–48 hours. Acute severe hypertension associated
+with preeclampsia: by IV infusion, ADULT, 0.25 micrograms/kg per minute (maximum dose, 5 micrograms/kg per
+minute) NOTE: Do NOT exceed 10 micrograms/kg per minute to avoid excessive thiocyanate accumulation and to
+decrease the possibility of a precipitous drop in blood pressure. Discontinue immediately if blood pressure is not
+adequately controlled within 10 minutes following an IV infusion of 10 micrograms/kg per minute. Replace with
+longer-acting antihypertensive agents as soon as possible to minimize the duration of sodium nitroprusside
+therapy.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:43:32 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IV › 50 mg powder (Rx)
+
+Administer by IV infusion only using a controlled-infusion device, micro-drip regulator, or similar device that will
+allow precise measurement of the flow rate. Dilute concentrate prior to IV infusion. One vial containing 50 mg of
+the drug should be diluted in 250–1,000 mL of 5% dextrose injection. Inspect visually for particulate matter and
+discoloration prior to administration. The freshly prepared infusion solution has a very faint brownish tint. Discard
+highly colored solutions or solutions containing particulate matter. For single use only. Do NOT add other drugs to
+the infusion fluid for simultaneous administration. Sodium nitroprusside infusions at the maximum recommended
+infusion rate of 10 micrograms/kg per minute should NEVER last longer than 10 minutes. Immediately discontinue
+infusion if blood pressure has not been adequately controlled after 10 minutes. Protect from light by promptly
+wrapping the containers in aluminum foil or other opaque material. It is not necessary to cover the infusion drip
+chamber or IV tubing. If properly protected from light, diluted solutions of the drug are stable for 24 hours. Avoid
+extravasation. Adjust rate of administration to maintain the desired hypotensive effect based on continuous
+monitoring of blood pressure. NOTE: Administer only when adequate facilities, equipment, and personnel are
+available for close monitoring of blood pressure. The hypotensive effect of sodium nitroprusside occurs rapidly
+and can produce precipitous decreases in blood pressure. The possible sequelae of profound, prolonged
+hypotension are serious.
+
+Dose Adjustment
+
+Renal Impairment:
+For anuric patients, prolonged infusions should not exceed 1 microgram/kg per minute to maintain <60
+micrograms/mL thiocyanate concentration.
+
+Indications
+
+Management of hypertensive crisis; heart failure and low-output syndromes; for controlled hypotension during
+anesthesia
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:43:32 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Inadequate cerebral circulation; use during emergency surgery in patients near death; compensatory hypertension;
+congenital (Leber’s) optic atrophy; tobacco amblyopia
+
+Precautions
+
+WARNING: Infusions at rates exceeding 2 micrograms/kg per minute generate cyanogen (cyanide radical) in amounts
+greater than can be effectively buffered by normally present methemoglobin, which can result to cyanogen toxicity.
+
+Hypotension; cyanogenic effects (toxic effects may be rapid, serious, and possibly fatal; may manifest as venous
+hyperoxemia, lactic acidosis, air hunger, confusion, and death)
+Methemoglobinemia; thiocyanate accumulation (monitor for manifestations of thiocyanate).
+Cyanogen or low plasma vitamin B12 concentrations
+Renal and hepatic impairment (use with caution; cyanide may accumulate); hypothyroidism; hyponatremia; ischemic
+heart disease.
+Increased intracranial pressure (use with extreme caution in patients with preexisting increased intracranial
+pressure); pulmonary disease (may reverse hypoxic pulmonary vasoconstriction, which may exacerbate
+intrapulmonary shunting, resulting in worsened hypoxemia).
+Pregnancy (effects are unknown); lactation (not known if excreted in breastmilk; use with caution in nursing
+mothers).
+
+Adverse Drug Reactions
+
+Common: Profound hypotension, accumulation of cyanogen (cyanide radical), metabolic acidosis
+Less Common: Angina, myocardial infarction, ataxia, seizures, stroke, tinnitus, miosis, confusion, hyperreflexia,
+nausea, retching, vomiting, nasal stuffiness, diaphoresis, apprehension, headache, restlessness, muscle twitching,
+retrosternal discomfort, palpitation, dizziness, abdominal pain or cramps, bradycardia, tachycardia, ECG changes,
+rash, decreased platelet aggregation, ileus, increased intracranial pressure, flushing, venous streaking, irritation at
+the site of injection
+Rare: Methemoglobinemia, cyanosis, hyperthyroidism
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:43:32 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of the following drugs:
+Alteplase (prolongs fibrinolytic activity)
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Sodium Nitroprusside:
+Phosphodiesterase Inhibitors e.g., Sildenafil (severe hypertension)
+
+Enhances therapeutic effect of Sodium Nitroprusside:
+Additive hypotensive effects: Antihypertensives, Circulatory Depressants, Ganglionic-blocking Agents, General
+Anesthetics, Negative Inotropic Agents
+
+Mechanism of Action
+
+A direct, short-acting vasodilating agent that acts directly on the venous and arteriolar smooth muscle causing
+peripheral vasodilation. It does not affect other smooth muscle tissue, such as the uterus or duodenum, and has no
+direct effect on vasomotor centers, sympathetic nerves, or adrenergic receptors.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4
