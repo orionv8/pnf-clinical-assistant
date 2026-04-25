@@ -1,0 +1,138 @@
+﻿April 25, 2026, 3:03:53 AM - https://pnf.doh.gov.ph
+
+TINZAPARIN
+
+Drug Classification
+
+ATC CODE
+
+B01AB10
+
+ANATOMICAL
+
+Blood and Blood Forming Organs
+
+THERAPEUTIC
+
+Antithrombotic Agents
+
+PHARMACOLOGICAL
+
+Heparin Group
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+SC › 10,000 anti-Xa IU/mL, 0.35 mL pre-filled syringe (as sodium) (Rx)
+
+SC › 10,000 anti-Xa IU/mL, 0.45 mL pre-filled syringe (as sodium) (Rx)
+
+SC › 10,000 anti-Xa IU/mL, 2 mL vial (as sodium) (Rx)
+
+Dosage
+
+SC › 10,000 anti-Xa IU/mL, 0.35 mL pre-filled syringe (as sodium) (Rx)
+
+NOTE: 1 mg of tinzaparin equals 70120 units of anti-Xa activity. SUBCUTANEOUS DVT and/or PE, treatment: by SC
+injection, ADULT, 175 anti-Xa units/kg once daily (maximum, 18,000 anti-Xa units/day), start warfarin on the first or
+second treatment day and continue tinzaparin until INR is ≥2 for at least 24 hours, usually 5–7 days [NOTE: May use
+body weight dosing using prefilled syringes]. DVT, prophylaxis in hip replacement surgery: by SC injection, ADULT,
+preoperative regimen, 50 anti-Xa units/kg given 2 hours preoperatively followed by 50 anti-Xa units/kg once daily
+for 7–10 days; postoperative regimen, 75 anti-Xa units/kg once daily, with initial dose given postoperatively and
+continued for 7–10 days [NOTE: Initiate of LMWH ≥12 hours preoperatively or ≥12 hours postoperatively, may
+extend duration up to 35 days]. DVT, prophylaxis in knee replacement surgery: by SC injection, ADULT, 75 anti-Xa
+units/kg once daily, with initial dose given postoperatively and continued for 7–10 days [NOTE: Initiate of LMWH ≥12
+hours preoperatively or ≥12 hours postoperatively, may extend duration up to 35 days; may use body weight dosing
+using prefilled syringes]. DVT, prophylaxis in general surgery: by SC injection, ADULT, 3,500 anti-Xa units once
+daily, with initial dose given 2 hours prior to surgery and then continued postoperatively for 7–10 days.
+INTRAVENOUS Anticoagulant in extracorporeal circuit during hemodialysis, for stable patients with chronic renal
+failure: by IV bolus, ADULT, for dialysis session ≤4 hours and no hemorrhage risk, initially 4,500 anti-Xa units at
+beginning of dialysis, typically achieves plasma concentrations of 0.5–1 anti-Xa units/mL, may give larger bolus for
+dialysis sessions >4 hours; [NOTE: For subsequent dialysis sessions, may adjust dose as necessary in increments
+of 500 anti-Xa units based on previous outcome]; For dialysis sessions ≤4 hours with hemorrhage risk, initially
+2,250 anti-Xa units at beginning of dialysis [NOTE: Do NOT add to dialysis circuit. For subsequent dialysis sessions,
+adjust dose as necessary to achieve plasma concentrations of 0.20.4 anti-Xa units/mL].
+
+Page 1 of 3
+
+
+
+April 25, 2026, 3:03:53 AM - https://pnf.doh.gov.ph
+
+Administration
+
+SC › 10,000 anti-Xa IU/mL, 0.35 mL pre-filled syringe (as sodium) (Rx)
+
+For SC use only. Administer by deep SC injection into the lower abdomen, outer thigh, lower back, or upper arm.
+Patient should be lying down or sitting. Vary injection site daily. Do NOT rub the injection site to minimize bruising.
+May be administered by IV injection in hemodialysis patients. Do NOT administer by IM route and avoid IM
+administration of other medications due to the risk of hematoma formation. See General Information on Heparin
+Group under Antithrombotic Agents for further information.
+
+Dose Adjustment
+
+Geriatric:
+Use is not recommended in patients >70 years of age with renal impairment.
+
+Renal Impairment:
+For patients with CrCl ≥30 mL/minute, no dose adjustment needed provided it primarily undergoes renal elimination.
+For patients with CrCl <30 mL/minute, consider dose reduction.
+
+Hepatic Impairment:
+No dosage adjustment needed provided it does not undergo hepatic metabolism.
+
+Indications
+
+Treatment of deep vein thrombosis (DVT) and/or pulmonary embolism (PE) (except in patients with severe
+hemodynamic instability) ; prevention of venous thromboembolism (VTE) following orthopedic surgery or following
+general surgery in patients at high risk of VTE; prevention of clotting in indwelling intravenous lines and
+extracorporeal circuit during hemodialysis (in patients without high bleeding risk).
+
+Page 2 of 3
+
+
+
+April 25, 2026, 3:03:53 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Active bleeding; history of confirmed or suspected immunologically mediated heparin-induced thrombocytopenia
+(HIT) or positive in vitro platelet aggregation test in the presence of tinzaparin; acute or subacute endocarditis;
+generalized hemorrhage tendency and other conditions involving increased risks of hemorrhage (e.g., severe
+hepatic insufficiency, imminent abortion); hemophilia or major blood clotting disorders; acute cerebral insult or
+hemorrhagic cerebrovascular accidents without systemic emboli; uncontrolled severe hypertension; diabetic or
+hemorrhagic retinopathy; injury or surgery involving the brain, spinal cord, eyes or ears; spinal / epidural anesthesia
+in patients requiring treatment dosages of tinzaparin; use of multi-dose vials containing benzyl alcohol in children <2
+years of age, premature infants, and neonates; pregnant or nursing mothers
+
+Precautions
+
+WARNING: Contraindicated in patients with HIT or HIT with thrombosis due to high cross-reactivity to heparin-
+platelet factor4 antibody.
+
+Hepatic impairment (use with caution); Renal impairment (use with caution); Elderly (increased sensitivity may be
+possible due to a decline in renal function).
+
+Adverse Drug Reactions
+
+Common: increased ALT and AST, chest pain, angina pectoris, arrhythmia, coronary thrombosis or MI, dependent
+edema, thromboembolism, fever, headache, pain, bullous eruption, erythematous rash, maculopapular rash, skin
+necrosis, nausea, abdominal pain, constipation, diarrhea, vomiting, urinary tract infection, bleeding events,
+granulocytopenia, thrombocytopenia, injection site hematoma or cellulitis, back pain, epistaxis, dyspnea, allergic
+reaction, neoplasm.
+Less Common: Agranulocytosis, angioedema, anaphylactoid reaction, hemoptysis, hypoaldosteronism,
+hyperkalemia, increased GGT and LDH, increased lipase, metabolic acidosis, ocular hemorrhage, osteopenia,
+osteoporosis, priapism, pruritus, rash, spinal epidural hematoma, Stevens-Johnson syndrome, thrombocytosis, toxic
+epidermal necrolysis, urticaria.
+
+Mechanism of Action
+
+A low molecular weight heparin with anticoagulant properties used in the prevention and treatment of venous
+thromboembolism and to prevent clotting during extracorporeal circulation
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

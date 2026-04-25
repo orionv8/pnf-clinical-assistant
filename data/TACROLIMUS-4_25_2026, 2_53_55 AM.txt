@@ -1,0 +1,235 @@
+﻿April 25, 2026, 2:53:56 AM - https://pnf.doh.gov.ph
+
+TACROLIMUS
+
+Drug Classification
+
+ATC CODE
+
+L04AD02
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunosuppressants
+
+PHARMACOLOGICAL
+
+Calcineurin Inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 1 mg capsule (Rx)
+
+ORAL › 5 mg capsule (Rx)
+
+ORAL › 1 mg slow-release capsules (Rx)
+
+ORAL › 5 mg slow-release capsules (Rx)
+
+Dosage
+
+ORAL › 1 mg capsule (Rx)
+
+Liver transplant, by mouth, ADULT, initially 0.1–0.15 mg/kg daily in 2 divided doses, given every 12 hours; titrate to
+target trough concentrations; CHILD, initially 0.15–0.20 mg/kg daily in 2 divided doses, given every 12 hours; titrate
+to target trough concentrations [NOTE: Initiate therapy in pediatric patients at the HIGH end of the recommended
+adult dosing ranges]. Heart transplant, by mouth, ADULT, in combination with azathioprine or mycophenolate
+mofetil, initially 0.075 mg/kg daily in 2 divided doses, given every 12 hours; titrate to target trough concentrations.
+Kidney transplant, by mouth, ADULT, in combination with azathioprine, initially 0.2 mg/kg daily; in combination with
+mycophenolate mofetil, initially 0.1 mg/kg daily; titrate to target trough concentrations; administer in 2 divided
+doses, given every 12 hours [NOTE: Administer initial postoperative dose no sooner than 6 hours after liver or
+heart transplant and within 24 hours of kidney transplant or until renal function has recovered; titrate to target
+trough concentrations.]. Rheumatoid arthritis, by mouth, ADULT, 3 mg once daily. Blood and marrow
+transplantation, by mouth, ADULT, 0.15 mg/kg daily in 2 divided doses beginning 2 days prior to transplant, dose
+adjusted to maintain trough level between 10-20 ng/mL, up to 3 months, thereafter, adjust dose to keep trough
+level around 10 ng/ml.
+
+Page 1 of 6
+
+
+
+April 25, 2026, 2:53:56 AM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 1 mg capsule (Rx)
+
+becomes necessary, administer consistently with regard to timing and composition of meals. Food decreases rate
+and extent of absorption. High-fat meals have the most pronounced effect. NOTE: If dosed once daily, administer
+in the morning. If twice daily, administer 12 hours apart. If the morning and evening doses differ, administer the
+larger dose in the morning. If dosed 3 times daily, administer 8 hours apart. For combination therapy with
+everolimus in liver transplant, administer both doses at the same time. Immediate release and extended release
+capsules are NOT interchangeable or substitutable. Serious adverse events, including organ rejection, may occur.
+Limit exposure to sunlight and ultraviolet light by wearing protective clothing and using effective sunscreen to
+minimize the risk for malignancy.
+
+Dose Adjustment
+
+Renal Impairment:
+Use lowest recommended dose. Additional dose reductions may be necessary.
+In patients who have undergone kidney transplant, and with postoperative oliguria, initiate therapy no sooner than 6
+hours and within 24 hours post-transplant, or until renal function displays evidence of recovery.
+
+Hepatic Impairment:
+Use lowest recommended dose. Additional dose reductions may be necessary.
+
+Indications
+
+Prevention of organ rejection in heart, kidney, or liver transplant; treatment of refractory rejection in kidney or liver
+transplant; treatment of active rheumatoid arthritis in adult patients nonresponsive to DMARD therapy or when
+DMARD therapy is inappropriate; for the prevention of GVHD in Allogeneic-HSCT, in combination with MTX.
+
+Page 2 of 6
+
+
+
+April 25, 2026, 2:53:56 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+No information found
+
+Precautions
+
+WARNING: Should be administered under the supervision of a physician experienced in immunosuppressive therapy
+and organ transplantation in a facility appropriate for monitoring and managing therapy. May contain lactose. NOT
+recommended for patients who may be lactose intolerant. May be associated with the development of lymphoma and
+other malignancies. Increased risk of infection, such as bacterial, viral, fungal, and protozoal infections, including
+opportunistic infections.
+
+Cardiovascular effects (e.g. myocardial hypertrophy, prolongation of the QT/QTc and torsade de pointes);
+hypertension
+
+Diabetes mellitus, post-transplant (new-onset diabetes and insulin-dependent post-transplant diabetes mellitus
+may occur); hyperkalemia (mild-to-severe); gastrointestinal perforation
+
+Infections (may result in serious and fatal outcomes; latent viral infections may be activated); malignancy (e.g.
+lymphoma, skin malignancies, post-transplant lymphoproliferative disorder; pure red cell aplasia / PRCA
+
+Nephrotoxicity
+
+Neurotoxicity (including tremor, headache, coma, delirium, seizures, posterior reversible encephalopathy syndrome).
+
+Page 3 of 6
+
+
+
+April 25, 2026, 2:53:56 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Abdominal pain, abnormal dreams, abnormal hepatic function tests, abnormality in thinking, abscess,
+acidosis, acne vulgaris, acute renal failure, agitation, albuminuria, alkalosis, allergic rhinitis, alopecia, amblyopia,
+amnesia, anasarca, anemia, angina pectoris, anorexia, anuria, anxiety, aphasia, aphthous stomatitis, arthralgia,
+arthropathy, ascites, asthma, ataxia, atelectasis, atrial fibrillation, atrial flutter, back pain, bacterial infection, bladder
+spasm, blood coagulation disorder, blurred vision, bradycardia, brain disease, bronchitis, bruise, cardiac arrest,
+cardiac arrhythmia, cardiorespiratory arrest, cardiac failure, carpal tunnel syndrome, cellulitis, cerebral infarction,
+cerebral ischemia, chest pain, chills, cholangitis, colitis, cholestatic jaundice, condyloma acuminatum, confusion,
+conjunctivitis, constipation, convulsions, cough, Cushing's syndrome, cystitis, cytomegalovirus disease, decreased
+prothrombin time, dehydration, deep vein thrombophlebitis, deep vein thrombosis, delayed gastric emptying,
+depression, dermal ulcer, dermatitis, dermatological reaction, diabetes mellitus (posttransplant), diaphoresis,
+diarrhea, dizziness, drowsiness, duodenitis, dyspepsia, dysphagia, dyspnea, dysuria, edema, emotional lability,
+emphysema, enlargement of abdomen, falling, Epstein-Barr virus infection, esophagitis, excessive crying, fever,
+exfoliative dermatitis, fatigue, flaccid paralysis, flatulence, flu-like symptoms, flushing, gastric ulcer, gastritis,
+gastroenteritis, GERD, GI hemorrhage, GI perforation, graft complications, hallucination, gout, headache, hematuria,
+hemolytic/hypochromic anemia, hemorrhage, hemorrhagic stroke, hepatic injury, hearing loss, hepatitis, hernia,
+herpes simplex infection, hirsutism, hiccups, hydronephrosis, hyper-/hypokalemia, hypersensitivity reaction,
+hyperphosphatemia, hypercalcemia, hypoglycemia/ hyperglycemia, hypertension, hypertonia, hypertrophic
+cardiomyopathy, hypervolemia, hypocalcemia, hyponatremia, increased appetite, hypoesthesia, hypomagnesemia,
+hypophosphatemia, hypotension, hypotrichosis, infection, leg cramps, insomnia, intestinal obstruction, ischemic
+heart disease, jaundice, Kaposi’s sarcoma, mood elevation, leukocytosis, leukopenia, localized phlebitis, malignant
+neoplasm of bladder, malignant neoplasm of thyroid (papillary), mental status changes, muscle weakness of the
+extremities, myalgia, myasthenia, MI, muscle spasm, myoclonus, nausea, nervousness, neuropathy, neurotoxicity,
+nightmares, nocturia, neutropenia, oliguria, orthostatic hypotension, oral candidiasis, osteopenia, osteoporosis,
+otalgia, otitis externa, otitis media, pancreatic disease (pseudocyst), pancreatitis, paresis, paresthesia, pericardial
+effusion, pancytopenia, peripheral edema, peripheral neuropathy, peritonitis, pharyngitis, phlebitis, pleural effusion,
+peripheral vascular disease, pneumonia, pneumothorax, polycythemia, polyoma virus infection, postoperative pain,
+postoperative wound complication, proteinuria, pruritus, skin rash, psychosis, pulmonary disease, pulmonary edema,
+pulmonary infiltrates, rectal disease, renal disease (BK nephropathy), renal function abnormality, renal tubular
+necrosis, respiratory depression, respiratory failure, respiratory tract infection, rhinitis, seizure, sepsis, tachycardia,
+serious infection, sinusitis, skin discoloration, skin neoplasm, skin photosensitivity, stomach cramps, stomatitis,
+syncope, thrombocytopenia, thrombosis, tinea versicolor, tinnitus, toxic nephrosis, tremor, urinary frequency,
+urinary incontinence, urinary retention, urinary tract infection, urinary urgency, vasodilatation, ventricular premature
+contractions, vaginitis, vertigo, visual disturbance, voice disorder, vomiting, weakness, weight changes, wound
+healing impairment, writing difficulty
+
+Less Common: Adult respiratory distress syndrome, agranulocytosis, anaphylactoid reaction, basal cell carcinoma,
+anaphylaxis, angioedema, biliary tract disease (stenosis), cerebrovascular accident, coma, deafness, delirium,
+disseminated intravascular coagulation, dysarthria, blindness, graft versus host disease, hemiparesis, hemolytic-
+uremic syndrome, hepatic cirrhosis, hepatic failure, hemorrhagic cystitis, hepatic necrosis, hepatic veno-occlusive
+disease, hepatosplenic T-cell lymphomas, hepatotoxicity, hyperpigmentation, interstitial pulmonary disease,
+leukemia, liver steatosis, lymphoproliferative disorder (post-transplant or related to EBV), malignant lymphoma,
+malignant melanoma, multiorgan failure, leukoencephalopathy, mutism, prolonged partial thromboplastin time,
+osteomyelitis, optic atrophy, photophobia, polyarthritis, progressive multifocal leukoencephalopathy, prolonged QT
+interval, pulmonary hypertension, pure red cell aplasia, quadriplegia, rhabdomyolysis, status epilepticus, septicemia,
+reversible posterior leukoencephalopathy syndrome, squamous cell carcinoma, Stevens-Johnson syndrome, SVT,
+supraventricular extrasystole, thrombocytopenic purpura, thrombotic thrombocytopenic purpura, torsades de
+pointes, toxic epidermal necrolysis, urticaria, venous thrombosis, ventricular fibrillation
+
+Page 4 of 6
+
+
+
+April 25, 2026, 2:53:56 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Tacrolimus: Trastuzumab (neutropenic effect)
+Enhances therapeutic effect of the following drugs: Moderate Risk QTc-Prolonging Agents, Indeterminate Risk and
+Risk Modifying
+Increases risk of adverse or toxic effects of Tacrolimus: Denosumab (serious infections), Levofloxacin, Systemic
+(QTc-prolonging effect), NSAIDs (nephrotoxic effect)
+Increases risk of adverse or toxic effects of the following drugs:
+Fenofibrate and its Derivatives (nephrotoxic effect)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+Reduces therapeutic effect of Antidiabetic Agents
+
+Avoid concomitant use with:
+Decreases serum concentration of Tacrolimus: Dabrafenib, Efavirenz, Enzalutamide, Rifamycin Derivatives (e.g.,
+Rifampicin),Temsirolimus Mitotane, Sirolimus,
+Enhances absorption of Tacrolimus: Ethyl Alcohol
+Enhances therapeutic effect of Tacrolimus: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of the following drugs: Dronedarone (QTc-prolonging effect). Highest Risk QTc-
+Prolonging Agents, (Indeterminate Risk and Risk Modifying), Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Tacrolimus: Cyclosporine, Systemic (nephrotoxic effect), Eplerenone
+(hyperkalemic effect), Foscarnet (nephrotoxic effect), Mifepristone (QTc-prolonging effect), Pimecrolimus,
+Potassium-Sparing Diuretics, e.g.,
+Spironolactone (hyperkalemic effect), Sirolimus, Tacrolimus (Topical), Temsirolimus
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Cyclosporine, Systemic
+(nephrotoxic effect), Dipyrone (agranulocytosis; pancytopenia), Leflunomide (hematologic toxicity such as
+pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent infection), Sirolimus,
+Temsirolimus Vaccines, Live virus (infection)
+Increases serum concentration of Tacrolimus: Antidepressants, Serotonin Reuptake Inhibitor / Antagonist,
+Boceprevir, Chloramphenicol, Conivaptan, Crizotinib, Cyclosporine (Systemic), CYP3A4 Inhibitors, Dasabuvir,
+Fluconazole, Fusidic Acid, (Systemic), Grapefruit Juice, Itraconazole, Ketoconazole (Systemic), Posaconazole,
+Protease Inhibitors, e.g., Lopinavir, Proton Pump Inhibitors, e.g., Omeprazole, Ritonavir, Voriconazole
+Increases serum concentration of the following drugs: Afatinib, Bosutinib, Colchicine (enhanced distribution),
+Dabigatran Etexilate, Doxorubicin (Conventional), Everolimus, Pazopanib, Silodosin, Topotecan, Vincristine
+(Liposomal)
+Reduces therapeutic effect of the following drugs: BCG, Intravesical, Vaccines (immune response)
+
+FOOD INTERACTION. Grapefruit juice may increase serum level and/or toxicity of tacrolimus.
+
+Mechanism of Action
+
+Suppresses cellular immunity, thus inhibiting T-lymphocyte activation, by binding to an intracellular protein, FKBP-12
+and complexes with calcineurin dependent proteins to inhibit calcineurin phosphatase activity.
+
+Page 5 of 6
+
+
+
+April 25, 2026, 2:53:56 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 6 of 6

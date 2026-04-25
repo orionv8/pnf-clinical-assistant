@@ -1,0 +1,77 @@
+﻿April 25, 2026, 3:01:43 AM - https://pnf.doh.gov.ph
+
+TETRACYCLINE (OTHER ANTIMALARIALS)
+
+Drug Classification
+
+ATC CODE
+
+J01AA07
+
+ANATOMICAL
+
+Antiparasitic Products, Insecticides, and Repellents
+
+THERAPEUTIC
+
+Antiprotozoals
+
+PHARMACOLOGICAL
+
+Other Antimalarials
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 250 mg capsule (Rx)
+
+ORAL › 500 mg capsule (Rx)
+
+Dosage
+
+ORAL › 250 mg capsule (Rx)
+
+2nd line treatment for uncomplicated malaria due to P. falciparum or P. malariae (in combination with quinine
+sulfate, 10 mg/kg every 8 hours for 7 days; and primaquine tablet, 15 mg (0.25 mg base per kg) on day 1 and 3 tablets
+for adults >60 kg), by mouth, ADULT, 3 mg/kg once daily for 7 days. Severe malaria due to P. falciparum or P.
+malariae, second_x0002_line treatment (in combination with artemether_x0002_lumefantrine), by mouth, ADULT,
+3 mg/kg once daily for 7 days.
+
+Administration
+
+ORAL › 250 mg capsule (Rx)
+
+Should be given on an empty stomach (1 hour prior to, or 2 hours after meals) to increase total absorption.
+Administer at least 1–2 hours prior to, or 4 hours after antacid because aluminum and magnesium cations may
+chelate with tetracycline and reduce its total absorption. Administer around-the-clock to promote less variation in
+peak and trough serum levels. See Tetracycline under Antibacterials for Systemic Use – Tetracyclines in Chapter 7:
+Antiinfectives for Systemic Use for other information.
+
+Page 1 of 2
+
+
+
+April 25, 2026, 3:01:43 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment: If CrCl is 50–80 mL/minute, administer every 8–12 hours. If CrCl is 10–50 mL/minute, administer
+every 12–24 hours. If CrCl <10 mL/minute, administer every 24 hours.
+
+Hepatic Impairment: Use with caution. Maximum dose is 1 g daily.
+
+Indications
+
+For chloroquine-resistant falciparum malaria (in combination with other antimalarials)
+
+Mechanism of Action
+
+A tetracycline antibiotic that inhibits bacterial synthesis by binding with the 30s ribosomal subunit(s) of susceptible
+microorganisms.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 2 of 2

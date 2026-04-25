@@ -1,0 +1,161 @@
+﻿April 25, 2026, 3:01:47 AM - https://pnf.doh.gov.ph
+
+TETRACYCLINE (THYROID PREPARATIONS)
+
+Drug Classification
+
+ATC CODE
+
+J01AA07
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Thyroid Preparations
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [ACCESS] 250 mg capsule (Rx)
+
+ORAL › [ACCESS] 500 mg capsule (Rx)
+
+Dosage
+
+ORAL › [ACCESS] 250 mg capsule (Rx)
+
+Bacterial infection, general dosing, by mouth, ADULT, 250-500 mg every 6 hours; CHILD >8 years, 25 to 50 mg/kg
+daily in divided doses every 6 hours. Gastroenteritis due to Vibrio cholera, by mouth, ADULT, 500 mg 4 times daily
+for 3 days by mouth, CHILD 2 months to 5 years, 250 mg 4 times daily for 3 days. Syphilis, primary, secondary, or
+latent, by mouth, ADULT, 500 mg 4 times daily for 14 days. Syphilis, late latent, by mouth, ADULT, 500 mg 4 times
+daily for 30 days. Trachoma due to Chlamydia trachomatis, second-line, by mouth, ADULT and CHILD, 250 mg 4
+times daily for 14 days.
+
+Administration
+
+ORAL › [ACCESS] 250 mg capsule (Rx)
+
+Administer on an empty stomach (1 hour before or 2 hours after meals) to increase total absorption. Administer
+around-the-clock to promote less variation in peak and trough serum levels. Administer at least 1-2 hours prior to,
+or 4 hours after antacid because aluminum and magnesium cations may chelate with tetracycline and reduce its
+total absorption. Do NOT administer to pregnant women.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 3:01:47 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+
+For patients with CrCl of 50-80mL/minute, administer every 8-12 hours.
+For patients with CrCl of 10-50mL/minute, administer every 12-24 hours.
+For patients with CrCl <10mL/minute, administer every 24 hours
+
+Tetracycline is slightly dialyzable (5-20%) via hemodialysis, peritoneal dialysis, and continuous arteriovenous or
+venous hemofiltration.
+
+Supplemental dose is not necessary
+
+Indications
+
+Treatment of susceptible bacterial infections of both gram-¬positive and gram-negative organisms; infections due
+to Mycoplasma, Chlamydia, and Rickettsia; acute diarrhea (suspected cholera); gastroenteritis; second-line
+treatment of malaria; second-line treatment of trachoma; second-line treatment of syphilis
+
+Precautions
+
+Do NOT administer to pregnant women.
+Nephropathy;
+Photosensitivity (discontinue if skin erythema occurs);
+Superinfection;
+Hepatic and renal impairment;
+Pediatric (may cause tissue hyperpigmentation, enamel hypoplasia, or permanent tooth discoloration; avoid use in
+children <8 years);
+Pregnancy (may affect fetal tooth development; associated with retarded skeletal development and reduced bone
+growth);
+Lactation (excreted in breastmilk; binds to calcium in maternal milk).
+
+Adverse Drug Reactions
+
+Pericarditis, bulging fontanels in infants, increased intracranial pressure, paresthesia, pseudotumor cerebri,
+exfoliative dermatitis, photosensitivity, pigmentation of nails, pruritus, abdominal cramps, anorexia, antibiotic-
+associated pseudomembranous colitis, diarrhea, discoloration of teeth (young children), enamel hypoplasia (young
+children), esophagitis, nausea, pancreatitis, staphylococcal enterocolitis, vomiting, thrombophlebitis,
+hepatotoxicity, acute renal failure, azotemia, renal damage, anaphylaxis, hypersensitivity reactions, superinfection
+
+Page 2 of 4
+
+
+
+April 25, 2026, 3:01:47 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+
+Enhances therapeutic effect of the following drugs:
+Neuromuscular-blocking agents e.g. Pancuronium, Vitamin K antagonists
+
+Increases serum concentration of the following drugs:
+Quinine
+
+Reduces therapeutic effect of the following drugs:
+BCG vaccine
+
+Avoid concomitant use with:
+Reduces absorption of Tetracycline:
+Antacids, Bile acid sequestrants e.g. Cholestipol, Magnesium salts, Sucralfate (if concomitant use cannot be avoided,
+administer at least 2 hours apart), Zinc salts (if concomitant use cannot be avoided, separate administration by at
+least 2 hours; Except: zinc chloride)
+
+Reduces absorption of the following drugs:
+Iron salts
+
+Decreases serum concentration of Tetracycline:
+Calcium salts, Dabrafenib, Dairy products, Iron salts (except: ferric carboxymaltose, ferric gluconate, ferric
+pyrophosphate citrate, ferumoxytol, iron dextran complex, iron sucrose), Lanthanum (separate doses by at least 2
+hours), Multivitamins / Minerals (with ADEK, folate, iron) (if concomitant use cannot be avoided, separate
+administration by several hours), Multivitamins / Minerals (with AE, no iron) (if concomitant use cannot be avoided,
+separate administration by several hours), Quinapril (separate doses by at least 2 hours; if concomitant use cannot be
+avoided, monitor for reduced efficacy of tetracycline), Strontium ranelate (discontinuation of strontium ranelate
+treatment during tetracycline therapy is recommended)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Retinoic acid derivatives (pseudotumor cerebri) (Except: adapalene), tretinoin (topical)
+
+Increases metabolism of the Tetracycline:
+CYP3A4 inducers (strong)
+
+Reduces therapeutic effect of the following drugs:
+BCG (intravesical), Penicillin, Sodium picosulfate, Typhoid vaccine (postpone use of this vaccine until at least 3 days
+after cessation of antibacterial agents)
+
+Mechanism of Action
+
+Tetracycline are broad-spectrum antibiotics that inhibit bacteriostatic action by reversibly binding to the 30S
+subunits of the ribosome, thus preventing protein synthesis and arresting cell growth. They are active against many
+gram-positive and gram-negative bacteria including Chlamydiaceae, Mycoplasma spp., Rickettsia spp., spirochetes,
+and some protozoa.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 3:01:47 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

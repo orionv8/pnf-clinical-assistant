@@ -1,0 +1,221 @@
+﻿April 25, 2026, 3:02:02 AM - https://pnf.doh.gov.ph
+
+THEOPHYLLINE (ANHYDROUS)
+
+Drug Classification
+
+ATC CODE
+
+R03DA04
+
+ANATOMICAL
+
+Respiratory System
+
+THERAPEUTIC
+
+Drugs for Obstructive Airway Disease
+
+PHARMACOLOGICAL
+
+Other Systemic Drugs for Obstructive Airway Diseases
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 150 mg tablet (Rx)
+
+ORAL › 200 mg tablet (Rx)
+
+ORAL › 200 mg MR tablet (Rx)
+
+ORAL › 25 mg/5mL (26.7 mg/5 mL) syrup, 100 mL (Rx)
+
+Dosage
+
+ORAL › 150 mg tablet (Rx)
+
+NOTE: For every 1 mg/kg theophylline given, blood levels will rise 2 micrograms/mL. Asthma exacerbation, by
+mouth, ADULT (no theophylline received within the previous 24 hours), 5 mg/kg. Asthma exacerbation, by mouth,
+ADULT (theophylline was administered in the previous 24 hours), calculate loading dose as follows: Dose = (desired
+serum theophylline concentration  measured serum theophylline concentration) (Vd) Chronic conditions,
+treatment, by mouth, CHILD ≥1 year and <45 kg, initially 10 – 14 mg/kg once daily (maximum, 300 mg daily);
+maintenance dose, up to 20 mg/kg daily (maximum, 600 mg daily). NOTE: Increase dose only if tolerated. Consider
+lowering dose or using a slower titration if caffeine-like adverse events occur. Smaller doses given more
+frequently may be used in patients with a more rapid metabolism to prevent breakthrough symptoms, which could
+occur due to low trough concentration prior to the next dose. In patients with risk factors for impaired
+theophylline clearance and patients in whom monitoring serum theophylline levels is not feasible, do NOT exceed
+a dose of theophylline 400 mg daily.
+
+Page 1 of 5
+
+
+
+April 25, 2026, 3:02:02 AM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 150 mg tablet (Rx)
+
+For IV use only. IM use is NOT recommended). Loading doses should be administered over 30 minutes. Infusion rate
+should not exceed 21 mg/hour (equivalent to theophylline 17 mg/hour) in patients with cor pulmonale, cardiac
+decompensation, liver dysfunction, patients >60 years, or patients taking medications which reduce theophylline
+clearance. Vesicant. Ensure proper needle or catheter placement prior to and during IV infusion. Avoid
+extravasation. EXTRAVASATION MANAGEMENT: If extravasation occurs, stop infusion immediately and disconnect.
+Leave needle or cannula in place. gently aspirate extravasated solution. Do NOT flush the line. Initiate
+hyaluronidase antidote. Remove needle or cannula; apply dry cold compresses and elevate extremity.
+
+Dose Adjustment
+
+Geriatric:
+Use lower initial doses and monitor closely for response and adverse reactions.
+
+Renal Impairment:
+In infants 1–3 months, consider dose reduction and
+frequent monitoring of serum theophylline
+concentrations.
+
+Hepatic Impairment:
+In patients with decreased hepatic function (e.g., cirrhosis, acute hepatitis, cholestasis), dose reduction and
+frequent monitoring of serum theophylline concentration are required (maximum daily dose, 400 mg).
+
+After serum theophylline measurements:
+Within normal limits, asthma:
+
+CHILD, 5–10 micrograms/mL, maintain dose if tolerated.
+Recheck serum theophylline concentration at 6- to 12-
+month intervals. Finer adjustments in dosage may be
+needed for some patients. If levels ≥15 micrograms/mL,
+consider 10% dose reduction to improve safety margin.
+
+NOTE: Recheck serum theophylline levels after 3 days in children.
+
+Indications
+
+Treatment of symptoms and reversible airway obstruction due to chronic asthma, or other chronic lung diseases
+
+Page 2 of 5
+
+
+
+April 25, 2026, 3:02:02 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Allergy to corn-related products
+
+Precautions
+
+CNS effects; Theophylline toxicity (if signs and symptoms develop, e.g., persistent, repetitive vomiting, measure
+serum level and withhold subsequent doses); Cardiovascular disease, hyperthyroidism, peptic ulcer disease, and
+seizure disorder; Elderly (use lower initial doses due to slower hepatic clearance; monitor closely for response and
+adverse reactions; greater risk for toxicity due to concomitant disease and drug use).
+
+Adverse Drug Reactions
+
+Flutter, tachycardia, headache, hyperactivity (children), insomnia, irritability, restlessness, seizures, status
+epilepticus (non convulsive), hypercalcemia (with concomitant hyperthyroid disease), nausea, reflux or ulcer
+aggravation, vomiting, difficulty urinating (elderly males with prostatism), tremor, diuresis (transient)
+
+Page 3 of 5
+
+
+
+April 25, 2026, 3:02:02 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Theophylline:
+Atomoxetine (hypertensive and tachycardic effect),
+Cannabinoid-containing Products [except Cannabidiol]
+(tachycardic effect)
+Tedizolid (hypertensive and tachycardic effect)
+
+Increases risk of adverse or toxic effects of Theophylline:
+Other Sympathomimetics
+
+Increases risk of adverse or toxic effects of the following
+drugs:
+Formoterol (hypokalemic effect)
+Indacaterol (hypokalemic effect)
+Olodaterol (hypokalemic effect)
+
+Reduces therapeutic effect of Theophylline:
+Beta Blockers (bronchodilator effect)
+
+Avoid concomitant use with:
+Decreases serum concentration of Theophylline:
+Carbamazepine
+CYP1A2 Inducers
+CYP3A4 Inducers
+Dabrafenib, Fosphenytoin, Mitotane, Phenytoin
+
+Decreases serum concentration of the following drugs:
+Carbamazepine, Fosphenytoin
+
+Enhances therapeutic effect of Theophylline:
+Linezolid (hypertensive effect)
+
+Increases risk of adverse or toxic effects of the following
+drugs:
+Doxofylline, Pancuronium, Quinolone Antibiotics e.g.,
+Ciprofloxacin, Enoxacin [except Gemifloxacin,
+Levofloxacin, Lomefloxacin, Moxifloxacin, Nalidixic Acid,
+Sparfloxacin] (augments seizure-producing potential),
+Riociguat (hypotensive effect)
+
+Increases serum concentration of Theophylline:
+Cimetidine, Conivaptan
+CYP1A2 Inhibitors
+CYP3A4 Inhibitors
+Fluvoxamine, Fusidic Acid (Systemic)
+Idelalisib, Macrolide Antibiotics [except Azithromycin,
+Fidaxomicin, Spiramycin, Telithromycin], Mexiletine,
+Mifepristone
+Quinolone Antibiotics e.g., Ciprofloxacin, Enoxacin
+
+Page 4 of 5
+
+
+
+April 25, 2026, 3:02:02 AM - https://pnf.doh.gov.ph
+
+[except Gemifloxacin, Levofloxacin, Lomefloxacin,
+Moxifloxacin, Nalidixic Acid, Sparfloxacin], Stiripentol
+Thiabendazole, Vemurafenib, Zileuton [if concomitant
+use cannot be avoided, reduce theophylline dose by 50%
+upon initiation of zileuton]
+
+Increases serum concentration of Tizanidine [if concomitant
+use cannot be avoided, initiate tizanidine at 2 mg and
+increase in 2–4 mg increments based on patient
+response]
+
+Reduces therapeutic effect of Theophylline:
+Nonselective Beta-blockers e.g. Propranolol
+(bronchodilator effect)
+
+Reduces therapeutic effect of the following drugs:
+Adenosine
+Benzodiazepines, Iobenguane I 123, Regadenoson
+(vasodilatory effect)
+Pancuronium (neuromuscular-blocking effect)
+
+TEST INTERACTION. May increase plasma glucose, uric acid,
+free fatty acids, total cholesterol, HDL, HDL/LDL ratio,
+and urinary free cortisol excretion. May decrease
+triodothyronine.
+
+Mechanism of Action
+
+A xanthine derivative that blocks phosphodiesterase-3 (PDE III) promoting catecholamine stimulation of lipolysis,
+glycogenolysis, and gluconeogenesis and induces release of epinephrine from adrenal medulla cells. It causes
+bronchodilation, diuresis, CNS and cardiac stimulation, and gastric acid secretion.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

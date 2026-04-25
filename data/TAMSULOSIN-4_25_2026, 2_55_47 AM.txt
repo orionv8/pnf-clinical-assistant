@@ -1,0 +1,145 @@
+﻿April 25, 2026, 2:55:48 AM - https://pnf.doh.gov.ph
+
+TAMSULOSIN
+
+Drug Classification
+
+ATC CODE
+
+G04CA02
+
+ANATOMICAL
+
+Genito Urinary System and Sex Hormones
+
+THERAPEUTIC
+
+Urologicals
+
+PHARMACOLOGICAL
+
+Drugs Used in Benign Prostatic Hypertrophy (BPH)
+
+CHEMICAL CLASS
+
+Alpha-Adrenoceptor Antagonists
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 200 micrograms capsule (as hydrochloride) (Rx)
+
+200 micrograms orally disintegrating tablet (Rx)
+
+400 micrograms prolonged-release FC tablet (Rx)
+
+Dosage
+
+ORAL › 200 micrograms capsule (as hydrochloride) (Rx)
+
+Benign prostatic hypertrophy, by mouth, ADULT, 400 micrograms once daily. NOTE: Do NOT use as an
+antihypertensive. Dose may be increased after 2-4 weeks to 800 micrograms once daily in patients who fail to
+respond. If therapy is interrupted for several days, restart with 400 micrograms once daily.
+
+Administration
+
+ORAL › 200 micrograms capsule (as hydrochloride) (Rx)
+
+Administer 30 minutes after the same meal each day. Swallow capsules whole. Do NOT crush, chew, or open.
+NOTE: The extent and rate of absorption are reduced by the presence of food.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:55:48 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal and Hepatic Impairment:
+For mild-to-moderate impairment, use with caution.
+For severe impairment, refer patient to a specialist.
+
+Indications
+
+Treatment of sign and symptoms of BPH; relief of symptoms of obstruction in BPH
+
+Contraindications
+
+History of micturition, syncope, and postural hypotension
+
+Precautions
+
+Hypotension;
+Volume depletion;
+Renal impairment;
+Hepatic impairment;
+Patients who are receiving an antihypertensive treatment may require dose reduction and supervision;
+Monitor for an improved urine flow and for “first dose” orthostatic hypotension, headache, or GI disturbances, e.g.,
+nausea, vomiting, at the beginning of therapy and on a regular basis;
+Elderly and patients undergoing cataract surgery (risk of intraoperative floppy iris syndrome)
+
+Adverse Drug Reactions
+
+Common: Abnormal ejaculation, chest pain, dizziness, drowsiness, fatigue, headache, insomnia, nasal congestion,
+rhinitis, urinary urgency, weakness
+Less Common: Blurred vision, dryness of mouth, edema, first-dose hypotension, orthostatic hypotension, increased
+sweating, nausea, palpitations, syncope, tachycardia, urinary incontinence, vomiting
+Rare: Angioedema, depression, dyspnea, hypersensitivity reactions, itch, mood changes, paresthesia, rash, urticaria,
+vertigo
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:55:48 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Alpha-adrenoceptor Antagonists:
+Anti-hypertensives, Aprepitant, Calcium Channel Blockers (hypotensive effect), (hypotensive effect), Cimetidine,
+Dasatinib, Fosaprepitant, Ivacaftor, Luliconazole, Netupitant
+
+Enhances therapeutic effect of Alpha-adrenoceptor Antagonists:
+Nitroglycerin (hypotensive effect), Palbociclib, Phosphodiesterase Inhibitors (hypotensive effect), Simeprevir
+
+Increases risk of adverse or toxic effects of Alpha-adrenoceptor Antagonists:
+Beta Blockers (orthostatic hypotension), CYP3A4 Inhibitors, e.g., Ketoconazole, Itraconazole, Ritonavir, Dapoxetine
+(orthostatic hypotension), MAO Inhibitors [except Linezolid, Tedizolid] (orthostatic hypotension)
+
+Reduces therapeutic effect of Alpha-adrenoceptor Antagonists:
+Alpha / Beta Agonists (vasoconstricting effect), Bosentan, CYP3A4 Inducers, Deferasirox, Siltuximab, Toclizumab
+
+Avoid concomitant use with:
+Decreases serum concentration of Alpha-adrenoceptor Antagonists:
+CYP3A4 Inducers, Dabrafenib,
+
+Enhances therapeutic effect of Alpha-adrenoceptor Antagonists:
+Alpha1 Blockers (antihypertensive effect), Phosphodiesterase-5 Inhibitors e.g. Sildenafil (antihypertensive effect),
+Protease Inhibitors, e.g. Indinavir, Telaprevir
+
+Enhances therapeutic effect of the following drugs:
+QTc-prolonging Agents, Highest Risk (QTc-prolonging effect)
+
+Increases risk of adverse or toxic effects of Alpha-adrenoceptor Antagonists:
+Beta Blockers [except Levobunolol, Metipranolol], Stiripentol (orthostatic hypotension), CYP3A4 Inhibitors, Fusidic
+Acid, Mifepristone (orthostatic hypotension),
+
+Increases serum concentration of Alpha-adrenoceptor Antagonists:
+CYP3A4 Inhibitors, Fusidic Acid, Telaprevir
+
+Reduces therapeutic effect of Alpha-adrenoceptor Antagonists:
+CYP3A4 Inducers, Dabrafenib,
+
+Mechanism of Action
+
+An alpha1-selective adrenoceptor antagonist that is used in mediating smooth muscle tone in the prostate to relieve
+symptoms of urinary obstruction caused by BPH.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3
