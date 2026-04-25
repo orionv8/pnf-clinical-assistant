@@ -1,0 +1,124 @@
+﻿April 25, 2026, 1:44:47 AM - https://pnf.doh.gov.ph
+
+LINEZOLID
+
+Drug Classification
+
+ATC CODE
+
+J01XX08
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Nitrofuran Derivatives
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 600 mg tablet/film-coated tablet (Rx)
+
+IV › 2 mg/mL (600 mg/300 mL), solution for infusion (Rx)
+
+Dosage
+
+ORAL › 600 mg tablet/film-coated tablet (Rx)
+
+Methicillin-resistant staphylococcal infections, by IV injection or by mouth, ADULT, 600 mg every 12 hours.
+Complicated skin and soft tissue infections, by IV injection or by mouth, ADULT, 600 mg every 12 hours for 10-14
+days; CHILD <12 years, 10 mg/kg every 8 hours for 10-14 days; CHILD ≥12 years, 600 mg every 12 hours for 10-14 days.
+
+Administration
+
+ORAL › 600 mg tablet/film-coated tablet (Rx)
+
+Oral: Administer with or without food. IV: Administer intravenous infusion over 30-120 minutes. Do not mix or
+infuse with other medications.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:44:47 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal impairment:
+Mild to severe impairment- no dosage adjustment necessary.
+End-stage renal disease on intermittent hemodialysis- no dosage adjustment necessary; administer after
+hemodialysis.
+
+Hepatic impairment:
+Mild to moderate impairment- no dosage adjustment necessary.
+Severe impairment- no dosage adjustments provided in the manufacturer’s labeling.
+
+Indications
+
+Treatment of serious life-threatening gram-positive infections including methicillin-resistant Staphylococcus
+aureus (MRSA) and complicated skin and soft tissue infections (cSSTI).
+
+Contraindications
+
+Concurrent or within 2 weeks of use of MAO inhibitors; Hypersensitivity to linezolid or any component of the
+formulation
+
+Precautions
+
+May cause lactic acidosis, myelosuppression, peripheral and optic neuropathy, serotonin syndrome, and
+superinfection; use in caution in patients with carcinoid syndrome, diabetes mellitus, hypertension,
+hyperthyroidism, pheochromocytoma, and seizure disorder.
+
+Adverse Drug Reactions
+
+Common: Diarrhea.
+
+Less Common: Headache, nausea, vomiting, dizziness, rash, vaginal and oral moniliasis, taste alteration, fungal
+infection, localized and generalized abdominal pain, tongue discoloration, anemia, thrombocytopenia, loose stools,
+eosinophilia, pruritus, and vertigo.
+
+Rare: Lactic acidosis, myelosuppression, peripheral neuropathy, optic nerve disorder, and serotonin syndrome.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:44:47 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Avoid concomitant use with:
+Both drugs increase serotonin levels:
+Fluoxetine, Cocaine, Dextromethorphan, Ergotamine, Escitalopram, Isoniazid, Levodopa, Lithium, Morphine,
+Selegiline, Sertraline, Tramadol
+
+Decreases effects of BCG vaccine
+
+Increases effects of the following:
+Caffeine, Dobutamine, Dopamine, Ephedrine, Epinephrine, Formoterol, Norepinephrine, Phenylephrine, Terbutaline
+
+Increases toxicity of the following:
+Butorphanol, Codeine, Nalbuphine, Oxycodone, Tramadol, Fentanyl
+
+Increases toxicity of Linezolid:
+Carbamazepine
+
+Mechanism of Action
+
+Linezolid inhibits bacterial protein synthesis by binding to bacterial 23S ribosomal RNA of the 50S subunit. This
+prevents the formation of a functional 70S initiation complex that is essential for the bacterial translation process
+Linezolid is bacteriostatic against enterococci and staphylococci and bactericidal against most strains of
+streptococci
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

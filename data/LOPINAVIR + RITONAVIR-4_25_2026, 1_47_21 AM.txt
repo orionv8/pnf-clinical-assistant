@@ -1,0 +1,113 @@
+﻿April 25, 2026, 1:47:22 AM - https://pnf.doh.gov.ph
+
+LOPINAVIR + RITONAVIR
+
+Drug Classification
+
+ATC CODE
+
+J05AR10
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Antivirals for Treatment of HCV Infections
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 200 mg + 50 mg tablet/capsule (Rx)
+
+ORAL › 40 mg + 10 mg oral pellets contained in capsule (Rx)
+
+Dosage
+
+ORAL › 40 mg + 10 mg oral pellets contained in capsule (Rx)
+
+HIV infection, by mouth, ADULT, twice daily dosing lopinavir 400 mg/ ritonavir 100 mg. NOTE: This regimen is
+preferred in pregnant therapy-naïve patients. Once daily dosing for therapy-naïve or experience patients with <3
+lopinavir resistance-associated substitutions: lopinavir 800 mg/ritonavir 200 mg once daily; by mouth, CHILD <15
+kg, 12 mg/kg twice daily; CHILD 15-40 kg, 10 mg/kg twice daily; CHILD >40 kg, lopinavir 400 mg/ritonavir 100 mg
+twice daily.
+
+Administration
+
+ORAL › 40 mg + 10 mg oral pellets contained in capsule (Rx)
+
+May be taken with or without food. Swallow WHOLE; do NOT break, crush or chew. May be taken with didanosine
+when taken without food. Tablets are recommended in patients <15kg.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:47:22 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Use with caution due to possible decreased hepatic, renal and cardiac function.
+Renal Impairment:
+Decrease in clearance is not expected. Do not use once daily dosing in hemodialysis patients.
+Hepatic Impairment:
+Use caution in hepatic impairment. AUC of lopinavir may be increase ~30% in mild-to-moderate impairment.
+
+Indications
+
+First-line treatment for HIV infection in children less than 3 years; second-line treatment for HIV infection in older
+children and adults
+
+Contraindications
+
+Co-administration with medications highly dependent upon CYP3A4 for clearance.
+
+Precautions
+
+May alter cardiac conduction and prolong the QT and/or PR interval, second- and third-degree AV block and torsade
+de pointes have been observed;
+Patients may develop immune reconstitution syndrome resulting in the occurrence of an inflammatory response to
+an indolent or residual opportunistic infection, further evaluation and treatment may be required;
+Increases in total cholesterol and triglycerides have been reported, screening should be done prior to therapy and
+periodically throughout treatment.
+
+Adverse Drug Reactions
+
+Common: Rash, hypercholesterolemia, diarrhea, abnormal taste, vomiting, nausea, abdominal pain
+Less Common: Vasodilation, insomnia, hyperglycemia, hyperuricemia, dyspepsia, flatulence, weight loss, muscular
+weakness,
+Rare: Abdominal distention, Cushing’s syndrome, diabetes mellitus, dry skin, dyskinesia, eczema, esophagitis,
+exfoliative dermatitis, extrapyramidal symptoms, facial paralysis, folliculitis, rhinitis, skin discoloration, somnolence,
+splenomegaly, SJS, weight gain, xerostomia.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:47:22 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Use with caution in patients taking CYP3A4 inhibitors, inducers and substrates.
+
+Avoid concomitant use with:
+Incompatible with Colchicine
+Increases risk of averse or toxic effects of Salmeterol
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

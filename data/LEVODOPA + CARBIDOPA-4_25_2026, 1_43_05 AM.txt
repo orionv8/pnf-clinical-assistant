@@ -1,0 +1,153 @@
+﻿April 25, 2026, 1:43:06 AM - https://pnf.doh.gov.ph
+
+LEVODOPA + CARBIDOPA
+
+Drug Classification
+
+ATC CODE
+
+N04BA02
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Anti-Parkinson Drugs
+
+PHARMACOLOGICAL
+
+Dopaminergic Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 100 mg levodopa + 25 mg carbidopa per tablet (Rx)
+
+ORAL › 250 mg levodopa + 25 mg carbidopa per tablet (Rx)
+
+ORAL › 200 mg levodopa + 50 mg carbidopa extended release tablet (Rx)
+
+Dosage
+
+ORAL › 100 mg levodopa + 25 mg carbidopa per tablet (Rx)
+
+Parkinson’s disease, by mouth, ADULT, Immediate-release, initially 300 mg/75 mg daily in 3 divided doses, may be
+increased by 100 mg/25 mg every other day (maximum, 800 mg/200 mg daily in divided doses); Extended-release,
+initially 400 mg/100 mg daily in 2 divided doses, may be increased by 100 mg/25 mg to 200 mg/50 mg every other
+day (maximum, 2,450 mg/612.5 mg daily in divided doses).
+
+Administration
+
+ORAL › 100 mg levodopa + 25 mg carbidopa per tablet (Rx)
+
+Should be taken on an empty stomach.
+
+Dose Adjustment
+
+No information found
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:43:06 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Management of Parkinson’s disease, including idiopathic parkinsonism, post-encephalitic parkinsonism, and
+symptomatic parkinsonism.
+
+Contraindications
+
+Narrow angle glaucoma; history of melanoma.
+
+Precautions
+
+Abnormal thinking or behavioral changes e.g. aggresive behavior, agitation, confusion, delirium, disorientation,
+delusion, paranoid ideation and psychotic like behavior; hallucinations (typically presents shortly after initiation of
+therapy; may require dose reduction); psychotic disorders (use with extreme caution; at risk of exacerbating
+psychosis; depression with concomitant suicidal tendencies).
+
+Dyskinesias (may require dosage reduction); impulse control disorders.
+
+Leukopenia; melanoma (monitor closely; perform periodic skin examinations).
+
+Neuroleptic malignant syndrome (rapid dose reduction, or abrupt withdrawal; monitor closely for this reaction;
+discontinue immediately if signs and symptoms arise); peripheral neuropathy.
+
+Cardiovascular disease (use with caution); orthostatic hypotension (monitor closely for signs and symptoms of
+postural hypotension, especially during dose escalation).
+
+Somnolence (evaluate for factors that may increase these risks such as concomitant sedating medications, and the
+presence of sleep disorders; monitor for drowsiness or sleepiness).
+
+Endocrine disease (use with caution in patients with endocrine disease and when interpreting plasma or urine
+catecholamine levels; falsely diagnosed pheochromocytoma).
+
+Glaucoma (use with caution; monitor IOP carefully); respiratory disease.
+
+Peptic ulcer disease (use with caution); hepatic and renal impairment.
+
+Elderly (use with caution; may be more sensitive to CNS effects, e.g., hallucinations).
+
+Pregnancy (safety has not been established); lactation (can cause reduced serum prolactin levels, resulting in
+reversible suppression of lactation).
+
+SKILLED TASKS. May impair ability to perform tasks, which require mental alertness, like driving or operating
+machinery.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:43:06 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Abnormal dreams, anorexia, anxiety, arrhythmias, chorea, confusion, dementia, depression, dizziness,
+drowsiness, dry mouth, dyskinesia, dystonia, euphoria, fatigue, insomnia, nausea, palpitations, postural hypotension,
+psychosis, syncope, taste disturbances, vomiting.
+
+Less Common: Ataxia, chest pain, constipation, diarrhea, dysphagia, flatulence, hand tremor, hoarseness,
+hypersalivation, hypertension, malaise, muscle cramps, edema, reddish discoloration of the urine and other body
+fludis, weakness, weight changes.
+
+Rare: Abdominal pain, activation of malignant melanoma, agitation, alopecia, blurred vision.
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Blood Pressure Lowering Agents (hypotensive effect)
+Increases absorption of Levodopa + Carbidopa: TCAs
+Increases bioavailability of Levodopa + Carbidopa: Antacids, Anticholinergics, TCAs e.g., Amytriptylline
+Increases risk of adverse or toxic effects of Levodopa + Carbidopa: Biperiden (choreic movements or dyskinesias),
+Methylphenidate, Papaverine (hypotensive effect), Sapropterin
+Increases risk of adverse or toxic effects of the following drugs: Antihypertensives (orthostatic hypotension)
+Bupropion Duloxetine (hypotensive effect) MAOIs (hypertensive reactions) Selegiline (severe orthostatic
+hypotension)
+Reduces diagnostic effect of Macimorelin
+Reduces therapeutic effect of Levodopa + Carbidopa: Benzodiazepines, Dopamine Receptor Antagonists,
+Fosphenytoin, Isoniazid Methionine [with large doses], Metoclopramide, Multivitamins / Fluoride with ADE
+[pyridoxine when used in the absence of a dopa decarboxylase inhibitor], Multivitamins / Minerals e.g., ADEK, Folate,
+Iron, (Oral), Multivitamins / Minerals with AE, no Iron [pyridoxine when used in the absence of a dopa decarboxylase
+inhibitor], Papaverine, Phenytoin, Pyridoxine, Spiramycin
+Reduces therapeutic effect of Antipsychotics
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Non-selective MAOIs (hypertensive crisis)
+
+Mechanism of Action
+
+Levodopa is an aromatic amino acid and the naturallyoccurring form of dihydroxyphenylalanine. It is the immediate
+precursor to dopamine and can pass through the blood-brain barrier, where it is immediately taken up by
+dopaminergic neurons and converted into dopamine. It is administered with carbidopa, a peripheral decarboxylase
+inhibitor that prevents gut metabolism of levodopa, thereby increasing dopamine in the CNS.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

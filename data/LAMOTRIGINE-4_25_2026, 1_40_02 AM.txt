@@ -1,0 +1,138 @@
+﻿April 25, 2026, 1:40:03 AM - https://pnf.doh.gov.ph
+
+LAMOTRIGINE
+
+Drug Classification
+
+ATC CODE
+
+N03AX09
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Antiepileptics
+
+PHARMACOLOGICAL
+
+Antiepileptics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 50 mg tablet (Rx)
+
+ORAL › 100 mg tablet (Rx)
+
+Dosage
+
+ORAL › 50 mg tablet (Rx)
+
+Seizures, by mouth, ADULT and CHILD >12 years, weeks 1 and 2: initially 25 mg once daily at night; weeks 3 and 4: 50
+mg once daily at night; week 5 onwards: increase by 50 mg daily every 1–2 weeks to a maintenance dose of 225–375
+mg daily in 2 divided doses; CHILD 2–12 years, weeks 1 and 2: 0.3 mg/kg daily in 1 or 2 divided doses, rounded down
+to the nearest whole tablet; weeks 3 and 4: 0.6 mg/kg daily in 2 divided doses, rounded down to the nearest whole
+tablet; weeks 5 onwards: increase dose every 1–2 weeks by 0.6 mg/kg daily, rounded to the nearest whole tablet to
+a maintenance dose of 4.5–7.5 mg/kg daily (maximum daily dose, 300 mg in 2 divided doses). [NOTE: In patients <30
+kg, may need to increase dose by as much as 50% based on clinical response].
+
+Administration
+
+ORAL › 50 mg tablet (Rx)
+
+May be taken with or without food.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:40:03 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Select doses with caution. Start at the low end of the dosing range, reflecting greater frequency of decreased
+hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.
+
+Renal Impairment:
+Reduce maintenance dose in patients with significant impairment.
+
+Hepatic Impairment:
+In moderate and severe impairment without ascites, reduce maintenance doses by 25%.
+In severe impairment with ascites, reduce maintenance dose by 50%.
+
+Indications
+
+Antiepileptic drug of choice for pregnant patients.
+
+Contraindications
+
+No information found
+
+Precautions
+
+WARNING: Serious skin rashes. Can cause serious rashes requiring hospitalization and discontinuation of treatment,
+including SJS. Nearly all cases of life-threatening rashes occurred within 2–8 weeks of treatment initiation.
+
+Aseptic meningitis; blood dyscrasias (e.g., neutropenia, leukopenia, thrombocytopenia, pancytopenia, and anemias);
+CNS depression; seizures; suicidal ideation.
+
+Multiorgan hypersensitivity reactions, i.e., drug reaction with eosinophilia and systemic symptoms [DRESS];
+photosensitivity; hepatic impairment; renal impairment.
+
+Children (at increased risk for developing serious skin rashes during therapy).
+
+Pregnancy (weigh potential benefits to the mother against the risks to the fetus; increased risk of isolated cleft
+palate or cleft lip deformity with first trimester exposure); lactation (monitor infant for possible adverse effects).
+
+SKILLED TASKS. May impair ability to perform tasks, which require mental alertness, like driving or operating
+machinery.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:40:03 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common or Less Common: Aggression, ataxia, arthralgia, agitation, blurred vision, back pain, diarrhea, dizziness,
+drowsiness, diplopia, dry mouthm, headache, nausea, vomiting, insomnia, nystagmus.
+
+Rare: conjunctivitis
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of the following drugs: CNS Depressants (central effects) Pramipexole, Ropinirole,
+Rotigotine (sedative effect)
+Increases metabolism of Lamotrigine: Carbamazepine, Rifampin
+Increases risk of adverse or toxic effects of Lamotrigine: Rufinamide (sleepiness and dizziness) Valproate (rash)
+
+Increases risk of adverse or toxic effects of the following drugs: Carbamazepine, Desmopressin SSRIs (psychomotor
+impairment)
+
+Avoid concomitant use with:
+Decreases serum concentration of Lamotrigine: Estrogen Derivatives, Estrogen-containing Products, Mefloquine,
+UGT Inducers, UGT Substrates
+Decreases serum concentration of Progestins (Contraceptive)
+Enhances therapeutic effect of Olanzapine (sedative effect)
+Increases serum concentration of Lamotrigine: UGT Inhibitors
+Increases serum concentration of the following drugs: Organic Cation Transporter 2 Substrates, Procainamide
+Reduces therapeutic effect of Lamotrigine: Mefloquine
+
+Mechanism of Action
+
+Lamotrigine is a synthetic phenyltriazine anticonvulsant and mood stabilizer used in seizures and bipolar depression.
+It blocks the open channel conformation of voltagesensitive sodium channels and decreases the release of
+glutamate and aspartate.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

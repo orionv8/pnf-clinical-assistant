@@ -1,0 +1,108 @@
+﻿April 25, 2026, 1:43:23 AM - https://pnf.doh.gov.ph
+
+LEVOFLOXACIN
+
+Drug Classification
+
+ATC CODE
+
+J01MA12
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Quinolone
+
+CHEMICAL CLASS
+
+Third-Generation Fluoroquinolones
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [Access] 250 mg tablet (Rx)
+
+ORAL › [Access] 500 mg tablet (Rx)
+
+ORAL › [Access] 750 mg tablet (Rx)
+
+IV INFUSION › [Access] 5 mg/mL solution for IV infusion, 100 mL vial (Rx)
+
+IV INFUSION › [Access] 5 mg/mL solution for IV infusion, 150 mL vial (Rx)
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:43:23 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › [Access] 250 mg tablet (Rx)
+
+Note: Sequential therapy (IV to oral) may be instituted based on prescriber's discretion. Sepsis, intra-abdominal
+source, by IV infusion, ADULT, 750 mg every 24 hours with metronidazole. Febrile neutropenia, low risk, by mouth,
+ADULT, 750 mg with amoxicillin-clavulanic acid until patient is afebrile and absolute neutrophil count >500cells/μL.
+Antibacterial prophylaxis, by mouth, by IV infusion, ADULT, 500-750 mg. Osteomyelitis, hematogenous, vertebral,
+MRSA likely, by IV infusion, ADULT, 750 mg every 24 hours with vancomycin; MRSA unlikely, by IV infusion, ADULT,
+750 mg every 24 hours with oxacillin. Osteomyelitis, foot bone, by mouth, ADULT, 750 mg every 24 hours. Bacterial
+purulent pericarditis, S. aureus, Group A Streptococcus, Enterobacteriaceae, S. pneumoniae, by IV infusion,
+ADULT, 750 mg every 24 hours with vancomycin. Acute epiglottitis, by IV infusion, ADULT, 750 mg every 24 hours
+with clindamycin. Acute sinusitis, clinical failure after 3 days, by mouth, ADULT, 500 mg for 5 days; by IV infusion,
+ADULT, 750 mg for 7-10 days. Acute otitis media (AOM), with anaphylaxis, by mouth, ADULT, 750 mg every 24 hours
+for 5 days. Acute otitis media, clinical failure after 3 days, severe penicillin allergy, by mouth, ADULT, 750 mg twice
+daily for 5 days. Acute mastoiditis, by IV infusion, ADULT, 750 mg daily. Acute bacterial exacerbation of chronic
+bronchitis (ABECB), severe, by mouth, ADULT, 500 mg every 24 hours for 5-10 days. Acute bacterial exacerbation
+(bronchiectasis), by mouth, ADULT, 500 mg every 24 hours for 7-10 days. Community-acquired pneumonia,
+moderate risk, by mouth, ADULT, 750 mg with ampicillin-sulbactam/ cefuroxime sodium/ ceftriaxone for 7-28 days;
+High risk, no risk for P. aeruginosa, by IV infusion, ADULT, 750 mg with ceftriaxone or ertapenem; High risk, risk for
+P. aeruginosa, by IV infusion, ADULT, 750 mg with gentamicin/amikacin and azithromycin and piperacillin-
+tazobactam/ cefepime/ meropenem. Hospital-acquired pneumonia, high risk of mortality and with risk factor for
+MDR, by IV infusion, ADULT, 750 mg with vancomycin/linezolid and piperacillin-tazobactam/ cefepime/ meropenem
+for 7 days or longer. Ventilator-associated pneumonia, with risk factors for MRD VAP and with structural lung
+disease, by IV infusion, ADULT, 750 mg with vancomycin/linezolid and piperacillin-tazobactam/ cefepime/
+meropenem/ aztreonam for 7 days or longer. Pathogen-specific treatment, P. aeruginosa, by IV infusion, ADULT,
+750 mg with amikacin OR gentamicin; Klebsiella pneumoniae, by IV infusion, ADULT, 750 mg every 24 hours.
+
+Administration
+
+ORAL › [Access] 250 mg tablet (Rx)
+
+For oral: Tablets may be administered without regard to meals. Oral solution should be administered at least 1 hour
+before or 2 hours after meals. Maintain adequate hydration of patient to prevent crystalluria. Administer at least 2
+hours before or 2 hours after antacids containing magnesium or aluminum, sucralfate, metal cations (e.g. iron),
+multivitamin preparations with zinc, or didanosine chewable/buffered tablets or the pediatric powder for solution.
+For IV: Infuse 250 to 500 mg IV solution over 60 minutes; infuse 750 mg IV solution over 90 minutes. Too rapid of
+infusion can lead to hypotension. Avoid administration through an intravenous line with a solution containing
+multivalent cations (eg, magnesium, calcium). Maintain adequate hydration of patient to prevent crystalluria
+
+Mechanism of Action
+
+Quinolones are broad-spectrum antibacterial agents. They act by blocking bacterial DNA synthesis by inhibiting
+bacterial topoisomerase II and topoisomerase IV.
+Inhibition of topoisomerase II prevents the relaxation of positively supercoiled DNA while inhibition of
+topoisomerase IV interferes with separation of replicated chromosomal DNA.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:43:23 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+REMARKS
+
+WHO anti-biotic category: WATCH
+
+Page 3 of 3

@@ -1,0 +1,215 @@
+﻿April 25, 2026, 1:43:36 AM - https://pnf.doh.gov.ph
+
+LEVOFLOXACIN (DRUGS FOR MULTIDRUG RESISTANT
+TUBERCULOSIS (MDRTB))
+
+Drug Classification
+
+ATC CODE
+
+J01MA12
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antimycobacterials
+
+PHARMACOLOGICAL
+
+Drugs for Treatment of Tuberculosis
+
+CHEMICAL CLASS
+
+Drugs for Multidrug Resistant Tuberculosis (MDRTB)
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 250 mg tablet (Rx)
+
+ORAL › 500 mg tablet (Rx)
+
+ORAL › 750 mg tablet (Rx)
+
+IV INFUSION › 5 mg/mL solution for IV infusion, 100 mL vial (Rx)
+
+IV INFUSION › 5 mg/mL solution for IV infusion, 150 mL vial (Rx)
+
+Dosage
+
+ORAL › 250 mg tablet (Rx)
+
+Tuberculosis, by mouth, ADULT, 500-1000 mg daily; CHILD, 15-25 mg/kg daily (maximum dose of 1000 mg). NOTE:
+Levofloxacin should be taken during the intensive (6 month) and continuation (12-18 months) phases of treatment.
+
+Page 1 of 5
+
+
+
+April 25, 2026, 1:43:36 AM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 250 mg tablet (Rx)
+
+For oral: Tablets may be administered without regard to meals. Oral solution should be administered at least 1 hour
+before or 2 hours after meals. Maintain adequate hydration of patient to prevent crystalluria. Administer at least 2
+hours before or 2 hours after antacids containing magnesium or aluminum, sucralfate, metal cations (e.g. iron),
+multivitamin preparations with zinc, or didanosine chewable/buffered tablets or the pediatric powder for solution.
+For IV: Infuse 250 to 500 mg IV solution over 60 minutes; infuse 750 mg IV solution over 90 minutes. Too rapid of
+infusion can lead to hypotension. Avoid administration through an intravenous line with a solution containing
+multivalent cations (eg, magnesium, calcium). Maintain adequate hydration of patient to prevent crystalluria
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Renal Impairment:
+Normal renal function dosing of 250 mg daily:
+CrCl 20 to 49 mL/minute: No dosage adjustment required.
+CrCl 10 to 19 mL/minute: Administer 250 mg every 48 hours (except in uncomplicated UTI, where no dosage
+adjustment is required).
+Normal renal function dosing of 500 mg daily:
+CrCl 20 to 49 mL/minute: Administer 500 mg initial dose, followed by 250 mg every 24 hours.
+CrCl 10 to 19 mL/minute: Administer 500 mg initial dose, followed by 250 mg every 48 hours.
+Hemodialysis/chronic ambulatory peritoneal dialysis (CAPD): Administer 500 mg initial dose, followed by 250 mg every
+48 hours; supplemental doses are not required following either hemodialysis or CAPD
+Normal renal function dosing of 750 mg daily:
+CrCl 20 to 49 mL/minute: Administer 750 mg every 48 hours.
+CrCl 10 to 19 mL/minute: Administer 750 mg initial dose, followed by 500 mg every 48 hours.
+Hemodialysis/chronic ambulatory peritoneal dialysis (CAPD): Administer 750 mg initial dose, followed by 500 mg every
+48 hours; supplemental doses are not required following either hemodialysis or CAPD.
+
+Normal renal function dosing of 750 or 1,000 mg daily (treatment of tuberculosis only) (CDC 2003): CrCl <30
+mL/minute: Administer 750 or 1,000 mg 3 times per week (in hemodialysis patients administer after dialysis on
+dialysis days).
+
+Continuous renal replacement therapy (CRRT): Drug clearance is highly dependent on the method of renal
+replacement, filter type, and flow rate. Appropriate dosing requires close monitoring of pharmacologic response,
+signs of adverse reactions due to drug accumulation, as well as drug concentrations in relation to target trough (if
+appropriate). The following are general recommendations only (based on dialysate flow/ultrafiltration rates of 1 to 2
+L/hour and minimal residual renal function) and should not supersede clinical judgment:
+CVVH: Loading dose of 500 to 750 mg followed by 250 mg every 24 hours.
+CVVHD: Loading dose of 500 to 750 mg followed by 250 to 500 mg every 24 hours.
+CVVHDF: Loading dose of 500 to 750 mg followed by 250 to 750 mg every 24 hours.
+
+Page 2 of 5
+
+
+
+April 25, 2026, 1:43:36 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Used for drug-resistant tuberculosis or intolerance to first-line agents in combination with other agents.
+
+Contraindications
+
+Hypersensitivity to levofloxacin, any component of the formulation, or other quinolones.
+
+Precautions
+
+WARNING: Fluoroquinolones are associated with disabling and potentially irreversible serious adverse reactions
+that may occur together, including tendinitis and tendon rupture, peripheral neuropathy, and CNS effects.
+Discontinue levofloxacin immediately and avoid use of fluoroquinolones in patients who experience any of these
+serious adverse reactions. Patients of any age or without preexisting risk factors have experienced these reactions;
+may occur within hours to weeks after initiation.
+
+QTc prolongation (avoid use in patients with a history of QTc prolongation, uncorrected hypokalemia,
+hypomagnesemia, or concurrent administration of other medications known to prolong the QT interval e.g, Class Ia
+and Class III antiarrhythmics, cisapride, erythromycin, antipsychotics, and tricyclic antidepressants;
+Hypoglycemia/hyperglycemia (Patients should be monitored closely for signs/symptoms of disordered glucose
+regulation particularly severe hypoglycemia);
+Severe hepatotoxicity (including acute hepatitis and fatalities) has been reported. (Discontinue therapy immediately
+if signs and symptoms of hepatitis occur);
+Severe hypersensitivity reactions, including anaphylaxis (Prompt discontinuation of drug should occur if skin rash or
+other symptoms arise;
+Photosensitivity (Discontinue use if photosensitivity occurs);
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis.
+
+Page 3 of 5
+
+
+
+April 25, 2026, 1:43:36 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Less Common: Chest pain, edema, headache, insomnia, dizziness, skin rash, pruritus, nausea, diarrhea, constipation,
+abdominal pain, dyspepsia, vomiting, vaginitis, candidiasis, injection site reaction, dyspnea
+
+Rare: abnormal gait, acute generalized exanthematous pustolosis, acute renal failure, ageusia, agitation,
+agranulocytosis, altered sense of smell, anaphylactoid reaction, aplastic and hemolytic anemia, anorexia, anosmia,
+anxiety, arthralgia, blurred vision, bronchospasm, cardiac arrest, cardiac arrhythmia (including ventricular
+tachycardia/ fibrillation and torsades de pointes), Clostridium difficile-associated diarrhea, confusion, convulsions,
+crystalluria, decreased visual acuity, depression, dermatological disease, drowsiness, dysgeusia, epistaxis, erythema
+multiforme, esophagitis, exacerbation of myasthenia gravis, fever, gastritis (including gastroenteritis), glossitis,
+granulocytopenia, hallucination, hepatic failure (some fatal), hepatic insufficiency, hepatitis, hepatotoxicity
+(idiosyncratic), hyperglycemia, hyperkalemia, hyperkinesia, hypersensitivity pneumonitis, hypersensitivity reaction
+(including anaphylaxis, angioedema, rash, pneumonitis, and serum sickness), hypertension, hypertonia, hypoacusis,
+hypoglycemia, hypotension, increased intracranial pressure, interstitial nephritis, intestinal obstruction, jaundice,
+leukocytosis, leukopenia, leukorrhea, lymphadenopathy, multiorgan failure, muscle injury, muscle spasm, myalgia,
+palpitations, pancreatitis, pancytopenia, paralysis, paranoia, paresthesia, peripheral neuropathy (may be
+irreversible), phlebitis, phototoxicity, prolonged prothrombin time, prolonged QT interval, pseudotumor cerebri,
+psychosis, restlessness, rhabdomyolysis, rupture of tendon, scotoma, seizure, skeletal pain, skin photosensitivity,
+sleep disorder (including abnormal dreams and nightmares), SJS, stomatitis, suicidal ideation, syncope, tachycardia,
+tendonitis, tinnitus, toxic epidermal necrolysis, toxic psychosis, thrombocytopenia (including thrombotic
+thrombocytopenic purpura), tremor, urticaria, uveitis, vasculitis, vasodilatation, vertigo, visual disturbance (including
+diplopia), voice disorder
+
+Page 4 of 5
+
+
+
+April 25, 2026, 1:43:36 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitory closely with:
+Enhances therapeutic effect of the following drugs:
+Blood Glucose Lowering Agents, Delamanid, Fluoxetine, QTc-Prolonging Agents e.g. Tacrolimus, Vitamin K
+Antagonists e.g. Warfarin
+
+Reduces absorption of Levofloxacin:
+Antacids (except: sodium bicarbonate), Calcium Salts (except: calcium chloride), Sevelamer
+
+Reduces therapeutic effect of the following drugs:
+BCG Vaccine, Lactobacillus, Estriol, Sodium Picosulfate, Typhoid Vaccine
+
+Increases risk of adverse or toxic effects Levofloxacin:
+Corticosteroids
+
+Decreases excretion of Levofloxacin:
+Probenecid
+
+Avoid concomitant use with:
+Incrases risk of adverse or toxic effects Levofloxacin:
+Nadifloxacin
+
+Reduces therapeutic effect of the following drugs:
+BCG, Cholera Vaccine
+
+Enhances therapeutic effect of the following drugs:
+Hydroxychloroquine, Macimorelin, Mifepristone, Probucol, Promazine, QTc-Prolonging Agents
+
+Decreases serum concentration of Levofloxacin:
+Strontium Ranelate
+
+Mechanism of Action
+
+Antimycobacterial drugs are used in the treatment of diseases caused by members of the Mycobacterium genus,
+including tuberculosis (TB) and leprosy.
+Combination chemotherapy is essential to kill heterogeneous populations of bacterial cells located in different
+conditions within the host, and to prevent drug resistance.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5
