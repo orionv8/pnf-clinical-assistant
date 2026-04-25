@@ -1,0 +1,172 @@
+﻿April 25, 2026, 12:15:20 AM - https://pnf.doh.gov.ph
+
+EPOETIN ALFA (RECOMBINANT HUMAN ERYTHROPOIETIN)
+
+Drug Classification
+
+ATC CODE
+
+B03XA01
+
+ANATOMICAL
+
+Blood and Blood Forming Organs
+
+THERAPEUTIC
+
+Antianemic Preparations
+
+PHARMACOLOGICAL
+
+Other Antianemic Preparations
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › SC › 2,000 IU/0.5 mL, pre-filled syringe (Rx)
+
+IV › SC › 4,000 IU/0.4 mL, pre-filled syringe (Rx)
+
+IV › SC › 4,000 IU/mL, 1 mL vial (Rx)
+
+IV › SC › 10,000 IU/mL, pre-filled syringe (Rx)
+
+IV › SC › 4000 IU/mL Solution for injection in 1 mL Pre-filled syringe (Rx)
+
+Page 1 of 4
+
+
+
+April 25, 2026, 12:15:20 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+IV / SC › 2,000 IU/0.5 mL, pre-filled syringe (Rx)
+
+NOTE: Initiate treatment when hemoglobin is <10 g/dL. Reduce dose or interrupt treatment if hemoglobin
+approaches or exceeds 11 g/dL. INTRAVENOUS AND SUBCUTANEOUS Anemia associated with CKD patients on
+dialysis: by IV or SC injection, ADULT, initially 50–100 units/kg 3 times a week; CHILD 1 month–16 years, initially 50
+units/kg 3 times a week; if hemoglobin does not increase by >1 g/dL after 4 weeks, increase dose by 25%; if
+hemoglobin increases >1 g/dL in any 2-week period, reduce dose by ≥25%. Anemia associated with CKD patients
+not on dialysis: by IV or SC injection, ADULT, initially 50–100 units/kg 3 times a week (use only if rate of hemoglobin
+decline would likely result in RBC transfusion and desire is to reduce risk of alloimmunization and/or other RBC
+transfusion-related risks); reduce dose or interrupt treatment if hemoglobin exceeds 10 g/dL; if hemoglobin does
+not increase by >1 g/dL after 4 weeks, increase dose by 25%; if hemoglobin increases >1 g/dL in any 2-week period,
+reduce dose by ≥25%. Anemia due to chemotherapy in cancer patients (only if anticipated duration of
+myelosuppressive chemotherapy is at least 2 additional months): by SC injection, ADULT, initially 150 units/kg 3
+times a week or 40,000 units once weekly until completion of chemotherapy; titrate dose to use the minimum
+effective dose that will maintain a hemoglobin level sufficient to avoid RBC transfusions; discontinue
+erythropoietin following completion of chemotherapy; ADOLESCENT and CHILD ≥5 years, initially 600 units/kg
+once weekly until completion of chemotherapy; titrate dosage to use the minimum effective dose that will
+maintain hemoglobin level sufficient to avoid RBC transfusions; discontinue erythropoietin following completion
+of chemotherapy. Anemia due to Zidovudine in HIV-¬infected patients (serum erythropoietin levels ≤500
+milliunits/mL and zidovudine doses ≤4200 mg/week): by IV or SC injection, ADULT, initially 100 units/kg 3 times a
+week; if hemoglobin does not increase after 8 weeks, increase dose by 50–100 units/kg at 4– to 8-week intervals
+until hemoglobin reaches a level sufficient to avoid RBC transfusion (maximum dose, 300 units/kg); withhold dose
+if hemoglobin exceeds 12 g/dL, may resume treatment with a 25% dose reduction once hemoglobin <11 g/dL;
+discontinue if hemoglobin increase is not achieved with 300 units/kg for 8 weeks; titrate dose to use the minimum
+effective dose that will maintain a hemoglobin level sufficient to avoid RBC transfusions; hemoglobin levels
+should not exceed 12 g/dL); CHILD 8 months to 17 years, 50–400 units/kg 2–3 times a week; titrate dosage to use
+the minimum effective dose that will maintain a hemoglobin level sufficient to avoid RBC transfusions;
+hemoglobin levels should not exceed 12 g/dL). Surgery patients (perioperative hemoglobin should be >10 g/dL and
+≤13 g/dL): by SC injection, ADULT, initially 300 units/kg daily for 15 days (10 days before surgery, the day of surgery,
+and 4 days after surgery); or 600 units/kg once weekly for 4 doses (21¬, 14¬, and 7 days before surgery, and on the
+day of surgery).
+
+Administration
+
+IV / SC › 2,000 IU/0.5 mL, pre-filled syringe (Rx)
+
+For IV or SC administration. Do NOT shake. For patients with CKD on hemodialysis, IV route is preferred. May be
+administered into the venous line at the end of the dialysis procedure. For other patient populations, SC route is
+preferred. Usually administered undiluted, although may use a 1:1 dilution with bacteriostatic NS (contains benzyl
+alcohol).
+
+Page 2 of 4
+
+
+
+April 25, 2026, 12:15:20 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+For CKD patients, use the minimum effective dose that will maintain a hemoglobin level sufficient to avoid RBC
+transfusions and evaluate patient for other causes of anemia.
+Dose reduction is recommended. Do NOT increase dose more frequently than every 4 weeks. Dose decreases may
+occur more frequently. Avoid frequent dosage adjustments. Discontinue therapy if responsiveness does not
+improve.
+Adjustments in dialysis parameters may be needed.
+
+Oncology:
+Use lowest dose needed to avoid RBC transfusions. Use ESAs only for treatment of anemia from concomitant
+myelosuppressive chemotherapy.
+
+Indications
+
+Treatment of anemia due to concurrent myelosuppressive chemotherapy, chronic kidney disease (CKD), or
+associated with HIV (zidovudine) therapy; reduction of allogeneic RBC transfusion for elective, noncardiac,
+nonvascular surgery.
+
+NOTE: NOT indicated for use in cancer patients receiving hormonal therapy, therapeutic biologic products, or
+radiation therapy unless also receiving concurrent myelosuppressive chemotherapy.
+
+Contraindications
+
+Serious allergic reactions to epoetin alfa or any component of the formulation; uncontrolled hypertension; pure red
+cell aplasia (PRCA) that begins after treatment with epoetin alfa or other epoetin protein drugs; neonates, infants,
+pregnant women, and nursing women (multi-dose vials).
+
+Precautions
+
+WARNING: Erythropoiesis-¬stimulating Agents (ESAs) increase the risk of death, myocardial infarction (MI), stroke,
+venous thromboembolism, thrombosis of vascular access.
+
+Cardiovascular events; hypertension (use with caution); Perisurgery patients; Pure red cell aplasia or PRCA
+(discontinue treatment in patients with PRCA secondary to neutralizing antibodies to erythropoietin; do not switch
+to another ESA in patients who develop antibody-mediated anemia); Severe anemia or acute blood loss;
+Hypersensitivity; Chronic kidney disease; Seizures; Elderly (decreased endogenous erythropoietin in elderly with
+normocytic or iron deficiency anemias or those with a serum hemoglobin concentration <12 g/dL); Pregnancy (does
+not cross human placenta; polyhydramnios and intrauterine growth retardation have been reported; hypospadias
+and pectus excavatum have been reported with first trimester exposure; menstruation may resume following
+treatment with recombinant erythropoietin in amenorrheic premenopausal women; if needed, only use single dose
+preparations); Lactation (use with caution).
+
+Page 3 of 4
+
+
+
+April 25, 2026, 12:15:20 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Hypertension, fever, headache, pruritus, rash, nausea, vomiting, injection site reactions, arthralgia, cough,
+deep vein thrombosis, edema, thrombosis, chills, depression, dizziness, insomnia, dysphagia, urticaria,
+hyperglycemia, hypokalemia, stomatitis, weight loss, leukopenia, clotted vascular access, muscle spasm, myalgia,
+pulmonary embolism, bone pain, respiratory congestion, upper respiratory infection.
+Less Common: Anaphylactic reaction, angioedema, bronchospasm, erythema, hypersensitivity reactions,
+hypertensive encephalopathy, MI, microvascular thrombosis, neutralizing antibodies, porphyria, pure red cell aplasia
+(PRCA), renal vein thrombosis, retinal artery thrombosis, seizure, stroke, tachycardia, temporal vein thrombosis,
+thrombophlebitis, transient ischemic attack, tumor progression.
+
+Drug Interactions
+
+Monitor closely with:
+Decreases bleeding time:
+Desmopressin
+
+Increases sensitivity of erythroid progenitors:
+Androgens e.g. testosterone
+
+Mechanism of Action
+
+A glycosylated protein hormone and a hematopoietic growth factor that regulates erythropoiesis by stimulating the
+differentiation and proliferation of erythroid precursors, the release of reticulocytes into the circulation, and the
+synthesis of cellular hemoglobin. It has the same pharmacological actions as endogenous erythropoietin.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

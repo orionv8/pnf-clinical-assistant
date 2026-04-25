@@ -1,0 +1,96 @@
+﻿April 25, 2026, 12:48:27 AM - https://pnf.doh.gov.ph
+
+ENTECAVIR
+
+Drug Classification
+
+ATC CODE
+
+J05AF10
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 500 mcg Tablet/Film-coated tablet (Rx)
+
+ORAL › 1 mg/mL Tablet/Film-coated tablet (Rx)
+
+ORAL › 1 mg/mL Tablet/Film-coated tablet (Rx)
+
+Dosage
+
+Administration
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+Renal Impairment:
+Dosage adjustments depends on creatinine clearance of
+patient.
+Hepatic Impairment:
+Decompensated liver disease, 1 mg once daily.
+
+Page 1 of 2
+
+
+
+April 25, 2026, 12:48:27 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Treatment of chronic hepatitis B infection, with compensated or decompensated liver disease, in adults with
+evidence of active viral replication.
+
+Precautions
+
+WARNING: Lactic acidosis and severe hepatomegaly with steatosis. May cause development of HIV resistance in
+chronic hepatitis B patients with unrecognized or untreated HIV infection.
+
+Use with caution in patients with renal impairment or patients receiving concomitant therapy which may reduce renal
+function, dose adjustment recommended for ClCr <50mL/minute;
+
+Cross-resistance may develop in patients failing previous therapy with lamivudine.
+
+Adverse Drug Reactions
+
+Common: Peripheral edema, pyrexia, ascites
+
+Less Common: Headache, fatigue, dizziness, hyperglycemia, diarrhea, dyspepsia, nausea, hepatic encephalopathy,
+hematuria, glycosuria, upper respiratory tract infection.
+
+Rare: Alopecia, anaphylactoid reaction, hepatomegaly, hypoalbuminemia, insomnia, lactic acidosis, rash, renal failure,
+somnolence, thrombocytopenia, vomiting.
+
+Drug Interactions
+
+Decreases serum concentration of Protease inhibitors e.g.
+Lopinavir
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Reverse
+Transcriptase Inhibitors
+Increases risk of adverse or toxic effects Abacavir:
+Ribavirin (hepatotoxic)
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 2 of 2

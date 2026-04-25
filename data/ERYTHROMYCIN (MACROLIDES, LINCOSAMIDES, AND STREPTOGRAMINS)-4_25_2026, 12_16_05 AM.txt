@@ -1,0 +1,136 @@
+﻿April 25, 2026, 12:16:06 AM - https://pnf.doh.gov.ph
+
+ERYTHROMYCIN (MACROLIDES, LINCOSAMIDES, AND
+STREPTOGRAMINS)
+
+Drug Classification
+
+ATC CODE
+
+J01FA01
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Macrolides, Lincosamides, and Streptogramins
+
+CHEMICAL CLASS
+
+Macrolides
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [Access] 500 mg tablet (as stearate) (Rx)
+
+ORAL › [Access] 200 mg/5 mL granules / powder for suspension (as ethyl succinate), 60 mL (Rx)
+
+ORAL › [Access] 400 mg/5 mL granules / powder for suspension (as ethyl succinate), 50 mL (Rx)
+
+ORAL › [Access] 400 mg/5 mL granules / powder for suspension (as ethyl succinate), 60 mL (Rx)
+
+Dosage
+
+ORAL › [Access] 500 mg tablet (as stearate) (Rx)
+
+Conjunctivitis, Chlamydia trachomatis, by mouth, NEONATE, 12.5 mg/kg every 6 hours for 14 days. Pharyngitis,
+penicillin allergy, by mouth, CHILD, 40 mg/kg in divided doses every 6 hours for 10 days; ADULT, 400 mg every 6-12
+hours for 10 days. Pertussis, by mouth, INFANT <1 month, 40 mg/kg in 4 divided doses for 14 days; ADULT, 500 mg
+four times daily for 14 days. Secondary prevention, acute rheumatic fever, ADULT, 20 mg/kg/day twice a day
+Community-acquired pneumonia, by mouth, CHILD >5 years, 50 mg/kg in divided doses every 6-8 hours for 10-14
+days
+
+Administration
+
+ORAL › [Access] 500 mg tablet (as stearate) (Rx)
+
+Tablets and capsules should be swallowed WHOLE; best taken on an empty stomach 1 hour before, or 2 hours,
+after meals.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 12:16:06 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+For mild-to-moderate renal impairment, dose reduction is warranted; for severe impairment, the patient should be
+referred to a specialist.
+
+Indications
+
+Alternative to penicillin in hypersensitive patients such as in secondary prevention of rheumatic fever and tonsillitis;
+conjunctivitis, pharyngitis, pertussis, chlamydia infections and community-acquired pneumonia.
+
+Contraindications
+
+Porphyria; severe hepatic impairment; QT prolongation and ventricular cardiac arrhythmias
+
+Precautions
+
+Risk of sudden cardiac death from cardiac causes when oral erythromycin used concomitantly with drugs that inhibit
+CYP3A4;
+Caution in ventricular cardiac arrhythmia and QT prolongation;
+Hepatic impairment (may cause idiosyncratic hepatotoxicity), predisposition to QT interval prolongation, including
+electrolyte disturbances and concomitant use of drugs that prolong the QT interval;
+Breastfeeding (small amounts found in milk – not known to be harmful; may cause loose bowel in infants).
+
+Adverse Drug Reactions
+
+Common: Abdominal pain, candida infections, cramps, diarrhea, nausea, vomiting.
+Less Common: Headache, rash, urticaria.
+Rare: Blood dyscrasias, cardiac effects, cholestatic jaundice, C. difficile-associated disease, hypersensitivity
+reactions; anaphylaxis; infantile hypertrophic pyloric stenosis, myasthenia-like syndrome, pancreatitis, psychiatric
+disturbances, ototoxicity, toxic epidermal necrolysis.
+Frequency not defined: Torsades de pointes, ventricular arrhythmias, ventricular tachycardia.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 12:16:06 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+NOTE: Macrolides inhibit P-glycoprotein, which may lead to drug interactions.
+
+Monitor closely with:
+Reduces therapeutic effect of Contraceptives (Oral)
+
+Avoid concomitant use with:
+Increases serum concentration of Erythromycin:
+CYP3A4 inhibitors, Verapamil
+
+Increases serum concentration of HMG-CoA reductase inhibitors e.g., Atorvastatin, Simvastatin
+
+Increases risk of adverse or toxic effects of the following drugs:
+HMG-CoA reductase inhibitors (e.g. Atorvastatin, Simvastatin) (myopathy and rhabdomyolysis) [stop medication
+temporarily], Artemether + Lumefantrine
+
+Decreases metabolism of Hydrocortisone
+
+Mechanism of Action
+
+Macrolides are bacteriostatic antibiotics with a broad spectrum of activity against many gram-positive bacteria.
+The antimicrobial activity of macrolides is exhibited by the inhibition of bacterial protein biosynthesis after binding
+of the macrolide, selectively and reversibly, to the 50S ribosomal subunit.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+REMARKS
+
+WHO anti-biotic category: WATCH
+
+Page 3 of 3

@@ -1,0 +1,259 @@
+﻿April 25, 2026, 12:47:36 AM - https://pnf.doh.gov.ph
+
+EVEROLIMUS
+
+Drug Classification
+
+ATC CODE
+
+L04AA18
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunosuppressants
+
+PHARMACOLOGICAL
+
+Selective Immunosuppressants
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 250 micrograms tablet (Rx)
+
+ORAL › 500 micrograms tablet (Rx)
+
+Dosage
+
+ORAL › 250 micrograms tablet (Rx)
+
+Breast cancer, advanced, hormone receptor-positive, HER2negative, by mouth, in combination with exemestane,
+10 mg once daily, continue until no longer clinically beneficial or until unacceptable toxicity. Advanced pancreatic
+neuroendocrine tumors (PNET), renal angiomyolipoma, or renal cell cancer (RCC), by mouth, 10 mg once daily,
+continue until no longer clinically beneficial or until unacceptable toxicity. Liver transplantation, rejection
+prophylaxis, by mouth, in combination with reduced doses of tacrolimus and corticosteroids, initially 1 mg twice
+daily beginning at least 30 days post-transplant; adjust maintenance dose if needed at a 4 to 5-day interval based
+on serum concentrations, tolerability, and response; goal serum concentration is between 3 and 8 nanograms/mL;
+if trough is <3 nanograms/mL, double total daily dose; if trough >8 nanograms/mL on 2 consecutive measures,
+decrease dose by 0.25 mg twice daily. Renal transplantation, rejection prophylaxis, by mouth, in combination with
+induction of basiliximab, and concurrently with corticosteroids and reduced doses of cyclosporine, initially 0.75
+mg twice daily; adjust maintenance dose if needed at a 4 to 5-day interval based on serum concentrations,
+tolerability, and response; goal serum concentration is between 3 and 8 nanograms/mL; if trough is <3
+nanograms/mL, double total daily dose; if trough >8 nanograms/mL on 2 consecutive measures, decrease dose by
+0.25 mg twice daily. Subependymal giant cell astrocytoma (SEGA), by mouth, ADULT and CHILD =1 year, initially 4.5
+mg/m2 once daily; round to nearest tablet size; if trough <5 nanograms/mL, increase dose by 2.5 mg daily; if
+trough >15 nanograms/mL, reduce dose by 2.5 mg daily; if dose reduction necessary inpatients receiving the
+lowest strength available, administer every other day;
+
+Page 1 of 6
+
+
+
+April 25, 2026, 12:47:36 AM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 250 micrograms tablet (Rx)
+
+May be taken with or without food. Take consistently with regard to food to reduce variability. Swallow whole with a
+glass of water. Do NOT break, chew, or crush. Do NOT administer crushed or broken tablets. Avoid contact with or
+exposure to crushed or broken tablets. NOTE: Limit exposure to sunlight and ultraviolet light by wearing
+protective clothing and using effective sunscreen to minimize the risk for skin cancer. For breast cancer,
+pancreatic neuroendocrine tumors, renal cell cancer, renal angiolipoma, or SEGA, administer at the same time
+each day. For liver transplantation, administer consistently ~12 hours apart, at the same time as tacrolimus. For
+renal transplantation, administer consistently ~12 hours apart, at the same time as cyclosporine.
+
+Page 2 of 6
+
+
+
+April 25, 2026, 12:47:36 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Concomitant CYP3A4 Inducer or Inhibitor and/or Pglycoprotein Inhibitor use:
+For patients receiving concomitant strong CYP3A4 and/or pglycoprotein inducers (e.g., carbamazepine,
+phenobarbital, phenytoin, rifabutin, rifampin, rifapentine), double everolimus dose using increments of =5 mg with
+careful monitoring up to a maximum dailydose of 20 mg. If inducer is discontinued, allow 3–5 days prior to reducing
+the everolimus dose to recommended starting dose.
+For patients receiving concomitant moderate CYP3A4 and/or p-glycoprotein inhibitors (e.g., amprenavir, aprepitant,
+diltiazem, erythromycin, fluconazole, fosamprenavir, verapamil), reduce everolimus dose to 2.5 mg once daily;
+increase from 2.5–5 mg once daily based on patient tolerance; further reductions may be necessary for adverse
+reactions; if dose reduction is required for patients receiving the lowest available strength, consider alternate-day
+dosing. If inhibitor is discontinued, allow 2–3 days prior to reducing the everolimus dose to recommended starting
+dose.
+
+Renal transplantation:
+Adjust dose based on everolimus serum concentrations.
+
+Hepatic Impairment:
+Mild impairment (Child-Pugh class A): Breast cancer, PNET, RCC, renal angiomyolipoma, 7.5 mg once daily; may further
+reduce to 5 mg once daily if not tolerated.
+
+Liver or renal transplantation, reduce initial dose by ~33%; individualize subsequent dosing based on therapeutic
+drug monitoring; target trough concentration is 3–8 nanograms/mL.
+
+SEGA, 75% of usual dose based on calculated BSA, rounded to the nearest strength; target trough concentration is
+5– 15 nanograms/mL; may increase dose within the target range to achieve higher concentrations as tolerated
+
+Moderate impairment (Child-Pugh class B):
+
+Breast cancer, PNET, RCC, renal angiomyolipoma, 5 mg once daily; may further reduce to 2.5 mg once daily if not
+tolerated.
+
+Liver or renal transplantation, reduce initial dose by ~50%; individualize subsequent dosing based on therapeutic
+drug monitoring; target trough concentration is 3–8 nanograms/mL.
+
+SEGA, 50% of usual dose based on calculated BSA, rounded to the nearest strength; target trough concentration is
+5– 15 nanograms/mL; may increase dose within the target range if tolerated.
+
+Severe impairment (Child-Pugh class C):
+Breast cancer, PNET, RCC, renal angiomyolipoma, maximum dose is 2.5 mg once daily.
+
+Liver or renal transplantation, reduce initial dose by ~50%; individualize subsequent dosing based on therapeutic
+drug monitoring; target trough concentration is 3–8 nanograms/mL.
+
+Indications
+
+Prophylaxis of organ rejection in liver transplantation; prophylaxis of organ rejection in renal transplant patients at
+low to moderate immunologic risk
+
+Page 3 of 6
+
+
+
+April 25, 2026, 12:47:36 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to everolimus
+
+Precautions
+
+WARNING: Should only be used by physicians experienced in immunosuppressive therapy and management of
+transplant patients. Adequate laboratory and supportive medical resources must be readily available.
+
+NOT recommended for use in heart transplant; has immunosuppressant properties which may result in infection. Use
+may result in the development of malignancy, including lymphoma and skin cancer. An increased risk of renal arterial
+and venous thrombosis has been reported with use in renal transplantation, which may result in graft loss.
+
+Angioedema
+
+Edema (generalized edema, including peripheral edema and lymphedema, and local fluid accumulation, e.g.,
+pericardial effusion, pleural effusion, or ascites)
+
+Bone marrow suppression; Malignancy
+
+Fertility effects (e.g. menstrual irregularities, secondary amenorrhea, and increases in luteinizing hormone and
+follicle-stimulating hormone in females may occur; azoospermia and oligospermia in males; may cause infertility).
+
+Hepatic artery thrombosis; Hepatic impairment
+
+Hereditary galactose intolerance (may result in diarrhea and malabsorption);
+
+Metabolic effects (e.g. hyperglycemia, hyperlipidemia, and hypertriglyceridemia; increased risk for new-onset
+diabetes)
+
+Infections (sepsis, respiratory failure, hepatic failure, or fatality may occur; polyomavirus infection in transplant
+patients may be serious and/or fatal; reactivation of hepatitis B)
+
+Mucositis or stomatitis
+
+Nephrotoxicity (e.g. elevations in serum creatinine, renal failure, and proteinuria; an increased incidence of rash,
+infection and dose interruptions have been reported in patients with CrCl =60 mL/minute)
+
+Pulmonary toxicity (e.g. noninfectious pneumonitis, interstitial lung disease (ILD), and/or noninfectious fibrosis,
+some fatal)
+
+Wound healing complication (may delay wound healing and increase the occurrence of wound-related complications)
+
+Page 4 of 6
+
+
+
+April 25, 2026, 12:47:36 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Abdominal distention, abdominal pain, abnormal hepatic function tests, acidosis, acneiform eruption, acne
+vulgaris, agitation, alopecia, amenorrhea, anemia, angina pectoris, angioedema, anorexia, anxiety, arthralgia, ascites,
+atelectasis, atrial fibrillation, back pain, bacteremia, behavioral problems, BK virus infection, bladder spasm, blurred
+vision, bronchitis, candidiasis, cardiac failure, cataract, cellulitis, chest discomfort, chest pain, chills, conjunctivitis,
+constipation, cough, cushingoid appearance, cyanocobalamin deficiency, cystitis, decreased appetite, deep vein
+thrombosis, dehydration, depression, diabetes mellitus (new onset), diaphoresis, diarrhea, dizziness, drowsiness,
+dyspepsia, dysgeusia, dysphagia, dysmenorrhea, dyspnea, dysuria, edema, eyelid edema, epigastric distress,
+epistaxis, erectile dysfunction, erythema, fatigue, fever, flatulence, fluid retention, folliculitis, gastroenteritis, GERD,
+gingival hyperplasia, gout, hallucination, headache, hematemesis, hematuria, herpes virus infection, hemiparesis,
+hemorrhage, hemorrhoids, hepatitis (non-infectious), hepatitis C, hirsutism, hydronephrosis, hypercalcemia,
+hypercholesterolemia, hyperparathyroidism, hyperglycemia, hyperkalemia, hypermenorrhea, hypersensitivity,
+hypertension, hypertensive crisis, hypertrichosis, hypertriglyceridemia, hyperuricemia, hypocalcemia, hypoesthesia,
+hypoglycemia, hypokalemia, hypomagnesemia, hyponatremia, hypophosphatemia, hypotension, incisional pain,
+infection, influenza, irregular menses, insomnia, interstitial nephritis, iron deficiency, intestinal obstruction, jaw pain,
+joint swelling, lethargy, leukocytosis, leukopenia, lower respiratory tract infection, lymphadenopathy, limb pain,
+lymphocytopenia, lymphorrhea, malaise, menstrual disease ,migraine, mucositis, muscle spasm, musculoskeletal
+pain, myalgia, myasthenia, nail disease, nasal congestion, nasopharyngitis, nausea, neoplasm, neuralgia,
+neutropenia, night sweats, onychomycosis, oral candidiasis, onychoclasis, oral herpes, oral mucosa ulcer,
+oropharyngeal pain, otitis media,osteomyelitis, osteonecrosis, osteoporosis, ovarian cyst, palmarplantar
+erythrodysesthesia, pain, palpitations, pancytopenia, paresthesia, perinephric abscess, perinephric hematoma,
+peripheral edema, peritoneal effusion, pharyngolaryngeal pain, peritonitis, pleural effusion, pneumonia,
+pneumonitis, pollakiuria, polyuria, postoperative wound complication (incisional hernia, lymphocele, seroma, wound
+dehiscence, wound healing impairment), pyuria, procedural pain, prolonged PTT, proteinuria, pulmonary edema,
+pulmonary embolism, renal artery thrombosis, pruritus, pyelonephritis, renal failure, renal insufficiency, renal tubular
+necrosis, respiratory tract infection, rhinitis, rhinorrhea, scrotal edema, sepsis, sinus congestion, sinusitis, skin
+lesion, spondylitis, stomatitis, streptococcal pharyngitis, syncope, tachycardia, thrombocytopenia, tinea pedis,
+tremor, thrombocythemia, upper respiratory tract infection, urethritis, urinary retention, urinary tract infection,
+urinary urgency, uterine hemorrhage, vaginal hemorrhage, venous thromboembolism, viral infection, vomiting,
+weakness, weight loss, wheezing, wound infection, xeroderma, xerostomia
+
+Less Common: Ageusia, arterial thrombosis, aspergillosis, azoospermia, cardiac arrest, cholecystitis, cholelithiasis,
+complex regional pain syndrome, contact dermatitis, eczema, excoriation, gastritis, infertility (male), hemolytic
+uremic syndrome, hypersensitivity angiitis, pancreatitis, nephrotoxicity, noninfectious pneumonitis, oligospermia,
+pericardial effusion, pharyngitis, pityriasis rosea, Pneumocystis jiroveci, polyoma pneumonia, HBV reactivation,
+progressive multifocal leukoencephalopathy, respiratory distress, seizure, thrombosis of vascular graft (kidney),
+thrombotic thrombocytopenic purpura
+
+Page 5 of 6
+
+
+
+April 25, 2026, 12:47:36 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Everolimus: Trastuzumab (neutropenic effect)
+Increases risk of adverse or toxic effects of Everolimus: Denosumab (serious infections)
+Increases risk of adverse or toxic effects of the following drugs: ACE Inhibitors, e.g., Captopril, Enalapril
+(angioedema)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+Reduces therapeutic effect of the following drugs: Antidiabetic Agents e.g. Gliclazide
+
+Avoid concomitant use with:
+Decreases serum concentration of Everolimus: Dabrafenib, Efavirenz
+Enhances therapeutic effect of Everolimus: Roflumilast (immunosuppressive effect), Tofacitinib
+(immunosuppressive effect)
+Increases risk of adverse or toxic effects of Everolimus: Cyclosporine, Systemic (nephrotoxicity), Dipyrone
+(agranulocytosis, pancytopenia); Pimecrolimus; Tacrolimus (Topical)
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Leflunomide
+(hematologic toxicity), Natalizumab, (concurrent infection), Vaccines (Live) (infection)
+Increases serum concentration of Everolimus: Conivaptan, Cyclosporine (Systemic), Fusidic Acid (Systemic),
+Idelalisib, Mifepristone, P-glycoprotein / ABCB1 Inhibitors
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines
+
+FOOD INTERACTION. Grapefruit Juice may increase the serum concentration of Everolimus.
+
+Mechanism of Action
+
+Macrolide immunosuppressant and a mechanistic target of rapamycin (mTOR) inhibitor which has antiproliferative
+and antiangiogenic properties.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 6 of 6

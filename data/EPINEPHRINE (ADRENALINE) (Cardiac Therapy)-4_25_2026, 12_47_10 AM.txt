@@ -1,0 +1,136 @@
+﻿April 25, 2026, 12:47:11 AM - https://pnf.doh.gov.ph
+
+EPINEPHRINE (ADRENALINE) (Cardiac Therapy)
+
+Drug Classification
+
+ATC CODE
+
+C01CA24
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Cardiac Therapy
+
+PHARMACOLOGICAL
+
+Cardiac Stimulants, Excluding Cardiac Glycosides
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › SC › 1 mg/mL (as hydrochloride), 1 mL ampule (Rx)
+
+IM › 0.3 mg auto-injector (IM-preload), 0.3 mL preloaded injection pen (Rx)
+
+Dosage
+
+IM / IV / SC › 1 mg/mL (as hydrochloride), 1 mL ampule (Rx)
+
+Anaphylaxis: by IM or SC injection of 1:1,000 injection, ADULT and ADOLESCENT, 500 micrograms (0.5 mL); CHILD 6–
+12 years, 250 micrograms (0.25 mL); CHILD 6 months to 6 years, 120 micrograms (0.12 mL); INFANT <6 months, 50
+micrograms (0.05 mL); by SC injection of 1:1,000 injection, CHILD, 10 micrograms/kg (0.01 mL/kg), repeat if
+necessary at intervals of 20 minutes to 4 hours depending on the response of the patient and the severity of the
+condition (maximum single dose, 500 micrograms).
+
+Administration
+
+IM / IV / SC › 1 mg/mL (as hydrochloride), 1 mL ampule (Rx)
+
+Best administered by SC or IM injection into the anterolateral aspect of the middle third of the thigh for
+anaphylaxis or by IV injection for cardiac arrest or emergency situations. Administer by slow IV injection only in
+severely ill patients when there is doubt about the adequacy of circulation and absorption from the IM site. Do NOT
+administer by intracardiac injection. Do NOT mix with alkaline solutions. Discard after 24 hours or if solution is
+discolored or contains precipitate. NOTE: If a central line is used, infusion pump is required. If given through a
+peripheral line, each dose should be followed by a flush of 20 mL of IV fluid to ensure delivery of the drug to the
+central compartment.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 12:47:11 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Management of anaphylactic shock; may be used in cases of serious and fatal anaphylaxis; cardiac arrest
+
+Contraindications
+
+Known hypersensitivity to epinephrine or any of the excipients; pheochromocytoma; use in local anesthesia of
+fingers, toes, ears, nose or genitalia; shock; organic heart disease or cardiac dilatation; closed-angle glaucoma;
+labor
+
+NOTE:
+There are no absolute contraindications to the use of epinephrine in life-threatening allergic reactions
+
+Precautions
+
+Cerebrovascular disease (increased risk of peripheral ischemia or stroke); hypovolemia (correct before using
+epinephrine); acidosis, hypercapnia, or hypoxia (may reduce effectiveness and increase incidence of adverse
+effects); heart diseases, e.g., ischemic heart disease, heart failure, other arrhythmias (increased risk of arrhythmias,
+angina, and myocardial ischemia); aortic stenosis and hypertrophic cardiomyopathy (may increase outflow
+obstruction); arrhythmias; pulmonary hypertension (may worsen due to pulmonary vasoconstriction).
+
+Hyperthyroidism or diabetes mellitus (adverse reactions are more likely to occur) Elderly;
+Pregnancy (use with caution during second stage of labor).
+
+Adverse Drug Reactions
+
+Common: Anxiety, dizziness, dyspnea, fear, headache, hyperglycemia, nausea, pallor, palpitations, restlessness,
+sweating, tachycardia, tremor, vomiting, weakness
+
+Less Common: Angina, cerebral hemorrhage, excessive increase in blood pressure, hypertension, peripheral
+ischemia and necrosis (at infusion site), pulmonary edema, ventricular arrhythmias
+
+Rare: Allergic reactions
+
+Page 2 of 3
+
+
+
+April 25, 2026, 12:47:11 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+NOTE: Alpha-adrenergic blockers antagonize vasoconstricting and hypertensive effects of epinephrine.
+
+Monitor closely with:
+Increases therapeutic effect of Epinephrine:
+Tricyclic Antidepressants (blocks catecholamine uptake)
+
+Increases risk of adverse or toxic effects of Epinephrine:
+Drugs causing Potassium loss, [e.g., Corticosteroids, Potassium-depleting Diuretics, Aminophylline, Theophylline
+(hypokalemia)], Oxytocin (hypertension), Tricyclic Antidepressants (arrhythmia)
+
+Reverses therapeutic effect of Epinephrine: Ergot Alkaloids (pressor effect)
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Epinephrine:
+Beta Blockers (hypertension followed by bradycardia)
+
+Reduces therapeutic effect of Epinephrine:
+Alpha Blockers (vasoconstricting and hypertensive effects), Beta Blockers (prevents receptor activation)
+
+Reduces therapeutic effect of the following drugs:
+Hypoglycemic Agents (loss of blood sugar control)
+
+Mechanism of Action
+
+A direct-acting, mixed alpha- and beta-adrenoceptor agonist; a sympathomimetic catecholamine, which is a potent
+cardiac stimulant, peripheral vasoconstrictor and bronchodilator.
+
+NOTE:
+Vasodilator at low dose (beta2-receptors).
+Vasoconstrictor at high dose (alpha-receptors).
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

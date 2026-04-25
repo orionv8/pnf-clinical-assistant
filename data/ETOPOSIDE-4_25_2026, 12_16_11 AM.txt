@@ -1,0 +1,189 @@
+﻿April 25, 2026, 12:16:11 AM - https://pnf.doh.gov.ph
+
+ETOPOSIDE
+
+Drug Classification
+
+ATC CODE
+
+L01CB01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Plant Alkaloids and Other Natural Products
+
+CHEMICAL CLASS
+
+Podophyllotoxin Derivatives
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 20 mg/mL powder, 10 mL vial (Rx)
+
+IV › 20 mg/mL, 5 mL ampule / vial (Rx)
+
+IV › 100 mg Powder Vial (IV) (Rx)
+
+Dosage
+
+IV › 20 mg/mL powder, 10 mL vial (Rx)
+
+Non-Hodgkin’s lymphoma (in combination with other agents), NSCLC (alone or in combination), SCLC (first-line in
+combination; second-line alone or in combination), testicular cancer (in combination), by IV infusion, ADULT, 50–
+100 mg/m2 daily for 5 days, administer doses >200 mg in 2 divided doses. Hemophagocytic Lymphohistiocytosis,
+Acute myeloid leukemia, CHILD under 3 yrs, 3.3 mg/kg/day IV infusion for 4 days; CHILD above 3 yrs, 100 mg/m2/d IV
+infusion for 4 days.
+
+Administration
+
+IV › 20 mg/mL powder, 10 mL vial (Rx)
+
+Administration: For IV infusion, administer diluted over 30– 60 minutes to prevent occurrence of hypotension. Do
+NOT administer by IV push, by IM or SC. Avoid extravasation. NOTE: Extravasation may cause significant irritation.
+Tissue irritation and inflammation have occurred following extravasation. Concentrations >0.4 mg/mL may form
+precipitate within a few minutes. For large doses, where dilution to =0.4 mg/mL is not feasible, consider slow
+infusion of the undiluted drug through a running normal saline, dextrose or saline and dextrose infusion, or use
+etoposide phosphate. An inline filter may be used to address the risk for precipitation. Etoposide solutions of 0.1–
+0.4 mg/mL may be filtered through a 0.22 micron filter.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 12:16:11 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+For CrCl >50 mL/minute, dose adjustment is not required.
+For CrCl 15–50 mL/minute, administer 75% of dose.
+For CrCl <15 mL/minute, consider further dose reductions. No data available.
+Infants, children, and adolescents:
+GFR >50 ml/min/1.73 m2: no dosage adjustment
+GFR 10-50 ml/min/ 1.73 m2: administer 75% of dose
+GFR < 10 ml/min/1.73 m2: administer 50% of dose
+
+Hepatic Impairment:
+For mild-to-moderate impairment, no recommended dose adjustment.
+For severe impairment, use is contraindicated.
+Infants, children, and adolescents:
+Bilirubin 1.5-3 mg/dL or AST > 3 times ULN: administer 50% of dose
+Bilirubin > 3mg/dL: administer 25% of dose or consider avoiding dose
+
+Obesity:
+Use actual body weight (full weight) for calculation of BSAbased
+dosing.
+Use adjusted body weight 25% (ABW25) for weight-based (mg/kg) dosing for hematopoietic stem cell transplant
+conditioning regimens in adults.
+
+ABW25:
+Adjusted wt (kg) = Ideal body weight (kg) + 0.25 [actual wt (kg) –ideal body weight (kg)]
+If dose reduction is done due to toxicity, consider resumption of full weight-based dosing with subsequent cycles,
+especially if cause of toxicity is resolved.
+
+Toxicity:
+If hypersensitivity reaction occurs, interrupt infusion.
+For severe non-hematologic adverse reactions, reduce dose or discontinue treatment.
+If WBC 2,000–3,000/mm3 or platelets 75,000– 100,000/mm3, reduce dose by 50%.
+If ANC <500/mm3 or platelets <50,000/mm3, withhold treatment until recovery.
+
+Indications
+
+Treatment of small cell lung cancer (SCLC; firstand second-line) ; treatment of non-small cell lung cancer (NSCLC);
+treatment of non-Hodgkin’s lymphomas (first-line) ; treatment of testicular cancer (first-line); Hemophagocytic
+Lymphohistiocytosis (HLH); Childhood solid malignancies (e.g. Retinoblastoma, Neuroblastoma)
+
+Page 2 of 4
+
+
+
+April 25, 2026, 12:16:11 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to etoposide or any component of the formulation; severe leukopenia or thrombocytopenia; severe
+hepaticimpairment; severe renal impairment
+
+Precautions
+
+WARNING: Should be administered under the supervision of a qualified healthcare provider, experienced in the use
+of cancer chemotherapeutic agents. Severe myelosuppression, with resulting infection or bleeding, may occur.
+
+WARNING: Hazardous agent. Use appropriate precautions for handling and disposal.
+
+Hypersensitivity reaction (anaphylactic-like reactions manifested by chills, fever, tachycardia, bronchospasm,
+dyspnea, and hypotension may occur; facial or tongue swelling, coughing, chest tightness, cyanosis, laryngospasm,
+diaphoresis, hypertension, back pain, loss of consciousness, and flushing); hypotension (may occur due to rapid
+administration).
+
+Secondary malignancies (secondary acute leukemias); low serum albumin (at an increased risk for toxicities).
+
+Elderly (may be more likely to develop severe myelosuppression and/or GI effects); children (at an increased risk of
+anaphylactic-like reactions when used at concentrations higher than recommended).
+
+Adverse Drug Reactions
+
+Common: Abdominal pain, alopecia, anaphylactic-like reaction, anorexia, diarrhea, hepatic toxicity, anemia,
+hypotension (infusion-related), nausea, vomiting, leukopenia (nadir, 7–14 days; recovery, by day 20), peripheral
+neuropathy, stomatitis, thrombocytopenia (nadir, 9–16 days; recovery, by day 20)
+
+Less Common: Amenorrhea, back pain, blindness (transient; cortical), constipation, cyanosis, cough, diaphoresis,
+dysphagia, erythema, esophagitis, extravasation (induration; necrosis), facial swelling, fatigue, fever,
+hyperpigmentation, hypersensitivity, hypersensitivity-associated apnea, interstitial pneumonitis, laryngospasm,
+maculopapular rash, metabolic acidosis, MI, malaise, mucositis, myocardial ischemia, optic neuritis, ovarian failure,
+perivasculitis, pruritus, pulmonary fibrosis, radiation-recall dermatitis, rash, reversible posterior
+leukoencephalopathy syndrome (RPLS), seizure, Stevens-Johnson syndrome, tongue swelling, somnolence, toxic
+epidermal necrolysis, toxic megacolon, urticaria, vasospasm, weakness
+
+Associated with higher doses: Alopecia, ethanol intoxication, hepatitis, hypotension (infusion-related), metabolic
+acidosis, nausea and vomiting (severe), secondary malignancy, mucositis, skin lesions (resembling Stevens-Johnson
+syndrome)
+
+Page 3 of 4
+
+
+
+April 25, 2026, 12:16:11 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Etoposide: Trastuzumab (neutropenic effect)
+Enhances therapeutic effect of Vitamin K Antagonists [e.g. Warfarin (anticoagulant effect)]
+Increases risk of adverse or toxic effects of Etoposide: Denosumab (serious nfections)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Decreases metabolism of Etoposide: Cyclosporine (Systemic), CYP3A4 Inhibitors
+Decreases serum concentration of Etoposide:
+Dabrafenib, Mitotane,
+Enhances therapeutic effect of Etoposide: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Etoposide: Dipyrone (agranulocytosis, pancytopenia), Pimecrolimus,
+Tacrolimus (Topical)
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Leflunomide
+(hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent
+infection)
+Increases serum concentration of Etoposide: Fusidic Acid (Systemic), Mifepristone
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (live virus vaccines may progress to
+infection)
+
+Mechanism of Action
+
+A topoisomerase II inhibitor that arrests cells in the late S or early G2 phase of cell division.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

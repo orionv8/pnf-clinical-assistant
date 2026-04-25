@@ -1,0 +1,114 @@
+﻿April 25, 2026, 12:50:42 AM - https://pnf.doh.gov.ph
+
+ESMOLOL
+
+Drug Classification
+
+ATC CODE
+
+C07AB09
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Cardiac Therapy
+
+PHARMACOLOGICAL
+
+Antiarrhythmics
+
+CHEMICAL CLASS
+
+Class II Antiarrhythmics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 10 mg/mL (as hydrochloride), 10 mL vial (Rx)
+
+IV › 100 mg/mL, 10 mL vial (Rx)
+
+Page 1 of 3
+
+
+
+April 25, 2026, 12:50:42 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+IV › 10 mg/mL (as hydrochloride), 10 mL vial (Rx)
+
+Intraoperative and postoperative tachycardia, immediate control: by IV injection, ADULT, initially 1 mg/kg bolus
+over 30 seconds, followed by 150 micrograms/kg per minute, if necessary (maximum dose, 300 micrograms/kg per
+minute). Intraoperative and postoperative tachycardia, gradual control: by IV injection, ADULT, initially 0.5 mg/kg
+bolus over 1 minute, followed by an infusion of 50 micrograms/kg per minute for 4 minutes, may be continued at 50
+micrograms/kg per minute (if response is inadequate, titrate dose upward at 50 micrograms/kg per minute
+increments, increase no more frequently than every 4 minutes (maximum dose, 300 micrograms/kg per minute);
+may administer an optional loading dose of 0.5 mg/kg over 1 minute prior to each increase in infusion rate.
+Supraventricular tachycardia: by IV injection, ADULT, optional loading dose, 0.5 mg/kg over 1 minute, followed by 50
+micrograms/kg per minute infusion for 4 minutes; continue infusion at 50 micrograms/kg per minute (if response
+is inadequate, increase dose in 50 micrograms/kg per minute increments, for no more frequently than every 4
+minutes (maximum dose, 200 micrograms/kg per minute); for a more rapid response, re-bolus with a second 0.5
+mg/kg loading dose over 1 minute, and increase the maintenance infusion to 100 micrograms/kg per minute for 4
+minutes; a third, final 0.5 mg/kg loading dose may be administered, if necessary, prior to increasing infusion rate
+of 150 micrograms/kg per minute; after 4 minutes, (maximum infusion rate, 200 micrograms/kg per minute; usual
+dose, 50–200 micrograms/kg per minute; maintenance infusions may be continued for up to 48 hours).
+Perioperative tachycardia: by IV injection, ADULT, initially 1.5 mg/kg bolus (maximum dose, 100 mg) over 30
+seconds, followed by 150 micrograms/kg per minute infusion; adjust infusion rate as needed to maintain desired
+heart rate (maximum rate, 300 micrograms/kg per minute). Atrial fibrillation or atrial flutter: by IV injection, ADULT,
+0.5 mg/kg over 1 minute, followed by 50 micrograms/kg per minute infusion for 4 minutes; continue infusion at 50
+micrograms/kg per minute; if response is inadequate, re-bolus with a second 0.5 mg/kg loading dose over 1
+minute, and increase the maintenance infusion to 100 micrograms/kg per minute for 4 minutes; repeat if
+necessary, until target heart rate or safety end point begins to occur, then omit subsequent loading dose and
+decrease dosing increment of maintenance infusion to ≤25 micrograms/kg per minute (usual effective dose is 50–
+200 micrograms/kg per minute; doses as low as 25 micrograms/kg per minute may be adequate).
+
+Administration
+
+IV › 10 mg/mL (as hydrochloride), 10 mL vial (Rx)
+
+For IV administration only. Administer loading doses over 30 seconds to 1 minute depending on how urgent the
+need for effect. Avoid infusion into small veins or through a butterfly catheter to prevent thrombophlebitis. NOTE:
+Esmolol is a vesicant. Ensure proper needle or catheter placement prior to and during infusion to avoid
+extravasation. If extravasation occurs, stop infusion immediately and disconnect (leave cannula or needle in place)
+and gently aspirate extravasated solution then elevate extremity. Do NOT flush the line. See General Information
+on Beta Blocking Agents, Selective under Beta Blocking Agents in Chapter 3: Cardiovascular System for other
+information.
+
+Dose Adjustment
+
+Geriatric:
+Dose reductions may be necessary.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 12:50:42 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Treatment of supraventricular tachycardia (SVT); treatment of atrial fibrillation or flutter; treatment of intraoperative
+and postoperative tachycardia
+
+Contraindications
+
+Any supraventricular tachyarrhythmia conducted across an accessory pathway (WPW Syndrome-associated
+tachyarrhythmias including preexcited atrial fibrillation/atrial flutter, antidromic atrioventricular reentrant
+tachycardia).
+
+Mechanism of Action
+
+A class II antiarrhythmic agent that competitively blocks response to beta1-adrenergic stimulation with little or no
+effect to beta2-receptors except at high doses. Esmolol does not exhibit intrinsic sympathomimetic activity and
+membrane stabilizing activity.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3
