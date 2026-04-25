@@ -1,0 +1,128 @@
+﻿April 24, 2026, 10:39:48 PM - https://pnf.doh.gov.ph
+
+BASILIXIMAB
+
+Drug Classification
+
+ATC CODE
+
+L04AC02
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunosuppressants
+
+PHARMACOLOGICAL
+
+Interleukin Inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV BOLUS › IV INFUSION › 20 mg vial (Rx)
+
+Dosage
+
+IV BOLUS / IV INFUSION › 20 mg vial (Rx)
+
+Acute renal transplant rejection prophylaxis, by IV infusion, ADULT and CHILD=35 kg, with cyclosporine and
+corticosteroids, 20 mg within 2 hours prior to transplant surgery, followed by a second 20 mg dose 4 days after
+transplantation; withhold second dose if complications occur; CHILD<35 kg, with cyclosporine and
+corticosteroids, 10 mg within 2 hours prior to transplant surgery, followed by a second 10 mg dose 4 days after
+transplantation; the second dose should be withheld if complications occur (including severe hypersensitivity
+reactions or graft loss).
+
+Administration
+
+IV BOLUS / IV INFUSION › 20 mg vial (Rx)
+
+For IV administration only. Administer by IV bolus infusion or IV infusion over 20–30 minutes. Administer only after
+assurance that patient will receive renal graft and immunosuppression. NOTE: Bolus dosing is associated with
+nausea, vomiting, and local pain at the injection site.
+
+Dose Adjustment
+
+No information found
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:39:48 PM - https://pnf.doh.gov.ph
+
+Indications
+
+Prophylaxis of acute organ rejection in renal transplantation
+
+Contraindications
+
+No information found
+
+Precautions
+
+WARNING: Should only be used by physicians experienced in immunosuppressive therapy and management of
+transplant patients. Adequate laboratory and supportive medical resources must be readily available.
+
+Re-exposure to basiliximab with a subsequent course of therapy should only be done with extreme caution.
+
+Anaphylactoid/hypersensitivity reactions Diabetes (new-onset diabetes) Human antimurine antibodies [HAMA]
+(lymphoproliferative disorders (may increase incidence)); opportunistic infections (may increase incidence))
+
+Adverse Drug Reactions
+
+Common: Abdominal pain, abnormal heart sounds, abnormal vision, accidental trauma, acidosis, acne, agitation,
+albuminuria, anemia, angina, anxiety, arrhythmia (tachycardia), arthralgia, arthropathy, atrial fibrillation, back pain,
+bladder disorder, bronchitis, bronchospasm, cataract, chest pain, conjunctivitis, constipation, cough, cramps, cyst,
+cytomegalovirus (CMV) infection, dehydration, depression, diabetes mellitus, diarrhea, fever, dizziness, dyspepsia,
+dyspnea, dysuria, fluid overload, enlarged abdomen, esophagitis, fatigue, flatulence, fracture, gastroenteritis,
+generalized edema, genital edema (male), GI hemorrhage, gingival hyperplasia, increased glucocorticoids, headache,
+heart failure, hematoma, hematuria, hernia, herpes infection (simplex and zoster), hypercholesterolemia,
+hyper/hypocalcemia, hyper-/hypokalemia, hyperglycemia, insomnia, hyperlipemia, hypertension, hypertrichosis,
+hyperuricemia, impotence, hypoesthesia, hypoglycemia, hypomagnesemia, hyponatremia, leg pain, hypotension,
+infection, upper respiratory infection, leukopenia, moniliasis, malaise, melena, myalgia, nausea, neuropathy, oliguria,
+pain, paresthesia, peripheral edema, pharyngitis, pneumonia, polycythemia, pruritus, pulmonary edema, purpura,
+rash, renal tubular necrosis, rhinitis, rigors, sepsis, sinusitis, skin disorder, skin ulceration, tremor, stomatitis,
+thrombocytopenia, thrombosis, ureteral disorder, urinary frequency, urinary retention, urinary tract infection, viral
+infection, vomiting, weakness, weight gain, wound complications
+
+Less Common: Anaphylaxis, capillary leak syndrome, cytokine release syndrome, diabetes (new onset),
+lymphoproliferative disease, hypersensitivity reaction
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:39:48 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Basiliximab: Trastuzumab (neutropenic effect)
+Increases risk of adverse or toxic effects of Basiliximab: Denosumab (serious infections)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Basiliximab: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Basiliximab: Pimecrolimus, Tacrolimus (Topical),
+Increases risk of adverse or toxic effects of the following drugs: Belimumab, Leflunomide (hematologic toxicity, such
+as pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent infection), Live Vaccines
+(infection)
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines
+
+Mechanism of Action
+
+Chimeric (murine/human) immunosuppressant monoclonal antibody, which blocks the alpha-chain of the
+interleukin2 (IL-2) receptor complex. This receptor is expressed on activated T-lymphocytes and is a critical pathway
+for activating cell-mediated allograft rejection.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

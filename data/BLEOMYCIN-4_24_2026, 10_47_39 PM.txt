@@ -1,0 +1,164 @@
+﻿April 24, 2026, 10:47:40 PM - https://pnf.doh.gov.ph
+
+BLEOMYCIN
+
+Drug Classification
+
+ATC CODE
+
+L01DC01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Cytotoxic Antibiotics and Related Substances
+
+CHEMICAL CLASS
+
+Other Cytotoxic Antibiotics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › 15 IU powder (as sulfate), ampule / vial (Rx)
+
+Dosage
+
+IM / IV › 15 IU powder (as sulfate), ampule / vial (Rx)
+
+NOTE: Doses below expressed as USP units; 1 USP unit = 1 mg (by potency) = 1,000 international units. Squamous
+cell carcinomas, by IM or IV injection, 10-15 x 103 IU/m2 body surface area (BSA), once or twice a week, at intervals of
+3-4 weeks up to a lifetime cumulative dose of 360 x 103 IU; by IV infusion, 10-15 x 103 IU/m2/day for 6-24 hours on 4
+to 7 consecutive days, at intervals of 3-4 week. Lymphoma, test dose, by IM, IV, or SC injection, 1–2 units before the
+first 1–2 doses; monitor vital signs every 15 minutes; wait a minimum of 1 hour before administering remainder of
+dose; if no acute reaction occurs, follow regular dosing schedule [NOTE: Test doses may not be predictive of a
+reaction and/or may produce false-negative results]. Malignant pleural infusion, by intrapleural route, 60 units as a
+single instillation, mixed in 50–100 mL of NS. Extracranial germ cell tumors (yolk sac tumor, choriocarcinoma,
+embryonal carcinoma), CHILD, 15 units/m2 on day 1 in combination with cisplatin and etoposide. Hodgkin’s
+Lymphoma, CHILD, 10 units/m2 in combination with various chemotherapy regimen.
+
+Administration
+
+IM / IV › 15 IU powder (as sulfate), ampule / vial (Rx)
+
+For IV injections, administer slowly over 10 minutes. For IM or SC administration, may cause pain at injection site.
+
+Page 1 of 4
+
+
+
+April 24, 2026, 10:47:40 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+In CrCl 40–50mL/minute, administer 70% of dose.
+In CrCl 30–40mL/minute, administer 60% of dose.
+In CrCl 20–30mL/minute, administer 55% of dose.
+In CrCl 10–20mL/minute, administer 45% ofdose.
+In CrCl 5–10mL/minute, administer 40% of dose.
+
+Obesity:
+Consider use of fixed doses, independent of body weight or BSA, due to toxicity concerns.
+
+Toxicity:
+If pulmonary changes occur, discontinue until determined not to be drug-related.
+If the pulmonary diffusion capacity for carbon monoxide (DLCO) is <30–35% of baseline, discontinue treatment.
+
+Indications
+
+Treatment of squamous cell carcinomas of the head and neck; Hodgkin’s Lymphoma; extracranial germ cell tumors;
+sclerosing agent for malignant pleural effusion; treatment of testicular cancer
+
+Page 2 of 4
+
+
+
+April 24, 2026, 10:47:40 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+No information found
+
+Precautions
+
+WARNING: Should be administered under the supervision of an experienced cancer chemotherapy physician.
+Administer in a facility sufficient to appropriately diagnose and manage complications.
+Occurrence of pulmonary fibrosis is the most severe toxicity. It commonly presents as pneumonitis, occasionally
+progressing to pulmonary fibrosis. Risk is higher in elderly patients, glomerular filtration rate <80 mL/minute
+advanced disease, or patients receiving >400 units total lifetime dose or >300 units cumulative dose. Risk is also
+increased in surgery patients receiving O2.
+A severe idiosyncratic reaction consisting of hypotension, mental confusion, fever, chills, and wheezing has been
+reported.
+
+WARNING: Hazardous agent; use appropriate precautions for handling and disposal.
+
+Hepatotoxicity; Renal toxicity
+
+Pulmonary toxicity (e.g. bronchiolitis obliterans and organizing pneumonia, eosinophilic hypersensitivity, and
+interstitial pneumonitis, progressing to pulmonary fibrosis)
+
+Idiosyncratic reaction (since reactions usually occur after first or second dose, careful monitoring is essential after
+these doses)
+
+Elderly (at greater risk of pulmonary toxicity); children (has been associated with a higher incidence of pulmonary
+toxicity).
+
+Adverse Drug Reactions
+
+Common: Acute febrile reactions, acute or chronic interstitial pneumonitis, alopecia, anaphylactoid-like reactions
+(hypotension, confusion, fever, chills, and wheezing), cough, bilateral pulmonary infiltrates, anorexia, dyspnea,
+erythema, diffuse scleroderma, hypoxia (potentially fatal), pain at the tumor site, hyperpigmentation, idiosyncratic
+reactions, hyperkeratosis, induration, mucositis, nailbed changes, onycholysis, rash, peeling of the skin (hands and
+feet), phlebitis, pruritus, skin thickening, pulmonary fibrosis, rales, stomatitis, striae, tachypnea, vesiculation, weight
+loss
+
+Less Common: Angioedema, cerebrovascular accident, cerebral arteritis, chest pain, coronary artery disease,
+flagellate hyperpigmentation, MI, hepatotoxicity, malaise, myocardial ischemia, nausea, pericarditis, Raynaud’s
+phenomenon, renal toxicity, scleroderma-like skin changes, SJS, TEN, thrombotic microangiopathy, vomiting
+
+Rare: Myelosuppression
+
+Page 3 of 4
+
+
+
+April 24, 2026, 10:47:40 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Bleomycin: Trastuzumab (neutropenic effect)
+Increases risk of adverse or toxic effects of Bleomycin: Denosumab(serious infections), Filgrastim (pulmonary
+toxicity)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Bleomycin: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Bleomycin: Gemcitabine (pulmonary toxicity), Pimecrolimus, Tacrolimus
+(Topical)
+Increases risk of adverse or toxic effects of the following drugs: Leflunomide (hematologic toxicity such as
+pancytopenia,agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent infection)
+Reduces therapeutic effect of Bleomycin: Echinacea
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (immune response; live virus
+vaccines may progress to infection)
+
+Mechanism of Action
+
+Inhibits synthesis of DNA by binding to DNA leading to single and double-strand breaks. It also inhibits RNA and
+protein synthesis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

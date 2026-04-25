@@ -1,0 +1,140 @@
+﻿April 24, 2026, 10:30:12 PM - https://pnf.doh.gov.ph
+
+ADENOSINE
+
+Drug Classification
+
+ATC CODE
+
+C01EB10
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Cardiac Therapy
+
+PHARMACOLOGICAL
+
+Other Cardiac Preparations
+
+CHEMICAL CLASS
+
+Other Antiarrhythmic Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 3 mg/mL, 2 mL vial (Rx)
+
+IV › 2 mL vial (Rx)
+
+Dosage
+
+IV › 3 mg/mL, 2 mL vial (Rx)
+
+PSVT: by rapid IV push, ADULT and CHILD ≥50 kg, initially 6 mg over 1–2 seconds via a peripheral line; if not effective
+within 1–2 minutes, administer 12 mg; may repeat 12 mg bolus if needed (maximum single dose, 12 mg); follow each
+dose with 20 mL normal saline flush (reduce initial dose to 3 mg if concomitantly on carbamazepine or
+dipyridamole, or has a transplanted heart, or if administered via central line); INFANT and CHILD <50 kg, initially
+0.05–0.1 mg/kg over 1–2 seconds via a peripheral line (maximum initial dose, 6 mg); if conversion of PSVT does not
+occur within 1–2 minutes, increase dose by 0.05–0.1 mg/kg; repeat until sinus rhythm is established or to a
+maximum single dose of 0.3 mg/kg or 12 mg; follow each dose with 20 mL normal saline flush. SVT treatment in
+pediatric advanced life support: by IV injection, CHILD, initially 0.1 mg/kg (maximum initial dose, 6 mg); if not
+effective within 1–2 minutes, administer 0.2 mg/kg (maximum single dose, 12 mg); follow each dose with ≥5 mL
+normal saline flush. Pharmacologic stress testing: by continuous IV infusion, ADULT, 140 micrograms/kg per
+minute for 6 minutes using syringe or volumetric infusion pump via peripheral line (total dose, 840
+micrograms/kg); inject thallium–201 at midpoint of infusion (3 minutes).
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:30:12 PM - https://pnf.doh.gov.ph
+
+Administration
+
+IV › 3 mg/mL, 2 mL vial (Rx)
+
+Administer via rapid bolus IV or IV infusion only. Administer IV push over 1–2 seconds via a peripheral IV site as
+proximal as possible to trunk. Do NOT inject into the lower arm, hand, lower leg, or foot. Follow each bolus with a
+rapid normal saline flush. Use separate syringes for Adenosine and NS flush, connected to a T-connector or
+stopcock.
+
+Dose Adjustment
+
+Heart Transplant Recipients:
+Reduce dose.
+
+Indications
+
+Treatment of paroxysmal supraventricular tachycardia (PSVT), including accessory bypass tracts (Wolff-Parkinson-
+White syndrome); pharmacologic stress agent in myocardial perfusion thallium201 scintigraphy.
+
+Contraindications
+
+Patients with second- or third-degree AV block, sick sinus syndrome, and symptomatic bradycardia but without a
+cardiac pacemaker; known or suspected bronchoconstrictive or bronchospastic lung disease; asthma.
+
+Precautions
+
+Atrial fibrillation or flutter (especially in patients with PSVT and underlying Wolff-Parkinson-White syndrome);
+Cardiovascular events (e.g. cardiac arrest, fatal and nonfatal, myocardial infarction, cerebrovascular accident,
+hemorrhagic and ischemic, and sustained ventricular tachycardia requiring resuscitation; arrhythmia); conduction
+disturbances (may produce first-, second-, or third-degree heart block; rare, prolonged episodes of asystole);
+Hypertension; Hypotension; Pulmonary artery hypertension
+Respiratory disease (dyspnea, bronchoconstriction, and respiratory compromise have occurred)
+Hypersensitivity (watch out for dyspnea, pharyngeal edema, erythema, flushing, rash, or chest discomfort)
+Seizures (new-onset or recurrent seizures)
+Electrolyte imbalance (correct hypokalemia or hypomagnesemia prior to use and throughout therapy)
+Heart transplant recipients (use with extreme caution; may cause prolonged asystole)
+Elderly (may be at increased risk of hemodynamic effects, bradycardia, and/or AV block; may be more sensitive to the
+effects of Adenosine)
+Lactation (not known if excreted in breastmilk; potential for adverse reactions in the nursing infant)
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:30:12 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Cardiac arrhythmia, chest pressure and discomfort, atrioventricular block, depression of ST segment on
+ECG, hypotension, chest pain, palpitations, headache, dizziness, nervousness, paresthesia, numbness,
+apprehension, facial flushing, diaphoresis, gastrointestinal distress, nausea, neck discomfort, upper extremity
+discomfort, dyspnea, hyperventilation
+Less Common: Asystole (prolonged), atrial fibrillation, blurred vision, bradycardia, bronchospasm, burning sensation,
+cardiac arrest (fatal and nonfatal), increased intracranial pressure, injection site reaction, loss of consciousness,
+metallic taste, myocardial infarction, respiratory arrest, seizure, torsade de pointes, transient hypertension,
+ventricular arrhythmia, ventricular fibrillation, ventricular tachycardia
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Adenosine:
+Nicotine (AV-blocking and tachycardic effects)
+
+Increases risk for adverse or toxic effects of Adenosine:
+Digoxin
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Adenosine:
+Carbamazepine (risk of higher degree heart block), Dipyridamole (cardiovascular effects)
+
+Reduces therapeutic effect of Adenosine:
+Caffeine and Caffeine-containing Products, Theophylline Derivatives e.g Aminophylline
+
+Mechanism of Action
+
+A class V antiarrhythmic agent that slows conduction time through the AV node, interrupting the reentry pathways
+through the AV node, thus restoring normal sinus rhythm.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

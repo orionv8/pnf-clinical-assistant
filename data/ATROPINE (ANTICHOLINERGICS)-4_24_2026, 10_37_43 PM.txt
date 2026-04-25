@@ -1,0 +1,136 @@
+﻿April 24, 2026, 10:37:43 PM - https://pnf.doh.gov.ph
+
+ATROPINE (ANTICHOLINERGICS)
+
+Drug Classification
+
+ATC CODE
+
+A03BA01
+
+ANATOMICAL
+
+Alimentary Tract and Metabolism
+
+THERAPEUTIC
+
+Drugs for Functional Gastrointestinal Disorders
+
+PHARMACOLOGICAL
+
+Anticholinergics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 600 mcg (equiv. to 500 mcg atropine) tablet (as sulfate) (Rx)
+
+IM › IV › SC › 500 mcg/mL solution for injection, 1 mL ampule (as sulfate) (Rx)
+
+IM › IV › SC › 600 mcg/mL solution for injection, 1 mL ampule (as sulfate) (Rx)
+
+IM › IV › SC › 1 mg/mL solution for injection, 1 mL ampule (as sulfate) (Rx)
+
+Dosage
+
+ORAL › 600 mcg (equiv. to 500 mcg atropine) tablet (as sulfate) (Rx)
+
+Diverticular disease, irritable bowel syndrome, non-ulcer dyspepsia: by mouth, ADULT, 0.6–1.2 mg as a single dose
+at bedtime. INTRAMUSCULAR, INTRAVENOUS, AND SUBCUTANEOUS Premedication in balanced anesthesia: by IM
+or SC injection, ADULT, 300–600 micrograms 30–60 minutes before anesthesia; CHILD >20 kg, 300 to 600
+micrograms 30–60 minutes before anesthesia; CHILD 12–16 kg, 300 micrograms 30–60 minutes before anesthesia;
+CHILD 7–9 kg, 200 micrograms 30–60 minutes before anesthesia; CHILD 3 kg, 100 micrograms 30 to 60 minutes
+before anesthesia; by IV injection, ADULT, 300–600 micrograms immediately before induction of anesthesia.
+
+Administration
+
+ORAL › 600 mcg (equiv. to 500 mcg atropine) tablet (as sulfate) (Rx)
+
+For oral administration, may be taken with or without food. For IV administration, administer undiluted by rapid IV
+injection.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:37:43 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Mild-to-moderate renal impairment: dose reduction, or less frequent doses, after initial atropinization is warranted
+(since atropine may be eliminated more slowly).
+Severe renal impairment: the patient should be referred to a specialist.
+
+Indications
+
+Pre-operative medication to reduce salivary, bronchial, and nasal secretions; treatment of functional disturbances of
+GI motility such as irritable bowel syndrome.
+NOTE: Has limited efficacy as an anti-muscarinic and should be used only if other measures (e.g., diet, sedation,
+counseling, amelioration of environmental factors) have been of little or no benefit.
+
+Contraindications
+
+Angle-closure glaucoma; severe inflammatory GI disease or GI obstruction; prostatic hypertrophy; prostatism and
+urinary obstruction; myasthenia gravis; thyrotoxicosis; organochlorine poisoning; pyloric stenosis; poisoning
+caused by CNS adrenergic stimulants, phenothiazines, tricyclic antidepressants; and, other anticholinergics.
+
+Precautions
+
+GI disorders; pyrexia and in warm environments; Down syndrome; prostatic enlargement; cardiac disorders; hypoxia;
+constipation; delirium; tachycardia; or fever from any cause.
+Elderly; children.
+Lactation (may cause anti-muscarinic effects in infants).
+NOTE: Since atropine has a short duration, late unopposed bradycardia may result. Close monitoring is necessary.
+
+Adverse Drug Reactions
+
+Common: Blurred vision, constipation, cycloplegia, delirium, dryness of mouth, nose and skin, difficulty in micturition
+and swallowing, fever, flushing, mydriasis, palpitations, photophobia, thirst, transient bradycardia followed by
+tachycardia, urinary retention.
+Less Common: Agitation, arrhythmias, ataxia, confusion (in elderly), disorientation, excitement, headache, heat
+prostration, hyperpyrexia, hypertension, paralytic ileus, psychosis, rapid respiration, rash, restlessness, vomiting.
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:37:43 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases oral absorption of Atropine: Antacids
+Increases risk of adverse or toxic effects of the following drugs: Alcohol (CNS depression), Chlorpromazine (anti-
+muscarinic)
+Increases bioavailability of Beta Blockers, e.g., Metoprolol
+Avoid concomitant use with:
+Decreases serum concentration of the following drugs, decreasing their therapeutic effects: Haloperidol
+(schizophrenic symptoms may worsen)
+Enhances therapeutic effect of Atropine: Drugs with anticholinergic effects, e.g., Amantadine, Belladonna Alkaloids,
+Ipratropium
+Enhances therapeutic effect of the following drugs: Digoxin, Norepinephrine (pressor effect; blocks its reflex
+bradycardia)
+Increases risk of adverse or toxic effects of Atropine: Drugs with anticholinergic effects, e.g., Amantadine,
+Belladonna Alkaloids, Ipratropium (central anticholinergic delirium)
+Increases risk of adverse or toxic effect of the following drugs: Digoxin, Phenylephrine eye drops (severe
+hypertension)
+Increases serum concentration of Digoxin
+Reduces therapeutic effect of Atropine: Anticholinesterases, e.g., Neostigmine, Pyridostigmine (antagonizes
+anticholinergic effect of Atropine)
+Reduces therapeutic effect of Metoclopramide (antagonism)
+
+Mechanism of Action
+
+A naturally occurring tertiary amine anti-muscarinic alkaloid from Atropa belladonna that competitively blocks
+acetylcholine action in central and peripheral muscarinic autonomic receptors.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+REMARKS
+
+Opthalmic route no monograph
+
+Page 3 of 3

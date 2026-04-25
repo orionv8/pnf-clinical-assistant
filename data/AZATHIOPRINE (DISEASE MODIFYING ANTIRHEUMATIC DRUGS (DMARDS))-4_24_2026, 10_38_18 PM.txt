@@ -1,0 +1,178 @@
+﻿April 24, 2026, 10:38:19 PM - https://pnf.doh.gov.ph
+
+AZATHIOPRINE (DISEASE MODIFYING ANTIRHEUMATIC DRUGS
+(DMARDS))
+
+Drug Classification
+
+ATC CODE
+
+L04AX01
+
+ANATOMICAL
+
+Musculo-Skeletal System
+
+THERAPEUTIC
+
+Other Drugs for Disorders of the Musculo-Skeletal System
+
+PHARMACOLOGICAL
+
+Disease Modifying Antirheumatic Drugs (Dmards)
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 50 mg tablet (Rx)
+
+Dosage
+
+ORAL › 50 mg tablet (Rx)
+
+Rheumatoid arthritis, by mouth, ADULT and CHILD, initially 1 mg/kg daily (50-100 mg) given once daily or divided
+twice daily for 6-8 weeks; may increase by 0.5 mg/kg every 4 weeks until response or up to 2.5 mg/kg daily; an
+adequate trial should be a minimum of 12 weeks; maintenance dose, reduce dose by 0.5 mg/kg (~25 mg daily) every
+4 weeks until lowest effective dose is reached; may be discontinued abruptly (monitor for delayed toxicities).
+
+Administration
+
+ORAL › 50 mg tablet (Rx)
+
+Administer tablets after meals or in divided doses to decrease adverse GI events. Protect from light and moisture
+and store between 15–25°C.
+
+Page 1 of 5
+
+
+
+April 24, 2026, 10:38:19 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Start with lowest recommended adult doses. Adjust dose to creatinine clearance.
+
+Renal Impairment:
+For patients with CrCl 10-50 mL/minute, administer 75% of normal dose.
+For patients with CrCl <10 mL/minute, administer 50% of normal dose.
+For patients receiving hemodialysis, administer 50% of normal dose and supplement with 0.25 mg/kg.
+
+Oliguric patients, particularly those with tubular necrosis in the immediate posttransplant period (cadaveric
+transplant) may have delayed clearance and typically receive lower doses.
+
+Hepatic Impairment:
+Reduce dose.
+
+Indications
+
+Management of active rheumatoid arthritis
+
+Page 2 of 5
+
+
+
+April 24, 2026, 10:38:19 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Pregnancy; patients with rheumatoid arthritis and a history of treatment with alkylating agents (e.g.,
+cyclophosphamide, chlorambucil, melphalan) may have a prohibitive risk of malignancy with azathioprine treatment
+
+Precautions
+
+WARNING: Hazardous agent; use appropriate precautions for handling and disposal.
+
+WARNING: Chronic use for immunosuppression increases risk of malignancy, including posttransplant lymphoma and
+hepato-splenic Tcell lymphoma in patients with inflammatory bowel disease.
+
+Gastrointestinal toxicity (e.g. severe nausea, vomiting, diarrhea, rash, fever, malaise, myalgia, hypotension, and liver
+enzyme abnormalities generally reversible upon discontinuation).
+
+Hematologic toxicity (dose-related; leukopenia, thrombocytopenia, and anemias may occur; may be severe and/or
+delayed; patients with intermediate thiopurine methyltransferase (TPMT) activity may be at increased risk for
+hematologic toxicity at conventional azathioprine doses; patients with low or absent TPMT activity are at risk for
+severe, life-threatening myelotoxicity; myelosuppression may be more severe with renal transplants undergoing
+rejection; may require treatment interruption or dose reduction).
+
+Hepatotoxicity (transaminase, bilirubin, and alkaline phosphatase elevations may occur; usually occurs within 6
+months of transplant and is normally reversible with discontinuation; rarely, hepatic sinusoidal obstruction
+syndrome [SOS], formerly called veno-occlusive disease [VOD] has been reported; discontinue if hepatic SOS is
+suspected).
+
+Infections (chronic immunosuppression increases the risk of serious, sometimes fatal, infections; progressive
+multifocal leukoencephalopathy [PML] caused by reactivation of the JC virus, has been reported).
+
+Hepatic and renal impairment (dosage reductions may be necessary);
+
+TPMT deficiency (increased sensitivity to myelosuppressive effects; consider TPMT testing in patients with
+abnormally low CBC unresponsive to dose reduction);
+
+Elderly;
+
+Lactation (breastfeeding is not recommended by the manufacturer due to potential for serious adverse reactions in
+the nursing infant).
+
+Page 3 of 5
+
+
+
+April 24, 2026, 10:38:19 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Malaise, nausea, vomiting, diarrhea, leukopenia, neoplasia, thrombocytopenia, hepatotoxicity, increased
+susceptibility to infection, myalgia, fever
+
+Less Common: Abdominal pain, acute myelocytic leukemia, alopecia, anemia, arthralgia, bone marrow depression
+(dose-related), hemorrhage, hepatic veno-occlusive disease, hepatosplenic T-cell lymphomas (HSTCL),
+hepatotoxicity (idiosyncratic), hypersensitivity, hypotension, interstitial pneumonitis (reversible), JC virus infection,
+macrocytic anemia, malignant lymphoma, malignant neoplasm of skin, negative nitrogen balance, pancreatitis,
+pancytopenia, progressive multifocal leukoencephalopathy (potentially fatal), skin rash, steatorrhea, Sweet's
+syndrome (acute febrile neutrophilic dermatosis), post-transplant lymphoma
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Azathioprine: ACE Inhibitors, Trimethoprim (myelosuppressive effect), Trastuzumab
+(neutropenic effect), (myelosuppressive effect)
+Enhances therapeutic effect of Sipuleucel-T
+Increases risk of adverse or toxic effects of Azathioprine: ACE Inhibitors, Co-trimoxazole (hematologic
+abnormalities), Denosumab (serious infections)
+Increases risk of adverse or toxic effects of Cyclophosphamide (hepatotoxic effect)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+Reduces therapeutic effect of Vitamin K Antagonists, e.g., Warfarin (anticoagulant effect)
+
+Avoid concomitant use with:
+Decreases serum concentration of Azathioprine: Ribavirin
+Enhances therapeutic effect of Azathioprine: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of the following drugs: Mercaptopurine (myelosuppressive effect), Tofacitinib
+(immunosuppressive effect)
+Increases risk of adverse or toxic effects of Azathioprine: Pimecrolimus
+Increases risk of adverse or toxic effects of the following drugs: Leflunomide (hematologic toxicity, such as
+pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent infection), Tacrolimus Topical,
+Vaccines (Live)
+Increases serum concentration of Azathioprine: Allopurinol [if concomitant use cannot be avoided, reduce
+azathioprine dose to 1/3 to ¼ of usual dose], Febuxostat
+Reduces therapeutic effect of Azathioprine: Ribavirin
+Reduces therapeutic effect of the following drugs: BCG, Vaccines, Inactivated [complete all age-appropriate
+vaccinations at least 2 weeks prior to starting azathioprine; if vaccinated during azathioprine therapy, revaccinate at
+least 3 months after discontinuation], Vaccines, Live [avoid azathioprine doses greater than 3 mg/kg daily]
+
+Mechanism of Action
+
+An imidazolyl derivative of mercaptopurine, which incorporates its metabolites into replicating DNA, stopping
+replication. It also blocks the pathway for purine synthesis.
+
+Page 4 of 5
+
+
+
+April 24, 2026, 10:38:19 PM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 5 of 5

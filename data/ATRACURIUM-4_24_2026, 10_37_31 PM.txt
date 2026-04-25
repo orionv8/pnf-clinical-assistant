@@ -1,0 +1,159 @@
+﻿April 24, 2026, 10:37:31 PM - https://pnf.doh.gov.ph
+
+ATRACURIUM
+
+Drug Classification
+
+ATC CODE
+
+M03AC04
+
+ANATOMICAL
+
+Musculo-Skeletal System
+
+THERAPEUTIC
+
+Muscle Relaxants
+
+PHARMACOLOGICAL
+
+Peripherally-Acting Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 10 mg/mL (as besilate) (Rx)
+
+IV › 2.5 mL ampule (Rx)
+
+IV › 5 mL ampule (Rx)
+
+Dosage
+
+IV › 10 mg/mL (as besilate) (Rx)
+
+NOTE: Dose to effect. Doses will vary due to interpatient variability. Adjunct to surgical anesthesia, by IV bolus,
+ADULT, 0.4–0.5 mg/kg, then 0.08–0.1 mg/kg after 20–45 minutes to maintain neuromuscular block; repeat dose at
+15– to 25–minute intervals as needed; CHILD >2 years and ADOLESCENT, 0.4–0.5 mg/kg, then 0.08–0.1 mg/kg after
+20–45 minutes; repeat dose at 15– to 25–minute intervals as needed; CHILD 1 month – 2 years, initially 0.3–0.4
+mg/kg followed by maintenance doses as needed; If to be administered after succinylcholine for intubation
+(balanced anesthesia), initiate at 0.3–0.4 mg/kg; Pretreatment or priming, administer 10% of intubating dose given
+2–4 minutes before the larger second dose. [NOTE: Maintenance doses may be required with slightly greater
+frequency in infants and children compared to adults. Initial dose may be reduced to 0.3–0.4 mg/kg in patients with
+significant cardiovascular disease or history of elevated risk of histamine release. Priming may be uncomfortable
+for the patient, may increase the risk of aspiration and difficulty swallowing. Intubating conditions after priming
+may not be as good as that seen with succinylcholine]. Maintenance infusion for continued surgical relaxation
+during extended surgical procedures, by continuous IV infusion, ADULT and CHILD, at initial signs of recovery from
+bolus dose, initiate at a rate of 9 to 10 micrograms/kg per minute (0.54–0.6 mg/kg per hour) ; block is usually
+maintained by a rate of 5–9 micrograms/kg per minute (0.3–0.54 mg/kg per hour); if under balanced anesthesia,
+administer 2–15 micrograms/kg per minute (0.12–0.9 mg/kg per hour).
+
+Page 1 of 4
+
+
+
+April 24, 2026, 10:37:31 PM - https://pnf.doh.gov.ph
+
+Administration
+
+IV › 10 mg/mL (as besilate) (Rx)
+
+May be given undiluted as a bolus IV injection or via continuous IV infusion. Do NOT administer by IM as this may
+cause excessive tissue irritation. Use infusion solutions within 24 hours of preparation.
+
+Dose Adjustment
+
+Obesity:
+Morbidly-obese patients should be dosed using ideal body weight or an adjusted body weight. Time to recovery of
+twitch response may be prolonged.
+
+Indications
+
+As an adjunct to general anesthesia; to facilitate endotracheal intubation; to provide skeletal muscle relaxation
+during surgery or mechanical ventilation
+
+Page 2 of 4
+
+
+
+April 24, 2026, 10:37:31 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to atracurium besylate or any component of the formulation; known hypersensitivity to benzyl
+alcohol (multiple-dose vials)
+
+Precautions
+
+Anaphylaxis;
+
+Bradycardia;
+
+Cross-sensitivity;
+
+Burn injury (resistance may occur if burns =20% of total body surface area).
+
+Conditions which may antagonize neuromuscular blockade (e.g., respiratory alkalosis, hypercalcemia, demyelinating
+lesions, peripheral neuropathies, denervation, and muscle trauma may occur);
+
+Conditions which may potentiate neuromuscular blockade (e.g., electrolyte abnormalities, neuromuscular diseases,
+metabolic acidosis, metabolic alkalosis, respiratory acidosis, Lambert-Eaton syndrome and myasthenia gravis may
+occur);
+
+Elderly (use with caution; effects and duration are more variable; consider dose reduction);
+
+Immobilized patients (resistance may occur);
+
+Children.
+
+Some dosage forms may contain benzyl alcohol (amounts =99 mg/kg per day of benzyl alcohol have been associated
+with a potentially fatal toxicity called “gasping syndrome” in neonates; see manufacturer’s labeling for contents prior
+to administration in neonates).
+
+Pregnancy (use with caution);
+
+Lactation (not known if excreted in breast milk).
+
+Adverse Drug Reactions
+
+Common: Flushing
+
+Less Common: Bronchial secretions, erythema, hives, itching, wheezing, allergic reaction, bradycardia,
+bronchospasm, dyspnea, hypotension, injection site reaction, seizure, acute quadriplegic myopathy syndrome
+(prolonged use), laryngospasm, myositis ossificans (prolonged use), tachycardia, urticaria
+
+Page 3 of 4
+
+
+
+April 24, 2026, 10:37:31 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Atracurium: Aminoglycosides e.g. Streptomyicn (respiratory depressant effect),
+Calcium Channel Blockers e.g. Amlodipine, Capreomycin (neuromuscular-blocking effect), Clindamycin Topical,
+Cyclosporine Systemic, Inhalational Anesthetics, Lincosamide, Lithium, Loop Diuretics, Magnesium Salts,
+Minocycline, Procainamide, Quinidine, Spironolactone, Tetracycline Derivatives, Vancomycin
+Increases risk of adverse or toxic effects of Atracurium: Ketorolac (apnea)
+Increases risk of adverse or toxic effects of Cardiac Glycosides (arrhythmogenic effect)
+Reduces therapeutic effect of Atracurium: Acetylcholinesterase Inhibitors e.g., Neostigmine, Fosphenytoin-
+Phenytoin, Loop Diuretics
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Atracurium: Colistimethate, Polymyxin B, Quinine
+Increases risk of adverse or toxic effects of the following drugs: Corticosteroids, Systemic (increased muscle
+weakness; polyneuropathies; myopathies)
+
+Mechanism of Action
+
+A non-depolarizing, neuromuscular-blocking agent that restricts neural transmission at the myoneural junction by
+binding with cholinergic receptor sites.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

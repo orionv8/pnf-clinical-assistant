@@ -1,0 +1,121 @@
+﻿April 24, 2026, 10:40:15 PM - https://pnf.doh.gov.ph
+
+BERACTANT
+
+Drug Classification
+
+ATC CODE
+
+Not available
+
+ANATOMICAL
+
+Respiratory System
+
+THERAPEUTIC
+
+Other Respiratory System Products
+
+PHARMACOLOGICAL
+
+Cough Suppressants, Excluding Combinations with Expectorants
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IT › 25 mg/mL suspension, 4 mL vial (intrathecal) (Rx)
+
+IT › 25 mg/mL suspension, 8 mL vial (intrathecal) (Rx)
+
+Dosage
+
+IT › 25 mg/mL suspension, 4 mL vial (intrathecal) (Rx)
+
+Respiratory distress, prophylactic treatment, by endotracheal injection, PREMATURE INFANT, 4 mL/kg(100 mg
+phospholipids/kg) as soon as possible; as many as 4 doses may be administered during the first 48 hours of life, no
+more frequently than 6 hours apart. NOTE: The need for additional doses is determined by evidence of continuing
+respiratory distress; if the infant is still intubated and requiring at least 30% inspired oxygen to maintain a PaO2
+≤80 torr. Respiratory distress, rescue treatment, by endotracheal injection, PREMATURE INFANT, 4 mL/kg (100 mg
+phospholipids/kg) as soon as the diagnosis of RDS is made, may repeat if needed, no more frequently than every 6
+hours to a maximum of 4 doses.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:40:15 PM - https://pnf.doh.gov.ph
+
+Administration
+
+IT › 25 mg/mL suspension, 4 mL vial (intrathecal) (Rx)
+
+For endotracheal administration only. Administer endotracheally by instillation through a 5-French end-hole
+catheter inserted into the infant's endotracheal tube. Administer the dose in four 1 mL/kg aliquots. Each quarter-
+dose is instilled over 2–3 seconds followed by at least 30 seconds of manual ventilation or until stable. Each
+quarter-dose is administered with the infant in a different position. Slightly downward inclination with head
+turned to the right, then repeat with head turned to the left, then slightly upward inclination with head turned to
+the right, then repeat with head turned to the left. Following administration of 1 full dose, withhold suctioning for 1
+hour unless signs of significant airway obstruction. Suction infant prior to administration. Inspect solution to
+verify complete mixing of the suspension. Mixture may be swirled gently. Do NOT SHAKE. Do NOT filter dose and
+avoid shaking. Rapidly affects oxygenation and lung compliance. Use is restricted to highly supervised clinical
+setting with immediately available clinicians experienced in intubation and ventilatory management of premature
+infants.
+
+Dose Adjustment
+
+Transient adverse effects such as transient episodes of bradycardia and decreased oxygen saturation occurAcute
+changes in oxygenation and lung compliance (produces rapid improvements in lung oxygenation and compliance that
+may require frequent adjustments to
+oxygen delivery and ventilator settings).
+
+Indications
+
+Prevention and treatment of respiratory distress syndrome (RDS) in premature infants
+
+NOTE: Beractant is only indicated for use in premature infants.
+
+Adverse Drug Reactions
+
+Common: Transient bradycardia, oxygen desaturation
+
+Less Common:
+Apnea, endotracheal tube blockage, hypercarbia, hypertension, hypocarbia, hypotension, pallor, pulmonary air leaks,
+pulmonary interstitial emphysema, increased probability of post-treatment nosocomial sepsis, vasoconstriction
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:40:15 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Beractant:
+Bretylium (AV blockade), Ruxolitinib (bradycardic effect)Tofacitinib (bradycardic effect)
+Other Bradycardia-causing Agents
+
+Increases risk of adverse or toxic effects of the following drugs:
+Ivabradine (bradycardic effect), Lacosamide (AV blocking effect
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Ceritinib (bradycardic effect)
+
+Mechanism of Action
+
+NOTE: Restricted to tertiary hospitals with adequately
+trained neonatologist and facilities for neonatal intensive
+care
+A respiratory surfactant that replaces deficient or ineffective
+endogenous lung surfactant in neonates with respiratory
+distress syndrome (RDS) or in neonates at risk of
+developing RDS. Surfactants prevent the alveoli from
+collapsing during expiration by lowering surface tension
+between air and alveolar surfaces.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+Not classified
+
+Page 3 of 3

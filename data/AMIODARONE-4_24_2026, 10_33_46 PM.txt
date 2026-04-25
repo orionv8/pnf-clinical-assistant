@@ -1,0 +1,277 @@
+﻿April 24, 2026, 10:33:46 PM - https://pnf.doh.gov.ph
+
+AMIODARONE
+
+Drug Classification
+
+ATC CODE
+
+C01BD01
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Cardiac Therapy
+
+PHARMACOLOGICAL
+
+Antiarrhythmics
+
+CHEMICAL CLASS
+
+Class III Antiarrhythmics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 200 mg tablet (as hydrochloride) (Rx)
+
+IV › 50 mg/mL (as hydrochloride), 3 mL ampule (Rx)
+
+Page 1 of 6
+
+
+
+April 24, 2026, 10:33:46 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 200 mg tablet (as hydrochloride) (Rx)
+
+Recurrent life-threatening ventricular arrhythmias, prevention: by mouth, ADULT, 800–1,600 mg daily in 1–2 doses
+for 1–3 weeks; when adequate arrhythmia control is achieved, decrease to 600–800 mg daily in 1–2 doses for 1
+month (maintenance, 300 mg daily). Pulseless VT or VF: by IV push, I.O., ADULT, initially 300 mg rapid bolus; if
+condition continues or recurs, administer supplemental dose of 150 mg, preferably undiluted (maximum
+recommended total daily dose, 2.2 g); once spontaneous circulation returns, administer by IV infusion of 1
+mg/minute for 6 hours, then 0.5 mg/minute for 18 hours); CHILD, 5 mg/kg rapid bolus (maximum, 300 mg per dose);
+may repeat twice up to a maximum total dose of 15 mg/kg during acute treatment. Stable VT: by IV infusion, ADULT,
+150 mg over 10 minutes, then 1 mg/minute for 6 hours, followed by 0.5 mg/minute; continue this rate for at least 18
+hours or until complete transition to oral (total infusion duration, 24 hours). Breakthrough stable VT: by IV infusion,
+ADULT, 150 mg supplemental doses in 100 mL D5W or NS over 10 minutes [NOTE: Mean daily doses >2.1 g/day have
+been associated with hypotension.] Atrial fibrillation, pharmacologic cardioversion: by mouth, ADULT, 600–800 mg
+daily in divided doses to a total of 10 g, then 200 mg daily as maintenance dose (usual maintenance dose, 100 mg
+daily); or 800 mg daily for 14 days, followed by 600 mg daily for the next 14 days, then 300 mg daily for the remainder
+of the first year, then 200 mg daily thereafter; or 10 mg/kg daily for 14 days, followed by 300 mg daily for 4 weeks,
+then 200 mg daily as maintenance dose; by IV infusion, ADULT, 150 mg over 10 minutes, then 1 mg/minute for 6
+hours, then 0.5 mg/minute for 18 hours, or change to oral dosing. Maintenance of sinus rhythm: by mouth, ADULT,
+400 to 600 mg daily in divided doses for 2–4 weeks followed by a maintenance dose of 100–200 mg once daily.
+Prevention of postoperative atrial fibrillation and atrial flutter associated with cardiothoracic surgery: by mouth,
+ADULT, 200 mg 3 times daily for 7 days prior to surgery, followed by 200 mg daily until hospital discharge; by IV
+injection, ADULT, 150 mg loading dose, followed by 0.4 mg/kg per hour for 3 days prior to surgery and for 5 days
+postoperative; after surgery, infuse 1,000 mg over 24 hours for 2 days. Supraventricular tachycardia,
+pharmacologic cardioversion: by mouth, ADULT, 600–800 mg daily in divided doses to a total of 10 g, then 200 mg
+daily as maintenance; by IV infusion, ADULT, 150 mg over 10 minutes, then 1 mg/minute for 6 hours, then 0.5
+mg/minute for 18 hours, or change to oral dosing
+
+Administration
+
+ORAL › 200 mg tablet (as hydrochloride) (Rx)
+
+For oral administration, administer consistently with meals. Take in divided doses with meals if GI upset occurs or
+if taking large daily doses. If GI intolerance occurs with single-dose therapy, use twice daily dosing. For IV infusions
+>1 hour, use concentrations ≤2 mg/mL unless a central venous catheter is used. Use only volumetric infusion
+pump to prevent underdosage. Administer through an IV line located as centrally as possible. For IV infusions >2
+hours, administer in a non-PVC container (e.g., glass, polyolefin). PVC tubing is recommended for administration
+regardless of infusion duration. Flush with saline prior to and following infusion to prevent incompatibilities with
+heparin. For continuous IV infusions, use an inline filter to reduce the incidence of phlebitis. Adjust administration
+rate to urgency. Give more slowly when perfusing arrhythmia is present. Slow the infusion rate if hypotension or
+bradycardia develops. NOTE: IV administration at lower flow rates, i.e., pediatric use, and higher concentrations
+than recommended may result in leaching of plasticizers (DEHP) from IV tubing. DEHP may adversely affect male
+reproductive tract development.
+
+Page 2 of 6
+
+
+
+April 24, 2026, 10:33:46 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Select doses with caution. Begin at low end of dosage range and titrate slowly to evaluate response.
+A maintenance dose of 100 mg daily is commonly used especially for the elderly or patients with low body mass.
+
+Hepatic Impairment:
+Dose adjustment may be necessary. Decrease dose or discontinue Amiodarone once hepatic enzymes exceed 3
+times the normal or double in a patient with an elevated baseline.
+
+Indications
+
+Management of life-threatening recurrent ventricular fibrillation (VF) or recurrent hemodynamically-unstable
+ventricular tachycardia (VT); supraventricular arrhythmias
+
+Contraindications
+
+Severe sinus-node dysfunction causing marked sinus bradycardia; second- and third-degree heart block;
+bradycardia causing syncope; cardiogenic shock
+
+Precautions
+
+WARNING: For use only in patients with indicated life-threatening arrhythmias due to the risk for substantial,
+potentially fatal toxicity (e.g., pulmonary toxicity, overt liver disease).
+
+Bradycardia or hypotension (infusion-rate related); Proarrhythmic effects
+Arrhythmias (hospitalize patients when amiodarone is initiated), Wolff-Parkinson-White (WPW) syndrome
+Cardiac devices, e.g., implantable defibrillators (chronic therapy may increase defibrillation threshold)
+Myocardial infarction
+Dermatologic toxicity (may cause life-threatening or fatal cutaneous reactions, including SJS and TEN)
+photosensitivity (blue-gray discoloration of exposed skin may occur during long-term treatment)
+Hepatotoxicity
+Neurotoxicity (peripheral neuropathy has been reported); ocular effects (may cause optic neuropathy and/or optic
+neuritis resulting in visual impairment; permanent blindness has occurred; corneal microdeposits commonly occur
+and may cause reversible visual disturbances)
+Pulmonary toxicity (hypersensitivity pneumonitis, or interstitial or alveolar pneumonitis, and abnormal diffusion
+capacity without symptoms may occur; acute-onset pulmonary injury has occurred; most fatalities due to sudden
+cardiac death occurred when amiodarone was discontinued)
+Thyroid effects (may cause hyperor hypothyroidism; myxedema has been reported and may be fatal; thyroid nodules
+and thyroid cancer have been reported)
+Electrolyte imbalance (correct hypokalemia, hypomagnesemia, or hypocalcemia prior to use and throughout therapy)
+Surgical patients (may enhance myocardial depressant and conduction effects of halogenated inhalational
+anesthetics; adult respiratory distress syndrome (ARDS) has been reported postoperatively)
+Elderly (use is associated with thyroid disease, pulmonary abnormalities, and QT-interval prolongation)
+Lactation (excreted in breastmilk; not recommended for nursing mothers).
+
+Page 3 of 6
+
+
+
+April 24, 2026, 10:33:46 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Hypotension, bradycardia, AV block, cardiac arrest, cardiac arrhythmia, cardiac failure, ventricular
+tachycardia, asystole, atrial fibrillation, cardiogenic shock, torsade de pointes, ventricular fibrillation, atrioventricular
+dissociation, cardiac conduction disturbance, edema, flushing, peripheral thrombophlebitis, pulseless electrical
+activity (PEA), abnormal gait, ataxia, dizziness, fatigue, involuntary body movements, malaise, peripheral neuropathy,
+memory impairment, paresthesia, altered sense of smell, headache, insomnia, sleep disorder, blue-gray skin
+pigmentation, skin photosensitivity, hypothyroidism, decreased libido, hyperthyroidism nausea, vomiting, anorexia,
+constipation, altered salivation, dysgeusia, abdominal pain, diarrhea, blood coagulation disorder, hepatic disease,
+tremor, corneal deposits, visual halos, visual disturbance, optic neuritis, photophobia, pulmonary toxicity, pulmonary
+edema, hypersensitivity pneumonitis, interstitial pneumonitis, pulmonary fibrosis, fever
+Less Common: Acute renal failure, adult respiratory distress syndrome, agranulocytosis, alopecia, anaphylactic
+shock, anaphylactoid reaction, anaphylaxis, angioedema, aplastic anemia, back pain, bronchiolitis obliterans
+organizing pneumonia, bronchospasm, bullous dermatitis, cholestasis, cholestatic hepatitis, confusion, cough,
+delirium, demyelinating polyneuropathy, disorientation, DRESS syndrome, drug-induced Parkinson disease, dyspnea,
+eczema, eosinophilic pneumonia, epididymitis, erythema multiforme, exfoliation of skin, exfoliative dermatitis, fever,
+hallucination, hemolytic anemia, hemoptysis, hepatic cirrhosis, hepatic failure, hepatitis, hepatotoxicity
+(idiosyncratic), hypoesthesia, hypotension, hypoxia, impotence, increased intracranial pressure, injection site
+reaction, jaundice, leukocytoclastic vasculitis, malignant neoplasm of skin, pulmonary mass, myasthenia, myopathy,
+neutropenia, optic neuropathy, pancreatitis, pancytopenia, pleural effusion, pleurisy, prolonged QT interval, pruritus,
+pseudotumor cerebri, pulmonary alveolar hemorrhage, pulmonary infiltrates, pulmonary phospholipidosis, renal
+insufficiency, respiratory arrest, respiratory distress syndrome, respiratory failure, rhabdomyolysis, SIADH, sinoatrial
+arrest, sinus node dysfunction, skin carcinoma, skin granuloma, skin rash, skin sclerosis, spontaneous ecchymoses,
+Stevens-Johnson syndrome, superior vena cava syndrome, thrombocytopenia, thyroid cancer, thyroid nodule,
+thyrotoxicosis, tissue necrosis at injection site, toxic epidermal necrolysis, urticaria, vasculitis, vortex keratopathy,
+wheezing, xerostomia
+
+Page 4 of 6
+
+
+
+April 24, 2026, 10:33:46 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases absorption of Amiodarone:
+Orlistat
+
+Decreases metabolism of Amiodarone:
+CYP2C8 Inhibitors, CYP3A4 Inhibitors
+
+Decreases metabolism of the following drugs:
+Codeine, CYP2A6 Substrates, CYP2C9 Substrates, CYP2D6 Substrates [except Tamoxifen], Tramadol
+
+Enhances therapeutic effect of Amiodarone:
+Bretylium (bradycardic and AV blocking effects), Lidocaine (arrhythmogenic effect), Ruxolitinib (bradycardic effect)
+Tofacitinib (bradycardic effect)
+
+Enhances therapeutic effect of the following drugs:
+Beta Blockers [except Levobunolol, Metipranolol] (bradycardic effect), Bradycardia-causing Agents (bradycardic
+effect), Lacosamide (AV blocking effect)
+
+Increases risk of adverse or toxic effects of Amiodarone:
+Cyclophosphamide (pulmonary toxicity), Porfimer (photosensitizing effect), Telaprevir, Verteporfin (photosensitizing
+effect)
+
+Reduces therapeutic effect of the following drugs:
+Codeine, Tramadol (opioid-like effects)
+
+Avoid concomitant use with:
+Decreases bioavailability of Amiodarone:
+Bile acid sequestrants
+
+Decreases metabolism of Amiodarone:
+CYP2C8 Inhibitors, CYP3A4 Inhibitors, Grapefruit Juice
+
+Decreases metabolism of the following drugs:
+Cyclosporine (Systemic), HMG-CoA Reductase Inhibitors [except Pitavastatin, Pravastatin; limit Simvastatin adult
+maximum dose to 20 mg daily; limit Lovastatin adult maximum dose to 40 mg daily], Tamoxifen, Tegafur
+
+Decreases serum concentration of Amiodarone:
+Dabrafenib, Fosphenytoin, Mitotane, Rifampin [including its active metabolite, desethylamiodarone],
+
+Decreases serum concentration of the following drugs:
+Artesunate, Tamoxifen, Tegafur
+
+Enhances therapeutic effect of Amiodarone:
+QTc prolonging effect: Azithromycin (Systemic), Fosphenytoin
+Bradycardic effect: Non-Dihydropyrdine Calcium Channel Blockers e.g., Diltiazem, Daclatasvir
+Arrhythmogenic effect: Fingolimod
+
+Enhances therapeutic effect of Amiodarone:
+
+Page 5 of 6
+
+
+
+April 24, 2026, 10:33:46 PM - https://pnf.doh.gov.ph
+
+QTc prolonging effect: Ivabradine, Lopinavir, Mifepristone, Other QTc-prolonging Agents, Saquinavir,
+Bradycardic effect: Sofosbuvir
+
+Enhances therapeutic effect of the following drugs:
+Antiarrhythmic Agents, Class Ia (QTc prolonging effect),
+Ceritinib (bradycardic effect), Flecainide [when used concomitantly, decrease Flecainide dose by 50%] (QTc
+prolonging effect), Vitamin K Antagonists, e.g., Warfarin (anticoagulant effect)
+
+Increases bioavailability of Amiodarone:
+Grapefruit Juice
+
+Increases metabolism of Amiodarone:
+CYP2C8 Inducers, CYP3A4 Inducers
+
+Increases risk of adverse or toxic effects of the following drugs:
+Loratadine (QT interval prolongation and torsade de pointes), Propafenone (cardiac conduction and repolarization)
+
+Increases serum concentration of Amiodarone:
+Cimetidine, Fusidic Acid (Systemic) Idelalisib, Indinavir, Lopinavir, Nelfinavir, Ritonavir, Saquinavir, Tipranavir
+
+Increases serum concentration of the following drugs:
+Afatinib [reduce Afatinib dose by 10 mg if not tolerated], Antiarrhythmic Agents, Class Ia e.g. Procainamide,
+Artesunate, Bosutinib, Cardiac Glycosides e,g, Digoxin [when used concomitantly, reduce Cardiac Glycosides dose by
+30-50% or reduce frequency of administration], Colchicine (may increase colchicine distribution into certain tissues,
+e.g., brain), Dabigatran Etexilate, Doxorubicin (Conventional), Everolimus, Flecainide [when used concomitantly,
+decrease Flecainide dose by 50%], Lomitapide [limit maximum dose to 30 mg daily], Loratadine, Metoprolol,
+Pazopanib, Pimozide, Propafenone, Silodosin, Thioridazine, Tizanidine [if concomitant use cannot be avoided, initiate
+Tizanidine at an adult dose of 2 mg and increase in 2–4 mg increments based on patient response], Topotecan,
+Vincristine (Liposomal), Vitamin K Antagonists, e.g., Warfarin
+
+Reduces therapeutic effect of the following drugs:
+Agalsidase Alfa, Agalsidase Beta, Sodium Iodide I131
+
+Mechanism of Action
+
+A class III antiarrhythmic agent with alpha- and beta-blocking properties, that acts by inhibiting adrenergic
+stimulation. Amiodarone affects sodium, potassium, and calcium channels and prolongs the action potential duration
+and refractory period in myocardial tissue. It also decreases AV conduction and sinus node function.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 6 of 6

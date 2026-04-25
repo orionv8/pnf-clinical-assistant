@@ -1,0 +1,149 @@
+﻿April 24, 2026, 10:32:02 PM - https://pnf.doh.gov.ph
+
+ALLOPURINOL
+
+Drug Classification
+
+ATC CODE
+
+M04AA01
+
+ANATOMICAL
+
+Musculo-Skeletal System
+
+THERAPEUTIC
+
+Antidiarrheals, Intestinal Antiinflammatory/Antiinfective Agents
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 100 mg tablet (Rx)
+
+ORAL › 300 mg tablet (Rx)
+
+Dosage
+
+ORAL › 100 mg tablet (Rx)
+
+NOTE: Oral doses >300 mg should be given in divided doses. Chronic gout, by mouth, ADULT, initially 100 mg once
+daily, increase at weekly intervals in increments of 100 mg/day as needed to achieve desired serum uric acid level;
+usual dosage range, 200 to 300 mg daily in mild gout; 400–600 mg daily in moderate to severe tophaceous gout
+(maximum daily dose, 800 mg). Management of hyperuricemia associated with chemotherapy and/or radiation
+therapy, by mouth, ADULT, 600–800 mg daily in divided doses; CHILD 6–10 years, 300 mg daily; CHILD <6 years, 150
+mg daily. Recurrent calcium oxalate stones, by mouth, ADULT, 200– 300 mg daily in single or divided doses; may
+adjust dose as needed to control hyperuricosuria.
+
+Administration
+
+ORAL › 100 mg tablet (Rx)
+
+Administer after meals with plenty of fluid. Administer fluids to yield neutral or slightly alkaline urine and an output
+of ~2 L in adults.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:32:02 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+Lower doses are required in renal impairment due to potential for accumulation of allopurinol and metabolites.
+For patients with CrCl 10–20 mL/minute, administer 200 mg daily.
+For patients with CrCl 3–10 mL/minute, administer =100 mg daily.
+For patients with CrCl <3 mL/minute, administer =100 mg/dose at extended intervals.
+When used in the management of hyperuricemia associated with chemotherapy, administer 50% of the dose.
+When used for gout, initiate therapy at 50–100 mg daily, and gradually increase to a maintenance dose to achieve a
+serum uric acid level of =6 mg/dL. Closely monitor serum uric acid levels and for hypersensitivity.
+In patients with stage 4 CKD or worse, initiate therapy at 50 mg daily, increasing the dose every 2–5 weeks to achieve
+desired uric acid levels of =6 mg/dL. Doses >300 mg daily are permitted so long as they are accompanied by
+appropriate patient education and monitoring for toxicity. Some patients may require therapy targeted at a serum
+uric acid level <5 mg/dL to control symptoms.
+In patients undergoing hemodialysis, initiate therapy at 100 mg alternate days given post-dialysis, increase
+cautiously to 300 mg based on response. If dialysis is daily, an additional 50% of the dose may be required post-
+dialysis.
+
+Indications
+
+For chronic gout; management of recurrent calcium oxalate calculi (with uric acid excretion >800 mg daily in men and
+>750 mg daily in women); management of primary or secondary gout (acute attack, tophi, joint destruction, uric acid
+lithiasis, and/or nephropathy); management of hyperuricemia associated with cancer treatment for leukemia,
+lymphoma, or solid tumor malignancies
+
+Contraindications
+
+Severe hypersensitivity reaction to allopurinol or any component of the formulation
+
+Precautions
+
+Allergic reaction (discontinue at first sign of rash);
+
+Bone marrow suppression (use with caution);
+
+Hepatotoxicity (ruse with caution in patients with preexisting hepatic impairment);
+
+Renal impairment (use with caution; adjust doses as recommended);
+
+Full effect on serum uric acid levels in chronic gout may take several weeks to become evident; gradual titration is
+recommended.
+
+Elderly (adjust dose based on renal function);
+
+Lactation (use with caution).
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:32:02 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Skin rash, gout (acute), diarrhea, nausea.
+
+Less Common: Abdominal pain, ageusia, agranulocytosis, alopecia, angioedema, aplastic anemia, arthralgia,
+bronchospasm, cataract, cholestatic jaundice, drowsiness, dysgeusia, dyspepsia, ecchymoses, eczematoid
+dermatitis, eosinophilia, epistaxis, exfoliative dermatitis, fever, gastritis, gynecomastia, headache, hepatic necrosis,
+hepatitis, hepatomegaly, hepatotoxicity (idiosyncratic), hypersensitivity reaction,hyperbilirubinemia, leukocytosis,
+leukopenia, lichen planus, macular retinitis, myopathy, necrotizing angiitis, nephritis, neuritis, neuropathy,
+onycholysis, pancreatitis, paresthesia, pruritus, purpura, renal failure, skin granuloma (annulare), Stevens-Johnson
+syndrome, thrombocytopenia, toxic epidermal necrolysis, toxic pustuloderma, uremia, vasculitis, vesicobullous
+dermatitis, vomiting
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Allopurinol: Thiazide Diuretics e.g. Hydrochlorothiazie (allergic or
+hypersensitivity reactions)
+Increases risk of adverse or toxic effects of the following drugs: Amoxicillin, Ampicillin (allergic or hypersensitivity
+reactions), Bendamustine (severe skin reactions), Cyclophosphamide (bone marrow suppression), Loop Diuretics
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Vitamin K Antagonists, e.g., Warfarin (anticoagulant effect)
+Increases risk of adverse or toxic effects of Allopurinol: ACE Inhibitors (allergic or hypersensitivity reactions)
+Increases risk of adverse or toxic effects of Pegloticase (blunts increases in serum urate)
+Increases serum concentration of the following drugs: Azathioprine [active metabolite/s, specifically
+mercaptopurine] [if concomitant use cannot be avoided, reduce azathioprine dose 1/3 to ¼ of usual dose],
+Didanosine, Mercaptopurine [active thioguanine nucleotides] [if concomitant use cannot be avoided, reduce
+mercaptopurine dose to 1/3 to ¼ of usual dose]
+Reduces absorption of Allopurinol: Antacids [except Sodium Bicarbonate]
+Reduces therapeutic effect of Tegafur
+
+Mechanism of Action
+
+A xanthine oxidase inhibitor that prevents the conversion of hypoxanthine to xanthine and eventually to uric acid. It
+acts on purine catabolism, reducing the production of uric acid without disrupting the biosynthesis of vital purines.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

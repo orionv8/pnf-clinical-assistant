@@ -1,0 +1,98 @@
+﻿April 24, 2026, 10:48:56 PM - https://pnf.doh.gov.ph
+
+BUDESONIDE (OTHER DRUGS FOR OBSTRUCTIVE AIRWAY
+DISEASES, INHALANTS)
+
+Drug Classification
+
+ATC CODE
+
+R03BA02
+
+ANATOMICAL
+
+Respiratory System
+
+THERAPEUTIC
+
+Drugs for Obstructive Airway Disease
+
+PHARMACOLOGICAL
+
+Other Drugs for Obstructive Airway Diseases, Inhalants
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+RESPIR › Inhalation: DPI: 100 micrograms/dose x 200 doses with appropriate accompanying dispenser (Rx)
+
+RESPIR › Inhalation: DPI: 200 micrograms/dose x 100 doses with appropriate accompanying dispenser (Rx)
+
+RESPIR › Inhalation:DPI: 200 micrograms/dose x 200 doses with appropriate accompanying dispenser (Rx)
+
+RESPIR › Respiratory solution for nebulization: 250 micrograms/mL, 2 mL (unit dose) (Rx)
+
+Dosage
+
+RESPIR › Inhalation: DPI: 100 micrograms/dose x 200 doses with appropriate accompanying dispenser (Rx)
+
+NOTE: A low-dose inhaled corticosteroid (in addition to an as-needed short acting beta 2agonist) is the initial
+preferred long-term control medication for children, adolescents, and adult patients with persistent asthma who
+are candidates for treatment according to a step_x0002_wise treatment approach Asthma, by inhalation, ADULT,
+initially 360 micrograms twice daily, some patients may be initiated at 180 micrograms twice daily (maximum, 720
+micrograms twice daily), may increase dose after 1–2 weeks of therapy in patients who are not adequately
+controlled; CHILD ≥6 years, initially 180 micrograms twice daily, some patients may be initiated at 360 micrograms
+twice daily (maximum: 360 micrograms twice daily), may increase dose after 1–2 weeks of therapy in patients who
+are not adequately controlled; by nebulization, CHILD 12 months – 8 years, initially 0.25 mg daily; If previously on
+bronchodilators alone, 0.5 mg daily administered as a single dose or divided twice daily (maximum daily dose, 0.5
+mg); If previously on inhaled corticosteroids, 0.5 mg daily administered as a single dose or divided twice daily
+(maximum daily dose, 1 mg); If previously on oral corticosteroids, 1 mg/day administered as a single dose or divided
+twice daily (maximum daily dose, 1 mg). NOTE: Titrate to lowest effective dose once patient is stable. Conversion
+from oral systemic to orally inhaled corticosteroid. Initiation of oral inhalation therapy should begin in patients
+whose asthma is reasonably stabilized on oral corticosteroids (OCS). A gradual dose reduction of OCS should begin
+~7 to 10 days after starting inhaled therapy.
+
+Page 1 of 2
+
+
+
+April 24, 2026, 10:48:56 PM - https://pnf.doh.gov.ph
+
+Administration
+
+RESPIR › Inhalation: DPI: 100 micrograms/dose x 200 doses with appropriate accompanying dispenser (Rx)
+
+For dry powder inhalers (DPI): Hold inhaler in upright position (mouthpiece up) to load dose. Do NOT shake prior to
+use. Unit should be primed prior to first use only. It will not need to be primed again, even if not used for a long
+time. Place mouthpiece between lips and inhale forcefully and deeply. Do NOT exhale through inhaler. Do NOT use
+a spacer. Dose indicator does NOT move with every dose, usually only after 5 doses. Discard when dose indicator
+reads “0”. Rinse mouth with water after each use to reduce incidence of candidiasis. For respiratory solutions for
+nebulization: Shake well before use. Use with jet nebulizer connected to an air compressor. Administer with
+mouthpiece or facemask. Do NOT use ultrasonic nebulizer. Do NOT mix with other medications in the nebulizer.
+Rinse mouth following treatments to decrease risk of oral candidiasis. Wash face if face mask was used. See
+Budesonide under Nasal Preparations –Decongestants and other nasal preparations for topical use in 12:
+Respiratory System for other information.
+
+Indications
+
+Maintenance and prophylactic treatment of asthma; includes patients who require oral corticosteroids and those
+who may benefit from systemic dose reduction or elimination
+
+Contraindications
+
+Primary treatment of status asthmaticus and acute episodes of asthma
+
+NOTE: NOT for the relief of acute bronchospasm.
+
+Mechanism of Action
+
+A corticosteroid with potent glucocorticoid activity and weak mineralocorticoid activity. It controls the rate of
+protein synthesis, depresses the migration of polymorphonuclear leukocytes, fibroblasts, and reverses capillary
+permeability and lysosomal stabilization at the cellular level to prevent or control inflammation.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 2 of 2

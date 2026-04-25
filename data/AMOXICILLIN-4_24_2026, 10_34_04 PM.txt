@@ -1,0 +1,144 @@
+﻿April 24, 2026, 10:34:05 PM - https://pnf.doh.gov.ph
+
+AMOXICILLIN
+
+Drug Classification
+
+ATC CODE
+
+J01CA04
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Biguanides and Amidines
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [Access] 250 mg capsule (as trihydrate) (Rx)
+
+ORAL › {Access} 500 mg capsule (as trihydrate) (Rx)
+
+ORAL › {Access} 100 mg/mL granules / powder for drops (as trihydrate), 15 mL (Rx)
+
+ORAL › {Access} 250 mg/5 mL granules / powder for suspension (as trihydrate), 60 mL (Rx)
+
+Dosage
+
+ORAL › [Access] 250 mg capsule (as trihydrate) (Rx)
+
+Acute bacterial exacerbation of chronic bronchitis (ABECB), mild moderate infections, by mouth, ADULT, 500mg
+thrice a day for 5-10 days. Acute otitis media, by mouth, CHILD <2 years old, 80-90mg/kg in divided doses every 12
+hours for 10 days; CHILD 2-5 years old, 80-90mg/kg in divided doses every 12 hours for 7 days; , CHILD >5 years old,
+80-90mg/kg in divided doses every 12 hours for 5-7 days; ADULT, 1g every 8 hours for 10 days. Buccal cellulitis, FIND
+DOSE Community Acquired Pneumonia with complete Hib vaccination, by mouth, INFANT and CHILD up to 5 years
+old, 80-90 mg/kg every 12 hours for 5 days. Community Acquired Pneumonia, without co-morbid illness, by mouth,
+ADULT, 1g thrice a day for 5-7 days. Exudative tonsillitis, by mouth, ADULT and CHILD, 50 mg/kg ever 8-12 hours for
+10 days Uncomplicated typhoid fever, by mouth, ADULT, 1g every 6 hours for 14 days; CHILD, 75-100 mg/kg in divided
+doses every 8 hours; maximum daily dose: 500mg, 2 capsules every 6 hours) Leptospirosis, mild, by mouth, CHILD,
+50mg/kg every 8 hours for 7 days; Pre-exposure prophylaxis, by mouth, 50mg/kg every 8 hours for 3-5 days;
+maximum daily dose: 500mg every 8 hours Dental Prophylaxis, by mouth, ADULT, 2g per day; CHILD, 50mg/kg per
+day. Pericoronitis, by mouth, ADULT, 500mg every 8 hours for 7 days.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:34:05 PM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › [Access] 250 mg capsule (as trihydrate) (Rx)
+
+May be taken with or without food. Best taken at the start of meals for better absorption and reduction of GI
+discomfort. Administer around-the-clock to promote less variation in peak and trough serum levels. Appropriate
+amount of suspension may be mixed with formula, milk, fruit juice, water, ginger ale, or cold drinks; administer
+dose immediately after mixing.
+
+Dose Adjustment
+
+Renal Impairment:
+Use of certain dosage forms (i.e. ER 775mg tablet and IR 875mg tablet) should be avoided in patients with ClCr
+<30mL/minute or patients requiring hemodialysis.
+ClCr 10-30mL/minute: 250-500mg every 12 hours.
+ClCr <10mL/minute: 250-500mg every 24 hours.
+Moderately dialyzable (20% to 50%) by hemodialysis or peritoneal dialysis; approximately 50mg of amoxicillin per liter
+of filtrate is removed by continuous arteriovenous or venovenous hemofiltration.
+
+Indications
+
+Treatment of acute bacterial exacerbation of chronic bronchitis, acute otitis media, community acquired pneumonia,
+eradication of H. pylori, uncomplicated typhoid fever, mild leptospirosis, buccal cellulitis, pericoronitis and dental
+prophylaxis; second line treatment for exudative tonsilitis
+
+Contraindications
+
+Hypersensitivity to amoxicillin, penicillin, other claribeta-lactams, or any component of the formulation
+
+Precautions
+
+WARNING: Serious and occasionally severe or fatal hypersensitivity reactions have been reported in patients on
+penicillin therapy.
+
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis;
+A high percentage of patients with infectious mononucleosis have developed rash during therapy; (ampicillin-class
+antibiotics not recommended in these patients);
+Use with caution in patients with renal impairment (dosage adjustment recommended).
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:34:05 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Agitation, anxiety, behavioral changes, confusion, dizziness, headache, hyperactivity, insomnia, seizure, acute
+exanthematous pustulosis, erythematous maculopapular rash, erythema multiforme, exfoliative dermatitis,
+hypersensitivity vasculitis, mucocutaneous candidiasis, SJS, toxic epidermal necrolysis, urticaria, black hairy tongue,
+diarrhea, hemorrhagic colitis, nausea, pseudomembranous colitis, tooth discoloration, vomiting, agranulocytosis,
+anemia, eosinophilia, hemolytic anemia, leukopenia, thrombocytopenia, acute cytolytic hepatitis, ALT increased, AST
+increased, cholestatic jaundice, hepatic cholestasis, crystalluria, anaphylaxis, serum sickness-like reaction.
+
+Drug Interactions
+
+Increases risk of adverse or toxic effects Amoxicillin:
+Allopurinol
+
+Reduces therapeutic effect of Amoxicillin:
+Fusidic acid, Tetracycline derivatives
+
+Reduces therapeutic effect of the following drugs:
+BCG, Typhoid vaccine
+
+Decreases excretion of the following drugs:
+Methotrexate
+
+Decreases serum concentration of the following drugs:
+Mycophenolate
+
+Increases serum concentration of Amoxicillin:
+Probenecid
+
+Mechanism of Action
+
+The extended-spectrum penicillins are a group of semi-synthetic penicillin antibiotics that have a wider spectrum of
+activity than natural penicillins, penicillinase-resistant penicillins, and aminopenicillins. They are more active against
+gram-negative bacteria because they are more resistant to inactivation by extended-spectrum β-lactamases and/or
+because they more readily penetrate the outer membranes of these gram-negative organisms.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

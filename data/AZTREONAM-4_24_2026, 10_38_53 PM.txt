@@ -1,0 +1,112 @@
+﻿April 24, 2026, 10:38:54 PM - https://pnf.doh.gov.ph
+
+AZTREONAM
+
+Drug Classification
+
+ATC CODE
+
+J01DF01
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Nitrofuran Derivatives
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › {Reserve} 1 g powder (Rx)
+
+Dosage
+
+IV › {Reserve} 1 g powder (Rx)
+
+Hospital-acquired and ventilator-associated pneumonia, not at high risk of mortality but with factors increasing
+the likelihood of MRSA, by IV push/ infusion, ADULT, 2g every 8 hours with vancomycin OR linezolid; High risk of
+mortality and with risk factor for MDR, by IV push/ infusion, ADULT, 2g every 8 hours with levofloxacin/amikacin and
+vancomycin/linezolid for 7 days. Community acute bacterial meningitis with severe penicillin allergy, by IV push/
+infusion, ADULT, 2g every 6-8 hours with vancomycin. Pathogen-specific treatment, by IV push/ infusion, ADULT,
+2g every 6 hours with piperacillin-tazobactam OR ceftazidime OR cefepime OR meropenem OR levofloxacin OR
+ciprofloxacin.
+
+Administration
+
+IV › {Reserve} 1 g powder (Rx)
+
+For IM: Administer by deep injection into large muscle mass, such as upper outer quadrant of gluteus maximus or
+the lateral part of the thigh. For IV: Administer by slow IV push over 3-5 minutes or by intermittent infusion over 20-
+60 minutes.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:38:54 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Renal Impairment:
+
+IM, IV: Adults: Following initial dose, maintenance doses should be given as follows:
+
+ClCr 10-30mL/minute: 50% of usual dose at the usual interval.
+
+ClCr <10mL/minute: 25% of usual dosage at the usual interval.
+
+Indications
+
+Treatment of hospital-acquired and ventilator-associated pneumonia, and pathogen-specific infections
+
+Contraindications
+
+Hypersensitivity to aztreonam or any component of the formulation.
+
+Precautions
+
+Rare cross-allergenicity to penicillins and cephalosporins has been reported;
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis. CDAD has been observed >2 months post-antibiotic treatment;
+Use the injectable formulation with caution in patients with renal impairment, dosing adjustment required.
+
+Adverse Drug Reactions
+
+Rash, diarrhea, nausea, vomiting, thrombophlebitis, pain at injection site, abdominal cramps, abnormal taste,
+anaphylaxis, anemia, angioedema, breast tenderness, bronchospasm, chest pain, diaphoresis, dizziness, dermatitis,
+fever, flushing, pancytopenia, paresthesia, petechiae, pruritus, purpura, sneezing, tinnitus, urticaria, vaginitis,
+vertigo, wheezing.
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:38:54 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Reduces therapeutic effect of the following drugs:
+BCG, Typhoid vaccine (Only the live attenuated Ty21a strain is affected.)
+
+Mechanism of Action
+
+They have a narrow and characteristic spectrum of activity which acts by inhibiting bacterial cell wall synthesis due to
+its high affinity for penicillin-binding protein 3 (PBP-3) of gram-negative bacteria. It is also active against most
+Enterobacteriaceae (including E. coli, Citrobacter, Enterobacter, Klebsiella, Proteus, Providencia, Salmonella,
+Serratia, Shigella, Yersinia spp. and Morganella morganii)
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

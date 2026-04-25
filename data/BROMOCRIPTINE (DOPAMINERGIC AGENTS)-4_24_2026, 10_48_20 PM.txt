@@ -1,0 +1,152 @@
+﻿April 24, 2026, 10:48:21 PM - https://pnf.doh.gov.ph
+
+BROMOCRIPTINE (DOPAMINERGIC AGENTS)
+
+Drug Classification
+
+ATC CODE
+
+N04BC01
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Anti-Parkinson Drugs
+
+PHARMACOLOGICAL
+
+Dopaminergic Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 2.5 mg tablet (as mesilate) (Rx)
+
+Dosage
+
+ORAL › 2.5 mg tablet (as mesilate) (Rx)
+
+Hyperprolactinemia, by mouth, ADULT, initially 0.5 to 2.5 mg once daily at bedtime to increase tolerance; slowly
+increase the daily dose by 1.25 to 2.5 mg every 1–2 weeks up to an average of 20–30 mg once daily (maximum, 100
+mg once daily).
+
+Administration
+
+ORAL › 2.5 mg tablet (as mesilate) (Rx)
+
+Administer with food to decrease GI distress.
+
+Dose Adjustment
+
+Hepatic Impairment:
+May require dose adjustment. Undergoes extensive hepatic metabolism. Use with caution.
+
+Indications
+
+Management of hyperprolactinemia.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:48:21 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Uncontrolled hypertension; eclampsia; preeclampsia; pregnancy-induced hypertension; postpartum patients with
+coronary artery disease or other severe cardiovascular conditions.
+
+Precautions
+
+Cardiac valvular fibrosis; cardiovascular effects (e.g., symptomatic hypotension; seizures, hypertension, MI, and
+stroke).
+
+Visual or auditory hallucinations; impulse control disorders; sedation (e.g., sudden sleep onset and somnolence);
+dementia; psychosis.
+
+Melanoma; pleural or retroperitoneal fibrosis (prolonged and high-dose daily use); peptic ulcer disease (severe GI
+bleeding; may be fatal).
+
+Acromegaly (digital vasospasm); diabetic ketoacidosis; macroadenomas; pituitary irradiation; prolactinsecreting
+adenomas.
+
+Elderly (concomitant diseases or drug therapy may complicate therapy).
+
+Pregnancy (a pregnancy test every 4 weeks is recommended as long as no menses occur); lactation.
+
+Adverse Drug Reactions
+
+Common: Hypotension, Raynaud’s phenomenon, syncope, vasospasm (digital), dizziness, fatigue, headache,
+drowsiness, hypoglycemia, nausea, lightheadedness, constipation, anorexia, GI hemorrhage, abdominal cramps,
+dyspepsia, diarrhea, vomiting, xerostomia, increased susceptibility to infection weakness, amblyopia, rhinitis, flu-like
+symptoms, nasal congestion, sinusitis.
+
+Less Common: Abdominal distress, acquired valvular heart disease, alopecia, anxiety, ataxia, blepharospasm, blurred
+vision, bradycardia, cardiac arrhythmia, cerebrovascular accident (postpartum), cold extremities, cold intolerance,
+confusion, constrictive pericarditis, delusions, depression, dyskinesia, dysphagia, dyspnea, epileptiform seizures,
+ergot alkaloids toxicity, erythromelalgia, GI ulcer, hallucination, heavy headedness, MI (postpartum), hypersensitivity
+reaction, hypertension (postpartum), increased cerebrospinal fluid pressure, increased libido, insomnia, lassitude,
+lethargy, muscle cramps, narcolepsy, nervousness, nightmares, onoff phenomenon, pallor, paranoia, paresthesia,
+pericardial effusion, peripheral edema, pleural effusion, psychomotor agitation, psychosis, pulmonary fibrosis,
+retroperitoneal fibrosis, pleurisy, seizure (postpartum), skin mottling, skin rash, status epilepticus (postpartum),
+sleep disorder, tachycardia, tingling of the ears, tinnitus, transient blindness, urinary frequency, urinary
+incontinence, vasodepressor syncope, urinary retention, ventricular tachycardia, vertigo, visual disturbance.
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:48:21 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect (hypoglycemic effect) of Bromocriptine: Alpha-Lipoic Acid, Androgens [except
+Danazol], Hypoglycemia-Associated Agents, MAO Inhibitors [Linezolid, Tedizolid], Pegvisomant, Quinolone
+Antibiotics e.g., Ciprofloxacin, Salicylates e.g. Aspirin
+Enhances therapeutic effect of the following drugs: 5HT3 Antagonists e.g., Ondansetron (serotonergic effect) MAO
+Inhibitors [except Linezolid, Tedizolid] (hypotensive effect) Tedizolid (serotonergic effect)
+Increases risk of adverse or toxic effects of Bromocriptine: Ethyl Alcohol, Methylphenidate Quinolone Antibiotics
+(loss of blood sugar control)
+Increases risk of adverse or toxic effects of the following drugs: 5HT3 Antagonists (serotonin syndrome), Tedizolid
+(serotonin syndrome) Bupropion, Ethyl Alcohol, Methylphenidate MAO Inhibitors [Linezolid] (orthostatic hypotensive)
+Metoclopramide (serotonin syndrome; neuroleptic malignant syndrome)
+Reduces therapeutic effect of Bromocriptine: Hyperglycemia-Associated Agents, Metoclopramide, Thiazide
+Diuretics Quinolone Antibiotics (loss of blood sugar control)
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Bromocriptine: Beta Blockers e.g., Propranolol, Serotonin 5HT1D
+Receptor Agonists (vasoconstricting effect)
+Enhances therapeutic effect of the following drugs: Alpha / Beta Agonists, Alpha1 Agonists (hypertensive effect;
+vasoconstricting effect) Serotonin 5HT1D Receptor Agonists (vasoconstricting effect)
+Increases risk of adverse or toxic effects of Bromocriptine: Beta Blockers (vasoconstricting effect)
+Dapoxetine, Other Serotonin Modulators [except Tedizolid]
+Increases risk of adverse or toxic effects of the following drugs: Dapoxetine, Tizanidine Serotonin Modulators
+[except Tedizolid] (serotonin syndrome)
+Increases serum concentration of Bromocriptine: Anti-hepaciviral Combination Products, CYP3A4 Inhibitors, Fusidic
+Acid (Systemic), Idelalisib, Macrolide Antibiotics [except Systemic Azithromycin, Fidaxomicin, Spiramycin],
+Mifepristone [if concomitant use cannot be avoided, minimize Bromocriptine doses], Nitroglycerin, Protease
+Inhibitors
+Increases serum concentration of the following drugs: Tizanidine [if concomitant use cannot be avoided, initiate at 2
+mg and increase in 2–4 mg increments based on patient response]
+Reduces therapeutic effect of Bromocriptine: Amisulpride, Antipsychotic Agents (First Generation / Typical),
+Antipsychotic Agents (Second Generation / Atypical)
+Reduces therapeutic effect of the following drugs: Amisulpride, Antipsychotic Agents (First Generation / Typical)
+Nitroglycerin (vasodilatory effect)
+
+Mechanism of Action
+
+Bromocriptine is a semisynthetic ergot alkaloid and dopamine agonist with high affinity for the D2 receptor and weak
+a-agonist activity. The dopamine receptor agonist activity also causes inhibition of prolactinsecreting cells in the
+anterior pituitary for the treatment of hyperprolactinemia and for reducing tumor sizes in prolactin-and growth
+hormone-secreting pituitary adenomas.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

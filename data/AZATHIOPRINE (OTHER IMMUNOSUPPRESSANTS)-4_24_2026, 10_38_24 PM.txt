@@ -1,0 +1,149 @@
+﻿April 24, 2026, 10:38:24 PM - https://pnf.doh.gov.ph
+
+AZATHIOPRINE (OTHER IMMUNOSUPPRESSANTS)
+
+Drug Classification
+
+ATC CODE
+
+L04AX01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunosuppressants
+
+PHARMACOLOGICAL
+
+Other Immunosuppressants
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 50 mg tablet (Rx)
+
+Dosage
+
+ORAL › 50 mg tablet (Rx)
+
+Renal transplantation, by mouth, ADULT, initially 3–5 mg/kg daily, usually as a single daily dose, then 1–3 mg/kg daily
+as maintenance [NOTE: Treatment usually started the day of transplant; has been initiated, rarely, 1–3 days prior to
+transplant]. Rheumatoid arthritis, by mouth, ADULT, initially 1 mg/kg daily (50–100 mg) given once daily or divided
+twice daily for 6–8 weeks; may increase by 0.5 mg/kg every 4 weeks until response or up to 2.5 mg/kg daily; an
+adequate trial should be a minimum of 12 weeks; reduce dose by 0.5 mg/kg (~25 mg daily) every 4 weeks until
+lowest effective dose is reached to determine maintenance dose; may be discontinued abruptly but monitor for
+delayed toxicities. Steroid-refractory chronic idiopathic thrombocytopenic purpura, by mouth, the starting dosage
+is 13mg/kg/body weight/day and should be adjusted according to the clinical response and haematological
+tolerance. The maintenance dosage required may range from less than 1 mg/kg body weight/day to 3 mg/kg/body
+weight/day depending on the clinical condition being treated and the individual patient response including
+haematological tolerance.
+
+Administration
+
+ORAL › 50 mg tablet (Rx)
+
+Administering after meals or in divided doses may decrease adverse GI events. NOTE: When used concomitantly
+with allopurinol, reduce azathioprine dose to one-third or one-fourth the usual dose. Patients with low or absent
+TPMT activity may require further dose reductions or discontinuation. Limit exposure to sunlight and ultraviolet
+light by wearing protective clothing and using effective sunscreen to minimize the risk for malignancy.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:38:24 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Start with lowest recommended adult dose. Adjust dose to creatinine clearance.
+
+Renal Impairment:
+For CrCl 10–50mL/minute and patients undergoing CRRT, administer 75% of normal dose.
+For CrCl <10 mL/minute and patients undergoing hemodialysis, administer 50% of normal dose.
+Oliguric patients, particularly those with tubular necrosis in the immediate post-transplant period may have delayed
+clearance, administer lower doses.
+
+Indications
+
+Adjunctive therapy in prevention of rejection of kidney transplants; treatment of active rheumatoid arthritis (RA);
+second line therapy for steroid-refractory chronic idiopathic thrombocytopenic purpura (ITP).
+
+Contraindications
+
+Pregnancy
+
+Precautions
+
+WARNING: Should be prescribed by physicians familiar with the risks, including hematologic toxicities and mutagenic
+potential. Adequate laboratory and supportive medical resources must be readily available. Patients with thiopurine
+methyltransferase (TPMT) activity are at risk for developing severe, lifethreatening myelotoxicity. Conduct TPMT
+testing in abnormally low CBC unresponsive to dose reduction. Consider discontinuation in abnormal blood counts
+unresponsive to dose reduction. Increases risk of developing malignancy. Lymphoma (post-transplant) and
+hepatosplenic Tcell lymphoma (in inflammatory bowel disease) have been reported.
+
+Gastrointestinal toxicity (e.g. severe nausea, vomiting, diarrhea, rash, fever, malaise, myalgia, hypotension, and liver
+enzyme abnormalities)
+
+Hematologic toxicity (dose-related hematologic toxicities, i.e., leukopenia, thrombocytopenia, and anemias,
+including macrocytic anemia or pancytopenia)
+
+Hepatotoxicity; Infections
+
+Malignancy (HSTCL, a rare white blood cell cancer that is usually fatal, may occur)
+
+Elderly (increased toxicity)
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:38:24 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common and Less Common: Abdominal pain, acute myelocytic leukemia, alopecia, arthralgia, bone marrow
+depression, anemia, diarrhea, fever, hemorrhage, hepatic veno-occlusive disease, hepatosplenic T-cell lymphomas,
+hepatotoxicity, hypersensitivity, hypotension, increased susceptibility to infection, interstitial pneumonitis
+(reversible), JC virus infection, leukopenia, macrocytic anemia, malaise, malignant lymphoma, malignant neoplasm of
+skin, myalgia, nausea and vomiting, negative nitrogen balance, neoplasia, pancreatitis, progressive multifocal
+leukoencephalopathy, skin rash, steatorrhea, Sweet's syndrome (acute febrile neutrophilic dermatosis),
+pancytopenia, thrombocytopenia
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Azathioprine: 5-ASA Derivatives, e.g., Mesalazine, Sulfasalazine
+Enhances therapeutic effect of Azathioprine: ACE Inhibitors, e.g., Captopril, Enalapril (myelosuppressive effect),
+Sulfamethoxazole (myelosuppressive effect), Trastuzumab (neutropenic effect), Trimethoprim (myelosuppressive
+effect)
+Increases risk of adverse or toxic effects of Azathioprine: Denosumab (serious infections)
+Increases risk of adverse or toxic effects of Cyclophosphamide (hepatotoxic effect)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+Reduces therapeutic effect of Vitamin K Antagonists, e.g., Warfarin (anticoagulant effect)
+
+Avoid concomitant use with:
+Enhances immunosuppressive effect of Azathioprine: Roflumilast
+Enhances therapeutic effect of the following drugs: Mercaptopurine (myelosuppressive effect) Tofacitinib
+(immunosuppressive effect)
+Increases risk of adverse or toxic effects of Azathioprine: Pimecrolimus, Tacrolimus (Topical)
+Increases risk of adverse or toxic effects of the following drugs: Leflunomide (hematologic toxicity such as
+pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent infection), Live Vaccines
+(infection)
+Increases serum concentration of Azathioprine: Allopurinol, Febuxostat, Ribavirin
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (immune response)
+
+Mechanism of Action
+
+An imidazolyl derivative of mercaptopurine, which incorporates its metabolites into replicating DNA, stopping
+replication. It also blocks the pathway for purine synthesis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 3 of 3

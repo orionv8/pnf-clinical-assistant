@@ -1,0 +1,178 @@
+﻿April 24, 2026, 10:32:24 PM - https://pnf.doh.gov.ph
+
+AMIKACIN (AMINOGLYCOSIDE ANTIBACTERIALS)
+
+Drug Classification
+
+ATC CODE
+
+J01GB06
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Aminoglycoside Antibacterials
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › {Access} 50 mg/mL (as sulfate), 2 mL ampule/vial (Rx)
+
+IM › IV › {Access} 100 mg/mL (as sulfate), 2 mL ampule/vial (Rx)
+
+IM › IV › {Access} 125 mg/mL (as sulfate), 2 mL ampule/vial (Rx)
+
+IM › IV › {Access} 250 mg/mL (as sulfate), 2 mL ampule/vial (Rx)
+
+IM › IV › {Access} 100 mg (as sulfate), vial (Rx)
+
+IM › IV › {Access} 250 mg (as sulfate), vial (Rx)
+
+IM › IV › {Access} 500 mg (as sulfate), vial (Rx)
+
+IM › IV › {Access} 1 g (as sulfate), vial (Rx)
+
+Page 1 of 4
+
+
+
+April 24, 2026, 10:32:24 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+IM / IV › {Access} 50 mg/mL (as sulfate), 2 mL ampule/vial (Rx)
+
+Potential sepsis, by IM injection or IV infusion, NEONATE ≤7 days old ≤2 kg, 15 mg/kg every 48 hours; NEONATE 8-28
+days old ≤2 kg, 15 mg/kg every 24 hours; NEONATE ≤7 days old >2 kg, 15 mg/kg every 24 hours; NEONATE 8-28 days
+old >2 kg, 17.5 mg/kg every 24 hours; with ampicillin Neonatal sepsis, by deep IM injection or IV infusion, NEONATE
+≤7 days old ≤2kg, 15 mg/kg every 48 hours; NEONATE 8-28 days old ≤2kg, 15 mg/kg every 24 hours; NEONATE ≤7
+days old >2kg, 15 mg/kg every 24 hours; NEONATE 8-28 days old >2kg, 17.5 mg/kg every 24 hours; with
+cefotaxime/ceftriaxone with or without oxacillin/vancomycin. Immunocompetent children, intra-abdominal
+source, by IV infusion, CHILD, 15-22.5 mg/kg in divided doses every 8-12 hours or 15-20 mg/kg daily with ampicillin
+and metronidazole OR clindamycin for 10-14 days or longer. Immunocompetent children, urinary source, by IV
+infusion, CHILD, 15-22.5 mg/kg in divided doses every 8-12 hours or 15-20 mg/kg daily with ceftriaxone OR
+cefotaxime for 10-14 days or longer. Bacterial purulent pericarditis, S. aureus, Group A Streptococcus,
+Enterobacteriaceae, S. pneumoniae, by IV infusion, CHILD, 15 mg/kg with vancomycin. Impaired host, neutropenic,
+by IV infusion, CHILD, 15 mg/kg with cefepime OR ceftazidime. Community acute bacterial meningitis, by IM
+injection or IV infusion, INFANT, 15 mg/kg with ampicillin OR cefotaxime dependent on the etiology of bacterial
+meningitis. Community-acquired pneumonia, severe, by IV infusion, NEONATE, 15 mg/kg with ampicillin OR
+penicillin G; High-risk, risk for P. aeruginosa, by IV infusion, ADULT, 15 mg/kg with azithromycin and piperacillin-
+tazobactam/cefepime/meropenem. Hospital-acquired pneumonia, P. aeruginosa, A. baumanii, K. pneumoniae;
+Klebsiella spp., E. coli, Enterobacter spp.; Proteus spp.; Serratia marcesens, by IV infusion, CHILD, 15 mg/kg with
+ceftazidime; High risk of mortality and with risk factor for Multiple Drug Resistance, by IV infusion, ADULT, 15-20
+mg/kg with vancomycin/linezolid AND piperacillin-tazobactam/ cefepime/ meropenem/ aztreonam for 7 days or
+longer. Ventilator-associated pneumonia, with risk factors for Multi-drug resistant VAP and with structural lung
+disease, by IV infusion, ADULT, 15-20 mg/kg with vancomycin/linezolid AND piperacillin-tazobactam/ cefepime/
+meropenem/ aztreonam for 7 days or longer. Pathogen—specific treatment, P. aeruginosa, by IV infusion, CHILD, 15
+mg/kg with ceftazidime; ADULT, 15 mg/kg with levofloxacin OR ciprofloxacin; Acinetobacter species, by IV infusion,
+CHILD, 15 mg/kg in divided doses every 8 hours with meropenem; Burkholderia cepacia, by IV infusion, CHILD, 15
+mg/kg with meropenem; Escherichia coli, by IV infusion, CHILD, 15 mg/kg with Ceftriaxone; Enterobacter, by IV
+infusion, CHILD, 15 mg/kg with meropenem or cefepime.
+
+Administration
+
+IM / IV › {Access} 50 mg/mL (as sulfate), 2 mL ampule/vial (Rx)
+
+For IM: Administer IM injection in large muscle mass. For IV: Infuse over 30 to 60 minutes (children, adolescents and
+adults) or over 1 to 2 hours (infants).
+
+Page 2 of 4
+
+
+
+April 24, 2026, 10:32:24 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Renal Impairment:
+Doses may be adjusted in patients with impaired renal function either by administering normal doses at prolonged
+intervals or by administering reduced doses at fixed intervals. Neither method should be used when dialysis is being
+performed.
+Normal dose at prolonged intervals: If serum creatinine concentration is 2mg/100mL, the recommended single dose
+(7.5 mg/kg) should be administered every 18 hours.
+Reduced dose at fixed interval; Serum amikacin should be measured to avoid concentrations higher than 35 mcg/mL.
+If serum assay determinations are not available and the patient’s condition is stable, serum creatinine and clearance
+values are the most readily available indicators of the degree of renal impairment.to use as guide for dosage.
+
+Indications
+
+Used in combination with beta lactams for the treatment of potential and neonatal sepsis, bacterial purulent
+pericarditis, acute bacterial meningitis in infants, community-acquired pneumonia, hospital-acquired pneumonia,
+ventilator-associated pneumonia, and pathogen-specific infections
+
+Precautions
+
+WARNING: Neurotoxicity, manifested as vestibular and permanent bilateral auditory ototoxicity, can occur in patients
+with preexisting renal damage in patients with normal renal function treated at higher doses and/or periods longer
+than those recommended.
+
+Aminoglycosides are potentially nephrotoxic. The risk of nephrotoxicity is greater in patients with impaired renal
+function and in those who receive high doses or prolonged therapy;
+Neuromuscular blockade and respiratory paralysis have been reported following parenteral injection, topical
+instillation, and following oral use of aminoglycosides;
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis; CDAD has been observed >2 months post-antibiotic treatment.
+
+Adverse Drug Reactions
+
+Less Common: Neurotoxicity, nephrotoxicity, auditory ototoxicity, vestibular ototoxicity.
+Rare: Arthralgia, drowsiness, drug fever, dyspnea, eosinophilia, headache, hypersensitivity reaction, hypotension,
+nausea, paresthesia, skin rash, tremor, vomiting, weakness
+
+Page 3 of 4
+
+
+
+April 24, 2026, 10:32:24 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects Amikacin:
+Amphotericin B, Cephalosporins, Loop diuretics, Vancomycin
+
+Increases risk of adverse or toxic effects of the following drugs:
+Bisphosphonates e.g., Alendronate, Carboplatin Neuromuscular-blocking agents
+
+Reduces therapeutic effect of the following drugs:
+BCG vaccine, Typhoid vaccine
+
+Enhances therapeutic effect of Amikacin:
+Capreomycin
+
+Decreases excretion of Amikacin:
+NSAIDs
+
+Avoid concomitant use with:
+Reduces therapeutic effect of Cholera vaccine
+
+Increases risk of adverse or toxic effects Amikacin:
+Foscarnet, Mannitol
+
+Mechanism of Action
+
+Aminoglycosides are used most widely in combination with a β-lactam antibiotic in serious infections with
+gramnegative bacteria, in combination with vancomycin or a β-lactam antibiotic for gram-positive endocarditis, and
+for treatment of tuberculosis. They are rapid bactericidal irreversible inhibitors of protein synthesis by binding on
+the 30S ribosome.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+REMARKS
+
+WHO anti-biotic category: ACCESS
+
+Page 4 of 4

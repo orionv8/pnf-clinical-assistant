@@ -1,0 +1,136 @@
+﻿April 24, 2026, 10:37:25 PM - https://pnf.doh.gov.ph
+
+ATORVASTATIN
+
+Drug Classification
+
+ATC CODE
+
+C10AA05
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Lipid Modifying Agents
+
+PHARMACOLOGICAL
+
+Hmg CoA Reductase Inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 10 mg tablet (as calcium) (Rx)
+
+ORAL › 20 mg tablet (as calcium) (Rx)
+
+ORAL › 40 mg tablet (as calcium) (Rx)
+
+ORAL › 80 mg tablet (as calcium) (Rx)
+
+Dosage
+
+ORAL › 10 mg tablet (as calcium) (Rx)
+
+NOTE: Individualize starting and maintenance doses according to patient characteristics, such as goal of therapy
+and response. Hyperlipidemia, by mouth, ADULT, initially 10 or 20 mg once daily; usual range, 10–80 mg once daily;
+patients who require an LDL-C reduction of more than 45% may be started at 40 mg once daily. Heterozygous
+Familial Hypercholesterolemia, by mouth, CHILD 10–17 years, initially 10 mg daily (maximum dose, 20 mg daily);
+adjust doses at intervals of 4 weeks or more. Homozygous Familial Hypercholesterolemia, by mouth, ADULT, 10–80
+mg daily.
+
+Administration
+
+ORAL › 10 mg tablet (as calcium) (Rx)
+
+Administer as a single dose at any time of the day, with or without food.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 10:37:25 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+Hemodialysis does not have any significant effect on atorvastatin clearance.
+
+Hepatic Impairment:
+In patients with active liver disease, use is contraindicated
+
+Indications
+
+Adjunct to diet for the reduction of elevated total cholesterol, LDL cholesterol, apolipoprotein B, and triglycerides,
+and elevation HDL cholesterol in patients with primary hypercholesterolemia and combined hyperlipidemia
+
+NOTE: Atorvastatin has not been studied in conditions where the major lipoprotein abnormality is elevation of
+chylomicrons (Fredrickson Types I and V).
+
+Contraindications
+
+Active liver disease, including unexplained persistent elevations in hepatic transaminase levels; pregnancy;
+breastfeeding
+
+Precautions
+
+Skeletal muscle effects (rare cases of rhabdomyolysis with acute renal failure secondary to myoglobinuria have been
+reported; immune-mediated necrotizing myopathy, IMNM, rarely occurs).
+Liver dysfunction (jaundice has been reported; reversible increases in liver function tests may occur); hepatic
+impairment; endocrine function (increased HbA1c and fasting serum glucose levels have been reported).
+CNS toxicity (brain hemorrhage and CNS vascular lesions, characterized by perivascular hemorrhages, edema, and
+mononuclear cell infiltration of perivascular spaces have been observed in animal studies); stroke or TIA (may occur).
+Elderly (use with caution; age ≥65 years is a predisposing factor for myopathy); children (use of doses >20 mg has not
+been studied).
+Pregnancy (crosses the placenta; use with caution; insufficient studies on use during pregnancy); lactation (not
+known if excreted in breastmilk; use with caution).
+
+Page 2 of 3
+
+
+
+April 24, 2026, 10:37:25 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Nasopharyngitis, arthralgia, diarrhea, pain in extremity, urinary tract infection, dyspepsia, nausea,
+musculoskeletal pain, muscle spasms, myalgia, insomnia, pharyngolaryngeal pain
+Less Common and Rare: Rhabdomyolysis, myopathy, liver enzyme abnormalities, malaise, pyrexia, abdominal
+discomfort, eructation, flatulence, hepatitis, cholestasis, muscle fatigue, neck pain, joint swelling, increased
+transaminases and creatine phosphokinase, increased blood alkaline phosphatase, hyperglycemia, nightmare,
+epistaxis, urticaria, vision blurred, tinnitus, positive WBC in urine, anaphylaxis, angioneurotic edema, bullous rashes,
+fatigue, tendon rupture, fatal and non-fatal hepatic failure, dizziness, depression, peripheral neuropathy,
+pancreatitis
+
+Drug Interactions
+
+Monitor closely with:
+Increases distribution of the following drugs:
+Oral Contraceptives [norethindrone; ethinyl estradiol]
+
+Avoid concomitant use with:
+Increases distribution of Atorvastatin:
+Cyclosporine
+
+Increases risk of adverse or toxic effects (myopathy) of Atorvastatin:
+Colchicine (including rhabdomyolysis), Cyclosporine, CYP3A4 Inhibitors, i.e., Clarithromycin, HIV Protease Inhibitors,
+Itraconazole, Fibric Acid Derivatives, Niacin
+
+Increases serum concentration of Atorvastatin:
+CYP3A4 Inhibitors (Strong) i.e., Clarithromycin, HIV Protease Inhibitors, Itraconazole, Grapefruit Juice [avoid
+excessive consumption, i.e., >1.2 L/day]
+
+Mechanism of Action
+
+A selective, competitive inhibitor of 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase, which prevents
+the conversion of HMG-CoA to mevalonate, an early and rate-limiting step in cholesterol biosynthesis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+X
+
+Page 3 of 3
