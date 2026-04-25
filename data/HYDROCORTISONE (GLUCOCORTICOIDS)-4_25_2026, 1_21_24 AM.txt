@@ -1,0 +1,213 @@
+﻿April 25, 2026, 1:21:25 AM - https://pnf.doh.gov.ph
+
+HYDROCORTISONE (GLUCOCORTICOIDS)
+
+Drug Classification
+
+ATC CODE
+
+H02AB09
+
+ANATOMICAL
+
+Systemic Hormonal Preparations, Excluding Sex Hormones and Insulins
+
+THERAPEUTIC
+
+Corticosteroids for Systemic Use
+
+PHARMACOLOGICAL
+
+Glucocorticoids
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 5 mg tablet (Rx)
+
+ORAL › 20 mg tablet (Rx)
+
+IV › 100 mg (as sodium succinate), vial (Rx)
+
+IV › 250 mg (as sodium succinate), vial (Rx)
+
+IV › 125 mg/mL (as sodium succinate), 2 mL vial (Rx)
+
+IM › IV › 50 mg/mL (as sodium succinate), 2 mL vial (Rx)
+
+IV › 125 mg/mL (as Sodium succinate) in 4 mL Vial (IV) (Rx)
+
+Dosage
+
+ORAL › 5 mg tablet (Rx)
+
+Anti-inflammatory, by IV or IM injection, ADULT, 100 to 500 mg 3 or 4 times daily; CHILD, 2–4 mg/kg every 6 hours for
+24 hours, reduce over subsequent 24 hours or change to oral prednisone; by mouth, ADULT, 20–240 mg once daily.
+Initial control of autoimmune disease, by IV injection, ADULT, 100–500 mg 3 or 4 times daily according to severity of
+condition. Status asthmaticus, by IV injection, ADULT and CHILD, 1–2 mg/kg per dose every 6 hours for 24 hours,
+then maintenance of 0.5–1 mg/kg every 6 hours. Physiologic replacement, by mouth, CHILD, 0.4–0.8 mg/m2 daily
+divided in 2–3 divided doses. Stress dosing, surgery in patients who are adrenally-suppressed or on chronic
+systemic steroids, by IV injection, ADULT: Level of Stress: Minor Conditions: Inguinal herniorrhaphy Dose: 25 mg
+for 1 day Level of Stress: Moderate Conditions: Joint replacement, cholecystectomy Dose: 50–75 mg daily (25 mg
+every 8–12 hours) for 1–2 days Level of Stress: Major Conditions: Pancreatico-duodenectomey, esophago-
+gastrectomy, cardiac surgery Dose: 100–150 mg daily (50 mg every 8–12 hours) for 2–3 days
+
+Page 1 of 5
+
+
+
+April 25, 2026, 1:21:25 AM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › 5 mg tablet (Rx)
+
+Give directly or dilute in normal saline or D5W. Administer within 24 hours after diluting.
+
+Dose Adjustment
+
+Renal and Hepatic Impairment:
+For mild-to-moderate impairment, dose reduction is warranted.
+For severe impairment, refer patient to a specialist.
+
+Indications
+
+Management of autoimmune or inflammatory conditions; endocrinal disorders; management of all conditions
+requiring corticosteroids; replacement therapy in cases of adrenocortical insufficiency (usually in combination with a
+more potent mineral corticoid); hypersensitivity reactions, such as anaphylactic shock and angioedema; bilateral
+adrenalectomy
+
+Page 2 of 5
+
+
+
+April 25, 2026, 1:21:25 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Systemic fungal infections; serious infections, except septic shock or tuberculous meningitis; viral, fungal, or
+tubercular skin lesions; infective arthritis, skin or soft tissue infections near joints or a prosthetic joint; concurrent
+administration of live virus vaccines and immunosuppressive doses of corticosteroids; IM administration in
+idiopathic thrombocytopenia purpura; intrathecal administration
+
+Precautions
+
+Adrenal suppression;
+Anaphylactoid reactions;
+Diabetes;
+Immunosuppression;
+Latent TB;
+Kaposi sarcoma;
+Myopathy;
+Myasthenia gravis;
+Psychiatric disturbances;
+Seizure disorders;
+Cardiovascular disease;
+Myocardial infarction;
+GI disease (avoid ethanol since this may enhance gastric mucosal irritation);
+Head injury (high doses should not be used for the management of head injury);
+Ocular disease;
+Hepatic impairment, i.e. cirrhosis, and renal impairment;
+Osteoporosis;
+Thyroid disease;
+Stress (may require higher doses when subject to stress, i.e., trauma, surgery, severe infection);
+Elderly;
+Children;
+Pregnancy (use in early pregnancy may slightly increase the risk of orofacial clefts);
+Lactation (allow a 4-hour interval between administration and breastfeeding).
+
+Adverse Drug Reactions
+
+Common: Acne, adrenal suppression, amenorrhea, bruising, delayed wound healing, dyslipidemia, dyspepsia, edema,
+fat redistribution, fractures, growth retardation, hirsutism, hyperglycemia, hypertension, hypokalemia, increased
+appetite, increased susceptibility to infection, masking of signs of infection, muscle weakness and wasting,
+myopathy, osteoporosis, psychiatric effects, skin atrophy, sodium and water retention, weight gain
+Less Common: Glaucoma, ocular hypertension, osteonecrosis (femoral and humeral heads)
+Rare: Anaphylactoid reaction, chorioretinopathy (central), euphoria, hypersensitivity reactions, hypomania, peptic
+ulceration, tendon rupture
+
+Page 3 of 5
+
+
+
+April 25, 2026, 1:21:25 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Hydrocortisone:
+Trastuzumab (neutropenic effect)
+
+Enhances therapeutic effect of the following drugs:
+Warfarin (anticoagulant effect)
+
+Increases risk of adverse or toxic effects of Hydrocortisone:
+Denosumab (serious infections), Salicylates (GI ulceration and bleeding)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Acetylcholinesterase Inhibitors (increased muscular weakness), Amphotericin B, Thiazide Diuretics, Loop Diuretics
+(hypokalemic effect), Androgens (fluid-retaining effect), COX-2 Inhibitor e.g. Celecoxib, Deferasirox (GI ulceration or
+irritation; GI bleeding), NSAID (Non-selective), Quinolone Antibiotics (tendonitis; tendon rupture),
+
+Reduces absorption of Hydrocortisone:
+Bile Acid Sequestrants
+
+Reduces therapeutic effect of the following drugs:
+Antidiabetic Agents, Calcitriol, Corticorelin (blunts plasma ACTH response to Corticorelin), Urea Cycle Disorder
+Agents (increases protein catabolism and plasma ammonia concentrations, increasing doses of Urea Cycle Disorder
+Agents needed to maintain concentrations in target range)
+
+Reduces diagnostic effect of the following agents:
+Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Decreases bioavailability of Hydrocortisone:
+Antacids [separate doses by at least 2 hours]
+
+Increases risk of adverse or toxic effects of Hydrocortisone:
+Nondepolarazing Neuromuscular-Blocking Agents, (increased muscle weakness, possibly progressing to
+polyneuropathies and myopathies), Pimecrolimus, Tacrolimus (Topical)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Diuretics e.g., Furosemide, Hydrochlorothiazide (hypokalemia), Drugs controlling Blood Glucose Concentration (may
+increase blood glucose concentration; may alter control of diabetes), Leflunomide (hematologic toxicity such as
+pancytopenia, agranulocytosis, and/or thrombocytopenia), Tofacitinib (immunosuppressive effect), Vaccines (Live)
+
+Increases serum concentration of Hydrocortisone:
+Mifepristone
+
+Reduces therapeutic effect of Hydrocortisone:
+Mifepristone
+
+Reduces therapeutic effect of the following drugs:
+Aldesleukin (antineoplastic effect), Amlodipine, Antihypertensives (e.g., Enalapril, Isosorbide Dinitrate, Methyldopa),
+Diuretics (e.g., Furosemide, Hydrochlorothiazide (antagonizes hypotensive effect), BCG (Intravesical),
+
+Page 4 of 5
+
+
+
+April 25, 2026, 1:21:25 AM - https://pnf.doh.gov.ph
+
+Reduces therapeutic effect of the following drugs:
+Hyaluronidase, Vaccines (Inactivated [complete all age-appropriate vaccinations at least 2 weeks prior to starting
+Dexamethasone; if vaccinated during Dexamethasone therapy, revaccinate at least 3 months after discontinuation]),
+Vaccines (Live)
+
+Reduces absorption of the following drugs:
+Calcium Salts
+
+Unknown impact on the therapeutic effect of the following drugs:
+Budesonide EC Tablets (could dissolve prematurely if given with drugs that lower gastric acid)
+
+Mechanism of Action
+
+A glucocorticoid used for replacement therapy in adrenal insufficiency, management of autoimmune and
+inflammatory conditions, and as emergency management of anaphylaxis and severe systemic allergies.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C; D in the 1st trimester
+
+Page 5 of 5

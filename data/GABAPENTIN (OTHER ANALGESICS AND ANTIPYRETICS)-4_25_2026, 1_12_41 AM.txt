@@ -1,0 +1,165 @@
+﻿April 25, 2026, 1:12:42 AM - https://pnf.doh.gov.ph
+
+GABAPENTIN (OTHER ANALGESICS AND ANTIPYRETICS)
+
+Drug Classification
+
+ATC CODE
+
+N03AX12
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Analgesics
+
+PHARMACOLOGICAL
+
+Other Analgesics and Antipyretics
+
+CHEMICAL CLASS
+
+Drugs for Neuropathic Pain
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 100 mg capsule (Rx)
+
+ORAL › 300 mg capsule (Rx)
+
+Dosage
+
+ORAL › 100 mg capsule (Rx)
+
+Postherpetic neuralgia, by mouth, ADULT, Day 1: 300 mg; Day 2: 300 mg twice daily; Day 3: 300 mg 3 times daily;
+titrate dose as needed for pain relief, usually ranging from 1,800–3,600 mg daily in divided doses. Neuropathic pain,
+by mouth, ADULT, initially, 300 mg on the 1st day, 300 mg twice a day on the 2nd day and 300 mg 3 times a day on the
+3rd day; alternatively, 900 mg daily in 3 divided doses; dose may increase in increments of 300 mg every 2–3 days
+(maximum 3,600 mg daily).
+
+Administration
+
+ORAL › 100 mg capsule (Rx)
+
+May be taken with or without food. Administer first dose on first day at bedtime to avoid somnolence and
+dizziness. When given 3 times daily, the maximum time between doses should not exceed 12 hours. Do NOT
+discontinue abruptly because of the possibility of increasing seizure frequency. Withdraw gradually to minimize
+the potential of increased seizure frequency, unless safety concerns require a more rapid withdrawal.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 1:12:42 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Dose reductions may be needed based on renal function.
+
+Renal Impairment:
+Adjust doses for renal function.
+In CrCl =60 mL/minute, administer 300–1,200 mg 3 times daily.
+In CrCl >30 to 59 mL/minute, administer 200–700 mg twice daily.
+In CrCl >15 to 29 mL/minute, administer 200–700 mg once daily.
+In CrCl 15 mL/minute, administer 100–300 mg once daily.
+In CrCl <15 mL/minute, reduce daily dose in proportion to creatinine clearance based on dose for CrCl 15 mL/minute
+(e.g., reduce dose by one-half [range: 50– 150 mg daily] for CrCl 7.5 mL/minute). In ESRD requiring hemodialysis,
+adjust dose based on CrCl plus a single supplemental dose of 125–350 mg after each 4 hours of hemodialysis.
+
+Indications
+
+Management of postherpetic neuralgia (PHN) in adults; neuropathic pain.
+
+Contraindications
+
+Hypersensitivity to gabapentin or any component of the formulation.
+
+Precautions
+
+Mixed seizures including absences; Acute pancreatitis (discontinue if acute pancreatitis develops); Renal
+impairment; Hemodialysis; Not recommended for patients who need to sleep during daytime and remain awake at
+night.
+
+Elderly; Children; Pregnancy (crosses the placenta; adverse events have been observed in animal reproduction
+studies); Lactation (use only if the benefits to the mother outweigh the potential risk to the infant).
+
+SKILLED TASKS. May impair ability to perform tasks, which require mental alertness, like driving or operating
+machinery.
+
+Page 2 of 4
+
+
+
+April 25, 2026, 1:12:42 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Peripheral edema, dizziness, drowsiness, vasodilatation, ataxia, fatigue, hostility, tremor, emotional lability,
+hyperkinesia, abnormality in thinking, headache, abnormal gait, depression, amnesia, nervousness, hyperesthesia,
+lethargy, pain, twitching, vertigo, pruritus, weight gain, skin rash, hyperglycemia, diarrhea, nausea and vomiting,
+xerostomia, constipation, abdominal pain, dyspepsia, dry throat, dental disease, flatulence, increased appetite,
+urinary tract infection, impotence, decreased white blood cell count, leukopenia, infection, weakness, back pain,
+dysarthria, myalgia, bone fracture, limb pain, viral infection, nystagmus, diplopia, blurred vision, conjunctivitis,
+nasopharyngitis, rhinitis, otitis media, bronchitis, pharyngitis, respiratory tract infection, cough, fever.
+
+Less Common: Acute renal failure, altered serum glucose, anemia, angina pectoris, angioedema, aphasia, aspiration
+pneumonia, blindness, blood coagulation disorder, bradycardia, brain disease, breast hypertrophy, bronchospasm,
+cardiac arrhythmia (various), cerebrovascular accident, cardiac failure, colitis, confusion, Cushingoid appearance,
+CNS neoplasm, DRESS syndrome, drug abuse, dyspnea, erythema multiforme, drug dependence, facial paralysis,
+fecal incontinence, gastroenteritis, glaucoma, glycosuria, hearing loss, hematemesis, hematuria, hemiplegia, heart
+block, hemorrhage, hepatitis, hepatomegaly, herpes zoster, hyperlipidemia, hypertension, hyperthyroidism,
+hyponatremia, hypotension, hyperventilation, hypoventilation, hypothyroidism, jaundice, leukocytosis,
+lymphadenopathy, joint swelling, lymphocytosis, memory impairment, meningism, migraine, movement disorder,
+myocardial infarction, myoclonus (local), nerve palsy, nephrolithiasis, nephrosis, non-Hodgkin's lymphoma,
+palpitations, pancreatitis, ovarian failure, paresthesia, peptic ulcer, pericardial effusion, pericardial rub, pericarditis,
+peripheral vascular disease, pneumonia, psychosis, pulmonary thromboembolism, retinopathy, purpura,
+rhabdomyolysis, seasonal allergy, skin necrosis, status epilepticus, Stevens-Johnson syndrome, subdural
+hematoma, suicidal ideation, suicidal tendencies, syncope, tachycardia, thrombophlebitis, tumor growth,
+thrombocytopenia, withdrawal syndrome.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 1:12:42 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances CNS Depressant effect of Gabapentin: Brimonidine (Topical); Doxylamine; Dronabinol; Hydroxyzine;
+Minocycline; Nabilone
+Enhances therapeutic effect of the following drugs: Ethyl alcohol; Mirtazapine (CNS depressant effect); Pramipexole,
+Ropinirole, Rotigotine (sedative effect)
+Increases risk of adverse or toxic effects of Gabapentin: CNS Depressants [except Levocabastine, Nasal];
+Rufinamide (sleepiness and dizziness)
+Increases risk of adverse or toxic effects of SSRIs e.g. Fluoxetine (psychomotor impairment)
+
+Avoid concomitant use with:
+Decreases serum concentration of Gabapentin: Antacids [administer gabapentin at least 2 hours after antacid];
+Magnesium Salts [administer gabapentin at least 2 hours after magnesium salts]; Mefloquine
+Enhances therapeutic effect of Gabapentin: Droperidol; Magneisum salts; Methotrimeprazine [reduce gabapentin
+dose by 50% with concomitant use]; Perampanel; Sodium oxybate; Tapentadol [start tapentadol at one-third to one-
+half of normal dose if used concomitantly] (CNS depressant effect)
+Enhances therapeutic effect of the following drugs: Azelastine, Nasal; Buprenorphine; Hydrocodone [start with a
+20–30% lower hydrocodone dose when used concomitantly]; Methotrimeprazine [reduce gabapentin dose by 50%
+with concomitant use]; Orphenadrine; Paraldehyde; Suvorexant; Thalidomide; Zolpidem (CNS depressant effect)
+Reduces therapeutic effect of Gabapentin: Mefloquine; Mianserin
+
+TEST INTERACTION. May cause a false positive result with the Ames N-Multistix SG® dipstick test for urine protein.
+
+Mechanism of Action
+
+Gabapentin selectively binds to a2d subunits of voltagesensitive calcium channels, causing closure of N and P/Q
+presynaptic calcium channels that diminishes excessive neuronal activity and neurotransmitter release.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

@@ -1,0 +1,129 @@
+﻿April 25, 2026, 1:14:50 AM - https://pnf.doh.gov.ph
+
+GLICLAZIDE
+
+Drug Classification
+
+ATC CODE
+
+A10BB09
+
+ANATOMICAL
+
+Alimentary Tract and Metabolism
+
+THERAPEUTIC
+
+Drugs Used in Diabetes
+
+PHARMACOLOGICAL
+
+Blood Glucose Lowering Drugs, Excluding Insulins
+
+CHEMICAL CLASS
+
+Sulfonylureas
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 80 mg tablet (immediate-release) (Rx)
+
+ORAL › 30 mg MR tablet (Rx)
+
+ORAL › 60 mg MR tablet (Rx)
+
+Dosage
+
+ORAL › 80 mg tablet (immediate-release) (Rx)
+
+NOTE: There is no fixed-dosage regimen for the management of diabetes mellitus with gliclazide. Individualize
+doses based on frequent blood glucose monitoring during dose titration and throughout maintenance. Type 2
+diabetes: by mouth, ADULT, as modified-release tablet, initially 30 mg once daily, titrate in 30 mg increments every
+2 weeks based on blood glucose levels (maximum, 120 mg once daily); as immediate-release tablet, initially 80 mg
+twice daily, titrate based on blood glucose levels, usual dosage range, 80-320 mg daily (maximum, 320 mg daily);
+dosage of ≥160 mg should be divided into 2 equal parts for twice-daily administration.
+
+Administration
+
+ORAL › 80 mg tablet (immediate-release) (Rx)
+
+For oral administration, take immediate-release tablets before meals. Take MR tablets with food to minimize the
+risk of hypoglycemia.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:14:50 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment: In severe renal impairment, avoid use.
+
+Indications
+
+Management of type 2 diabetes mellitus
+
+Contraindications
+
+Type 1 diabetes mellitus (insulindependent, IDDM); diabetic ketoacidosis; diabetic precoma and coma; severe renal or
+hepatic impairment; stress conditions (e.g., serious infection, trauma, surgery); porphyria; pregnancy;
+breastfeeding; sulfonamide “sulfa” allergy (risk of cross-reaction);
+
+Precautions
+
+Acute illness, including MI, coma, trauma, or infection; Hypoglycemia; G6PD deficiency; Renal impairment; Severe
+hepatic disease; Stress-related states e.g. surgery. Elderly; Pregnancy; Lactation (monitor infants).
+
+Adverse Drug Reactions
+
+Common: Dizziness, hypoglycemia, weight gain
+Less Common: Abdominal pain, angina pectoris, arthralgia, arthrosis, back pain, bronchitis, constipation, cough,
+diarrhea, dyspepsia, headache, hypertension, metallic taste, nausea, rash, rhinitis, upper respiratory infection,
+urinary tract infection, viral infection, vomiting
+Rare: Allergic reactions, blood disorders, erythema multiforme, exfoliative dermatitis, fever, hepatic failure,
+hepatitis, jaundice, malaise, photosensitivity, Stevens-Johnson syndrome
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:14:50 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances adverse effect of the following drugs: Alcohol (flushing reaction; decreases blood glucose concentration),
+Beta Blockers [except Levobunolol, Metipranolol] (may mask symptoms of hypoglycemia), Carbocisteine (may
+enhance adverse effects of alcohol present in liquid formulations), Porfimer, Verteporfin (photosensitizing effect)
+Enhances hypoglycemic effect of Gliclazide: Alcohol (masks warning symptoms, Alpha-Lipoic Acid; Androgens
+[except Danazol]; Antidiabetic Agents; Beta Blockers [except Levobunolol, Metipranolol]; Cyclic Antidepressants;
+Fibric Acid Derivatives Hypoglycemia-associated Agents; MAO Inhibitors; Miconazole; Pegvisomant Quinolone
+Antibiotics; Salicylates; SSRIs; Sulfonamide Derivatives; Vitamin K Antagonists, e.g., Warfarin
+Enhances therapeutic effect of Vitamin K Antagonists, e.g., Warfarin (anticoagulant effect)
+Increases risk of adverse or toxic effects of Gliclazide: Dexketoprofen
+Reduces therapeutic effect of Gliclazide: Corticosteroids, systemic, Hyperglycemia-associated Agents, Loop
+Diuretics (hypoglycemic effect), Quinolone Antibiotics (loss of blood sugar control may occur), Thiazide Diuretics
+
+Avoid concomitant use with:
+Decreases serum concentration of Gliclazide: CYP2C9 Inducers, Dabrafenib, Rifampin
+Enhances hypoglycemic effect of Gliclazide: DPP-IV Inhibitors, Glucagon-like Peptide-1 Agonists / GLP1 Agonists,
+Sodium Glucose Cotransporter Inhibitors / SGLT2 Inhibitors (consider dose reduction of gliclazide), Thiazolidinedione
+Increases risk of adverse or toxic effects of Gliclazide: CYP2C9 Inhibitors, Fluconazole, (hypoglycemia)
+Increases risk of adverse or toxic effects of Mecamylamine
+Increases serum concentration of Gliclazide: CYP2C9 Inhibitors, Fluconazole, Mifepristone (monitor closely for
+adverse effects, during and in the 2 weeks following mifepristone treatment)
+Reduces therapeutic effect of Gliclazide: Dabrafenib, Rifampin
+
+Mechanism of Action
+
+A second-generation sulfonylurea, which acts by increasing the pancreatic insulin secretion. Elevated insulin levels
+are only seen with acute exposure to the drug.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

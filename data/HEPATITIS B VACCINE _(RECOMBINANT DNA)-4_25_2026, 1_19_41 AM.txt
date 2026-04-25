@@ -1,0 +1,134 @@
+﻿April 25, 2026, 1:19:41 AM - https://pnf.doh.gov.ph
+
+HEPATITIS B VACCINE (RECOMBINANT DNA)
+
+Drug Classification
+
+ATC CODE
+
+J07BC01
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Vaccines
+
+PHARMACOLOGICAL
+
+Viral Vaccines
+
+CHEMICAL CLASS
+
+Hepatitis Vaccines
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › 10 mcg/0.5 mL, Monodose vial (pediatric) (Rx)
+
+IM › 10 mcg/0.5 mL, 5 mL Vial (10 doses) (Rx)
+
+IM › 20 mcg/mL, Monodose vial (Adult)(For more than 10 years old) (Rx)
+
+IM › 20 mcg/mL, 10 mL Vial (10 doses)(Adult) (Rx)
+
+Dosage
+
+IM › 10 mcg/0.5 mL, Monodose vial (pediatric) (Rx)
+
+Primary immunization, by IM injection, ADULT, three 1 mL doses at 0, 1, and 6 months; ADOLESCENT, CHILD, and
+INFANT, three 0.5 mL doses at 0, 1, and 6 months.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:19:41 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IM › 10 mcg/0.5 mL, Monodose vial (pediatric) (Rx)
+
+For IM administration into the deltoid muscle for adults or into the anterolateral aspect of the thigh in infants and
+young children. Do NOT administer to the gluteal region. Do NOT administer by IV, ID, or SC. Shake well prior to
+withdrawal and use. Do NOT mix with other vaccines or injections. Use different needles and syringes for each
+injection. Administer while patient is seated or lying down to prevent syncope related injuries. NOTE: For patients
+at risk of hemorrhage following IM injection, administer by IM only if, in the opinion of the physician familiar with the
+patient's bleeding risk, the vaccine can be administered by this route with reasonable safety. Use a fine needle (23
+gauge or smaller) and apply firm pressure to the site (without rubbing) for at least 2 minutes. If the patient
+receives anti-hemophilia or other similar therapy, intramuscular vaccination can be scheduled shortly after such
+therapy is administered. Patients on anticoagulant therapy should be considered to have the same bleeding risks
+and treated as those with clotting factor disorders.
+
+Dose Adjustment
+
+Renal Impairment: For adult pre-dialysis and dialysis patients ≥20 years, administer 40 micrograms per dose at 0, 1,
+and 6 months.
+
+Indications
+
+Active immunization against infection caused by all known subtypes of hepatitis B virus (HBV)
+
+Contraindications
+
+Severe allergic or hypersensitivity reaction to yeast, hepatitis B vaccine, or any component of the formulation
+
+Precautions
+
+Anaphylactoid or hypersensitivity reactions (immediate treatment, including epinephrine 1:1000 should be available
+during vaccine use); Syncope (has been reported with use); Acute illness; Bleeding disorders, including
+thrombocytopenia; Multiple sclerosis; Immunodeficiency; Severely compromised cardiopulmonary status;
+Pregnancy (animal reproduction studies have not been conducted); Lactation (not known if excreted into breastmilk).
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:19:41 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common:
+Flushing, hypotension, body pain, chills, dizziness, drowsiness, fatigue, headache, insomnia, irritability, malaise,
+paresthesia, tingling sensation, vertigo, diaphoresis, pruritus, skin rash, urticaria, abdominal pain, anorexia,
+decreased appetite, diarrhea, dyspepsia, nausea, stomach cramps, vomiting, dysuria, lymphadenopathy,
+angioedema, influenza, injection site reactions (bruising, erythema, induration, nodule, itching, soreness, pain,
+swelling, tenderness, warmth), arthralgia, back pain, myalgia, neck pain, neck stiffness, shoulder pain, weakness,
+otalgia, cough, pharyngitis, rhinitis, upper respiratory tract infection, fever
+
+Less Common:
+Acute exacerbations of multiple sclerosis, agitation, alopecia, anaphylactoid reaction, anaphylaxis, apnea, arthritis,
+Bell's palsy, bronchospasm, constipation, eczema, conjunctivitis, encephalitis, erythema nodosum, erythema
+multiforme, febrile seizures, Guillain-Barré syndrome, herpes zoster, hypersensitivity reaction, hypoesthesia,
+increased erythrocyte sedimentation rate, keratitis, lichen planus, limb pain, lupus-like syndrome, meningitis,
+migraine, multiple sclerosis, myasthenia, myelitis, neuritis, neuropathy, optic neuritis, palpitations, paralysis, paresis,
+periarteritis nodosa, peripheral neuropathy, petechia, purpura, radiculopathy, seizure, serum sickness-like reaction,
+Stevens-Johnson syndrome, syncope, systemic lupus erythematosus, tachycardia, thrombocytopenia, tinnitus,
+transverse myelitis, uveitis, vasculitis, visual disturbance
+
+Drug Interactions
+
+Avoid concomitant use with: Reduces therapeutic effect of HBV vaccine:
+Belimumab Fingolimod [administer at least 2 weeks apart; if vaccinated during fingolimod therapy, revaccinate 2–3
+months after fingolimod discontinuation] Immunosuppressants [Cytarabine, Liposomal] [administer at least 2
+weeks apart; if vaccinated during immunosuppressant therapy, revaccinate at least 3 months after
+immunosuppressant discontinuation]
+
+Mechanism of Action
+
+N.B.: Formulations of diferent manufaturers are of equal or similar immunogenicity. Follow strictly the recommended
+dose of each manufacturer.
+
+A noninfectious subunit viral vaccine, which confers active immunity via formation of anti-hepatitis B antibodies. The
+vaccine is derived from hepatitis B surface antigen (HBsAg) produced through recombinant DNA techniques from
+yeast cells.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

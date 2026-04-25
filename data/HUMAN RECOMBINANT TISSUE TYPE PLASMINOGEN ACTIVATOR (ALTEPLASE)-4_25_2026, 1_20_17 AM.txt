@@ -1,0 +1,115 @@
+﻿April 25, 2026, 1:20:18 AM - https://pnf.doh.gov.ph
+
+HUMAN RECOMBINANT TISSUE TYPE PLASMINOGEN
+ACTIVATOR (ALTEPLASE)
+
+Drug Classification
+
+ATC CODE
+
+B01AD02
+
+ANATOMICAL
+
+Blood and Blood Forming Organs
+
+THERAPEUTIC
+
+Antithrombotic Agents
+
+PHARMACOLOGICAL
+
+Enzymes (Antithrombotic Agents)
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 50 mg powder (Rx)
+
+Dosage
+
+IV › 50 mg powder (Rx)
+
+NOTE: Each 1 mg of Alteplase provides 580,000 units of human recombinant tissue plasminogen activator activity.
+INTRAVENOUS Acute ischemic stroke or thrombotic stroke, by IV infusion, ADULT, 0.9 mg/kg over 60 minutes with
+10% of dose as an initial bolus over 1 minute (maximum, 90 mg).
+
+Administration
+
+IV › 50 mg powder (Rx)
+
+Reconstitution of 50-mg vial: Use a large-bore needle, e.g., 18-gauge. Do NOT prime needle with air. Dilute
+contents of vial with SWFI supplied by manufacturer. Direct the stream of sterile water into the lyophilized cake.
+Slight foaming is normal. Allow to stand until bubbles dissipate. The resulting concentration is 1 mg/mL. Start IV
+infusion as soon as possible after the thrombolytic event, preferably within 6 hours. Administer drug as
+reconstituted or further diluted with an equal volume of NS or D5W to yield 0.5 mg/mL. Administer 5 mg as an
+initial bolus over 1 minute, then give the remainder of the 0.75 mg/kg dose over 60 minutes. Follow infusion with
+an IV flush of 30–50 mL of NS or D5W. Do NOT exceed a total dose of 100 mg (higher doses have been associated
+with intracranial bleeding). Do NOT use if vacuum in vial has been broken. NOTE: Spontaneous bleeding occurs
+twice as often with Alteplase than Heparin. Avoid invasive procedures. IM injections are contraindicated. Avoid
+physical manipulation of patient during thrombolytic therapy to prevent bruising.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:20:18 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Management of acute ischemic stroke (within 0–4.5 hours of symptom onset).
+
+Contraindications
+
+Active internal bleeding; history of cerebrovascular accident; recent (within 2 months) intracranial or interspinal
+surgery or trauma; intracranial neoplasm; arteriovenous malformation; bleeding disorders; severe uncontrolled
+hypertension; likelihood of left heart thrombus; acute pericarditis; bacterial endocarditis; severe liver dysfunction;
+age >75; pregnancy; septic thrombophlebitis; concomitant use of oral anticoagulants.
+
+Precautions
+
+WARNING: Avoid administration of Aspirin or IV Heparin within the first 24 hours after treatment. if heparin is
+required for other indications, do NOT exceed 10,000 units per day (SC).
+
+If bleeding occurs, stop the infusion, then resume when bleeding stops. Report any signs of bleeding.
+
+Stop therapy immediately if dysrhythmias occur.
+
+Recent major surgery (within 10 days); risk of bleeding from venipuncture or invasive procedures; cerebral vascular
+disease; acute stroke; recent GI or GU bleeding; recent trauma; Conditions in which thrombolysis might give rise to
+embolic complications such as enlarged left atrium with atrial fibrillation; Hypertension; Hemorrhagic ophthalmic
+conditions; External chest compression; Recent or concurrent use of drugs that increase risk of bleeding; Elderly;
+Children; Lactation.
+
+Adverse Drug Reactions
+
+Common: Internal and superficial bleeding (cerebral, retroperitoneal, GU, GI), hemorrhage at injection site, increased
+blood pressure, decreased pulse, coronary artery reperfusion events (e.g., rhythm disorders, nausea, vomiting,
+headache, muscle pain, fever.
+Rare: Anaphylaxis, other hypersensitivity reactions.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:20:18 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Alteplase:
+Orolingual angioedema: ACE Inhibitors e.g. Enalapril Hemorrhage: Anticoagulants e.g., Warfarin; Antiplatelet Agents,
+e.g., Aspirin; Clopidogrel; Dipyridamole, GP IIb/IIIa Inhibitors e.g. Abciximab
+
+Mechanism of Action
+
+A recombinant DNA-derived form of human tissue-type plasminogen activator (t-PA) used as a thrombolytic agent.
+The agent t-PA promotes thrombolysis by forming the active proteolytic enzyme plasmin, which is capable of
+degrading fibrin, fibrinogen, and factors V, VIII, and XII.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

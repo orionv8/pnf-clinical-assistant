@@ -1,0 +1,133 @@
+﻿April 25, 2026, 1:18:19 AM - https://pnf.doh.gov.ph
+
+HYDROXYUREA
+
+Drug Classification
+
+ATC CODE
+
+L01XX05
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Other Antineoplastic Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 500 mg capsule (Rx)
+
+Dosage
+
+ORAL › 500 mg capsule (Rx)
+
+NOTE: All doses should be based on patient’s actual or ideal weight, whichever is less. CML, as initial therapy and
+for control of hyperleukocytosis in AML -20-30 mg/kg/day; depending on the height of the WBC count, up to 6
+g/day; may require higher doses at extremely high total WBC count. Reduce dose to 1 to 2g/day when total WBC
+count reaches 20 x 109/L; in CML, continue therapy until tyrosine kinase inhibitor (TKI) therapy is started; blood cell
+counts must be monitored closely if used together with TKIs; in AML, discontinue once definitive chemotherapy is
+started; hold therapy for leukopenia or thrombocytopenia, recheck after 3 days and resume if WBC and platelet
+counts normalize. Head and neck carcinoma, by mouth, ADULT, 80 mg/kg single dose every third day; begin
+administration at least 7 days prior to radiation therapy and continue during and after radiation; administer
+radiation therapy at maximum dose. Solid tumors, intermittent therapy, by mouth, ADULT, 80 mg/kg single dose
+every third day; Solid tumors, continuous therapy, by mouth, ADULT, 20–30 mg/kg daily single dose;
+CHILDREN/ADOLESCENTS, 20– 30 mg/kg orally. Polycythemia vera, essential thrombocythemia, primary
+myelofibrosis (cellular phase), by mouth, ADULT, 15 mg/kg once daily. Titrate to control platelets & maintain WBC
+count. ß-thalassemia intermedia, CHILD, starting dose of 10 mg/kg /day with dose escalation of 3-5 mg/kg/day
+every 8 weeks to maximal tolerated dose. Not to exceed 20 mg/kg/day.
+
+Administration
+
+ORAL › 500 mg capsule (Rx)
+
+Taken orally. Capsule contents may be emptied into a glass of water and taken immediately. Some inert material
+used as a vehicle in the capsule may not dissolve and may float on the surface.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:18:19 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+No information found
+
+Indications
+
+Treatment of acute blastic and chronic phases of chronic myelogenous leukemia (CML); management of
+myeloproliferative neoplasms (e.g. essential thrombocythemia, polycythemia vera, primary myelofibrosis,
+hypereosinophilia, ß-thalassemia); cytoreduction in hyperleukocytosis secondary to acute leukemia; treatment of
+sickle cell and thalassemic crisis
+
+Contraindications
+
+Marked bone marrow depression (i.e., leukopenia with <2,500 WBC/mm3 or thrombocytopenia <100,000/mm3);
+severe anemia
+
+Precautions
+
+WARNING: Hazardous agent. Use appropriate precautions for handling and disposal.
+
+Bone marrow suppression (e.g. leukopenia, thrombocytopenia, or anemia; monitor blood status before and
+periodically during treatment; determine hemoglobin, total leukocyte count, platelet count at least once a week;
+address severe anemia with whole blood replacement prior to treatment; during treatment, address anemia with
+whole blood replacement without interrupting hydroxyurea therapy; megaloblastic erythropoiesis is self-limiting and
+may occur without anemia; may delay plasma iron clearance and reduce iron utilization of RBC).
+
+Dermatologic toxicity (e.g. vasculitic ulcerations, gangrene; discontinue treatment if cutaneous vasculitic toxicity
+occurs in myeloproliferative disorders); mucositis (may occur in combination therapy); post-radiation erythema.
+
+Gastric distress (e.g. nausea, vomiting, anorexia; may be controlled by temporary interruption); hepatotoxicity (fatal
+hepatotoxicity has occurred in concomitant use of antiretroviral agents, particularly didanosine with or without
+stavudine); pancreatitis (fatal pancreatitis has occurred in concomitant use of antiretroviral agents, particularly
+didanosine with or without stavudine); renal dysfunction (use with caution).
+
+Elderly (more sensitive to adverse effects).
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:18:19 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+NOTE: Combining hydroxyurea with radiation therapy with may increase the incidence and severity of its side effects.
+
+Common: Bone marrow depression (leukopenia, anemia, thrombocytopenia), drowsiness (large doses), renal tubular
+function impairment (temporary)
+
+Less Common: Abnormal bromsulphalein (BSP) retention, chills, dermatological reactions (maculopapular rash, facial
+erythema), fever, GI symptoms (stomatitis, anorexia, nausea, vomiting, diarrhea, constipation), malaise
+
+Rare: Alopecia, dysuria, neurological disturbances (headache, dizziness, disorientation, convulsion, hallucination)
+
+Drug Interactions
+
+Pancreatitis, hepatotoxicity, and peripheral neuropathy have occurred when hydroxyurea was administered
+concomitantly with antiretroviral drugs, including didanosine and stavudine
+
+Concomitant use with a live virus vaccine may potentiate the replication of the vaccine virus and/or may increase the
+adverse reactions of the vaccine virus and result in severe infections
+
+Interference with uric acid, urea, or lactic acid assays may falsely elevate results in patients treated with hydroxyurea
+
+Mechanism of Action
+
+Inhibitor of ribonucleotide reductase, which causes inhibition of DNA synthesis.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 3 of 3

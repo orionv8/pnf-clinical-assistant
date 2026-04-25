@@ -1,0 +1,95 @@
+﻿April 24, 2026, 11:17:34 PM - https://pnf.doh.gov.ph
+
+GADOBUTROL
+
+Drug Classification
+
+ATC CODE
+
+V08CA09
+
+ANATOMICAL
+
+Various
+
+THERAPEUTIC
+
+Contrast Media
+
+PHARMACOLOGICAL
+
+Magnetic Resonance Imaging Contrast Media
+
+CHEMICAL CLASS
+
+Paramagnetic Contrast Media
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 1.0 mmol/mL solution for injection, 15 mL vial (Rx)
+
+IV › 1.0 mmol/mL solution for injection, 5 mL pre-filled syringe (Rx)
+
+Dosage
+
+IV › 1.0 mmol/mL solution for injection, 15 mL vial (Rx)
+
+Magnetic resonance imaging, by IV injection, ADULT and CHILD, 0.1 mmol/kg (0.1 mL/kg).
+
+Administration
+
+IV › 1.0 mmol/mL solution for injection, 15 mL vial (Rx)
+
+Do not administer other medications in the same IV line simultaneously.
+
+Dose Adjustment
+
+Renal impairment:
+Dose adjustment is not recommended. However, risk for NSF development increases as renal function decreases.
+Gadobutrol is removed by hemodialysis.
+
+Page 1 of 2
+
+
+
+April 24, 2026, 11:17:34 PM - https://pnf.doh.gov.ph
+
+Indications
+
+Use in diagnostic magnetic resonance imaging (MRI) in adults and children.
+
+Contraindications
+
+Severe hypersensitivity reactions to gadobutrol or any component of the formulation.
+
+Precautions
+
+May cause extravasation, gadolinium retention, hypersensitivity reactions, nephrogenic systemic fibrosis;
+Use in caution in patients with renal impairment and seizure disorder.
+
+Adverse Drug Reactions
+
+Less Common:
+Headache and nausea.
+
+Rare:
+Injection site reactions, dysgeusia, feeling hot, dizziness, vomiting, rash, pruritus, erythema, dyspnea, paresthesia,
+cardiac arrest, nephrogenic systemic fibrosis (NSF), and hypersensitivity/anaphylactoid reactions.
+
+Drug Interactions
+
+None known.
+
+Mechanism of Action
+
+Gadobutrol is a gadolinium-containing, nonionic paramagnetic agent. Exposure to an external magnetic field induces
+a large local magnetic field in exposed tissues. The local magnetism disrupts water protons in the vicinity, resulting
+in a change in proton density and spin characteristics which can be detected by imaging device.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 2 of 2

@@ -1,0 +1,164 @@
+﻿April 25, 2026, 1:19:10 AM - https://pnf.doh.gov.ph
+
+HEPARIN SODIUM (UNFRACTIONATED, BOVINE ORIGIN)
+
+Drug Classification
+
+ATC CODE
+
+B01AB01
+
+ANATOMICAL
+
+Blood and Blood Forming Organs
+
+THERAPEUTIC
+
+Antithrombotic Agents
+
+PHARMACOLOGICAL
+
+Heparin Group
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › SC › 1,000 IU/mL, 5 mL vial (IV infusion, SC) (Rx)
+
+IV › SC › 5,000 IU/mL, 5 mL vial (Rx)
+
+IV › SC › 1,000 IU/mL, 30 mL vial (Rx)
+
+IV › SC › 5,000 IU/mL, 30 mL vial (Rx)
+
+Page 1 of 4
+
+
+
+April 25, 2026, 1:19:10 AM - https://pnf.doh.gov.ph
+
+Dosage
+
+IV / SC › 1,000 IU/mL, 5 mL vial (IV infusion, SC) (Rx)
+
+INTRAVENOUS STEMI, as adjunct to fibrinolysis with full-dose alteplase, reteplase, or tenecteplase: by IV infusion,
+ADULT, initially 60 units/kg (maximum, 4000 units), then 12 units/kg every hour (maximum, 1000 units/hour) as
+continuous IV infusion, check aPTT every 4–6 hours; adjust to target of 1.5–2 times the upper limit of control (50–70
+seconds); continue for a minimum of 48 hours, preferably for the duration of hospitalization (up to 8 days) or until
+revascularization. Unstable angina or NSTEMI: by IV bolus, ADULT, initially 60 units/kg (maximum, 4000 units)
+followed by an initial IV infusion of 12 units/kg every hour (maximum, 1000 units/hour); check aPTT every 4–6 hours;
+adjust to target of 1.5–2 times the upper limit of control (50–70 seconds); recommended duration is 48 hours or
+until percutaneous coronary intervention is performed Anticoagulation, intermittent administration: by IV
+infusion, ADULT, initially 10,000 units, then 50 to 70 units/kg (5,000–10,000 units) every 4–6 hours. Maintenance of
+line patency or line flushing: by IV infusion, ADULT and CHILD, 100 units/mL; INFANT, 10 units/mL [NOTE: Capped
+PVC catheters and peripheral heparin locks require flushing more frequently (e.g., every 6–8 hours). The volume of
+heparin flush is similar or slightly greater than the volume of catheter. Additional flushes should be given when
+stagnant blood is observed in catheter, after catheter is used for drug or blood administration, and after blood
+withdrawal from catheter.]. Thromboprophylaxis for venous thromboembolism prevention: by SC injection,
+ADULT, 5,000 units every 8–12 hours; in acutely ill hospitalized medical patients at increased risk of thrombosis and
+selected surgical patients; and for a minimum of 10–14 days is recommended for patients undergoing total hip
+arthroplasty, total knee arthroplasty, or hip fracture surgery. Prophylaxis for cardiac catheterization, arterial
+approach: by IV bolus, CHILD, 100 units/kg. Systemic heparinizatio:, by IV infusion, CHILD, initially 75 units/kg given
+over 10 minutes; adjust dose to maintain aPTT of 60–85 seconds (assuming this reflects an anti-factor Xa level of
+0.35–0.7 units/mL); For maintenance, CHILD >1 year, 20 units/kg per hour; CHILD <1 year, 28 units/kg per hour.
+Pediatric Protocol for Systemic Heparin Adjustment: Obtain blood for aPTT 4 hours after heparin loading dose and
+4 hours after every infusion rate change. Obtain daily CBC and aPTT after aPTT is therapeutic. [aPTT (seconds]: <50
+; [Dose Adjustment]: 50 units/kg bolus and increase rate by 10% ; [Time to repeat aPTT]: 4 h after rate change
+[aPTT (seconds]: 50-59 [Dose Adjustment]: Increase infusion rate by 10%. ; [Time to repeat aPTT]: 4 h after rate
+change [aPTT (seconds]: 60-85 ; [Dose Adjustment]: Keep rate the same ; [Time to repeat aPTT]: Next day [aPTT
+(seconds]: 86-95 ; [Dose Adjustment]: Decrease infusion rate by 10%; [Time to repeat aPTT]: 4 h after rate change
+[aPTT (seconds]: 96-120 ; [Dose Adjustment]: Hold infusion for 30 minutes and decrease infusion rate by 10% ;
+[Time to repeat aPTT]: 4 h after rate change [aPTT (seconds]: >120 ; [Dose Adjustment]: Hold infusion for 60
+minutes and decrease infusion rate by 15% ; [Time to repeat aPTT]: 4 h after rate change SUBCUTANEOUS AND
+INTRAVENOUS Treatment in venous thromboembolism (VTE): by IV or SC injection, ADULT, For patients starting
+intravenous unfractionated heparin (UFH), the initial bolus and initial rate of the continuous infusion should be
+weight-adjusted (bolus 80 units/kg, immediately followed by 18 units/kg/hour for venous thromboembolism (VTE);
+bolus 70 units/kg immediately followed by 15 units/kg/hour for cardiac or stroke patients). Subsequent dose
+adjustment should be guided by monitoring with activated partial thromboplastin time (aPTT) testing 6 hours after
+UFH bolus/infusion is started with therapeutic aPTT range of 1.5 – 2.5 times control. For outpatients with VTE
+treated with subcutaneous UFH, use weight-adjusted dosing (first dose 333 units/kg, then 250 units/kg after 12
+hours and every 12 hours thereafter with no need for monitoring. Unless there are contraindications or further
+plans for surgery, start warfarin on the first or second treatment day and continue heparin until INR is ≥2 for at
+least 24 hours (usually 5–7 days).
+
+Page 2 of 4
+
+
+
+April 25, 2026, 1:19:10 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IV / SC › 1,000 IU/mL, 5 mL vial (IV infusion, SC) (Rx)
+
+For IV administration by continuous IV infusion, infuse via infusion pump. If preparing solution, mix thoroughly
+prior to administration. For IV administration via heparin lock, inject via injection cap using positive pressure
+flushing technique. For IV administration by central venous catheters, flush with heparin solution when newly
+inserted, daily at the time of tubing change, after blood withdrawal or transfusion, and after an intermittent
+infusion through an injectable cap. At least 10 mL of blood should be removed and discarded from a heparinized
+line before blood samples are sent for coagulation testing. For SC administration, injection sites should be
+rotated, usually left and right portions of the abdomen, above iliac crest. Do NOT administer by IM due to pain,
+irritation, and hematoma formation. NOTE: Do NOT use 100 unit/mL concentration to flush heparin locks, IV lines,
+or intraarterial lines in neonates or infants <10 kg as systemic anticoagulation may occur. The 10 unit/mL flush
+concentration may inadvertently cause systemic anticoagulation in infants <1 kg who receive frequent flushes.
+See General Information on Heparin Group under Antithrombotic Agents for further information.
+
+Dose Adjustment
+
+Geriatric:
+Lower doses may be required.
+
+Renal and Hepatic Impairment:
+No dose adjustment required. Adjust therapeutic heparin according to aPTT or anti-Xa activity.
+
+Indications
+
+Prophylaxis and treatment of thromboembolic disorders (e.g, venous thromboembolism, acute arterial thrombosis);
+acute coronary syndrome (e.g., unstable angina, non-ST-elevation myocardial infarction (NSTEMI), ST-elevation
+myocardial infarction (STEMI)); anticoagulant for extracorporeal and dialysis procedures.
+
+Contraindications
+
+Severe thrombocytopenia; uncontrolled active bleeding except when due to disseminated intravascular coagulation
+(DIC); not for use when appropriate blood coagulation tests cannot be obtained at appropriate intervals; neonates;
+infants; pregnant or nursing mothers
+
+Precautions
+
+Thrombocytopenia; Elderly (has higher serum levels and clinical response, e.g., longer aPTTs).
+
+NOTE: NOT interchangeable with Heparin lock flush solution.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 1:19:10 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Allergic vasospastic reaction, chest pain, hemorrhagic shock, shock, thrombosis, chills, fever, headache,
+alopecia, unexplained bruising, cutaneous necrosis, dysesthesia pedis, eczema, urticaria, purpura, adrenal
+hemorrhage, hyperkalemia, ovarian hemorrhage, rebound hyperlipidemia on discontinuation, constipation,
+hematemesis, nausea, tarry stools, vomiting, frequent or persistent erection, bleeding from gums, epistaxis,
+hemorrhage, ovarian hemorrhage, retroperitoneal hemorrhage, thrombocytopenia, liver enzymes increased,
+irritation, erythema, pain, hematoma, and ulceration have been rarely reported with deep SC injections, peripheral
+neuropathy, osteoporosis (chronic therapy), conjunctivitis (allergic reaction), lacrimation, hematuria, asthma,
+hemoptysis, pulmonary hemorrhage, rhinitis, allergic reactions, anaphylactoid reactions, heparin resistance,
+hypersensitivity (including chills, fever, and urticaria)
+Less Common: Erythematous plaques, bronchospasm
+
+TEST INTERACTIONS. Increased thyroxine level (competitive protein binding), increased PT
+
+Mechanism of Action
+
+It is a sulfated mucopolysaccharide prepared from the lungs of oxen or the intestinal mucosa of oxen, pigs, or sheep.
+Heparin inhibits clotting of blood by enhancing the action of antithrombin III, which inhibits the activity of activated
+clotting factors including thrombin (factor IIa) and activated factor X (factor Xa).
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4
