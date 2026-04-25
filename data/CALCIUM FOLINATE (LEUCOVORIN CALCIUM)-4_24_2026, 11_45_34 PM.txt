@@ -1,0 +1,119 @@
+﻿April 24, 2026, 11:45:35 PM - https://pnf.doh.gov.ph
+
+CALCIUM FOLINATE (LEUCOVORIN CALCIUM)
+
+Drug Classification
+
+ATC CODE
+
+V03AF03
+
+ANATOMICAL
+
+Various
+
+THERAPEUTIC
+
+All Other Therapeutic Products
+
+PHARMACOLOGICAL
+
+All Other Therapeutic Products
+
+CHEMICAL CLASS
+
+Detoxifying Agents for Antineoplastic Treatment
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › 10 mg/mL, 5 mL ampule/vial (Rx)
+
+IM › IV INFUSION › 50 mg vial (Rx)
+
+Page 1 of 3
+
+
+
+April 24, 2026, 11:45:35 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+IM / IV › 10 mg/mL, 5 mL ampule/vial (Rx)
+
+High-dose methotrexate rescue, by IM or IV injection, ADULT and CHILD, 15 mg (~10 mg/m^2) 24 hours after
+beginning methotrexate infusion, continue every 6 hours for 10 doses until methotrexate level is <0.05
+micromolar. Adjust dose as follows: Methotrexate elimination type: Normal Serum methotrexate level: ~10
+micromolar at 24 hours; 1 micromolar at 48 hours; <0.2 micromolar at 72 hours Dose adjustment: 15 mg every 6
+hours for 60 hours (10 doses) beginning 24 hours after the start of infusion Methotrexate elimination type: Delayed
+late Serum methotrexate level: >0.2 micromolar at 72 hours; >0.05 micromolar at 96 hours Dose adjustment: 15 mg
+every 6 hours until methotrexate level is <0.05 micromolar Methotrexate elimination type: Delayed early Serum
+methotrexate level: ≥50 micromolar at 24 hours; ≥5 micromolar at 48 hours; doubling of serum creatinine level at
+24 hours Dose adjustment: 150 mg every 3 hours until methotrexate level is <1 micromolar, then 15 mg every 3
+hours until methotrexate level is <0.05 micromolar Methotrexate elimination type: Acute renal injury Serum
+methotrexate level: ≥50 micromolar at 24 hours; ≥5 micromolar at 48 hours; doubling of serum creatinine level at
+24 hours Dose adjustment: 150 mg every 3 hours until methotrexate level is <1 micromolar, then 15 mg every 3
+hours until methotrexate level is <0.05 micromolar High-dose methotrexate overexposure, by IM or IV injection,
+ADULT, Duration: At 24 hours Serum Methotrexate level: ≥100 micromolar Dose adjustment: Initially 1000 mg/m^2
+every 6 hours Serum Methotrexate level: ≥10 to <100 micromolar Dose adjustment: Initially 100 mg/m^2 every 3 or 6
+hours Serum Methotrexate level: ~1 to 10 micromolar Dose adjustment: Initially 10 mg/m^2 every 3 or 6 hours
+Duration: At 48 hours Serum Methotrexate level: ≥100 micromolar Dose adjustment: 1000 mg/m^2 every 6 hours
+Serum Methotrexate level: ≥10 to <100 micromolar Dose adjustment: 100 mg/m^2 every 3 hours Serum
+Methotrexate level: ~1 to 10 micromolar Dose adjustment: 100 mg/m^2 every 6 hours Serum Methotrexate level: ~1
+to 10 micromolar Dose adjustment: 10 to 100 mg/m^2 every 3 hours Duration: At 72 hours Serum Methotrexate
+level: ≥10 micromolar Dose adjustment: 100 to 1000 mg/m^2 every 3 to 6 hours Serum Methotrexate level: ~1 to 10
+micromolar Dose adjustment: 10 to 100 mg/m^2 every 3 hours Serum Methotrexate level: ~0.1 to 1 micromolar Dose
+adjustment: 10 mg/m^2 every 3 to 6 hours NOTE: If serum creatinine is increased more than 50% above baseline,
+increase the standard leucovorin dose to 100 mg/m^2 every 3 hours, then adjust according to methotrexate levels
+above. Follow methotrexate levels daily, leucovorin may be discontinued when methotrexate level is <0.1
+micromolar. Methotrexate overdose, inadvertent (begin as soon as possible after overdose), by IM or IV injection,
+ADULT, 10 mg/m^2 every 6 hours until the methotrexate level is <0.01 micromolar [NOTE: If serum creatinine is
+increased more than 50% above baseline 24 hours after methotrexate administration, if 24 hour methotrexate
+level is >5 micromolar, or if 48 hour methotrexate level is >0.9 micromolar, increase leucovorin dose to 100 mg/m^2
+(IV) every 3 hours until the methotrexate level is <0.01 micromolar]. Cofactor therapy in methanol toxicity, by IV
+injection, ADULT and CHILD, 1 mg/kg over 30–60 minutes every 4–6 hours (maximum dose 50 mg); continue until
+methanol and formic acid have been completely eliminated.
+
+Administration
+
+IM / IV › 10 mg/mL, 5 mL ampule/vial (Rx)
+
+Administer by IV or IM route as a rescue after folate antagonists. Administer by IM injection, IV push, or by IV
+infusion for 15 minutes to 2 hours. Do NOT administer at a rate >160 mg/minute due to calcium content. Do NOT
+administer intrathecally. Do NOT administer IV solutions at a rate >160 mg/minute due to calcium content. NOTE:
+Do NOT administer concurrently with methotrexate. It is commonly initiated 24 hours after the start of
+methotrexate. Toxicity to normal tissues may be irreversible if leucovorin is not initiated by ~40 hours after the
+start of methotrexate. Fluorouracil is usually given after, or at the midpoint, of leucovorin infusion by IV bolus
+injection or short IV infusion over 10–120 minutes. Other administration schedules have been used; refer to
+individual protocols. See Calcium Folinate (Leucovorin Calcium) under Antineoplastic Agents – Adjuncts to
+Antineoplastic Chemotherapy in Chapter 8: Antineoplastic and Immunomodulating Agents for other information.
+
+Page 2 of 3
+
+
+
+April 24, 2026, 11:45:35 PM - https://pnf.doh.gov.ph
+
+Indications
+
+Rescue agent after high-dose methotrexate treatment; to diminish toxicity and counteract the effects of impaired
+methotrexate elimination and of inadvertent overdosage of folic acid antagonists; adjunct cofactor therapy in
+methanol toxicity; antidote for formaldehyde and methyl alcohol poisoning
+
+Contraindications
+
+Pernicious anemia and other megaloblastic anemias secondary to vitamin B12 deficiency
+
+Mechanism of Action
+
+A reduced form of folic acid that supplies the necessary cofactor blocked by methotrexate. It actively competes with
+methotrexate for transport sites, displaces methotrexate from intracellular binding sites, and restores active folate
+stores required for DNA/RNA synthesis. It aids in the elimination of formic acid by serving as a source of
+tetrahydrofolate.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

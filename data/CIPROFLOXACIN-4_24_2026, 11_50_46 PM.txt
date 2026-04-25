@@ -1,0 +1,195 @@
+﻿April 24, 2026, 11:50:46 PM - https://pnf.doh.gov.ph
+
+CIPROFLOXACIN
+
+Drug Classification
+
+ATC CODE
+
+J01MA02
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Quinolone
+
+CHEMICAL CLASS
+
+Second-Generation Fluoroquinolones
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [Watch] 250 mg tablet (as hydrochloride) (Rx)
+
+ORAL › [Watch] 500 mg tablet (as hydrochloride) (Rx)
+
+IV › [Watch] 2 mg/mL (as lactate), 100 mL vial (Rx)
+
+IV › [Watch] 400 mg/200 mL (Rx)
+
+Page 1 of 5
+
+
+
+April 24, 2026, 11:50:46 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › [Watch] 250 mg tablet (as hydrochloride) (Rx)
+
+Sepsis suspect intra-abdominal source, by IV infusion, ADULT, 400 mg every 12 hours with metronidazole. Febrile
+neutropenia, low risk, by mouth, Adult, 750 mg twice daily with amoxicillin-clavulanic acid until patient is afebrile
+and absolute neutrophil count >500cells/μL. Antibacterial prophylaxis, by mouth, ADULT, 500-750 mg; by IV
+infusion, ADULT, 400 mg every 12 hours. Uncomplicated typhoid fever, by mouth, CHILD, 30 mg/kg in divided doses
+every 12 hours for 7-10 days; ADULT, 500 mg 1 tablet every 12 horus for 7-10 days. Complicated typhoid fever, by IV
+infusion, CHILD, 30 mg/kg in divided doses every 12 hours for 7-10 days; ADULT, 400 mg every 12 hours for 7-10
+days. Chronic carrier, by IV infusion, CHILD, 30 mg/kg in divided doses every 12 hours for 4 weeks; by mouth,
+ADULT, 500-750 mg every 12 hours for 28 days. Non-typhoidal salmonellosis, Salmonella gastroenteritis, by IV
+infusion, INFANT ≤3 months old, 10-20 mg/kg in divided doses every 12 hours for 7-10 days. Osteomyelitis, foot
+bone, by mouth, ADULT, 750 mg twice a day, Community acute bacterial meningitis, for severe penicillin allergy, by
+IV infusion, ADULT, 400 mg with vancomycin; For confirmed meningococcal meningitis and not treated with
+Ceftriaxone, by mouth, ADULT, 500 mg. Orbital cellulitis, with serious allergy to Penicillin and/or cephalosporins, by
+mouth, CHILD, 20-30 mg/kg in 2 divided doses with vancomycin; Stage II-IV MRSA not considered, by IV infusion,
+ADULT, 400 mg every 8-12 hours with clindamycin for 10-21 days; Serious allergy to penicillin and/or
+cephalosphorin, by mouth, ADULT, 500-750 mg twice a day with vancomycin for 10-21 days; by IV infusion, ADULT,
+400 mg every 12 hours with vancomycin for 10-21 days. Community-acquired pneumonia, high risk, risk for P.
+aeruginosa, by IV infusion, ADULT, 400 mg every 8-12 hours with azithromycin and gentamicin/ amikacin and
+piperacillin-tazobactam /meropenem/ cefepime. Pathogen-specific treatment, P. aeruginosa, by IV infusion,
+CHILD, 20-30 mg/kg in divided doses every 12 hours with amikacin/ gentamicin and piperacillin-tazobactam/
+meropenem; ADULT, 400 mg every 8 hours with amikacin/ gentamicin; MDR Acinetobacter, by IV infusion, CHILD,
+20-30 mg/kg in divided doses every 12 hours; Klebsiella pneumoniae, by IV infusion, CHILD, 20-30 mg/kg in divided
+doses every 12 hours; Burkholderia cepacia, by IV infusion, CHILD, 20-30 mg/kg in divided doses every 12 hours;
+ADULT, 400 mg every 12 hours; Enterobacter, by IV infusion, CHILD, 20-30 mg/kg in divided doses every 12 hours.
+
+Administration
+
+ORAL › [Watch] 250 mg tablet (as hydrochloride) (Rx)
+
+May be taken with or without food; do not take with antacids, iron or dairy products.
+
+Dose Adjustment
+
+Renal Impairment:
+For mild-to-moderate renal impairment, dose reduction is warranted; for severe impairment, the patient should be
+referred to a specialist.
+
+Hepatic Impairment:
+Same dosage as in patients with normal hepatic function may be used in patients with mild-to-moderate hepatic
+impairment; for severe impairment, refer to a specialist.
+
+Page 2 of 5
+
+
+
+April 24, 2026, 11:50:46 PM - https://pnf.doh.gov.ph
+
+Indications
+
+Restricted use of treatment of severe infections of the GI tract including MDR typhoid fever and Shigella dysentery,
+chancroid; febrile neutropenia, alternative treatment of acute uncomplicated cystitis; meningococcal meningitis
+prophylaxis.
+
+Contraindications
+
+Known history of tendon disorders related to quinolone use; children; concurrent tizanidine use.
+
+Precautions
+
+WARNING:
+Associated with an increased risk of tendinitis and tendon rupture; this risk is further increased in older patients,
+usually those older than 60 years; in kidney, heart, and lung transplant recipients; and with
+the concomitant use of steroid therapy. If tendinitis is suspected, the quinolone should be discontinued
+immediately. Quinolones are contraindicated in patients with a history of quinolone-related tendon
+disorders.
+May exacerbate muscle weakness in patients with myasthenia gravis; avoid quinolones with known history of
+myasthenia gravis.
+History of epilepsy or conditions that predispose to seizures, myasthenia gravis, G6PD deficiency (increased risk of
+hemolytic anemia),
+Risk of crystalluria (avoid excessive alkalinity of urine and ensure adequate fluid intake)
+
+Renal impairment;
+photosensitivity (discontinue if photosensitivity occurs);
+Pregnancy (avoid use; arthropathy reported in animal studies; safer alternatives are available);
+Breastfeeding (amount too small to be harmful; use alternative drugs if possible).
+
+USE IN CHILDREN:
+Ciprofloxacin causes arthropathy in weight-bearing joints of immature animals, and is therefore generally not
+recommended for use in children and growing adolescents. However, the significance of this effect in humans is
+uncertain and in some specific circumstances, short-term use of ciprofloxacin in children may be justified.
+
+SKILLED TASKS:
+May impair ability to perform skilled tasks, e.g., operating machinery or driving.
+
+Page 3 of 5
+
+
+
+April 24, 2026, 11:50:46 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common:
+Abdominal pain, diarrhea, dyspepsia, flatulence, itch, nausea, rash, vomiting.
+
+Less Common:
+agitation, anorexia, arthralgia, arthritis, confusion, decreased appetite and food intake, depression, dizziness,
+drowsiness, hallucinations, fever, headache, myalgia, superinfections, fever, headache, myalgia, superinfections,
+restlessness, sleep and taste disorders, urticaria.
+
+Rare:
+Agranulocytosis, anaphylaxis, bone marrow depression, C. difficile-associated disease, dyspnea, edema, erythema
+multiforme, erythema, hematuria, fixed drug eruptions, hearing loss, hemolytic anemia, interstitial nephritis,
+jaundice, leukopenia, neutropenia, pancreatitis, pancytopenia, petechiae, photosensitivity reactions, psychotic
+reactions, renal impairment, seizures, serum sickness-like reactions, SJS, syncope, tachycardia, tendonitis,
+thrombocytopenia, toxic epidermal necrolysis, vasculitis.
+
+Drug Interactions
+
+NOTE:
+Ciprofloxacin inhibits CYP1A2, and may affect drugs metabolized by this enzyme.
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Ciprofloxacin: Ibuprofen
+Reduces therapeutic effect of Phenytoin
+Decreases metabolism of Theophylline
+Enhances therapeutic effect of Warfarin
+Increases risk of adverse or toxic effects of Warfarin (risk of bleeding) [monitor INR]
+
+Avoid concomitant use with:
+Reduces absorption of Ciprofloxacin:
+Antacids (e.g. aluminum or magnesium hydroxide) [give it at least 2 hours, before, or 4-6 hours after, the antacid],
+Calcium [separate doses by at least 2 hours], Iron
+[separate doses by at least 2 hours], Sucralfate, Zinc salts [separate doses by at least 2 hours]
+Increases risk of adverse or toxic effects of Ciprofloxacin:
+Seizure-inducing drugs, Artemether + Lumefantrine
+
+Mechanism of Action
+
+Quinolones are broad-spectrum antibacterial agents. They act by blocking bacterial DNA synthesis by inhibiting
+bacterial topoisomerase II and topoisomerase IV. Inhibition of topoisomerase II prevents the relaxation of positively
+supercoiled DNA while inhibition of topoisomerase IV interferes with separation of replicated chromosomal DNA.
+
+Page 4 of 5
+
+
+
+April 24, 2026, 11:50:46 PM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+REMARKS
+
+WHO anti-biotic category: WATCH
+
+Page 5 of 5

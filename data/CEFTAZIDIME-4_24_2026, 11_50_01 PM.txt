@@ -1,0 +1,162 @@
+﻿April 24, 2026, 11:50:02 PM - https://pnf.doh.gov.ph
+
+CEFTAZIDIME
+
+Drug Classification
+
+ATC CODE
+
+J01DD02
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Other Beta-Lactam Antibacterials
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › [Watch] 250 mg (as pentahydrate), vial (Rx)
+
+IM › IV › [Watch] 500 mg (as pentahydrate), vial (Rx)
+
+IM › IV › [Watch] 1 g (as pentahydrate), vial (Rx)
+
+IV INFUSION › [Watch] 2 g (as pentahydrate), vial (Rx)
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:50:02 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+IM / IV › [Watch] 250 mg (as pentahydrate), vial (Rx)
+
+Neonatal Sepsis, by deep IM injection or IV push/ infusion, NEONATE ≤7 days old ≤2 kg, 50 mg/kg every 12 hours;
+NEONATE 8-28 days old ≤2 kg, 50 mg/kg every 8-12 hours; NEONATE ≤7 days old >2 kg, 50 mg/kg every 12 hours;
+NEONATE 8-28 days old >2 kg, 50 mg/kg every 8 hours; with gentamicin OR amikacin. Healthcare-associated
+sepsis, by deep IM injection or IV push/ infusion, CHILD, 150-200 mg/kg in divided doses every 8 hours with or
+without amikacin OR vancomycin; maximum daily dose: 6g. Osteomyelitis, hematogenous, long bones, by IV push/
+infusion, ADULT, 2g every 8 hours with vancomycin OR oxacillin for 6-12 weeks. Osteomyelitis, contiguous without
+vascular insufficiency, foot bone, by IV push/ infusion, ADULT, 2g every 8 hours. Long bone or spinal implant, by IV
+push/ infusion, ADULT, 2g every 8 hours with vancomycin 15-20 mg/kg every 8-12 hours. Acute bacterial arthritis
+(gram negative bacilli), by IV push/ infusion, ADULT, 2g every 8 hours. Bone and joint infections, by IV push/
+infusion, ADULT, 2g every 12 hours for 4-6 weeks. Native valve infective endocarditis, healthcare-associated, by IV
+push/ infusion, CHILD, 100-150 mg/kg in divided doses every 8 hours with vancomycin and gentamicin; maximum
+daily dose: 2-4g; ADULT, 2g every 8 hours with vancomycin and gentamicin. Prosthetic valve infective
+endocarditis, gram-negative enteric bacilli, by IV push/ infusion, CHILD, 100-150mg/kg in divided doses every 8
+hours for 6 weeks; maximum daily dose: 2-4g. Impaired host, burn, neutropenic, by IV push/ infusion, ADULT, 2g
+every 8 hours with vancomycin. Anatomic defects, neurological complications, open head trauma, by deep IM
+injection or IV push/ infusion, CHILD, 150 mg/kg in divided doses every 8 hours with vancomycin; ADULT, 2g every 8
+hours with vancomycin. Brain abscess in the presence of chronic otitis media, sinusitis, or mastoiditis, by deep IM
+injection or IV push/ infusion, CHILD, 150 mg/kg in divided doses every 8 hours with metronidazole; ADULT, 2g
+every 8 hours with metronidazole. Dacryocystitis, by IV push/ infusion, CHILD, 100mg/kg divided in 3 doses for 7-14
+days. Acute sinusitis, by IV push/ infusion, ADULT, 2g every 8 hours with vancomycin. Necrotizing otitis externa, by
+IV push/ infusion, CHILD, 100-150mg/kg in divided doses every 8 hours. Hospital-acquired and ventilator-
+associated pneumonia, by IV infusion, CHILD, 100-150 mg/kg in divided doses every 8 hours infused for 15-30
+minutes with vancomycin OR linezolid. Pathogen-specific treatment, P. aeruginosa, by IV push/ infusion, CHILD,
+100-150 mg/kg in divided doses every 8 hours with amikacin OR gentamicin; ADULT, 2g every 8 hours with amikacin
+OR gentamicin OR aztreonam; Achromobacter, by IV push/ infusion, CHILD, 100-150 mg/kg in divided doses every 8
+hours with trimethoprim-sulfamethoxazole; Burkholderia pseudomallei, by IV push/ infusion, CHILD, 100-150
+mg/kg in divided doses every 8 hours with trimethoprim-sulfamethoxazole for 12-24 weeks; ADULT, 2g every 6
+hours for 10-14 days.
+
+Administration
+
+IM / IV › [Watch] 250 mg (as pentahydrate), vial (Rx)
+
+Any carbon dioxide bubbles that may be present in the withdrawn solution should be expelled prior to injection.
+Administer around the clock to promote less variation in peak and trough serum levels. Ceftazidime can be
+administered deep IM into large mass muscle, IVP over 3-5 minutes, or IV intermittent infusion over 15-30 minutes.
+Do not admix with aminoglycosides in same bottle/bag. Final concentration for IV administration should not
+exceed 100mg/mL.
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:50:02 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+IM, IV: Dosage should be based on renal function with a dosing interval not more frequent than every 12 hours.
+
+Renal Impairment:
+ClCr 30-50mL/minute: Administer every 12 hours.
+ClCr 10-30mL/minute: Administer every 24 hours.
+ClCr <10mL/minute: Administer every 48-72 hours.
+Intermittent hemodialysis (IHD) (administer after hemodialysis on dialysis days): Dialyzable (50% to 100%): 0.5-1g
+every 24 hours or 1-2g every 48-72 hours. Note: Dosing dependent on the assumption of 3 times/week, complete IHD
+sessions.
+Peritoneal dialysis (PD): Loading dose of 1g, followed by 500mg every 24 hours.
+Continuous renal replacement therapy (CRRT): Drug clearance is highly dependent on the method of renal
+replacement, filter type, and flow rate. Appropriate dosing requires close monitoring of pharmacologic response,
+signs of adverse reactions due to drug accumulation, as well as drug concentrations in relation to target trough (if
+appropriate). The following are general recommendations only (based on dialysate flow/ultrafiltration rates of 1-
+2L/hour and minimal residual renal function) and should not supersede clinical judgment:
+CVVH: Loading dose of 2g followed by 1-2g every 12 hours.
+CVVHD/CVVHDF: Loading dose of 2g followed by either 1g every 8 hours or 2g every 12 hours. Note: Dosage of 1gg
+every 8 hours results in similar steady-state concentrations as 2g every 12 hours and is more cost effective. Dosage
+of 2g every 8 hours may be needed for gram-negative rods with MIC ≥4mg/L.
+Note: For patients receiving CVVHDF, some recommend giving a loading dose of 2g followed by 3g over 24 hours as a
+continuous IV infusion to maintain concentrations ≥4 times the MIC for susceptible pathogens.
+
+Indications
+
+Treatment of documented susceptible Pseudomonas aeruginosa infection and infections due to other susceptible
+aerobic gram-negative organisms; neonatal sepsis, osteomyelitis, bone and joint infections, necrotizing otitis
+externa, dacryocystitis, acute sinusitis, infective endocarditis.
+
+Precautions
+
+WARNING: Use with caution in patients with a history of penicillin allergy, especially IgE-mediated reactions.
+
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis; CDAD has been observed >2 months post-antibiotic treatment;
+Use with caution in patients with renal impairment modify dosage in severe impairment); Use with caution in patients
+with a history of seizure disorder, high levels, particularly in the presence of renal impairment, may increase risk of
+seizures.
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:50:02 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Less Common: Diarrhea, pain at injection site, hypersensitivity reactions.
+Rare: Anaphylaxis, angioedema, asterixis, BUN increased, candidiasis, creatinine increased, dizziness,
+encephalopathy, eosinophilia, erythema multiforme, hyperbilirubinemia, pruritus, toxic epidermal necrolysis,
+vaginitis, vomiting.
+
+Drug Interactions
+
+Reduces therapeutic effect of the following drugs:
+BCG, Typhoid vaccine (Only the live attenuated Ty21a strain is affected.)
+
+Increases serum concentration of Ceftazidime:
+Probenecid
+
+Mechanism of Action
+
+3rd: Third-generation cephaosphorins include cefoperazone, cefotaxime, ceftazidime, ceftizoxime, ceftriaxone,
+cefixime, cefpodoxime proxetil, cefdinir, cefditoren pivoxil, ceftibuten, and moxalactam. They are active against
+Citrobacter, S marcescens, and Providencia.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 4 of 4

@@ -1,0 +1,267 @@
+﻿April 24, 2026, 11:52:15 PM - https://pnf.doh.gov.ph
+
+CYCLOSPORINE (CICLOSPORIN) (CALCINEURIN INHIBITORS)
+
+Drug Classification
+
+ATC CODE
+
+L04AD01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Immunosuppressants
+
+PHARMACOLOGICAL
+
+Calcineurin Inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 25 mg capsule (Rx)
+
+ORAL › 50 mg capsule (Rx)
+
+ORAL › 100 mg capsule (Rx)
+
+ORAL › 100 mg/mL solution, 50 mL (Rx)
+
+OPHTHALM › 0.05% emulsion, 0.4 mL bottle (Rx)
+
+Page 1 of 7
+
+
+
+April 24, 2026, 11:52:15 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › 25 mg capsule (Rx)
+
+Psoriasis, by mouth, ADULT, initially 2.5 mg/kg daily, divided twice daily; increase by 0.5 mg/kg daily if insufficient
+response is seen after 4 weeks of treatment; additional dose increases may be made every 2 weeks if needed
+(maximum dose, 4 mg/kg daily) [NOTE: Discontinue if no benefit is seen by 6 weeks of therapy at the maximum
+dose. Once adequately controlled, decrease dose to the lowest effective dose; doses lower than 2.5 mg/kg daily
+may be effective; treatment > 1 year is not recommended]. Rheumatoid arthritis, by mouth, ADULT, initially 2.5
+mg/kg daily, divided twice daily; may increase dose by 0.5–0.75 mg/kg daily if insufficient response is seen after 8
+weeks of treatment;additional dose increases may be made again at 12 weeks (maximum dose, 4 mg/kg daily)
+[NOTE: Discontinue if no benefit is seen by 16 weeks of therapy]. Solid organ transplant, newly transplanted
+patients, by mouth, ADULT, administer initial dose 4–12 hours prior to transplant or postoperatively, Organ,Dose,
+and Frequency: Kidney - 9 ± 3 mg/kg daily, 2 divided doses Liver - 8 ± 4 mg/kg daily, 2 divided doses Heart - 7 ± 3
+mg/kg daily, 2 divided doses Blood and marrow transplantation, by mouth, ADULT, initially 12.5–15 mg/kg daily in 2
+divided doses beginning 1 day prior to transplant, then ~12.5 mg/kg daily in 2 divided doses every 12 hours for at
+least 3–6 months as maintenance; gradually decrease dose to zero by 1 year following transplant. [NOTE: Patients
+who develop GVHD after discontinuation of cyclosporine may be reinitiated on therapy with a loading dose of 10–
+12.5 mg/kg followed by the previously established maintenance dose. Patients with mild, chronic GVHD should be
+treated with lowest effective dose]. Nephrotic syndrome, by mouth, ADULT, initially 3.5 mg/kg daily in 2 divided
+doses every 12 hours; titrate for induction of remission and renal function; individualize maintenance dose based
+on proteinuria, serum creatinine, and tolerability and maintained at lowest effective dose (maximum dose: 5 mg/kg
+daily); CHILD,initially 4.2 mg/kg daily in 2 divided doses every 12 hours; titrate for induction of remission and renal
+function; individualize maintenance dose based on proteinuria, serum creatinine, and tolerability and maintained
+at lowest effective dose (maximum dose: 6 mg/kg daily) [NOTE: Discontinue if no improvement is observed after 3
+months.]. Severe aplastic anemia, non-HSCT eligible, by mouth, ADULT and CHILD, 10 to 12 mg/kg per day for at
+least 4 to 6 months. Dosage adjustments may be required to maintain trough blood levels of 200 to 400
+nanograms/mL. In responding children, cyclosporine is continued for a minimum of 12 months, followed by slow
+tapering of the drug (0.25-0.5 mg/kg/month).
+
+Administration
+
+ORAL › 25 mg capsule (Rx)
+
+Administer consistently with relation to time of day and meals. For oral solutions, do NOT administer liquid from
+plastic or styrofoam cup. May dilute with milk, chocolate milk, or orange juice. Avoid changing diluents frequently.
+Mix thoroughly and drink at once. Use syringe provided to measure dose. Mix in a glass container and rinse
+container with more diluent to ensure total dose is taken. Do NOT rinse syringe before or after use to prevent
+dose variation. NOTE: Limit exposure to sunlight and ultraviolet light by wearing protective clothing and using
+effective sunscreen to minimize the risk for malignancy or skin cancer.
+
+Page 2 of 7
+
+
+
+April 24, 2026, 11:52:15 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+Condition:Severe psoriasis and abnormal renal function during treatment
+
+Serum Creatinine Levels:
+Serum creatinine ≥25% above pretreatment levels, consistent for 2 weeks
+Serum creatinine ≥50% above pretreatment levels
+
+Dose Adjustment:
+Decrease dose by 25–50%; discontinue if not reversed after 2 dose adjustments
+
+Condition: Rheumatoid arthritis and abnormal renal function during treatment
+
+Serum Creatinine Levels:
+Serum creatinine level ≥30% above pretreatment levels consistent for 2 weeks
+Dose Adjustment: Reduce dose; discontinue if not reversed within 30 days
+
+Serum Creatinine Levels:
+Serum creatinine level ≥50% above pretreatment levels
+Dose Adjustment:Reduce dose by 50%; discontinue if not reversed within 30 days
+
+Condition: Nephrotic Syndrome
+Dose Adjustment: Initiate at 2.5mg/kg daily
+
+Serum Creatinine Levels:
+Serum creatinine >30% above pretreatment levels, consistent for 2 weeks
+Dose Adjustment:Decrease dose by 25–50%
+
+Hepatic Impairment:
+May require dose reduction. Undergoes extensive hepatic metabolism.
+
+Hypertension:
+If sustained hypertension develops during therapy but there is no history of hypertension, decrease dose by 25–50%
+and discontinue if hypertension persists. Increase frequency of blood pressure monitoring after each dose
+adjustment.
+
+Page 3 of 7
+
+
+
+April 24, 2026, 11:52:15 PM - https://pnf.doh.gov.ph
+
+Indications
+
+Prophylaxis of organ rejection in kidney, liver, and heart transplants; prophylaxis of graft rejection following bone
+marrow transplantation; treatment of chronic organ rejection; treatment of severe, active rheumatoid arthritis (RA)
+not responsive to methotrexate alone; treatment of severe, recalcitrant plaque psoriasis in non-
+immunocompromised adults unresponsive to or unable to tolerate other systemic therapy; induction and
+maintenance of remission in steroid dependent/resistant nephrotic syndrome due to glomerular disease (e.g.
+minimal change nephropathy, membranous glomerulonephritis, focal and segmental glomerulosclerosis);
+maintenance of steroid induced remission in nephrotic syndrome allowing for steroid dose reduction or withdrawal;
+for the treatment of severe aplastic anemia, in combination with Horse ATG; for steroid-refractory chronic immune
+thrombocytopenia
+
+Contraindications
+
+Rheumatoid arthritis and psoriasis patients with abnormal renal function, uncontrolled hypertension, or
+malignancies; concomitant treatment with PUVA or UVB therapy, methotrexate and other immunosuppressive
+agents, coal tar, or radiation therapy in patients with psoriasis; rheumatoid arthritis and psoriasis patients with
+primary or secondary immunodeficiency excluding autoimmune disease, uncontrolled infection, or malignancy
+(excluding nonmelanoma skin cancer)
+
+Precautions
+
+WARNING: Should only be used by physicians experienced in immunosuppressive therapy and management of
+transplant patients. Adequate laboratory and supportive medical resources must be readily available. Some brands
+are not bioequivalent and cannot be used interchangeably.
+
+May cause hypertension.
+
+Increased risk of lymphomas and other malignancies, some fatal, particularly skin cancers.
+
+Renal impairment, including structural kidney damage has occurred (dose-related).
+
+Hyperkalemia; Hyperuricemia Gingival hyperplasia; Rheumatoid arthritis Hepatotoxicity; Nephrotoxicity Infections;
+Malignancy (e.g. skin cancer)
+
+Neurotoxicity (e.g. seizures and encephalopathy)
+
+Thrombotic microangiopathy (syndromes of microangiopathic hemolytic anemia and thrombocytopenia have
+occurred and may result in graft failure in transplant patients)
+
+Page 4 of 7
+
+
+
+April 24, 2026, 11:52:15 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Abdominal distress, diarrhea, dyspepsia, edema, female genital tract disease, gingival hyperplasia,
+headache, hirsutism, hypertension, hypertrichosis, increased susceptibility to infection, leg cramps, nausea,
+paresthesia, renal insufficiency, tremor, upper respiratory tract infection, urinary tract infection, viral infection
+
+Less Common: Anaphylaxis, CNS toxicity, cholestasis, exacerbation of psoriasis, fatigue, gout, hemolytic uremic
+syndrome, hepatitis, hyperbilirubinemia, hyperkalemia, hypertrichosis, hypomagnesemia, impaired consciousness,
+increased susceptibility to infection, hepatic insufficiency, jaundice, malignant lymphoma, migraine, myalgia,
+myopathy/rhabdomyolysis, myositis, papilledema, progressive multifocal leukoencephalopathy, pseudotumor
+cerebri, pulmonary edema (noncardiogenic), renal disease (polyoma virusassociated), reversible posterior
+leukoencephalopathy syndrome, rhabdomyolysis, thrombotic microangiopathy
+
+Page 5 of 7
+
+
+
+April 24, 2026, 11:52:15 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances absorption of Cyclosporine: Metoclopramide
+Enhances therapeutic effect of Cyclosporine: Cyclophosphamide (immunosuppressive effect), Trastuzumab
+(neutropenic effect)
+Enhances therapeutic effect of the following drugs: Neuromuscular-Blocking Agents e.g., Succinylcholine
+Increases risk of adverse or toxic effects of Cyclosporine: Aminoglycosides e.g., Streptomycin, Gentamicin
+(nephrotoxic effect), Amphotericin B (nephrotoxic effect), Angiotensin II Receptor Blockers, e.g. Losartan,
+Candesartan (hyperkalemic effect), Denosumab (serious infections); Melphalan (nephrotoxic effect); Sulfonamide
+Derivatives, e.g. Sulfamethoxazole (nephrotoxic effect)
+Increases risk of adverse or toxic effects of the following drugs: Imipinem (neurotoxic effect), Loop Diuretics, e.g.,
+Furosemide Minoxidil (severe hypertrichosis)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+Reduces therapeutic effect of Glyburide
+
+Avoid concomitant use with:
+Decreases excretion of Cholic Acid
+Decreases metabolism of Etoposide
+Decreases serum concentration of Cyclosporine: Barbiturates, e.g., Phenobarbital, Bosentan, Carbamazepine,
+CYP3A4 Inducers, Dabrafenib, Efavirenz, Enzalutamide, Fibric Acid Derivatives (e.g., Gemifibrozil), Fosphenytoin,
+Mitotane, Orlistat, Phenytoin, Rifamycin Derivatives (e.g., Rifampicin), Somatostatin Analogs
+Decreases serum concentration of Mycophenolate
+Enhances therapeutic effect of Cyclosporine: Echinacea, Roflumilast
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Cyclosporine: Androgens, e.g. Testosterone (hepatotoxic effect)
+Eplerenone (hyperkalemic effect), Foscarnet (nephrotoxic effect), Methotrexate (nephrotoxicity), NSAIDs
+(nephrotoxicity), Pimecrolimus, Potassium-Sparing Diuretics, e.g., Spironolactone (hyperkalemic effect), Sirolimus
+(calcineurin inhibitorinduced hemolytic uremic syndrome / thrombotic thrombocytopenic purpura / thrombotic
+microangiopathy), Tacrolimus (nephrotoxicity), Temsirolimus (calcineurin inhibitor-induced hemolytic uremic
+syndrome / thrombotic thrombocytopenic purpura / thrombotic microangiopathy)
+Increases risk of adverse or toxic effects of the following drugs: Caspofungin, Fibric Acid Derivatives, e.g.,
+Gemfibrozil (nephrotoxic effect), Leflunomide (hematologic toxicity such as pancytopenia, agranulocytosis, and/or
+thrombocytopenia), Methotrexate (nausea, vomiting, oral ulcers, hepatotoxicity and/or nephrotoxicity), Natalizumab
+(concurrent infection), Tacrolimus (nephrotoxic effect), Vaccines, Live (infection)
+Increases serum concentration of Cyclosporine: Amiodarone, Androgens e.g. Testosterone, Azole Derivatives,
+Systemic, e.g., Ketoconazole, Itraconazole [except Fluconazole] Non-dihydropyridine Calcium Channel Blockers (e.g.,
+Verapamil, Diltiazem), carvedilol, chloramphenicol, Crizotinib, CYP3A4 Inhibitors, Dasabuvir, Ezetimibe, Fusidic Acid
+(Systemic), Methotrexate, Mifepristone, NSAIDs, Pravastatin, Protease Inhibitors (e.g. Lopinavir), Ritonavir,
+Simeprevir, Tacrolimus, Telaprevir
+Increases serum concentration of the following drugs: Afatinib, Aliskiren, Ambrisentan, Atorvastatin, Boceprevir,
+Bosentan, Non-dihydropyridine Calcium Channel Blockers (e.g., Verapamil, Diltiazem), Caspofungin, Colchicine
+(enhanced distribution), Dabigatran Etexilate, Doxorubicin (Conventional), Etoposide Phosphate, Everolimus,
+Fluvastatin, Lercanidipine, Methotrexate, Mitoxantrone, NSAIDs, Pazopanib, Pitavastatin, Pravastatin, Protease
+Inhibitors e.g. Lopinavir, Rosuvastatin, Silodosin, Simeprevir, Simvastatin, Tacrolimus, Topotecan, Vincristine
+(Liposomal)
+Reduces therapeutic effect of the following drugs: BCG, Intravesical, Vaccines (immune response)
+
+FOOD INTERACTION. Grapefruit Juice may increase the serum concentration of Cyclosporine by decreasing its
+
+Page 6 of 7
+
+
+
+April 24, 2026, 11:52:15 PM - https://pnf.doh.gov.ph
+
+metabolism.
+
+TEST INTERACTION. Cross-reacts with radioimmunoassay and fluorescence polarization immunoassay.
+
+Mechanism of Action
+
+Inhibits the production and release of interleukin II and inhibits interleukin II-induced activation of resting
+Tlymphocytes.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 7 of 7

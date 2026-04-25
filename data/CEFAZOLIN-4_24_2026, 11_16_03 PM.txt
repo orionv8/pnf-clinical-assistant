@@ -1,0 +1,117 @@
+﻿April 24, 2026, 11:16:04 PM - https://pnf.doh.gov.ph
+
+CEFAZOLIN
+
+Drug Classification
+
+ATC CODE
+
+J01DB04
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Other Beta-Lactam Antibacterials
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › {Access} 500 mg (as sodium salt), vial (Rx)
+
+IM › IV › {Access} 1 g (as sodium salt), vial (Rx)
+
+Dosage
+
+IM / IV › {Access} 500 mg (as sodium salt), vial (Rx)
+
+Staphylococcal toxic shock syndrome, by IV injection/ infusion, CHILD, 75-100 mg/kg in divided doses every 8
+hours; maximum daily dose: 3-6g. Osteomyelitis, contiguous focus, MSSA, mild to moderate, by IV injection/
+infusion, CHILD, 50 mg/kg in 3 doses; maximum daily dose: 4g; Severe, by IV injection/ infusion, CHILD, 100-150
+mg/kg in 3 doses; maximum daily dose: 6g. Septic bursitis, MSSA, by IV injection/ infusion, ADULT, 2g every 8 hours
+for 14-21 days. Prosthetic joint infection, MSSA, by IV injection/ infusion, ADULT, 2g every 8 hours with rifampin for
+2-6 weeks. Native valve infective endocarditis, MSSA, by IV injection/ infusion, ADULT, 2g every 8 hours for 6
+weeks. Dental prophylaxis, by deep IM injection or IV injection/ infusion, CHILD, 50 mg/kg; ADULT, 1g. Central-line
+associated bloodstream infection, MSSA, by IV injection/ infusion, ADULT, 2g every 8 hours. Dacryocystitis, by IV
+injection/ infusion, ADULT, 2g every 8 hours for 7-14 days.
+
+Administration
+
+IM / IV › {Access} 500 mg (as sodium salt), vial (Rx)
+
+For IM: Inject deep IM into large muscle mass. For IV: Inject direct IV over 5 minutes or may infuse as an intermittent
+infusion over 3060 minutes.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 11:16:04 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Renal Impairment:
+Adults:
+ClCr 35-54mL/minute or SrCr 1.6-3mg%: Full dose every 8 hours or longer; ClCr 11-34mL/minute or SrCr 3.1-4.5mg%:
+1/2 usual dose every 12 hours; ClCr ≤10mL/minute or SrCr ≥4.6mg%: 1/2 usual dose every18-24 hours.
+Pediatrics:
+ClCr 41-70mL/minute: 60% of usual dose given in equally divided doses every 12 hours; ClCr 21-40mL/minute: 25% of
+usual dose given in equally divided doses every 12 hours; ClCr ≤5-20mL/minute: 10% of usual dose given in equally
+divided doses every 24 hours.
+
+Indications
+
+Treatment of staphylococcal toxic shock syndrome, osteomyelitis, septic bursitis, prosthetic joint infection, native
+valve infective endocarditis, central-line associated bloodstream infection, dacryocystitis, and dental prophylaxis
+
+Contraindications
+
+Known allergy to the cephalosporin group of antibiotics.
+
+Precautions
+
+Monitor patients for: Elevated INR, Penicillin Allergy, Superinfection;
+Use with caution in patients with: Renal Impairment, Seizure Disorders.
+
+Adverse Drug Reactions
+
+Diarrhea, oral candidiasis, stomach cramps, anorexia, anaphylaxis, eosinophilia, itching, skin rash, leukopenia,
+thrombocytopenia, hepatitis, genital or anal pruritus
+
+Page 2 of 3
+
+
+
+April 24, 2026, 11:16:04 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Increases serum concentration of Cefazolin:
+Probenecid
+
+Increases risk of adverse or toxic effects of the following drugs:
+Fosphenytoin, Phenytoin, Vitamin K Antagonists (eg, warfarin)
+
+Reduces therapeutic effect of the following drugs:
+BCG Vaccine (Immunization), Typhoid Vaccine
+
+Mechanism of Action
+
+1st: First-generation cephalosporins include cefazolin, cefadroxil, cephalexin, cephalothin, cephapirin, and
+cephradine. These drugs are very active against gram-positive cocci.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

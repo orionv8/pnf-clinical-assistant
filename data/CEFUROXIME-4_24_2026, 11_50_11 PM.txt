@@ -1,0 +1,149 @@
+﻿April 24, 2026, 11:50:12 PM - https://pnf.doh.gov.ph
+
+CEFUROXIME
+
+Drug Classification
+
+ATC CODE
+
+J01DC02
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Other Beta-Lactam Antibacterials
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [Watch] 500 mg tablet (as axetil) (Rx)
+
+ORAL › [Watch] 125 mg/5 mL granules for suspension (as axetil), 70 mL (Rx)
+
+ORAL › [Watch] 250 mg/5 mL granules for suspension, 120mL (Rx)
+
+IM › IV › [Watch] 250 mg, vial (Rx)
+
+IM › IV › [Watch] 750 mg, vial (Rx)
+
+IV INFUSION › [Watch] 1.5 g (as sodium salt), vial (Rx)
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:50:12 PM - https://pnf.doh.gov.ph
+
+Dosage
+
+ORAL › [Watch] 500 mg tablet (as axetil) (Rx)
+
+Acute otitis media, no anaphylaxis, by mouth, CHILD, 30 mg/kg every 12 hours for 10 days (<2 years old), 7 days (2-5
+years old), 5-7 days (>5 years old); ADULT, 500mg-1g in divided doses every 12 hours for 7 days. Acute otitis media,
+clinical failure after 3 days, by mouth, CHILD, 30 mg/kg in divided doses every 12 hours for 10 days (2yrs old OR
+severe symptoms regardless of age), 5-7 days (>2yrs with mild or moderate disease). Acute bacterial exacerbation
+of chronic bronchitis (ABECB), by mouth, ADULT, 500mg twice a day for 5-10 days Community-acquired pneumonia,
+non-severe, by mouth, CHILD >40 kg, 20-30 mg/kg in divided doses every 12 hours for 7days; Severe, with no Hib
+vaccination or incomplete or unknown vaccination history, by mouth, CHILD, 100 mg/kg in divided doses every 8
+hours. With stable co-morbid illness, by mouth, ADULT, 500 mg twice a day for 5-7 days or 3-5 days if using with
+azithromycin. Recurrent pharyngitis, by mouth, CHILD, 20 mg/kg in divided doses every 12 hours for 10 days;
+ADULT, 500mg-1g every 12 hours for 10 days. Deep neck abscess/ Retropharyngeal abscess, by mouth, CHILD, 20-
+30 mg/kg in divided doses every 12 hours with metronidazole 10 mg/kg in divided doses every 6 hours for at least 7
+days; ADULT, 500mg twice daily with metronidazole 500mg every 8 hours for at least 7 days. Acute bacterial
+rhinosinusitis, with severe penicillin allergy, by mouth, CHILD, 30 mg/kg in divided doses every 12 hours for 10 days;
+ADULT, 500 mg twice daily for 5-7 days. Acute sinusitis (clinical failure after 3 days), by mouth, ADULT, 500mg twice
+daily for 7-10 days.
+
+Administration
+
+ORAL › [Watch] 500 mg tablet (as axetil) (Rx)
+
+For Oral suspension: Administer with food. Shake well before use. For IM: Inject deep IM into large muscle mass.
+For IV: Inject direct IV over 3-5 minutes. Infuse intermittent infusion over 15-30 minutes.
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing.
+
+Renal Impairment:
+CrCl 10-20mL/minute: Administer every 12 hours.
+CrCl <10mL/minute: Administer every 24 hours.
+Hemodialysis: Dialyzable (25%).
+Peritoneal dialysis: Dose every 24 hours.
+Continuous renal replacement therapy (CRRT): 1g every 12 hours.
+
+Indications
+
+Treatment of infections caused by methicillin sensitive staphylococci, group B streptococci, H. influenzae (type A and
+B), E. coli, Enterobacter, Salmonella, and Klebsiella; treatment of susceptible infections of the upper and lower
+respiratory tract, otitis media
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:50:12 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to cefuroxime, any component of the formulation, or other cephalosporins.
+
+Precautions
+
+WARNING: Use with caution in patients with a history of penicillin allergy.
+
+May be associated with increased INR, especially in nutritionally-deficient patients, prolonged treatment, hepatic or
+renal disease; Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated
+diarrhea (CDAD) and pseudomembranous colitis; CDAD has been observed >2 months post-antibiotic treatment.
+
+Adverse Drug Reactions
+
+Common: Diarrhea
+Less Common: Diaper rash, alkaline phosphatase increased, lactate dehydrogenase increased, nausea, vomiting,
+vaginitis, eosinophilia, hemoglobin and hematocrit decreased, transaminases increased, thrombophlebitis.
+Rare: Anaphylaxis, angioedema, chest pain, cholestasis, colitis, dyspnea, erythema multiforme, fever, GI bleeding,
+hemolytic anemia, hepatitis, hives, hyperbilirubinemia, hypersensitivity, interstitial nephritis, jaundice, leukopenia,
+neutropenia, pain at injection site, pancytopenia, positive Coombs’ test, pseudomembranous colitis, rash, renal
+dysfunction, seizure, SJS, stomach cramps, tachycardia, thrombocytopenia, tongue swelling, toxic epidermal
+necrolysis, urticaria.
+
+Drug Interactions
+
+Decreases serum concentration of Cefuroxime:
+Antacids
+
+Reduces therapeutic effect of the following drugs:
+BCG, Typhoid vaccine (Only the live attenuated Ty21a strain is affected.)
+
+Increases serum concentration of Cefuroxime:
+Probenecid
+
+Reduces absorption of Cefuroxime:
+H2-antagonists e.g. Cimetidine (Separate oral doses by at least 2 hours.)
+
+Mechanism of Action
+
+2nd: Second-generation cephalosporins include cefaclor, cefamandole, cefonicid, cefuroxime, cefprozil, loracarbef,
+and ceforanide; and the structurally related cephamycins cefoxitin, cefmetazole, and cefotetan, which have activity
+against anaerobes.
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:50:12 PM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 4 of 4

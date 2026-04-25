@@ -1,0 +1,177 @@
+﻿April 24, 2026, 11:52:09 PM - https://pnf.doh.gov.ph
+
+CYCLOPHOSPHAMIDE
+
+Drug Classification
+
+ATC CODE
+
+L01AA01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Alkylating Agents
+
+CHEMICAL CLASS
+
+Carbonic anhydrase inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 200 mg powder, vial (Rx)
+
+IV › 500 mg powder, vial (Rx)
+
+IV › 1 g powder, vial (Rx)
+
+Dosage
+
+IV › 200 mg powder, vial (Rx)
+
+Malignancy, by IV injection, ADULT, 40–50 mg/kg (400-800 mg/m²) in divided doses over 2–5 days, may be repeated
+at intervals of 2-4 weeks; or 10–15 mg/kg every 7–10 days; or 3–5 mg/kg twice weekly; or 60-120 mg/m2/day (1-2.5
+mg/kg/day continuous daily therapy; 500-1500 mg/m2 IV at intervals of 2-3 weeks in combination with other
+neoplastic agents Lupus nephritis, by IV infusion, ADULT, 50–150 mg daily as a single dose. Malignant Diseases,
+CHILD, IV (intermittent therapy): 40-50 mg/kg (400-1800 mg/m²) divided over 2-5 days; may be repeated at intervals
+of 2-4 weeks IV (continuous daily therapy): 60-120 mg/m²/day (1-2.5 mg/kg/day) PO (intermittent therapy): 400-1000
+mg/m² divided over 4-5 days PO (continuous daily therapy): 50-100 mg/m²/day, Juvenile Idiopathic
+Arthritis/Vasculitis, CHILD, 10 mg/kg IV every 2 weeks, Nephrotic Syndrome, CHILD, 2-3 mg/kg/day for up to 12
+weeks when corticosteroids are unsuccessful, Systemic Lupus Erythematosus, CHILD, 500-750 mg/m² IV monthly;
+not to exceed 1 g/m²
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:52:09 PM - https://pnf.doh.gov.ph
+
+Administration
+
+IV › 200 mg powder, vial (Rx)
+
+If reconstituted in normal saline (NS), administer by direct IV injection, IVPB, or continuous IV infusion. Increase
+normal fluid intake during and for 1–2 days after treatment to minimize bladder toxicity. Most adult patients will
+require at least 2 L of fluid intake per day. High-dose regimens should be accompanied by vigorous hydration.
+Infusion rate may vary based on protocol (refer to specific protocol for infusion rate). Administer by direct IV
+injection (if reconstituted in NS), IVPB, or continuous IV infusion. NOTE: Cyclophosphamide is associated with a
+moderate to high emetic potential depending on dose, regimen, or administration route. Antiemetics are
+recommended to prevent nausea and vomiting. To minimize bladder toxicity, increase normal fluid intake during
+and for 1-2 days after cyclophosphamide dose. Most adult patients will require a fluid intake of at least 2 L daily.
+High-dose regimens should be accompanied by vigorous hydration with mesna therapy. See General Information
+on Nitrogen Mustard Analogues under Antineoplastic Agents for other information.
+
+Dose Adjustment
+
+Geriatric:
+Titrate dose carefully, initiating therapy at the lowest end of the dosage range. Adjust dose for renal function. Safety
+and efficacy have not been studied.
+
+Renal Impairment:
+Use with caution. Elevated levels of metabolites may occur. Reduce dose if serum creatinine concentration >120
+micromoles/liter.
+CrCl <10 mL/min, give 75% of normal dose.
+Cyclophosphamide and its metabolites are dialyzable. Differences in amount dialyzed may occur due to dialysis
+system used. Maintain a consistent interval between administration and dialysis.
+
+Hepatic Impairment:
+Use with caution. Dose adjustment may be needed.
+Give 75% of normal dose if transaminase levels are >3 times upper limit of normal or bilirubin is 3.1-5 mg/dl
+
+Obesity:
+Maximum dose should not exceed 0.1 mg/kg daily.
+
+Indications
+
+Malignant diseases, including lymphomas, leukemia, neuroblastoma, adenocarcinoma, carcinoma of the breast and
+mycosis fungoides, management for lupus in patients irresponsive to traditional therapy or with kidney damage
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:52:09 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Urinary outflow obstruction
+
+Precautions
+
+WARNING: Hazardous agent; use appropriate precautions for handling and disposal.
+
+Adverse Drug Reactions
+
+Common: Alopecia, amenorrhea, azoospermia, gonadal suppression, oligospermia, oogenesis impaired, sterility,
+abdominal pain, anorexia, diarrhea, mucositis, nausea, vomiting, stomatitis, hemorrhagic cystitis, anemia,
+leukopenia, myelosuppression, neutropenia, neutropenic fever, thrombocytopenia, infection
+
+Less Common: Acute respiratory distress syndrome, anaphylactic reactions, anaphylaxis, arrhythmias, bladder or
+urinary fibrosis, blurred vision, cardiac tamponade, cardiotoxicity, confusion, dizziness, dyspnea, decreased ejection
+fraction, erythema multiforme, gastrointestinal hemorrhage, hearing disorders, heart block, heart failure, hematuria,
+hemopericardium, hemorrhagic colitis, hemorrhagic myocarditis, hemorrhagic ureteritis, hepatic sinusoidal
+obstruction syndrome, hepatitis, hepatotoxicity, hypersensitivity reactions, hyperuricemia, hypokalemia,
+hyponatremia, interstitial pneumonitis, interstitial pulmonary fibrosis, jaundice, latent infection reactivation,
+malaise, acute mesenteric ischemia, methemoglobinemia, multiorgan failure, myocardial necrosis, neurotoxicity,
+neutrophilic eccrine hidradenitis, ovarian fibrosis, pancreatitis, pericarditis, pigmentation changes (skin, fingernails),
+pneumonia, pulmonary hypertension, pulmonary infiltrates, pulmonary veno-occlusive disease, pyelonephritis,
+radiation recall, rash, renal tubular necrosis, reversible posterior leukoencephalopathy syndrome, rhabdomyolysis,
+secondary malignancy, septic shock, sepsis, SIADH, Stevens-Johnson syndrome, testicular atrophy,
+thrombocytopenia, thrombotic disorders, toxic epidermal necrolysis, toxic megacolon, tumor lysis syndrome,
+weakness, wound healing impaired
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:52:09 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Cyclophosphamide: CYP2B6 Inhibitors
+Enhances therapeutic effect of Cyclophosphamide: Cyclosporine (immunosuppressive effect) Trastuzumab
+(neutropenic effect)
+Increases risk of adverse or toxic effects of Cyclophosphamide: Allopurinol (bone marrow suppression), Azathioprine
+(hepatotoxic effect), Denosumab (serious infections), Filgrastim (pulmonary toxicity), Pentostatin (cardiotoxic effect),
+Protease Inhibitors (neutropenia, infection, mucositis), Thiazide Diuretics (granulocytopenia)
+Increases risk of adverse or toxic effects of the following drugs: Amiodarone (pulmonary toxicity) Antineoplastic
+Agents, Anthracycline, Sargramostim (pulmonary toxicity)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Cyclophosphamide: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of the following drugs: Tofacitinib [except antirheumatic doses of Methotrexate or
+nonbiologic DMARD] (immunosuppressive effect)
+Increases metabolism of Cyclophosphamide: CYP2B6 Inducers
+Increases risk of adverse or toxic effects of Cyclophosphamide: Belimumab, Dipyrone (agranulocytosis,
+pancytopenia), Etanercept (solid cancer development), Pimecrolimus Tacrolimus, Topical
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Leflunomide
+(hematologic toxicity), Natalizumab (concurrent infection), Vaccines (Live)
+Increases serum concentration of Succinylcholine
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (Inactivated) [complete all age-
+appropriate vaccinations at least 2 weeks prior to starting Cyclophosphamide; if vaccinated during
+Cyclophosphamide therapy, revaccinate at least 3 months after discontinuation], Vaccines (Live) [do not administer
+vaccines for at least 3 months after Cyclophosphamide therapy]
+Reduces therapeutic effect of Cyclophosphamide: Echinacea
+
+Mechanism of Action
+
+A precursor nitrogen mustard analogue that acts as an antineoplastic agent preventing cell division by crosslinking
+of DNA strands and decreasing DNA synthesis. As a prodrug, it must be metabolized in the liver to form the active
+aldophosphamide. It is a cell cycle phase nonspecific agent that possesses potent immunosuppressive activity.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

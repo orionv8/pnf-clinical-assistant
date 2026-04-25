@@ -1,0 +1,169 @@
+﻿April 24, 2026, 11:51:40 PM - https://pnf.doh.gov.ph
+
+COLISTIN
+
+Drug Classification
+
+ATC CODE
+
+J01XB01
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibacterials for Systemic Use
+
+PHARMACOLOGICAL
+
+Polymyxins
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › [Reserve] 2,000,000 IU lyophilized powder for injection (Rx)
+
+Dosage
+
+IV › [Reserve] 2,000,000 IU lyophilized powder for injection (Rx)
+
+Susceptible infections, for IV injection, ADULT, 2.5 to 5 mg CBA/kg/day in 2 to 4 divided doses; maximum: 5 mg
+CBA/kg/day, CHILD, 2.5 to 5 mg CBA/kg/day in 2 to 4 divided doses; maximum: 5 mg CBA/kg/day
+
+Administration
+
+IV › [Reserve] 2,000,000 IU lyophilized powder for injection (Rx)
+
+Administer by IM, direct IV injection over 3 to 5 minutes, intermittent infusion over 30 minutes or by continuous IV
+infusion. For continuous IV infusion, one-half of the total daily dose is administered by direct IV injection over 3 to
+5 minutes followed 1 to 2 hours later by the remaining one-half of the total daily dose diluted in a compatible IV
+solution infused over 22 to 23 hours. The final concentration for continuous infusion administration should be
+based on the patient's fluid needs; infusion should be completed within 24 hours of preparation.
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:51:40 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Refer to adult dosing
+
+Renal Impairment:
+Note: Dosage expressed in terms of colistin base activity (CBA); although reported conversions have varied slightly
+in the literature, CBA 1 mg is defined to be equivalent to colistimethate sodium (CMS) 30,000 units
+
+CrCl ≥80 mL/minute: No dosage adjustment necessary; maximum: 5 mg CBA/kg/day
+CrCl 50 to 79 mL/minute: 2.5 to 3.8 mg CBA/kg/day in 2 divided doses
+CrCl 30 to 49 mL/minute: 2.5 mg CBA/kg/day once daily or in 2 divided doses
+CrCl 10 to 29 mL/minute: 1.5 mg CBA/kg every 36 hours
+Intermittent hemodialysis (IHD) (administer after hemodialysis on dialysis days) - 1.5 mg CBA/kg every 24 to 48 hours
+Continuous renal replacement therapy (CRRT) - Drug clearance is highly dependent on the method of renal
+replacement, filter type, and flow rate. Appropriate dosing requires close monitoring of pharmacologic response,
+signs of adverse reactions due to drug accumulation, as well as drug concentrations in relation to target trough (if
+appropriate).
+CVVH/CVVHD/CVVHDF - 2.5 mg CBA/kg every 24 to 48 hours (frequency dependent upon site or severity of infection
+or susceptibility of pathogen). Note: These are general recommendations only (based on dialysate flow/ultrafiltration
+rates of 1 to 2 L/hour and minimal residual renal function) and should not supersede clinical judgment. More recent
+data among patients receiving CVVHDF suggest that the daily dose at least equal or even exceed that of patients
+with normal renal function.
+Sustained low-efficiency dialysis (SLED): IV: May consider using the following calculations; however, although derived
+from critically ill patients, the use of this algorithm has not been prospectively evaluated in the critically ill (Nation
+2017):
+
+Loading dose of colistin base activity (mg) = Target average colistin steady-state plasma concentration (in mg/L) x 2 x
+weight (in kg) (maximum loading dose: 300 mg CBA). For patient weight, use the lower of ideal or actual body weight
+expressed in kg. Application of these equations has not been evaluated in obese patients.
+
+Maintenance dose of colistin base activity (mg): Add 10% per 1 hour of SLED replacement to the baseline daily dose
+(refer to equation in IHD section above; administer in 2 divided doses administered 12 hours apart). For example, in a
+patient receiving 10 hours nocturnal SLED session each day with a goal colistin steady-state concentration of 2
+mg/L, the suggested CBA dose is: 130 mg + 10 hours * 13 mg = 260 mg CBA/day. SLED session should begin 1 to 2
+hours after the afternoon/evening dose.
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:51:40 PM - https://pnf.doh.gov.ph
+
+Indications
+
+For extended-spectrum beta-lactamase (ESBL) or carbapenemase-producing multidrug-resistant (MDR) gram-
+negative bacillus; Treatment of acute or chronic infections due to sensitive strains of certain gram-negative bacilli
+(particularly Pseudomonas aeruginosa) which are resistant to other antibacterials or in patients allergic to other
+antibacterials
+
+NOTE: Its use is restricted only to health facilities able to satisfy the following criteria:
+(1) Presence of an Infection Control Committee whose chairperson is a physician and DOH-trained on antimicrobial
+stewardship
+(2) Presence of a board certified infectious disease specialist who shall authorize the use of the drug as clinically
+needed
+
+Precautions
+
+Transient, reversible neurological disturbances (e.g., dizziness, numbness, paresthesia, generalized pruritus, slurred
+speech, tingling, vertigo) may occur. (Patients must be cautioned about performing tasks which require mental
+alertness (e.g., operating machinery or driving). Dose reduction may reduce neurologic symptoms; monitor closely);
+Dose-dependent nephrotoxicity has been reported, generally reversible upon discontinuation of treatment.
+Withhold treatment if signs of renal impairment occur during treatment;
+Respiratory arrest has been reported with use; impaired renal function may increase the risk for neuromuscular
+blockade and apnea;
+Prolonged use may result in fungal or bacterial superinfection, including C. difficile-associated diarrhea (CDAD) and
+pseudomembranous colitis; CDAD has been observed >2 months postantibiotic treatment.
+
+Adverse Drug Reactions
+
+Common: Nephrotoxicity, acute, renal failure
+
+Less Common: neurotoxicity
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:51:40 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitory closely with:
+Increases risk of adverse or toxic effects Colistin:
+Aminoglycosides e.g. Streptomycin; Amphotericin B
+Cefazedone, Cephalothin, Vancomycin
+
+Reduces therapeutic effect of the following drugs:
+BCG Vaccine, Lactobacillus and Estriol, Sodium Picosulfate, Typhoid Vaccine
+
+Enhances therapeutic effect of Colistin:
+Capreomycin, Polymyxin B
+
+Enhances therapeutic effect of Neuromuscular-Blocking Agents
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of the following drugs:
+Bacitracin, Methoxyflurane
+
+Reduces therapeutic effect of the following drugs:
+BCG, Cholera Vaccine
+
+Mechanism of Action
+
+Polymyxins are bactericidal drugs that bind to lipopolysaccharides (LPS) and phospholipids in the outer cell
+membrane of gram-negative bacteria. They competitively displace divalent cations from the phosphate groups of
+membrane lipids, which leads to disruption of the outer cell membrane, leakage of intracellular contents, and
+bacterial death.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+REMARKS
+
+WHO anti-biotic category: RESERVE
+
+Page 4 of 4

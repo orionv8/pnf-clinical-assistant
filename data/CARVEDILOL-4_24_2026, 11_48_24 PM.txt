@@ -1,0 +1,222 @@
+﻿April 24, 2026, 11:48:25 PM - https://pnf.doh.gov.ph
+
+CARVEDILOL
+
+Drug Classification
+
+ATC CODE
+
+C07AG02
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Beta-Blocking Agents
+
+PHARMACOLOGICAL
+
+Alpha and Beta Blocking Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 6.25 mg tablet (Rx)
+
+ORAL › 25 mg tablet (Rx)
+
+Dosage
+
+ORAL › 6.25 mg tablet (Rx)
+
+Heart failure, by mouth, ADULT, 3.125 mg twice daily for 2 weeks; if tolerated, may increase to 6.25 mg twice daily;
+double the dose every 2 weeks to the highest dose tolerated by patient. Mild-to-moderate heart failure, by mouth,
+ADULT >85 kg, maximum dose, 50 mg twice daily; ADULT <85 kg, maximum dose, 25 mg twice daily. Severe heart
+failure, by mouth, ADULT, 25 mg twice daily (maximum dose, 80 mg once daily). Left ventricular dysfunction
+following MI, by mouth, ADULT, initially 3.125–6.25 mg twice daily; increase dose incrementally at intervals of 3–10
+days, based on tolerance, to a target dose of 25 mg twice daily (maximum dose, 50 mg twice daily). NOTE: Use with
+caution in patients who require inotropes during their hospital course. Increase dose gradually and monitor for
+congestive signs and symptoms of HF making every effort to achieve target.
+
+Administration
+
+ORAL › 6.25 mg tablet (Rx)
+
+Administer with food to minimize the risk of orthostatic hypotension. Initiate only in stable patients or hospitalized
+patients after volume status has been optimized and IV diuretics, vasodilators, and inotropic agents have all been
+successfully discontinued. Stabilize other heart failure medications and minimize fluid retention prior to initiating
+therapy.
+
+Page 1 of 5
+
+
+
+April 24, 2026, 11:48:25 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Lower initial dose and titrate to response. Dose reductions may be necessary.
+
+Patients with Hypotension or Syncope:
+Lower initial dose and titrate to response. Lower blood pressure at a rate appropriate for the patient's clinical
+condition.
+
+Indications
+
+Management of heart failure
+
+Contraindications
+
+Decompensated cardiac failure requiring intravenous inotropic therapy; bronchial asthma or related bronchospastic
+conditions; secondor third-degree AV block, sick sinus syndrome, and severe bradycardia (except in patients with a
+functioning artificial pacemaker) ; cardiogenic shock; severe hepatic impairment
+
+Precautions
+
+Anaphylactic reactions
+Diabetes (may potentiate and/or mask signs and symptoms of hypoglycemia)
+Pheochromocytoma (adequate alpha-blockade should be initiated prior to use of any betablocker).
+Bradycardia (may occur; reduce dose if heart rate drops to <55 beats/minute); Hypotension or syncope (may occur
+within the first 30 days of therapy); Angina
+Heart failure (may experience a worsening of renal function; worsening heart failure or fluid retention may occur
+during upward titration).
+Floppy iris syndrome (has been observed in cataract surgery patients who were on or were previously treated with
+alpha1 blockers);
+Myasthenia gravis; peripheral vascular disease (may precipitate or aggravate symptoms of arterial insufficiency).
+Bronchospastic disease (use with caution and close monitoring)
+Hepatic impairment
+Psoriasis (associated with induction or exacerbation of psoriasis)
+Thyroid disease (may mask signs of hyperthyroidism; abrupt withdrawal may exacerbate symptoms of
+hyperthyroidism or precipitate thyroid storm)
+Abrupt withdrawal (may cause acute tachycardia, hypertension, and/or ischemia; severe exacerbation of angina,
+ventricular arrhythmias, and myocardial infarction have been reported; chronic betablocker therapy should not be
+routinely withdrawn prior to major surgery)
+Elderly (bradycardia may be observed more frequently).
+Pregnancy (increased risk of cardiovascular defects was observed); lactation (not known if excreted in breastmilk;
+may cause serious adverse reactions in the nursing infant).
+
+Page 2 of 5
+
+
+
+April 24, 2026, 11:48:25 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Hypotension, bradycardia, syncope, peripheral edema, generalized edema, angina, dependent edema, AV
+block, cerebrovascular accident, hypertension, hypervolemia or hypovolemia, orthostatic hypotension, palpitation,
+dizziness, fatigue, headache, depression, fever, hypoesthesia, hypotonia, insomnia, malaise, somnolence, vertigo,
+hyperglycemia, hypercholesterolemia, hypertriglyceridemia, diabetes mellitus, gout, hyperkalemia, hyperuricemia,
+hypoglycemia, hyponatremia, weight gain, diarrhea, nausea, vomiting, abdominal pain, melena, periodontitis, weight
+loss, impotence, anemia, decreased prothrombin, purpura, thrombocytopenia, increased alkaline phosphatase and
+transaminases, increased GGT, weakness, back pain, arthralgia, arthritis, muscle cramps, paresthesia, blurred vision,
+increased BUN and non-protein nitrogen, albuminuria, increased creatinine, glycosuria, hematuria, renal
+insufficiency, cough, nasopharyngitis, rales, dyspnea, pulmonary edema, rhinitis, nasal congestion, sinus congestion,
+injury, allergy, flulike syndrome, sudden death
+Less Common: Anaphylactoid reaction, alopecia, angioedema, aplastic anemia, amnesia, asthma, bronchospasm,
+bundle branch block, cholestatic jaundice, concentration decreased, diaphoresis, erythema multiforme, exfoliative
+dermatitis, GI hemorrhage, decreased hearing, hypersensitivity reaction, hypokalemia, hypokinesia, interstitial
+pneumonitis, leukopenia, libido decreased, migraine, myocardial ischemia, nervousness, neuralgia, nightmares,
+pancytopenia, paresis, peripheral ischemia, photosensitivity, pruritus, rash, respiratory alkalosis, seizure, Stevens-
+Johnson syndrome, tachycardia, tinnitus, toxic epidermal necrolysis, urinary incontinence, urticaria, xerostomia
+
+Page 3 of 5
+
+
+
+April 24, 2026, 11:48:25 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Carvedilol:
+Aminoquinolines e.g. Antimalarial drugs; Phenothiazine Antipsychotic Agents, CYP2D6 Inhibitors (Moderate)
+
+Decreases metabolism of the following drugs:
+Phenothiazine Antipsychotic Agents
+
+Enhances therapeutic effect of Carvedilol:
+Bradycardic effect: Acetylcholinesterase Inhibitors e.g., Neostigmine, Amiodarone, Anilidopiperidine Opioids e.g.,
+Fentanyl (bradycardic effect; antihypertensive effect), Bretylium (also AV blockade), Cardiac Glycosides e.g., Digoxin,
+Dipyridamole, Disopyramide, Other Bradycardia-causing Agents, Regorafenib, Ruxolitinib, Tofacitinib
+
+Antihypertensive effect: Anilidopiperidine Opioids e.g. Fentanyl, Phenothiazine Antipsychotic Agents, Barbiturates
+e.g. Phenobarbital, Brimonidine (Topical), Calcium Channel Blockers, Non-Dihydropyridine [except Bepridil],
+Diazoxide, MAO Inhibitors [except Linezolid, Tedizolid], Molsidomine, Nicardipine, Nicorandil, Nifedipine (also
+inotropic effects), Other Antihypertensive Agents , Pentoxifylline, Phosphodiesterase-5 Inhibitors e.g. Sidenafil,
+Prostacyclin Analogues e.g. Epoporestenol, Reserpine; Propafenone (possesses independent beta blocking activity)
+
+Enhances therapeutic effect of the following drugs:
+Bradycardic effect: Fingolimod, Ivabradine, Midodrine
+Hypoglycemic effect: Insulin, Sulfonylureas e.g., Gliclazide
+Disopyramide (negative inotropic effect)
+Lacosamide (AV blocking effect)
+
+Increases risk of adverse or toxic effects of Carvedilol:
+Amiodarone (cardiac arrest), Calcium Channel Blockers, Non-Dihydropyridine [except Bepridil] (bradycardia; signs of
+heart failure), MAO Inhibitors [except Linezolid, Tedizolid] (orthostatic hypotension), Nicardipine (may precipitate
+signs of heart failure), Other Antihypertensive Agent
+
+Increases risk of adverse or toxic effects of the following drugs:
+Cholinergic Agonists e.g., Betanechol (cardiac conduction abnormalities; bronchoconstriction), Duloxetine
+(orthostatic hypotension), Levodopa (orthostatic hypotension), Risperidone (hypotensive effect)
+
+Reduces therapeutic effect of Carvedilol:
+Antihypertensive effect: Methylphenidate, Nonsteroidal Anti-Inflammatory Agents
+
+Avoid concomitant use with:
+Decreases metabolism of Carvedilol:
+CYP2D6 Inhibitors
+
+Enhances therapeutic effect of Carvedilol:
+Bradycardic effect: Dronedarone, Rivastigmine
+
+Enhances therapeutic effect of the following drugs:
+Alpha / Beta Agonists, Direct-Acting [except Dipivefrin] (vasopressor effect), Ceritinib (bradycardic effect), Ergot
+Derivatives e.g., Ergotamine (vasoconstricting effect)
+
+Increases risk of adverse or toxic effects of Carvedilol:
+Alpha2 Agonists e.g., Clonidine (AV-blocking and sinus node dysfunction effects; rebound hypertension),
+
+Page 4 of 5
+
+
+
+April 24, 2026, 11:48:25 PM - https://pnf.doh.gov.ph
+
+Floctafenine
+
+Increases risk of adverse or toxic effects of the following drugs:
+Alpha1 Blockers e.g. Tamsulosin (orthostatic hypotension), Amifostine (hypotensive effect), Grass Pollen Allergen
+Extract / 5 Grass Extract (inhibits the ability to effectively treat severe allergic reactions with Epinephrine),
+Methacholine, Obinutuzumab (hypotensive effect), Rituximab (hypotensive effect)
+
+Increases serum concentration of Carvedilol:
+Abiraterone Acetate, Dronedarone, Panobinostat
+
+Increases serum concentration of the following drugs:
+Afatinib [reduce Afatinib by 10 mg], Bosutinib, Colchicine (increase distribution into certain tissues, e.g., brain),
+Cyclosporine (Systemic), Dabigatran Etexilate, Doxorubicin (Conventional), Edoxaban, Everolimus. Pazopanib,
+Silodosin, Topotecan, Vincristine (Liposomal)
+
+Reduces therapeutic effect of the following drugs:
+Alpha / Beta Agonists, Direct-Acting [except Dipivefrin] (beta-adrenoceptor-mediated effects, including anti-
+anaphylactic effects of epinephrine), Beta2 Agonists (bronchodilatory effect), Theophylline Derivatives
+(bronchodilatory effect)
+
+Mechanism of Action
+
+A racemic mixture, carvedilol has non-selective beta-adrenoreceptor and alpha-adrenergic blocking activity. It
+causes exercise-induced or beta-agonist-induced tachycardia, a reduction of cardiac output and reflex orthostatic
+tachycardia, vasodilation, decreased peripheral and renal vascular resistance, reduced plasma renin activity, and
+increased levels of atrial natriuretic peptide
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

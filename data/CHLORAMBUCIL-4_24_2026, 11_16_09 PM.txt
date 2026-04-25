@@ -1,0 +1,133 @@
+﻿April 24, 2026, 11:16:10 PM - https://pnf.doh.gov.ph
+
+CHLORAMBUCIL
+
+Drug Classification
+
+ATC CODE
+
+L01AA02
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Alkylating Agents
+
+CHEMICAL CLASS
+
+Carbonic anhydrase inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 2 mg tablet (Rx)
+
+Dosage
+
+ORAL › 2 mg tablet (Rx)
+
+Chronic lymphocytic leukemia, by mouth, ADULT, 0.1 mg/kg daily for 3–6 weeks; or 0.4 mg/kg pulsed doses
+administered intermittently, biweekly, or monthly, then increased by 0.1 mg/kg per dose until response or toxicity
+is observed. Hodgkin lymphoma, by mouth, ADULT, 0.2 mg/kg daily for 3–6 weeks. Non-Hodgkin’s lymphoma, by
+mouth, ADULT, 0.1-0.2 mg/kg daily for 3–6 weeks. NOTE: For adults with bone marrow lymphocytic infiltration
+involvement or when the bone marrow is hypoplastic, the maximum dose is 0.1 mg/kg daily. Reduce initial dose if
+administered within 4 weeks after full course of radiation/ myelosuppressive therapy.
+
+Administration
+
+ORAL › 2 mg tablet (Rx)
+
+May be administered as a single daily dose, preferably on an empty stomach. See General Information on Nitrogen
+Mustard Analogues under Antineoplastic Agents for other information.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 11:16:10 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Initiate at the lower end of dosing range. Toxicity to immunosuppressants is increased in the elderly.
+
+Renal Impairment:
+For patients with CrCl 10–50 mL/minute, administer 75% of dose.
+For patients with CrCl <10 mL/minute and patients undergoing peritoneal dialysis, administer 50% of dose.
+
+Hepatic Impairment:
+Chlorambucil is primarily metabolized in the liver. Consider dose reduction.
+
+Indications
+
+Chronic lymphocytic leukemia (CLL); Hodgkin lymphoma; non-Hodgkin’s lymphoma (NHL)
+
+Contraindications
+
+Prior (demonstrated) resistance to chlorambucil
+
+Precautions
+
+WARNING: Chlorambucil is a carcinogen in humans and can severely suppress bone marrow function.
+
+WARNING: Hazardous agent; use appropriate precautions for handling and disposal.
+
+Please see other precautions under Alkylating Agents - Nitrogen Mustards (General Information)
+
+Adverse Drug Reactions
+
+Common: Drug fever, fever, angioneurotic edema, rash, urticaria, amenorrhea, infertility, skin hypersensitivity,
+azoospermia, neutropenia, bone marrow failure (irreversible), bone marrow suppression, cystitis, leukemia
+(secondary), leukopenia, lymphophenia, pancytopenia, anemia, thrombocytopenia, hepatotoxicity, jaundice,
+peripheral neuropathy, interstitial pneumonia, pulmonary fibrosis, allergic reactions, malignancies (secondary)
+Less Common: Diarrhea, nausea, oral ulceration, vomiting
+Rare: Agitation, ataxia, confusion, focal / generalized seizure, hallucinations, erythema multiforme, Stevens-Johnson
+syndrome, toxic epidermal necrolysis, SIADH, flaccid paralysis, muscular twitching, myoclonia, tremor
+
+Page 2 of 3
+
+
+
+April 24, 2026, 11:16:10 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Chlorambucil: Denosumab (serious infections), Trastuzumab
+(neutropenic effect)
+Increases risk of adverse or toxic effects of Leflunomide (hematologic toxicity, including pancytopenia,
+agranulocytosis, and/or thrombocytopenia)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Chlorambucil: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of the following drugs: Tofacitinib [except antirheumatic doses of Methotrexate,
+nonbiologic DMARD] (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Chlorambucil: Dipyrone (agranulocytosis), Pimecrolimus, Tacrolimus
+(Topical)
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Natalizumab
+(concurrent infection), Vaccines (Live)
+Reduces therapeutic effect of Chlorambucil: Echinacea
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (Inactivated) [complete all age-
+appropriate vaccinations at least 2 weeks prior to starting Chlorambucil; if vaccinated during Chlorambucil therapy,
+revaccinate at least 3 months after discontinuation], Vaccines (Live) [do not administer vaccines for at least 3 months
+after Chlorambucil therapy]
+
+Mechanism of Action
+
+A nitrogen mustard analogue that interferes with DNA replication and RNA transcription through alkylation and
+crosslinking of DNAstrands producing cytotoxic effects.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 3 of 3

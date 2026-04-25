@@ -1,0 +1,122 @@
+﻿April 24, 2026, 11:45:08 PM - https://pnf.doh.gov.ph
+
+CALCITRIOL
+
+Drug Classification
+
+ATC CODE
+
+A11CC04
+
+ANATOMICAL
+
+Alimentary Tract and Metabolism
+
+THERAPEUTIC
+
+Vitamins
+
+PHARMACOLOGICAL
+
+Vitamin A and D
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 0.25 mcg capsule (Rx)
+
+Dosage
+
+ORAL › 0.25 mcg capsule (Rx)
+
+NOTE: Serum calcium, phosphorus, alkaline phosphatase, and creatinine concentrations should be determined
+initially, monthly for 6 months, then periodically. Serum PTH should be monitored initially and every 3–4 months.
+Hypocalcemia, secondary hyperparathyroidism, and resultant metabolic bone disease (renal osteodystrophy) in
+patients with chronic kidney disease: by mouth, ADULT, initially 0.25 micrograms daily; may increase dose to 0.5
+micrograms daily if necessary; titrate doses as necessary to obtain target range; ADOLESCENT and CHILD 1-2
+years, initially 0.25 micrograms daily. Management of hypocalcemia associated with vitamin D deficiency: by mouth,
+ADOLESCENT, CHILD, and INFANT, 0.05 micrograms/kg daily (maximum, 0.5 micrograms daily) until calcium levels
+normalize. Postsurgical hypoparathyroidism, idiopathic hypoparathyroidism, and pseudohypoparathyroidism
+manifesting as hypocalcemia: by mouth, ADULT, ADOLESCENT, and CHILD ≥6 years, initially 0.25 micrograms once
+daily in the morning; may be increased at 2– to 4–week intervals; maintenance, 0.5-2 micrograms once daily; CHILD
+1-5 years, 0.25-0.75 micrograms daily; NEONATE and INFANT, 0.25 micrograms daily. Vitamin D-dependent rickets:
+by mouth, ADULT, ADOLESCENT, and CHILD, 1 microgram once daily. Postmenopausal osteoporosis: by mouth,
+POSTMENOPAUSAL FEMALES, 0.25 micrograms twice daily; modify dose according to serum calcium
+concentration. Osteoporosis: by mouth, CHILD, 1-2 micrograms/kg daily given in 4-6 divided doses.
+
+Administration
+
+ORAL › 0.25 mcg capsule (Rx)
+
+May be administered without regard to meals. Protect from light. NOTE: Patients must receive an adequate
+amount of calcium while taking Calcitriol. Advise patients to have a dietary intake of calcium of at least 600 mg
+daily. Calcitriol is readily absorbed from the intestine. Absorption can be delayed in patients with hepatic, biliary, or
+GI disease.
+
+Page 1 of 3
+
+
+
+April 24, 2026, 11:45:08 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+N/A
+
+Indications
+
+Management of Hypocalcemia due to secondary hyperparathyroidism, and resultant metabolic bone disease;
+hypocalcemia associated with vitamin D deficiency; postsurgical hypoparathyroidism; vitamin D dependent rickets;
+postmenopausal osteoporosis and osteoporosis
+
+Contraindications
+
+Accidental exposure; arteriosclerosis; breastfeeding; cardiac disease; dehydration; geriatric; hypercalcemia;
+hyperphosphatemia; hypervitaminosis D; occlusive dressing; ocular exposure; pregnancy; renal failure; sarcoidosis;
+sunlight (UV) exposure
+
+Precautions
+
+Renal impairment; Hepatic and biliary disease; Excessive doses; Immobilized patients.
+
+WARNING: Administration of more than the daily requirement can cause hypercalcemia, hypercalciuria, and
+hyperphosphatemia.
+
+Adverse Drug Reactions
+
+Common: Hypervitaminosis D, hypercalcemia, fatigue, weakness, headache, nausea, vomiting, abdominal pain,
+constipation, diarrhea, vertigo, tinnitus, ataxia, myalgia, arthralgia, irritability, hypercalciuria, hyperphosphatemia,
+metallic taste.
+
+Page 2 of 3
+
+
+
+April 24, 2026, 11:45:08 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases intestinal absorption of Calcitriol: Cholestyramine, Colestipol, Mineral Oil, Orlistat
+Increases risk of adverse or toxic effects of the following drugs: Calcium-containing Antacids (hypercalcemia);
+Cardiac Glycosides, e.g., Digoxin (hypercalcemia; cardiac arrhythmias)
+Reduces therapeutic effect of Calcitriol: Anticonvulsants, e.g., Phenobarbital, Primidone, Phenytoin, Fosphenytoin
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of Calcitriol: Phosphorus Salts
+Increases risk of adverse or toxic effects of the following drugs: Aluminum-containing Antacids (aluminum retention
+and toxicity); Vitamin D Analogues (additive effects and toxicity)
+
+Mechanism of Action
+
+Also known as 1,25dihydroxy-cholecalciferol, it is the active form of vitamin D3 (cholecalciferol). Calcitriol is
+structurally similar to calcifediol and plays an important role in maintaining calcium balance and in the regulation of
+parathyroid hormone (PTH). It is the preferred form for the management of hypocalcemia in dialysis-dependent renal
+failure patients.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

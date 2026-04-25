@@ -1,0 +1,176 @@
+﻿April 24, 2026, 11:50:41 PM - https://pnf.doh.gov.ph
+
+CILOSTAZOL
+
+Drug Classification
+
+ATC CODE
+
+B01AC23
+
+ANATOMICAL
+
+Blood and Blood Forming Organs
+
+THERAPEUTIC
+
+Antithrombotic Agents
+
+PHARMACOLOGICAL
+
+Platelet Aggregation Inhibitors, Excluding Heparin
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 50 mg tablet (Rx)
+
+ORAL › 50 mg (20% w/w) powder, 0.25 g sachet (Rx)
+
+ORAL › 100 mg (20% w/w) powder, 0.5 g sachet (Rx)
+
+ORAL › 100 mg tablet (Rx)
+
+Dosage
+
+ORAL › 50 mg tablet (Rx)
+
+Intermittent claudication: by mouth, ADULT, 100 mg twice daily in combination with Aspirin or Clopidogrel. NOTE:
+Discontinue treatment if symptoms are not improved after 3 months of therapy.
+
+Administration
+
+ORAL › 50 mg tablet (Rx)
+
+Administer 30 minutes before or 2 hours after meals (breakfast and dinner).
+
+Page 1 of 5
+
+
+
+April 24, 2026, 11:50:41 PM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+In patients with CrCl <25 mL/minute, use is contraindicated. Severe.
+In patients with end-stage renal disease (ESRD) and on dialysis, dose adjustment has not been studied, however,
+high protein binding makes removal by dialysis unlikely.
+
+Hepatic Impairment:
+Use with caution in patients with moderate to severe impairment. Dose adjustment has not been studied.
+
+Concomitant Medications:
+CYP2C19 Inhibitors, e.g., Fluconazole, Omeprazole and Strong or Moderate CYP3A4 Inhibitors, e.g., Diltiazem,
+Erythromycin, Itraconazole, Ketoconazole, ADULT, 50 mg Cilostazol twice daily.
+
+Indications
+
+Reduction of symptoms of intermittent claudication.
+
+Contraindications
+
+Heart failure; hemostatic disorders or active pathologic bleeding, such as bleeding peptic ulcer or intracranial
+bleeding.
+
+Precautions
+
+Cardiovascular effects; Cardiovascular disease; Hemostatic disorders (avoid use); Hematologic effects; Hepatic
+impairment; Renal impairment; Elderly (must be evaluated for cardiac status; CHF is common among elderly);
+Lactation
+
+Page 2 of 5
+
+
+
+April 24, 2026, 11:50:41 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Headache, abnormal stools, diarrhea, increased susceptibility to infection, rhinitis, peripheral edema,
+palpitations, tachycardia, dizziness, vertigo, dyspepsia, nausea, abdominal pain, flatulence, back pain, myalgia,
+pharyngitis, cough.
+Less Common: Albuminuria, amblyopia, anemia, anorexia, anxiety, arthralgia, asthma, atrial fibrillation, atrial flutter,
+blindness, bursitis, cardiac arrest, cardiac failure, cerebral infarction, chills, cholelithiasis, colitis, conjunctivitis,
+cystitis, diabetes mellitus, diplopia, duodenal ulcer, duodenitis, ecchymoses, edema, epistaxis, esophageal
+hemorrhage, esophagitis, facial edema, fever, furunculosis, gastric ulcer, gastritis, gastroenteritis, gingival
+hemorrhage, gout, hematemesis, hemorrhage, hemorrhage (eye), hemoptysis, hyperuricemia, hypotension,
+insomnia, iron deficiency anemia, malaise, melena, myocardial infarction, neck stiffness, neuralgia, nodal arrhythmia,
+orthostatic hypotension, ostealgia, otalgia, pelvic pain, peptic ulcer, periodontal abscess, pneumonia, polycythemia,
+purpura, rectal hemorrhage, retinal hemorrhage, retroperitoneal hemorrhage, sinusitis, skin hypertrophy,
+supraventricular tachycardia, syncope, tinnitus, tongue edema, urinary frequency, urticaria, vaginal hemorrhage,
+vaginitis, varicose veins, vasodilation, ventricular premature contractions, ventricular tachycardia, xeroderma.
+Rare: Abnormal hepatic function tests, agranulocytosis, aplastic anemia, cerebrovascular accident, chest pain,
+coronary thrombosis (stent), fixed drug eruption, gastrointestinal hemorrhage, granulocytopenia, hematoma
+(extradural), hemorrhagic diathesis, hepatic insufficiency, hot flash, hyperglycemia, increased blood pressure,
+interstitial pneumonitis, intracranial hemorrhage, jaundice, leukopenia, pain, pulmonary hemorrhage, pruritus,
+prolonged QT interval on ECG, Stevens-Johnson syndrome, subdural hematoma, thrombocytopenia, thrombosis,
+torsade de pointes.
+
+Page 3 of 5
+
+
+
+April 24, 2026, 11:50:41 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+NOTE: Cilostazol is a weak inhibitor of CYP3A4.
+
+Monitor closely with:
+Enhances therapeutic effect of Cilostazol:
+antiplatelet effect: Agents with Antiplatelet Properties, e.g., P2Y12 Inhibitors, NSAIDs, SSRIs; Glucosamine;
+Multivitamins / Fluoride with Vitamins ADE; Multivitamins / Minerals with Vitamins ADEK, Folate, Iron; Multivitamins /
+Minerals with Vitamins AE, no Iron; Omega3 Fatty Acids; Vitamin E; Pentoxifylline, Prostacyclin Analogues
+anticoagulant effect: Other Anticoagulants, Thrombolytic Agents
+
+Increases risk of adverse or toxic effects of Cilostazol:
+Anagrelide, Ibrutinib
+
+Increases risk of adverse or toxic effects of the following drugs:
+Bleeding: Deoxycholic Acid, Obinutuzumab, Salicylates (bleeding), Iodine I131
+
+Avoid concomitant use with:
+Decreases serum concentration of Cilostazol:
+Dabrafenib
+
+Enhances anticoagulant effect of Cilostazol:
+Dabigatran Etexilate
+
+Enhances therapeutic effect of the following drugs:
+Anticoagulant effect: Rivaroxaban
+
+Increases risk of adverse or toxic effects of Cilostazol:
+Herbs with anticoagulant or antiplatelet properties, e.g., Alfalfa, Anise, Bilberry (bleeding); Grapefruit Juice;
+Stiripentol
+
+Increases risk of adverse or toxic effects of the following drugs:
+Apixaban (bleeding)
+
+Increases serum concentration of Cilostazol:
+CYP2C19 Inhibitors, CYP3A4 Inducers (strong), CYP3A4 Inhibitors (moderate), CYP3A4 Inhibitors (strong), Fusidic Acid
+(systemic), Grapefruit Juice
+
+Increases serum concentration of the following drugs:
+Dabigatran Etexilate
+
+FOOD INTERACTION. A high-fat meal may increase peak concentration by 90% and increase AUC by 25%
+
+Mechanism of Action
+
+A quinolinone derivative selective phosphodiesterase (PDE) type III inhibitor with antiplatelet and vasodilating
+activity. It prevents the degradation of cyclic adenosine-3′,5′-monophosphate (cAMP) in platelets and blood vessels
+resulting in arterial vasodilation and inhibition of platelet aggregation.
+
+Page 4 of 5
+
+
+
+April 24, 2026, 11:50:41 PM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5

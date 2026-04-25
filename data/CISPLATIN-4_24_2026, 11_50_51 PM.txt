@@ -1,0 +1,189 @@
+﻿April 24, 2026, 11:50:52 PM - https://pnf.doh.gov.ph
+
+CISPLATIN
+
+Drug Classification
+
+ATC CODE
+
+L01XA01
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Other Antineoplastic Agents
+
+CHEMICAL CLASS
+
+Platinum Compounds
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 1 mg/mL, 10 mL vial (Rx)
+
+IV › 1 mg/mL, 50 mL vial (Rx)
+
+Dosage
+
+IV › 1 mg/mL, 10 mL vial (Rx)
+
+Bladder cancer, advanced, by slow IV infusion, ADULT, 50– 70 mg/m2 every 3–4 weeks; or 50 mg/m2 every 4 weeks
+in heavily pretreated patients. Ovarian cancer, metastatic, by slow IV infusion, ADULT, 100 mg/m2 every 4 weeks.
+Germ Cell Tumors, CHILD, 20 mg/m2 IV as a single dose once daily for 5 days with bleomycin and etoposide (PEB
+regimen); repeat every 3 weeks; Refer to institutional protocols for other dosing regimen for CNS tumors,
+neuroblastoma, hepatoblastoma. Hodgkin’s Lymphoma, CHILD, 90 mg/m2 as IV infusion for 6h (single dose per
+cycle) Germinoma, CHILD, 20 mg/m2/d for 5 days Neuroblastoma, induction, CHILD, 40 mg/m2/d for 5 days on 2
+cycles; post induction, 40 mg/m2/d for 5 days on 1 cycle Osteosarcoma, CHILD, 60 mg/m2/d for 2 days
+Hepatoblastoma, low risk (PRETEXT I, II), CHILD < 10 kg, 3.3 mg/kg/d; CHILD > 10 kg, 100 mg/m2/d; Hepatoblastoma,
+high risk (PRETEXT III, IV), CHILD, 80 mg/m2/d for Day 1 then 70 mg/m2/d on succeeding days
+
+Page 1 of 5
+
+
+
+April 24, 2026, 11:50:52 PM - https://pnf.doh.gov.ph
+
+Administration
+
+IV › 1 mg/mL, 10 mL vial (Rx)
+
+For IV administration, infuse over 6–8 hours. Do NOT administer as a rapid IV injection. Hydrate with 1–2 L of fluid
+prior to administration. Adequate post hydration and urinary output (>100 mL/hour) should be maintained for 24
+hours after administration. Monitor serum electrolytes, particularly magnesium and potassium, and replace as
+needed during and after therapy. Do NOT use needles or IV administration sets that contain aluminum during
+preparation or administration. Aluminumcan react with carboplatin resulting in precipitate formation and loss of
+potency. NOTE: Avoid extravasation. Ensure proper needle or catheter position prior to and during administration.
+If extravasation occurs, discontinue infusion immediately and apply ice to the affected area. Associated with a
+high emetic potential. Antiemetics are recommended to prevent nausea and vomiting.
+
+Dose Adjustment
+
+Renal Impairment:
+If serum creatinine is >1.5 mg/dL and/or BUN is >25
+mg/dL, do not repeat course.
+
+Obesity:
+Use actual body weight (full weight) for calculation of BSAbased or weight-based dosing, especially if the intent of
+therapy is curative.
+If dose reduction is done due to toxicity, consider resumption of full weight-based dosing with subsequent cycles,
+especially if cause of toxicity is resolved.
+
+Indications
+
+Treatment of advanced bladder cancer (transitional cell) in patients who are no longer candidates for local therapy
+including surgery and/or radiation therapy; treatment of metastatic ovarian cancer in patients who have previously
+received appropriate surgery and/or radiation therapy; for refractory tumors in patients who have not previously
+received cisplatin; treatment of metastatic testicular cancer in patients who have previously received appropriate
+surgery and/or radiation therapy; Childhood solid malignancies: Hodgkin’s Lymphoma (HD); Brain tumors;
+neuroblastoma; malignant bone tumors; hepatoblastoma; germ cell tumor (GCT).
+
+Page 2 of 5
+
+
+
+April 24, 2026, 11:50:52 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Preexisting renal impairment; myelosuppression; hearing impairment
+
+Precautions
+
+WARNING: Should be administered under the supervision of an experienced cancer chemotherapy physician,
+experienced in the use of cancerchemotherapeutic agents.Administer in a facility sufficient to appropriately
+diagnose and manage complications.
+Doses >100 mg/m2/cycle (once every 3–4 weeks) are rare. Verify with prescriber prior to administration. At the
+approved dose, cisplatin should not be administered more frequently than once every 3–4 weeks.
+Exercise caution to avoid inadvertent overdose due to potential sound-alike/look-alike confusion between cisplatin
+and carboplatin or prescribing practices that fail to differentiate daily doses from the total dose per cycle.
+Associated with severe cumulative renal toxicity, as well as dose-related myelosuppression, nausea, and vomiting.
+Anaphylactic-like reactions have occurred. Facial edema, bronchoconstriction, tachycardia, and hypotension may
+occur within minutes of administration. Epinephrine, corticosteroids, and antihistamines have been effectively
+employed to alleviate symptoms.
+Significant ototoxicity. Manifests as tinnitus or loss of high frequency hearing, and occasionally deafness. May be
+more pronounced in children.
+
+WARNING: Hazardous agent. Use appropriate precautions for handling and disposal.
+
+Gastrointestinal events (e.g. nausea, vomiting, diarrhea; dose-related); hyperuricemia (more pronounced with doses
+>50 mg/m2; consider anti-hyperuricemic therapy).
+Neurotoxicity (severe, possibly irreversible neuropathies e.g. stocking-glove paresthesias, areflexia, loss of
+proprioception or vibratory sensation, seizures, loss of motor function, loss of taste, leukoencephalopathy, posterior
+reversible leukoencephalopathy syndrome) Ototoxicity (cumulative; may be severe; audiometric testing should be
+performed at baseline, prior to each dose, and several years after discontinuing therapy)
+
+Renal toxicity (monitor serum creatinine, BUN, creatinine clearance, and serum electrolytes closely) Secondary
+malignancies
+
+Elderly (may be more susceptible to nephrotoxicity and peripheral neuropathy; considered potentially inappropriate
+for elderly)
+
+Page 3 of 5
+
+
+
+April 24, 2026, 11:50:52 PM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Anemia, local irritation, leukopenia (dose related), nausea, nephrotoxicity (acute renal failure and chronic
+renal insufficiency), neurotoxicity, peripheral neuropathy (dose and duration dependent), ototoxicity,
+thrombocytopenia, vomiting
+
+Less Common: Alopecia (mild), anaphylaxis, aortic thrombosis, autonomic neuropathy, bradycardia,
+bronchoconstriction, cardiac arrhythmia, cardiac failure, ageusia, cerebrovascular accident, cerebral arteritis,
+dehydration, diarrhea, extravasation, heart block, hemolytic anemia (acute), hypercholesterolemia, hemolytic-uremic
+syndrome, hyperuricemia, hypomagnesemia, hypocalcemia, hypokalemia, hyponatremia, skin rash, hiccups,
+hypophosphatemia, hypotension, increased serum amylase, ischemic heart disease, leukoencephalopathy,
+Lhermitte's sign, myocardial infarction, neutropenic enterocolitis, optic neuritis, pancreatitis, papilledema, SIADH,
+peripheral ischemia (acute), phlebitis, reversible posterior leukoencephalopathy syndrome, vision loss, seizure,
+tachycardia, tetany, thrombotic thrombocytopenic purpura, vision color changes
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Cisplatin: Trastuzumab (neutropenic effect)
+Increases risk of adverse or toxic effects of Cisplatin: Denosumab (serious infections), Loop Diuretics [e.g.
+Furosemide (nephrotoxiceffect)]
+Increases risk of adverse or toxic effects of the following drugs: Aminoglycosides [e.g., Streptomycin
+(nephrotoxiceffect)], Vinorelbine (granulocytopenia)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+Reduces therapeutic effect of Cisplatin: Alpha-Lipoic Acid
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Cisplatin: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of the following drugs: Taxane Derivatives [e.g. Paclitaxel, Docetaxel
+(myelosuppressive effect)], Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Cisplatin: Dipyrone (agranulocytosis; pancytopenia), Pimecrolimus,
+Tacrolimus (Topical)
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Leflunomide
+(hematologic toxicity such as pancytopenia, agranulocytosis, and/orthrombocytopenia), Natalizumab (concurrent
+infection), Topotecan
+Reduces therapeutic effect of Cisplatin: Echinacea
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (immune response; live virus
+vaccines may progress to infection)
+
+Mechanism of Action
+
+A platinum compound that inhibits DNA synthesis by the formation of DNA crosslinks.
+
+Page 4 of 5
+
+
+
+April 24, 2026, 11:50:52 PM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 5 of 5

@@ -1,0 +1,155 @@
+﻿April 24, 2026, 11:50:57 PM - https://pnf.doh.gov.ph
+
+CLARITHROMYCIN
+
+Drug Classification
+
+ATC CODE
+
+J01FA09
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antibiotics and Chemotherapeutics for Dermatological Use
+
+PHARMACOLOGICAL
+
+Macrolides, Lincosamides, and Streptogramins
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › [Watch] 250 mg base tablet (Rx)
+
+ORAL › [Watch] 500 mg base tablet (Rx)
+
+ORAL › [Watch] 125 mg/5 mL granules / powder for suspension, 50 mL (Rx)
+
+ORAL › [Watch] 250 mg/5 mL granules / powder for suspension, 50 mL (Rx)
+
+Dosage
+
+ORAL › [Watch] 250 mg base tablet (Rx)
+
+Dental prophylaxis, by mouth, CHILD, 15 mg/kg; ADULT, 500 mg. Pharyngitis or tonsillitis, penicillin allergy, by
+mouth, CHILD, 15 mg/kg in divided doses every 12 hours for 10 days; ADULT, 250 mg every 12 hours for 10 days.
+Acute bacterial rhinosinusitis (ABRBS), severe penicillin allergy, by mouth, CHILD, 15 mg/kg in divided doses every
+12 hours. Acute otitis media (AOM), by mouth, CHILD, 15 mg/kg every 12 hours. Pertussis, by mouth, INFANT >1
+month, 7.5 mg/kg every 12 hours for 7 days; ADULT, 500 mg twice daily for 7 days. Acute bacterial exacerbation of
+chronic bronchitis (ABECB), severe, by mouth, ADULT, 500 mg twice daily for 5-10 days. Community-acquired
+pneumonia, by mouth, CHILD >5 years old, suspension 15 mg/kg in divided doses every 12 hours for 10 days. Low-
+risk, without co-morbid illness, by mouth, ADULT, 500 mg twice daily for 5-7 days; Low-risk, with stable co-morbid
+illness, by mouth, ADULT, 500 mg twice daily with co-amoxiclav OR cefuroxime for 5-7 days; Moderate-risk, by
+mouth, ADULT, 500 mg twice daily with ampicillin-sulbactam OR cefuroxime OR ceftriaxone for 7-28 days;
+Eradication of H. pylori, by mouth, ADULT, 500 mg twice daily for 7 days in a combination treatment
+
+Page 1 of 4
+
+
+
+April 24, 2026, 11:50:57 PM - https://pnf.doh.gov.ph
+
+Administration
+
+ORAL › [Watch] 250 mg base tablet (Rx)
+
+The regular tablet and liquid can be taken with or without food; whereas, the long-acting tablet is usually taken
+with food. Immediate release tablets are usually taken with or without food. The tablet should be taken with a full
+glass of water; while the long-acting tablet is swallowed whole (do not split, chew or crush). Shake the suspension
+well before use.
+
+Dose Adjustment
+
+Renal Impairment:
+For mild-to-moderate renal impairment, dose reduction is warranted; for severe impairment, the patient should be
+referred to a specialist.
+
+Indications
+
+Management of low risk community-acquired pneumonia in adults (CAP-LR) due to Legionella, Chlamydia or
+Mycoplasma;
+non-severe PCAP with hypersensitivity to amoxicillin;
+
+Helicobacter pylori infection. In combination with other drugs.
+
+Alternative in penicillin allergic patients.
+
+Page 2 of 4
+
+
+
+April 24, 2026, 11:50:57 PM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Severe hepatic failure; hypokalemia; patients with history of QT prolongation or ventricular cardiac arrhythmias;
+cholestatic jaundice or hepatic dysfunction with prior clarithromycin use.
+
+Precautions
+
+WARNING: Increased risk of cardiac deaths.
+
+Patients with a predisposition to QT interval prolongation, including electrolyte disturbances (e.g., uncorrected
+hypokalemia or hypomagnesemia) and concomitant use of drugs that prolong QT interval; History of ischemic heart
+disease, severe cardiac insufficiency, ventricular arrhythmia including torsades de pointes, bradycardia (treatment
+risk-benefit should be considered);
+Hepatic dysfunction (discontinue immediately if signs and symptoms of hepatitis occur);
+Antibiotic-associated colitis,
+Myasthenia gravis (may be aggravated);
+Elderly patients may be more susceptible to drug-associated QT prolongation;
+Breastfeeding (safety has not been established).
+
+NOTE: Macrolides inhibit P-glycoprotein, which may lead to drug interactions; CYP3A-based interactions
+clarithromycin (a CYP3A inhibitor) may increase or prolong both therapeutic and adverse effects of drugs primarily
+metabolized by CYP3A enzymes.
+
+Adverse Drug Reactions
+
+Common: Taste disturbance.
+Less Common: Abdominal discomfort, diarrhea, hepatotoxicity (including cholestatic jaundice), nausea, rash,
+tinnitus, vomiting.
+Rare: Antibiotic-associated colitis, arrhythmias, pancreatitis, pulmonary infiltration with QT interval prolongation,
+SJS, torsades de pointes, toxic epidermal necrolysis.
+
+Page 3 of 4
+
+
+
+April 24, 2026, 11:50:57 PM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of Benzodiazepines e.g. Midazolam
+
+Increases metabolism of Clarithromycin:
+CYP3A4/5 inducers, Rifampicin
+
+Increases risk of adverse or toxic effects Clarithromycin:
+Class IA antiarrhythmics e.g. Procainamide
+Class III antiarrhythmics e.g., Amiodarone, Sotalol or drugs which prolong QT interval
+
+Increases risk of adverse or toxic effects of Hypoglycemic agents e.g. Insulin
+
+Increases serum concentration of the following drugs:
+Anticoagulants e.g. Warfarin, Phosphodiesterase inhibitors e.g., Sildenafil, Theophylline
+
+Avoid concomitant use with:
+Decreases metabolism of Calcineurin inhibitors e.g. Tacrolimus
+
+Increases risk of adverse or toxic effects of the following drugs:
+Ergot alkaloids e.g. ergotamine, HMG-CoA reductase inhibitors e.g. simvastatin (rhadomyolysis)
+
+Increases serum concentration of the following drugs:
+HMG-CoA reductase inhibitors e.g. simvastatin
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4
