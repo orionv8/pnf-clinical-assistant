@@ -1,0 +1,120 @@
+﻿April 25, 2026, 1:33:57 AM - https://pnf.doh.gov.ph
+
+ISOFLURANE
+
+Drug Classification
+
+ATC CODE
+
+N01AB06
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Anesthetics
+
+PHARMACOLOGICAL
+
+Anesthetics, General
+
+CHEMICAL CLASS
+
+Halogenated Hydrocarbons
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+RESPIR › 100 mL bottle (Rx)
+
+RESPIR › 250 mL bottle (Rx)
+
+Dosage
+
+RESPIR › 100 mL bottle (Rx)
+
+Anesthesia, induction, by inhalation, ADULT, 1.5–3% with oxygen or oxygen-nitrous oxide mixture. Anesthesia,
+induction, by inhalation, ADULT, 0.5% v/v with oxygen or oxygen and nitrous oxide mixture, increased to 1.5–3% v/v
+with oxygen or oxygen-nitrous oxide mixture. Anesthesia, maintenance, by inhalation, ADULT, 1 to 2.5% v/v with
+concomitant oxygen and nitrous oxide mixture, then 1.5–3.5% v/v with oxygen alone. Anesthesia, maintenance
+during caesarian section, ADULT women, 0.5–0.75% v/v with oxygen and nitrous oxide mixture.
+
+Administration
+
+RESPIR › 100 mL bottle (Rx)
+
+Administer via isoflurane-specific calibrated vaporizer or vaporizer with calculated flow required. Use an ultra-
+short-acting barbiturate to avoid coughing, breath-holding, or laryngospasm during induction. NOTE: Select
+premedication based on the need of the individual patient, considering that secretions are weakly stimulated by
+isoflurane, and the heart rate tends to be increased. The use of anticholinergic drugs is a matter of choice.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:33:57 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+No information found
+
+Indications
+
+Induction and maintenance of general anesthesia.
+
+Contraindications
+
+Known or suspected genetic susceptibility to malignant hyperthermia; history of hepatitis following halogenated
+inhalational anesthetic; history of liver dysfunction, jaundice or unexplained fever, leucocytosis, or eosinophilia
+following halogenated anesthetic administration.
+
+Precautions
+
+Increased intracranial pressure; Coronary artery disease; Patients at risk of QT prolongation and
+bronchoconstriction; Hypotension; Hypovolemia; Neuromuscular disease, e.g., Duchenne muscular dystrophy;
+myasthenia gravis; mitochondrial disorders; Addison’s disease; Myxedema; Hepatic impairment:
+Carboxyhemoglobinemia (do not allow CO2 absorbents in anesthetic apparatus to dry out when delivering isoflurane
+to minimize the risk of developing carboxyhemoglobinaemia); Hemodynamically compromised and debilitated
+patients.
+
+Children (use with caution in <3 years); Pregnancy and
+lactation.
+
+Adverse Drug Reactions
+
+No information found
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:33:57 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Avoid concomitant use with:
+Enhances therapeutic effect of the following drugs: Blood pressure-lowering agents, (hypotensive effect);
+Dopamine; Epinephrine nasal; oral inhalation and systemic, Norepinehrine (arrhythmogenic effect); Metyrosine;
+Pramipexole (sedative effect); Neuromuscular-blocking Agents; Nondepolarizing (neuromuscular-blocking effect);
+QTc-prolonging Agents (QTc-prolonging effect); Ropinirole; Rotigotine (sedative effect)
+
+Increases risk of adverse or toxic effects of Isoflurane: Bambuterol; Ephedrine, Nasal and Systemic (arrhythmogenic
+effect); Methylphenidate (hypertensive effect); Rufinamide (sleepiness and dizziness)
+
+Increases risk of adverse or toxic effects of the following drugs: Fenoterol; Formoterol; Isoproterenol; Metaraminol
+(arrhythmogenic effect); Other CNS depressants; SSRIs (psychomotor impairment)
+
+Mechanism of Action
+
+Isoflurane is a highly halogenated methyl ester that produces profound respiratory depression. Inhaled anesthetics
+alter activity of neuronal ion channels, particularly the fast-synaptic neurotransmitter receptors. They can also
+depress myocardial contractility, decrease blood pressure and sympathetic nervous activity.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 3 of 3

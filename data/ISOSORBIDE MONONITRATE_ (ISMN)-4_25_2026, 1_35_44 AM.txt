@@ -1,0 +1,134 @@
+﻿April 25, 2026, 1:35:45 AM - https://pnf.doh.gov.ph
+
+ISOSORBIDE MONONITRATE (ISMN)
+
+Drug Classification
+
+ATC CODE
+
+C01DA14
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Cardiac Therapy
+
+PHARMACOLOGICAL
+
+Vasodilators Used in Cardiac Diseases
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 40 mg tablet (Rx)
+
+ORAL › 30 mg MR tablet / capsule (Rx)
+
+ORAL › 60 mg MR tablet / capsule (Rx)
+
+Dosage
+
+ORAL › 40 mg tablet (Rx)
+
+Angina: by mouth, ADULT, as regular release tablet, initially 5–20 mg twice daily, given 7 hours apart to decrease
+tolerance development; patients initiating therapy with 5 mg twice daily should be titrated up to 10 mg twice daily
+in the first 2–3 days; as MR tablet, initially 30–60 mg once daily in the morning; titrate upward as needed with at
+least 3 days between increases (maximum single daily dose, 240 mg).
+
+Administration
+
+ORAL › 40 mg tablet (Rx)
+
+Do NOT administer around-the-clock. For immediate release tablets, schedule twice daily doses 7 hours apart (8
+AM and 3 PM). For MR tablets, administer once daily in the morning upon rising with a half-glassful of fluid. Do NOT
+chew or crush MR tablets. MR tablets that are scored may be split.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 1:35:45 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Start with lowest recommended adult dose. Administer first dose in a physician's office to observe for maximal
+cardiovascular dynamic effects and adverse effects. Adjust dose or change medication when reflux esophagitis
+occurs.
+
+Indications
+
+Prevention of angina pectoris
+
+Contraindications
+
+Hypersensitivity to organic nitrates; concurrent use with phosphodiesterase5 inhibitors
+
+Precautions
+
+Long-term therapy (may develop tolerance; administer nitrate-free interval daily to prevent tolerance)
+Hypotension or bradycardia (may be accompanied by paradoxical bradycardia and increased angina pectoris;
+increased risk of hypotension; orthostatic hypotension) Hypertrophic cardiomyopathy (may reduce preload,
+exacerbate obstruction, and cause hypotension or syncope and/or worsening of heart failure)
+Increased intracranial pressure (may worsen clinical outcomes in patients with neurologic injury)
+Lactation (not known if excreted in breastmilk)
+
+Adverse Drug Reactions
+
+Common: Angina, flushing, headache, dizziness, fatigue, pain, emotional lability, pruritus, rash, nausea, abdominal
+pain, diarrhea, upper respiratory infection, cough, allergic reaction
+Less Common: Amblyopia, anorexia, anxiety, apoplexy, arrhythmia, asthma, back pain, bradycardia, impaired
+concentration, depression, diaphoresis, dyspepsia, dyspnea, edema, hypertension or hypotension, insomnia, MI,
+muscle cramps, neck pain, nervousness, nightmares, orthostatic hypotension, pallor, palpitation, paresthesia,
+prostatic disorder, restlessness, sinusitis, susurrus aurium, tachycardia, taste disturbance, thirst, tremor, vertigo,
+vomiting, xerostomia
+Rare: Methemoglobinemia
+
+Page 2 of 3
+
+
+
+April 25, 2026, 1:35:45 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of ISMN:
+Antihypertensive effect: Barbiturates e.g., Phenobarbital, Molsidomine, Nicorandil; Vasodilatory effect: Ethyl alcohol
+
+Increases risk of adverse or toxic effects of ISMN:
+Dapoxetine (orthostatic hypotension), Other Antihypertensive Agents
+
+Increases risk of adverse or toxic effects of the following drugs:
+Methemoglobinemia: Dapsone, (Topical), Nitric Oxide, Prilocaine, Sodium Nitrite,
+Orthostatic hypotension: Duloxetine, Levodopa, Risperidone (hypotensive effect), Rosiglitazone (ischemia)
+
+Avoid concomitant use with:
+Decreases serum concentration of ISMN:
+CYP3A4 Inducers, Dabrafenib, Mitotane
+
+Enhances therapeutic effect of ISMN:
+Phosphodiesterase-5 Inhibitors e.g. Sildenafil (vasodilatory effects)
+
+Enhances therapeutic effect of the following drugs:
+Riociguat (hypotensive effect)
+
+Increases serum concentration of ISMN:
+CYP3A4 Inhibitors, Fusidic Acid (Systemic), Idelalisib, Mifepristone, Stiripentol
+
+Mechanism of Action
+
+An antianginal agent that forms free radical nitric oxide. Nitric oxide activates guanylate cyclase in smooth muscle
+which leads to smooth muscle relaxation and prominent vasodilator effect on the peripheral veins. It also reduces
+cardiac oxygen demand by decreasing preload and afterload due to its vasodilatory effect. It likewise causes
+epicardial coronary arteries vasodilation
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B / C (product-specific)
+
+Page 3 of 3

@@ -1,0 +1,161 @@
+﻿April 25, 2026, 1:24:35 AM - https://pnf.doh.gov.ph
+
+IDARUBICIN
+
+Drug Classification
+
+ATC CODE
+
+L01DB06
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Cytotoxic Antibiotics and Related Substances
+
+CHEMICAL CLASS
+
+Anthracyclines and Related Substances
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV › 5 mg powder (as hydrochloride), vial (Rx)
+
+Dosage
+
+IV › 5 mg powder (as hydrochloride), vial (Rx)
+
+AML, induction, by slow IV injection, ADULT, 12 mg/m2 IV everyday over 10-15 minutes for 3 days with concomitant
+cytarabine; CHILD, 12 mg/m2 for 3 days in combination with cytarabine and etoposide. AML, consoldation, ADULT,
+10-12mg/m2/day IV for 2 days. AML Protocol (including Down Syndrome), CHILD, 5 to 8 mg/m2 four-hour IV infusion
+(depending upon phase of treatment).
+
+Administration
+
+IV › 5 mg powder (as hydrochloride), vial (Rx)
+
+For IV administration only. Administer through a slow injection over 10–15 minutes into a rapidly flowing IV solution
+of NS or D5W. Refer to individual protocols for infusion rate details. NOT for IM or SC administration. NOTE: Avoid
+extravasation. Ensure proper needle or catheter position prior to and during administration. If extravasation
+occurs, discontinue infusion immediately and apply ice to the affected area. Associated with a high emetic
+potential. Antiemetics are recommended to prevent nausea and vomiting.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 1:24:35 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+Reduce doses.
+
+ADULT
+In CrCl 10–50 mL/minute, administer 75% of dose.
+In CrCl <10 mL/minute, administer 50% of dose.
+
+INFANT, CHILD, and ADOLESCENT
+In GFR =50 mL/minute/1.73 m2, and in patients receiving intermittent hemodialysis, peritoneal dialysis, or continuous
+renal replacement therapy, administer 75% of dose.
+
+Hepatic Impairment:
+Reduce doses in impaired hepatic function.
+In bilirubin 2.6–5 mg/dL, administer 50% of dose.
+In bilirubin >5 mg/dL, avoid use.
+
+Impaired Bone Marrow Function:
+Lower doses of 60–75 mg/m2 are recommended.
+
+Toxicity:
+If patients experience severe mucositis during the first induction cycle, delay administration of the second cycle
+until mucositis has resolved. Consider reducing the dose by 25%.
+
+Indications
+
+Treatment of acute myeloid leukemia (AML) in combination with other approved chemotherapy agents
+
+Page 2 of 4
+
+
+
+April 25, 2026, 1:24:35 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to idarubicin, other anthracyclines, anthracenediones, or any component of the formulation;
+bilirubin >5 mg/dL
+
+Precautions
+
+WARNING: Should be administered under the supervision of an experienced cancer chemotherapy physician.
+Administer in a facility sufficient to appropriately diagnose and manage complications.
+Severe myelosuppression may occur.
+Systemic infections should be controlled prior to initiation of treatment.
+May cause myocardial toxicity. May lead to heart failure. Cardiotoxicity is more common in patients who have
+previously received anthracyclines (e.g. doxorubicin, epirubicin) or have preexisting cardiac disease.
+Patients >60 years who were undergoing induction therapy experienced heart failure, serious arrhythmias, chest
+pain, MI, and asymptomatic declines in LVEF more frequently than younger patients.
+
+WARNING: Hazardous agent; use appropriate precautions for handling and disposal.
+
+Bone marrow suppression (e.g. neutropenia, thrombocytopenia; risk of infection and bleeding; monitor blood counts
+frequently).
+
+Hyperuricemia (rapid lysis of leukemic cells may lead to hyperuricemia; ensure adequate hydration; consider use of
+anti-hyperuricemic prophylaxis).
+
+Myocardial toxicity (e.g. potentially fatal heart failure, cardiomyopathies, or acute arrhythmias, which may be life-
+threatening; risk of myocardial toxicity increased in patients with concomitant or prior mediastinal or pericardial
+irradiation, anemia, bone marrow depression, infections, leukemic pericarditis, or myocarditis).
+
+Adverse Drug Reactions
+
+Common: Alopecia, CHF (dose-related), diarrhea, discoloration of urine (darker yellow), headache, myelosuppression,
+nausea, peripheral neuropathy, radiation recall, seizure, skin rash, stomatitis, transient ECG abnormalities (SVT, ST
+wave changes, atrial or ventricular extrasystoles), GI hemorrhage, urticaria, vomiting
+Less Common: Cardiomyopathy, hyperuricemia, myocarditis, neutropenic typhlitis
+
+Page 3 of 4
+
+
+
+April 25, 2026, 1:24:35 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increases risk of adverse or toxic effects of Idarubicin: Bevacizumab (cardiotoxic effect), Cyclophosphamide
+(cardiotoxic effect), Denosumab (serious infections)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Enhances therapeutic effect of Idarubicin: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Idarubicin: Dipyrone (agranulocytosis; pancytopenia), Pimecrolimus,
+Tacrolimus (Topical), Taxane Derivatives (e.g. Paclitaxel, Docetaxel), Trastuzumab (cardiotoxic effects)
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Leflunomide
+(hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia), Natalizumab (concurrent
+infection)
+Reduces therapeutic effect of Idarubicin: Echinacea
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (immune response; live virus
+vaccines may progress to infection)
+
+Mechanism of Action
+
+Inhibits DNA and RNA synthesis by intercalating between DNA base pairs and disrupting topoisomerase II repair.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

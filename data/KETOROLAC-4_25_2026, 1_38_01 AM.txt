@@ -1,0 +1,232 @@
+﻿April 25, 2026, 1:38:02 AM - https://pnf.doh.gov.ph
+
+KETOROLAC
+
+Drug Classification
+
+ATC CODE
+
+Not available
+
+ANATOMICAL
+
+Nervous System
+
+THERAPEUTIC
+
+Analgesics
+
+PHARMACOLOGICAL
+
+Other Analgesics and Antipyretics
+
+CHEMICAL CLASS
+
+Non-Opioid Analgesics
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IM › IV › 30 mg/mL (as tromethamol), 1 mL ampule (Rx)
+
+Dosage
+
+IM / IV › 30 mg/mL (as tromethamol), 1 mL ampule (Rx)
+
+Short-term management of moderate-to-severe acute pain, by IM injection, ADULT =50 kg, initially 10 to 30 mg as a
+single dose, then every 4–6 hours as needed (maximum total daily dose, 90 mg for up to 2 days); utilize lowest
+effective dose; ADULT <50 kg, initially 10 mg as a single dose, then the lowest effective dose every 4–6 hours as
+needed (maximum total daily dose, 60 mg for not more than 5 days); by IV bolus, ADULT =50 kg, 30 mg single dose
+over a minimum of 15 seconds; or 30 mg every 6 hours (maximum total daily dose, 120 mg for not more than 5 days);
+ADULT <50 kg or =65 years, 15 mg as a single dose over a minimum of 15 seconds; or 15 mg every 6 hours (maximum
+total daily dose, 60 mg for not more than 5 days). Single-dose treatment, by IM injection, ADULT <65 years, 60 mg
+single dose; ADULT =65 years, renally impaired and/or <50 kg (110 lbs), 30 mg single dose; by IV injection, ADULT <65
+years, 30 mg single dose; ADULT =65 years, renally impaired and/or <50 kg (110 lbs), 15 mg single dose. Multiple-dose
+treatment, by IM or IV injection, ADULT <65 years, 30 mg every 6 hours (maximum daily dose, 120 mg); ADULT =65
+years, renally impaired and/or <50 kg (110 lbs), 15 mg every 6 hours (maximum daily dose, 60 mg). NOTE: For
+breakthrough pain, do not increase dose or frequency. Consider supplementing regimen with low doses of opioids
+“prn” unless otherwise contraindicated.
+
+Page 1 of 5
+
+
+
+April 25, 2026, 1:38:02 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IM / IV › 30 mg/mL (as tromethamol), 1 mL ampule (Rx)
+
+May be used as a single or multiple dose on a regular or “prn” schedule. For IV bolus, administer over a minimum of
+15 seconds. For IM injection, administer slowly and deeply into the muscle. Inspect visually for particulate matter
+and discoloration prior to administration. Peel back needle wrapping and expose needle hub. Avoid touching the
+hub. Aseptically remove rubber protective cap from the syringe. Attach needle to syringe hub with a twist, keeping
+needle sheath intact. Remove needle sheath and inject medication. Do NOT recap needles, purposely bend, or
+break by hand to prevent needle-stick injuries. Dispose of used syringe in accordance with applicable medical
+waste regulations and guidelines. NOTE: The analgesic effect begins in approximately 30 minutes with maximum
+effect in 1–2 hours after injection. Duration of analgesic effect is usually 4–6 hours. Do NOT mix in a small volume
+with morphine sulfate, meperidine hydrochloride, promethazine hydrochloride, or hydroxyzine hydrochloride. This
+will result in precipitation of ketorolac from solution. Correct hypovolemia prior to administration. Switch patients
+to alternative analgesics as soon as possible. Do NOT administer for more than 5 days.
+
+Dose Adjustment
+
+Geriatric:
+For IM injection, initially 10 mg single dose, then administer the lowest effective dose every 4–6 hours as needed
+(maximum total daily dose, 60 mg for not more than 5 days).
+For IV bolus, 15 mg single dose over a minimum of 15 seconds, or 15 mg every 6 hours (maximum total daily dose, 60 mg
+for not more than 5 days).
+
+Renal Impairment:
+In moderately elevated serum creatinine, reduce daily dose by half, not to exceed 60 mg daily.
+In advanced renal impairment, use is contraindicated.
+
+Hepatic Impairment:
+In mild-to-moderate impairment, use with caution as it may cause elevation of liver enzymes. Discontinue if clinical
+signs and symptoms of liver disease develop.
+In severe impairment or active hepatic disease, use is contraindicated.
+
+Indications
+
+Short-term (=5 days) management of moderately severe acute pain requiring analgesia at the opioid level, usually in a
+postoperative setting.
+
+Page 2 of 5
+
+
+
+April 25, 2026, 1:38:02 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Active or history of peptic ulcer disease; recent or history of GI bleeding or perforation; advanced renal impairment;
+patients at risk for renal failure due to volume depletion; use in labor and delivery; use in nursing mothers; use as
+prophylactic analgesic before any major surgery; intra-operative use when hemostasis is critical; suspected or
+confirmed cerebrovascular bleeding, hemorrhagic diathesis, incomplete hemostasis, and those at high risk of
+bleeding; concomitant use with aspirin, NSAIDs, or probenecid; neuraxial administration.
+
+Precautions
+
+WARNING: Ketorolac is indicated for the short-term (up to 5 days) management of moderately severe acute pain that
+requires analgesia at the opioid level. It is NOT indicated for minor or chronic painful conditions. It is a potent NSAID
+analgesic, and its administration carries many risks. NSAIDrelated adverse events can be serious, especially when
+used inappropriately. Increasing dose beyond what is recommended will not provide better efficacy but will result in
+an increased risk of serious adverse events.
+
+Gastrointestinal Effects. Can cause peptic ulcers, GI bleeding and/or perforation. It is contraindicated in active peptic
+ulcer disease, recent GI bleeding or perforation, and in a history of peptic ulcer disease or GI bleeding.
+
+Risk of Bleeding. Inhibits platelet function. May cause increased risk of bleeding.
+
+Hypersensitivity. Hypersensitivity reactions, ranging from bronchospasm to anaphylactic shock, have occurred.
+Contraindicated in patients with previously demonstrated hypersensitivity to ketorolac or allergic manifestations to
+aspirin or other NSAIDs.
+
+Intrathecal or Epidural Administration. NOT for intrathecal or epidural administration due to its alcohol content.
+
+Concomitant Use with NSAIDs. Has cumulative risks of inducing serious NSAID-related adverse events.
+
+Special populations. Adjust doses for patients =65 years, patients <50 kg (110 lbs), and patients with moderately
+elevated serum creatinine. Total dose should NOT exceed 60 mg daily.
+
+Labor, Delivery, and Nursing. Has prostaglandin synthesis inhibitory effect. May adversely affect fetal circulation and
+inhibit uterine musculature or contraction, increasing the risk of uterine hemorrhage. Use in nursing mothers has
+potential adverse effects of prostaglandin-inhibiting drugs on neonates.
+
+History of hypertension and/or heart failure;
+
+Predisposition to reduced blood volume and/or renal blood flow;
+
+Mild renal or hepatic impairment;
+
+Patient weighing <50 kg;
+
+Elderly (more susceptible to hyperkalemia and GI complications, e.g., GI ulcerations, bleeding, and perforation);
+
+Children (safety and efficacy in patients <16 years have not been established);
+
+Pregnancy (no adequate and well-controlled studies of its use in pregnant women);
+
+Page 3 of 5
+
+
+
+April 25, 2026, 1:38:02 AM - https://pnf.doh.gov.ph
+
+Lactation (may have possible adverse effects of prostaglandin-inhibiting drugs on neonates).
+
+SKILLED TASKS. May impair ability to perform tasks, which require mental alertness, like driving or operating
+machinery.
+
+Adverse Drug Reactions
+
+Common: Edema, hypertension, pruritus, rash, nausea, dyspepsia, GI fullness, diarrhea, GI pain, constipation,
+vomiting, stomatitis, purpura, flatulence, headache, drowsiness, dizziness, sweating, injection site pain.
+
+Less Common: Weight gain, infections, asthenia, fever, palpitation, pallor, syncope, urticaria, gastritis, rectal
+bleeding, eructation, anorexia, increased appetite, epistaxis, anemia, tremors, eosinophilia, abnormal dreams,
+hallucinations, euphoria, extrapyramidal symptoms, vertigo, paresthesia, insomnia, nervousness, excessive thirst,
+depression, dry mouth, abnormal thinking, inability to concentrate, hyperkinesis, stupor, dyspnea, pulmonary edema,
+rhinitis, abnormal taste, cough, abnormal vision, blurred vision, tinnitus, hearing loss, hematuria, proteinuria,
+oliguria, urinary retention, polyuria, increased urinary frequency, hypersensitivity reactions, myalgia, hypotension,
+flushing, Stevens-Johnson syndrome, Lyell’s syndrome, exfoliative dermatitis, maculo-papular rash, urticaria, peptic
+ulceration, GI hemorrhage, GI perforation, acute pancreatitis, melena, thrombocytopenia, liver failure, hepatitis,
+cholestatic jaundice, psychosis, leukopenia, convulsions, aseptic meningitis, asthma, bronchospasm, acute renal
+failure, flank pain with or without hematuria and/or azotemia, nephritis, hyponatremia, hyperkalemia, hemolytic
+uremic syndrome.
+
+Rare: Postoperative wound hemorrhage.
+
+Page 4 of 5
+
+
+
+April 25, 2026, 1:38:02 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases excretion of the following drugs: Aminoglycosides [in premature infants] Pralatrexate
+Enhances therapeutic effect of Ketorolac: Dasatinib, Glucosamine, Limaprost, Multivitamins / Minerals with ADEK,
+Folate, Iron, Multivitamins / Minerals with AE, no Iron, Omega-3 fatty acids, Prostacyclin analogues, SNRIs, SSRIs,
+Tricyclic antidepressants, Tertiary amine, Vitamin E, Systemic (anticoagulant effect)
+Enhances therapeutic effect of the following drugs: Prostaglandins, Ophthalmic; Thrombolytic agents; Urokinase;
+Vitamin K antagonists e.g., Warfarin (anticoagulant effect)
+Increases risk of adverse or toxic effects of Ketorolac: ACE Inhibitors (significant decrease in renal function); Agents
+with Antiplatelet Properties, e.g., P2Y12 Inhibitors, NSAIDs, SSRIs (antiplatelet effect); Angiotensin II Receptor
+Blockers (significant decrease in renal function); Corticosteroids, Systemic; Diclofenac, Systemic; Ethyl alcohol,
+Flunarizine (GI bleeding); Loop Diuretics, Thiazide diuretics, Thiazide-like diuretics (nephrotoxic effect); Pentosan
+Polysulfate Sodium (bleeding); Sodium Phosphates (nephrotoxic effect, specifically, acute phosphate nephropathy)
+Increases risk of adverse or toxic effects of the following drugs: 5-Aminosalicylic Acid Derivatives; Aliskiren;
+Cyclosporine, Systemic; Tacrolimus, Systemic; Tenofovir (nephrotoxic effect); Aminolevulinic Acid, Systemic and
+Topical; Porfimer; Verteporfin (photosensitizing effect); Angiotensin II Receptor Blockers (decrease glomerular
+filtration and renal function); Apixaban; Dabigatran; Bisphosphonate Derivatives (GI ulceration; nephrotoxicity);
+Deferasirox (GI ulceration, irritation, or bleeding); Deoxycholic Acid (bleeding or bruising in the treatment area);
+Desmopressin; Drospirenone, Eplerenone, Potassium-sparing diuretics (hyperkalemic effect); Haloperidol
+(drowsiness and confusion); Iodine Neuromuscular-blocking Agents, I131; Nondepolarizing (apnea); Quinolones
+(neuroexcitatory and/or seizure-potentiating effect)
+Reduces absorption of Ketorolac: Bile Acid Sequestrants; Cholestyramine
+Reduces therapeutic effect of the following drugs: ACE Inhibitors; Aliskiren; Angiotensin II Receptor Blockers; Beta-
+blockers; Eplerenone, Potassiumsparing diuretics (antihypertensive effect); Loop Diuretics (diuretic effect);
+Prostaglandins, Ophthalmic; SSRIs; Thiazide Diuretics; Thiazide-like Diuretics
+
+Avoid concomitant use with:
+Decreases serum concentration of Ketorolac: Salicylates e.g. Aspirin
+Enhances therapeutic effect of the following drugs: Anticoagulants (anticoagulant effect)
+Increases risk of adverse or toxic effects of Ketorolac: Dexketoprofen; Ketorolac, Nasal; Phenylbutazone
+Increases risk of adverse or toxic effects of the following drugs: Aspirin (bleeding); Pentoxifylline (bleeding); NSAIDs;
+COX2 Selective; Salicylates (bleeding)
+Increases serum concentration of Ketorolac: Probenecid
+Reduces therapeutic effect of the following drugs: Aspirin, Salicylates (cardioprotective effect)
+
+Mechanism of Action
+
+Reversibly and non-selectively inhibits COX-1 and COX-2 enzymes, resulting in decreased formation of prostaglandin
+precursors. It exhibits minimal antiinflammatory effect at its analgesic dose.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C; D in 3rd trimester
+
+Page 5 of 5

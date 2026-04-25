@@ -1,0 +1,181 @@
+﻿April 25, 2026, 1:33:29 AM - https://pnf.doh.gov.ph
+
+IRINOTECAN
+
+Drug Classification
+
+ATC CODE
+
+L01XX19
+
+ANATOMICAL
+
+Antineoplastic and Immunomodulating Agents
+
+THERAPEUTIC
+
+Antineoplastic Agents
+
+PHARMACOLOGICAL
+
+Other Antineoplastic Agents
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+IV INFUSION › 40 mg/2 mL concentrate (as hydrochloride), vial (Rx)
+
+IV INFUSION › 100 mg/5 mL concentrate (as hydrochloride), vial (Rx)
+
+Dosage
+
+IV INFUSION › 40 mg/2 mL concentrate (as hydrochloride), vial (Rx)
+
+NOTE: Consider reducing the starting dose by 1 dose level for prior pelvic or abdominal radiotherapy, performance
+status of 2, or known homozygosity for UGT1A1*28 allele. Subsequent dose adjustments should be based on
+individual tolerance. Colorectal cancer, metastatic, weekly-regimen, by IV infusion, ADULT, 125 mg/m2 over 90
+minutes on days 1, 8, 15, and 22 of a 6-week treatment cycle, may adjust upward to 150mg/m2 if tolerated; adjusted
+dose level 1, 100 mg/m2; adjusted dose level 2, 75 mg/m2; further adjust to 50 mg/m2 in decrements of 25 to 50
+mg/m2, if needed. Colorectal cancer, metastatic, single-agent therapy or onceevery-3-week regimen, by IV
+infusion, ADULT, 350 mg/m2 over 90 minutes, once every 3 weeks; adjusted dose level 1, 300 mg/m2; adjusted
+dose level 2, 250 mg/m2; further adjust to 200 mg/m2 in decrements of 25 to 50 mg/m2, if needed. Colorectal
+cancer, metastatic, six-week (42-day) cycle, regimen 1, by IV infusion, ADULT, in combination with bolus fluorouracil
+and leucovorin (administer leucovorin immediately following irinotecan and fluorouracil immediately following
+leucovorin), 125 mg/m2 over 90 minutes on days 1, 8, 15, and 22; adjusted dose level 1, 100 mg/m2; adjusted dose
+level 2, 75 mg/m2; further adjust if needed in decrements of ~20%. regimen 2, by IV infusion, ADULT, in
+combination with fluorouracil bolus or infusion and leucovorin infusion (administer leucovorin immediately
+following irinotecan and fluorouracil immediately following leucovorin), 180 mg/m2 over 90 minutes on days 1, 15,
+and 29; adjusted dose level 1:150 mg/m2; adjusted dose level 2:120 mg/m2; further adjust if needed in
+decrements of ~20%.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 1:33:29 AM - https://pnf.doh.gov.ph
+
+Administration
+
+IV INFUSION › 40 mg/2 mL concentrate (as hydrochloride), vial (Rx)
+
+Administer by IV infusion, usually over 90 minutes. NOTE: Avoid extravasation. Ensure proper needle or catheter
+position prior to and during administration. If extravasation occurs, flush the external site with sterile water and
+apply ice to the affected area. Associated with moderate emetic potential. Antiemetics are recommended to
+prevent nausea and vomiting. Premedication with dexamethasone and a 5-HT3 blocker is recommended 30
+minutes prior to administration. Prochlorperazine may be considered for subsequent use, if needed. Consider
+premedication of atropine 0.25–1 mg IV or SC for cholinergic symptoms or early-onset diarrhea. The recommended
+regimen to manage late diarrhea is loperamide 4 mg orally at onset, followed by 2 mg every 2 hours (or 4 mg every 4
+hours at night) until 12 hours have passed without a bowel movement. If diarrhea recurs, repeat administration. Do
+NOT use loperamide for more than 48 consecutive hours.
+
+Dose Adjustment
+
+Geriatric:
+For every 3-week dosing colorectal cancer schedule, initiate at 300 mg/m2 per dose for patients =70 years.
+
+Hepatic Impairment:
+In bilirubin >ULN to =2 mg/dL, consider reducing initial dose bone dose level. In bilirubin >2 mg/dL, use is not
+recommended.
+
+Obesity:
+Use actual body weight (full weight) for calculation of BSAbased or weight-based dosing, especially if the intent of
+therapy is curative.
+If dose reduction is done due to toxicity, consider resumption of full weight-based dosing with subsequent cycles,
+especially if cause of toxicity is resolved.
+
+Indications
+
+Treatment of metastatic carcinoma of the colon or rectum
+
+Page 2 of 4
+
+
+
+April 25, 2026, 1:33:29 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+No information found
+
+Precautions
+
+WARNING: Early and late forms of diarrhea may occur. Early diarrhea may be accompanied by cholinergic symptoms
+that may be prevented or ameliorated by atropine. Late diarrhea can be life-threatening and should be treated
+promptly with loperamide. Monitor patients with diarrhea and give fluid and electrolytes as needed. Institute
+antibiotic therapy if patients develop ileus, fever, or severe neutropenia. Interrupt irinotecan and reduce
+subsequent doses if severe diarrhea occurs. Severe myelosuppression may occur.
+
+WARNING: Hazardous agent. Use appropriate precautions for handling and disposal.
+
+Bone marrow suppression (severe neutropenia, followed by death due to sepsis has been reported; withhold
+therapy temporarily if neutropenic fever occurs or if the absolute neutrophil count is <1,000/mm3);
+thromboembolism (thromboembolic events have been reported).
+
+Hypersensitivity reactions (severe hypersensitivity reactions including anaphylaxis) have occurred; discontinue
+therapy if hypersensitivity occurs).
+
+Pulmonary toxicity (fatal cases of interstitial pulmonary disease-like events have been reported; monitor for
+respiratory symptoms before and during treatment; promptly evaluate progressive changes in baseline pulmonary
+symptoms or any new-onset pulmonary symptoms).
+
+Renal toxicity (renal impairment and acute renal failure have been reported; use with caution; use has not been
+studied; not recommended in patients undergoing dialysis).
+
+Adverse Drug Reactions
+
+Common: Abdominal fullness, abdominal pain, alkaline phosphatase increased, alopecia, anemia, anorexia, ascites,
+back pain, cholinergic toxicity (including rhinitis, increased salivation, miosis, lacrimation, diaphoresis, flushing,
+intestinal hyperperistalsis), chills, confusion, constipation, cramps, dehydration, diaphoresis, diarrhea (early and
+late), dizziness, dyspepsia, dyspnea, cough, edema, fever, flatulence, headache, hemorrhage, hypotension, infection,
+insomnia, jaundice, leukopenia, mucositis, neutropenia, neutropenic fever, neutropenic infection, pain, nausea,
+pneumonia, rash, rhinitis, somnolence, stomatitis, thrombocytopenia, thromboembolic events, vasodilation,
+vomiting, weakness, weight loss
+
+Less Common: Anaphylactoid reaction, anaphylaxis, angina, arterial thrombosis, bradycardia, cardiac arrest,
+bleeding, cerebrovascular accident, circulatory failure, colitis, deep thrombophlebitis, dysarthria, dysrhythmia,
+embolus, GI bleeding, GI obstruction, hepatomegaly, hiccups, ileus, hyperglycemia, hypersensitivity, hyponatremia,
+interstitial pulmonary disease (IPD), intestinal perforation, ischemic colitis, lymphocytopenia, megacolon, MI, muscle
+cramps, myocardial ischemia, neutropenic typhlitis, pancreatitis, paresthesia, peripheral vascular disorder,
+pulmonary toxicity (dyspnea, fever, reticulonodular infiltrates on chest xray), pulmonary embolus, renal failure
+(acute), renal impairment, syncope, thrombosis, typhlitis, ulcerative colitis, thrombocytopenia (immune mediated),
+thrombophlebitis, ulceration, vertigo
+
+Page 3 of 4
+
+
+
+April 25, 2026, 1:33:29 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Irinotecan: Trastuzumab (neutropenic effect)
+Increases risk of adverse or toxic effects of Irinotecan: Bevacizumab, Denosumab (serious infections)
+Reduces diagnostic effect of Coccidioides immitis Skin Test
+
+Avoid concomitant use with:
+Decreases serum concentration of Irinotecan: Dabrafenib
+Enhances therapeutic effect of Irinotecan: Roflumilast (immunosuppressive effect)
+Enhances therapeutic effect of Tofacitinib (immunosuppressive effect)
+Increases risk of adverse or toxic effects of Irinotecan: Dipyrone (agranulocytosis; pancytopenia), Pimecrolimus,
+Tacrolimus (Topical)
+Increases risk of adverse or toxic effects of the following drugs: Clozapine (agranulocytosis), Leflunomide
+(hematologic toxicity), Natalizumab (concurrent infection)
+Increases serum concentration of Irinotecan: Fusidic Acid (Systemic), Gemfibrozil, Grapefruit Juice, Mifepristone,
+UGT1A1 Inhibitors
+Reduces therapeutic effect of Irinotecan: Conivaptan, Echinacea (immunosuppressive effects)
+Reduces therapeutic effect of the following drugs: BCG (Intravesical), Vaccines (live virus vaccines may progress to
+infection)
+
+Mechanism of Action
+
+Irinotecan and its active metabolite bind reversibly to topoisomerase I-DNA complex, preventing relegation of the
+cleaved DNA strand. This results in the accumulation of cleavable complexes and double-strand DNA breaks, causing
+cell death consistent with S-phase cell cycle specificity, leading to termination of cellular replication.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4

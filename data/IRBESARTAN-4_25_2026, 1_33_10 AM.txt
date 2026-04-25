@@ -1,0 +1,167 @@
+﻿April 25, 2026, 1:33:11 AM - https://pnf.doh.gov.ph
+
+IRBESARTAN
+
+Drug Classification
+
+ATC CODE
+
+C09CA04
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Agents Acting on the Renin-Angiotensin System
+
+PHARMACOLOGICAL
+
+Angiotensin II Antagonists, Plain
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 150 mg tablet (Rx)
+
+ORAL › 300 mg tablet (Rx)
+
+Dosage
+
+ORAL › 150 mg tablet (Rx)
+
+Hypertension, by mouth, ADULT, 150 mg once daily; patients may be titrated to 300 mg once daily; usual dosage
+range, 150–300 mg daily; target dose, 300 mg once daily.
+
+Administration
+
+ORAL › 150 mg tablet (Rx)
+
+May be administered with or without food.
+
+Dose Adjustment
+
+Renal Impairment
+Use with caution. Dose adjustment is only required if patient is volume-depleted.
+
+Volume Depletion:
+Start dose at 75 mg.
+
+Page 1 of 4
+
+
+
+April 25, 2026, 1:33:11 AM - https://pnf.doh.gov.ph
+
+Indications
+
+Treatment of hypertension alone or in combination with other antihypertensive agents
+
+Contraindications
+
+Concomitant use with aliskiren in patients with diabetes mellitus
+
+Precautions
+
+WARNING: Fetal Toxicity. Drugs acting directly on the renin-angiotensin system can cause injury and death to the
+developing fetus. When pregnancy is detected, discontinue as soon as possible.
+
+Peripheral vascular disease (patients may be more likely to have renal artery stenosis)
+Volume or sodium depletion (may activate the renin-angiotensin system leading to excessive hypotension)
+Aortic or mitral valve stenosis and hypertrophic cardiomyopathy; angioedema (may occur rarely; may involve head
+and neck or the intestine)
+Hypotension (symptomatic hypotension may occur upon initiation in patients who are salt- or volume-depleted);
+Heart failure
+Hyperkalemia; renal function deterioration (increased risk of hyperkalemia);
+Hepatic impairment
+Renal artery stenosis (avoid use in patients with unstented unilateral or bilateral renal artery stenosis).
+Surgical patients (if on chronic ARB therapy, intraoperative hypotension may occur with induction and maintenance
+of general anesthesia).
+Elderly (may be volume-depleted due to diuretic use and/or blunted thirst reflex resulting in inadequate fluid intake).
+Pregnancy (avoid use unless essential; may adversely affect fetal and neonatal BP control and renal function)
+Lactation (not known if excreted into breastmilk; information is limited).
+
+NOTE: Concomitant use of an ACE inhibitor or renin inhibitor, e.g., Aliskiren, is associated with an increased risk of
+hypotension, hyperkalemia, and renal dysfunction.
+
+Adverse Drug Reactions
+
+Common: Fatigue, diarrhea, dyspepsia, upper respiratory infection, cough
+Less Common: Abdominal distension, abnormal urination, angina, angioedema, arrhythmia, arthritis, bronchitis,
+bursitis, cardiopulmonary arrest, cerebrovascular accident, chest pain (noncardiac), chills, congestion, conjunctivitis,
+constipation, depression, dermatitis, dyspnea, ear infection, ear pain, ecchymosis, epistaxis, erythema, facial edema,
+fever, flatulence, flushing, gastroenteritis, gout, hearing abnormality, heart failure, hepatitis, hypertension or
+hypotension, hypertensive crisis, jaundice, decreased libido, MI, muscle aches, muscle cramps, muscle weakness,
+numbness, orthostatic hypotension, paresthesia, prostate disorder, pruritus, pulmonary congestion, renal failure,
+impaired renal function, sexual dysfunction, sleep disturbance, somnolence, thrombocytopenia, TIA, tremor, upper
+extremity edema, urticaria, vision disturbance, wheezing
+Rare: Hyperkalemia, anemia, rhabdomyolysis
+
+Page 2 of 4
+
+
+
+April 25, 2026, 1:33:11 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Decreases metabolism of ARB:
+Antifungal Agents, e.g., Azole Derivatives, (Systemic), CYP2C8 Substrates, CYP2C9 Substrates
+
+Enhances therapeutic effect (antihypertensive effect) of ARB:
+Alfuzosin, Barbiturates e.g. Phenobarbital, Brimonidine (Topical), Canagliflozin, Diazoxide, MAO Inhibitors [except
+Linezolid, Tedizolid], Molsidomine, Nicorandil, NSAIDs, Other Antihypertensive Agents, Pentoxifylline,
+Phosphodiesterase-5 Inhibitors e.g. Sildenafil, Prostacyclin Analogues e.g. Epoprostenol
+
+Increases risk of adverse or toxic effects of ARB:
+Antifungal Agents, e.g., Azole Derivatives, (Systemic)
+Hyperkalemic effect: Canagliflozin, Heparin, Eplerenone, Nicorandil NSAIDS (also acute renal failure), Tolvaptan,
+Trimethoprim
+Orthostatic hypotension: Dapoxetine, MAO Inhibitors [except Linezolid, Tedizolid]
+First ARB dose hypotension: Loop diuretics, Thiazide diuretics
+Other Antihypertensive Agents
+
+Increases risk of adverse or toxic effects of the following drugs:
+Ciprofloxacin (systemic) (arrhythmogenic effect), Cyclosporine (systemic) (hyperkalemic effect), Drospirenone
+(hyperkalemic effect), Duloxetine (orthostatic hypotension), Levodopa (orthostatic hypotension), Risperidone
+(hypotensive effect)
+
+Reduces therapeutic effect of ARB:
+Methylphenidate, Rifampicin
+
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects (hyperkalemia) of ARB:
+Aliskiren (also hypotensive, and nephrotoxic effects), Potassium Supplements, Drugs that cause Potassium
+retention, e.g., Potassium-sparing Diuretics, Spironolactone
+
+Increases risk of adverse or toxic effects (hypotensive effect) of the following drugs:
+ACE Inhibitors e.g. Enalapril, Amifostine [withhold ARB 24 hours prior to Amifostine administration], Obinutuzumab
+[withhold ARB 12 hours prior to Obinutuzumab infusion until 1 hour after the end of the infusion], Ramipril, Rituximab,
+Sodium Phosphates (also nephrotoxic effect, specifically acute phosphate nephropathy)
+
+Increases serum concentration of the following drugs:
+ACE Inhibitors e.g. Enalapril, Amodiaquine, Lithium, Ramipril [Ramiprilat]
+
+NOTE: Dual blockade of the Renin-Angiotensin-Aldosterone system, i.e., ARB and ACEI combination, in patients with
+established heart failure, atherosclerotic disease, or diabetes with end-organ damage is associated with higher risk
+for hypotension, syncope, hyperkalemia, and disordered renal function, including acute renal failure.
+
+Mechanism of Action
+
+An angiotensin receptor antagonist that binds to the AT1 angiotensin II receptor. It blocks the vasoconstrictor effect
+of angiotensin II, as well as sodium and water reabsorption which results in a decrease in blood pressure.
+
+Page 3 of 4
+
+
+
+April 25, 2026, 1:33:11 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+D
+
+Page 4 of 4
