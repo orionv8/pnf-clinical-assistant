@@ -1,0 +1,193 @@
+﻿April 25, 2026, 2:36:16 AM - https://pnf.doh.gov.ph
+
+RIFAPENTINE
+
+Drug Classification
+
+ATC CODE
+
+J04AB05
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antimycobacterials
+
+PHARMACOLOGICAL
+
+Drugs for Treatment of Tuberculosis
+
+CHEMICAL CLASS
+
+Drugs for Tuberculosis
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 150 mg film-coated tablet (Rx)
+
+Dosage
+
+ORAL › 150 mg film-coated tablet (Rx)
+
+Tuberculosis (active), initial phase, by mouth, ADULT, 600 mg twice weekly with an interval ≥72 hours between
+doses by directly observed therapy (DOT) for 2 months as part of multidrug regimen; continuation phase, by mouth,
+600 mg once weekly by DOT for 4 months as part of multidrug regimen; initial phase, by mouth, CHILDREN ≥12
+years, 600 mg twice weekly with an interval ≥72 hours between doses by DOT for 2 months; continuation phase, by
+mouth, 600 mg once weekly by DOT for 4 months in combination with isoniazid (INH) or another appropriate agent
+for susceptible organisms NOTE: Drug-susceptible TB guidelines recommend against once-weekly therapy; use
+should only be considered in rare situations in certain HIV-uninfected individuals with no cavitation on chest x-ray;
+for children, initial phase should include a 3- to 4- drug regimen Tuberculosis (latent), by mouth, ADULT, once-
+weekly regimen, administer for 12 weeks in combination with INH; once-daily regimen, administer for 1 month in
+combination with INH; CHILDREN, once-weekly regimen, administer for 12 weeks in combination with INH NOTE:
+For HIV-positive patients, including those with AIDS, rifapentine in combination with INH is recommended if
+receiving HAART therapy with acceptable drug-drug interactions with rifapentine when guided by physicians. See
+dose adjustment table for latent tuberculosis dose adjustment according to BW.
+
+Administration
+
+ORAL › 150 mg film-coated tablet (Rx)
+
+Orally administer with meals; for patients who cannot swallow tablets, may be crushed and added to a small
+amount of semi-solid food and consumed immediately
+
+Page 1 of 4
+
+
+
+April 25, 2026, 2:36:16 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Recommended once weekly/once daily dosing for latent tuberculosis in adults and children.
+ADULTS (Latent Tuberculosis)
+Weight: 25.1-32 kg
+Once weekly (12 weeks): 600 mg
+Weight: <35 kg
+Once daily (1 month): 300 mg
+
+Weight: 32.1-50 kg
+Once weekly (12 weeks): 750 mg
+Weight: 35-45 kg
+Once daily (1 month): 450 mg
+
+Weight: >50 kg
+Once weekly (12 weeks): 900 mg
+Weight: >45 kg
+Once daily (1 month): 600 mg
+
+CHILDREN (Latent Tuberculosis)
+Weight: 10-14 kg
+Once weekly (12 weeks): 300 mg
+
+Weight: >14-25 kg
+Once weekly (12 weeks): 450 mg
+
+Weight: >25-32 kg
+Once weekly (12 weeks): 600 mg
+
+Weight: >32-50 kg
+Once weekly (12 weeks): 750 mg
+
+Weight: >50 kg
+Once weekly (12 weeks): 900 mg
+
+Note:
+Use with caution for patients with renal impairment; pharmacokinetics in adult patients with varying degrees of
+hepatic impairment were similar to those in healthy volunteers.
+
+Indications
+
+Indicated in adults and children 12 years and older for the treatment of active pulmonary tuberculosis (TB) caused by
+Mycobacterium tuberculosis.For the treatment of latent tuberculosis infection (LTBI)
+
+Page 2 of 4
+
+
+
+April 25, 2026, 2:36:16 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to rifapentine, other rifamycins, or any component of the formulation
+
+Precautions
+
+Hypersensitivity reactions, including anaphylaxis, may occur.
+
+Patients with abnormal liver tests and/or liver disease should only be given rifapentine when absolutely necessary
+and under strict medical supervision.
+
+Patients with cavitary pulmonary lesions and/or positive sputum cultures after initial treatment phase and patients
+with bilateral pulmonary disease have higher relapse rates
+
+Not recommended in patients with porphyria; may experience exacerbation due to enzyme-inducing properties
+
+Should not be used during the continuation phase of treatment in HIV-seropositive patients
+
+Red/orange discoloration in urine, feces, saliva, sweat,tears, skin, teeth and tongue
+
+May discolor breast milk red-orange
+
+NOTE:
+Compliance with drug regimen is absolutely necessary;
+permanent staining may occur in patients wearing soft contact lenses during therapy, and in patients with dentures
+
+Adverse Drug Reactions
+
+Common:
+hyperuricemia; pyuria, hematuria, urinary tract infection; neutropenia, lymphocytopenia, anemia
+
+Less Common:
+chest pain; pain, headache, dizziness, fatigue;
+diaphoresis, acne vulgaris, pruritis, maculopapular rash;
+hypoglycemia, hyperglycemia, increased nonprotein nitrogen, gout, hyperphosphatemia;
+anorexia, nausea, constipation, dyspepsia, abdominal pain, diarrhea, vomiting,hemorrhoids;
+casts in urine;
+leukopenia, thrombocytosis, leukocytosis, neutrophilia, thrombocythemia, polycythemia, lymphadenopathy;
+increased serum ALT, increased serum AST, hepatotoxicity;
+hypersensitivity reaction;
+influenza, herpes zoster, infection;
+back pain, arthralgia, osteoarthrosis, tremor;
+conjunctivitis;
+hemoptysis, cough, bronchitis, pharyngitis, epistaxis, pleurisy;
+accidental injury, fever
+
+Page 3 of 4
+
+
+
+April 25, 2026, 2:36:16 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Avoid concomitant use with:
+Enhances therapeutic effect of the following drugs:
+Decreases therapeutic effects of the following drugs:
+BCG vaccine
+Cholera vaccine
+Lactobacillus and estriol
+Sodium picosulfate
+Typhoid vaccine
+
+Increases risk of adverse or toxic effects of Rifapentin:
+Prolonged use (superinfection)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Isoniazid (hepatotoxic effect)
+
+Mechanism of Action
+
+Rifapentine is a rifamycin antibacterial that is used, with other antimycobacterials, for the treatment of tuberculosis.
+It is under investigation for the treatment and prophylaxis of Mycobacterium avium complex infections in patients
+with AIDS.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 4 of 4

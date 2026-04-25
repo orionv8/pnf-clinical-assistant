@@ -1,0 +1,142 @@
+﻿April 25, 2026, 2:38:40 AM - https://pnf.doh.gov.ph
+
+ROSUVASTATIN
+
+Drug Classification
+
+ATC CODE
+
+C10AA07
+
+ANATOMICAL
+
+Cardiovascular System
+
+THERAPEUTIC
+
+Lipid Modifying Agents
+
+PHARMACOLOGICAL
+
+Hmg CoA Reductase Inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 20 mg tablet (as calcium salt) (Rx)
+
+ORAL › 10 mg tablet (as calcium salt) (Rx)
+
+Dosage
+
+ORAL › 20 mg tablet (as calcium salt) (Rx)
+
+NOTE: Individualize doses based on baseline LDL-cholesterol levels, recommended goal of therapy, and patient
+response. Adjust doses at 4-week intervals or more. Reserve highest dose (40 mg) only for patients who fail to
+achieve desired cholesterol level at 20 mg daily. High cardiovascular risk, by mouth, ADULT MEN >50 years and
+WOMEN >60 years, 20 mg once daily. Hypercholesterolemia, by mouth, ADULT, initially 5 or 10 mg once daily, may
+increase dose to 20 mg if necessary at intervals of at least 4 weeks; usual range, 5–20 mg once daily (maximum
+dose, 40 mg once daily); CHILD 10–18 years, initially 5 mg once daily (maximum dose, 20 mg once daily).
+
+Administration
+
+ORAL › 20 mg tablet (as calcium salt) (Rx)
+
+May be taken with or without food. May be taken at any time of the day
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:38:40 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Geriatric:
+Start at low dose. Initiate dose at 5 mg once daily.
+
+Renal Impairment:
+For mild-to-moderate impairment, initiate dose at 5 mg once daily with a maximum dose of 10 mg once daily.
+
+Asian Ancestry:
+Patients may build up higher drug levels and be at higher risk to develop myopathy. Initiate dose at 5 mg. Do not
+administer 40 mg dose.
+
+Patients at Risk for Myopathy:
+Consider lower initial dose, e.g., 5 mg daily in adults.
+
+Indications
+
+Prevention of cardiovascular events in patients at high risk of a first cardiovascular event; mixed dyslipidemia, or
+homozygous familial hypercholesterolemia in patients who have not responded adequately to diet and other
+appropriate measures; (adults) treatment of primary hypercholesterolemia, e.g., heterozygous familial and non-
+familial hypercholesterolemia; (children and adolescents) treatment of heterozygous familial hypercholesterolemia
+
+Contraindications
+
+Pregnancy; breastfeeding; women who are planning to conceive or those using inadequate contraception; severe
+renal impairment; active liver disease; unexplained persistent elevation in serum transaminases
+
+Precautions
+
+Renal impairment (may reduce elimination of rosuvastatin; increases risk of myopathy); Hepatic effects (hepatic
+impairment may impair elimination of rosuvastatin).
+Myopathy (may occur with lipid lowering agent; monitor creatine kinase (CK) levels and discontinue if these are
+markedly elevated; increased risk for rhabdomyolysis); immune-mediated necrotizing myopathy (have been rarely
+reported)
+Severe intercurrent illness, e.g., infection, trauma, metabolic disorder, endocrine and electrolyte disturbances,
+uncontrolled seizures (increases risk of myopathy, rhabdomyolysis, and renal failure).
+Diabetes mellitus (small increases in HbA1c and fasting blood glucose have been reported); hematuria and
+proteinuria; hypothyroidism (should be managed adequately before starting treatment with a statin)
+Treatment with systemic Sodium Fusidate (may increase the risk of rhabdomyolysis)
+Elderly (risk of myopathy is higher); children (safety and efficacy have not been established in children <10 years;
+establish a healthy lifestyle to reduce cardiovascular risk)
+Pregnancy (use during first trimester has been associated with fetal malformation; decreased synthesis of
+cholesterol may possibly affect fetal development); lactation
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:38:40 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common: Abdominal pain, arthralgia, constipation, diabetes mellitus, dizziness, elevated creatine kinase or
+aminotransferase concentrations, headache, flu-like illness, insomnia, mild GI symptoms, myalgia, nausea, UTI,
+weakness
+Less Common: Pruritus, rash, urticaria
+Rare: Myopathy (including myositis), angioedema, alopecia, amnesia, anaphylaxis, gynecomastia, hematuria, hepatitis,
+hypersensitivity (rash, pruritus, urticaria), impotence, interstitial lung disease, jaundice, liver failure, pancreatitis,
+paresthesia, peripheral neuropathy, proteinuria, rhabdomyolysis, renal failure, toxic epidermal necrolysis
+
+Drug Interactions
+
+Monitor closely with:
+Enhances therapeutic effect of Rosuvastatin:
+Fibrates e.g. Fenofibrate (myopathy; rhabdomyolysis)
+
+Avoid concomitant use with:
+Enhances therapeutic effect of the following drugs:
+Warfarin (increases INR)
+
+Increases risk of adverse or toxic effects of Rosuvastatin:
+Niacin (rhabdomyolysis; increased toxicity due to pharmacodynamic synergism)
+
+Increases risk of adverse or toxic effects of the following drugs:
+Warfarin (bleeding)
+
+Reduces absorption of Rosuvastatin:
+Bile Acid Binding Resins [administer statin at least 1 hour before, or 4 hours after, the resin]
+
+Mechanism of Action
+
+An active HMG-CoA reductase inhibitor, which is effective in reducing LDL-cholesterol concentration and has been
+efficacious in severe hypercholesterolemia
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+X
+
+Page 3 of 3

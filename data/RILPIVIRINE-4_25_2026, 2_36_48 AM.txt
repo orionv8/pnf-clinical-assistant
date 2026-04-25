@@ -1,0 +1,115 @@
+﻿April 25, 2026, 2:36:49 AM - https://pnf.doh.gov.ph
+
+RILPIVIRINE
+
+Drug Classification
+
+ATC CODE
+
+J05AG05
+
+ANATOMICAL
+
+Anti-Infectives for systemic use
+
+THERAPEUTIC
+
+Antivirals for Systemic Use
+
+PHARMACOLOGICAL
+
+Directly Acting Agents
+
+CHEMICAL CLASS
+
+Nucleosides and nucleotides excl. reverse transcriptase inhibitors
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 25 mg (as Hydrochloride) Tablet (Rx)
+
+Dosage
+
+Administration
+
+Dose Adjustment
+
+Dosage adjustment for concomitant therapy with rifabutin:
+Increase to 50 mg once daily in patients on concomitant
+rifabutin. Decrease to 25 mg once daily when rifabutin is
+stopped.
+
+Indications
+
+Treatment of human immunodeficiency virus type 1 (HIV 1) infection in combination with other antiretroviral agents in
+treatment-naïve patients with HIV-1 RNA <100,000 copies/mL.
+
+Page 1 of 3
+
+
+
+April 25, 2026, 2:36:49 AM - https://pnf.doh.gov.ph
+
+Contraindications
+
+Hypersensitivity to rilpivirine or any component of the formulation.
+
+Precautions
+
+Depressive disorders (may cause depression, mood changes, negative thoughts, suicide attempts, or suicidal
+ideation);
+Fat redistribution (e.g., central obesity, buffalo hump, facial wasting, peripheral wasting, breast enlargement, and
+cushingoid appearance);
+Hepatotoxicity (Patients with underlying hepatitis B or C, or marked increased transaminases prior to treatment may
+be at increased risk);
+Immune reconstitution syndrome (During initial HIV treatment, patient may develop immune reconstitution
+syndrome resulting in the occurrence of an indolent or
+residual opportunistic infection, or autoimmune disorders later in therapy.)
+Hypersensitivity (Severe skin and hypersensitivity reactions reported, including cases of drug reaction with
+eosinophilia and systemic symptoms (DRESS).
+
+Adverse Drug Reactions
+
+Common: Depression, headache, drowsiness, nausea
+Less Common: Dizziness, insomnia, abnormal dreams,
+fatigue, skin rash, abdominal pain, vomiting
+Rare: Angioedema, conjunctivitis, DRESS syndrome, facial
+edema, fever, hepatitis, hypersensitivity reaction,
+localized vesiculation, nephrotic syndrome, and suicidal
+ideation.
+
+Page 2 of 3
+
+
+
+April 25, 2026, 2:36:49 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with:
+Increased toxicity of the following drugs:
+Amiodarone, Artemether/Lumefantrine, Azithromycin,
+Chlorpromazine, Ciprofloxacin, Clarithromycin,
+Erythromycin, Escotalopram, Fluconazole, Fluoxetine,
+Haloperidol, Indapamide, Levofloxacin, Lopinavir,
+Moxifloxacin, Octreotide, Ofloxacin, Paliperidone,
+Quetiapine, Quinine, Risperidone, Tacrolimus,
+Voriconazole
+Avoid concomitant use with:
+Decreases levels of Rilpivirine:
+Carbamazepine, Dexamethasone, Efavirenz, Nevirapine,
+Oxcarbazepine, Phenobarbital, Phenytoin, Rifampin,
+Rifabutin
+
+Mechanism of Action
+
+Rilpivirine has activity against HIV-1 by binding to reverse transcriptase. It consequently blocks the RNA-dependent
+and DNA dependent DNA polymerase activities, including HIV-1 replication.
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+B
+
+Page 3 of 3

@@ -1,0 +1,176 @@
+﻿April 25, 2026, 2:33:56 AM - https://pnf.doh.gov.ph
+
+QUININE
+
+Drug Classification
+
+ATC CODE
+
+P01BC01
+
+ANATOMICAL
+
+Antiparasitic Products, Insecticides, and Repellents
+
+THERAPEUTIC
+
+Antiprotozoals
+
+PHARMACOLOGICAL
+
+Agents Against Amoebiasis and Other Protozoal Diseases
+
+Technical Specifications PNF Primary Care Reserved AMs
+
+ORAL › 325 mg tablet (as sulfate) (300 mg base) (Rx)
+
+IV › 250 mg/mL (as dihydrochloride). 1 mL ampule (Rx)
+
+IV › 300 mg/mL (as dihydrochloride). 1 mL ampule (Rx)
+
+Dosage
+
+ORAL › 325 mg tablet (as sulfate) (300 mg base) (Rx)
+
+Uncomplicated malaria due to P. falciparum or P. malariae (in combination with clindamycin, 10 mg/kg twice daily for
+7 days; and primaquine tablet, 15 mg (0.25 mg base per kg) on day 1 and 3 tablets for adults >60 kg), by mouth, ADULT
+(pregnant and lactating women), INFANT <6 months, 10 mg/kg every 8 hours for 7 days. 2nd line drug for severe
+malaria, by IV drip, ADULT, 20 mg/kg in 500 mL D5W or 0.9 NaCl for 4 hours ass loading dose (maximum total dose,
+2,000 mg), then 10 mg/kg in 0.9 NaCl or D5W for 4 hours every 8 hours as maintenance dose; shift to oral
+artemether-lumefantrine plus clindamycin once patient can tolerate; CHILD 8–16 years (in combination with
+clindamycin, 10 mg/kg twice daily for 7 days), 15 mg/kg for 4 hours in 10 mL/kg D5W or 0.9 NaCl as loading dose
+(maximum infusion rate, 5 mg/kg per hour), then 10 mg/kg for 4 hours every 8 hours as maintenance dose; CHILD ≤7
+years, 10 mg/kg for 4 hours as loading dose, then 10 mg/kg every 12 hours as maintenance dose. See National
+Antibiotic Guidelines for other dosing information.
+
+Administration
+
+ORAL › 325 mg tablet (as sulfate) (300 mg base) (Rx)
+
+Take with food to decrease incidence of gastric upset. Swallow dose whole to avoid bitter taste. Avoid use of
+aluminum- or magnesium-containing antacids because of drug absorption problems
+
+Page 1 of 5
+
+
+
+April 25, 2026, 2:33:56 AM - https://pnf.doh.gov.ph
+
+Dose Adjustment
+
+Renal Impairment:
+For patients with severe chronic impairment but not on dialysis, initiate dose at 648 mg, followed by 324 mg every 12
+hours.
+
+Hepatic Impairment:
+For patients with mild-to-moderate impairment, no dosage adjustment needed. Monitor closely. For patients with
+severe impairment, avoid use or reduce maintenance dose to 5–7 mg/kg of quinine salt every 8 hours.
+
+Indications
+
+1st line treatment of uncomplicated chloroquine-resistant P. falciparum malaria (in conjunction with other
+antimalarial agents) in pregnant and lactating women and infants less than 6 months old; 2nd line treatment of
+severe malaria.
+
+Contraindications
+
+Prolonged QT interval; myasthenia gravis; optic neuritis; G6PD deficiency; hypersensitivity to quinine, mefloquine,
+quinidine, or any component of the formulation;
+
+Precautions
+
+Hypersensitivity reactions (discontinue following any signs of sensitivity); Hypoglycemia; Thrombocytopenia
+(re exposure may result in increased severity of thrombocytopenia and faster onset); Altered cardiac conduction
+(use with caution); Hepatic impairment (use with caution); renal impairment (use with caution; dose adjustment
+recommended in severe chronic impairment)
+Elderly (use with caution).
+Pregnancy (crosses the human placenta in amounts not therapeutic to the infant; teratogenic effects, optic nerve
+hypoplasia, and deafness have been reported in the infant following maternal use of very high doses); lactation
+
+Page 2 of 5
+
+
+
+April 25, 2026, 2:33:56 AM - https://pnf.doh.gov.ph
+
+Adverse Drug Reactions
+
+Common and Less Common: Atrial fibrillation, atrioventricular block, bradycardia, cardiac arrest, chest pain,
+hypotension, irregular rhythm, nodal escape beats, orthostatic hypotension, palpitation, QT prolongation, syncope,
+tachycardia, torsade de pointes, unifocal premature ventricular contractions, U waves, vasodilation, ventricular
+fibrillation, ventricular tachycardia, aphasia, ataxia, chills, coma, confusion, disorientation, dizziness, dystonic
+reaction, fever, flushing, headache, mental status altered, restlessness, seizure, suicide, vertigo, acral necrosis,
+allergic contact dermatitis, bullous dermatitis, bruising, cutaneous rash, cutaneous vasculitis, exfoliative dermatitis,
+erythema multiforme, petechiae, photosensitivity, pruritus, Stevens-Johnson syndrome, toxic epidermal necrolysis,
+hypoglycemia, abdominal pain, anorexia, diarrhea, esophagitis, gastric irritation, nausea, vomiting, agranulocytosis,
+aplastic anemia, coagulopathy, disseminated intravascular coagulation, hemolytic anemia, hemolytic uremic
+syndrome, hemorrhage, hypoprothrombinemia, immune thrombocytopenia, leukopenia, neutropenia, pancytopenia,
+thrombocytopenia, thrombotic thrombocytopenic purpura, granulomatous hepatitis, hepatitis, jaundice, myalgia,
+tremor, weakness, blindness, blurred vision, color vision disturbance, diminished visual fields, diplopia, night
+blindness, optic neuritis, photophobia, pupillary dilation, vision loss (sudden), deafness, hearing impaired, tinnitus,
+acute interstitial nephritis,, renal failure, renal impairment, asthma, dyspnea, pulmonary edema, black water fever,
+diaphoresis, hypersensitivity reaction, lupus anticoagulant, lupus-like syndrome
+
+Page 3 of 5
+
+
+
+April 25, 2026, 2:33:56 AM - https://pnf.doh.gov.ph
+
+Drug Interactions
+
+Monitor closely with: Enhances therapeutic effect of the following drugs: Antihypertensive Herbs, Vitamin K
+Antagonists [e.g., Warfarin (anticoagulant effect)]
+
+Increases risk of hypoglycemic adverse effects of Quinine: Androgens [except Danazol], Antidiabetic Agents, Herbs
+with Hypoglycemic Properties, MAO Inhibitors, Other hypoglycemia-associated Agents, Pegvisomant, Salicylates,
+Selective Serotonin Reuptake Inhibitors
+
+Increases risk of the following drugs: Herbs with Hypotensive Properties (excessive blood pressure lowering),
+Significant methemoglobinemia: Nitric Oxide, Prilocaine, Sodium Nitrite
+
+Reduces therapeutic effect of the following drugs: Codeine, Tramadol
+
+Avoid concomitant use with: Decreases serum concentration of Quinine: Antacids [except Calcium Carbonate,
+Sodium Bicarbonate], Carbamazepine, Dabrafenib, Fosphenytoin, Lopinavir, Mitotane, Phenobarbital, Phenytoin,
+Rifampin, Ritonavir,
+
+Decreases serum concentration of Tamoxifen [active metabolite/s]
+
+Enhances therapeutic effect of Neuromuscular-blocking Agents
+
+Increases risk of adverse or toxic effects of Quinine: Artemether, Dapsone (hemolytic reactions), Ivabradine (QTc-
+prolonging effect), Mifepristone (QTc-prolonging effect), QTc-prolonging Agents
+
+Increases risk of adverse or toxic effects of the following drugs: Dapsone (hemolytic reactions), Halofantrine,
+Lumefantrine, Mefloquine (QTc-prolongation; convulsions)
+
+Increases serum concentration of Quinine: Antihepatitis C viral Combination Products, Cimetidine, Conivaptan,
+CYP3A4 Inhibitors, Fusidic Acid, Idelalisib, Macrolide Antibiotics e.g. Erythromycin [except Fidaxomicin], Mefloquine
+[delay Mefloquine administration at least 12 hours after the last dose of Quinine], Stiripentol
+
+Increases serum concentration of the following drugs: Afatinib [if concomitant use cannot be avoided, reduce
+Afatinib dose by 10 mg if not tolerated], Amodiaquine, Bosutinib, Carbamazepine, Colchicine (enhances distribution
+into certain tissues, e.g., brain), Dabigatran Etexilate [active metabolite/s], Doxorubicin (Conventional), Edoxaban,
+Everolimus, Halofantrine, HMG-CoA reductase inhibitors [except Fluvastatin, Pitavastatin, Pravastatin, Red Yeast
+Rice, Rosuvastatin], Metoprolol, Pazopanib, Phenobarbital, Ritonavir, Silodosin, Thioridazine, Topotecan, Vincristine
+(Liposomal)
+
+Mechanism of Action
+
+A methanolquinoline that intercalates into the DNA structure of susceptible Plasmodium spp., disrupting the
+parasite’s replication and transcription.
+
+Page 4 of 5
+
+
+
+April 25, 2026, 2:33:56 AM - https://pnf.doh.gov.ph
+
+Pregnancy & Remarks
+
+PREGNANCY CATEGORY
+
+C
+
+Page 5 of 5
