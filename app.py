@@ -101,7 +101,7 @@ if user_query:
         relevant_text = "\n...\n".join([r["text"] for r in scored_results])[:5000]
         
         # WEB SEARCH (Conditional Fallback)
-web_context = ""
+        web_context = ""
         if not scored_results or is_complex:
             headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
             params = {"q": f"{' '.join(active_terms)} generic name drug interactions philippines", "count": 3}
@@ -111,6 +111,7 @@ web_context = ""
                 web_context = "\n".join([f"[SOURCE: {r.get('url')}]\n{r.get('description')}" for r in web_results])[:1500]
             except:
                 web_context = ""
+
 
         # --- UPGRADED AMS LOGIC ---
         is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED) or any(drug in relevant_text.lower() for drug in AMS_RESTRICTED)
