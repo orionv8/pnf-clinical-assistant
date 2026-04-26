@@ -3,13 +3,16 @@ import os
 import requests
 import json
 import re
-from groq import Groq
+import vertexai
+from vertexai.generative_models import GenerativeModel
 
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊")
 
-# 2. API Key Loading
-GROQ_KEY = os.getenv("GROQ_API_KEY")
+# 2. API Key/Config Loading
+# Initialize Vertex AI - PROJECT_ID, LOCATION, MODEL_NAME are now set as Env Vars
+vertexai.init(project=os.getenv("PROJECT_ID"), location=os.getenv("LOCATION"))
+model = GenerativeModel(os.getenv("MODEL_NAME"))
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
 # --- SECURITY: INPUT SANITIZATION ---
@@ -26,19 +29,15 @@ AMS_RESTRICTED = [
 
 with st.sidebar:
     st.header("⚙️ System Status")
-    if not GROQ_KEY or not BRAVE_KEY:
-        st.error("Keys missing")
-        GROQ_KEY = st.text_input("Manual Groq API Key", type="password")
+    if not BRAVE_KEY:
+        st.error("Brave API Key missing")
         BRAVE_KEY = st.text_input("Manual Brave API Key", type="password")
     else:
         st.success("✅ PNF Clinical Assistant Online")
 
-if not (GROQ_KEY and BRAVE_KEY):
+if not BRAVE_KEY:
     st.info("Awaiting API Keys to initialize...")
     st.stop()
-
-# 3. Initialize Groq
-groq_client = Groq(api_key=GROQ_KEY)
 
 # 4. Load the New Text-Based Index
 @st.cache_resource
@@ -102,7 +101,7 @@ if user_query:
         relevant_text = "\n...\n".join([r["text"] for r in scored_results])[:5000]
         
         # WEB SEARCH (Conditional Fallback)
-        web_context = ""
+web_context = ""
         if not scored_results or is_complex:
             headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
             params = {"q": f"{' '.join(active_terms)} generic name drug interactions philippines", "count": 3}
@@ -114,7 +113,6 @@ if user_query:
                 web_context = ""
 
         # --- UPGRADED AMS LOGIC ---
-        # Checks both what the user typed AND what the database pulled up
         is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED) or any(drug in relevant_text.lower() for drug in AMS_RESTRICTED)
         
         ams_instruction = ""
@@ -129,8 +127,9 @@ if user_query:
         else:
             template = f"SINGLE DRUG: Format as 1. Formulary Status, 2. Clinical Monograph. Start exactly with: 'Based on official references, here is the information for [Generic Name] (Brand: {user_query.title()} if applicable):'"
 
-        # Updated prompt with the new reference hiding rules
         prompt = f"""
+        System: {system_rules}
+        
         USER: {clean_query}
         
         PNF DATA: {relevant_text}
@@ -143,16 +142,14 @@ if user_query:
         """
 
         try:
-            response = groq_client.chat.completions.create(
-                model="llama-3.1-8b-instant",
-                messages=[{"role": "system", "content": system_rules}, {"role": "user", "content": prompt}],
-                temperature=0.0,
-                max_tokens=1000
-            )
+            # Generate the response using Vertex AI
+            response = model.generate_content(prompt)
+            answer = response.text
+            
             st.markdown("---")
-            st.write(response.choices[0].message.content)
+            st.write(answer)
         except Exception as e:
-            st.error(f"Groq Error: {e}")
+            st.error(f"Vertex AI Error: {e}")
 
 # --- FOOTER ---
 st.markdown("---")
