@@ -98,9 +98,15 @@ if user_query:
         # Local search logic
         scored_results = []
         for entry in all_pnf_data:
-            # Match drug name or content
-            if user_query.lower() in entry['drug'].lower() or user_query.lower() in entry['text'].lower():
+            # Match drug name (exact) or content (loose)
+            if user_query.lower() == entry['drug'].lower():
                 scored_results.append(entry)
+        
+        # If no exact drug name match, try content match
+        if not scored_results:
+            for entry in all_pnf_data:
+                if user_query.lower() in entry['text'].lower():
+                    scored_results.append(entry)
         
         try:
             # SIMPLE RETRIEVAL: If found, display the exact content; if not, use AI
