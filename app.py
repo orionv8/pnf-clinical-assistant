@@ -127,9 +127,9 @@ if user_query:
                 web_context = "\n".join([f"[WEB SOURCE: {r['url']}]\n{r['description']}" for r in web_results])
 
             # STRICT CLINICAL GUARDRAIL
-            system_prompt = "You are a specialized PNF Clinical Assistant. ONLY answer questions related to medicine, the Philippine National Formulary (PNF), or clinical pharmacology. If a user asks about non-clinical topics (e.g., capitals, history, sports), politely decline and state you are only for clinical assistance. Use provided PNF data as your primary source."
+            system_prompt = "You are a specialized PNF Clinical Assistant. Your task is to provide clinical information ONLY from the provided PNF data for the specific drug requested. If the provided data does NOT contain information about the requested drug, state clearly: 'Information not found in current PNF data.' DO NOT include information from other drugs or general pharmacology unless explicitly asked. DO NOT hallucinate drug combinations if not explicitly stated in the provided text."
             
-            prompt = f"{system_prompt}\n\nQuery: {user_query}. Data: {relevant_text}. Web: {web_context}. {ams_instruction}"
+            prompt = f"{system_prompt}\n\nQuery: {user_query}. Data: {relevant_text}. {ams_instruction}"
             response = model.generate_content(prompt)
             st.markdown("---")
             st.write(response.text)
