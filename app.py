@@ -41,10 +41,29 @@ vertexai.init(project=os.getenv("PROJECT_ID"), location=os.getenv("LOCATION"))
 model = GenerativeModel(os.getenv("MODEL_NAME"))
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
-# --- CLINICAL DATA ---
-AMS_RESTRICTED = ["cefepime", "ertapenem", "meropenem", "vancomycin", "amphotericin b", "voriconazole", "colistin", "micafungin", "aztreonam", "linezolid", "imipenem", "tigecycline"]
+# --- SMART SEARCH ENGINE ---
+def search_local_index(query, index_data):
+    # Split query into keywords
+    keywords = [w for w in re.sub(r'[^\w\s]', '', query.lower()).split() if len(w) > 2]
+    if not keywords: return []
+    
+    scored_results = []
+    for entry in index_data:
+        content = entry["text"].lower()
+        score = sum(content.count(k) for k in keywords)
+        if score > 0:
+            scored_results.append({"text": entry["text"], "score": score})
+    
+    # Sort by relevance
+    scored_results.sort(key=lambda x: x["score"], reverse=True)
+    return scored_results
 
-# --- UI LOGIC ---
+# --- UI LOGIC & CLEAR BUTTON ---
+st.markdown("""
+<style>
+    div[data-testid="stTextInput"] > div > div > div > button { display: block !important; }
+</style>
+""", unsafe_allow_html=True)
 st.markdown('<div class="main-title">Search the Formulary</div>', unsafe_allow_html=True)
 user_query = st.text_input("", placeholder="Enter drug name or clinical question...")
 
@@ -85,7 +104,16 @@ if user_query:
 
         # Generation
         try:
-            prompt = f"System: Clinical AI. Query: {user_query}. Data: {relevant_text}. Respond professionally. {ams_instruction}"
+            # Web Search Fallback
+            web_context = ""
+            if len(scored_results) < 2:
+                headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
+                params = {"q": f"{user_query} philippines", "count": 3}
+                resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
+                web_results = resp.json().get('web', {}).get('results', [])
+                web_context = "\n".join([f"[WEB SOURCE: {r['url']}]\n{r['description']}" for r in web_results])
+
+            prompt = f"System: Clinical AI. Query: {user_query}. Data: {relevant_text}. Web: {web_context}. Respond professionally. {ams_instruction}"
             response = model.generate_content(prompt)
             st.markdown("---")
             st.write(response.text)
