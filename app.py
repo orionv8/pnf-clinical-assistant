@@ -57,9 +57,15 @@ with col2:
 
 # Logic
 if user_query:
-    with st.spinner("Searching..."):
+# --- AMS LOGIC ---
+        is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
+        ams_instruction = ""
+        if is_restricted:
+            ams_instruction = "\n### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification."
+
+        # Generation
         try:
-            prompt = f"System: Clinical AI. Query: {user_query}. Respond professionally using PNF context."
+            prompt = f"System: Clinical AI. Query: {user_query}. Data: {relevant_text}. Respond professionally. {ams_instruction}"
             response = model.generate_content(prompt)
             st.markdown("---")
             st.write(response.text)
