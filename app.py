@@ -98,7 +98,8 @@ if user_query:
         # Local search logic
         scored_results = []
         for entry in all_pnf_data:
-            if user_query.lower() in entry["text"].lower():
+            # Match drug name or content
+            if user_query.lower() in entry['drug'].lower() or user_query.lower() in entry['text'].lower():
                 scored_results.append(entry)
         
         relevant_text = "\n...\n".join([r["text"] for r in scored_results])[:5000]
