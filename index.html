@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PNF Clinical Assistant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+        --color-bg: #08090a;
+        --color-panel: #0f1011;
+        --color-surface: #191a1b;
+        --color-primary: #f7f8f8;
+        --color-secondary: #d0d6e0;
+        --color-accent: #f59e0b;
+        --color-border: rgba(255,255,255,0.08);
+        --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+        --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    body {
+        background-color: var(--color-bg);
+        color: var(--color-primary);
+        font-family: var(--font-main);
+        font-feature-settings: "cv01", "ss03";
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .container {
+        width: 100%;
+        max-width: 600px;
+        background: var(--color-panel);
+        padding: 32px;
+        border-radius: 12px;
+        border: 1px solid var(--color-border);
+    }
+    h1 {
+        font-weight: 510;
+        letter-spacing: -0.704px;
+        margin-bottom: 24px;
+    }
+    input {
+        width: 100%;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid var(--color-border);
+        color: var(--color-primary);
+        padding: 12px 14px;
+        border-radius: 6px;
+        font-family: var(--font-main);
+        box-sizing: border-box;
+    }
+    .accent { color: var(--color-accent); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PNF <span class="accent">Clinical Assistant</span></h1>
+    <input type="text" placeholder="Enter drug name or clinical question...">
+  </div>
+</body>
+</html>
