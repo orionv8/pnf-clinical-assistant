@@ -102,36 +102,33 @@ if user_query:
             if user_query.lower() in entry['drug'].lower() or user_query.lower() in entry['text'].lower():
                 scored_results.append(entry)
         
-        # FIX: Only use the single best match to avoid drug-interaction hallucinations
+        # SIMPLE RETRIEVAL: If found, display the exact content; if not, use AI
         if scored_results:
-            scored_results.sort(key=lambda x: len(x['text']), reverse=False) # Simple heuristic: shortest match often most specific
+            scored_results.sort(key=lambda x: len(x['text']), reverse=False)
             relevant_text = scored_results[0]["text"]
+            st.markdown(f"### 📋 PNF Reference: {scored_results[0]['drug']}")
+            st.text(relevant_text)
+            # Add AMS alert if needed
+            is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
+            if is_restricted:
+                st.markdown("\n### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.")
         else:
+            # AI Fallback for missing data, brand names, or complex interactions
             relevant_text = ""
-
-        # --- AMS LOGIC ---
-        is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
-        ams_instruction = ""
-        if is_restricted:
-            ams_instruction = "\n### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification."
-
-        # Generation
-        try:
-            # Web Search Fallback
-            web_context = ""
-            if len(scored_results) < 2:
+            with st.spinner("Searching..."):
+                # Web Search Fallback
+                web_context = ""
                 headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
-                params = {"q": f"{user_query} philippines", "count": 3}
+                params = {"q": f"{user_query} PNF Philippines clinical", "count": 3}
                 resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
                 web_results = resp.json().get('web', {}).get('results', [])
                 web_context = "\n".join([f"[WEB SOURCE: {r['url']}]\n{r['description']}" for r in web_results])
 
-            # STRICT CLINICAL GUARDRAIL
-            system_prompt = "You are a specialized PNF Clinical Assistant. Your task is to provide clinical information ONLY from the provided PNF data for the specific drug requested. If the provided data does NOT contain information about the requested drug, state clearly: 'Information not found in current PNF data.' DO NOT include information from other drugs or general pharmacology unless explicitly asked. DO NOT hallucinate drug combinations if not explicitly stated in the provided text."
-            
-            prompt = f"{system_prompt}\n\nQuery: {user_query}. Data: {relevant_text}. {ams_instruction}"
-            response = model.generate_content(prompt)
-            st.markdown("---")
-            st.write(response.text)
+            system_prompt = "You are a specialized PNF Clinical Assistant. Use the provided web search context to answer the user's clinical or pharmacological question, ensuring it is relevant to the PNF or clinical practice. If a user asks about non-clinical topics, decline. DO NOT hallucinate."
+                
+                prompt = f"{system_prompt}\n\nQuery: {user_query}. Web context: {web_context}."
+                response = model.generate_content(prompt)
+                st.markdown("---")
+                st.write(response.text)
         except Exception as e:
             st.error(f"Error: {e}")
