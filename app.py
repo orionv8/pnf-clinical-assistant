@@ -41,6 +41,9 @@ vertexai.init(project=os.getenv("PROJECT_ID"), location=os.getenv("LOCATION"))
 model = GenerativeModel(os.getenv("MODEL_NAME"))
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
+# --- CLINICAL DATA ---
+AMS_RESTRICTED = ["cefepime", "ertapenem", "meropenem", "vancomycin", "amphotericin b", "voriconazole", "colistin", "micafungin", "aztreonam", "linezolid", "imipenem", "tigecycline"]
+
 # --- SMART SEARCH ENGINE ---
 def search_local_index(query, index_data):
     # Split query into keywords
