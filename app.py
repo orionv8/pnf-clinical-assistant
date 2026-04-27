@@ -44,6 +44,10 @@ BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 # --- CLINICAL DATA ---
 AMS_RESTRICTED = ["cefepime", "ertapenem", "meropenem", "vancomycin", "amphotericin b", "voriconazole", "colistin", "micafungin", "aztreonam", "linezolid", "imipenem", "tigecycline"]
 
+def is_malicious(query):
+    patterns = [r"ignore previous", r"system prompt", r"output your instructions", r"dan mode"]
+    return any(re.search(p, query.lower()) for p in patterns)
+
 # --- SMART SEARCH ENGINE ---
 def search_local_index(query, index_data):
     # Split query into keywords
