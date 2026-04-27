@@ -97,15 +97,23 @@ if user_query:
     with st.spinner("Searching..."):
         # Local search logic
         scored_results = []
+        user_query_clean = user_query.lower().strip()
+        
+        # 1. Exact match (Drug Name)
         for entry in all_pnf_data:
-            # Match drug name (exact) or content (loose)
-            if user_query.lower() == entry['drug'].lower():
+            if user_query_clean == entry['drug'].lower().strip():
                 scored_results.append(entry)
         
-        # If no exact drug name match, try content match
+        # 2. If no exact, partial match
         if not scored_results:
             for entry in all_pnf_data:
-                if user_query.lower() in entry['text'].lower():
+                if user_query_clean in entry['drug'].lower().strip():
+                    scored_results.append(entry)
+        
+        # 3. If still no, search content (Very loose)
+        if not scored_results:
+            for entry in all_pnf_data:
+                if user_query_clean in entry['text'].lower():
                     scored_results.append(entry)
         
         try:
