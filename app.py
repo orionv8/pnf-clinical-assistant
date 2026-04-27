@@ -55,9 +55,29 @@ with col1:
 with col2:
     st.markdown('<div class="card"><h3>Latest Updates</h3><p>Stay informed with the latest additions, removals, and clinical guidelines updates affecting the PNF and hospital formulary scenes.</p></div>', unsafe_allow_html=True)
 
+# Load Index
+@st.cache_resource
+def load_static_index():
+    index_file = "data/pnf_index.json"
+    if os.path.exists(index_file):
+        with open(index_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+all_pnf_data = load_static_index()
+
 # Logic
 if user_query:
-# --- AMS LOGIC ---
+    with st.spinner("Searching..."):
+        # Local search logic
+        scored_results = []
+        for entry in all_pnf_data:
+            if user_query.lower() in entry["text"].lower():
+                scored_results.append(entry)
+        
+        relevant_text = "\n...\n".join([r["text"] for r in scored_results])[:5000]
+
+        # --- AMS LOGIC ---
         is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
         ams_instruction = ""
         if is_restricted:
