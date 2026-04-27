@@ -125,10 +125,10 @@ if user_query:
                 web_context = "\n".join([f"[WEB SOURCE: {r['url']}]\n{r['description']}" for r in web_results])
 
             system_prompt = "You are a specialized PNF Clinical Assistant. Use the provided web search context to answer the user's clinical or pharmacological question, ensuring it is relevant to the PNF or clinical practice. If a user asks about non-clinical topics, decline. DO NOT hallucinate."
-                
-                prompt = f"{system_prompt}\n\nQuery: {user_query}. Web context: {web_context}."
-                response = model.generate_content(prompt)
-                st.markdown("---")
-                st.write(response.text)
+            
+            prompt = f"{system_prompt}\n\nQuery: {user_query}. Web context: {web_context}."
+            response = model.generate_content(prompt)
+            st.markdown("---")
+            st.write(response.text)
         except Exception as e:
             st.error(f"Error: {e}")
