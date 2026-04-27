@@ -117,16 +117,32 @@ if user_query:
                     scored_results.append(entry)
         
         try:
-            # SIMPLE RETRIEVAL: If found, display the exact content; if not, use AI
+            # SIMPLE RETRIEVAL: Clean and display formatted content
             if scored_results:
                 scored_results.sort(key=lambda x: len(x['text']), reverse=False)
-                relevant_text = scored_results[0]["text"]
-                st.markdown(f"### 📋 PNF Reference: {scored_results[0]['drug']}")
-                st.text(relevant_text)
-                # Add AMS alert if needed
+                raw_text = scored_results[0]["text"]
+                drug_name = scored_results[0]['drug']
+                
+                # Add AMS alert if needed (at the beginning)
                 is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
                 if is_restricted:
                     st.markdown("\n### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.")
+
+                # Formatter
+                st.markdown(f"### **{drug_name}**")
+                
+                # Strip metadata, ATC codes, and pages
+                clean_text = re.sub(r'April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d', '', raw_text)
+                
+                # Format sections (very simple parser)
+                sections = re.split(r'\n\n(?=[A-Z][A-Z\s]+)', clean_text)
+                for section in sections:
+                    lines = section.split('\n')
+                    if not lines[0].strip(): continue
+                    st.markdown(f"**{lines[0].strip()}**")
+                    for line in lines[1:]:
+                        if line.strip():
+                            st.markdown(f"* {line.strip()}")
             else:
                 # AI Fallback for missing data, brand names, or complex interactions
                 relevant_text = ""
