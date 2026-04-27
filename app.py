@@ -114,7 +114,7 @@ if user_query:
 
 
         # --- UPGRADED AMS LOGIC ---
-        is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED) or any(drug in relevant_text.lower() for drug in AMS_RESTRICTED)
+        is_restricted = any(drug in clean_query for drug in AMS_RESTRICTED)
         
         ams_instruction = ""
         if is_restricted:
