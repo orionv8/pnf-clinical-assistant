@@ -116,7 +116,10 @@ if user_query:
                 web_results = resp.json().get('web', {}).get('results', [])
                 web_context = "\n".join([f"[WEB SOURCE: {r['url']}]\n{r['description']}" for r in web_results])
 
-            prompt = f"System: Clinical AI. Query: {user_query}. Data: {relevant_text}. Web: {web_context}. Respond professionally. {ams_instruction}"
+            # STRICT CLINICAL GUARDRAIL
+            system_prompt = "You are a specialized PNF Clinical Assistant. ONLY answer questions related to medicine, the Philippine National Formulary (PNF), or clinical pharmacology. If a user asks about non-clinical topics (e.g., capitals, history, sports), politely decline and state you are only for clinical assistance. Use provided PNF data as your primary source."
+            
+            prompt = f"{system_prompt}\n\nQuery: {user_query}. Data: {relevant_text}. Web: {web_context}. {ams_instruction}"
             response = model.generate_content(prompt)
             st.markdown("---")
             st.write(response.text)
