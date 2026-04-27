@@ -102,7 +102,12 @@ if user_query:
             if user_query.lower() in entry['drug'].lower() or user_query.lower() in entry['text'].lower():
                 scored_results.append(entry)
         
-        relevant_text = "\n...\n".join([r["text"] for r in scored_results])[:5000]
+        # FIX: Only use the single best match to avoid drug-interaction hallucinations
+        if scored_results:
+            scored_results.sort(key=lambda x: len(x['text']), reverse=False) # Simple heuristic: shortest match often most specific
+            relevant_text = scored_results[0]["text"]
+        else:
+            relevant_text = ""
 
         # --- AMS LOGIC ---
         is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
