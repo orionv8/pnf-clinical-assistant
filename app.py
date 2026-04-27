@@ -10,18 +10,9 @@ from vertexai.generative_models import GenerativeModel
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊")
 
 # 2. API Key/Config Loading
-# 2. API Key/Config Loading
-# Use explicit authentication for Vertex AI as running outside GCP
-from google.oauth2 import service_account
-
-# We do not have a service account file here. 
-# I will try to use the Application Default Credentials (ADC) method, 
-# which usually looks for a local JSON file if GOOGLE_APPLICATION_CREDENTIALS is set.
-# I will advise the user to provide the service account key if they have one.
-# For now, I will try to initialize without specific credentials to see if it works.
-
-vertexai.init(project="pnf-clinical-assistant-app", location="global")
-model = GenerativeModel("gemini-1.5-flash-002")
+# Initialize Vertex AI - PROJECT_ID, LOCATION, MODEL_NAME are now set as Env Vars
+vertexai.init(project=os.getenv("PROJECT_ID"), location=os.getenv("LOCATION"))
+model = GenerativeModel(os.getenv("MODEL_NAME"))
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
 # --- SECURITY: INPUT SANITIZATION ---
