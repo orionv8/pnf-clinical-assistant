@@ -6,12 +6,16 @@ import re
 import vertexai
 from vertexai.generative_models import GenerativeModel
 
-# --- CORE FUNCTIONALITY LOCKED ---
-# NOTE: Any modifications to this logic, UI, or data handling 
-# require explicit authorization from orionv8.
-# ----------------------------------
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered")
+
+"""
+CORE FUNCTIONALITY LOCKED
+Permission from orionv8 is REQUIRED for any changes to:
+- Retrieval and search indexing logic
+- UI/UX and CSS design system
+- Data handling and monograph parsing
+"""
 
 # --- MODERN MINIMALIST DESIGN (CSS INJECTION) ---
 st.markdown("""
