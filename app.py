@@ -7,9 +7,14 @@ import vertexai
 from vertexai.generative_models import GenerativeModel
 
 # 1. Page Configuration
-    10|st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered")
-    11|
-    12|# --- MODERN MINIMALIST DESIGN (CSS INJECTION) ---
+st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered")
+
+# --- CORE FUNCTIONALITY LOCKED ---
+# NOTE: Any modifications to this logic, UI, or data handling 
+# require explicit authorization from orionv8.
+# ----------------------------------
+
+# --- MODERN MINIMALIST DESIGN (CSS INJECTION) ---
 st.markdown("""
 <style>
     :root {
