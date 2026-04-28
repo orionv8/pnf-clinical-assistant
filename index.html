@@ -69,6 +69,9 @@
         gap: 20px;
         margin-top: 60px;
     }
+    .hidden {
+        display: none !important;
+    }
     .card {
         background: var(--color-panel);
         border: 1px solid var(--color-border);
@@ -77,6 +80,16 @@
         text-align: left;
     }
     .card h3 { margin-top: 0; color: var(--color-accent); }
+    .card a {
+        display: block;
+        color: var(--color-tertiary);
+        text-decoration: none;
+        margin-top: 8px;
+        transition: color 0.2s;
+    }
+    .card a:hover {
+        color: var(--color-primary);
+    }
     .ad-slot {
         background: var(--color-panel);
         border: 1px solid var(--color-border);
@@ -97,17 +110,32 @@
         <input type="text" placeholder="Enter drug name or clinical question...">
         <div class="ad-slot"></div>
     </div>
-    <div class="grid">
+    <div class="grid" id="card-container">
         <div class="card">
             <h3>About PNF</h3>
-            <p>The Philippine National Formulary (PNF) is the essential list of medicines for the Philippine healthcare system, ensuring safety, efficacy, and cost-effectiveness.</p>
+            <p>The Philippine National Formulary (PNF) is the essential list of medicines for the Philippine healthcare system.</p>
+            <a href="https://pnf.doh.gov.ph" target="_blank">→ PNF Official Portal</a>
+            <a href="https://pnf.doh.gov.ph/index.php/downloads" target="_blank">→ Download Latest Formulary (PDF)</a>
         </div>
         <div class="card">
             <h3>Latest Updates</h3>
-            <p>Stay informed with the latest additions, removals, and clinical guidelines updates affecting the PNF and hospital formulary scenes.</p>
+            <p>Stay informed with the latest additions, removals, and clinical guidelines affecting the PNF.</p>
+            <a href="https://www.fda.gov.ph" target="_blank">→ FDA Pharmacovigilance</a>
+            <a href="https://pnf.doh.gov.ph" target="_blank">→ DOH Circulars</a>
         </div>
         <div class="ad-slot"></div>
     </div>
   </main>
+  <script>
+    const input = document.querySelector('input');
+    const container = document.getElementById('card-container');
+    input.addEventListener('input', () => {
+        if (input.value.length > 0) {
+            container.classList.add('hidden');
+        } else {
+            container.classList.remove('hidden');
+        }
+    });
+  </script>
 </body>
 </html>
