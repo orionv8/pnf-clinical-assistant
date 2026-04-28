@@ -11,6 +11,12 @@ from vertexai.generative_models import GenerativeModel
 user_query = ""
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered")
 
+# 2. Search Component (Moved to Top)
+# Patch by Vantage UI/UX Lead (2026-04-28): Moved search to top for usability
+st.markdown("<div style='display: flex; justify-content: center; margin-bottom: 30px;'>", unsafe_allow_html=True)
+user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
+st.markdown("</div>", unsafe_allow_html=True)
+
 # --- CORE FUNCTIONALITY LOCKED ---
 # NOTE: Any modifications to this logic, UI, or data handling 
 # require explicit authorization from orionv8.
@@ -97,10 +103,6 @@ if not user_query:
     # Placeholder for ad integration
     st.markdown('<div class="card" style="margin-top:20px; min-height:100px;"></div>', unsafe_allow_html=True)
 
-# 3. User Input
-st.markdown("<div style='display: flex; justify-content: center; margin-bottom: 30px;'>", unsafe_allow_html=True)
-user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
-st.markdown("</div>", unsafe_allow_html=True)
 
 # Load Index
 @st.cache_resource
