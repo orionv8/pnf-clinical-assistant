@@ -70,21 +70,30 @@ def search_local_index(query, index_data):
     scored_results.sort(key=lambda x: x["score"], reverse=True)
     return scored_results
 
-# --- UI LOGIC & CLEAR BUTTON ---
-st.markdown("""
-<style>
-    div[data-testid="stTextInput"] > div > div > div > button { display: block !important; }
-</style>
-""", unsafe_allow_html=True)
-st.markdown('<div class="main-title">Search the Formulary</div>', unsafe_allow_html=True)
-user_query = st.text_input("", placeholder="Enter drug name or clinical question...")
-
-# Cards
-col1, col2 = st.columns(2)
-with col1:
-    st.markdown('<div class="card"><h3>About PNF</h3><p>The Philippine National Formulary (PNF) is the essential list of medicines for the Philippine healthcare system, ensuring safety, efficacy, and cost-effectiveness.</p></div>', unsafe_allow_html=True)
-with col2:
-    st.markdown('<div class="card"><h3>Latest Updates</h3><p>Stay informed with the latest additions, removals, and clinical guidelines updates affecting the PNF and hospital formulary scenes.</p></div>', unsafe_allow_html=True)
+# UI LOGIC & CLEAR BUTTON
+if not user_query:
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown('''
+            <div class="card">
+                <h3>About PNF</h3>
+                <p>The Philippine National Formulary (PNF) is the essential list of medicines for the Philippine healthcare system.</p>
+                <a href="https://pnf.doh.gov.ph" style="color:var(--color-accent); text-decoration:none;">→ PNF Official Portal</a><br>
+                <a href="https://pnf.doh.gov.ph/index.php/downloads" style="color:var(--color-accent); text-decoration:none;">→ Download Latest Formulary (PDF)</a>
+            </div>
+        ''', unsafe_allow_html=True)
+    with col2:
+        st.markdown('''
+            <div class="card">
+                <h3>Latest Updates</h3>
+                <p>Stay informed with the latest additions, removals, and clinical guidelines affecting the PNF.</p>
+                <a href="https://www.fda.gov.ph" style="color:var(--color-accent); text-decoration:none;">→ FDA Pharmacovigilance</a><br>
+                <a href="https://pnf.doh.gov.ph" style="color:var(--color-accent); text-decoration:none;">→ DOH Circulars</a>
+            </div>
+        ''', unsafe_allow_html=True)
+    
+    # Placeholder for ad integration
+    st.markdown('<div class="card" style="margin-top:20px; min-height:100px;"></div>', unsafe_allow_html=True)
 
 # Load Index
 @st.cache_resource
