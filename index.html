@@ -77,6 +77,14 @@
         text-align: left;
     }
     .card h3 { margin-top: 0; color: var(--color-accent); }
+    .ad-slot {
+        background: var(--color-panel);
+        border: 1px solid var(--color-border);
+        border-radius: 12px;
+        padding: 24px;
+        margin: 20px 0;
+        min-height: 100px;
+    }
   </style>
 </head>
 <body>
@@ -87,6 +95,7 @@
     <h1>Search the Formulary</h1>
     <div class="search-container">
         <input type="text" placeholder="Enter drug name or clinical question...">
+        <div class="ad-slot"></div>
     </div>
     <div class="grid">
         <div class="card">
@@ -97,6 +106,7 @@
             <h3>Latest Updates</h3>
             <p>Stay informed with the latest additions, removals, and clinical guidelines updates affecting the PNF and hospital formulary scenes.</p>
         </div>
+        <div class="ad-slot"></div>
     </div>
   </main>
 </body>
