@@ -98,7 +98,9 @@ if not user_query:
     st.markdown('<div class="card" style="margin-top:20px; min-height:100px;"></div>', unsafe_allow_html=True)
 
 # 3. User Input
-user_query = st.text_input("Search PNF...", placeholder="Enter drug name or clinical term...")
+st.markdown("<div style='display: flex; justify-content: center; margin-bottom: 30px;'>", unsafe_allow_html=True)
+user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
+st.markdown("</div>", unsafe_allow_html=True)
 
 # Load Index
 @st.cache_resource
