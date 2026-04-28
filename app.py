@@ -7,31 +7,45 @@ import vertexai
 from vertexai.generative_models import GenerativeModel
 
 # 1. Page Configuration
-# Patch by Vantage UI/UX Lead: Add theme toggle
-theme_mode = st.sidebar.radio("Theme", ["System", "Light", "Dark"], index=0, horizontal=True)
+# Patch by Vantage UI/UX Lead: Add top-bar theme toggle and clinical header
+st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered", initial_sidebar_state="collapsed")
 
-user_query = ""
-if theme_mode == "Light":
-    st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered", initial_sidebar_state="collapsed")
+# Theme Selection
+if "theme" not in st.session_state:
+    st.session_state.theme = "Dark"
+
+col_header1, col_header2 = st.columns([4, 1])
+with col_header1:
+    st.markdown("## PNF Clinical Assistant")
+with col_header2:
+    if st.button("🌓 Toggle Theme"):
+        st.session_state.theme = "Light" if st.session_state.theme == "Dark" else "Dark"
+        st.rerun()
+
+if st.session_state.theme == "Light":
     theme_css = """
     <style>
-        :root { --color-bg: #ffffff; --color-panel: #f0f2f6; --color-primary: #000000; --color-tertiary: #5e5e5e; --color-accent: #5e6ad2; --color-border: #e0e0e0; }
+        :root { --color-bg: #ffffff; --color-panel: #f0f2f6; --color-primary: #000000; --color-tertiary: #5e5e5e; --color-accent: #26a69a; --color-border: #e0e0e0; }
         .stApp { background-color: var(--color-bg); color: var(--color-primary); }
-        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); }
+        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); border-radius: 8px; padding: 20px; }
         .stTextInput > div > div > input { background-color: var(--color-panel); color: var(--color-primary); }
+        .stMarkdown, .stWrite, .stText { color: var(--color-primary) !important; }
     </style>
     """
 else:
-    st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered", initial_sidebar_state="collapsed")
     theme_css = """
     <style>
-        :root { --color-bg: #08090a; --color-panel: #0f1011; --color-primary: #f7f8f8; --color-tertiary: #8a8f98; --color-accent: #5e6ad2; --color-border: rgba(255,255,255,0.08); }
+        :root { --color-bg: #08090a; --color-panel: #0f1011; --color-primary: #f7f8f8; --color-tertiary: #8a8f98; --color-accent: #26a69a; --color-border: rgba(255,255,255,0.08); }
         .stApp { background-color: var(--color-bg); color: var(--color-primary); }
-        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); }
+        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); border-radius: 8px; padding: 20px; }
         .stTextInput > div > div > input { background-color: var(--color-panel); color: var(--color-primary); }
+        .stMarkdown, .stWrite, .stText { color: var(--color-primary) !important; }
+        .stMarkdown a { color: var(--color-accent) !important; }
     </style>
     """
 st.markdown(theme_css, unsafe_allow_html=True)
+
+user_query = ""
 
 # 2. Search Component (Moved to Top)
 # Patch by Vantage UI/UX Lead (2026-04-28): Moved search to top for usability
