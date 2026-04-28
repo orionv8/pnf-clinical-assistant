@@ -7,9 +7,31 @@ import vertexai
 from vertexai.generative_models import GenerativeModel
 
 # 1. Page Configuration
-# Patch by DevOps/Hermes: Initialize user_query to fix NameError
+# Patch by Vantage UI/UX Lead: Add theme toggle
+theme_mode = st.sidebar.radio("Theme", ["System", "Light", "Dark"], index=0, horizontal=True)
+
 user_query = ""
-st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered")
+if theme_mode == "Light":
+    st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered", initial_sidebar_state="collapsed")
+    theme_css = """
+    <style>
+        :root { --color-bg: #ffffff; --color-panel: #f0f2f6; --color-primary: #000000; --color-tertiary: #5e5e5e; --color-accent: #5e6ad2; --color-border: #e0e0e0; }
+        .stApp { background-color: var(--color-bg); color: var(--color-primary); }
+        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); }
+        .stTextInput > div > div > input { background-color: var(--color-panel); color: var(--color-primary); }
+    </style>
+    """
+else:
+    st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered", initial_sidebar_state="collapsed")
+    theme_css = """
+    <style>
+        :root { --color-bg: #08090a; --color-panel: #0f1011; --color-primary: #f7f8f8; --color-tertiary: #8a8f98; --color-accent: #5e6ad2; --color-border: rgba(255,255,255,0.08); }
+        .stApp { background-color: var(--color-bg); color: var(--color-primary); }
+        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); }
+        .stTextInput > div > div > input { background-color: var(--color-panel); color: var(--color-primary); }
+    </style>
+    """
+st.markdown(theme_css, unsafe_allow_html=True)
 
 # 2. Search Component (Moved to Top)
 # Patch by Vantage UI/UX Lead (2026-04-28): Moved search to top for usability
@@ -33,19 +55,22 @@ st.markdown("""
         --color-accent: #5e6ad2;
         --color-border: rgba(255,255,255,0.08);
     }
-    .stApp { background-color: var(--color-bg); }
+    .stApp { background-color: var(--color-bg); color: var(--color-primary); }
     .main-title { font-size: 48px; font-weight: 510; letter-spacing: -1.056px; color: var(--color-primary); text-align: center; margin-bottom: 24px; }
     .stTextInput > div > div > input {
         background-color: var(--color-panel);
         border: 1px solid var(--color-border);
-        color: var(--color-primary);
+        color: var(--color-primary) !important;
         padding: 20px;
         border-radius: 12px;
         font-size: 18px;
     }
     .card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
-    .card { background: var(--color-panel); border: 1px solid var(--color-border); padding: 24px; border-radius: 12px; }
+    .card { background: var(--color-panel); border: 1px solid var(--color-border); padding: 24px; border-radius: 12px; color: var(--color-primary); }
     .card h3 { color: var(--color-accent); margin-top: 0; }
+    /* Ensure markdown text is readable */
+    .stMarkdown, .stWrite, .stText { color: var(--color-primary) !important; }
+    .stMarkdown a { color: var(--color-accent) !important; }
 </style>
 """, unsafe_allow_html=True)
 
