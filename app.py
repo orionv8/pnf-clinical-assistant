@@ -19,27 +19,30 @@ theme_css = """
 <style>
     [data-testid="stSidebar"] { background-color: #f8f9fa; border-right: 1px solid #e1e4e8; padding-top: 20px; }
     .stApp { background-color: #ffffff; }
-    .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 1px solid #e1e4e8; }
-    .logo { font-size: 24px; font-weight: bold; color: #26a69a; }
-    .nav-btn { background: none; border: 1px solid #26a69a; color: #26a69a; padding: 5px 15px; border-radius: 4px; cursor: pointer; }
+    /* FreeConvert-style Header */
+    .top-nav { display: flex; justify-content: center; align-items: center; padding: 20px 0; border-bottom: 2px solid #f8f9fa; gap: 10px; }
+    .logo-text { font-size: 28px; font-weight: 800; color: #333; }
+    .logo-img { font-size: 32px; }
+    .nav-btn { background: none; border: 1px solid #007bff; color: #007bff; padding: 5px 15px; border-radius: 4px; cursor: pointer; }
     .calculator-card { background: #f0f2f6; padding: 20px; border-radius: 8px; margin-top: 20px; }
+    /* Primary Action Color (FreeConvert Blue) */
+    .stButton > button { background-color: #007bff; color: white; border: none; }
 </style>
 """
 st.markdown(theme_css, unsafe_allow_html=True)
 
-# Layout
+# Layout: Sidebar Menu
 with st.sidebar:
-    st.markdown("## 💊 PNF Assistant")
-    st.markdown("---")
+    st.markdown("### 💊 PNF Assistant")
     st.write("📁 Tools")
     st.write("🧮 Dosage Calculator")
     st.write("📖 History")
     st.markdown("---")
-    if st.button("Login"): pass
-    if st.button("Sign Up"): pass
+    st.button("Login")
+    st.button("Sign Up")
 
-# Header
-st.markdown('<div class="top-nav"><div class="logo">PNF Clinical Assistant</div><div></div></div>', unsafe_allow_html=True)
+# Header: Centered Logo + Title
+st.markdown('<div class="top-nav"><span class="logo-img">💊</span><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
 
 user_query = ""
 
