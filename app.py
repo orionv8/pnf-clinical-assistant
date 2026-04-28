@@ -18,14 +18,17 @@ if "theme" not in st.session_state:
 theme_css = """
 <style>
     [data-testid="stSidebar"] { background-color: #f8f9fa; border-right: 1px solid #e1e4e8; padding-top: 20px; }
-    .stApp { background-color: #ffffff; }
-    /* FreeConvert-style Header */
-    .top-nav { display: flex; justify-content: center; align-items: center; padding: 20px 0; border-bottom: 2px solid #f8f9fa; gap: 10px; }
-    .logo-text { font-size: 28px; font-weight: 800; color: #333; }
+    .stApp { background-color: #ffffff !important; color: #333 !important; }
+    /* Centered Header with Shadow */
+    .top-nav { 
+        display: flex; justify-content: center; align-items: center; padding: 20px 0; 
+        border-bottom: 2px solid #f8f9fa; gap: 10px;
+        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+    }
+    .hamburger { font-size: 24px; cursor: pointer; position: absolute; left: 20px; }
+    .logo-text { font-size: 32px; font-weight: 800; color: #204d74; text-shadow: 1px 1px 2px rgba(0,0,0,0.2); }
     .logo-img { font-size: 32px; }
-    .nav-btn { background: none; border: 1px solid #007bff; color: #007bff; padding: 5px 15px; border-radius: 4px; cursor: pointer; }
-    .calculator-card { background: #f0f2f6; padding: 20px; border-radius: 8px; margin-top: 20px; }
-    /* Primary Action Color (FreeConvert Blue) */
     .stButton > button { background-color: #007bff; color: white; border: none; }
 </style>
 """
@@ -42,7 +45,7 @@ with st.sidebar:
     st.button("Sign Up")
 
 # Header: Centered Logo + Title
-st.markdown('<div class="top-nav"><span class="logo-img">💊</span><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-img">💊</span><span class="logo-text">File Converter</span></div>', unsafe_allow_html=True)
 
 user_query = ""
 
