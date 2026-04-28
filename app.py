@@ -97,6 +97,9 @@ if not user_query:
     # Placeholder for ad integration
     st.markdown('<div class="card" style="margin-top:20px; min-height:100px;"></div>', unsafe_allow_html=True)
 
+# 3. User Input
+user_query = st.text_input("Search PNF...", placeholder="Enter drug name or clinical term...")
+
 # Load Index
 @st.cache_resource
 def load_static_index():
