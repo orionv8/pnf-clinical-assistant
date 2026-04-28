@@ -7,6 +7,8 @@ import vertexai
 from vertexai.generative_models import GenerativeModel
 
 # 1. Page Configuration
+# Patch by DevOps/Hermes: Initialize user_query to fix NameError
+user_query = ""
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered")
 
 # --- CORE FUNCTIONALITY LOCKED ---
