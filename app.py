@@ -7,43 +7,39 @@ import vertexai
 from vertexai.generative_models import GenerativeModel
 
 # 1. Page Configuration
-# Patch by Vantage UI/UX Lead: Add top-bar theme toggle and clinical header
-st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered", initial_sidebar_state="collapsed")
+# Patch by Vantage UI/UX Lead: Re-design to FreeConvert-style (Logo, Menu, Signup/Login, Calculator)
+st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="wide")
 
-# Theme Selection
+# Theme Selection State
 if "theme" not in st.session_state:
     st.session_state.theme = "Dark"
 
-col_header1, col_header2 = st.columns([4, 1])
-with col_header1:
-    st.markdown("## PNF Clinical Assistant")
-with col_header2:
-    if st.button("🌓 Toggle Theme"):
-        st.session_state.theme = "Light" if st.session_state.theme == "Dark" else "Dark"
-        st.rerun()
-
-if st.session_state.theme == "Light":
-    theme_css = """
-    <style>
-        :root { --color-bg: #ffffff; --color-panel: #f0f2f6; --color-primary: #000000; --color-tertiary: #5e5e5e; --color-accent: #26a69a; --color-border: #e0e0e0; }
-        .stApp { background-color: var(--color-bg); color: var(--color-primary); }
-        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); border-radius: 8px; padding: 20px; }
-        .stTextInput > div > div > input { background-color: var(--color-panel); color: var(--color-primary); }
-        .stMarkdown, .stWrite, .stText { color: var(--color-primary) !important; }
-    </style>
-    """
-else:
-    theme_css = """
-    <style>
-        :root { --color-bg: #08090a; --color-panel: #0f1011; --color-primary: #f7f8f8; --color-tertiary: #8a8f98; --color-accent: #26a69a; --color-border: rgba(255,255,255,0.08); }
-        .stApp { background-color: var(--color-bg); color: var(--color-primary); }
-        .card { background: var(--color-panel); border: 1px solid var(--color-border); color: var(--color-primary); border-radius: 8px; padding: 20px; }
-        .stTextInput > div > div > input { background-color: var(--color-panel); color: var(--color-primary); }
-        .stMarkdown, .stWrite, .stText { color: var(--color-primary) !important; }
-        .stMarkdown a { color: var(--color-accent) !important; }
-    </style>
-    """
+# CSS: FreeConvert-style Layout (Sidebar Menu + Top Bar)
+theme_css = """
+<style>
+    [data-testid="stSidebar"] { background-color: #f8f9fa; border-right: 1px solid #e1e4e8; padding-top: 20px; }
+    .stApp { background-color: #ffffff; }
+    .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; border-bottom: 1px solid #e1e4e8; }
+    .logo { font-size: 24px; font-weight: bold; color: #26a69a; }
+    .nav-btn { background: none; border: 1px solid #26a69a; color: #26a69a; padding: 5px 15px; border-radius: 4px; cursor: pointer; }
+    .calculator-card { background: #f0f2f6; padding: 20px; border-radius: 8px; margin-top: 20px; }
+</style>
+"""
 st.markdown(theme_css, unsafe_allow_html=True)
+
+# Layout
+with st.sidebar:
+    st.markdown("## 💊 PNF Assistant")
+    st.markdown("---")
+    st.write("📁 Tools")
+    st.write("🧮 Dosage Calculator")
+    st.write("📖 History")
+    st.markdown("---")
+    if st.button("Login"): pass
+    if st.button("Sign Up"): pass
+
+# Header
+st.markdown('<div class="top-nav"><div class="logo">PNF Clinical Assistant</div><div></div></div>', unsafe_allow_html=True)
 
 user_query = ""
 
