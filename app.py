@@ -6,6 +6,10 @@ import re
 import vertexai
 from vertexai.generative_models import GenerativeModel
 
+# --- CORE FUNCTIONALITY LOCKED ---
+# NOTE: Any modifications to this logic, UI, or data handling 
+# require explicit authorization from orionv8.
+# ----------------------------------
 # 1. Page Configuration
 st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout="centered")
 
