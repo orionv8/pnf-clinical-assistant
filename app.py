@@ -50,32 +50,41 @@ theme_css = """
 """
 st.markdown(theme_css, unsafe_allow_html=True)
 
-# Layout: Analytics Floating Widget (Middle Right)
+# Layout: Analytics Floating Widget (Lower Right)
 st.markdown("""
-    <div style="position:fixed; top:25%; right:20px; width:250px; background:inherit; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
+    <div style="position:fixed; bottom:20px; right:20px; width:250px; background:inherit; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
         <h4 style="margin:0;">📊 Analytics</h4>
         <p style="font-size:12px;">Top Searches</p>
         <p style="font-size:12px;">• Paracetamol (50)<br>• Metformin (40)<br>• Losartan (30)</p>
     </div>
 """, unsafe_allow_html=True)
 
-# Header: Centered Logo + Title (NO buttons here)
+# Header: Centered Logo + Title
 st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
 
 # Spacer to account for fixed navbar
 st.markdown("<br><br><br>", unsafe_allow_html=True)
 
-# 2. Search Component (Button inside input field simulation)
+# 2. Search Component (Button inside input field)
 st.markdown("""
 <style>
-    .stTextInput > div { position: relative; }
-    .stTextInput > div > div > input { padding-right: 80px; }
-    .stButton { position: absolute; right: 5px; top: 5px; z-index: 1000; }
+    .stTextInput { position: relative; }
+    .stTextInput input { padding-right: 100px; }
+    /* Target the button based on its position in Streamlit's structure */
+    div[data-testid="stVerticalBlock"] > div > div > div > button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        margin: 0 !important;
+        border-radius: 0 8px 8px 0;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
 if st.button("Search"): st.rerun()
+
 
 
 
