@@ -13,18 +13,27 @@ st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout
 # Theme Selection State
 if "theme" not in st.session_state:
     st.session_state.theme = "Dark"
-
-# CSS: Refined Professional Header (FreeConvert Style)
-theme_css = """
-<style>
-    .stApp { background-color: #ffffff !important; }
-    /* Force white background and dark text throughout the entire app */
-    .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"] { 
+    /* Force white background for all result containers */
+    .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"], .card { 
         background-color: #ffffff !important; 
-        color: #333333 !important; 
+        color: #000000 !important; 
     }
     
-    /* Centered Header with Shadow */
+    /* Responsive Text: White on Dark, Black on Light */
+    @media (prefers-color-scheme: dark) {
+        .stMarkdown, .stWrite, .stText, .stMarkdown p, .stMarkdown li, .stMarkdown strong { 
+            color: #ffffff !important; 
+        }
+    }
+    @media (prefers-color-scheme: light) {
+        .stMarkdown, .stWrite, .stText, .stMarkdown p, .stMarkdown li, .stMarkdown strong { 
+            color: #000000 !important; 
+        }
+    }
+    
+    /* Global fallback for text */
+    .stApp { color: inherit !important; }
+    
     .top-nav { 
         position: fixed; top: 0; left: 0; width: 100%; height: 70px;
         display: flex; justify-content: center; align-items: center; 
@@ -34,13 +43,16 @@ theme_css = """
     }
     .hamburger { font-size: 24px; cursor: pointer; position: absolute; left: 20px; color: #333 !important; }
     .logo-text { font-size: 32px; font-weight: 800; color: #204d74; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
-    .logo-img { font-size: 32px; }
     
     /* Remove Sidebar */
     [data-testid="stSidebar"] { display: none !important; }
     
-    /* Ensure cards are light */
-    .card { background: #ffffff !important; border: 1px solid #e1e4e8 !important; color: #333 !important; }
+    /* Ensure search bar is responsive */
+    .stTextInput > div > div > input { 
+        background-color: #ffffff !important; 
+        color: #333333 !important; 
+        border: 1px solid #ced4da !important; 
+    }
     .block-container { padding-top: 100px !important; }
 </style>
 """
