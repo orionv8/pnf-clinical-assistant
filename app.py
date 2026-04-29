@@ -16,7 +16,7 @@ if "theme" not in st.session_state:
 
 theme_css = """
 <style>
-    /* Force white background for all result containers */
+    /* Force background for all containers */
     .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"], .card { 
         background-color: #ffffff !important; 
         color: #000000 !important; 
@@ -24,57 +24,57 @@ theme_css = """
     
     /* Responsive Text: White on Dark, Black on Light */
     @media (prefers-color-scheme: dark) {
+        .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"], .card { 
+            background-color: #08090a !important; 
+            color: #f7f8f8 !important; 
+        }
         .stMarkdown, .stWrite, .stText, .stMarkdown p, .stMarkdown li, .stMarkdown strong { 
-            color: #ffffff !important; 
+            color: #f7f8f8 !important; 
         }
     }
-    @media (prefers-color-scheme: light) {
-        .stMarkdown, .stWrite, .stText, .stMarkdown p, .stMarkdown li, .stMarkdown strong { 
-            color: #000000 !important; 
-        }
-    }
-    
-    /* Global fallback for text */
-    .stApp { color: inherit !important; }
     
     .top-nav { 
         position: fixed; top: 0; left: 0; width: 100%; height: 70px;
         display: flex; justify-content: center; align-items: center; 
-        background: #ffffff; border-bottom: 2px solid #f8f9fa;
+        background: inherit; border-bottom: 2px solid #f8f9fa;
         box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
         z-index: 999;
     }
-    .hamburger { font-size: 24px; cursor: pointer; position: absolute; left: 20px; color: #333 !important; }
+    .hamburger { font-size: 24px; cursor: pointer; position: absolute; left: 20px; }
     .logo-text { font-size: 32px; font-weight: 800; color: #204d74; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
+    .header-right { position: absolute; right: 20px; }
     
     /* Remove Sidebar */
     [data-testid="stSidebar"] { display: none !important; }
-    
-    /* Ensure search bar is responsive */
 </style>
 """
 st.markdown(theme_css, unsafe_allow_html=True)
 
-
 # Layout: Analytics Floating Widget
 st.markdown("""
-    <div style="position:fixed; top:100px; right:20px; width:250px; background:white; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
+    <div style="position:fixed; top:120px; left:20px; width:250px; background:inherit; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
         <h4 style="margin:0;">📊 Analytics</h4>
         <p style="font-size:12px;">Top Searches</p>
         <p style="font-size:12px;">• Paracetamol (50)<br>• Metformin (40)<br>• Losartan (30)</p>
     </div>
 """, unsafe_allow_html=True)
 
-# Header: Centered Logo + Title
-st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-img">💊</span><span class="logo-text">PNF Clinical Assistant</span><div class="header-right"><button>Login</button><button>Sign Up</button></div></div>', unsafe_allow_html=True)
+# Header: Centered Logo + Title (NO buttons here)
+st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
 
-# 2. Search Component with Button
+# Spacer to account for fixed navbar
+st.markdown("<br><br><br>", unsafe_allow_html=True)
+
+# 2. Search Component with Button (Middle of the site)
+st.markdown("<br><br>", unsafe_allow_html=True) # Extra breathing room
 c1, c2 = st.columns([5, 1])
 with c1:
     user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
 with c2:
     search_clicked = st.button("Search")
     if search_clicked: st.rerun() # Trigger search logic
+
+
 
 # --- CORE FUNCTIONALITY LOCKED ---
 # NOTE: Any modifications to this logic, UI, or data handling 
