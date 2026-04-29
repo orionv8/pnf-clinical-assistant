@@ -50,9 +50,9 @@ theme_css = """
 """
 st.markdown(theme_css, unsafe_allow_html=True)
 
-# Layout: Analytics Floating Widget
+# Layout: Analytics Floating Widget (Middle Right)
 st.markdown("""
-    <div style="position:fixed; top:120px; left:20px; width:250px; background:inherit; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
+    <div style="position:fixed; top:25%; right:20px; width:250px; background:inherit; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
         <h4 style="margin:0;">📊 Analytics</h4>
         <p style="font-size:12px;">Top Searches</p>
         <p style="font-size:12px;">• Paracetamol (50)<br>• Metformin (40)<br>• Losartan (30)</p>
@@ -65,14 +65,18 @@ st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class=
 # Spacer to account for fixed navbar
 st.markdown("<br><br><br>", unsafe_allow_html=True)
 
-# 2. Search Component with Button (Middle of the site)
-st.markdown("<br><br>", unsafe_allow_html=True) # Extra breathing room
-c1, c2 = st.columns([5, 1])
-with c1:
-    user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
-with c2:
-    search_clicked = st.button("Search")
-    if search_clicked: st.rerun() # Trigger search logic
+# 2. Search Component (Button inside input field simulation)
+st.markdown("""
+<style>
+    .stTextInput > div { position: relative; }
+    .stTextInput > div > div > input { padding-right: 80px; }
+    .stButton { position: absolute; right: 5px; top: 5px; z-index: 1000; }
+</style>
+""", unsafe_allow_html=True)
+
+user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
+if st.button("Search"): st.rerun()
+
 
 
 
