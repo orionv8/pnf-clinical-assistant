@@ -56,16 +56,25 @@ theme_css = """
 st.markdown(theme_css, unsafe_allow_html=True)
 
 
+# Layout: Analytics Floating Widget
+st.markdown("""
+    <div style="position:fixed; top:100px; right:20px; width:250px; background:white; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
+        <h4 style="margin:0;">📊 Analytics</h4>
+        <p style="font-size:12px;">Top Searches</p>
+        <p style="font-size:12px;">• Paracetamol (50)<br>• Metformin (40)<br>• Losartan (30)</p>
+    </div>
+""", unsafe_allow_html=True)
+
 # Header: Centered Logo + Title
-st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-img">💊</span><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-img">💊</span><span class="logo-text">PNF Clinical Assistant</span><div class="header-right"><button>Login</button><button>Sign Up</button></div></div>', unsafe_allow_html=True)
 
-user_query = ""
-
-# 2. Search Component (Moved to Top)
-# Patch by Vantage UI/UX Lead (2026-04-28): Moved search to top for usability
-st.markdown("<div style='display: flex; justify-content: center; margin-bottom: 30px;'>", unsafe_allow_html=True)
-user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
-st.markdown("</div>", unsafe_allow_html=True)
+# 2. Search Component with Button
+c1, c2 = st.columns([5, 1])
+with c1:
+    user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
+with c2:
+    search_clicked = st.button("Search")
+    if search_clicked: st.rerun() # Trigger search logic
 
 # --- CORE FUNCTIONALITY LOCKED ---
 # NOTE: Any modifications to this logic, UI, or data handling 
