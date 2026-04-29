@@ -54,15 +54,7 @@ theme_css = """
 </style>
 """
 st.markdown(theme_css, unsafe_allow_html=True)
-    .stTextInput > div > div > input { 
-        background-color: #ffffff !important; 
-        color: #333333 !important; 
-        border: 1px solid #ced4da !important; 
-    }
-    .block-container { padding-top: 100px !important; }
-</style>
-"""
-st.markdown(theme_css, unsafe_allow_html=True)
+
 
 # Header: Centered Logo + Title
 st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-img">💊</span><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
