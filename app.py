@@ -14,9 +14,10 @@ st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout
 if "theme" not in st.session_state:
     st.session_state.theme = "Dark"
 
-# CSS: FreeConvert-style Layout (Sidebar Menu + Top Bar)
+# CSS: Refined Professional Header (FreeConvert Style)
 theme_css = """
 <style>
+    .stApp { background-color: #ffffff !important; }
     /* Force white background and dark text throughout the entire app */
     .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"] { 
         background-color: #ffffff !important; 
@@ -25,13 +26,13 @@ theme_css = """
     
     /* Centered Header with Shadow */
     .top-nav { 
-        display: flex; justify-content: center; align-items: center; padding: 20px 0; 
-        border-bottom: 2px solid #f8f9fa; gap: 10px;
+        position: fixed; top: 0; left: 0; width: 100%; height: 70px;
+        display: flex; justify-content: center; align-items: center; 
+        background: #ffffff; border-bottom: 2px solid #f8f9fa;
         box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-        margin-bottom: 30px;
-        background-color: #ffffff !important;
+        z-index: 999;
     }
-    .hamburger { font-size: 24px; cursor: pointer; position: absolute; left: 20px; color: #333; }
+    .hamburger { font-size: 24px; cursor: pointer; position: absolute; left: 20px; color: #333 !important; }
     .logo-text { font-size: 32px; font-weight: 800; color: #204d74; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
     .logo-img { font-size: 32px; }
     
@@ -40,6 +41,7 @@ theme_css = """
     
     /* Ensure cards are light */
     .card { background: #ffffff !important; border: 1px solid #e1e4e8 !important; color: #333 !important; }
+    .block-container { padding-top: 100px !important; }
 </style>
 """
 st.markdown(theme_css, unsafe_allow_html=True)
