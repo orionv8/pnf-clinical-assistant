@@ -13,6 +13,9 @@ st.set_page_config(page_title="PNF Clinical Assistant", page_icon="💊", layout
 # Theme Selection State
 if "theme" not in st.session_state:
     st.session_state.theme = "Dark"
+
+theme_css = """
+<style>
     /* Force white background for all result containers */
     .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"], .card { 
         background-color: #ffffff !important; 
@@ -48,6 +51,9 @@ if "theme" not in st.session_state:
     [data-testid="stSidebar"] { display: none !important; }
     
     /* Ensure search bar is responsive */
+</style>
+"""
+st.markdown(theme_css, unsafe_allow_html=True)
     .stTextInput > div > div > input { 
         background-color: #ffffff !important; 
         color: #333333 !important; 
