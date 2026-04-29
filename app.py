@@ -16,36 +16,38 @@ if "theme" not in st.session_state:
 
 theme_css = """
 <style>
-    /* Force background for all containers */
-    .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"], .card { 
-        background-color: #ffffff !important; 
-        color: #000000 !important; 
+    :root {
+        --space-xs: 4px;
+        --space-sm: 8px;
+        --space-md: 16px;
+        --space-lg: 32px;
+        --color-bg: #ffffff;
+        --color-text: #000000;
+        --color-accent: #204d74;
     }
-    
-    /* Responsive Text: White on Dark, Black on Light */
     @media (prefers-color-scheme: dark) {
-        .stApp, .stApp > header, .main, .block-container, [data-testid="stAppViewContainer"], [data-testid="stMainBlockContainer"], .card { 
-            background-color: #08090a !important; 
-            color: #f7f8f8 !important; 
-        }
-        .stMarkdown, .stWrite, .stText, .stMarkdown p, .stMarkdown li, .stMarkdown strong { 
-            color: #f7f8f8 !important; 
+        :root {
+            --color-bg: #08090a;
+            --color-text: #f7f8f8;
+            --color-accent: #5e6ad2;
         }
     }
+    .stApp { background-color: var(--color-bg) !important; color: var(--color-text) !important; }
     
     .top-nav { 
         position: fixed; top: 0; left: 0; width: 100%; height: 70px;
         display: flex; justify-content: center; align-items: center; 
-        background: inherit; border-bottom: 2px solid #f8f9fa;
-        box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
-        z-index: 999;
+        background: var(--color-bg); border-bottom: 1px solid rgba(128,128,128,0.2);
+        z-index: 999; padding: 0 var(--space-md);
     }
-    .hamburger { font-size: 24px; cursor: pointer; position: absolute; left: 20px; }
-    .logo-text { font-size: 32px; font-weight: 800; color: #204d74; text-shadow: 1px 1px 2px rgba(0,0,0,0.1); }
-    .header-right { position: absolute; right: 20px; }
+    .logo-text { font-size: 24px; font-weight: 800; color: var(--color-accent); }
     
-    /* Remove Sidebar */
-    [data-testid="stSidebar"] { display: none !important; }
+    .search-container { padding: var(--space-lg) var(--space-md); }
+    
+    .clinical-card { 
+        background: var(--color-bg); border: 1px solid rgba(128,128,128,0.2);
+        padding: var(--space-lg); border-radius: 8px; margin-bottom: var(--space-md);
+    }
 </style>
 """
 st.markdown(theme_css, unsafe_allow_html=True)
@@ -60,30 +62,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header: Centered Logo + Title
-st.markdown('<div class="top-nav"><span class="hamburger">☰</span><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="top-nav"><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
 
 # Spacer to account for fixed navbar
 st.markdown("<br><br><br>", unsafe_allow_html=True)
 
-# 2. Search Component (Button inside input field)
-st.markdown("""
-<style>
-    .stTextInput { position: relative; }
-    .stTextInput input { padding-right: 100px; }
-    /* Target the button based on its position in Streamlit's structure */
-    div[data-testid="stVerticalBlock"] > div > div > div > button {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 100%;
-        margin: 0 !important;
-        border-radius: 0 8px 8px 0;
-    }
-</style>
-""", unsafe_allow_html=True)
-
+# 2. Search Component
+st.markdown("<div class='search-container'>", unsafe_allow_html=True)
 user_query = st.text_input("", placeholder="Search PNF (Enter drug name or clinical term...)", label_visibility="collapsed")
-if st.button("Search"): st.rerun()
+st.markdown("</div>", unsafe_allow_html=True)
 
 
 
