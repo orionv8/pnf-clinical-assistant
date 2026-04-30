@@ -52,15 +52,6 @@ theme_css = """
 """
 st.markdown(theme_css, unsafe_allow_html=True)
 
-# Layout: Analytics Floating Widget (Lower Right)
-st.markdown("""
-    <div style="position:fixed; bottom:20px; right:20px; width:250px; background:inherit; border:1px solid #e1e4e8; padding:15px; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,0.1); z-index:900;">
-        <h4 style="margin:0;">📊 Analytics</h4>
-        <p style="font-size:12px;">Top Searches</p>
-        <p style="font-size:12px;">• Paracetamol (50)<br>• Metformin (40)<br>• Losartan (30)</p>
-    </div>
-""", unsafe_allow_html=True)
-
 # Header: Centered Logo + Title
 st.markdown('<div class="top-nav"><span class="logo-text">PNF Clinical Assistant</span></div>', unsafe_allow_html=True)
 
@@ -208,43 +199,27 @@ if user_query:
                 raw_text = scored_results[0]["text"]
                 drug_name = scored_results[0]['drug']
                 
-                # Add AMS alert if needed (at the beginning)
-                is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
-                if is_restricted:
-                    st.markdown("\n### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.")
+        if scored_results:
+            is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
+            if is_restricted:
+                st.markdown("\n### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.")
 
-                # Formatter
-                st.markdown(f"### **{drug_name}**")
-                
-                # Strip metadata, ATC codes, and pages
-                clean_text = re.sub(r'April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d', '', raw_text)
-                
-                # Format sections (very simple parser)
-                sections = re.split(r'\n\n(?=[A-Z][A-Z\s]+)', clean_text)
-                for section in sections:
-                    lines = section.split('\n')
-                    if not lines[0].strip(): continue
-                    st.markdown(f"**{lines[0].strip()}**")
-                    for line in lines[1:]:
-                        if line.strip():
-                            st.markdown(f"* {line.strip()}")
-            else:
-                # AI Fallback for missing data, brand names, or complex interactions
-                relevant_text = ""
-                with st.spinner("Searching..."):
-                    # Web Search Fallback
-                    web_context = ""
-                    headers = {"Accept": "application/json", "X-Subscription-Token": BRAVE_KEY}
-                    params = {"q": f"{user_query} PNF Philippines clinical", "count": 3}
-                    resp = requests.get("https://api.search.brave.com/res/v1/web/search", headers=headers, params=params)
-                    web_results = resp.json().get('web', {}).get('results', [])
-                    web_context = "\n".join([f"[WEB SOURCE: {r['url']}]\n{r['description']}" for r in web_results])
-
-                    system_prompt = "You are a specialized PNF Clinical Assistant. Use the provided web search context to answer the user's clinical or pharmacological question, ensuring it is relevant to the PNF or clinical practice. If a user asks about non-clinical topics, decline. DO NOT hallucinate."
-                    
-                    prompt = f"{system_prompt}\n\nQuery: {user_query}. Web context: {web_context}."
-                    response = model.generate_content(prompt)
-                    st.markdown("---")
-                    st.write(response.text)
+            # Formatter
+            st.markdown(f"### **{scored_results[0]['drug']}**")
+            
+            # Strip metadata, ATC codes, and pages
+            clean_text = re.sub(r'April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d', '', scored_results[0]['text'])
+            
+            # Format sections (very simple parser)
+            sections = re.split(r'\n\n(?=[A-Z][A-Z\s]+)', clean_text)
+            for section in sections:
+                lines = section.split('\n')
+                if not lines[0].strip(): continue
+                st.markdown(f"**{lines[0].strip()}**")
+                for line in lines[1:]:
+                    if line.strip():
+                        st.markdown(f"* {line.strip()}")
+        else:
+            st.error("No result found in PNF index. Please search for a PNF-authorized drug or clinical term.")
         except Exception as e:
             st.error(f"Error: {e}")
