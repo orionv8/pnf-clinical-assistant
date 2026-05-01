@@ -1,1 +1,1402 @@
-{"error":"Not authenticated"}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>PNF Clinical Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+  /* ---------- Theme tokens ---------- */
+  :root {
+    --bg:           #f7f6f2;
+    --surface:      #ffffff;
+    --surface-2:    #fbfaf6;
+    --border:       #e7e4dc;
+    --border-soft:  #efece4;
+    --text:         #1c2128;
+    --text-soft:    #4a5260;
+    --text-muted:   #7a8290;
+    --accent:       #4a8b7e;
+    --accent-soft:  #e6f0ed;
+    --accent-ink:   #2f5e54;
+    --user-bubble:  #eef1f5;
+    --shadow-sm:    0 1px 2px rgba(20, 30, 40, 0.04);
+    --shadow-md:    0 6px 24px rgba(20, 30, 40, 0.06);
+    --radius:       14px;
+    --radius-sm:    10px;
+  }
+  html[data-theme="dark"] {
+    --bg:           #0e1217;
+    --surface:      #161b22;
+    --surface-2:    #1b2129;
+    --border:       #262d36;
+    --border-soft:  #1f262e;
+    --text:         #e8ecf1;
+    --text-soft:    #b8c0cc;
+    --text-muted:   #7e8898;
+    --accent:       #5fb3a1;
+    --accent-soft:  #1b3a35;
+    --accent-ink:   #8fd0c0;
+    --user-bubble:  #232a33;
+    --shadow-sm:    0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md:    0 8px 28px rgba(0, 0, 0, 0.35);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 100vh;
+    min-height: 100dvh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+
+  /* ---------- Layout ---------- */
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: 100dvh;
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  /* ---------- Header ---------- */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0 18px;
+    border-bottom: 1px solid var(--border-soft);
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .brand-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+  }
+  .brand-mark svg { width: 20px; height: 20px; }
+  .brand-text { line-height: 1.2; }
+  .brand-title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin: 0;
+  }
+  .brand-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  .header-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .date-pill {
+    font-size: 13px;
+    color: var(--text-soft);
+    font-variant-numeric: tabular-nums;
+    padding: 7px 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+  }
+  .theme-toggle {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-soft);
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: all 0.2s ease;
+  }
+  .theme-toggle:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+  }
+  .theme-toggle svg { width: 18px; height: 18px; }
+  .theme-toggle .icon-sun { display: none; }
+  html[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+  html[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
+  /* ---------- Main ---------- */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0 12px;
+    min-height: 0;
+  }
+
+  /* Empty state */
+  .empty-state { padding-top: 24px; }
+  .empty-greeting {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    color: var(--text);
+    margin: 0 0 10px;
+    line-height: 1.2;
+  }
+  .empty-greeting em {
+    font-style: italic;
+    color: var(--accent-ink);
+  }
+  .empty-sub {
+    font-size: 15px;
+    color: var(--text-soft);
+    max-width: 560px;
+    margin: 0 0 28px;
+  }
+  .prompt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+  }
+  .prompt-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 16px 14px;
+    text-align: left;
+    cursor: pointer;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: all 0.18s ease;
+    box-shadow: var(--shadow-sm);
+  }
+  .prompt-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+  }
+  .prompt-card-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent-ink);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .prompt-card-text { color: var(--text-soft); }
+
+  /* Q&A view */
+  .qa-block { animation: fadeUp 0.35s ease; }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .qa-block { animation: none; }
+  }
+
+  .question {
+    background: var(--user-bubble);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.55;
+    margin-bottom: 22px;
+  }
+  .question-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .answer {
+    border-left: 2px solid var(--accent);
+    padding: 4px 0 4px 18px;
+    margin-bottom: 16px;
+  }
+  .answer-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--accent-ink);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .answer-label::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .answer-body {
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: var(--text);
+  }
+  .answer-body p { margin: 0 0 12px; }
+  .answer-body p:last-child { margin-bottom: 0; }
+  .answer-body strong { color: var(--text); font-weight: 600; }
+
+  .citation {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 0 2px;
+    cursor: pointer;
+    text-decoration: none;
+    vertical-align: 1px;
+    transition: background 0.15s;
+  }
+  .citation:hover { background: var(--accent); color: #fff; }
+
+  .sources {
+    margin-top: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .sources-header {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 14px 18px;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .sources-header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .sources-count {
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+  .sources-chevron {
+    transition: transform 0.2s ease;
+    color: var(--text-muted);
+  }
+  .sources[open] .sources-chevron { transform: rotate(180deg); }
+  .sources-list {
+    border-top: 1px solid var(--border-soft);
+    padding: 8px 0;
+  }
+  .source-item {
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .source-item:last-child { border-bottom: none; }
+  .source-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .source-num {
+    width: 18px; height: 18px;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+  }
+  .source-title {
+    font-weight: 600;
+    color: var(--text);
+    font-size: 13.5px;
+  }
+  .source-section {
+    color: var(--text-muted);
+    font-size: 12px;
+    margin-left: 26px;
+    margin-bottom: 6px;
+  }
+  .source-snippet {
+    color: var(--text-soft);
+    font-size: 13px;
+    margin-left: 26px;
+    line-height: 1.55;
+    font-style: italic;
+  }
+
+  /* Loading dots */
+  .thinking {
+    display: inline-flex;
+    gap: 4px;
+    padding: 6px 0;
+  }
+  .thinking span {
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    animation: pulse 1.2s ease-in-out infinite;
+  }
+  .thinking span:nth-child(2) { animation-delay: 0.15s; }
+  .thinking span:nth-child(3) { animation-delay: 0.3s; }
+  @keyframes pulse {
+    0%, 60%, 100% { opacity: 0.3; transform: scale(0.85); }
+    30% { opacity: 1; transform: scale(1); }
+  }
+
+  /* ---------- Composer ---------- */
+  .composer-wrap {
+    position: sticky;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent, var(--bg) 30%);
+    padding: 24px 0 20px;
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+  .composer {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .composer:focus-within {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  .composer-textarea {
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    font-family: inherit;
+    /* 16px prevents auto-zoom on focus across iOS Safari, Android Chrome,
+       and matches recommended minimum readable size on desktop. */
+    font-size: 16px;
+    line-height: 1.55;
+    resize: none;
+    padding: 14px 16px 4px;
+    min-height: 24px;
+    max-height: 180px;
+    outline: none;
+  }
+  .composer-textarea::placeholder { color: var(--text-muted); }
+  .composer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px 10px 14px;
+    gap: 8px;
+  }
+  .mode-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--accent-ink);
+    background: var(--accent-soft);
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+  .mode-pill svg { width: 11px; height: 11px; }
+  .send-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent);
+    color: #fff;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: all 0.18s ease;
+  }
+  .send-btn:hover:not(:disabled) {
+    background: var(--accent-ink);
+    transform: translateY(-1px);
+  }
+  .send-btn:disabled {
+    background: var(--border);
+    color: var(--text-muted);
+    cursor: not-allowed;
+  }
+  .send-btn svg { width: 16px; height: 16px; }
+
+  /* ---------- Footer ---------- */
+  .footer {
+    text-align: center;
+    font-size: 11.5px;
+    color: var(--text-muted);
+    padding: 4px 0 16px;
+    line-height: 1.5;
+  }
+
+  /* ---------- Disclaimer banner (under header) ---------- */
+  .disclaimer-banner {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 14px;
+    margin: 14px 0 0;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  html[data-theme="dark"] .disclaimer-banner {
+    border-color: var(--border-soft);
+  }
+  .disclaimer-banner.hidden { display: none; }
+  .disclaimer-banner svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .disclaimer-banner span {
+    flex: 1;
+  }
+  .disclaimer-dismiss {
+    background: none;
+    border: none;
+    color: var(--accent-ink);
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    opacity: 0.7;
+    transition: opacity 0.15s, background 0.15s;
+  }
+  .disclaimer-dismiss:hover {
+    opacity: 1;
+    background: rgba(0,0,0,0.05);
+  }
+  html[data-theme="dark"] .disclaimer-dismiss:hover {
+    background: rgba(255,255,255,0.07);
+  }
+
+  /* ---------- Inline answer disclaimer ---------- */
+  .answer-disclaimer {
+    font-size: 11.5px;
+    color: var(--text-muted);
+    font-style: italic;
+    margin: -2px 0 10px;
+  }
+
+  /* ---------- Source date pill ---------- */
+  .source-date {
+    font-size: 10.5px;
+    color: var(--text-muted);
+    font-weight: 500;
+    background: var(--user-bubble);
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .source-meta {
+    flex-wrap: wrap;
+  }
+
+  /* ---------- Conversation feed (chat-style stacking) ---------- */
+  .qa-block + .qa-block {
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid var(--border-soft);
+  }
+
+  /* ---------- Auth (header) ---------- */
+  .auth-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .auth-link {
+    background: none;
+    border: none;
+    color: var(--text-soft);
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: color 0.15s, background 0.15s;
+  }
+  .auth-link:hover { color: var(--text); background: var(--user-bubble); }
+  .auth-btn {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.15s;
+  }
+  .auth-btn:hover {
+    background: var(--accent-ink);
+    transform: translateY(-1px);
+  }
+
+  /* ---------- Tries counter pill ---------- */
+  .tries-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--text-soft);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-variant-numeric: tabular-nums;
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
+  }
+  .tries-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+  .tries-pill.warn {
+    color: #a16207;
+    border-color: #f3d680;
+    background: #fef8e7;
+  }
+  .tries-pill.warn .tries-dot { background: #d99a1d; }
+  html[data-theme="dark"] .tries-pill.warn {
+    color: #f5cf6f;
+    border-color: #5a4818;
+    background: #2a2210;
+  }
+  .tries-pill.depleted {
+    color: #b54848;
+    border-color: #f3a8a8;
+    background: #fdecec;
+  }
+  .tries-pill.depleted .tries-dot { background: #cc4040; }
+  html[data-theme="dark"] .tries-pill.depleted {
+    color: #f0a8a8;
+    border-color: #5a2424;
+    background: #2a1414;
+  }
+
+  .composer-actions-left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  /* ---------- Gate modal ---------- */
+  .gate-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(15, 20, 30, 0.5);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .gate-overlay.open { display: flex; animation: fadeIn 0.2s ease; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .gate-modal {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 420px;
+    width: 100%;
+    padding: 28px 28px 22px;
+    position: relative;
+    animation: scaleIn 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  @keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.96) translateY(4px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  .gate-close {
+    position: absolute;
+    top: 12px; right: 12px;
+    width: 32px; height: 32px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    transition: all 0.15s;
+  }
+  .gate-close:hover { color: var(--text); background: var(--user-bubble); }
+  .gate-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+    display: grid;
+    place-items: center;
+    margin-bottom: 16px;
+  }
+  .gate-title {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--text);
+    margin: 0 0 8px;
+    line-height: 1.3;
+  }
+  .gate-text {
+    font-size: 14.5px;
+    color: var(--text-soft);
+    margin: 0 0 22px;
+    line-height: 1.55;
+  }
+  .gate-actions {
+    display: flex;
+    gap: 10px;
+  }
+  .gate-btn-primary, .gate-btn-secondary {
+    flex: 1;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .gate-btn-primary {
+    background: var(--accent);
+    color: #fff;
+    border: 1px solid var(--accent);
+  }
+  .gate-btn-primary:hover {
+    background: var(--accent-ink);
+    border-color: var(--accent-ink);
+    transform: translateY(-1px);
+  }
+  .gate-btn-secondary {
+    background: transparent;
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  .gate-btn-secondary:hover {
+    background: var(--user-bubble);
+    border-color: var(--text-muted);
+  }
+  .gate-foot {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
+  /* ---------- Focus ---------- */
+  button:focus-visible, textarea:focus-visible, [role="button"]:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 640px) {
+    .app { padding: 0 14px; }
+    .header {
+      padding: 16px 0 14px;
+    }
+    .brand-title { font-size: 17px; }
+    .brand-sub { font-size: 11px; }
+    .brand-mark { width: 34px; height: 34px; }
+    .date-pill {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+    .theme-toggle { width: 34px; height: 34px; }
+    .empty-greeting { font-size: 24px; }
+    .empty-sub { font-size: 14px; }
+    .prompt-grid { grid-template-columns: 1fr; }
+    .answer { padding-left: 14px; }
+    .answer-body { font-size: 15px; }
+    .main { padding: 22px 0 8px; }
+  }
+  @media (max-width: 640px) {
+    .auth-link { padding: 6px 8px; font-size: 12.5px; }
+    .auth-btn { padding: 6px 12px; font-size: 12.5px; }
+    .gate-modal { padding: 24px 22px 20px; }
+    .gate-title { font-size: 20px; }
+  }
+  @media (max-width: 480px) {
+    .gate-actions { flex-direction: column; }
+  }
+  @media (max-width: 380px) {
+    .header-meta { gap: 6px; }
+    .date-pill { display: none; }
+    .auth-link { display: none; }
+  }
+</style>
+</head>
+<body>
+  <div class="app">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">
+          <!-- Caduceus-style mark -->
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3v18M5 8c2.5 1.5 4.5 1.5 7 0s4.5-1.5 7 0M5 13c2.5 1.5 4.5 1.5 7 0s4.5-1.5 7 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">PNF Clinical Assistant</h1>
+          <div class="brand-sub">Reference-Grounded Medical AI</div>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="date-pill" id="datePill" aria-label="Today's date">—</div>
+        <div class="auth-actions">
+          <button class="auth-btn" id="signUpBtn" type="button">Sign up</button>
+        </div>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- DISCLAIMER BANNER -->
+    <div class="disclaimer-banner" id="disclaimerBanner" role="note">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="12" y1="8" x2="12" y2="12"/>
+        <line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <span>For clinician reference only. Verify dosing against the current Philippine National Formulary before prescribing.</span>
+      <button class="disclaimer-dismiss" id="disclaimerDismiss" type="button" aria-label="Dismiss disclaimer">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div id="resultArea">
+        <!-- Empty state (default) -->
+        <section class="empty-state" id="emptyState">
+          <h2 class="empty-greeting">Ask the <em>Philippine National Formulary</em> library.</h2>
+          <p class="empty-sub">Every answer is grounded in the Philippine National Formulary — drug monographs, dosing, indications, contraindications, and adverse effects. Citations included.</p>
+          <div class="prompt-grid">
+            <button class="prompt-card" data-prompt="What are the first-line treatments for community-acquired pneumonia in adults?">
+              <div class="prompt-card-label">Treatment</div>
+              <div class="prompt-card-text">First-line treatments for community-acquired pneumonia in adults</div>
+            </button>
+            <button class="prompt-card" data-prompt="Compare the contraindications between metformin and SGLT2 inhibitors.">
+              <div class="prompt-card-label">Drug interactions</div>
+              <div class="prompt-card-text">Contraindications: metformin vs. SGLT2 inhibitors</div>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- COMPOSER -->
+    <div class="composer-wrap">
+      <form class="composer" id="composerForm">
+        <textarea
+          class="composer-textarea"
+          id="composerInput"
+          placeholder="Ask a drug question…"
+          rows="1"
+          aria-label="Your question"></textarea>
+        <div class="composer-bar">
+          <div class="composer-actions-left">
+            <span class="mode-pill" title="Answers are grounded in your reference library only">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+              References-only mode
+            </span>
+            <span class="tries-pill" id="triesPill" title="Free searches reset daily">
+              <span class="tries-dot"></span>
+              <span id="triesText">7 of 7 today</span>
+            </span>
+          </div>
+          <button class="send-btn" id="sendBtn" type="submit" aria-label="Send" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 2L11 13"/>
+              <path d="M22 2l-7 20-4-9-9-4 20-7z"/>
+            </svg>
+          </button>
+        </div>
+      </form>
+      <div class="footer">
+        For clinician use. Not a substitute for professional medical judgment or patient-specific evaluation.
+      </div>
+    </div>
+  </div>
+
+  <!-- GATE MODAL -->
+  <div class="gate-overlay" id="gateOverlay" role="dialog" aria-modal="true" aria-labelledby="gateTitle" aria-hidden="true">
+    <div class="gate-modal">
+      <button class="gate-close" id="gateClose" type="button" aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <div class="gate-icon" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+      </div>
+      <h2 class="gate-title" id="gateTitle">You've reached your daily limit</h2>
+      <p class="gate-text" id="gateText">You've used all 7 free searches today. Sign up for free to continue with unlimited access to the Philippine National Formulary library.</p>
+      <div class="gate-actions">
+        <button class="gate-btn-primary" id="gateSignUp" type="button">Create free account</button>
+      </div>
+      <div class="gate-foot">Free searches reset at midnight local time.</div>
+    </div>
+  </div>
+
+<script>
+/* =============================================================================
+ * PNF Clinical Assistant — Front-end mockup
+ *
+ * INTEGRATION GUIDE
+ * -----------------
+ * This file is intentionally split into clearly-labeled sections so you can
+ * plug it into your existing backend with minimal edits. Search for the tag
+ * "// INTEGRATION POINT:" to find every place that needs your real code.
+ *
+ * WIRED TO BACKEND: askQuestion() now calls POST /api/pnf/ask (served by api.py).
+ * The two remaining things to wire for production:
+ *   1) PNF.api.startSignUp()          — route to your real sign-up page/modal.
+ *   2) PNF.api.getUser()              — return the current authenticated user
+ *      (or null). When non-null, the daily try limit is bypassed.
+ *
+ * Constants and DOM IDs live in PNF.config and are stable — your backend can
+ * also read PNF.tries.* helpers if it wants to display server-tracked counts.
+ * ============================================================================= */
+(function () {
+  'use strict';
+
+  // ===========================================================================
+  // 1. CONFIG — adjust these constants as needed
+  // ===========================================================================
+  const CONFIG = {
+    TRIES_LIMIT: 7,                     // free tries per day (anonymous users)
+    TRIES_STORAGE_KEY: 'pnf-tries',     // localStorage key for try counter
+    THEME_STORAGE_KEY: 'pnf-theme',     // localStorage key for theme
+    API_ENDPOINT: '/api/pnf/ask',       // backend endpoint (served by api.py)
+    DATE_FORMAT: { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' },
+  };
+
+  // ===========================================================================
+  // 2. DEMO DATA (kept as fallback — uncomment if running without backend)
+  // ===========================================================================
+  /*
+  const DEMO_ANSWER = {
+    body:
+      '<p>According to the Philippine National Formulary, recommended drug therapy depends on patient stratification, comorbidities, and local resistance patterns.<a href="#src1" class="citation">1</a></p>' +
+      '<p><strong>Outpatient, previously healthy:</strong> Amoxicillin 1 g three times daily, OR doxycycline 100 mg twice daily.<a href="#src1" class="citation">1</a></p>',
+    sources: [{ num: 1, title: 'Philippine National Formulary', section: 'Antimicrobials — Amoxicillin', snippet: '"Amoxicillin remains a first-line agent…"', lastUpdated: 'Apr 2026' }]
+  };
+  */
+
+  // ===========================================================================
+  // 3. API LAYER — replace these with your real backend calls
+  // ===========================================================================
+  const API = {
+    /**
+     * Submit a drug question to the PNF reference engine.
+     *
+     * INTEGRATION POINT: replace the demo body with a real fetch() call.
+     *
+     * IMPORTANT — server-side rate limiting:
+     * The 7-tries-per-day gate in this UI is purely client-side (localStorage)
+     * and is trivially bypassed (clearing storage, incognito, devtools).
+     * Your backend MUST enforce its own rate limit per IP / fingerprint /
+     * session token. When over the limit, return HTTP 429. The handler below
+     * recognizes 429 and surfaces the gate modal, regardless of local count.
+     *
+     * Example real implementation:
+     *   const res = await fetch('/api/pnf/ask', {
+     *     method: 'POST',
+     *     headers: { 'Content-Type': 'application/json' },
+     *     body: JSON.stringify({ question }),
+     *     signal
+     *   });
+     *   if (res.status === 429) {
+     *     const e = new Error('Rate limit exceeded');
+     *     e.code = 'RATE_LIMITED';                 // handleSubmit catches this
+     *     throw e;
+     *   }
+     *   if (!res.ok) throw new Error('PNF request failed: ' + res.status);
+     *   return await res.json();
+     *
+     * Expected response shape (each source has a lastUpdated date string):
+     *   {
+     *     body: '<p>...HTML...</p>',
+     *     sources: [{
+     *       num: 1,
+     *       title: 'Philippine National Formulary',
+     *       section: 'Antimicrobials — Amoxicillin',
+     *       snippet: '"..."',
+     *       lastUpdated: 'Apr 2026'    // freshness pill in the UI
+     *     }]
+     *   }
+     *
+     * @param {string} question - User's question text
+     * @param {AbortSignal} [signal] - optional, to cancel in-flight request
+     * @returns {Promise<{body:string, sources:Array<{num:number,title:string,section:string,snippet:string,lastUpdated?:string}>}>}
+     */
+    async askQuestion(question, signal) {
+      const res = await fetch('/api/pnf/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ question }),
+        signal
+      });
+      if (res.status === 429) {
+        const e = new Error('Rate limit exceeded');
+        e.code = 'RATE_LIMITED';
+        throw e;
+      }
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        throw new Error('Request failed (' + res.status + '): ' + text);
+      }
+      return await res.json();
+    },
+
+    /**
+     * Trigger your real sign-up flow.
+     * INTEGRATION POINT: route to your sign-up page or open your auth modal.
+     */
+    startSignUp() {
+      // Example: window.location.href = '/signup';
+      // Example: window.dispatchEvent(new CustomEvent('pnf:signup-requested'));
+      console.log('[PNF] startSignUp() — wire this to your auth flow.');
+    },
+
+    /**
+     * Return the current authenticated user (or null if anonymous).
+     * INTEGRATION POINT: hook into your auth/session state.
+     * When non-null, the daily try limit is bypassed.
+     * @returns {object|null}
+     */
+    getUser() {
+      return null;
+    },
+  };
+
+  // ===========================================================================
+  // 4. DATE — header date pill
+  // ===========================================================================
+  function initDate() {
+    const el = document.getElementById('datePill');
+    el.textContent = new Date().toLocaleDateString(undefined, CONFIG.DATE_FORMAT);
+  }
+
+  // ===========================================================================
+  // 5. THEME — light/dark with localStorage + system preference
+  // ===========================================================================
+  function initTheme() {
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const stored = localStorage.getItem(CONFIG.THEME_STORAGE_KEY);
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    root.setAttribute('data-theme', stored || (prefersDark ? 'dark' : 'light'));
+    toggle.addEventListener('click', () => {
+      const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem(CONFIG.THEME_STORAGE_KEY, next);
+    });
+  }
+
+  // ===========================================================================
+  // 6. TRIES — local daily-resetting try counter
+  //    (Replace these helpers if your backend tracks usage server-side.)
+  // ===========================================================================
+  const tries = {
+    todayKey() {
+      const d = new Date();
+      return d.getFullYear() + '-' +
+        String(d.getMonth() + 1).padStart(2, '0') + '-' +
+        String(d.getDate()).padStart(2, '0');
+    },
+    getUsed() {
+      const raw = localStorage.getItem(CONFIG.TRIES_STORAGE_KEY);
+      if (!raw) return 0;
+      try {
+        const { date, count } = JSON.parse(raw);
+        if (date !== this.todayKey()) return 0;
+        return Math.max(0, Math.min(CONFIG.TRIES_LIMIT, count | 0));
+      } catch (_) { return 0; }
+    },
+    setUsed(n) {
+      localStorage.setItem(
+        CONFIG.TRIES_STORAGE_KEY,
+        JSON.stringify({ date: this.todayKey(), count: n })
+      );
+    },
+    getRemaining() {
+      return Math.max(0, CONFIG.TRIES_LIMIT - this.getUsed());
+    },
+    isAtLimit() {
+      return this.getUsed() >= CONFIG.TRIES_LIMIT;
+    },
+    consume() {
+      this.setUsed(this.getUsed() + 1);
+    },
+    reset() {
+      localStorage.removeItem(CONFIG.TRIES_STORAGE_KEY);
+    },
+    updateDisplay() {
+      const pill = document.getElementById('triesPill');
+      const text = document.getElementById('triesText');
+      const remaining = this.getRemaining();
+      text.textContent = remaining + ' of ' + CONFIG.TRIES_LIMIT + ' today';
+      pill.classList.toggle('warn', remaining > 0 && remaining <= 2);
+      pill.classList.toggle('depleted', remaining === 0);
+    },
+  };
+
+  // ===========================================================================
+  // 7. GATE MODAL — shown when user runs out of tries (or clicks header CTA)
+  // ===========================================================================
+  const gate = {
+    overlay: null,
+    init() {
+      this.overlay = document.getElementById('gateOverlay');
+      document.getElementById('gateClose').addEventListener('click', () => this.hide());
+      this.overlay.addEventListener('click', (e) => {
+        if (e.target === this.overlay) this.hide();
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && this.overlay.classList.contains('open')) this.hide();
+      });
+      document.getElementById('gateSignUp').addEventListener('click', () => {
+        this.hide();
+        API.startSignUp();
+      });
+      // Header "Sign up" button opens the same modal
+      document.getElementById('signUpBtn').addEventListener('click', () => this.show());
+    },
+    show() {
+      this.overlay.classList.add('open');
+      this.overlay.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+    },
+    hide() {
+      this.overlay.classList.remove('open');
+      this.overlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    },
+  };
+
+  // ===========================================================================
+  // 8. RENDERING — chat-style append. Each submission appends a new Q&A block
+  //    below the previous one (regular chat behavior). The empty state with
+  //    example prompts is removed on first submission.
+  // ===========================================================================
+  let blockCounter = 0;   // unique IDs per Q&A block (no race conditions)
+
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, c => (
+      { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    ));
+  }
+
+  /**
+   * Append a new Q&A block to the conversation feed.
+   * Returns the block ID so the caller can target it for answer rendering.
+   */
+  function appendQuestionBlock(question) {
+    const blockId = 'qa-block-' + (++blockCounter);
+    const resultArea = document.getElementById('resultArea');
+
+    // First message: remove the empty-state with example prompts
+    const emptyState = document.getElementById('emptyState');
+    if (emptyState) emptyState.remove();
+
+    const html =
+      '<div class="qa-block" id="' + blockId + '">' +
+        '<div class="question">' +
+          '<div class="question-label">Your question</div>' +
+          '<div>' + escapeHtml(question) + '</div>' +
+        '</div>' +
+        '<div class="answer">' +
+          '<div class="answer-label">PNF Assistant</div>' +
+          '<div class="answer-disclaimer">Verify dosing against the current PNF before prescribing.</div>' +
+          '<div class="answer-body" data-role="answer-body" aria-live="polite">' +
+            '<div class="thinking" aria-label="Thinking"><span></span><span></span><span></span></div>' +
+          '</div>' +
+        '</div>' +
+      '</div>';
+
+    resultArea.insertAdjacentHTML('beforeend', html);
+
+    // Scroll the new question into view at the top of the viewport
+    setTimeout(() => {
+      const el = document.getElementById(blockId);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 30);
+
+    return blockId;
+  }
+
+  function renderAnswerInBlock(blockId, answer) {
+    const block = document.getElementById(blockId);
+    if (!block) return;
+    const body = block.querySelector('[data-role="answer-body"]');
+    if (!body) return;
+    body.innerHTML = answer.body;
+
+    const sources = answer.sources || [];
+    if (sources.length === 0) return;
+
+    const sourceItems = sources.map(s =>
+      '<div class="source-item" id="src' + s.num + '">' +
+        '<div class="source-meta">' +
+          '<span class="source-num">' + s.num + '</span>' +
+          '<span class="source-title">' + s.title + '</span>' +
+          (s.lastUpdated ? '<span class="source-date">Updated ' + s.lastUpdated + '</span>' : '') +
+        '</div>' +
+        '<div class="source-section">' + s.section + '</div>' +
+        '<div class="source-snippet">' + s.snippet + '</div>' +
+      '</div>'
+    ).join('');
+
+    const sourcesHtml =
+      '<details class="sources">' +
+        '<summary class="sources-header">' +
+          '<span class="sources-header-left">' +
+            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">' +
+              '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>' +
+              '<path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>' +
+            '</svg>' +
+            'Sources' +
+            '<span class="sources-count">' + sources.length + '</span>' +
+          '</span>' +
+          '<svg class="sources-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">' +
+            '<polyline points="6 9 12 15 18 9"/>' +
+          '</svg>' +
+        '</summary>' +
+        '<div class="sources-list">' + sourceItems + '</div>' +
+      '</details>';
+
+    body.parentElement.insertAdjacentHTML('afterend', sourcesHtml);
+  }
+
+  function renderErrorInBlock(blockId, err) {
+    const block = document.getElementById(blockId);
+    if (!block) return;
+    const body = block.querySelector('[data-role="answer-body"]');
+    if (!body) return;
+    body.innerHTML =
+      '<p style="color: var(--text-soft);">Sorry, something went wrong fetching that answer. Please try again.</p>' +
+      (err && err.message ? '<p style="color: var(--text-muted); font-size: 13px;">' + escapeHtml(err.message) + '</p>' : '');
+  }
+
+  // ===========================================================================
+  // 9. SUBMIT FLOW — orchestrates gate check, API call, rendering
+  //    Each submission gets its own block + AbortController so concurrent
+  //    requests don't stomp on each other.
+  // ===========================================================================
+  async function handleSubmit(question) {
+    // Gate check: block at limit unless authenticated
+    const user = API.getUser();
+    if (!user && tries.isAtLimit()) {
+      gate.show();
+      return;
+    }
+
+    // Consume a try (only for anonymous users)
+    if (!user) {
+      tries.consume();
+      tries.updateDisplay();
+    }
+
+    const blockId = appendQuestionBlock(question);
+    const ac = new AbortController();
+
+    try {
+      const answer = await API.askQuestion(question, ac.signal);
+      renderAnswerInBlock(blockId, answer);
+    } catch (err) {
+      if (err && err.name === 'AbortError') return;
+      // Server-side rate limit (429) takes precedence over local counter
+      if (err && (err.code === 'RATE_LIMITED' || err.status === 429)) {
+        // Mark local counter as exhausted so the gate stays accurate
+        tries.setUsed(CONFIG.TRIES_LIMIT);
+        tries.updateDisplay();
+        // Remove the in-flight block (we never got an answer)
+        const block = document.getElementById(blockId);
+        if (block) block.remove();
+        gate.show();
+        return;
+      }
+      renderErrorInBlock(blockId, err);
+    }
+  }
+
+  // ===========================================================================
+  // 10. COMPOSER — textarea, send button, prompt cards
+  // ===========================================================================
+  function initComposer() {
+    const form = document.getElementById('composerForm');
+    const input = document.getElementById('composerInput');
+    const sendBtn = document.getElementById('sendBtn');
+
+    function autoResize() {
+      input.style.height = 'auto';
+      input.style.height = Math.min(input.scrollHeight, 180) + 'px';
+    }
+
+    input.addEventListener('input', () => {
+      autoResize();
+      sendBtn.disabled = input.value.trim().length === 0;
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        if (!sendBtn.disabled) form.requestSubmit();
+      }
+    });
+
+    document.querySelectorAll('.prompt-card').forEach(card => {
+      card.addEventListener('click', () => {
+        input.value = card.getAttribute('data-prompt');
+        autoResize();
+        sendBtn.disabled = false;
+        input.focus();
+      });
+    });
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const q = input.value.trim();
+      if (!q) return;
+      handleSubmit(q);
+      input.value = '';
+      autoResize();
+      sendBtn.disabled = true;
+      setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50);
+    });
+  }
+
+  // ===========================================================================
+  // 11. DISCLAIMER BANNER — dismissable, persists per-browser
+  // ===========================================================================
+  function initDisclaimer() {
+    const banner = document.getElementById('disclaimerBanner');
+    const dismiss = document.getElementById('disclaimerDismiss');
+    const KEY = 'pnf-disclaimer-dismissed';
+    if (localStorage.getItem(KEY) === '1') {
+      banner.classList.add('hidden');
+    }
+    dismiss.addEventListener('click', () => {
+      banner.classList.add('hidden');
+      localStorage.setItem(KEY, '1');
+    });
+  }
+
+  // ===========================================================================
+  // 12. BOOT
+  // ===========================================================================
+  initDate();
+  initTheme();
+  initDisclaimer();
+  tries.updateDisplay();
+  gate.init();
+  initComposer();
+
+  // Expose a small API on window for your core code to call into.
+  // INTEGRATION POINT: use these from your auth flow / tests.
+  //   window.PNF.tries.reset()           — clear the local try counter
+  //   window.PNF.tries.getRemaining()    — read current remaining count
+  //   window.PNF.gate.show() / hide()    — open/close the sign-up modal
+  //   window.PNF.api                      — swap askQuestion / startSignUp / getUser
+  //   window.PNF.config                   — read/write CONFIG values
+  window.PNF = { config: CONFIG, api: API, tries: tries, gate: gate };
+})();
+</script>
+</body>
+</html>
