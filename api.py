@@ -235,9 +235,11 @@ def brave_search_generic(brand_name):
         if res.status_code == 200:
             data = res.json()
             results = data.get("web", {}).get("results", [])
-            for r in results[:3]:
+        brand_lower = brand_name.lower().strip()
+        for result in results[:3]:
                 for src in (r.get("title", ""), r.get("description", "")):
                     generic = re.split(r'[\|\-\(\,\:\|]', src)[0].strip().lower()
+                    if generic == brand_lower: continue
                     if 2 < len(generic) < 40:
                         return generic
     except Exception:
@@ -256,7 +258,7 @@ def synthesize_interaction(drugs):
         + ", ".join(drugs)
         + ". Cover mechanism, severity, and management. No disclaimers."
     )
-    return _GEMMA_MODELgenerate_content(prompt).text
+    return _GEMMA_MODEL.generate_content(prompt).text
 
 def is_interaction_query(query):
     q = query.lower()
