@@ -15,4 +15,9 @@ RUN chown -R appuser:appuser /app
 USER appuser
 
 ENV PORT=8080
-CMD ["streamlit", "run", "app.py", "--server.port", "8080"]
+
+# Serve the chatbot UI via FastAPI + uvicorn
+# GET  /          -> index.html (chatbot frontend)
+# GET  /health    -> liveness probe
+# POST /api/pnf/ask -> PNF drug search endpoint
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8080"]
