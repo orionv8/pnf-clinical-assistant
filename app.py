@@ -199,27 +199,27 @@ if user_query:
                 raw_text = scored_results[0]["text"]
                 drug_name = scored_results[0]['drug']
                 
-        if scored_results:
-            is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
-            if is_restricted:
-                st.markdown("\n### ⚠️ AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.")
+            if scored_results:
+                is_restricted = any(drug in user_query.lower() for drug in AMS_RESTRICTED)
+                if is_restricted:
+                    st.markdown("\n### \u26a0\ufe0f AMS ALERT: RESTRICTED ANTIMICROBIAL\n> **Note:** This medicine is a RESTRICTED antimicrobial. Usage requires institutional AMS clearance and specific justification.")
 
-            # Formatter
-            st.markdown(f"### **{scored_results[0]['drug']}**")
-            
-            # Strip metadata, ATC codes, and pages
-            clean_text = re.sub(r'April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d', '', scored_results[0]['text'])
-            
-            # Format sections (very simple parser)
-            sections = re.split(r'\n\n(?=[A-Z][A-Z\s]+)', clean_text)
-            for section in sections:
-                lines = section.split('\n')
-                if not lines[0].strip(): continue
-                st.markdown(f"**{lines[0].strip()}**")
-                for line in lines[1:]:
-                    if line.strip():
-                        st.markdown(f"* {line.strip()}")
-        else:
-            st.error("No result found in PNF index. Please search for a PNF-authorized drug or clinical term.")
+                # Formatter
+                st.markdown(f"### **{scored_results[0]['drug']}**")
+                
+                # Strip metadata, ATC codes, and pages
+                clean_text = re.sub(r'April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d', '', scored_results[0]['text'])
+                
+                # Format sections (very simple parser)
+                sections = re.split(r'\n\n(?=[A-Z][A-Z\s]+)', clean_text)
+                for section in sections:
+                    lines = section.split('\n')
+                    if not lines[0].strip(): continue
+                    st.markdown(f"**{lines[0].strip()}**")
+                    for line in lines[1:]:
+                        if line.strip():
+                            st.markdown(f"* {line.strip()}")
+            else:
+                st.error("No result found in PNF index. Please search for a PNF-authorized drug or clinical term.")
         except Exception as e:
             st.error(f"Error: {e}")
