@@ -1,16 +1,12 @@
 # api.py — FastAPI bridge for PNF Clinical Assistant
 #
-# Wraps the same search logic used by the Streamlit app (app.py) and
-# exposes it via a REST endpoint so the pure-HTML frontend can call it
-# without any Streamlit dependency at runtime.
-#
 # Endpoints
-#   GET  /          → serves index.html (frontend)
+#   GET  /          → serves index.html (chatbot frontend)
 #   GET  /health    → liveness probe
-#   POST /api/pnf/ask → main search endpoint
+#   POST /api/pnf/ask → PNF drug search
 
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
@@ -19,7 +15,7 @@ import os
 import re
 
 # ---------------------------------------------------------------------------
-# App initialisation
+# App
 # ---------------------------------------------------------------------------
 
 app = FastAPI(
@@ -48,7 +44,7 @@ AMS_RESTRICTED = [
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ---------------------------------------------------------------------------
-# PNF index — loaded once at startup
+# PNF index
 # ---------------------------------------------------------------------------
 
 pnf_data = []
@@ -57,13 +53,6 @@ index_path = os.path.join(BASE_DIR, "data", "pnf_index.json")
 if os.path.exists(index_path):
     with open(index_path, "r", encoding="utf-8") as _f:
         pnf_data = json.load(_f)
-else:
-    import warnings
-    warnings.warn(
-        f"PNF index not found at {index_path}. "
-        "Place data/pnf_index.json next to api.py before serving queries.",
-        stacklevel=1,
-    )
 
 # ---------------------------------------------------------------------------
 # Pydantic models
@@ -84,7 +73,7 @@ class AskResponse(BaseModel):
     sources: List[SourceItem]
 
 # ---------------------------------------------------------------------------
-# Internal helpers
+# Helpers
 # ---------------------------------------------------------------------------
 
 def _clean_text(raw):
@@ -151,12 +140,53 @@ def _build_citation_link(num, drug_name):
 # Routes
 # ---------------------------------------------------------------------------
 
-@app.get("/", response_class=FileResponse, include_in_schema=False)
+# Holding page shown when full index.html hasn't been deployed yet
+HOLDING_PAGE = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PNF Clinical Assistant</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           background: #08090a; color: #f7f8f8; display: flex;
+           align-items: center; justify-content: center;
+           min-height: 100vh; margin: 0; }
+    .card { background: #0f1011; border: 1px solid rgba(255,255,255,.08);
+            border-radius: 14px; padding: 40px; max-width: 480px; text-align: center; }
+    h1 { font-size: 28px; margin: 0 0 12px; color: #5e6ad2; }
+    p { color: #8a8f98; line-height: 1.6; margin: 0 0 20px; }
+    .status { display: inline-block; background: #1a3a1a; color: #4ade80;
+              padding: 6px 16px; border-radius: 999px; font-size: 14px; }
+    .links { margin-top: 24px; }
+    a { color: #5e6ad2; text-decoration: none; margin: 0 10px; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>PNF Clinical Assistant</h1>
+    <p>The API is running with {entries} drug entries loaded.<br>
+    The chatbot frontend (index.html) is being deployed.</p>
+    <span class="status">&#10003; API Online</span>
+    <div class="links"><a href="/health">Health</a> <a href="/docs">API Docs</a></div>
+  </div>
+</body>
+</html>"""
+
+@app.get("/")
 async def serve_frontend():
     html_path = os.path.join(BASE_DIR, "index.html")
-    if not os.path.exists(html_path):
-        raise HTTPException(status_code=404, detail="index.html not found.")
-    return FileResponse(html_path, media_type="text/html")
+    # Serve full chatbot UI only if the file is large enough (>10KB)
+    # A truncated or placeholder file will fall through to the holding page.
+    if os.path.exists(html_path) and os.path.getsize(html_path) > 10000:
+        with open(html_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        return HTMLResponse(content=content)
+    # Fallback: show a professional holding page while index.html is being deployed
+    return HTMLResponse(
+        content=HOLDING_PAGE.replace("{entries}", str(len(pnf_data)))
+    )
 
 @app.get("/health")
 async def health_check():
