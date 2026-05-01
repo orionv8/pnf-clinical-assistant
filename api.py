@@ -235,13 +235,18 @@ def brave_search_generic(brand_name):
         if res.status_code == 200:
             data = res.json()
             results = data.get("web", {}).get("results", [])
-        brand_lower = brand_name.lower().strip()
-        for result in results[:3]:
-                for src in (r.get("title", ""), r.get("description", "")):
-                    generic = re.split(r'[\|\-\(\,\:\|]', src)[0].strip().lower()
-                    if generic == brand_lower: continue
-                    if 2 < len(generic) < 40:
-                        return generic
+            brand_lower = brand_name.lower().strip()
+            for result in results[:3]:
+                for src in (result.get("title", ""), result.get("description", "")):
+                    for segment in re.split(r'[\|\-\(\,\:\|]', src):
+                        candidate = segment.strip().lower()
+                        if not (2 < len(candidate) < 40):
+                            continue
+                        if candidate == brand_lower or candidate.startswith(brand_lower):
+                            continue
+                        if not re.search(r'[a-z]{3}', candidate):
+                            continue
+                        return candidate
     except Exception:
         pass
     return None
