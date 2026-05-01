@@ -1,9 +1,25 @@
 # api.py — FastAPI bridge for PNF Clinical Assistant
 #
 # Endpoints
-#   GET  /          → serves index.html (chatbot frontend)
-#   GET  /health    → liveness probe
-#   POST /api/pnf/ask → PNF drug search
+#   GET  /              → serves index.html (chatbot frontend) or holding page
+#   GET  /health        → liveness probe
+#   POST /api/pnf/ask   → drug search with PNF + Brave + Gemma integration
+#
+# Features:
+# - PNF drug index search (exact → partial → content match)
+# - Brave Search fallback (brand name → generic name translation)
+# - Gemma/Vertex AI synthesis (drug interaction queries: "X and Y", "X vs Y")
+# - HTML response formatting with sections + citations
+# - AMS Restricted Antimicrobial alerts
+# - Sources array with PNF freshness metadata
+# - Empty-query validation
+# - BOM stripping
+#
+# Required environment variables (Cloud Run / .env):
+#   PROJECT_ID            — GCP project ID for Vertex AI
+#   LOCATION              — Vertex AI region (e.g. asia-southeast1)
+#   MODEL_NAME            — Gemma model name (e.g. gemma-2-9b-it, gemini-1.5-flash)
+#   BRAVE_SEARCH_API_KEY  — Brave Search API subscription token
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -14,14 +30,50 @@ import json
 import os
 import re
 
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Optional integrations: Vertex AI (Gemma) + Brave Search
+# Wrapped in try/except so the API still serves PNF queries if env vars
+# or packages are missing.
+# ---------------------------------------------------------------------------
+
+# Brave Search (HTTP-based, lightweight)
+try:
+    import requests
+    _HAS_REQUESTS = True
+except ImportError:
+    _HAS_REQUESTS = False
+
+# Vertex AI / Gemma (heavier, requires GCP auth)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
+_GEMMA_MODEL = None
+try:
+    import vertexai
+    from vertexai.generative_models import GenerativeModel
+    project = os.getenv("PROJECT_ID")
+    location = os.getenv("LOCATION")
+    model_name = os.getenv("MODEL_NAME")
+    if project and location and model_name:
+        vertexai.init(project=project, location=location)
+        _GEMMA_MODEL = GenerativeModel(model_name)
+except Exception as _e:
+    # Gemma not available — interaction queries will return a graceful fallback
+    _GEMMA_MODEL = None
+
+BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
+
+# ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
 
 app = FastAPI(
     title="PNF Clinical Assistant API",
-    description="REST bridge for the Philippine National Formulary drug monograph index.",
-    version="1.0.0",
+    description="REST bridge for the Philippine National Formulary with Brave + Gemma integration.",
+    version="1.1.0",
 )
 
 app.add_middleware(
@@ -31,7 +83,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
 
@@ -43,7 +95,7 @@ AMS_RESTRICTED = [
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # PNF index
 # ---------------------------------------------------------------------------
 
@@ -54,7 +106,7 @@ if os.path.exists(index_path):
     with open(index_path, "r", encoding="utf-8") as _f:
         pnf_data = json.load(_f)
 
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # Pydantic models
 # ---------------------------------------------------------------------------
 
@@ -72,17 +124,19 @@ class AskResponse(BaseModel):
     body: str
     sources: List[SourceItem]
 
-# ----------------------------------------------------------------------------
-# Helpers
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# PNF helpers
+# ---------------------------------------------------------------------------
 
 def _clean_text(raw):
+    # Strip BOM, publisher boilerplate, ATC codes, page markers
+    cleaned = raw.lstrip("\ufeff")
     return re.sub(
         r"April.*?\n"
         r"|https://.*?pnf\.doh\.gov\.ph\n+"
         r"|ATC CODE\n+.*?\n+"
         r"|Page \d of \d",
-        "", raw,
+        "", cleaned,
     )
 
 def _search_index(query):
@@ -136,7 +190,74 @@ def _build_citation_link(num, drug_name):
         f'[{num}]</a>'
     )
 
-# ----------------------------------------------------------------------------
+def _build_ai_notice():
+    return (
+        '<p class="ai-notice" style="'
+        'background:#e7f3ff;border-left:4px solid #2196f3;'
+        'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;'
+        '">'
+        '<strong>&#9432; AI-Synthesized Summary</strong> \u2014 '
+        'This is an AI-generated reference. Cross-check with the PNF and '
+        'clinical references before prescribing.'
+        '</p>'
+    )
+
+# ---------------------------------------------------------------------------
+# Brave Search: brand name → generic name translation
+# ---------------------------------------------------------------------------
+
+def brave_search_generic(brand_name):
+    """
+    Look up the generic name for a brand-name drug using Brave Search.
+    Returns the generic name string, or None if unavailable.
+    """
+    if not BRAVE_KEY or not _HAS_REQUESTS:
+        return None
+    try:
+        headers = {"X-Subscription-Token": BRAVE_KEY}
+        url = (
+            "https://api.search.brave.com/res/v1/web/search"
+            f"?q={brand_name} generic name PNF"
+        )
+        res = requests.get(url, headers=headers, timeout=5)
+        if res.status_code == 200:
+            data = res.json()
+            results = data.get("web", {}).get("results", [])
+            if results:
+                return results[0].get("title", "")
+    except Exception:
+        pass
+    return None
+
+# ---------------------------------------------------------------------------
+# Gemma / Vertex AI: drug interaction synthesis
+# ---------------------------------------------------------------------------
+
+def synthesize_interaction(drugs):
+    """
+    Use Gemma (Vertex AI) to generate a clinical interaction summary for
+    the given list of drugs. Returns the AI-generated text, or raises if
+    Gemma is unavailable.
+    """
+    if _GEMMA_MODEL is None:
+        raise RuntimeError(
+            "Gemma not configured (set PROJECT_ID, LOCATION, MODEL_NAME env vars)."
+        )
+    prompt = (
+        "Provide a concise clinical drug interaction summary for the following "
+        "medications: "
+        + ", ".join(drugs)
+        + ". Cover mechanism, severity, and clinical management in plain text. "
+        "Do not include disclaimers — they are added by the UI."
+    )
+    return _GEMMA_MODEL.generate_content(prompt).text
+
+def is_interaction_query(query):
+    """Detect drug interaction queries like 'X and Y' or 'X vs Y'."""
+    q = query.lower()
+    return " and " in q or " vs " in q or " versus " in q
+
+# ---------------------------------------------------------------------------
 # Routes
 # ---------------------------------------------------------------------------
 
@@ -177,20 +298,22 @@ HOLDING_PAGE = """<!DOCTYPE html>
 @app.get("/")
 async def serve_frontend():
     html_path = os.path.join(BASE_DIR, "index.html")
-    # Serve full chatbot UI only if the file is large enough (>10KB)
-    # A truncated or placeholder file will fall through to the holding page.
     if os.path.exists(html_path) and os.path.getsize(html_path) > 10000:
         with open(html_path, "r", encoding="utf-8") as f:
             content = f.read()
         return HTMLResponse(content=content)
-    # Fallback: show a professional holding page while index.html is being deployed
     return HTMLResponse(
         content=HOLDING_PAGE.replace("{entries}", str(len(pnf_data)))
     )
 
 @app.get("/health")
 async def health_check():
-    return JSONResponse({"status": "ok", "entries_loaded": len(pnf_data)})
+    return JSONResponse({
+        "status": "ok",
+        "entries_loaded": len(pnf_data),
+        "gemma_available": _GEMMA_MODEL is not None,
+        "brave_available": bool(BRAVE_KEY) and _HAS_REQUESTS,
+    })
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(request: AskRequest):
@@ -198,7 +321,49 @@ async def ask(request: AskRequest):
     if not question:
         raise HTTPException(status_code=422, detail="'question' must not be empty.")
 
+    # ----------------------------------------------------------------
+    # Path A: Drug interaction query → use Gemma
+    # ----------------------------------------------------------------
+    if is_interaction_query(question):
+        drugs = [d.strip() for d in re.split(r" and | vs | versus ", question.lower()) if d.strip()]
+        try:
+            ai_text = synthesize_interaction(drugs)
+            ai_html = _format_text_as_html(ai_text)
+            body_html = "\n".join([_build_ai_notice(), ai_html])
+            return AskResponse(
+                body=body_html,
+                sources=[
+                    SourceItem(
+                        num=1,
+                        title="AI-Synthesized Summary",
+                        section=f"Drug Interaction: {' + '.join(drugs)}",
+                        snippet="Generated by Gemma (Vertex AI) for clinical reference. Always cross-check with PNF and authoritative sources.",
+                        lastUpdated="Live",
+                    )
+                ],
+            )
+        except Exception as e:
+            err_html = (
+                f"<p>Unable to synthesize interaction summary: {str(e)[:120]}</p>"
+                "<p>Try searching each drug individually in the PNF library.</p>"
+            )
+            return AskResponse(body=err_html, sources=[])
+
+    # ----------------------------------------------------------------
+    # Path B: Single-drug PNF lookup with Brave fallback
+    # ----------------------------------------------------------------
     match = _search_index(question)
+    used_brave = False
+    resolved_name = question
+
+    if match is None:
+        # Try Brave search to translate brand → generic
+        generic = brave_search_generic(question)
+        if generic:
+            match = _search_index(generic)
+            if match is not None:
+                used_brave = True
+                resolved_name = generic
 
     if match is None:
         not_found_html = (
@@ -208,6 +373,9 @@ async def ask(request: AskRequest):
         )
         return AskResponse(body=not_found_html, sources=[])
 
+    # ----------------------------------------------------------------
+    # Format successful PNF match (with optional Brave provenance)
+    # ----------------------------------------------------------------
     raw_text = match.get("text", "")
     drug_name = match.get("drug", question)
     clean_text = _clean_text(raw_text)
@@ -217,6 +385,19 @@ async def ask(request: AskRequest):
     monograph_html = _format_text_as_html(clean_text)
 
     body_parts = []
+
+    # If Brave was used, show a note explaining the brand→generic mapping
+    if used_brave:
+        body_parts.append(
+            '<p class="brave-notice" style="'
+            'background:#f0f7ff;border-left:4px solid #6366f1;'
+            'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;font-size:0.9em;'
+            '">'
+            f'<strong>Brand &rarr; Generic:</strong> "{question}" was resolved to '
+            f'<em>{drug_name}</em> via Brave Search. Showing PNF data for the generic.'
+            '</p>'
+        )
+
     if ams_alert:
         body_parts.append(ams_alert)
     body_parts.append(monograph_html)
@@ -242,7 +423,7 @@ async def ask(request: AskRequest):
 
     return AskResponse(body=body_html, sources=sources)
 
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 # Dev entry-point
 # ---------------------------------------------------------------------------
 
