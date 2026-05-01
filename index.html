@@ -925,11 +925,28 @@
         </svg>
       </div>
       <h2 class="gate-title" id="gateTitle">You've reached your daily limit</h2>
-      <p class="gate-text" id="gateText">You've used all 7 free searches today. Sign up for free to continue with unlimited access to the Philippine National Formulary library.</p>
-      <div class="gate-actions">
-        <button class="gate-btn-primary" id="gateSignUp" type="button">Create free account</button>
+      <p class="gate-text" id="gateText">Create a free account for unlimited access to the Philippine National Formulary library.</p>
+      <div id="gateAuthArea">
+        <div class="auth-tab-bar">
+          <button class="auth-tab-btn active" id="tabSignup" type="button">Sign up</button>
+          <button class="auth-tab-btn" id="tabSignin" type="button">Sign in</button>
+        </div>
+        <form id="authForm" autocomplete="on">
+          <input class="auth-field" type="email" id="authEmailInput"
+                 placeholder="Email address" autocomplete="email" required />
+          <input class="auth-field" type="password" id="authPasswordInput"
+                 placeholder="Password (min 6 chars)" autocomplete="new-password" required />
+          <div class="auth-error" id="authErrorMsg"></div>
+          <button class="gate-btn-primary" type="submit" id="authSubmitBtn"
+                  style="width:100%;">Create free account</button>
+        </form>
       </div>
-      <div class="gate-foot">Free searches reset at midnight local time.</div>
+      <div class="auth-success-wrap" id="authSuccessWrap">
+        <p id="authSuccessMsg">✓ Signed in</p>
+        <button class="gate-btn-primary" id="gateContinueBtn" type="button"
+                style="width:100%;">Continue searching</button>
+      </div>
+      <div class="gate-foot" id="gateFooter">Free searches reset at midnight · Unlimited with an account</div>
     </div>
   </div>
 
@@ -1138,26 +1155,86 @@
   };
 
   // ===========================================================================
-  // 7. GATE MODAL — shown when user runs out of tries (or clicks header CTA)
+  // ===========================================================================
+  // 7. AUTH — sign up / sign in
+  // ===========================================================================
+  const AUTH_KEY = 'pnf-auth';
+  const auth = {
+    get() { const r = localStorage.getItem(AUTH_KEY); if (!r) return null; try { return JSON.parse(r); } catch { return null; } },
+    set(token, email) { localStorage.setItem(AUTH_KEY, JSON.stringify({ token, email })); },
+    clear() { localStorage.removeItem(AUTH_KEY); },
+    getUser() { const a = this.get(); return a ? { email: a.email } : null; },
+    getToken() { const a = this.get(); return a ? a.token : null; },
+  };
+  API.getUser = () => auth.getUser();
+  API.startSignUp = () => gate.show();
+  API.askQuestion = async function(question, signal) {
+    const token = auth.getToken();
+    const headers = { 'Content-Type': 'application/json' };
+    if (token) headers['Authorization'] = 'Bearer ' + token;
+    const res = await fetch(CONFIG.API_ENDPOINT, { method: 'POST', headers, body: JSON.stringify({ question }), signal });
+    if (res.status === 429) { const e = new Error('Rate limited'); e.code = 'RATE_LIMITED'; throw e; }
+    if (!res.ok) { const text = await res.text().catch(() => ''); throw new Error('Failed (' + res.status + '): ' + text); }
+    return await res.json();
+  };
+
+  // ===========================================================================
+  // 8. GATE MODAL — shown when user runs out of tries (or clicks header CTA)
+
   // ===========================================================================
   const gate = {
     overlay: null,
     init() {
       this.overlay = document.getElementById('gateOverlay');
       document.getElementById('gateClose').addEventListener('click', () => this.hide());
-      this.overlay.addEventListener('click', (e) => {
-        if (e.target === this.overlay) this.hide();
-      });
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && this.overlay.classList.contains('open')) this.hide();
-      });
-      document.getElementById('gateSignUp').addEventListener('click', () => {
-        this.hide();
-        API.startSignUp();
-      });
-      // Header "Sign up" button opens the same modal
+      this.overlay.addEventListener('click', (e) => { if (e.target === this.overlay) this.hide(); });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && this.overlay.classList.contains('open')) this.hide(); });
+      document.getElementById('gateContinueBtn').addEventListener('click', () => { this.hide(); this._resetForm(); });
+      document.getElementById('tabSignup').addEventListener('click', () => this._setMode('signup'));
+      document.getElementById('tabSignin').addEventListener('click', () => this._setMode('signin'));
       document.getElementById('signUpBtn').addEventListener('click', () => this.show());
+      document.getElementById('authForm').addEventListener('submit', (e) => { e.preventDefault(); this._submitAuth(); });
     },
+    _setMode(mode) {
+      this._mode = mode;
+      document.getElementById('tabSignup').classList.toggle('active', mode === 'signup');
+      document.getElementById('tabSignin').classList.toggle('active', mode === 'signin');
+      const btn = document.getElementById('authSubmitBtn');
+      if (mode === 'signup') { btn.textContent = 'Create free account'; document.getElementById('authPasswordInput').placeholder = 'Password (min 6 chars)'; document.getElementById('gateTitle').textContent = "You've reached your daily limit"; }
+      else { btn.textContent = 'Sign in'; document.getElementById('authPasswordInput').placeholder = 'Password'; document.getElementById('gateTitle').textContent = 'Welcome back'; }
+      document.getElementById('authErrorMsg').style.display = 'none';
+    },
+    async _submitAuth() {
+      const email = document.getElementById('authEmailInput').value.trim();
+      const password = document.getElementById('authPasswordInput').value;
+      const errEl = document.getElementById('authErrorMsg');
+      const btn = document.getElementById('authSubmitBtn');
+      errEl.style.display = 'none'; btn.disabled = true;
+      btn.textContent = this._mode === 'signup' ? 'Creating account…' : 'Signing in…';
+      try {
+        const res = await fetch(this._mode === 'signup' ? '/api/auth/register' : '/api/auth/login',
+          { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || 'Something went wrong.');
+        auth.set(data.token, data.email);
+        document.getElementById('authSuccessMsg').textContent = '✓ Signed in as ' + data.email;
+        document.getElementById('gateAuthArea').style.display = 'none';
+        document.getElementById('authSuccessWrap').style.display = 'block';
+        document.getElementById('gateFooter').style.display = 'none';
+        tries.reset(); tries.updateDisplay(); updateHeaderAuth();
+      } catch (err) { errEl.textContent = err.message; errEl.style.display = 'block'; }
+      finally { btn.disabled = false; btn.textContent = this._mode === 'signup' ? 'Create free account' : 'Sign in'; }
+    },
+    _resetForm() {
+      document.getElementById('authEmailInput').value = '';
+      document.getElementById('authPasswordInput').value = '';
+      document.getElementById('authErrorMsg').style.display = 'none';
+      document.getElementById('gateAuthArea').style.display = 'block';
+      document.getElementById('authSuccessWrap').style.display = 'none';
+      document.getElementById('gateFooter').style.display = 'block';
+      this._setMode('signup');
+    },
+    _mode: 'signup',
     show() {
       this.overlay.classList.add('open');
       this.overlay.setAttribute('aria-hidden', 'false');
@@ -1378,12 +1455,33 @@
     });
   }
 
+  function updateHeaderAuth() {
+    const user = auth.getUser();
+    const signUpBtn = document.getElementById('signUpBtn');
+    const triesPill = document.getElementById('triesPill');
+    if (user) {
+      signUpBtn.textContent = user.email.split('@')[0];
+      signUpBtn.classList.remove('auth-btn'); signUpBtn.classList.add('auth-user-btn');
+      signUpBtn.title = user.email + ' · Click to sign out';
+      signUpBtn.onclick = () => {
+        if (confirm('Sign out of ' + user.email + '?')) {
+          auth.clear(); signUpBtn.textContent = 'Sign up';
+          signUpBtn.classList.add('auth-btn'); signUpBtn.classList.remove('auth-user-btn');
+          signUpBtn.title = ''; signUpBtn.onclick = () => gate.show();
+          tries.reset(); tries.updateDisplay(); triesPill.style.display = '';
+        }
+      };
+      triesPill.style.display = 'none';
+    }
+  }
+
   // ===========================================================================
   // 12. BOOT
   // ===========================================================================
   initDate();
   initTheme();
   initDisclaimer();
+  updateHeaderAuth();
   tries.updateDisplay();
   gate.init();
   initComposer();
