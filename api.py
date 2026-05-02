@@ -3,10 +3,23 @@
 # Endpoints
 #   GET  /              → serves index.html (chatbot frontend) or holding page
 #   GET  /health        → liveness probe
-#   POST /api/pnf/ask   → drug search with PNF + Brave + Gemini integration
-#   POST /api/auth/register → create account
-#   POST /api/auth/login    → sign in
-#   GET  /api/auth/me      → validate token
+#   POST /api/pnf/ask   → drug search with PNF + Brave + Gemma integration
+#
+# Features:
+# - PNF drug index search (exact → partial → content match)
+# - Brave Search fallback (brand name → generic name translation)
+# - Gemma/Vertex AI synthesis (drug interaction queries: "X and Y", "X vs Y")
+# - HTML response formatting with sections + citations
+# - AMS Restricted Antimicrobial alerts
+# - Sources array with PNF freshness metadata
+# - Empty-query validation
+# - BOM stripping
+#
+# Required environment variables (Cloud Run / .env):
+#   PROJECT_ID            — GCP project ID for Vertex AI
+#   LOCATION              — Vertex AI region (e.g. asia-southeast1)
+#   MODEL_NAME            — Gemma model name (e.g. gemma-2-9b-it, gemini-1.5-flash)
+#   BRAVE_SEARCH_API_KEY  — Brave Search API subscription token
 
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -20,18 +33,22 @@ import hashlib
 import secrets
 import time
 
+from ai_resolver import ai_resolve_generic
+
 # ---------------------------------------------------------------------------
-# Optional integrations: Vertex AI (Gemini) + Brave Search
+# Optional integrations: Vertex AI (Gemma) + Brave Search
 # Wrapped in try/except so the API still serves PNF queries if env vars
 # or packages are missing.
 # ---------------------------------------------------------------------------
 
+# Brave Search (HTTP-based, lightweight)
 try:
     import requests
     _HAS_REQUESTS = True
 except ImportError:
     _HAS_REQUESTS = False
 
+# Vertex AI / Gemma (heavier, requires GCP auth)
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -49,14 +66,19 @@ try:
         vertexai.init(project=project, location=location)
         _GEMMA_MODEL = GenerativeModel(model_name)
 except Exception as _e:
+    # Gemma not available — interaction queries will return a graceful fallback
     _GEMMA_MODEL = None
 
 BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
 
+# ---------------------------------------------------------------------------
+# App
+# ---------------------------------------------------------------------------
+
 app = FastAPI(
     title="PNF Clinical Assistant API",
-    description="REST bridge for the Philippine National Formulary with Brave + Gemini integration.",
-    version="1.2.0",
+    description="REST bridge for the Philippine National Formulary with Brave + Gemma integration.",
+    version="1.1.0",
 )
 
 app.add_middleware(
@@ -66,6 +88,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+
 AMS_RESTRICTED = [
     "cefepime", "ertapenem", "meropenem", "vancomycin",
     "amphotericin b", "voriconazole", "colistin", "micafungin",
@@ -73,6 +99,10 @@ AMS_RESTRICTED = [
 ]
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# ---------------------------------------------------------------------------
+# PNF index
+# ---------------------------------------------------------------------------
 
 pnf_data = []
 
@@ -110,7 +140,7 @@ class AuthResponse(BaseModel):
 
 # ---------------------------------------------------------------------------
 # In-memory auth store
-# NOTE: resets on container restart -- replace with a real DB for production.
+# NOTE: resets on container restart — replace with a real DB for production.
 # ---------------------------------------------------------------------------
 _users: dict = {}   # email -> { password_hash, created_at }
 _tokens: dict = {}  # token -> { email, expires }
@@ -141,6 +171,7 @@ def _resolve_token(authorization: Optional[str]) -> Optional[dict]:
 # ---------------------------------------------------------------------------
 
 def _clean_text(raw):
+    # Strip BOM, publisher boilerplate, ATC codes, page markers
     cleaned = raw.lstrip("\ufeff")
     return re.sub(
         r"April.*?\n"
@@ -168,9 +199,14 @@ def _search_index(query):
     return None
 
 def _markdown_to_html(text):
+    """Convert basic Gemini markdown formatting to HTML."""
+    # Bold: **text** → <strong>text</strong>
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
+    # Italic: *text* → <em>text</em> (skip if already inside <strong>)
     text = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', text)
-    text = re.sub(r'^[*-]\s+', '\u2022 ', text, flags=re.MULTILINE)
+    # Bullet points: lines starting with "* " or "- "
+    text = re.sub(r'^\*\s+', '• ', text, flags=re.MULTILINE)
+    text = re.sub(r'^-\s+', '• ', text, flags=re.MULTILINE)
     return text
 
 def _format_text_as_html(text):
@@ -194,7 +230,7 @@ def _build_ams_alert(drug_name):
             'background:#fff3cd;border-left:4px solid #ffc107;'
             'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;'
             '">' +
-            '<strong>&#9888; AMSRestricted Antimicrobial</strong> \u2014 ' +
+            '<strong>&#9888; AMS Restricted Antimicrobial</strong> \u2014 ' +
             f'<em>{drug_name}</em> requires AMS clearance and documented indication.' +
             '</p>'
         )
@@ -203,7 +239,8 @@ def _build_ams_alert(drug_name):
 def _build_citation_link(num, drug_name):
     return (
         f'<a class="citation" href="#source-{num}" '
-        f'title="PNF \u2014 {drug_name}">[{num}]</a>'
+        f'title="Philippine National Formulary \u2014 {drug_name}">'
+        f'[{num}]</a>'
     )
 
 def _build_ai_notice():
@@ -219,17 +256,21 @@ def _build_ai_notice():
     )
 
 # ---------------------------------------------------------------------------
-# Brave Search: brand name -> generic name translation
+# Brave Search: brand name → generic name translation
 # ---------------------------------------------------------------------------
 
 def brave_search_generic(brand_name):
+    """
+    Look up the generic name for a brand-name drug using Brave Search.
+    Returns the generic name string, or None if unavailable.
+    """
     if not BRAVE_KEY or not _HAS_REQUESTS:
         return None
     try:
         headers = {"X-Subscription-Token": BRAVE_KEY}
         url = (
             "https://api.search.brave.com/res/v1/web/search"
-            f"?q={brand_name}+Philippines+drug+generic"
+            f"?q={brand_name}+generic+name+Philippines+PNF"
         )
         res = requests.get(url, headers=headers, timeout=5)
         if res.status_code == 200:
@@ -237,12 +278,19 @@ def brave_search_generic(brand_name):
             results = data.get("web", {}).get("results", [])
             brand_lower = brand_name.lower().strip()
             for result in results[:3]:
+                # Check title and description of each result
                 for src in (result.get("title", ""), result.get("description", "")):
+                    # Try each segment split by common separators
                     for segment in re.split(r'[\|\-\(\,\:\|]', src):
                         candidate = segment.strip().lower()
+                        # Must be a plausible drug name length
                         if not (2 < len(candidate) < 40):
                             continue
-                        if candidate == brand_lower or candidate.startswith(brand_lower):
+                        # Skip if it's just the brand name back or a
+                        # single-letter/number-only segment
+                        if candidate == brand_lower:
+                            continue
+                        if candidate.startswith(brand_lower):
                             continue
                         if not re.search(r'[a-z]{3}', candidate):
                             continue
@@ -252,20 +300,30 @@ def brave_search_generic(brand_name):
     return None
 
 # ---------------------------------------------------------------------------
-# Gemini / Vertex AI: drug interaction synthesis
+# Gemma / Vertex AI: drug interaction synthesis
 # ---------------------------------------------------------------------------
 
 def synthesize_interaction(drugs):
+    """
+    Use Gemma (Vertex AI) to generate a clinical interaction summary for
+    the given list of drugs. Returns the AI-generated text, or raises if
+    Gemma is unavailable.
+    """
     if _GEMMA_MODEL is None:
-        raise RuntimeError("Gemini not configured.")
+        raise RuntimeError(
+            "Gemma not configured (set PROJECT_ID, LOCATION, MODEL_NAME env vars)."
+        )
     prompt = (
-        "Provide a concise clinical drug interaction summary for: "
+        "Provide a concise clinical drug interaction summary for the following "
+        "medications: "
         + ", ".join(drugs)
-        + ". Cover mechanism, severity, and management. No disclaimers."
+        + ". Cover mechanism, severity, and clinical management in plain text. "
+        "Do not include disclaimers — they are added by the UI."
     )
     return _GEMMA_MODEL.generate_content(prompt).text
 
 def is_interaction_query(query):
+    """Detect drug interaction queries like 'X and Y' or 'X vs Y'."""
     q = query.lower()
     return " and " in q or " vs " in q or " versus " in q
 
@@ -273,6 +331,7 @@ def is_interaction_query(query):
 # Routes
 # ---------------------------------------------------------------------------
 
+# Holding page shown when full index.html hasn't been deployed yet
 HOLDING_PAGE = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -317,30 +376,23 @@ async def serve_frontend():
         content=HOLDING_PAGE.replace("{entries}", str(len(pnf_data)))
     )
 
-@app.get("/health")
-async def health_check():
-    return JSONResponse({
-        "status": "ok",
-        "entries_loaded": len(pnf_data),
-        "gemma_available": _GEMMA_MODEL is not None,
-        "brave_available": bool(BRAVE_KEY) and _HAS_REQUESTS,
-    })
-
 @app.post("/api/auth/register", response_model=AuthResponse)
 async def register(req: AuthRequest):
+    """Create a new account. Returns a Bearer token valid for 1 year."""
     email = req.email.strip().lower()
-    if not email or not ("@" in email and "." in email.split("@")[-1]):
-        raise HTTPException(status_code=422, detail="Valid email required.")
+    if not email or "@" not in email or "." not in email.split("@")[-1]:
+        raise HTTPException(status_code=422, detail="A valid email address is required.")
     if len(req.password) < 6:
-        raise HTTPException(status_code=422, detail="Password must be at least 6 chars.")
+        raise HTTPException(status_code=422, detail="Password must be at least 6 characters.")
     if email in _users:
-        raise HTTPException(status_code=409, detail="Email already registered. Sign in instead.")
+        raise HTTPException(status_code=409, detail="Email already registered. Please sign in instead.")
     _users[email] = {"password_hash": _hash_password(req.password), "created_at": time.time()}
     token = _create_token(email)
     return AuthResponse(token=token, email=email, message="Account created successfully.")
 
 @app.post("/api/auth/login", response_model=AuthResponse)
 async def login(req: AuthRequest):
+    """Sign in to an existing account. Returns a fresh Bearer token."""
     email = req.email.strip().lower()
     user = _users.get(email)
     if not user:
@@ -352,18 +404,33 @@ async def login(req: AuthRequest):
 
 @app.get("/api/auth/me")
 async def get_me(authorization: Optional[str] = Header(None)):
+    """Returns the current user if the Bearer token is valid."""
     user = _resolve_token(authorization)
     if not user:
         raise HTTPException(status_code=401, detail="Not authenticated.")
     return user
 
+@app.get("/health")
+async def health_check():
+    return JSONResponse({
+        "status": "ok",
+        "entries_loaded": len(pnf_data),
+        "gemma_available": _GEMMA_MODEL is not None,
+        "brave_available": bool(BRAVE_KEY) and _HAS_REQUESTS,
+    })
+
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
-    user = _resolve_token(authorization)
+    # Authenticated users bypass rate-limiting (the client enforces the
+    # 7-try gate; the token is also validated here for server-side trust).
+    user = _resolve_token(authorization)  # None for anonymous users
     question = request.question.strip()
     if not question:
         raise HTTPException(status_code=422, detail="'question' must not be empty.")
 
+    # ----------------------------------------------------------------
+    # Path A: Drug interaction query → use Gemma
+    # ----------------------------------------------------------------
     if is_interaction_query(question):
         drugs = [d.strip() for d in re.split(r" and | vs | versus ", question.lower()) if d.strip()]
         try:
@@ -372,31 +439,36 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
             body_html = "\n".join([_build_ai_notice(), ai_html])
             return AskResponse(
                 body=body_html,
-                sources=[SourceItem(
-                    num=1,
-                    title="AI-Synthesized Summary",
-                    section=f"Drug Interaction: {' + '.join(drugs)}",
-                    snippet="Generated by Gemini (Vertex AI). Always cross-check with PNF and authoritative sources.",
-                    lastUpdated="Live",
-                )],
+                sources=[
+                    SourceItem(
+                        num=1,
+                        title="AI-Synthesized Summary",
+                        section=f"Drug Interaction: {' + '.join(drugs)}",
+                        snippet="Generated by Gemma (Vertex AI) for clinical reference. Always cross-check with PNF and authoritative sources.",
+                        lastUpdated="Live",
+                    )
+                ],
             )
         except Exception as e:
             err_html = (
-                f"<p>Unable to synthesize interaction summary:   {str(e)[:120]}</p>"
+                f"<p>Unable to synthesize interaction summary: {str(e)[:120]}</p>"
                 "<p>Try searching each drug individually in the PNF library.</p>"
             )
             return AskResponse(body=err_html, sources=[])
 
+    # ----------------------------------------------------------------
+    # Path B: Single-drug PNF lookup with Brave fallback
+    # ----------------------------------------------------------------
     match = _search_index(question)
     used_brave = False
     resolved_name = question
 
     if match is None:
-        generic = brave_search_generic(question)
+        # Try Brave search to translate brand → generic
+        generic = ai_resolve_generic(question, _GEMMA_MODEL)
         if generic:
-            m2 = _search_index(generic)
-            if m2:
-                match = m2
+            match = _search_index(generic)
+            if match is not None:
                 used_brave = True
                 resolved_name = generic
 
@@ -408,6 +480,9 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
         )
         return AskResponse(body=not_found_html, sources=[])
 
+    # ----------------------------------------------------------------
+    # Format successful PNF match (with optional Brave provenance)
+    # ----------------------------------------------------------------
     raw_text = match.get("text", "")
     drug_name = match.get("drug", question)
     clean_text = _clean_text(raw_text)
@@ -418,14 +493,15 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
 
     body_parts = []
 
+    # If Brave was used, show a note explaining the brand→generic mapping
     if used_brave:
         body_parts.append(
             '<p class="brave-notice" style="'
             'background:#f0f7ff;border-left:4px solid #6366f1;'
             'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;font-size:0.9em;'
             '">'
-            f'<strong>Brand -> Generic:</strong> "{question}" resolved to '
-            f'<em>{drug_name}</em> via Brave Search. Showing PNF data for the generic.'
+            f'<strong>Brand &rarr; Generic:</strong> "{question}" was resolved to '
+            f'<em>{drug_name}</em> via AI. Showing PNF data for the generic.'
             '</p>'
         )
 
@@ -446,7 +522,7 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
         SourceItem(
             num=1,
             title="Philippine National Formulary",
-            section=f"Drug Monograph -- {drug_name}",
+            section=f"Drug Monograph \u2014 {drug_name}",
             snippet=snippet,
             lastUpdated="Apr 2026",
         )
