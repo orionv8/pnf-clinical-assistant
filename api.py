@@ -3,11 +3,10 @@
 # Endpoints
 #   GET  /              → serves index.html (chatbot frontend) or holding page
 #   GET  /health        → liveness probe
-#   POST /api/pnf/ask   → drug search with PNF + Brave + Gemma integration
+#   POST /api/pnf/ask   → drug search with PNF + Gemini AI integration
 #
 # Features:
 # - PNF drug index search (exact → partial → content match)
-# - Brave Search fallback (brand name → generic name translation)
 # - Gemma/Vertex AI synthesis (drug interaction queries: "X and Y", "X vs Y")
 # - HTML response formatting with sections + citations
 # - AMS Restricted Antimicrobial alerts
@@ -19,7 +18,6 @@
 #   PROJECT_ID            — GCP project ID for Vertex AI
 #   LOCATION              — Vertex AI region (e.g. asia-southeast1)
 #   MODEL_NAME            — Gemma model name (e.g. gemma-2-9b-it, gemini-1.5-flash)
-#   BRAVE_SEARCH_API_KEY  — Brave Search API subscription token
 
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -36,17 +34,10 @@ import time
 from ai_resolver import ai_resolve_generic
 
 # ---------------------------------------------------------------------------
-# Optional integrations: Vertex AI (Gemma) + Brave Search
+# Optional integrations: Vertex AI (Gemini)
 # Wrapped in try/except so the API still serves PNF queries if env vars
 # or packages are missing.
 # ---------------------------------------------------------------------------
-
-# Brave Search (HTTP-based, lightweight)
-try:
-    import requests
-    _HAS_REQUESTS = True
-except ImportError:
-    _HAS_REQUESTS = False
 
 # Vertex AI / Gemma (heavier, requires GCP auth)
 try:
@@ -69,15 +60,13 @@ except Exception as _e:
     # Gemma not available — interaction queries will return a graceful fallback
     _GEMMA_MODEL = None
 
-BRAVE_KEY = os.getenv("BRAVE_SEARCH_API_KEY")
-
 # ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
 
 app = FastAPI(
     title="PNF Clinical Assistant API",
-    description="REST bridge for the Philippine National Formulary with Brave + Gemma integration.",
+    description="REST bridge for the Philippine National Formulary with Gemini AI integration.",
     version="1.1.0",
 )
 
@@ -256,50 +245,6 @@ def _build_ai_notice():
     )
 
 # ---------------------------------------------------------------------------
-# Brave Search: brand name → generic name translation
-# ---------------------------------------------------------------------------
-
-def brave_search_generic(brand_name):
-    """
-    Look up the generic name for a brand-name drug using Brave Search.
-    Returns the generic name string, or None if unavailable.
-    """
-    if not BRAVE_KEY or not _HAS_REQUESTS:
-        return None
-    try:
-        headers = {"X-Subscription-Token": BRAVE_KEY}
-        url = (
-            "https://api.search.brave.com/res/v1/web/search"
-            f"?q={brand_name}+generic+name+Philippines+PNF"
-        )
-        res = requests.get(url, headers=headers, timeout=5)
-        if res.status_code == 200:
-            data = res.json()
-            results = data.get("web", {}).get("results", [])
-            brand_lower = brand_name.lower().strip()
-            for result in results[:3]:
-                # Check title and description of each result
-                for src in (result.get("title", ""), result.get("description", "")):
-                    # Try each segment split by common separators
-                    for segment in re.split(r'[\|\-\(\,\:\|]', src):
-                        candidate = segment.strip().lower()
-                        # Must be a plausible drug name length
-                        if not (2 < len(candidate) < 40):
-                            continue
-                        # Skip if it's just the brand name back or a
-                        # single-letter/number-only segment
-                        if candidate == brand_lower:
-                            continue
-                        if candidate.startswith(brand_lower):
-                            continue
-                        if not re.search(r'[a-z]{3}', candidate):
-                            continue
-                        return candidate
-    except Exception:
-        pass
-    return None
-
-# ---------------------------------------------------------------------------
 # Gemma / Vertex AI: drug interaction synthesis
 # ---------------------------------------------------------------------------
 
@@ -416,7 +361,6 @@ async def health_check():
         "status": "ok",
         "entries_loaded": len(pnf_data),
         "gemma_available": _GEMMA_MODEL is not None,
-        "brave_available": bool(BRAVE_KEY) and _HAS_REQUESTS,
     })
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
@@ -457,19 +401,19 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
             return AskResponse(body=err_html, sources=[])
 
     # ----------------------------------------------------------------
-    # Path B: Single-drug PNF lookup with Brave fallback
+    # Path B: Single-drug PNF lookup with AI brand resolver
     # ----------------------------------------------------------------
     match = _search_index(question)
-    used_brave = False
+    used_ai = False
     resolved_name = question
 
     if match is None:
-        # Try Brave search to translate brand → generic
+        # Try AI to resolve brand → generic
         generic = ai_resolve_generic(question, _GEMMA_MODEL)
         if generic:
             match = _search_index(generic)
             if match is not None:
-                used_brave = True
+                used_ai = True
                 resolved_name = generic
 
     if match is None:
@@ -481,7 +425,7 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
         return AskResponse(body=not_found_html, sources=[])
 
     # ----------------------------------------------------------------
-    # Format successful PNF match (with optional Brave provenance)
+    # Format successful PNF match (with optional AI provenance)
     # ----------------------------------------------------------------
     raw_text = match.get("text", "")
     drug_name = match.get("drug", question)
@@ -493,10 +437,10 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
 
     body_parts = []
 
-    # If Brave was used, show a note explaining the brand→generic mapping
-    if used_brave:
+    # If AI was used, show a note explaining the brand→generic mapping
+    if used_ai:
         body_parts.append(
-            '<p class="brave-notice" style="'
+            '<p class="ai-notice-brand" style="'
             'background:#f0f7ff;border-left:4px solid #6366f1;'
             'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;font-size:0.9em;'
             '">'
