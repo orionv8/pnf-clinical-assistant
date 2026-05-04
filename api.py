@@ -130,7 +130,6 @@ class AskResponse(BaseModel):
 class AuthRequest(BaseModel):
     email: str
     password: str
-
 class AuthResponse(BaseModel):
     token: str
     email: str
@@ -198,7 +197,7 @@ def _search_index(query):
 
 def _markdown_to_html(text):
     """Convert basic Gemini markdown formatting to HTML."""
-    # Bold: **text** → <strong>text</strong>
+    # Bold: text → <strong>text</strong>
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     # Italic: *text* → <em>text</em> (skip if already inside <strong>)
     text = re.sub(r'(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)', r'<em>\1</em>', text)
@@ -496,9 +495,15 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
     return AskResponse(body=body_html, sources=sources)
 
 # ---------------------------------------------------------------------------
-# Dev entry-point
+# Entry-point
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("api:app", host="0.0.0.0", port=8501, reload=True)
+    import os
+    
+    # Read the PORT environment variable provided by Cloud Run, default to 8080
+    port = int(os.environ.get("PORT", 8080))
+    
+    # Run the app on the specified port
+    uvicorn.run("api:app", host="0.0.0.0", port=port)
