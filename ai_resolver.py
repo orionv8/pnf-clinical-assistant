@@ -1,32 +1,50 @@
-"""AI-powered brand-to-generic drug name resolver using Gemini."""
-import re
-
-
-def ai_resolve_generic(brand_name, model):
+def ai_resolve_generic(brand_name: str, model) -> str | None:
     """
-    Use Gemini to resolve a brand-name drug to its generic/INN name.
-
-    Args:
-        brand_name: The brand name to resolve (e.g. "Biogesic")
-        model: The Vertex AI GenerativeModel instance (_GEMMA_MODEL)
-
-    Returns:
-        The generic name string (e.g. "paracetamol"), or None if unavailable.
+    Attempts to resolve a brand name to a generic name using the AI model as a last resort.
+    Strictly constrained to prevent hallucinations on unknown local brands.
     """
     if model is None:
         return None
+
+    # Strong few-shot prompt to enforce zero-guessing
+    system_prompt = """You are a strict data-extraction clinical assistant. Your ONLY task is to map Philippine brand-name drugs to their generic (INN) names.
+
+CRITICAL RULES:
+1. Reply with ONLY the generic drug name in lowercase.
+2. YOU MUST NEVER GUESS. 
+3. If the brand is obscure, not explicitly in your knowledge, or you are even slightly uncertain, reply with ONLY the word 'unknown'. 
+
+EXAMPLES:
+Brand: 'biogesic'
+paracetamol
+
+Brand: 'madeupbrand_xyz'
+unknown
+
+Brand: 'solmux'
+carbocisteine
+
+Brand: 'obscure_local_med'
+unknown"""
+
+    user_prompt = f"Brand: '{brand_name}'"
+    full_prompt = f"{system_prompt}\n\n{user_prompt}"
+
     try:
-        prompt = (
-            f"What is the generic (INN) drug name for the Philippine brand '{brand_name}'? "
-            "Reply with ONLY the generic drug name in lowercase, nothing else. "
-            "If you don't know, reply with just the word 'unknown'."
+        # Temperature 0.0 is critical to stop hallucinations
+        response = model.generate_content(
+            full_prompt,
+            generation_config={"temperature": 0.0}
         )
-        result = model.generate_content(prompt).text.strip().lower()
-        # Clean: remove quotes, periods, extra punctuation
-        result = re.sub(r'["\.,;!?]', '', result).strip()
-        # Must be a plausible single drug name (1-3 words, under 40 chars)
-        if result and result != "unknown" and 2 < len(result) < 40 and len(result.split()) <= 3:
-            return result
-    except Exception:
-        pass
-    return None
+        
+        result = response.text.strip().lower()
+        
+        # If the model follows instructions and admits it doesn't know, return None
+        if result == 'unknown' or result == '':
+            return None
+            
+        return result
+        
+    except Exception as e:
+        print(f"AI Resolver error: {e}")
+        return None
