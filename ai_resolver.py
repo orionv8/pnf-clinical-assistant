@@ -39,7 +39,7 @@ def _load_mims():
         print(f"[MIMS] File not found: {MIMS_DATA_PATH}")
     except Exception as e:
         MIMS_LOAD_STATUS = f"error:{e}"
-        print(f"[MIMS] Load error: {e}")
+        print(f"^[MIMS] Load error: {e}")
 
 # Load on import
 _load_mims()
@@ -67,7 +67,6 @@ def ai_resolve_generic(brand_name: str, model=None):
             return result
 
     return None
-
 
 def get_mims_status():
     """Return MIMS loading status for health endpoint."""

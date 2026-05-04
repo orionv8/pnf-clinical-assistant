@@ -13,7 +13,7 @@ import time
 from functools import lru_cache
 from rapidfuzz import process, fuzz
 
-from brave_resolver import brave_resolve_generic
+
 from ai_resolver import ai_resolve_generic
 
 # ---------------------------------------------------------------------------
@@ -211,11 +211,13 @@ def _format_text_as_html(text):
 # ---------------------------------------------------------------------------
 @app.get("/health")
 async def health():
-    return {
+    from ai_resolver import get_mims_status
+    base_response = {
         "status": "ok",
         "entries": len(pnf_data),
         "optimized_search": True
     }
+    return {**base_response, **get_mims_status()}
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
@@ -244,17 +246,6 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             if resolved in drug_index:
                 match = drug_index[resolved]
                 used_resolver = "mims_or_gemma"
-
-    # ------------------------------------------------------------
-    # 3. Brave fallback
-    # ------------------------------------------------------------
-    if match is None:
-        generic = brave_resolve_generic(question, pnf_data)
-        if generic:
-            resolved = generic.lower().strip()
-            if resolved in drug_index:
-                match = drug_index[resolved]
-                used_resolver = "brave"
 
     # ------------------------------------------------------------
     # 4. Safe search LAST
