@@ -253,54 +253,7 @@ def _build_ai_notice():
     )
 
 
-# ---------------------------------------------------------------------------
-# Brave Search: brand name -> generic name translation (ONLY for brand lookup)
-# Brave never generates drug information — it only translates brand to generic.
-# All drug answers come strictly from PNF text data.
-# ---------------------------------------------------------------------------
 
-def brave_resolve_generic(brand_name):
-    """
-    Use Brave Search to find the generic/INN name for a brand-name drug.
-    Scans titles AND descriptions of top 3 results, skipping segments
-    that match the brand name itself.
-    Returns the generic name string, or None.
-    """
-    if not BRAVE_KEY or not _HAS_REQUESTS:
-        return None
-    try:
-        headers = {"X-Subscription-Token": BRAVE_KEY}
-        url = (
-            "https://api.search.brave.com/res/v1/web/search"
-            f"?q={brand_name}+generic+name+drug+Philippines"
-        )
-        res = requests.get(url, headers=headers, timeout=5)
-        if res.status_code == 200:
-            data = res.json()
-            results = data.get("web", {}).get("results", [])
-            brand_lower = brand_name.lower().strip()
-            for result in results[:3]:
-                # Scan both title and description
-                for src in (result.get("title", ""), result.get("description", "")):
-                    # Check for parenthetical generic: "Biogesic (paracetamol)"
-                    paren_match = re.findall(r'\(([a-zA-Z]+)\)', src)
-                    for pm in paren_match:
-                        candidate = pm.strip().lower()
-                        if candidate != brand_lower and 3 < len(candidate) < 30:
-                            return candidate
-                    # Fallback: split by separators and find non-brand segment
-                    for segment in re.split(r'[\|\-\(\,\:\|]', src):
-                        candidate = segment.strip().lower()
-                        if not (2 < len(candidate) < 40):
-                            continue
-                        if candidate == brand_lower or candidate.startswith(brand_lower):
-                            continue
-                        if not re.search(r'[a-z]{3}', candidate):
-                            continue
-                        return candidate
-    except Exception:
-        pass
-    return None
 
 # ---------------------------------------------------------------------------
 # Gemma / Vertex AI: drug interaction synthesis
