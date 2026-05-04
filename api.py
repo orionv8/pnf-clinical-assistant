@@ -25,6 +25,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
 import json
+from brave_resolver import brave_resolve_generic
 import os
 import re
 import hashlib
@@ -467,7 +468,7 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
 
     if match is None:
         # Try Brave to resolve brand → generic
-        generic = brave_resolve_generic(question)
+        generic = brave_resolve_generic(question, pnf_data)
         if generic:
             match = _search_index(generic)
             if match is not None:
