@@ -1,5 +1,3 @@
-# api.py — FastAPI bridge for PNF Clinical Assistant (FIXED + OPTIMIZED)
-
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -237,7 +235,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         match = drug_index[q]
 
     # ------------------------------------------------------------
-    # 2. AI resolver FIRST
+    # 2. AI resolver (MIMS lookup + Gemma fallback)
     # ------------------------------------------------------------
     if match is None:
         generic = ai_resolve_generic(question, _GEMMA_MODEL)
@@ -245,7 +243,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             resolved = generic.lower().strip()
             if resolved in drug_index:
                 match = drug_index[resolved]
-                used_resolver = "gemma"
+                used_resolver = "mims_or_gemma"
 
     # ------------------------------------------------------------
     # 3. Brave fallback
