@@ -420,23 +420,23 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
     used_resolver = "none" # "gemma", "brave"
     resolved_name = question
 
+    # Try Brave FIRST to resolve brand -> generic
     if match is None:
-        # Try Gemma to resolve brand -> generic
-        generic_via_gemma = ai_resolve_generic(question, _GEMMA_MODEL)
-        if generic_via_gemma:
-            match = _search_index(generic_via_gemma)
-            if match is not None:
-                used_resolver = "gemma"
-                resolved_name = generic_via_gemma
-
-    if match is None:
-        # Try Brave to resolve brand -> generic
         generic_via_brave = brave_resolve_generic(question, pnf_data)
         if generic_via_brave:
             match = _search_index(generic_via_brave)
             if match is not None:
                 used_resolver = "brave"
                 resolved_name = generic_via_brave
+
+    # Try Gemma ONLY as a last resort
+    if match is None:
+        generic_via_gemma = ai_resolve_generic(question, _GEMMA_MODEL)
+        if generic_via_gemma:
+            match = _search_index(generic_via_gemma)
+            if match is not None:
+                used_resolver = "gemma"
+                resolved_name = generic_via_gemma
 
 
     if match is None:
