@@ -1,4 +1,4 @@
-# api.py — FastAPI bridge for PNF Clinical Assistant (OPTIMIZED)
+# api.py — FastAPI bridge for PNF Clinical Assistant (FIXED + OPTIMIZED)
 
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -19,7 +19,7 @@ from brave_resolver import brave_resolve_generic
 from ai_resolver import ai_resolve_generic
 
 # ---------------------------------------------------------------------------
-# Optional integrations: Vertex AI
+# Optional Vertex AI
 # ---------------------------------------------------------------------------
 try:
     from dotenv import load_dotenv
@@ -43,7 +43,7 @@ except Exception:
 # ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
-app = FastAPI(title="PNF Clinical Assistant API", version="2.0.0")
+app = FastAPI(title="PNF Clinical Assistant API", version="3.0.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -55,7 +55,7 @@ app.add_middleware(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ---------------------------------------------------------------------------
-# Data + Optimized Indexes
+# Data + Indexes
 # ---------------------------------------------------------------------------
 pnf_data = []
 
@@ -91,13 +91,15 @@ if os.path.exists(index_path):
         drug_index[drug] = entry
         drug_names.append(drug)
 
+        # prefix index
         for i in range(1, min(len(drug), 10) + 1):
             prefix = drug[:i]
             prefix_index.setdefault(prefix, []).append(entry)
 
+        # inverted index
         words = set(re.findall(r"\b\w+\b", clean.lower()))
         for word in words:
-            if len(word) > 2:
+            if len(word) > 3:
                 content_index.setdefault(word, []).append(entry)
 
 # ---------------------------------------------------------------------------
@@ -118,7 +120,7 @@ class AskResponse(BaseModel):
     sources: List[SourceItem]
 
 # ---------------------------------------------------------------------------
-# Auth (same as before)
+# Auth
 # ---------------------------------------------------------------------------
 _users = {}
 _tokens = {}
@@ -141,13 +143,15 @@ def _resolve_token(auth):
     return {"email": entry["email"]}
 
 # ---------------------------------------------------------------------------
-# 🔥 OPTIMIZED SEARCH
+# OPTIMIZED SEARCH (safer)
 # ---------------------------------------------------------------------------
 @lru_cache(maxsize=500)
 def _search_index(query: str):
     q = query.lower().strip()
     if not q:
         return None
+
+    words = re.findall(r"\b\w+\b", q)
 
     # Exact
     if q in drug_index:
@@ -163,11 +167,16 @@ def _search_index(query: str):
         if score >= 85:
             return drug_index[match]
 
-    # Content
-    words = re.findall(r"\b\w+\b", q)
+    # 🚫 Block brand-like queries from content search
+    if len(words) == 1 and words[0] not in drug_index:
+        return None
+
+    # Content search (filtered)
     candidates = []
 
     for word in words:
+        if len(word) < 4:
+            continue
         if word in content_index:
             candidates.extend(content_index[word])
 
@@ -176,10 +185,16 @@ def _search_index(query: str):
             score = 0
             drug = e["drug"].lower()
             text = e["clean_text"].lower()
-            if q in drug:
-                score += 50
-            if q in text:
-                score += 10
+
+            if q == drug:
+                score += 100
+            elif q in drug:
+                score += 60
+
+            matches = sum(1 for w in words if w in text)
+            if matches >= 2:
+                score += matches * 10
+
             return score
 
         candidates = sorted(set(candidates), key=score_entry, reverse=True)
@@ -188,7 +203,7 @@ def _search_index(query: str):
     return None
 
 # ---------------------------------------------------------------------------
-# Formatting helpers
+# Formatting
 # ---------------------------------------------------------------------------
 def _format_text_as_html(text):
     return "\n".join(f"<p>{line}</p>" for line in text.splitlines() if line.strip())
@@ -211,8 +226,47 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     if not question:
         raise HTTPException(status_code=422, detail="Empty query")
 
-    match = _search_index(question)
+    q = question.lower().strip()
+    match = None
+    used_resolver = "none"
 
+    # ------------------------------------------------------------
+    # 1. Exact match only
+    # ------------------------------------------------------------
+    if q in drug_index:
+        match = drug_index[q]
+
+    # ------------------------------------------------------------
+    # 2. AI resolver FIRST
+    # ------------------------------------------------------------
+    if match is None:
+        generic = ai_resolve_generic(question, _GEMMA_MODEL)
+        if generic:
+            resolved = generic.lower().strip()
+            if resolved in drug_index:
+                match = drug_index[resolved]
+                used_resolver = "gemma"
+
+    # ------------------------------------------------------------
+    # 3. Brave fallback
+    # ------------------------------------------------------------
+    if match is None:
+        generic = brave_resolve_generic(question, pnf_data)
+        if generic:
+            resolved = generic.lower().strip()
+            if resolved in drug_index:
+                match = drug_index[resolved]
+                used_resolver = "brave"
+
+    # ------------------------------------------------------------
+    # 4. Safe search LAST
+    # ------------------------------------------------------------
+    if match is None:
+        match = _search_index(question)
+
+    # ------------------------------------------------------------
+    # 5. Not found
+    # ------------------------------------------------------------
     if not match:
         return AskResponse(
             body=f"<p>No results for <strong>{question}</strong></p>",
@@ -230,7 +284,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             SourceItem(
                 num=1,
                 title="Philippine National Formulary",
-                section=f"{drug_name}",
+                section=drug_name,
                 snippet=snippet,
                 lastUpdated="Apr 2026"
             )
