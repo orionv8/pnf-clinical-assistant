@@ -26,6 +26,7 @@ from pydantic import BaseModel
 from typing import List, Optional
 import json
 from brave_resolver import brave_resolve_generic
+from ai_resolver import ai_resolve_generic
 import os
 import re
 import hashlib
@@ -416,17 +417,27 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
     # Path B: Single-drug PNF lookup with AI brand resolver
     # ----------------------------------------------------------------
     match = _search_index(question)
-    used_brave = False
+    used_resolver = "none" # "gemma", "brave"
     resolved_name = question
 
     if match is None:
-        # Try Brave to resolve brand → generic
-        generic = brave_resolve_generic(question, pnf_data)
-        if generic:
-            match = _search_index(generic)
+        # Try Gemma to resolve brand -> generic
+        generic_via_gemma = ai_resolve_generic(question, _GEMMA_MODEL)
+        if generic_via_gemma:
+            match = _search_index(generic_via_gemma)
             if match is not None:
-                used_brave = True
-                resolved_name = generic
+                used_resolver = "gemma"
+                resolved_name = generic_via_gemma
+
+    if match is None:
+        # Try Brave to resolve brand -> generic
+        generic_via_brave = brave_resolve_generic(question, pnf_data)
+        if generic_via_brave:
+            match = _search_index(generic_via_brave)
+            if match is not None:
+                used_resolver = "brave"
+                resolved_name = generic_via_brave
+
 
     if match is None:
         not_found_html = (
@@ -449,16 +460,17 @@ async def ask(request: AskRequest, authorization: Optional[str] = Header(None)):
 
     body_parts = []
 
-    # If Brave was used, show a note explaining the brand→generic mapping
-    if used_brave:
+    # If a resolver was used, show a note explaining the brand->generic mapping
+    if used_resolver != "none":
+        resolver_name = "Gemma AI" if used_resolver == "gemma" else "Brave Search"
         body_parts.append(
-            '<p class="brave-notice" style="'
-            'background:#f0f7ff;border-left:4px solid #6366f1;'
-            'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;font-size:0.9em;'
-            '">'
+            f'<p class="resolver-notice" style="'
+            f'background:#e6ffed;border-left:4px solid #4ade80;'
+            f'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;font-size:0.9em;'
+            f'">'
             f'<strong>Brand &rarr; Generic:</strong> "{question}" was resolved to '
-            f'<em>{drug_name}</em> via Brave Search. Showing PNF data for the generic.'
-            '</p>'
+            f'<em>{drug_name}</em> via {resolver_name}. Showing PNF data for the generic.'
+            f'</p>'
         )
 
     if ams_alert:
