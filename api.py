@@ -72,7 +72,8 @@ if os.path.exists(index_path):
         pnf_data = json.load(_f)
 
     for _entry in pnf_data:
-        _drug = _entry.get("drug", "").lower().strip()
+        _raw = _entry.get("drug", "")
+        _drug = _raw.lower().strip().strip("\ufeff\u200b\r")
         _text = _entry.get("text", "")
         if not _drug:
             continue
@@ -81,6 +82,10 @@ if os.path.exists(index_path):
         _entry["clean_text"] = _clean
 
         drug_index[_drug] = _entry
+        # Also index a fully-normalized version (letters+digits+spaces only)
+        _norm = re.sub(r"[^a-z0-9 ]", "", _drug).strip()
+        if _norm and _norm != _drug:
+            drug_index[_norm] = _entry
         drug_names.append(_drug)
 
         # prefix index (up to 10 chars)
@@ -142,39 +147,53 @@ def _search_index(query: str):
 
     words = re.findall(r"\b\w+\b", q)
 
-    # 1. Exact match
+    # 1. Exact match (original + normalized)
     if q in drug_index:
         return drug_index[q]
+    q_norm = re.sub(r"[^a-z0-9 ]", "", q).strip()
+    if q_norm != q and q_norm in drug_index:
+        return drug_index[q_norm]
 
     # 2. Prefix match
     if q in prefix_index:
         return prefix_index[q][0]
 
-    # 3. Fuzzy match (>= 85 score)
-    if drug_names:
+    # 3. Single-word guard: block before fuzzy (prevents wrong matches)
+    if len(words) == 1 and words[0] not in drug_index:
+        if q_norm not in drug_index:
+            return None
+
+    # 4. Fuzzy match (>= 90 score — raised from 85 to reduce false positives)
+    if drug_names and len(words) <= 3:
         best, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
-        if score >= 85:
+        if score >= 90:
             return drug_index[best]
 
-    # 4. Block single brand-like words from falling into content search
-    if len(words) == 1 and words[0] not in drug_index:
-        return None
-
-    # 5. Phrase + content search with medical-term weighting
+    # 5. Phrase + content search
     _stop = {"what","are","the","for","in","of","a","an","and","to","is","how",
              "does","do","can","with","this","that","from","by","on","at","or"}
+    # Also filter generic words that match too many monographs
+    _generic = {"first","line","second","third","use","used","drug","dose",
+                "treatment","treatments","adults","adult","children","patient","patients"}
     mw = [w for w in words if w not in _stop and len(w) >= 3]
+    # Specific medical words (not generic) — used for scoring
+    specific = [w for w in mw if w not in _generic]
 
-    # Phrase match: find entries containing consecutive medical terms
-    if len(mw) >= 2:
+    # Phrase match: prioritize SPECIFIC medical phrases
+    if len(mw) >= 2 and specific:
         hits = []
         for e in pnf_data:
             tn = re.sub(r"[^a-z0-9 ]", " ", e.get("clean_text","").lower())
+            # Check if any specific term appears in text
+            if not any(w in tn for w in specific):
+                continue
+            # Check for consecutive phrase pairs
             for i in range(len(mw)-1):
                 if mw[i]+" "+mw[i+1] in tn:
                     hits.append(e); break
         if hits:
-            hits.sort(key=lambda e: sum(1 for w in mw if w in
+            # Score by SPECIFIC word matches (not generic ones)
+            hits.sort(key=lambda e: sum(1 for w in specific if w in
                       re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())), reverse=True)
             return hits[0]
 
@@ -230,6 +249,10 @@ def _resolve_one(term: str):
     t = term.lower().strip()
     if t in drug_index:
         return drug_index[t], "none", None
+    # Try normalized (strip hyphens, special chars)
+    tn = re.sub(r"[^a-z0-9 ]", "", t).strip()
+    if tn != t and tn in drug_index:
+        return drug_index[tn], "none", None
     from ai_resolver import MIMS_BRAND_TO_GENERIC
     mk = term.strip().upper()
     mh = MIMS_BRAND_TO_GENERIC.get(mk) or (MIMS_BRAND_TO_GENERIC.get(mk.split()[0]) if " " in mk else None)
@@ -276,7 +299,7 @@ async def health():
     from ai_resolver import get_mims_status
     base = {
         "status": "ok",
-        "version": "3.2.0",
+        "version": "3.3.1",
         "entries_loaded": len(pnf_data),
         "optimized_search": True,
         "gemma_available": _GEMMA_MODEL is not None,
