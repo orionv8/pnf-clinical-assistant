@@ -9,6 +9,7 @@ Resolution order:
 """
 import os
 import re
+from typing import Optional
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MIMS_DATA_PATH = os.path.join(BASE_DIR, "data", "mims_brand_generic_names.txt")
@@ -49,7 +50,7 @@ def _load_mims():
 _load_mims()
 
 
-def _gemini_resolve(brand_name: str, model) -> str | None:
+def _gemini_resolve(brand_name: str, model) -> Optional[str]:
     """
     Ask Gemini to identify the generic drug name for a Philippine brand.
     Returns the generic name (lowercase) or None.
