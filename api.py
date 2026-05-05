@@ -371,8 +371,8 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         # 3a. Direct resolve (exact + MIMS)
         m, rv, gen = _resolve_one(ent)
 
-        # 3b. Gemini fallback (only 2-3 word brands)
-        if m is None and is_brand and len(ew) >= 2:
+        # 3b. Gemini fallback (allow any length now that hallucinations are fixed)
+        if m is None and is_brand:
             g = ai_resolve_generic(ent, _GEMMA_MODEL)
             if g and g.lower().strip() in drug_index:
                 m, rv, gen = drug_index[g.lower().strip()], "gemini", g.lower().strip()
