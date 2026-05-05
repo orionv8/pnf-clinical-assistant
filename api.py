@@ -1,15 +1,5 @@
-# api.py  --  PNF Clinical Assistant API  v3.2.0
-#
-# Merged build: optimised indexes + MIMS brand resolver + auth + AMS alerts
-# No Brave Search dependency.
-#
-# Endpoints
-#   GET  /              -> serves index.html
-#   GET  /health        -> liveness probe + MIMS diagnostics
-#   POST /api/pnf/ask   -> main drug search
-#   POST /api/auth/register
-#   POST /api/auth/login
-#   GET  /api/auth/me
+# api.py — PNF Clinical Assistant API v3.2.0
+# MIMS brand resolver + Gemini AI fallback + auth + AMS alerts
 
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -196,28 +186,37 @@ def _search_index(query: str):
     if len(words) == 1 and words[0] not in drug_index:
         return None
 
-    # 5. Content / inverted-index search
-    candidates = []
-    for w in words:
+    # 5. Phrase + content search with medical-term weighting
+    _stop = {"what","are","the","for","in","of","a","an","and","to","is","how",
+             "does","do","can","with","this","that","from","by","on","at","or"}
+    mw = [w for w in words if w not in _stop and len(w) >= 3]
+
+    # Phrase match: find entries containing consecutive medical terms
+    if len(mw) >= 2:
+        hits = []
+        for e in pnf_data:
+            tn = re.sub(r"[^a-z0-9 ]", " ", e.get("clean_text","").lower())
+            for i in range(len(mw)-1):
+                if mw[i]+" "+mw[i+1] in tn:
+                    hits.append(e); break
+        if hits:
+            hits.sort(key=lambda e: sum(1 for w in mw if w in
+                      re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())), reverse=True)
+            return hits[0]
+
+    # Inverted-index fallback
+    cands = []
+    for w in mw:
         if len(w) >= 4 and w in content_index:
-            candidates.extend(content_index[w])
-
-    if candidates:
-        def _score(e):
-            s = 0
-            d = e["drug"].lower()
-            t = e.get("clean_text", "").lower()
-            if q == d:
-                s += 100
-            elif q in d:
-                s += 60
-            hits = sum(1 for w in words if w in t)
-            if hits >= 2:
-                s += hits * 10
-            return s
-
-        candidates = sorted(set(candidates), key=_score, reverse=True)
-        return candidates[0]
+            cands.extend(content_index[w])
+    if cands:
+        def _sc(e):
+            s, d, t = 0, e["drug"].lower(), e.get("clean_text","").lower()
+            if q == d: s += 100
+            elif q in d: s += 60
+            h = sum(1 for w in mw if w in t)
+            return s + (h*10 if h >= 2 else 0)
+        return sorted(set(cands), key=_sc, reverse=True)[0]
 
     return None
 
