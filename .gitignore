@@ -1,6 +1,30 @@
+# Environment / secrets
 .env
-data/
+*.env
+
+# Virtual environments (NEVER commit these)
+venv312/
+venv*/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PDFs and misc
 *.pdf
 groq.txt
-__pycache__/
+
+# Streamlit
 .streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
