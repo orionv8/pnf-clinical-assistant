@@ -1439,6 +1439,12 @@
       return;
     }
 
+    // Vanishing searches for guests: clear previous chat history
+    if (!user) {
+      const resultArea = document.getElementById('resultArea');
+      if (resultArea) resultArea.innerHTML = '';
+    }
+
     // Consume a try (only for anonymous users)
     if (!user) {
       tries.consume();
