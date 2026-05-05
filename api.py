@@ -1,4 +1,4 @@
-# api.py  --  PNF Clinical Assistant API  v3.1.0
+# api.py  --  PNF Clinical Assistant API  v3.2.0
 #
 # Merged build: optimised indexes + MIMS brand resolver + auth + AMS alerts
 # No Brave Search dependency.
@@ -53,7 +53,7 @@ except Exception:
 # ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
-app = FastAPI(title="PNF Clinical Assistant API", version="3.1.0")
+app = FastAPI(title="PNF Clinical Assistant API", version="3.2.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -263,7 +263,8 @@ def _build_citation(num: int, drug_name: str) -> str:
     )
 
 
-def _resolver_notice(brand: str, generic: str) -> str:
+def _resolver_notice(brand: str, generic: str, source: str = "MIMS") -> str:
+    label = "MIMS brand database" if source == "mims" else "Gemini AI"
     return (
         '<p class="resolver-notice" style="'
         "background:#e6ffed;border-left:4px solid #4ade80;"
@@ -271,7 +272,7 @@ def _resolver_notice(brand: str, generic: str) -> str:
         'font-size:0.9em;">'
         f"<strong>Brand &rarr; Generic:</strong> "
         f'"{brand}" was resolved to <em>{generic.upper()}</em> '
-        "via MIMS brand database. Showing PNF data for the generic."
+        f"via {label}. Showing PNF data for the generic."
         "</p>"
     )
 
@@ -296,7 +297,7 @@ async def health():
     from ai_resolver import get_mims_status
     base = {
         "status": "ok",
-        "version": "3.1.0",
+        "version": "3.2.0",
         "entries_loaded": len(pnf_data),
         "optimized_search": True,
         "gemma_available": _GEMMA_MODEL is not None,
@@ -354,16 +355,29 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         match = drug_index[q]
 
     # ------------------------------------------------------------------
-    # 2. MIMS brand -> generic resolver
+    # 2. MIMS brand -> generic resolver  (then Gemini AI fallback)
     # ------------------------------------------------------------------
     if match is None:
-        generic = ai_resolve_generic(question, _GEMMA_MODEL)
-        if generic:
-            resolved = generic.lower().strip()
-            if resolved in drug_index:
-                match = drug_index[resolved]
-                used_resolver = "mims"
-                resolved_generic = resolved
+        # Try MIMS first (check directly for source attribution)
+        from ai_resolver import MIMS_BRAND_TO_GENERIC
+        mims_key = question.strip().upper()
+        mims_hit = MIMS_BRAND_TO_GENERIC.get(mims_key)
+        if not mims_hit and " " in mims_key:
+            mims_hit = MIMS_BRAND_TO_GENERIC.get(mims_key.split()[0])
+
+        if mims_hit and mims_hit.lower().strip() in drug_index:
+            match = drug_index[mims_hit.lower().strip()]
+            used_resolver = "mims"
+            resolved_generic = mims_hit.lower().strip()
+        else:
+            # Gemini AI fallback
+            generic = ai_resolve_generic(question, _GEMMA_MODEL)
+            if generic:
+                resolved = generic.lower().strip()
+                if resolved in drug_index:
+                    match = drug_index[resolved]
+                    used_resolver = "gemini"
+                    resolved_generic = resolved
 
     # ------------------------------------------------------------------
     # 3. Optimised fuzzy / content search (last resort)
@@ -393,8 +407,8 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
 
     # Brand resolver notice
     notice = ""
-    if used_resolver == "mims" and resolved_generic:
-        notice = _resolver_notice(question, resolved_generic)
+    if used_resolver in ("mims", "gemini") and resolved_generic:
+        notice = _resolver_notice(question, resolved_generic, source=used_resolver)
 
     # Monograph HTML + citation
     mono_html = _format_text_as_html(clean_text)
