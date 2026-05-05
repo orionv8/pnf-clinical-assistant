@@ -1,4 +1,4 @@
-# api.py — PNF Clinical Assistant API v3.2.0
+# api.py — PNF Clinical Assistant API v3.3.0
 # MIMS brand resolver + Gemini AI fallback + auth + AMS alerts
 
 from fastapi import FastAPI, HTTPException, Header
@@ -32,7 +32,7 @@ try:
         _GEMMA_MODEL = GenerativeModel(_m)
 except Exception: pass
 
-app = FastAPI(title="PNF Clinical Assistant API", version="3.2.0")
+app = FastAPI(title="PNF Clinical Assistant API", version="3.3.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -225,6 +225,20 @@ def _build_ams_alert(drug_name: str) -> str:
     return ""
 
 
+def _resolve_one(term: str):
+    """Resolve a single drug term: exact → MIMS → fuzzy. Returns (match, resolver, generic) or (None,None,None)."""
+    t = term.lower().strip()
+    if t in drug_index:
+        return drug_index[t], "none", None
+    from ai_resolver import MIMS_BRAND_TO_GENERIC
+    mk = term.strip().upper()
+    mh = MIMS_BRAND_TO_GENERIC.get(mk) or (MIMS_BRAND_TO_GENERIC.get(mk.split()[0]) if " " in mk else None)
+    if mh and mh.lower().strip() in drug_index:
+        return drug_index[mh.lower().strip()], "mims", mh.lower().strip()
+    m = _search_index(term)
+    return (m, "none", None) if m else (None, None, None)
+
+
 def _build_citation(num: int, drug_name: str) -> str:
     return (
         f'<a class="citation" href="#source-{num}" '
@@ -307,107 +321,75 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         raise HTTPException(status_code=422, detail="Empty query")
 
     q = question.lower().strip()
-    match = None
-    used_resolver = "none"
-    resolved_generic = None
     q_words = re.findall(r"\b\w+\b", q)
 
-    # Classify query type: brand lookup vs clinical question
-    _qw = {"what","how","which","when","where","why","who","can","does",
-            "should","list","tell","give","show","compare","between"}
-    is_question = len(q_words) > 3 or (q_words and q_words[0] in _qw)
-    is_brand_candidate = len(q_words) <= 3 and not is_question
+    # --- Step 1: Extract entities (split multi-drug queries) ---
+    # "digoxin and furosemide" → ["digoxin", "furosemide"]
+    # "biogesic" → ["biogesic"]
+    _splitters = [" and ", " with ", " vs ", " versus ", ", "]
+    entities = [q]
+    for sp in _splitters:
+        if sp in q:
+            entities = [p.strip() for p in q.split(sp.strip()) if p.strip()]
+            break
 
-    # ------------------------------------------------------------------
-    # 1. Exact drug-index match
-    # ------------------------------------------------------------------
-    if q in drug_index:
-        match = drug_index[q]
+    # --- Step 2: Classify query ---
+    _qw = {"what","how","which","when","where","why","can","does",
+            "should","list","tell","give","compare"}
+    is_question = len(q_words) > 4 or (q_words and q_words[0] in _qw)
 
-    # ------------------------------------------------------------------
-    # 2. MIMS brand lookup (only for brand-like queries, not questions)
-    # ------------------------------------------------------------------
-    if match is None and is_brand_candidate:
-        from ai_resolver import MIMS_BRAND_TO_GENERIC
-        mims_key = question.strip().upper()
-        mims_hit = MIMS_BRAND_TO_GENERIC.get(mims_key)
-        if not mims_hit and " " in mims_key:
-            mims_hit = MIMS_BRAND_TO_GENERIC.get(mims_key.split()[0])
-        if mims_hit and mims_hit.lower().strip() in drug_index:
-            match = drug_index[mims_hit.lower().strip()]
-            used_resolver = "mims"
-            resolved_generic = mims_hit.lower().strip()
+    # --- Step 3: Resolve each entity independently ---
+    results = []  # list of (entity, match, resolver, generic)
+    for ent in entities:
+        ew = re.findall(r"\b\w+\b", ent)
+        is_brand = len(ew) <= 3 and not is_question
 
-    # ------------------------------------------------------------------
-    # 2b. Gemini AI fallback (only for 2-3 word brands not in MIMS)
-    #     Skip for single generic words and clinical questions
-    # ------------------------------------------------------------------
-    if match is None and is_brand_candidate and len(q_words) >= 2:
-        generic = ai_resolve_generic(question, _GEMMA_MODEL)
-        if generic:
-            resolved = generic.lower().strip()
-            if resolved in drug_index:
-                match = drug_index[resolved]
-                used_resolver = "gemini"
-                resolved_generic = resolved
+        # 3a. Direct resolve (exact + MIMS)
+        m, rv, gen = _resolve_one(ent)
 
-    # ------------------------------------------------------------------
-    # 3. Optimised fuzzy / content search (last resort)
-    # ------------------------------------------------------------------
-    if match is None:
-        match = _search_index(question)
+        # 3b. Gemini fallback (only 2-3 word brands)
+        if m is None and is_brand and len(ew) >= 2:
+            g = ai_resolve_generic(ent, _GEMMA_MODEL)
+            if g and g.lower().strip() in drug_index:
+                m, rv, gen = drug_index[g.lower().strip()], "gemini", g.lower().strip()
 
-    # ------------------------------------------------------------------
-    # 4. Not found
-    # ------------------------------------------------------------------
-    if not match:
-        not_found = (
-            f"<p>No information found for <strong>{question}</strong> in the "
-            "Philippine National Formulary index. "
-            "Please verify the drug name spelling or try a generic name.</p>"
-        )
-        return AskResponse(body=not_found, sources=[])
+        if m:
+            results.append((ent, m, rv, gen))
 
-    # ------------------------------------------------------------------
-    # Build response
-    # ------------------------------------------------------------------
-    drug_name = match.get("drug", question)
-    clean_text = match.get("clean_text", "")
+    # --- Step 4: Fallback — phrase/content search on full query ---
+    if not results:
+        m = _search_index(question)
+        if m:
+            results.append((question, m, "none", None))
 
-    # AMS alert
-    ams = _build_ams_alert(drug_name)
+    # --- Step 5: Not found ---
+    if not results:
+        return AskResponse(
+            body=f"<p>No information found for <strong>{question}</strong> in the "
+                 "Philippine National Formulary. Try a generic drug name.</p>",
+            sources=[])
 
-    # Brand resolver notice
-    notice = ""
-    if used_resolver in ("mims", "gemini") and resolved_generic:
-        notice = _resolver_notice(question, resolved_generic, source=used_resolver)
+    # --- Step 6: Build combined response ---
+    body_parts = []
+    sources = []
+    for i, (ent, match, resolver, gen) in enumerate(results):
+        dn = match.get("drug", ent)
+        ct = match.get("clean_text", "")
+        notice = ""
+        if resolver in ("mims","gemini") and gen:
+            notice = _resolver_notice(ent, gen, source=resolver)
+        ams = _build_ams_alert(dn)
+        cite = _build_citation(i+1, dn)
+        body_parts.append(notice + ams + _format_text_as_html(ct) + f"\n<p>{cite}</p>")
+        snip = ct[:200].strip()
+        if len(ct) > 200:
+            sp = snip.rfind(" ")
+            snip = (snip[:sp] if sp > 0 else snip) + "..."
+        sources.append(SourceItem(num=i+1, title="Philippine National Formulary",
+            section=f"Drug Monograph &mdash; {dn}", snippet=snip, lastUpdated="Apr 2026"))
 
-    # Monograph HTML + citation
-    mono_html = _format_text_as_html(clean_text)
-    cite = _build_citation(1, drug_name)
-
-    body_html = notice + ams + mono_html + f"\n<p>{cite}</p>"
-
-    # Snippet for source card
-    snippet = clean_text[:200].strip()
-    if len(clean_text) > 200:
-        sp = snippet.rfind(" ")
-        if sp > 0:
-            snippet = snippet[:sp]
-        snippet += "..."
-
-    return AskResponse(
-        body=body_html,
-        sources=[
-            SourceItem(
-                num=1,
-                title="Philippine National Formulary",
-                section=f"Drug Monograph &mdash; {drug_name}",
-                snippet=snippet,
-                lastUpdated="Apr 2026",
-            )
-        ],
-    )
+    sep = '<hr style="margin:1.5em 0;border:none;border-top:1px solid #ddd;">'
+    return AskResponse(body=sep.join(body_parts), sources=sources)
 
 
 if __name__ == "__main__":
