@@ -59,9 +59,10 @@ def _gemini_resolve(brand_name: str, model) -> Optional[str]:
         return None
 
     prompt = (
-        f"What is the generic drug name for the Philippine brand \"{brand_name}\"? "
-        "Reply with ONLY the generic name in lowercase, nothing else. "
-        "If you don't know, reply with exactly: UNKNOWN"
+        f"What is the generic drug name for the Philippine brand \"{brand_name}\"?\n"
+        "Based SOLELY on official, verifiable medical knowledge. "
+        "If you do not explicitly know this exact brand mapping, or if you are uncertain, you MUST reply with ONLY the word 'unknown'.\n"
+        "DO NOT GUESS, HALLUCINATE, OR INFER. Reply with ONLY the generic name in lowercase, nothing else."
     )
 
     try:
