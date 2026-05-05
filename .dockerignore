@@ -1,0 +1,35 @@
+# Virtual environment (15,000+ files — never belongs in a container)
+venv312/
+venv*/
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# Environment / secrets
+.env
+*.env
+
+# Old/unused files
+app.py
+simple_server.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# PDFs and misc
+*.pdf
+groq.txt
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# README (not needed in container)
+README.md
