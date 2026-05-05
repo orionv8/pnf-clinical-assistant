@@ -1,3 +1,16 @@
+# api.py  --  PNF Clinical Assistant API  v3.1.0
+#
+# Merged build: optimised indexes + MIMS brand resolver + auth + AMS alerts
+# No Brave Search dependency.
+#
+# Endpoints
+#   GET  /              -> serves index.html
+#   GET  /health        -> liveness probe + MIMS diagnostics
+#   POST /api/pnf/ask   -> main drug search
+#   POST /api/auth/register
+#   POST /api/auth/login
+#   GET  /api/auth/me
+
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -13,11 +26,10 @@ import time
 from functools import lru_cache
 from rapidfuzz import process, fuzz
 
-
 from ai_resolver import ai_resolve_generic
 
 # ---------------------------------------------------------------------------
-# Optional Vertex AI
+# Optional Vertex AI  (drug-interaction synthesis)
 # ---------------------------------------------------------------------------
 try:
     from dotenv import load_dotenv
@@ -29,19 +41,19 @@ _GEMMA_MODEL = None
 try:
     import vertexai
     from vertexai.generative_models import GenerativeModel
-    project = os.getenv("PROJECT_ID")
-    location = os.getenv("LOCATION")
-    model_name = os.getenv("MODEL_NAME")
-    if project and location and model_name:
-        vertexai.init(project=project, location=location)
-        _GEMMA_MODEL = GenerativeModel(model_name)
+    _proj = os.getenv("PROJECT_ID")
+    _loc  = os.getenv("LOCATION")
+    _mod  = os.getenv("MODEL_NAME")
+    if _proj and _loc and _mod:
+        vertexai.init(project=_proj, location=_loc)
+        _GEMMA_MODEL = GenerativeModel(_mod)
 except Exception:
     _GEMMA_MODEL = None
 
 # ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
-app = FastAPI(title="PNF Clinical Assistant API", version="3.0.0")
+app = FastAPI(title="PNF Clinical Assistant API", version="3.1.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -53,16 +65,25 @@ app.add_middleware(
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # ---------------------------------------------------------------------------
-# Data + Indexes
+# AMS Restricted Antimicrobials
 # ---------------------------------------------------------------------------
-pnf_data = []
+AMS_RESTRICTED = [
+    "cefepime", "ertapenem", "meropenem", "vancomycin",
+    "amphotericin b", "voriconazole", "colistin", "micafungin",
+    "aztreonam", "linezolid", "imipenem", "tigecycline",
+]
 
-drug_index = {}
-prefix_index = {}
-content_index = {}
-drug_names = []
+# ---------------------------------------------------------------------------
+# Data + Indexes  (loaded once at import time)
+# ---------------------------------------------------------------------------
+pnf_data: list = []
+drug_index: dict = {}
+prefix_index: dict = {}
+content_index: dict = {}
+drug_names: list = []
 
-def _clean_text(raw):
+
+def _clean_text(raw: str) -> str:
     cleaned = raw.lstrip("\ufeff")
     return re.sub(
         r"April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d",
@@ -70,38 +91,36 @@ def _clean_text(raw):
         cleaned,
     )
 
+
 index_path = os.path.join(BASE_DIR, "data", "pnf_index.json")
 
 if os.path.exists(index_path):
-    with open(index_path, "r", encoding="utf-8") as f:
-        pnf_data = json.load(f)
+    with open(index_path, "r", encoding="utf-8") as _f:
+        pnf_data = json.load(_f)
 
-    for entry in pnf_data:
-        drug = entry.get("drug", "").lower().strip()
-        text = entry.get("text", "")
-
-        if not drug:
+    for _entry in pnf_data:
+        _drug = _entry.get("drug", "").lower().strip()
+        _text = _entry.get("text", "")
+        if not _drug:
             continue
 
-        clean = _clean_text(text)
-        entry["clean_text"] = clean
+        _clean = _clean_text(_text)
+        _entry["clean_text"] = _clean
 
-        drug_index[drug] = entry
-        drug_names.append(drug)
+        drug_index[_drug] = _entry
+        drug_names.append(_drug)
 
-        # prefix index
-        for i in range(1, min(len(drug), 10) + 1):
-            prefix = drug[:i]
-            prefix_index.setdefault(prefix, []).append(entry)
+        # prefix index (up to 10 chars)
+        for _i in range(1, min(len(_drug), 10) + 1):
+            prefix_index.setdefault(_drug[:_i], []).append(_entry)
 
-        # inverted index
-        words = set(re.findall(r"\b\w+\b", clean.lower()))
-        for word in words:
-            if len(word) > 3:
-                content_index.setdefault(word, []).append(entry)
+        # inverted content index (words > 3 chars)
+        for _w in set(re.findall(r"\b\w+\b", _clean.lower())):
+            if len(_w) > 3:
+                content_index.setdefault(_w, []).append(_entry)
 
 # ---------------------------------------------------------------------------
-# Models
+# Pydantic models
 # ---------------------------------------------------------------------------
 class AskRequest(BaseModel):
     question: str
@@ -117,31 +136,39 @@ class AskResponse(BaseModel):
     body: str
     sources: List[SourceItem]
 
+class AuthRequest(BaseModel):
+    email: str
+    password: str
+
 # ---------------------------------------------------------------------------
-# Auth
+# In-memory auth store  (resets on container restart)
 # ---------------------------------------------------------------------------
-_users = {}
-_tokens = {}
+_users: dict = {}
+_tokens: dict = {}
 
-def _hash_password(password):
-    return hashlib.sha256(password.encode()).hexdigest()
 
-def _create_token(email):
-    token = secrets.token_urlsafe(32)
-    _tokens[token] = {"email": email, "expires": time.time() + 365 * 86400}
-    return token
+def _hash_password(pw: str) -> str:
+    return hashlib.sha256(pw.encode()).hexdigest()
 
-def _resolve_token(auth):
+
+def _create_token(email: str) -> str:
+    tok = secrets.token_urlsafe(32)
+    _tokens[tok] = {"email": email, "expires": time.time() + 365 * 86400}
+    return tok
+
+
+def _resolve_token(auth: Optional[str]) -> Optional[dict]:
     if not auth or not auth.startswith("Bearer "):
         return None
-    token = auth[7:].strip()
-    entry = _tokens.get(token)
-    if not entry or time.time() > entry["expires"]:
+    tok = auth[7:].strip()
+    rec = _tokens.get(tok)
+    if not rec or time.time() > rec["expires"]:
         return None
-    return {"email": entry["email"]}
+    return {"email": rec["email"]}
+
 
 # ---------------------------------------------------------------------------
-# OPTIMIZED SEARCH (safer)
+# Optimised search with fuzzy matching
 # ---------------------------------------------------------------------------
 @lru_cache(maxsize=500)
 def _search_index(query: str):
@@ -151,137 +178,254 @@ def _search_index(query: str):
 
     words = re.findall(r"\b\w+\b", q)
 
-    # Exact
+    # 1. Exact match
     if q in drug_index:
         return drug_index[q]
 
-    # Prefix
+    # 2. Prefix match
     if q in prefix_index:
         return prefix_index[q][0]
 
-    # Fuzzy
+    # 3. Fuzzy match (>= 85 score)
     if drug_names:
-        match, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
+        best, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
         if score >= 85:
-            return drug_index[match]
+            return drug_index[best]
 
-    # 🚫 Block brand-like queries from content search
+    # 4. Block single brand-like words from falling into content search
     if len(words) == 1 and words[0] not in drug_index:
         return None
 
-    # Content search (filtered)
+    # 5. Content / inverted-index search
     candidates = []
-
-    for word in words:
-        if len(word) < 4:
-            continue
-        if word in content_index:
-            candidates.extend(content_index[word])
+    for w in words:
+        if len(w) >= 4 and w in content_index:
+            candidates.extend(content_index[w])
 
     if candidates:
-        def score_entry(e):
-            score = 0
-            drug = e["drug"].lower()
-            text = e["clean_text"].lower()
+        def _score(e):
+            s = 0
+            d = e["drug"].lower()
+            t = e.get("clean_text", "").lower()
+            if q == d:
+                s += 100
+            elif q in d:
+                s += 60
+            hits = sum(1 for w in words if w in t)
+            if hits >= 2:
+                s += hits * 10
+            return s
 
-            if q == drug:
-                score += 100
-            elif q in drug:
-                score += 60
-
-            matches = sum(1 for w in words if w in text)
-            if matches >= 2:
-                score += matches * 10
-
-            return score
-
-        candidates = sorted(set(candidates), key=score_entry, reverse=True)
+        candidates = sorted(set(candidates), key=_score, reverse=True)
         return candidates[0]
 
     return None
 
+
 # ---------------------------------------------------------------------------
-# Formatting
+# Formatting helpers
 # ---------------------------------------------------------------------------
-def _format_text_as_html(text):
-    return "\n".join(f"<p>{line}</p>" for line in text.splitlines() if line.strip())
+def _format_text_as_html(text: str) -> str:
+    parts = []
+    for line in text.splitlines():
+        s = line.strip()
+        if not s:
+            continue
+        core = s.rstrip(":.")
+        if len(core) >= 3 and core == core.upper() and core.replace(" ", "").isalpha():
+            parts.append(f"<p><strong>{s}</strong></p>")
+        else:
+            parts.append(f"<p>{s}</p>")
+    return "\n".join(parts)
+
+
+def _build_ams_alert(drug_name: str) -> str:
+    if drug_name.lower().strip() in AMS_RESTRICTED:
+        return (
+            '<p class="ams-alert" style="'
+            "background:#fff3cd;border-left:4px solid #ffc107;"
+            "padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;"
+            '">'
+            "<strong>&#9888; AMS Restricted Antimicrobial</strong> &mdash; "
+            f"<em>{drug_name}</em> is subject to Antimicrobial Stewardship "
+            "Programme (AMS) restrictions. Use requires documented indication "
+            "and, where applicable, Infectious Disease specialist approval."
+            "</p>"
+        )
+    return ""
+
+
+def _build_citation(num: int, drug_name: str) -> str:
+    return (
+        f'<a class="citation" href="#source-{num}" '
+        f'title="Philippine National Formulary &mdash; {drug_name}">'
+        f"[{num}]</a>"
+    )
+
+
+def _resolver_notice(brand: str, generic: str) -> str:
+    return (
+        '<p class="resolver-notice" style="'
+        "background:#e6ffed;border-left:4px solid #4ade80;"
+        "padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;"
+        'font-size:0.9em;">'
+        f"<strong>Brand &rarr; Generic:</strong> "
+        f'"{brand}" was resolved to <em>{generic.upper()}</em> '
+        "via MIMS brand database. Showing PNF data for the generic."
+        "</p>"
+    )
+
 
 # ---------------------------------------------------------------------------
 # Routes
 # ---------------------------------------------------------------------------
+
+# -- Frontend ---------------------------------------------------------------
+@app.get("/", response_class=HTMLResponse, include_in_schema=False)
+async def serve_frontend():
+    html_path = os.path.join(BASE_DIR, "index.html")
+    if not os.path.exists(html_path):
+        raise HTTPException(status_code=404, detail="index.html not found")
+    with open(html_path, "r", encoding="utf-8") as fh:
+        return HTMLResponse(content=fh.read())
+
+
+# -- Health -----------------------------------------------------------------
 @app.get("/health")
 async def health():
     from ai_resolver import get_mims_status
-    base_response = {
+    base = {
         "status": "ok",
-        "entries": len(pnf_data),
-        "optimized_search": True
+        "version": "3.1.0",
+        "entries_loaded": len(pnf_data),
+        "optimized_search": True,
+        "gemma_available": _GEMMA_MODEL is not None,
     }
-    return {**base_response, **get_mims_status()}
+    return {**base, **get_mims_status()}
 
+
+# -- Auth -------------------------------------------------------------------
+@app.post("/api/auth/register")
+async def register(req: AuthRequest):
+    email = req.email.strip().lower()
+    if not email or not req.password:
+        raise HTTPException(status_code=422, detail="Email and password required")
+    if email in _users:
+        raise HTTPException(status_code=409, detail="Email already registered")
+    _users[email] = {"hash": _hash_password(req.password)}
+    token = _create_token(email)
+    return {"token": token, "email": email}
+
+
+@app.post("/api/auth/login")
+async def login(req: AuthRequest):
+    email = req.email.strip().lower()
+    user = _users.get(email)
+    if not user or user["hash"] != _hash_password(req.password):
+        raise HTTPException(status_code=401, detail="Invalid credentials")
+    token = _create_token(email)
+    return {"token": token, "email": email}
+
+
+@app.get("/api/auth/me")
+async def me(authorization: Optional[str] = Header(None)):
+    user = _resolve_token(authorization)
+    if not user:
+        raise HTTPException(status_code=401, detail="Not authenticated")
+    return user
+
+
+# -- Main search endpoint ---------------------------------------------------
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     question = req.question.strip()
-
     if not question:
         raise HTTPException(status_code=422, detail="Empty query")
 
     q = question.lower().strip()
     match = None
     used_resolver = "none"
+    resolved_generic = None
 
-    # ------------------------------------------------------------
-    # 1. Exact match only
-    # ------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 1. Exact drug-index match
+    # ------------------------------------------------------------------
     if q in drug_index:
         match = drug_index[q]
 
-    # ------------------------------------------------------------
-    # 2. AI resolver (MIMS lookup + Gemma fallback)
-    # ------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 2. MIMS brand -> generic resolver
+    # ------------------------------------------------------------------
     if match is None:
         generic = ai_resolve_generic(question, _GEMMA_MODEL)
         if generic:
             resolved = generic.lower().strip()
             if resolved in drug_index:
                 match = drug_index[resolved]
-                used_resolver = "mims_or_gemma"
+                used_resolver = "mims"
+                resolved_generic = resolved
 
-    # ------------------------------------------------------------
-    # 4. Safe search LAST
-    # ------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 3. Optimised fuzzy / content search (last resort)
+    # ------------------------------------------------------------------
     if match is None:
         match = _search_index(question)
 
-    # ------------------------------------------------------------
-    # 5. Not found
-    # ------------------------------------------------------------
+    # ------------------------------------------------------------------
+    # 4. Not found
+    # ------------------------------------------------------------------
     if not match:
-        return AskResponse(
-            body=f"<p>No results for <strong>{question}</strong></p>",
-            sources=[]
+        not_found = (
+            f"<p>No information found for <strong>{question}</strong> in the "
+            "Philippine National Formulary index. "
+            "Please verify the drug name spelling or try a generic name.</p>"
         )
+        return AskResponse(body=not_found, sources=[])
 
+    # ------------------------------------------------------------------
+    # Build response
+    # ------------------------------------------------------------------
     drug_name = match.get("drug", question)
     clean_text = match.get("clean_text", "")
 
-    snippet = clean_text[:200] + "..."
+    # AMS alert
+    ams = _build_ams_alert(drug_name)
+
+    # Brand resolver notice
+    notice = ""
+    if used_resolver == "mims" and resolved_generic:
+        notice = _resolver_notice(question, resolved_generic)
+
+    # Monograph HTML + citation
+    mono_html = _format_text_as_html(clean_text)
+    cite = _build_citation(1, drug_name)
+
+    body_html = notice + ams + mono_html + f"\n<p>{cite}</p>"
+
+    # Snippet for source card
+    snippet = clean_text[:200].strip()
+    if len(clean_text) > 200:
+        sp = snippet.rfind(" ")
+        if sp > 0:
+            snippet = snippet[:sp]
+        snippet += "..."
 
     return AskResponse(
-        body=_format_text_as_html(clean_text),
+        body=body_html,
         sources=[
             SourceItem(
                 num=1,
                 title="Philippine National Formulary",
-                section=drug_name,
+                section=f"Drug Monograph &mdash; {drug_name}",
                 snippet=snippet,
-                lastUpdated="Apr 2026"
+                lastUpdated="Apr 2026",
             )
-        ]
+        ],
     )
 
+
 # ---------------------------------------------------------------------------
-# Dev
+# Dev entry-point
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
     import uvicorn
