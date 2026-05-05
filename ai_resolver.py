@@ -66,7 +66,10 @@ def _gemini_resolve(brand_name: str, model) -> Optional[str]:
     )
 
     try:
-        response = model.generate_content(prompt)
+        response = model.generate_content(
+            prompt,
+            generation_config={"temperature": 0.0}
+        )
         result = response.text.strip().lower()
 
         # Reject garbage responses
