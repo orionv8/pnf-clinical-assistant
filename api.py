@@ -18,31 +18,20 @@ from rapidfuzz import process, fuzz
 
 from ai_resolver import ai_resolve_generic
 
-# ---------------------------------------------------------------------------
-# Optional Vertex AI  (drug-interaction synthesis)
-# ---------------------------------------------------------------------------
 try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except ImportError:
-    pass
+    from dotenv import load_dotenv; load_dotenv()
+except ImportError: pass
 
 _GEMMA_MODEL = None
 try:
     import vertexai
     from vertexai.generative_models import GenerativeModel
-    _proj = os.getenv("PROJECT_ID")
-    _loc  = os.getenv("LOCATION")
-    _mod  = os.getenv("MODEL_NAME")
-    if _proj and _loc and _mod:
-        vertexai.init(project=_proj, location=_loc)
-        _GEMMA_MODEL = GenerativeModel(_mod)
-except Exception:
-    _GEMMA_MODEL = None
+    _p, _l, _m = os.getenv("PROJECT_ID"), os.getenv("LOCATION"), os.getenv("MODEL_NAME")
+    if _p and _l and _m:
+        vertexai.init(project=_p, location=_l)
+        _GEMMA_MODEL = GenerativeModel(_m)
+except Exception: pass
 
-# ---------------------------------------------------------------------------
-# App
-# ---------------------------------------------------------------------------
 app = FastAPI(title="PNF Clinical Assistant API", version="3.2.0")
 
 app.add_middleware(
@@ -54,18 +43,12 @@ app.add_middleware(
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# ---------------------------------------------------------------------------
-# AMS Restricted Antimicrobials
-# ---------------------------------------------------------------------------
 AMS_RESTRICTED = [
     "cefepime", "ertapenem", "meropenem", "vancomycin",
     "amphotericin b", "voriconazole", "colistin", "micafungin",
     "aztreonam", "linezolid", "imipenem", "tigecycline",
 ]
 
-# ---------------------------------------------------------------------------
-# Data + Indexes  (loaded once at import time)
-# ---------------------------------------------------------------------------
 pnf_data: list = []
 drug_index: dict = {}
 prefix_index: dict = {}
@@ -109,9 +92,6 @@ if os.path.exists(index_path):
             if len(_w) > 3:
                 content_index.setdefault(_w, []).append(_entry)
 
-# ---------------------------------------------------------------------------
-# Pydantic models
-# ---------------------------------------------------------------------------
 class AskRequest(BaseModel):
     question: str
 
@@ -130,9 +110,6 @@ class AuthRequest(BaseModel):
     email: str
     password: str
 
-# ---------------------------------------------------------------------------
-# In-memory auth store  (resets on container restart)
-# ---------------------------------------------------------------------------
 _users: dict = {}
 _tokens: dict = {}
 
@@ -157,9 +134,6 @@ def _resolve_token(auth: Optional[str]) -> Optional[dict]:
     return {"email": rec["email"]}
 
 
-# ---------------------------------------------------------------------------
-# Optimised search with fuzzy matching
-# ---------------------------------------------------------------------------
 @lru_cache(maxsize=500)
 def _search_index(query: str):
     q = query.lower().strip()
@@ -221,9 +195,6 @@ def _search_index(query: str):
     return None
 
 
-# ---------------------------------------------------------------------------
-# Formatting helpers
-# ---------------------------------------------------------------------------
 def _format_text_as_html(text: str) -> str:
     parts = []
     for line in text.splitlines():
@@ -276,11 +247,7 @@ def _resolver_notice(brand: str, generic: str, source: str = "MIMS") -> str:
     )
 
 
-# ---------------------------------------------------------------------------
 # Routes
-# ---------------------------------------------------------------------------
-
-# -- Frontend ---------------------------------------------------------------
 @app.get("/", response_class=HTMLResponse, include_in_schema=False)
 async def serve_frontend():
     html_path = os.path.join(BASE_DIR, "index.html")
@@ -290,7 +257,6 @@ async def serve_frontend():
         return HTMLResponse(content=fh.read())
 
 
-# -- Health -----------------------------------------------------------------
 @app.get("/health")
 async def health():
     from ai_resolver import get_mims_status
@@ -304,7 +270,6 @@ async def health():
     return {**base, **get_mims_status()}
 
 
-# -- Auth -------------------------------------------------------------------
 @app.post("/api/auth/register")
 async def register(req: AuthRequest):
     email = req.email.strip().lower()
@@ -335,7 +300,6 @@ async def me(authorization: Optional[str] = Header(None)):
     return user
 
 
-# -- Main search endpoint ---------------------------------------------------
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     question = req.question.strip()
@@ -346,6 +310,13 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     match = None
     used_resolver = "none"
     resolved_generic = None
+    q_words = re.findall(r"\b\w+\b", q)
+
+    # Classify query type: brand lookup vs clinical question
+    _qw = {"what","how","which","when","where","why","who","can","does",
+            "should","list","tell","give","show","compare","between"}
+    is_question = len(q_words) > 3 or (q_words and q_words[0] in _qw)
+    is_brand_candidate = len(q_words) <= 3 and not is_question
 
     # ------------------------------------------------------------------
     # 1. Exact drug-index match
@@ -354,29 +325,31 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         match = drug_index[q]
 
     # ------------------------------------------------------------------
-    # 2. MIMS brand -> generic resolver  (then Gemini AI fallback)
+    # 2. MIMS brand lookup (only for brand-like queries, not questions)
     # ------------------------------------------------------------------
-    if match is None:
-        # Try MIMS first (check directly for source attribution)
+    if match is None and is_brand_candidate:
         from ai_resolver import MIMS_BRAND_TO_GENERIC
         mims_key = question.strip().upper()
         mims_hit = MIMS_BRAND_TO_GENERIC.get(mims_key)
         if not mims_hit and " " in mims_key:
             mims_hit = MIMS_BRAND_TO_GENERIC.get(mims_key.split()[0])
-
         if mims_hit and mims_hit.lower().strip() in drug_index:
             match = drug_index[mims_hit.lower().strip()]
             used_resolver = "mims"
             resolved_generic = mims_hit.lower().strip()
-        else:
-            # Gemini AI fallback
-            generic = ai_resolve_generic(question, _GEMMA_MODEL)
-            if generic:
-                resolved = generic.lower().strip()
-                if resolved in drug_index:
-                    match = drug_index[resolved]
-                    used_resolver = "gemini"
-                    resolved_generic = resolved
+
+    # ------------------------------------------------------------------
+    # 2b. Gemini AI fallback (only for 2-3 word brands not in MIMS)
+    #     Skip for single generic words and clinical questions
+    # ------------------------------------------------------------------
+    if match is None and is_brand_candidate and len(q_words) >= 2:
+        generic = ai_resolve_generic(question, _GEMMA_MODEL)
+        if generic:
+            resolved = generic.lower().strip()
+            if resolved in drug_index:
+                match = drug_index[resolved]
+                used_resolver = "gemini"
+                resolved_generic = resolved
 
     # ------------------------------------------------------------------
     # 3. Optimised fuzzy / content search (last resort)
@@ -437,9 +410,6 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     )
 
 
-# ---------------------------------------------------------------------------
-# Dev entry-point
-# ---------------------------------------------------------------------------
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("api:app", host="0.0.0.0", port=8501, reload=True)
