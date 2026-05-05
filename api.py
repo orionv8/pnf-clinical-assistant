@@ -209,7 +209,8 @@ def _search_index(query: str):
             elif q in d: s += 60
             h = sum(1 for w in mw if w in t)
             return s + (h*10 if h >= 2 else 0)
-        return sorted(set(cands), key=_sc, reverse=True)[0]
+        unique = list({c["drug"]: c for c in cands}.values())
+        return sorted(unique, key=_sc, reverse=True)[0]
 
     return None
 
