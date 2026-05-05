@@ -1,7 +1,11 @@
-"""MIMS brand-to-generic resolver.
+"""MIMS brand-to-generic resolver with Gemini AI fallback.
 
 Loads data/mims_brand_generic_names.txt at startup.
 Format: BRAND_NAME: generic_name (one per line)
+
+Resolution order:
+  1. MIMS exact match (instant, free)
+  2. Gemini AI fallback (asks the model for the generic name)
 """
 import os
 import re
@@ -39,32 +43,77 @@ def _load_mims():
         print(f"[MIMS] File not found: {MIMS_DATA_PATH}")
     except Exception as e:
         MIMS_LOAD_STATUS = f"error:{e}"
-        print(f"^[MIMS] Load error: {e}")
+        print(f"[MIMS] Load error: {e}")
 
 # Load on import
 _load_mims()
 
 
+def _gemini_resolve(brand_name: str, model) -> str | None:
+    """
+    Ask Gemini to identify the generic drug name for a Philippine brand.
+    Returns the generic name (lowercase) or None.
+    """
+    if not model:
+        return None
+
+    prompt = (
+        f"What is the generic drug name for the Philippine brand \"{brand_name}\"? "
+        "Reply with ONLY the generic name in lowercase, nothing else. "
+        "If you don't know, reply with exactly: UNKNOWN"
+    )
+
+    try:
+        response = model.generate_content(prompt)
+        result = response.text.strip().lower()
+
+        # Reject garbage responses
+        if not result or "unknown" in result or len(result) > 80:
+            return None
+
+        # Clean: take first line, strip quotes/periods
+        result = result.splitlines()[0].strip().strip("\"'.").strip()
+
+        # Basic sanity: should look like a drug name (letters, spaces, hyphens)
+        if re.match(r'^[a-z][a-z \-/]+$', result) and len(result) >= 3:
+            return result
+
+        return None
+    except Exception as e:
+        print(f"[Gemini] Error resolving '{brand_name}': {e}")
+        return None
+
+
 def ai_resolve_generic(brand_name: str, model=None):
     """
-    Resolve brand name to generic using MIMS data ONLY.
-    No AI/Gemma fallback — all answers must come from the data file.
+    Resolve brand name to generic.
+
+    Priority:
+      1. MIMS data file (exact match, instant)
+      2. MIMS first-word match (e.g. "BIOGESIC 500MG" -> "BIOGESIC")
+      3. Gemini AI fallback (asks the model)
     """
     if not brand_name:
         return None
 
-    # Direct lookup (exact match, case-insensitive)
+    # --- 1. Direct MIMS lookup (exact match, case-insensitive) ---
     key = brand_name.strip().upper()
     result = MIMS_BRAND_TO_GENERIC.get(key)
     if result:
         return result
 
-    # Try without common suffixes (e.g., "BIOGESIC 500MG" -> "BIOGESIC")
+    # --- 2. Try without common suffixes (e.g., "BIOGESIC 500MG" -> "BIOGESIC") ---
     words = key.split()
     if len(words) > 1:
         result = MIMS_BRAND_TO_GENERIC.get(words[0])
         if result:
             return result
+
+    # --- 3. Gemini AI fallback ---
+    result = _gemini_resolve(brand_name, model)
+    if result:
+        print(f"[Gemini] Resolved '{brand_name}' -> '{result}'")
+        return result
 
     return None
 
