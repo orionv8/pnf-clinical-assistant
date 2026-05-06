@@ -198,9 +198,7 @@ def _format_text_as_html(text: str) -> str:
 
 def _build_ams_alert(dn: str) -> str:
     if dn.lower().strip() in AMS_RESTRICTED:
-        return ('<p class="ams-alert" style="background:#fff3cd;border-left:4px solid #ffc107;'
-                'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;">'
-                f"<strong>&#9888; AMS Restricted</strong> &mdash; <em>{dn}</em> requires AMS approval.</p>")
+        return (f'<p class="ams-alert"><strong>&#9888; AMS Restricted</strong> &mdash; <em>{dn}</em> requires AMS approval.</p>')
     return ""
 
 def _build_citation(n: int, dn: str) -> str:
@@ -370,4 +368,4 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     return AskResponse(body=sep.join(body_parts), sources=sources)
 
 if __name__ == "__main__":
-    import uvicorn; uvicorn.run("api:app", host="0.0.0.0", port=8501, reload=True)
+    import uvicorn; uvicorn.run("api:app", host="0.0.0.0", port=8501, reload=False)
