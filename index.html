@@ -915,6 +915,7 @@
 
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
 </head>
@@ -1057,6 +1058,14 @@
                  placeholder="Email address" autocomplete="email" required />
           <input class="auth-field" type="password" id="authPasswordInput"
                  placeholder="Password (min 6 chars)" autocomplete="new-password" required />
+          <select class="auth-field" id="authProfessionInput" required style="display: block;">
+            <option value="" disabled selected>Select Profession</option>
+            <option value="doctor">Medical Doctor</option>
+            <option value="pharmacist">Pharmacist</option>
+            <option value="nurse">Nurse</option>
+            <option value="student">Medical/Pharmacy Student</option>
+            <option value="other">Other Healthcare Professional</option>
+          </select>
           <div class="auth-error" id="authErrorMsg"></div>
           <button class="gate-btn-primary" type="submit" id="authSubmitBtn"
                   style="width:100%;">Create free account</button>
@@ -1082,6 +1091,7 @@ const _fbApp = firebase.initializeApp({
   appId: "1:603314167897:web:e1e4bb7f9f6c6ae90b5148"
 });
 const _fbAuth = firebase.auth();
+  const _db = firebase.firestore();
 
 /* =============================================================================
  * PNF Clinical Assistant — Front-end mockup
@@ -1331,20 +1341,45 @@ const _fbAuth = firebase.auth();
       this._mode = mode;
       document.getElementById('tabSignup').classList.toggle('active', mode === 'signup');
       document.getElementById('tabSignin').classList.toggle('active', mode === 'signin');
+      
+      const profInput = document.getElementById('authProfessionInput');
       const btn = document.getElementById('authSubmitBtn');
-      if (mode === 'signup') { btn.textContent = 'Create free account'; document.getElementById('authPasswordInput').placeholder = 'Password (min 6 chars)'; document.getElementById('gateTitle').textContent = "You've reached your daily limit"; }
-      else { btn.textContent = 'Sign in'; document.getElementById('authPasswordInput').placeholder = 'Password'; document.getElementById('gateTitle').textContent = 'Welcome back'; }
+      if (mode === 'signup') { 
+          btn.textContent = 'Create free account'; 
+          document.getElementById('authPasswordInput').placeholder = 'Password (min 6 chars)'; 
+          document.getElementById('gateTitle').textContent = "You've reached your daily limit";
+          if(profInput) { profInput.style.display = 'block'; profInput.required = true; }
+      }
+      else { 
+          btn.textContent = 'Sign in'; 
+          document.getElementById('authPasswordInput').placeholder = 'Password'; 
+          document.getElementById('gateTitle').textContent = 'Welcome back';
+          if(profInput) { profInput.style.display = 'none'; profInput.required = false; }
+      }
+
       document.getElementById('authErrorMsg').style.display = 'none';
     },
+    
     async _submitAuth() {
       const email = document.getElementById('authEmailInput').value.trim();
       const pw = document.getElementById('authPasswordInput').value;
+      const profession = document.getElementById('authProfessionInput') ? document.getElementById('authProfessionInput').value : '';
       if (!email || !pw) return;
+
       
       try {
         let cred;
         if (this._mode === 'signup') {
+          
           cred = await _fbAuth.createUserWithEmailAndPassword(email, pw);
+          if (this._mode === 'signup') {
+            await _db.collection("users").doc(cred.user.uid).set({
+              email: email,
+              profession: profession,
+              createdAt: firebase.firestore.FieldValue.serverTimestamp()
+            });
+          }
+
         } else {
           cred = await _fbAuth.signInWithEmailAndPassword(email, pw);
         }
