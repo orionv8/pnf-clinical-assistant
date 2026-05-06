@@ -106,14 +106,20 @@ def _build_ai_notice() -> str:
 def synthesize_interaction(drugs: list, is_question: bool = False, full_query: str = "") -> str:
     if _GEMMA_MODEL is None:
         raise RuntimeError("Gemini not configured.")
+    
+    pnf_list = ", ".join(drug_names)
+    
     if is_question:
-        prompt = (f"Answer the following clinical question based strictly on standard medical guidelines and the Philippine National Formulary context:\n\n"
+        prompt = (f"Answer the following clinical question based strictly on standard medical guidelines and the Philippine National Formulary context.\n\n"
+                  f"AVAILABLE PNF DRUGS:\n{pnf_list}\n\n"
+                  f"IMPORTANT: If you recommend or suggest any medications, they MUST be chosen EXCLUSIVELY from the 'AVAILABLE PNF DRUGS' list above.\n\n"
                   f"Question: {full_query}\n\n"
                   "Provide a concise, professional clinical response in plain text. "
                   "Do not include disclaimers — they are added by the UI.")
     else:
         prompt = ("Provide a concise clinical drug interaction summary for the following "
-                  "medications: " + ", ".join(drugs) + ". Cover mechanism, severity, and clinical management in plain text. "
+                  "medications: " + ", ".join(drugs) + ". Cover mechanism, severity, and clinical management in plain text.\n"
+                  "If you suggest alternative treatments, they MUST be chosen from this list: " + pnf_list + "\n"
                   "Do not include disclaimers — they are added by the UI.")
     return _GEMMA_MODEL.generate_content(prompt).text
 
@@ -326,7 +332,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         ew = re.findall(r"\b\w+\b", ent)
         is_brand = len(ew) <= 3 and not is_question
         m, rv, gen = _resolve_one(ent)
-        if m is None and is_brand and len(ew) >= 2:
+        if m is None and is_brand:
             g = ai_resolve_generic(ent, _GEMMA_MODEL)
             if g and g.lower().strip() in drug_index:
                 m, rv, gen = drug_index[g.lower().strip()], "gemini", g.lower().strip()
