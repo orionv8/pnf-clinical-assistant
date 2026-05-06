@@ -9,3 +9,4 @@ google-cloud-aiplatform
 fastapi
 uvicorn[standard]
 rapidfuzz
+firebase-admin
