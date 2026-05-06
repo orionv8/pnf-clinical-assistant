@@ -59,6 +59,42 @@
     transition: background-color 0.25s ease, color 0.25s ease;
   }
 
+  
+  /* ---------- AMS Alert ---------- */
+  .ams-alert {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    color: #856404;
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  html[data-theme="dark"] .ams-alert {
+    background: #332b00;
+    color: #ffda6a;
+    border-color: #ffc107;
+  }
+  
+  /* Markdown styling inside answers */
+  .answer-body table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 14px; }
+  .answer-body th, .answer-body td { border: 1px solid var(--border-soft); padding: 8px 12px; }
+  .answer-body th { background: var(--surface-2); font-weight: 600; text-align: left; }
+  
+  .copy-btn {
+    float: right;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--text-soft);
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  .copy-btn:hover { background: var(--border-soft); }
+
   /* ---------- Layout ---------- */
   .app {
     display: flex;
@@ -879,6 +915,8 @@
 
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
 </head>
 <body>
   <div class="app">
@@ -912,6 +950,11 @@
         </button>
       </div>
     </header>
+
+    <div class="disclaimer-banner" id="persistent-disclaimer">
+      <strong>Clinical Disclaimer:</strong> Responses are grounded exclusively in the Philippine National Formulary (PNF). This tool is designed to assist, not replace, clinical judgment.
+    </div>
+    
 
     <!-- DISCLAIMER BANNER -->
     <div class="disclaimer-banner" id="disclaimerBanner" role="note">
@@ -1374,7 +1417,7 @@ const _fbAuth = firebase.auth();
           '<div class="answer-label">PNF Assistant</div>' +
           '<div class="answer-disclaimer">Verify dosing against the current PNF before prescribing.</div>' +
           '<div class="answer-body" data-role="answer-body" aria-live="polite">' +
-            '<div class="thinking" aria-label="Thinking"><span></span><span></span><span></span></div>' +
+            '<div class="thinking" aria-label="Thinking" style="font-size: 13px; color: var(--text-soft); align-items: center; gap: 8px;"><span></span><span></span><span></span> <i>Searching PNF database and analyzing...</i></div>' +
           '</div>' +
         '</div>' +
       '</div>';
