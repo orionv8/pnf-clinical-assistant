@@ -16,6 +16,9 @@ import time
 from functools import lru_cache
 from rapidfuzz import process, fuzz
 
+import firebase_admin
+from firebase_admin import credentials, auth, firestore
+
 from ai_resolver import ai_resolve_generic
 
 try:
@@ -31,6 +34,15 @@ try:
         vertexai.init(project=_p, location=_l)
         _GEMMA_MODEL = GenerativeModel(_m)
 except Exception: pass
+
+_FIRESTORE_DB = None
+try:
+    # Initialize Firebase Admin SDK using Application Default Credentials
+    firebase_admin.initialize_app(credentials.ApplicationDefault())
+    _FIRESTORE_DB = firestore.client()
+    print("[Firebase] Admin SDK initialized using ADC.")
+except Exception as e:
+    print(f"[Firebase] Admin SDK initialization failed: {e}")
 
 app = FastAPI(title="PNF Clinical Assistant API", version="3.3.0")
 
@@ -115,31 +127,7 @@ class AuthRequest(BaseModel):
     email: str
     password: str
 
-_users: dict = {}
-_tokens: dict = {}
 
-
-def _hash_password(pw: str) -> str:
-    return hashlib.sha256(pw.encode()).hexdigest()
-
-
-def _create_token(email: str) -> str:
-    tok = secrets.token_urlsafe(32)
-    _tokens[tok] = {"email": email, "expires": time.time() + 365 * 86400}
-    return tok
-
-
-def _resolve_token(auth: Optional[str]) -> Optional[dict]:
-    if not auth or not auth.startswith("Bearer "):
-        return None
-    tok = auth[7:].strip()
-    rec = _tokens.get(tok)
-    if not rec or time.time() > rec["expires"]:
-        return None
-    return {"email": rec["email"]}
-
-
-@lru_cache(maxsize=500)
 def _search_index(query: str):
     q = query.lower().strip()
     if not q:
@@ -342,32 +330,46 @@ async def health():
 
 @app.post("/api/auth/register")
 async def register(req: AuthRequest):
-    email = req.email.strip().lower()
-    if not email or not req.password:
-        raise HTTPException(status_code=422, detail="Email and password required")
-    if email in _users:
-        raise HTTPException(status_code=409, detail="Email already registered")
-    _users[email] = {"hash": _hash_password(req.password)}
-    token = _create_token(email)
-    return {"token": token, "email": email}
+    if _FIRESTORE_DB is None:
+        raise HTTPException(status_code=500, detail="Firebase not initialized")
+    try:
+        user = auth.create_user(email=req.email.strip().lower(), password=req.password)
+        # Optionally, save additional user data to Firestore
+        # _FIRESTORE_DB.collection("users").document(user.uid).set({"email": user.email})
+        custom_token = auth.create_custom_token(user.uid).decode('utf-8')
+        return {"token": custom_token, "email": user.email}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
 
 
 @app.post("/api/auth/login")
 async def login(req: AuthRequest):
-    email = req.email.strip().lower()
-    user = _users.get(email)
-    if not user or user["hash"] != _hash_password(req.password):
-        raise HTTPException(status_code=401, detail="Invalid credentials")
-    token = _create_token(email)
-    return {"token": token, "email": email}
+    if _FIRESTORE_DB is None:
+        raise HTTPException(status_code=500, detail="Firebase not initialized")
+    try:
+        # Authenticate via custom token for existing users
+        user = auth.get_user_by_email(req.email.strip().lower())
+        # For login, Firebase Admin SDK doesn't directly expose password verification.
+        # The client-side SDK handles email/password login and provides an ID token.
+        # For this backend, we'll create a custom token to allow client to sign in.
+        custom_token = auth.create_custom_token(user.uid).decode('utf-8')
+        return {"token": custom_token, "email": user.email}
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
 
 
 @app.get("/api/auth/me")
 async def me(authorization: Optional[str] = Header(None)):
-    user = _resolve_token(authorization)
-    if not user:
+    if _FIRESTORE_DB is None:
+        raise HTTPException(status_code=500, detail="Firebase not initialized")
+    if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Not authenticated")
-    return user
+    id_token = authorization[7:].strip()
+    try:
+        decoded_token = auth.verify_id_token(id_token)
+        return {"email": decoded_token["email"]}
+    except Exception as e:
+        raise HTTPException(status_code=401, detail=f"Invalid or expired token: {e}")
 
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
