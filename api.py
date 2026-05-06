@@ -165,30 +165,39 @@ def _search_index(query: str):
     mw = [w for w in words if w not in _stop and len(w) >= 3]
     specific = [w for w in mw if w not in _generic]
     
+    
     if len(mw) >= 2 and specific:
         hits = []
         for e in pnf_data:
             text_lower = e.get("text","").lower()
-            # If query appears in Indications section, give it a massive boost
             ind_boost = 0
+            # Be very specific about finding the indications section
             if "indications" in text_lower:
-                ind_part = text_lower.split("indications")[1].split("contraindications")[0] if "contraindications" in text_lower else text_lower.split("indications")[1]
-                if any(w in ind_part for w in specific):
-                    ind_boost = 200
+                sections = text_lower.split("indications")
+                if len(sections) > 1:
+                    ind_part = sections[1].split("contraindications")[0] if "contraindications" in sections[1] else sections[1]
+                    if any(w in ind_part for w in specific):
+                        ind_boost = 500 # Massive boost for indications
             
             tn = re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())
             if not any(w in tn for w in specific): continue
             
             score = ind_boost
+            # Extra points for proximity/phrase match
             for i in range(len(mw)-1):
-                if mw[i]+" "+mw[i+1] in tn: score += 50
+                if mw[i]+" "+mw[i+1] in tn: score += 100
             
+            # Bonus for generic name match
+            if any(w in e["drug"].lower() for w in specific):
+                score += 50
+                
             if score > 0:
                 hits.append((score, e))
         
         if hits:
             hits.sort(key=lambda x: x[0], reverse=True)
             return hits[0][1]
+
 
     cands = []
     for w in mw:
@@ -291,6 +300,13 @@ async def get_chats(authorization: Optional[str] = Header(None)):
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
+
+
+    question = req.question.strip()
+    if not question: raise HTTPException(422, "Empty query")
+    
+    q = question.lower().strip()
+    
     # --- Greeting / Non-medical query check ---
     greetings = {"hi", "hello", "good morning", "good afternoon", "good evening", "hey", "how are you"}
     if q in greetings:
@@ -300,9 +316,6 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             sources=[]
         )
 
-    question = req.question.strip()
-    if not question: raise HTTPException(422, "Empty query")
-    q = question.lower().strip()
     
     # --- Caching Logic ---
     question_hash = re.sub(r'[^a-z0-9]', '', q)

@@ -60,6 +60,7 @@
   }
 
   
+  
   /* ---------- AMS Alert ---------- */
   .ams-alert {
     background: #fff3cd;
@@ -75,33 +76,7 @@
     color: #ffda6a;
     border-color: #ffc107;
   }
-  
-  /* Markdown styling inside answers */
-  .answer-body table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 14px; }
-  .answer-body th, .answer-body td { border: 1px solid var(--border-soft); padding: 8px 12px; }
-  .answer-body th { background: var(--surface-2); font-weight: 600; text-align: left; }
-  
-  
-  /* ---------- Deletable blocks & Copy ---------- */
-  .delete-btn {
-    float: right;
-    background: none;
-    border: none;
-    color: var(--text-muted);
-    font-size: 20px;
-    cursor: pointer;
-    line-height: 1;
-    padding: 0 5px;
-    margin-top: 5px;
-  }
-  .delete-btn:hover { color: #ef4444; }
 
-  /* Markdown styles */
-  .answer-body table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 14px; }
-  .answer-body th, .answer-body td { border: 1px solid var(--border-soft); padding: 8px 12px; }
-  .answer-body th { background: var(--surface-2); font-weight: 600; text-align: left; }
-
-  
   /* ---------- Deletable blocks & Copy ---------- */
   .delete-btn {
     float: right;
@@ -125,7 +100,7 @@
     font-size: 12px;
     cursor: pointer;
     color: var(--text-soft);
-    margin-top: -8px; /* Corrected to prevent overlap */
+    margin-top: -8px; 
     margin-bottom: 10px;
     position: relative;
     z-index: 10;
@@ -137,7 +112,7 @@
   .answer-body th, .answer-body td { border: 1px solid var(--border-soft); padding: 8px 12px; }
   .answer-body th { background: var(--surface-2); font-weight: 600; text-align: left; }
 
-  /* ---------- Layout ---------- */
+  /\* ---------- Layout ---------- \*/
   .app {
     display: flex;
     flex-direction: column;
@@ -1503,8 +1478,9 @@ const _fbAuth = firebase.auth();
    * Returns the block ID so the caller can target it for answer rendering.
    */
   function appendQuestionBlock(question, blockId) {
-    // blockId is passed from handleSubmit
     const resultArea = document.getElementById('resultArea');
+    const user = API.getUser();
+    const deleteBtn = user ? '<button onclick="document.getElementById(\'' + blockId + '\').remove()" class="delete-btn" title="Remove this result">&times;</button>' : '';
 
     // First message: remove the empty-state with example prompts
     const emptyState = document.getElementById('emptyState');
