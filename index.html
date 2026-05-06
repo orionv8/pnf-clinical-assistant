@@ -95,6 +95,40 @@
   }
   .copy-btn:hover { background: var(--border-soft); }
 
+  
+  /* ---------- Deletable blocks & Copy ---------- */
+  .delete-btn {
+    float: right;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 5px;
+    margin-top: 5px;
+  }
+  .delete-btn:hover { color: #ef4444; }
+
+  .copy-btn {
+    float: right;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--text-soft);
+    margin-top: -30px;
+    margin-bottom: 10px;
+  }
+  .copy-btn:hover { background: var(--border-soft); }
+
+  /* Markdown styles */
+  .answer-body table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 14px; }
+  .answer-body th, .answer-body td { border: 1px solid var(--border-soft); padding: 8px 12px; }
+  .answer-body th { background: var(--surface-2); font-weight: 600; text-align: left; }
+
   /* ---------- Layout ---------- */
   .app {
     display: flex;
@@ -448,7 +482,7 @@
   }
   .composer:focus-within {
     border-color: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-soft);
+    box-shadow: var(--shadow-sm);
   }
   .composer-textarea {
     width: 100%;
@@ -952,9 +986,12 @@
       </div>
     </header>
 
-    <div class="disclaimer-banner" id="persistent-disclaimer">
+    
+    <div class="disclaimer-banner" id="persistent-disclaimer" style="position: relative; padding-right: 35px;">
       <strong>Clinical Disclaimer:</strong> Responses are grounded exclusively in the Philippine National Formulary (PNF). This tool is designed to assist, not replace, clinical judgment.
+      <button onclick="this.parentElement.style.display='none'" style="position: absolute; right: 10px; top: 10px; background: none; border: none; cursor: pointer; color: inherit; font-size: 16px; font-weight: bold;">&times;</button>
     </div>
+
     
 
     <!-- DISCLAIMER BANNER -->
@@ -1434,7 +1471,7 @@ const _fbAuth = firebase.auth();
    * Append a new Q&A block to the conversation feed.
    * Returns the block ID so the caller can target it for answer rendering.
    */
-  function appendQuestionBlock(question) {
+  function appendQuestionBlock(question, blockId) {
     const blockId = 'qa-block-' + (++blockCounter);
     const resultArea = document.getElementById('resultArea');
 
@@ -1546,7 +1583,8 @@ const _fbAuth = firebase.auth();
       tries.updateDisplay();
     }
 
-    const blockId = appendQuestionBlock(question);
+    const blockId = "qa-" + Date.now();
+    appendQuestionBlock(question, blockId);
     const ac = new AbortController();
 
     try {
