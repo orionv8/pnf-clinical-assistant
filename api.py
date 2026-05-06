@@ -287,7 +287,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
                 data = cached_doc.to_dict()
                 if "body" in data and "sources" in data:
                     print(f"[Cache] Hit for: {question}")
-                    return AskResponse(body=data["body"], sources=[SourceItem(**s) for s in data["sources"]])
+                    return AskResponse(body=data["body"], text=data.get("text", ""), sources=[SourceItem(**s) for s in data["sources"]])
         except Exception as e: print(f"[Cache] Read error: {e}")
 
     q_words = re.findall(r"\b\w+\b", q)
@@ -318,13 +318,13 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             if _FIRESTORE:
                 try:
                     s_dicts = [s.dict() if hasattr(s, 'dict') else s.model_dump() for s in sources]
-                    _FIRESTORE.collection("cache").document(question_hash).set({"body": body_html, "sources": s_dicts})
+                    _FIRESTORE.collection("cache").document(question_hash).set({"body": body_html, "text": ai_text, "sources": s_dicts})
                 except Exception as e: print(f"[Cache] Write error: {e}")
             
             return AskResponse(body=body_html, sources=sources)
         except Exception as e:
             err_html = f"<p>Unable to synthesize response: {str(e)[:120]}</p><p>Try searching specific drug names in the PNF library instead.</p>"
-            return AskResponse(body=err_html, sources=[])
+            return AskResponse(body=err_html, text="Error", sources=[])
 
     results = []
     for ent in entities:
@@ -367,7 +367,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     if _FIRESTORE:
         try:
             s_dicts = [s.dict() if hasattr(s, 'dict') else s.model_dump() for s in sources]
-            _FIRESTORE.collection("cache").document(question_hash).set({"body": final_body, "sources": s_dicts})
+            _FIRESTORE.collection("cache").document(question_hash).set({"body": final_body, "text": "\n\n".join([r[1].get("clean_text","") for r in results]), "sources": s_dicts})
         except Exception as e: print(f"[Cache] Write error: {e}")
 
     return AskResponse(body=final_body, sources=sources)

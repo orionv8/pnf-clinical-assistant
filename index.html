@@ -1472,7 +1472,8 @@ const _fbAuth = firebase.auth();
    * Returns the block ID so the caller can target it for answer rendering.
    */
   function appendQuestionBlock(question, blockId) {
-    const blockId = 'qa-block-' + (++blockCounter);
+    // blockId is passed from handleSubmit
+    const resultArea = document.getElementById('resultArea');
     const resultArea = document.getElementById('resultArea');
 
     // First message: remove the empty-state with example prompts
@@ -1480,7 +1481,7 @@ const _fbAuth = firebase.auth();
     if (emptyState) emptyState.remove();
 
     const html =
-      '<div class="qa-block" id="' + blockId + '">' +
+      '<div class="qa-block" id="' + blockId + '"><button onclick="document.getElementById(\'' + blockId + '\').remove()" class="delete-btn" title="Remove this result">&times;</button>' +
         '<div class="question">' +
           '<div class="question-label">Your question</div>' +
           '<div>' + escapeHtml(question) + '</div>' +
@@ -1510,7 +1511,14 @@ const _fbAuth = firebase.auth();
     if (!block) return;
     const body = block.querySelector('[data-role="answer-body"]');
     if (!body) return;
-    body.innerHTML = answer.body;
+    
+    const body = block.querySelector('[data-role="answer-body"]');
+    if (!body) return;
+    
+    // Add Copy button and render Markdown
+    const copyBtn = '<button class="copy-btn" onclick="copyToClipboard(this, `' + (answer.text || '').replace(/`/g, '\\`') + '`)">Copy</button>';
+    body.innerHTML = copyBtn + renderAnswer(answer.body);
+
 
     const sources = answer.sources || [];
     if (sources.length === 0) return;
