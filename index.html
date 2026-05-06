@@ -876,6 +876,9 @@
     .auth-link { display: none; }
   }
 </style>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 </head>
 <body>
   <div class="app">
@@ -1026,6 +1029,17 @@
   </div>
 
 <script>
+// Firebase
+const _fbApp = firebase.initializeApp({
+  apiKey: "AIzaSyDLFamybBj8N7FqLlhRGmvNZuMtSu8ZWYE",
+  authDomain: "pnf-clinical-assistant-app.firebaseapp.com",
+  projectId: "pnf-clinical-assistant-app",
+  storageBucket: "pnf-clinical-assistant-app.firebasestorage.app",
+  messagingSenderId: "603314167897",
+  appId: "1:603314167897:web:e1e4bb7f9f6c6ae90b5148"
+});
+const _fbAuth = firebase.auth();
+
 /* =============================================================================
  * PNF Clinical Assistant — Front-end mockup
  *
@@ -1281,24 +1295,27 @@
     },
     async _submitAuth() {
       const email = document.getElementById('authEmailInput').value.trim();
-      const password = document.getElementById('authPasswordInput').value;
-      const errEl = document.getElementById('authErrorMsg');
-      const btn = document.getElementById('authSubmitBtn');
-      errEl.style.display = 'none'; btn.disabled = true;
-      btn.textContent = this._mode === 'signup' ? 'Creating account…' : 'Signing in…';
+      const pw = document.getElementById('authPasswordInput').value;
+      if (!email || !pw) return;
+      
       try {
-        const res = await fetch(this._mode === 'signup' ? '/api/auth/register' : '/api/auth/login',
-          { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) });
-        const data = await res.json();
-        if (!res.ok) throw new Error(data.detail || 'Something went wrong.');
-        auth.set(data.token, data.email);
-        document.getElementById('authSuccessMsg').textContent = '✓ Signed in as ' + data.email;
+        let cred;
+        if (this._mode === 'signup') {
+          cred = await _fbAuth.createUserWithEmailAndPassword(email, pw);
+        } else {
+          cred = await _fbAuth.signInWithEmailAndPassword(email, pw);
+        }
+        const idToken = await cred.user.getIdToken();
+        auth.set(idToken, email);
+        document.getElementById('authSuccessMsg').textContent = '✓ Signed in as ' + email;
         document.getElementById('gateAuthArea').style.display = 'none';
         document.getElementById('authSuccessWrap').style.display = 'block';
         document.getElementById('gateFooter').style.display = 'none';
         tries.reset(); tries.updateDisplay(); updateHeaderAuth();
-      } catch (err) { errEl.textContent = err.message; errEl.style.display = 'block'; }
-      finally { btn.disabled = false; btn.textContent = this._mode === 'signup' ? 'Create free account' : 'Sign in'; }
+      } catch (err) {
+        document.getElementById('authErrorMsg').textContent = err.message;
+        document.getElementById('authErrorMsg').style.display = 'block';
+      }
     },
     _resetForm() {
       document.getElementById('authEmailInput').value = '';
