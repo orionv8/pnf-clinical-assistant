@@ -1,0 +1,104 @@
+DILTIAZEM
+Drug Classification
+ATC CODE
+C08DB01
+ANATOMICAL
+Cardiovascular System
+THERAPEUTIC
+Calcium Channel Blockers
+PHARMACOLOGICAL
+Selective Calcium Channel Blockers with Direct Cardiac Effects
+Technical Specifications
+PNF Primary Care
+Reserved AMs
+ORAL › 60 mg tablet (as hydrochloride) (Rx)
+ORAL › 60 mg, MR capsule (as hydrochloride) (Rx)
+ORAL › 120 mg, MR capsule (as hydrochloride) (Rx)
+ORAL › 180 mg, MR capsule (as hydrochloride) (Rx)
+ORAL › 240 mg, MR capsule (as hydrochloride) (Rx)
+ORAL › 120 mg MR tablet (as hydrochloride) (Rx)
+ORAL › 180 mg MR tablet (as hydrochloride) (Rx)
+ORAL › 90 mg (as Hydrochloride) Modified Release (MR) tablet (OTC)
+ORAL › 90 mg (as Hydrochloride) Modified Release (MR) capsule (OTC)
+ORAL › 30 mg (as Hydrochloride) Tablet (OTC)
+May 6, 2026, 8:19:10 PM - https://pnf.doh.gov.ph
+Page 1 of 4
+
+Dosage
+ORAL › 60 mg tablet (as hydrochloride) (Rx)
+Angina, by mouth, ADULT, initially 30 mg 3 or 4 times daily; increase as required or at 1- to 2-day interval until
+optimum response is obtained (maximum dose, 360 mg daily in 3–4 divided doses); doses of up to 360 mg/day may
+be needed in unstable angina; controlled-release products, initially 180 mg once daily; increase as required up to
+360 mg once daily. NOTE: Dose should not be increased if heart rate drops to 50 beats/minute.
+Administration
+ORAL › 60 mg tablet (as hydrochloride) (Rx)
+Normal release preparations may be taken with or without food. Administer immediate-release preparations
+before meals and at bedtime. For long-acting dosage forms, swallow whole. Do NOT open, chew, or crush. NOTE:
+Serum levels may be elevated if taken with food.
+Dose Adjustment
+Geriatric:
+Start treatment at a lower dose.
+Renal Impairment:
+Start treatment at a lower dose. Use with caution.
+Hepatic Impairment:
+For mild-to-moderate hepatic impairment, dose reduction may be warranted.
+For severe impairment, refer patient to a specialist.
+Indications
+Prophylaxis and treatment of angina
+May 6, 2026, 8:19:10 PM - https://pnf.doh.gov.ph
+Page 2 of 4
+
+Contraindications
+Marked bradycardia (<40 beats/minute); sick sinus syndrome (without pacemaker); severe hypotension (<90 mmHg
+systolic); CHF; acute porphyria; second- or third-degree AV block (without pacemaker); Wolff-Parkinson-White
+syndrome; acute MI and pulmonary congestion; pregnancy
+Precautions
+WARNING: All CCBs have some degree of negative inotropic effect and may, in excessive doses or in combination
+with other drugs, produce myocardial depression especially after MI.
+Abrupt withdrawal and long-term use (has been associated with severe angina).
+Conduction abnormalities (may worsen first-degree AV block and exacerbate bradycardia); arrhythmia (severe
+hypotension likely to occur upon administration); heart failure (can exacerbate condition); impaired left ventricular
+function; hypotension or syncope (symptomatic hypotension with or without syncope rarely occur);
+Hypertrophic cardiomyopathy [HCM] with outflow tract obstruction.
+Hepatic and renal impairment (in severe impairment, monitor hemodynamics and ECG); Increased hepatic enzymes
+(rarely observed)
+Diabetes mellitus (affects insulin secretion and its peripheral action).
+Attenuated neuromuscular transmission (decreased neuromuscular transmission has been reported).
+Patients taking beta-blockers or digitalis (at risk of AV block, bradycardia, asystole, or sinus arrest);
+Patients at risk to develop intestinal obstruction (diltiazem has an inhibitory effect on intestinal motility; may be
+associated with mood changes).
+Children (severe apnea, bradycardia, hypotensive reactions, and cardiac arrest may occur).
+Elderly (greater hypotensive response; constipation may be more of a problem)
+Pregnancy (crosses the placenta; adverse events were observed in some animal reproduction studies); lactation
+(excreted into breast milk; not recommended).
+Adverse Drug Reactions
+Common: Abdominal pain, bradycardia, dizziness, dyspnea, congestion, flushing, headache, fatigue, nausea,
+nervousness, pain, palpitations, peripheral edema, vasodilation, vomiting
+Less Common: AV block, gout
+Rare: Depression, EPS, gum hyperplasia, gynecomastia, hepatitis, hypersensitivity reactions, photosensitivity
+reactions, rash
+May 6, 2026, 8:19:10 PM - https://pnf.doh.gov.ph
+Page 3 of 4
+
+Drug Interactions
+Monitor closely with:
+Increases risk of adverse or toxic effects of Diltiazem:
+Drugs causing hypotension, bradycardia, or slow cardiac conduction, e.g., Amlodipine, Diazepam, Methyldopa;
+Hydrochlorothiazide (bradycardia; hypotension)
+Increases risk of adverse or toxic effects of the following drugs:
+Carbamazepine, Digoxin, Midazolam (sedative and respiratory depressant effects; due to decreased metabolism),
+Phenytoin, Ritonavir (due to increased serum concentration)
+Reduces therapeutic effect of the following drugs:
+Rifampicin (due to increased metabolism)
+Avoid concomitant use with:
+Increases risk of adverse or toxic effects of the following drugs due to increased serum concentration:
+Colchicine, HMG-CoA Reductase Inhibitors, e.g., Atorvastatin, Simvastatin (rhabdomyolysis; myopathy)
+Mechanism of Action
+A non-dihydropyridine calcium channel blocker, which has a negative chronotropic effect, thus decreasing the
+workload of the heart, and consequently reducing its oxygen requirements.
+Pregnancy & Remarks
+PREGNANCY CATEGORY
+C
+May 6, 2026, 8:19:10 PM - https://pnf.doh.gov.ph
+Page 4 of 4
+

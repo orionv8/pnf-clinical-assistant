@@ -1,0 +1,92 @@
+PROPOFOL
+Drug Classification
+ATC CODE
+N01AX10
+ANATOMICAL
+Nervous System
+THERAPEUTIC
+Anesthetics
+PHARMACOLOGICAL
+Anesthetics, General
+CHEMICAL CLASS
+Other General Anesthetics
+Technical Specifications
+PNF Primary Care
+Reserved AMs
+IV › 10 mg/mL, 20 mL ampule (Rx)
+IV › 10 mg/mL, 50 mL pre-filled syringe (Rx)
+IV › 10 mg/mL, 20 mL vial (Rx)
+IV › 10 mg/mL, 50 mL vial (Rx)
+Dosage
+IV › 10 mg/mL, 20 mL ampule (Rx)
+Geriatric, Debilitated Patients, ASA-PS 3 or 4: Use a lower induction dose, a slower maintenance rate of
+administration, and avoid rapidly delivered boluses to reduce the incidence of unwanted cardiorespiratory
+depressive events. Pediatric: Consult local regulations and individual institutional policies and procedures.
+Individualize doses based on total body weight and titrate to the desired clinical effect. Wait at least 3–5 minutes
+between dose adjustments to clinically assess drug effects. Use smaller doses when used with opioids. Alcohol
+Use: For general anesthesia, increase dose with chronic alcoholism and decrease dose with acutely intoxicated
+(alcoholic) patients.
+Administration
+May 6, 2026, 8:19:47 PM - https://pnf.doh.gov.ph
+Page 1 of 3
+
+Dose Adjustment
+Geriatric, Debilitated Patients, ASA-PS 3 or 4:
+Use a lower induction dose, a slower maintenance rate of administration, and avoid rapidly delivered boluses to
+reduce the incidence of unwanted cardiorespiratory depressive events.
+Pediatric:
+Consult local regulations and individual institutional policies and procedures. Individualize doses based on total body
+weight and titrate to the desired clinical effect. Wait at least 3–5 minutes between dose adjustments to clinically
+assess drug effects. Use smaller doses when used with opioids.
+Alcohol Use:
+For general anesthesia, increase dose with chronic alcoholism and decrease dose with acutely intoxicated (alcoholic)
+patients.
+Indications
+Induction and maintenance of general anesthesia; monitored anesthesia care sedation, ICU sedation in intubated
+mechanically-ventilated patients.
+Contraindications
+Hypersensitivity to eggs, egg products, soybeans, or soy products; hypersensitivity to lipid emulsions; children =18
+years of age receiving intensive care; where general anesthesia or sedation is contraindicated; pregnancy; lactation.
+Precautions
+WARNING: Should only be used by experienced personnel who are not actively engaged in the procedure or surgery.
+If used in a non-intubated and/or nonmechanically ventilated patient, qualified personnel and appropriate equipment
+for rapid institution of respiratory and/or cardiovascular support must be immediately available.
+Hypovolemia; Epilepsy; Lipid disorders; Increased intracranial pressure.
+Elderly; Children.
+May 6, 2026, 8:19:47 PM - https://pnf.doh.gov.ph
+Page 2 of 3
+
+Adverse Drug Reactions
+Common: Hypotension, hypertension, bradycardia, cardiac arrhythmia, low cardiac output, tachycardia, involuntary
+body movements, skin rash, pruritus, hypertriglyceridemia, respiratory acidosis (during weaning), pain at injection
+site (includes stinging), apnea
+Less Common: Agitation, amblyopia, anaphylaxis, anaphylactoid reaction, anticholinergic syndrome, asystole, atrial
+arrhythmia, atrial premature contractions, bigeminy, chills, cloudy urine, cough, decreased lung function, delirium,
+dizziness, drowsiness, fever, flushing, hair discoloration (green), hemorrhage, hypertonia, hypomagnesemia, hypoxia,
+infusion-related reaction (propofol-related infusion syndrome), infusion site reaction (including pain, swelling,
+blisters and/or tissue necrosis), laryngospasm, leukocytosis, limb pain, loss of consciousness (postoperative; with or
+without increased muscle tone), myalgia, nail discoloration (green nailbeds), nausea, pancreatitis, paresthesia,
+phlebitis, pulmonary edema, rhabdomyolysis, sialorrhea, syncope, thrombosis, urine discoloration (green),
+ventricular premature contractions, visual disturbance, wheezing
+Rare: Myoclonus (including seizure and opisthotonos)
+Drug Interactions
+Avoid concomitant use with:
+Enhances therapeutic effect of Propofol: Valproate
+Enhances therapeutic effect of the following drugs: Blood Pressure-lowering Agents (antihypertensive effect); CNS
+Depressants (sedative, anesthetic, and cardiorespiratory effects); Hypotension-associated Agents (hypotensive
+effect); Pramipexole, Ropinirole, Rotigotine (sedative effect); QTc-prolonging Agents (QTcprolonging effect)
+Increases risk of adverse or toxic effects of Propofol: Alfentanil (opisthotonos, which is the severe hyperextension
+and spasticity resulting in arching or bridging position, and/or tonic clonic seizures); CNS depressants; Rifampin
+(hypotensive effect); Rufinamide (sleepiness and dizziness)
+Increases risk of adverse or toxic effects of SSRIs (psychomotor impairment)
+Increases serum concentration of the Ropivacaine
+Mechanism of Action
+Propofol facilitates inhibitory neurotransmission mediated by GABA and is associated with minimal respiratory
+depression and a short half-life with a duration of action of 2–10 minutes. It may also reduce glutamatergic activity
+through NMDA receptor blockade.
+Pregnancy & Remarks
+PREGNANCY CATEGORY
+B
+May 6, 2026, 8:19:47 PM - https://pnf.doh.gov.ph
+Page 3 of 3
+
