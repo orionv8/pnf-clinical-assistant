@@ -1130,6 +1130,29 @@ const _fbApp = firebase.initializeApp({
 const _fbAuth = firebase.auth();
   const _db = firebase.firestore();
 
+  // Global helpers for PNF Assistant
+  window.renderAnswer = function(html_str) {
+      try {
+          if (typeof marked !== 'undefined' && marked.parse) {
+              let parsed = marked.parse(html_str);
+              if (typeof DOMPurify !== 'undefined' && DOMPurify.sanitize) {
+                  return DOMPurify.sanitize(parsed);
+              }
+              return parsed;
+          }
+      } catch (e) { console.error("Markdown error", e); }
+      return html_str;
+  };
+
+  window.copyToClipboard = function(button, textToCopy) {
+      navigator.clipboard.writeText(textToCopy).then(() => {
+          let old = button.innerText;
+          button.innerText = "Copied!";
+          setTimeout(() => { button.innerText = old; }, 2000);
+      });
+  };
+
+
 /* =============================================================================
  * PNF Clinical Assistant — Front-end mockup
  *
@@ -1474,7 +1497,6 @@ const _fbAuth = firebase.auth();
   function appendQuestionBlock(question, blockId) {
     // blockId is passed from handleSubmit
     const resultArea = document.getElementById('resultArea');
-    const resultArea = document.getElementById('resultArea');
 
     // First message: remove the empty-state with example prompts
     const emptyState = document.getElementById('emptyState');
@@ -1509,9 +1531,6 @@ const _fbAuth = firebase.auth();
   function renderAnswerInBlock(blockId, answer) {
     const block = document.getElementById(blockId);
     if (!block) return;
-    const body = block.querySelector('[data-role="answer-body"]');
-    if (!body) return;
-    
     const body = block.querySelector('[data-role="answer-body"]');
     if (!body) return;
     

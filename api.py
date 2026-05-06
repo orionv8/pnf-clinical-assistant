@@ -102,6 +102,7 @@ class SourceItem(BaseModel):
 
 class AskResponse(BaseModel):
     body: str
+    text: str
     sources: List[SourceItem]
 
 # --- Helpers ---
@@ -321,7 +322,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
                     _FIRESTORE.collection("cache").document(question_hash).set({"body": body_html, "text": ai_text, "sources": s_dicts})
                 except Exception as e: print(f"[Cache] Write error: {e}")
             
-            return AskResponse(body=body_html, sources=sources)
+            return AskResponse(body=body_html, text=ai_text, sources=sources)
         except Exception as e:
             err_html = f"<p>Unable to synthesize response: {str(e)[:120]}</p><p>Try searching specific drug names in the PNF library instead.</p>"
             return AskResponse(body=err_html, text="Error", sources=[])
@@ -343,7 +344,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         if m: results.append((question, m, "none", None))
 
     if not results:
-        return AskResponse(body=f"<p>No results for <strong>{question}</strong>. Try a generic drug name.</p>", sources=[])
+        return AskResponse(body=f"<p>No results for <strong>{question}</strong>. Try a generic drug name.</p>", text="No results.", sources=[])
 
     body_parts, sources, drug_list = [], [], []
     for i, (ent, match, resolver, gen) in enumerate(results):
@@ -370,7 +371,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             _FIRESTORE.collection("cache").document(question_hash).set({"body": final_body, "text": "\n\n".join([r[1].get("clean_text","") for r in results]), "sources": s_dicts})
         except Exception as e: print(f"[Cache] Write error: {e}")
 
-    return AskResponse(body=final_body, sources=sources)
+    return AskResponse(body=final_body, text="\n\n".join([r[1].get("clean_text","") for r in results]), sources=sources)
 
 if __name__ == "__main__":
     import uvicorn
