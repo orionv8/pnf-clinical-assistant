@@ -334,8 +334,10 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         m, rv, gen = _resolve_one(ent)
         if m is None and is_brand:
             g = ai_resolve_generic(ent, _GEMMA_MODEL)
-            if g and g.lower().strip() in drug_index:
-                m, rv, gen = drug_index[g.lower().strip()], "gemini", g.lower().strip()
+            if g:
+                m_fuzzy = _search_index(g)
+                if m_fuzzy:
+                    m, rv, gen = m_fuzzy, "gemini", g.lower().strip()
         if m: results.append((ent, m, rv, gen))
 
     if not results:
