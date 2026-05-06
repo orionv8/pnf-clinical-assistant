@@ -164,16 +164,32 @@ def _search_index(query: str):
     _generic = {"first","line","second","third","use","used","drug","dose","treatment","treatments","adults","adult","children","patient","patients"}
     mw = [w for w in words if w not in _stop and len(w) >= 3]
     specific = [w for w in mw if w not in _generic]
+    
     if len(mw) >= 2 and specific:
         hits = []
         for e in pnf_data:
+            text_lower = e.get("text","").lower()
+            # If query appears in Indications section, give it a massive boost
+            ind_boost = 0
+            if "indications" in text_lower:
+                ind_part = text_lower.split("indications")[1].split("contraindications")[0] if "contraindications" in text_lower else text_lower.split("indications")[1]
+                if any(w in ind_part for w in specific):
+                    ind_boost = 200
+            
             tn = re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())
             if not any(w in tn for w in specific): continue
+            
+            score = ind_boost
             for i in range(len(mw)-1):
-                if mw[i]+" "+mw[i+1] in tn: hits.append(e); break
+                if mw[i]+" "+mw[i+1] in tn: score += 50
+            
+            if score > 0:
+                hits.append((score, e))
+        
         if hits:
-            hits.sort(key=lambda e: sum(1 for w in specific if w in re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())), reverse=True)
-            return hits[0]
+            hits.sort(key=lambda x: x[0], reverse=True)
+            return hits[0][1]
+
     cands = []
     for w in mw:
         if len(w) >= 4 and w in content_index: cands.extend(content_index[w])
@@ -275,6 +291,15 @@ async def get_chats(authorization: Optional[str] = Header(None)):
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
+    # --- Greeting / Non-medical query check ---
+    greetings = {"hi", "hello", "good morning", "good afternoon", "good evening", "hey", "how are you"}
+    if q in greetings:
+        return AskResponse(
+            body="<p>Hello! I am your PNF Clinical Assistant. I can help you search the Philippine National Formulary or check for drug interactions. How can I assist you today?</p>",
+            text="Hello! How can I assist you today?",
+            sources=[]
+        )
+
     question = req.question.strip()
     if not question: raise HTTPException(422, "Empty query")
     q = question.lower().strip()

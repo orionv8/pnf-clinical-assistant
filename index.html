@@ -81,19 +81,25 @@
   .answer-body th, .answer-body td { border: 1px solid var(--border-soft); padding: 8px 12px; }
   .answer-body th { background: var(--surface-2); font-weight: 600; text-align: left; }
   
-  .copy-btn {
+  
+  /* ---------- Deletable blocks & Copy ---------- */
+  .delete-btn {
     float: right;
-    background: var(--surface-2);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 4px 8px;
-    font-size: 12px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 20px;
     cursor: pointer;
-    color: var(--text-soft);
-    margin-top: -30px;
-    margin-bottom: 10px;
+    line-height: 1;
+    padding: 0 5px;
+    margin-top: 5px;
   }
-  .copy-btn:hover { background: var(--border-soft); }
+  .delete-btn:hover { color: #ef4444; }
+
+  /* Markdown styles */
+  .answer-body table { width: 100%; border-collapse: collapse; margin-bottom: 14px; font-size: 14px; }
+  .answer-body th, .answer-body td { border: 1px solid var(--border-soft); padding: 8px 12px; }
+  .answer-body th { background: var(--surface-2); font-weight: 600; text-align: left; }
 
   
   /* ---------- Deletable blocks & Copy ---------- */
@@ -119,8 +125,10 @@
     font-size: 12px;
     cursor: pointer;
     color: var(--text-soft);
-    margin-top: -30px;
+    margin-top: -8px; /* Corrected to prevent overlap */
     margin-bottom: 10px;
+    position: relative;
+    z-index: 10;
   }
   .copy-btn:hover { background: var(--border-soft); }
 
