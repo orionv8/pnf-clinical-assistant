@@ -1,5 +1,5 @@
-# api.py — PNF Clinical Assistant API v4.0.0
-# Firebase Auth (client-side) + Firestore chat history + MIMS brand resolver
+# api.py — PNF Clinical Assistant API v4.1.0
+# Firebase Auth + Firestore caching/history + MIMS brand resolver
 
 from fastapi import FastAPI, HTTPException, Header, Request
 from fastapi.responses import HTMLResponse, JSONResponse
@@ -39,8 +39,17 @@ try:
 except Exception as e:
     print(f"[Firebase] Init failed: {e}")
 
-app = FastAPI(title="PNF Clinical Assistant API", version="4.0.0")
-app.add_middleware(CORSMiddleware, allow_origins=["https://pnf-clinical-assistant-app.web.app", "https://pnf-clinical-assistant-app.firebaseapp.com"], allow_methods=["*"], allow_headers=["*"])
+app = FastAPI(title="PNF Clinical Assistant API", version="4.1.0")
+
+# Restricted CORS for production
+ALLOWED_ORIGINS = [
+    "https://pnf-clinical-assistant-app.web.app",
+    "https://pnf-clinical-assistant-app.firebaseapp.com",
+    "http://localhost:8501", # for local testing
+    "http://127.0.0.1:8501"
+]
+app.add_middleware(CORSMiddleware, allow_origins=ALLOWED_ORIGINS, allow_methods=["*"], allow_headers=["*"])
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # --- AMS Restricted ---
@@ -85,12 +94,17 @@ class AskRequest(BaseModel):
     question: str
 
 class SourceItem(BaseModel):
-    num: int; title: str; section: str; snippet: str; lastUpdated: str
+    num: int
+    title: str
+    section: str
+    snippet: str
+    lastUpdated: str
 
 class AskResponse(BaseModel):
-    body: str; sources: List[SourceItem]
+    body: str
+    sources: List[SourceItem]
 
-# --- Firebase Auth Helper ---
+# --- Helpers ---
 
 def _build_ai_notice() -> str:
     return (
@@ -106,9 +120,7 @@ def _build_ai_notice() -> str:
 def synthesize_interaction(drugs: list, is_question: bool = False, full_query: str = "") -> str:
     if _GEMMA_MODEL is None:
         raise RuntimeError("Gemini not configured.")
-    
     pnf_list = ", ".join(drug_names)
-    
     if is_question:
         prompt = (f"Answer the following clinical question based strictly on standard medical guidelines and the Philippine National Formulary context.\n\n"
                   f"AVAILABLE PNF DRUGS:\n{pnf_list}\n\n"
@@ -124,7 +136,6 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
     return _GEMMA_MODEL.generate_content(prompt).text
 
 def _verify_firebase_token(authorization: Optional[str]) -> Optional[dict]:
-    """Verify Firebase ID token from Authorization header. Returns {uid, email} or None."""
     if not _FB_AUTH or not authorization or not authorization.startswith("Bearer "):
         return None
     try:
@@ -134,13 +145,11 @@ def _verify_firebase_token(authorization: Optional[str]) -> Optional[dict]:
     except Exception:
         return None
 
-# --- Search ---
 @lru_cache(maxsize=500)
 def _search_index(query: str):
     q = query.lower().strip()
     if not q: return None
     words = re.findall(r"\b\w+\b", q)
-
     if q in drug_index: return drug_index[q]
     q_norm = re.sub(r"[^a-z0-9 ]","",q).strip()
     if q_norm != q and q_norm in drug_index: return drug_index[q_norm]
@@ -150,14 +159,10 @@ def _search_index(query: str):
     if drug_names and len(words) <= 3:
         best, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
         if score >= 90: return drug_index[best]
-
-    _stop = {"what","are","the","for","in","of","a","an","and","to","is","how",
-             "does","do","can","with","this","that","from","by","on","at","or"}
-    _generic = {"first","line","second","third","use","used","drug","dose",
-                "treatment","treatments","adults","adult","children","patient","patients"}
+    _stop = {"what","are","the","for","in","of","a","an","and","to","is","how","does","do","can","with","this","that","from","by","on","at","or"}
+    _generic = {"first","line","second","third","use","used","drug","dose","treatment","treatments","adults","adult","children","patient","patients"}
     mw = [w for w in words if w not in _stop and len(w) >= 3]
     specific = [w for w in mw if w not in _generic]
-
     if len(mw) >= 2 and specific:
         hits = []
         for e in pnf_data:
@@ -166,10 +171,8 @@ def _search_index(query: str):
             for i in range(len(mw)-1):
                 if mw[i]+" "+mw[i+1] in tn: hits.append(e); break
         if hits:
-            hits.sort(key=lambda e: sum(1 for w in specific if w in
-                re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())), reverse=True)
+            hits.sort(key=lambda e: sum(1 for w in specific if w in re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())), reverse=True)
             return hits[0]
-
     cands = []
     for w in mw:
         if len(w) >= 4 and w in content_index: cands.extend(content_index[w])
@@ -184,7 +187,6 @@ def _search_index(query: str):
         return sorted(unique, key=_sc, reverse=True)[0]
     return None
 
-# --- Helpers ---
 def _format_text_as_html(text: str) -> str:
     parts = []
     for line in text.splitlines():
@@ -223,17 +225,13 @@ def _resolve_one(term: str):
     m = _search_index(term)
     return (m, "none", None) if m else (None, None, None)
 
-# --- Firestore Chat Save (async, non-blocking) ---
 def _save_chat(uid: str, question: str, drugs: list):
     if not _FIRESTORE or not uid: return
     try:
         _FIRESTORE.collection("users").document(uid).collection("chats").add({
-            "question": question,
-            "drugs": drugs,
-            "timestamp": firestore.SERVER_TIMESTAMP,
+            "question": question, "drugs": drugs, "timestamp": firestore.SERVER_TIMESTAMP,
         })
-    except Exception as e:
-        print(f"[Firestore] Save error: {e}")
+    except Exception as e: print(f"[Firestore] Save error: {e}")
 
 # ======================== ROUTES ========================
 
@@ -246,7 +244,7 @@ async def serve_frontend():
 @app.get("/health")
 async def health():
     from ai_resolver import get_mims_status
-    return {**{"status":"ok","version":"4.0.0","entries_loaded":len(pnf_data),
+    return {**{"status":"ok","version":"4.1.0","entries_loaded":len(pnf_data),
         "gemma_available":_GEMMA_MODEL is not None,
         "firebase_available":_FB_AUTH is not None,
         "firestore_available":_FIRESTORE is not None}, **get_mims_status()}
@@ -272,30 +270,27 @@ async def get_chats(authorization: Optional[str] = Header(None)):
             chats.append({"id": doc.id, "question": d.get("question",""),
                           "drugs": d.get("drugs",[]), "timestamp": str(d.get("timestamp",""))})
         return {"chats": chats}
-    except Exception as e:
-        return {"chats": [], "error": str(e)}
+    except Exception as e: return {"chats": [], "error": str(e)}
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
 async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
-    # --- Caching Logic ---
-    question_hash = re.sub(r'[^a-z0-9]', '', question.lower())
-    if _FIRESTORE:
-        cached_doc = _FIRESTORE.collection("cache").document(question_hash).get()
-        if cached_doc.exists:
-            data = cached_doc.to_dict()
-            # Verify if cached data is valid response format
-            if "body" in data and "sources" in data:
-                print(f"[Cache] Hit for: {question}")
-                resp_data = {"body": body_html, "sources": [s.dict() for s in [SourceItem(num=1, title=title_text, section=section_text, snippet="Generated by PNF Assistant AI. Always cross-check with PNF and authoritative sources.", lastUpdated="Live")]]}
-            if _FIRESTORE: _FIRESTORE.collection("cache").document(question_hash).set(resp_data)
-            return AskResponse(body=data["body"], sources=[SourceItem(**s) for s in data["sources"]])
-
     question = req.question.strip()
     if not question: raise HTTPException(422, "Empty query")
     q = question.lower().strip()
-    q_words = re.findall(r"\b\w+\b", q)
+    
+    # --- Caching Logic ---
+    question_hash = re.sub(r'[^a-z0-9]', '', q)
+    if _FIRESTORE:
+        try:
+            cached_doc = _FIRESTORE.collection("cache").document(question_hash).get()
+            if cached_doc.exists:
+                data = cached_doc.to_dict()
+                if "body" in data and "sources" in data:
+                    print(f"[Cache] Hit for: {question}")
+                    return AskResponse(body=data["body"], sources=[SourceItem(**s) for s in data["sources"]])
+        except Exception as e: print(f"[Cache] Read error: {e}")
 
-    # Extract entities
+    q_words = re.findall(r"\b\w+\b", q)
     _splitters = [" and ", " with ", " vs ", " versus ", ", "]
     entities = [q]
     for sp in _splitters:
@@ -312,35 +307,25 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             ai_text = synthesize_interaction(drugs=entities, is_question=is_question, full_query=question)
             ai_html = _format_text_as_html(ai_text)
             body_html = "\n".join([_build_ai_notice(), ai_html])
-            
             title_text = "AI-Synthesized Answer" if is_question else "AI-Synthesized Summary"
             section_text = "Clinical Question" if is_question else f"Drug Interaction: {' + '.join(entities)}"
-
+            sources = [SourceItem(num=1, title=title_text, section=section_text, snippet="Generated by PNF Assistant AI. Always cross-check with PNF and authoritative sources.", lastUpdated="Live")]
+            
             user = _verify_firebase_token(authorization)
-            if user:
-                _save_chat(user["uid"], question, entities)
+            if user: _save_chat(user["uid"], question, entities)
 
-            resp_data = {"body": body_html, "sources": [s.dict() for s in [SourceItem(num=1, title=title_text, section=section_text, snippet="Generated by PNF Assistant AI. Always cross-check with PNF and authoritative sources.", lastUpdated="Live")]]}
-            if _FIRESTORE: _FIRESTORE.collection("cache").document(question_hash).set(resp_data)
-            return AskResponse(
-                body=body_html,
-                sources=[SourceItem(
-                    num=1,
-                    title=title_text,
-                    section=section_text,
-                    snippet="Generated by PNF Assistant AI. Always cross-check with PNF and authoritative sources.",
-                    lastUpdated="Live",
-                )],
-            )
+            # Save to cache
+            if _FIRESTORE:
+                try:
+                    # Pydantic v1 uses .dict(), v2 uses .model_dump()
+                    s_dicts = [s.dict() if hasattr(s, 'dict') else s.model_dump() for s in sources]
+                    _FIRESTORE.collection("cache").document(question_hash).set({"body": body_html, "sources": s_dicts})
+                except Exception as e: print(f"[Cache] Write error: {e}")
+            
+            return AskResponse(body=body_html, sources=sources)
         except Exception as e:
-            err_html = (
-                f"<p>Unable to synthesize response: {str(e)[:120]}</p>"
-                "<p>Try searching specific drug names in the PNF library instead.</p>"
-            )
-            resp_data = {"body": body_html, "sources": [s.dict() for s in [SourceItem(num=1, title=title_text, section=section_text, snippet="Generated by PNF Assistant AI. Always cross-check with PNF and authoritative sources.", lastUpdated="Live")]]}
-            if _FIRESTORE: _FIRESTORE.collection("cache").document(question_hash).set(resp_data)
+            err_html = f"<p>Unable to synthesize response: {str(e)[:120]}</p><p>Try searching specific drug names in the PNF library instead.</p>"
             return AskResponse(body=err_html, sources=[])
-
 
     results = []
     for ent in entities:
@@ -351,8 +336,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             g = ai_resolve_generic(ent, _GEMMA_MODEL)
             if g:
                 m_fuzzy = _search_index(g)
-                if m_fuzzy:
-                    m, rv, gen = m_fuzzy, "gemini", g.lower().strip()
+                if m_fuzzy: m, rv, gen = m_fuzzy, "gemini", g.lower().strip()
         if m: results.append((ent, m, rv, gen))
 
     if not results:
@@ -360,11 +344,8 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         if m: results.append((question, m, "none", None))
 
     if not results:
-        resp_data = {"body": body_html, "sources": [s.dict() for s in [SourceItem(num=1, title=title_text, section=section_text, snippet="Generated by PNF Assistant AI. Always cross-check with PNF and authoritative sources.", lastUpdated="Live")]]}
-            if _FIRESTORE: _FIRESTORE.collection("cache").document(question_hash).set(resp_data)
-            return AskResponse(body=f"<p>No results for <strong>{question}</strong>. Try a generic drug name.</p>", sources=[])
+        return AskResponse(body=f"<p>No results for <strong>{question}</strong>. Try a generic drug name.</p>", sources=[])
 
-    # Build response
     body_parts, sources, drug_list = [], [], []
     for i, (ent, match, resolver, gen) in enumerate(results):
         dn = match.get("drug", ent); ct = match.get("clean_text","")
@@ -374,21 +355,25 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         snip = ct[:200].strip()
         if len(ct) > 200:
             sp = snip.rfind(" "); snip = (snip[:sp] if sp > 0 else snip) + "..."
-        sources.append(SourceItem(num=i+1, title="Philippine National Formulary",
-            section=f"Drug Monograph &mdash; {dn}", snippet=snip, lastUpdated="Apr 2026"))
+        sources.append(SourceItem(num=i+1, title="Philippine National Formulary", section=f"Drug Monograph &mdash; {dn}", snippet=snip, lastUpdated="Apr 2026"))
         drug_list.append(dn)
 
-    # Save to Firestore (if authenticated)
     user = _verify_firebase_token(authorization)
-    if user:
-        _save_chat(user["uid"], question, drug_list)
+    if user: _save_chat(user["uid"], question, drug_list)
 
     sep = '<hr style="margin:1.5em 0;border:none;border-top:1px solid #ddd;">'
-    resp_data = {"body": body_html, "sources": [s.dict() for s in [SourceItem(num=1, title=title_text, section=section_text, snippet="Generated by PNF Assistant AI. Always cross-check with PNF and authoritative sources.", lastUpdated="Live")]]}
-            if _FIRESTORE: _FIRESTORE.collection("cache").document(question_hash).set(resp_data)
-            resp_data = {"body": sep.join(body_parts), "sources": [s.dict() for s in sources]}
-    if _FIRESTORE: _FIRESTORE.collection("cache").document(question_hash).set(resp_data)
-    return AskResponse(body=sep.join(body_parts), sources=sources)
+    final_body = sep.join(body_parts)
+    
+    # Save to cache
+    if _FIRESTORE:
+        try:
+            s_dicts = [s.dict() if hasattr(s, 'dict') else s.model_dump() for s in sources]
+            _FIRESTORE.collection("cache").document(question_hash).set({"body": final_body, "sources": s_dicts})
+        except Exception as e: print(f"[Cache] Write error: {e}")
+
+    return AskResponse(body=final_body, sources=sources)
 
 if __name__ == "__main__":
-    import uvicorn; uvicorn.run("api:app", host="0.0.0.0", port=8501, reload=False)
+    import uvicorn
+    port = int(os.environ.get("PORT", 8501))
+    uvicorn.run("api:app", host="0.0.0.0", port=port, reload=False)
