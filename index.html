@@ -95,20 +95,6 @@
   }
   .copy-btn:hover { background: var(--border-soft); }
 
-  
-  .delete-btn {
-    float: right;
-    background: none;
-    border: none;
-    color: var(--text-muted);
-    font-size: 20px;
-    cursor: pointer;
-    line-height: 1;
-    padding: 0 5px;
-    margin-top: 5px;
-  }
-  .delete-btn:hover { color: #ef4444; }
-
   /* ---------- Layout ---------- */
   .app {
     display: flex;
@@ -462,7 +448,7 @@
   }
   .composer:focus-within {
     border-color: var(--accent);
-    box-shadow: var(--shadow-sm);
+    box-shadow: 0 0 0 3px var(--accent-soft);
   }
   .composer-textarea {
     width: 100%;
@@ -966,12 +952,9 @@
       </div>
     </header>
 
-    
-    <div class="disclaimer-banner" id="persistent-disclaimer" style="position: relative; padding-right: 35px;">
+    <div class="disclaimer-banner" id="persistent-disclaimer">
       <strong>Clinical Disclaimer:</strong> Responses are grounded exclusively in the Philippine National Formulary (PNF). This tool is designed to assist, not replace, clinical judgment.
-      <button onclick="this.parentElement.style.display='none'" style="position: absolute; right: 10px; top: 10px; background: none; border: none; cursor: pointer; color: inherit; font-size: 16px; font-weight: bold;">&times;</button>
     </div>
-
     
 
     <!-- DISCLAIMER BANNER -->
@@ -1451,7 +1434,7 @@ const _fbAuth = firebase.auth();
    * Append a new Q&A block to the conversation feed.
    * Returns the block ID so the caller can target it for answer rendering.
    */
-  function appendQuestionBlock(question, blockId) {
+  function appendQuestionBlock(question) {
     const blockId = 'qa-block-' + (++blockCounter);
     const resultArea = document.getElementById('resultArea');
 
@@ -1563,8 +1546,7 @@ const _fbAuth = firebase.auth();
       tries.updateDisplay();
     }
 
-    const blockId = "qa-" + Date.now();
-    appendQuestionBlock(question, blockId);
+    const blockId = appendQuestionBlock(question);
     const ac = new AbortController();
 
     try {
