@@ -59,10 +59,12 @@ def _gemini_resolve(brand_name: str, model) -> Optional[str]:
         return None
 
     prompt = (
-        f"What is the generic drug name for the Philippine brand \"{brand_name}\"?\n"
-        "Based SOLELY on official, verifiable medical knowledge. "
-        "If you do not explicitly know this exact brand mapping, or if you are uncertain, you MUST reply with ONLY the word 'unknown'.\n"
-        "DO NOT GUESS, HALLUCINATE, OR INFER. Reply with ONLY the generic name in lowercase, nothing else."
+        f"You are a strict medical dictionary API. Your exact task is to resolve the Philippine brand name \"{brand_name}\" to its generic drug name.\n"
+        "RULES:\n"
+        "1. If you are 100% certain of the generic name, output ONLY the generic name in lowercase.\n"
+        "2. If you are NOT certain, or if it is not a real registered pharmaceutical brand, output EXACTLY the word: unknown\n"
+        "3. DO NOT output any conversational text, explanations, or punctuation.\n"
+        "4. DO NOT GUESS OR HALLUCINATE."
     )
 
     try:
