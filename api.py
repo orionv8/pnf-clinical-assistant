@@ -231,8 +231,7 @@ def _build_citation(n: int, dn: str) -> str:
 
 def _resolver_notice(brand: str, generic: str, source: str = "mims") -> str:
     label = "MIMS brand database" if source == "mims" else "Gemini AI"
-    return (f'<p class="resolver-notice" style="background:#e6ffed;border-left:4px solid #4ade80;'
-            f'padding:0.6em 0.8em;border-radius:4px;margin-bottom:0.8em;font-size:0.9em;">'
+    return (f'<p class="resolver-notice">'
             f'<strong>Brand &rarr; Generic:</strong> "{brand}" &rarr; <em>{generic.upper()}</em> via {label}.</p>')
 
 def _resolve_one(term: str):
