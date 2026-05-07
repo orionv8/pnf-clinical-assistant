@@ -1585,3 +1585,5 @@ ZESTAGESIC: paracetamol
 ZILDEN: sildenafil
 ZILTEM: hydroxyzine
 ZIMERZ: memantine
+HAIDOL: paracetamol
+

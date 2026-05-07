@@ -1,11 +1,12 @@
-"""MIMS brand-to-generic resolver with Gemini AI fallback.
+"""MIMS brand-to-generic resolver.
 
 Loads data/mims_brand_generic_names.txt at startup.
 Format: BRAND_NAME: generic_name (one per line)
 
 Resolution order:
   1. MIMS exact match (instant, free)
-  2. Gemini AI fallback (asks the model for the generic name)
+  2. MIMS first-word match
+  3. (AI fallback disabled per strict medical guidelines)
 """
 import os
 import re
@@ -34,11 +35,6 @@ def _load_mims():
                         MIMS_BRAND_TO_GENERIC[brand] = generic
         MIMS_LOAD_STATUS = f"loaded_{len(MIMS_BRAND_TO_GENERIC)}_entries"
         print(f"[MIMS] Loaded {len(MIMS_BRAND_TO_GENERIC)} brand-generic mappings")
-        # Print first 5 for diagnostics
-        for i, (k, v) in enumerate(MIMS_BRAND_TO_GENERIC.items()):
-            if i >= 5:
-                break
-            print(f"  {k} -> {v}")
     except FileNotFoundError:
         MIMS_LOAD_STATUS = f"file_not_found:{MIMS_DATA_PATH}"
         print(f"[MIMS] File not found: {MIMS_DATA_PATH}")
@@ -54,41 +50,9 @@ def _gemini_resolve(brand_name: str, model) -> Optional[str]:
     """
     Ask Gemini to identify the generic drug name for a Philippine brand.
     Returns the generic name (lowercase) or None.
+    NOTE: Currently bypassed to strictly prevent intuition/guessing.
     """
-    if not model:
-        return None
-
-    prompt = (
-        f"You are a strict medical dictionary API. Your exact task is to resolve the Philippine brand name \"{brand_name}\" to its generic drug name.\n"
-        "RULES:\n"
-        "1. If you are 100% certain of the generic name, output ONLY the generic name in lowercase.\n"
-        "2. If you are NOT certain, or if it is not a real registered pharmaceutical brand, output EXACTLY the word: unknown\n"
-        "3. DO NOT output any conversational text, explanations, or punctuation.\n"
-        "4. DO NOT GUESS OR HALLUCINATE."
-    )
-
-    try:
-        response = model.generate_content(
-            prompt,
-            generation_config={"temperature": 0.0}
-        )
-        result = response.text.strip().lower()
-
-        # Reject garbage responses
-        if not result or "unknown" in result or len(result) > 80:
-            return None
-
-        # Clean: take first line, strip quotes/periods
-        result = result.splitlines()[0].strip().strip("\"'.").strip()
-
-        # Basic sanity: should look like a drug name (letters, spaces, hyphens)
-        if re.match(r'^[a-z][a-z \-/]+$', result) and len(result) >= 3:
-            return result
-
-        return None
-    except Exception as e:
-        print(f"[Gemini] Error resolving '{brand_name}': {e}")
-        return None
+    return None
 
 
 def ai_resolve_generic(brand_name: str, model=None):
@@ -98,7 +62,7 @@ def ai_resolve_generic(brand_name: str, model=None):
     Priority:
       1. MIMS data file (exact match, instant)
       2. MIMS first-word match (e.g. "BIOGESIC 500MG" -> "BIOGESIC")
-      3. Gemini AI fallback (asks the model)
+      3. AI fallback (Disabled per explicit constraint: do not guess if not in MIMS)
     """
     if not brand_name:
         return None
@@ -116,12 +80,8 @@ def ai_resolve_generic(brand_name: str, model=None):
         if result:
             return result
 
-    # --- 3. Gemini AI fallback ---
-    result = _gemini_resolve(brand_name, model)
-    if result:
-        print(f"[Gemini] Resolved '{brand_name}' -> '{result}'")
-        return result
-
+    # --- 3. Gemini AI fallback (DISABLED) ---
+    # User requested: "if no brand is located in the mims, model should not guess."
     return None
 
 def get_mims_status():
