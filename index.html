@@ -1084,12 +1084,12 @@
           </button>
         </div>
       </form>
-      <div class="footer">
-        PNF Assistant can make mistakes. Verify dosing against the current PNF.<br>
-        <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('tosOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Terms of Service</a> &middot; 
-        <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('privacyOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Privacy Policy</a> &middot; 
-        <a href="mailto:hermesg042726@agentmail.to?subject=PNF%20Assistant%20-%20Bug%20Report" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Report an Issue</a>
-      </div>
+     <div class="footer">
+       PNF Assistant can make mistakes. Verify dosing against the current PNF.<br>
+        <a href="javascript:void(0)" class="tos-link" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Terms of Service</a> &middot; 
+        <a href="javascript:void(0)" class="privacy-link" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Privacy Policy</a> &middot; 
+       <a href="mailto:hermesg042726@agentmail.to?subject=PNF%20Assistant%20-%20Bug%20Report" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Report an Issue</a>
+     </div>
     </div>
   </div>
 
@@ -1128,10 +1128,10 @@
             <option value="student">Medical/Pharmacy Student</option>
             <option value="other">Other Healthcare Professional</option>
           </select>
-          <div class="auth-checkbox-wrap" id="authLegalWrap">
-            <input type="checkbox" id="authLegalCheckbox" required>
-            <label for="authLegalCheckbox">I have read and agree to the <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('tosOverlay').classList.add('open')">Terms of Service</a> and <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('privacyOverlay').classList.add('open')">Privacy Policy</a>.</label>
-          </div>
+         <div class="auth-checkbox-wrap" id="authLegalWrap">
+           <input type="checkbox" id="authLegalCheckbox" required>
+            <label for="authLegalCheckbox">I have read and agree to the <a href="javascript:void(0)" class="tos-link">Terms of Service</a> and <a href="javascript:void(0)" class="privacy-link">Privacy Policy</a>.</label>
+         </div>
           <div class="auth-error" id="authErrorMsg"></div>
           <button class="gate-btn-primary" type="submit" id="authSubmitBtn"
                   style="width:100%;">Create free account</button>
@@ -1482,9 +1482,21 @@ const _fbAuth = firebase.auth();
       document.getElementById('signUpBtn').addEventListener('click', () => this.show());
       document.getElementById('authForm').addEventListener('submit', (e) => { e.preventDefault(); this._submitAuth(); });
       
-      // Legal Modals handling
-      document.getElementById('tosClose').addEventListener('click', () => document.getElementById('tosOverlay').classList.remove('open'));
-      document.getElementById('privacyClose').addEventListener('click', () => document.getElementById('privacyOverlay').classList.remove('open'));
+     // Legal Modals handling
+      document.querySelectorAll('.tos-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          document.getElementById('tosOverlay').classList.add('open');
+        });
+      });
+      document.querySelectorAll('.privacy-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          document.getElementById('privacyOverlay').classList.add('open');
+        });
+      });
+     document.getElementById('tosClose').addEventListener('click', () => document.getElementById('tosOverlay').classList.remove('open'));
+     document.getElementById('privacyClose').addEventListener('click', () => document.getElementById('privacyOverlay').classList.remove('open'));
       document.getElementById('tosOverlay').addEventListener('click', (e) => { if (e.target === document.getElementById('tosOverlay')) document.getElementById('tosOverlay').classList.remove('open'); });
       document.getElementById('privacyOverlay').addEventListener('click', (e) => { if (e.target === document.getElementById('privacyOverlay')) document.getElementById('privacyOverlay').classList.remove('open'); });
       document.addEventListener('keydown', (e) => { 
@@ -1503,22 +1515,24 @@ const _fbAuth = firebase.auth();
       
       const profInput = document.getElementById('authProfessionInput');
       const btn = document.getElementById('authSubmitBtn');
-      if (mode === 'signup') { 
-          btn.textContent = 'Create free account'; 
-          document.getElementById('authPasswordInput').placeholder = 'Password (min 6 chars)'; 
-          document.getElementById('gateTitle').textContent = "You've reached your daily limit";
-          if(profInput) { profInput.style.display = 'block'; profInput.required = true; }
-          const legalWrap = document.getElementById('authLegalWrap');
-          if(legalWrap) { legalWrap.style.display = 'flex'; document.getElementById('authLegalCheckbox').required = true; }
-      }
-      else { 
-          btn.textContent = 'Sign in'; 
-          document.getElementById('authPasswordInput').placeholder = 'Password'; 
-          document.getElementById('gateTitle').textContent = 'Welcome back';
-          if(profInput) { profInput.style.display = 'none'; profInput.required = false; }
-          const legalWrap = document.getElementById('authLegalWrap');
-          if(legalWrap) { legalWrap.style.display = 'none'; document.getElementById('authLegalCheckbox').required = false; }
-      }
+     if (mode === 'signup') { 
+         btn.textContent = 'Create free account'; 
+         document.getElementById('authPasswordInput').placeholder = 'Password (min 6 chars)'; 
+         document.getElementById('gateTitle').textContent = "You've reached your daily limit";
+         document.getElementById('gateText').textContent = "Create a free account for unlimited access to the Philippine National Formulary library.";
+         if(profInput) { profInput.style.display = 'block'; profInput.required = true; }
+         const legalWrap = document.getElementById('authLegalWrap');
+         if(legalWrap) { legalWrap.style.display = 'flex'; document.getElementById('authLegalCheckbox').required = true; }
+     }
+     else { 
+         btn.textContent = 'Sign in'; 
+         document.getElementById('authPasswordInput').placeholder = 'Password'; 
+         document.getElementById('gateTitle').textContent = 'Welcome back';
+         document.getElementById('gateText').textContent = "Sign in to continue.";
+         if(profInput) { profInput.style.display = 'none'; profInput.required = false; }
+         const legalWrap = document.getElementById('authLegalWrap');
+         if(legalWrap) { legalWrap.style.display = 'none'; document.getElementById('authLegalCheckbox').required = false; }
+     }
 
       document.getElementById('authErrorMsg').style.display = 'none';
     },
