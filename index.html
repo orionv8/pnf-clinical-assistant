@@ -1516,15 +1516,16 @@ const _fbAuth = firebase.auth();
       document.getElementById('tabSignin').classList.toggle('active', mode === 'signin');
       
       const profInput = document.getElementById('authProfessionInput');
+      const authLegalCheckbox = document.getElementById('authLegalCheckbox');
       const btn = document.getElementById('authSubmitBtn');
      if (mode === 'signup') { 
          btn.textContent = 'Create free account'; 
          document.getElementById('authPasswordInput').placeholder = 'Password (min 6 chars)'; 
          document.getElementById('gateTitle').textContent = "You've reached your daily limit";
          document.getElementById('gateText').textContent = "Create a free account for unlimited access to the Philippine National Formulary library.";
-         if(profInput) { profInput.style.display = 'block'; profInput.required = true; }
+         if(profInput) { profInput.disabled = false; profInput.style.display = 'block'; profInput.required = true; }
          const legalWrap = document.getElementById('authLegalWrap');
-         if(legalWrap) { legalWrap.style.display = 'flex'; document.getElementById('authLegalCheckbox').required = true; }
+         if(legalWrap) { legalWrap.style.display = 'flex'; if(authLegalCheckbox) { authLegalCheckbox.disabled = false; authLegalCheckbox.required = true; } }
      }
      else { 
          btn.textContent = 'Sign in'; 
@@ -1532,12 +1533,12 @@ const _fbAuth = firebase.auth();
          document.getElementById('gateTitle').textContent = 'Welcome back';
          
          // Pick a random fact from the PNF
-         const randomFact = pnfFacts[Math.floor(Math.random() * pnfFacts.length)];
-         document.getElementById('gateText').textContent = randomFact;
+         const fact = (typeof pnfFacts !== 'undefined' && pnfFacts.length > 0) ? pnfFacts[Math.floor(Math.random() * pnfFacts.length)] : "Welcome to the PNF Clinical Assistant.";
+         document.getElementById('gateText').textContent = fact;
 
-         if(profInput) { profInput.style.display = 'none'; profInput.required = false; }
+         if(profInput) { profInput.disabled = true; profInput.style.display = 'none'; profInput.required = false; }
          const legalWrap = document.getElementById('authLegalWrap');
-         if(legalWrap) { legalWrap.style.display = 'none'; document.getElementById('authLegalCheckbox').required = false; }
+         if(legalWrap) { legalWrap.style.display = 'none'; if(authLegalCheckbox) { authLegalCheckbox.disabled = true; authLegalCheckbox.required = false; } }
      }
 
       document.getElementById('authErrorMsg').style.display = 'none';
