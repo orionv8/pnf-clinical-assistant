@@ -930,6 +930,43 @@
     .date-pill { display: none; }
     .auth-link { display: none; }
   }
+
+    /* Legal Modals */
+    .legal-overlay {
+      position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--bg-color); z-index: 2000;
+      display: flex; flex-direction: column; align-items: center;
+      padding: 40px 20px; overflow-y: auto;
+      opacity: 0; visibility: hidden; transition: all 0.2s ease;
+    }
+    .legal-overlay.open { opacity: 1; visibility: visible; }
+    .legal-modal {
+      width: 100%; max-width: 600px;
+      background: var(--box-bg); border: 1px solid var(--border-color);
+      border-radius: 12px; padding: 30px; position: relative;
+    }
+    .legal-close {
+      position: absolute; top: 20px; right: 20px;
+      background: none; border: none; color: var(--text-color);
+      opacity: 0.6; cursor: pointer; padding: 4px;
+    }
+    .legal-close:hover { opacity: 1; }
+    .legal-title { font-size: 20px; font-weight: 600; margin: 0 0 20px 0; }
+    .legal-content { font-size: 14px; line-height: 1.6; color: var(--text-color); opacity: 0.9; }
+    .legal-content h3 { font-size: 15px; margin: 20px 0 10px 0; font-weight: 600; }
+    .legal-content p { margin-bottom: 15px; }
+    .legal-content ul { padding-left: 20px; margin-bottom: 15px; }
+
+    /* Checkbox for Legal */
+    .auth-checkbox-wrap {
+      display: flex; align-items: flex-start; gap: 8px;
+      margin: 15px 0; font-size: 13px; color: var(--text-color); opacity: 0.8;
+      text-align: left; line-height: 1.4;
+    }
+    .auth-checkbox-wrap input { margin-top: 2px; cursor: pointer; flex-shrink: 0; }
+    .auth-checkbox-wrap a { color: var(--primary-color); text-decoration: none; cursor: pointer; }
+    .auth-checkbox-wrap a:hover { text-decoration: underline; }
+
 </style>
 
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
@@ -1048,7 +1085,10 @@
         </div>
       </form>
       <div class="footer">
-        PNF Assistant can make mistakes. Verify dosing against the current PNF. <a href="mailto:hermesg042726@agentmail.to?subject=PNF%20Assistant%20-%20Bug%20Report" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Report an Issue</a>
+        PNF Assistant can make mistakes. Verify dosing against the current PNF.<br>
+        <a href="javascript:void(0)" onclick="document.getElementById('tosOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Terms of Service</a> &middot; 
+        <a href="javascript:void(0)" onclick="document.getElementById('privacyOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Privacy Policy</a> &middot; 
+        <a href="mailto:hermesg042726@agentmail.to?subject=PNF%20Assistant%20-%20Bug%20Report" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Report an Issue</a>
       </div>
     </div>
   </div>
@@ -1088,6 +1128,10 @@
             <option value="student">Medical/Pharmacy Student</option>
             <option value="other">Other Healthcare Professional</option>
           </select>
+          <div class="auth-checkbox-wrap" id="authLegalWrap">
+            <input type="checkbox" id="authLegalCheckbox" required>
+            <label for="authLegalCheckbox">I have read and agree to the <a href="javascript:void(0)" onclick="document.getElementById('tosOverlay').classList.add('open')">Terms of Service</a> and <a href="javascript:void(0)" onclick="document.getElementById('privacyOverlay').classList.add('open')">Privacy Policy</a>.</label>
+          </div>
           <div class="auth-error" id="authErrorMsg"></div>
           <button class="gate-btn-primary" type="submit" id="authSubmitBtn"
                   style="width:100%;">Create free account</button>
@@ -1101,6 +1145,62 @@
       <div class="gate-foot" id="gateFooter">Free searches reset at midnight · Unlimited with an account</div>
     </div>
   </div>
+
+  <!-- TERMS OF SERVICE MODAL -->
+  <div class="legal-overlay" id="tosOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="legal-modal">
+      <button class="legal-close" id="tosClose" type="button" aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <h2 class="legal-title">Terms of Service &amp; Medical Disclaimer</h2>
+      <div class="legal-content">
+        <h3>Acceptance of Terms</h3>
+        <p>By accessing or using the PNF Clinical Assistant ("the Service"), you agree to be bound by these Terms. If you do not agree, do not use the Service.</p>
+        
+        <h3>Not Medical Advice (Strict Disclaimer)</h3>
+        <p>The Service is an AI-powered reference tool designed to provide information based on the Philippine National Formulary. <strong>It does not provide medical, diagnostic, or treatment advice.</strong> The Service is intended to support, not replace, the clinical judgment of licensed healthcare professionals. You assume full responsibility for any clinical decisions made or actions taken based on information provided by the Service.</p>
+        
+        <h3>Accuracy and Limitations of AI</h3>
+        <p>The Service utilizes artificial intelligence to process and retrieve information. While we strive for accuracy, the AI engine may occasionally generate incorrect, incomplete, or out-of-context information. You must independently verify all drug information, dosages, and contraindications against official medical guidelines and primary sources before applying them in practice.</p>
+        
+        <h3>Limitation of Liability</h3>
+        <p>To the maximum extent permitted by law, the developers and owners of PNF Clinical Assistant shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the Service, including but not limited to medical errors, adverse patient outcomes, or data loss.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRIVACY POLICY MODAL -->
+  <div class="legal-overlay" id="privacyOverlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="legal-modal">
+      <button class="legal-close" id="privacyClose" type="button" aria-label="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <h2 class="legal-title">Privacy Policy</h2>
+      <div class="legal-content">
+        <h3>Commitment to Privacy</h3>
+        <p>We respect your privacy and are committed to protecting it in compliance with the Philippine Data Privacy Act of 2012 (RA 10173).</p>
+        
+        <h3>Data We Collect</h3>
+        <ul>
+          <li><strong>Account Information:</strong> We collect your email address solely for authentication, account security, and essential communication.</li>
+          <li><strong>System Usage:</strong> We process the text queries you submit to the AI engine to generate responses.</li>
+        </ul>
+        
+        <h3>Strict Prohibition on Patient Health Information (PHI)</h3>
+        <p>The Service is a general reference tool. <strong>You must never input Personally Identifiable Information (PII) or Protected Health Information (PHI)</strong>&mdash;such as patient names, identification numbers, or highly specific medical histories&mdash;into the chat interface.</p>
+        
+        <h3>How We Protect Your Data</h3>
+        <p>Your account credentials and authentication are securely managed via industry-standard third-party infrastructure. We do not sell, rent, or share your personal data with third-party advertisers.</p>
+      </div>
+    </div>
+  </div>
+
 
 <script>
 // Firebase
@@ -1381,6 +1481,20 @@ const _fbAuth = firebase.auth();
       document.getElementById('tabSignin').addEventListener('click', () => this._setMode('signin'));
       document.getElementById('signUpBtn').addEventListener('click', () => this.show());
       document.getElementById('authForm').addEventListener('submit', (e) => { e.preventDefault(); this._submitAuth(); });
+      
+      // Legal Modals handling
+      document.getElementById('tosClose').addEventListener('click', () => document.getElementById('tosOverlay').classList.remove('open'));
+      document.getElementById('privacyClose').addEventListener('click', () => document.getElementById('privacyOverlay').classList.remove('open'));
+      document.getElementById('tosOverlay').addEventListener('click', (e) => { if (e.target === document.getElementById('tosOverlay')) document.getElementById('tosOverlay').classList.remove('open'); });
+      document.getElementById('privacyOverlay').addEventListener('click', (e) => { if (e.target === document.getElementById('privacyOverlay')) document.getElementById('privacyOverlay').classList.remove('open'); });
+      document.addEventListener('keydown', (e) => { 
+        if (e.key === 'Escape') {
+          const t = document.getElementById('tosOverlay');
+          const p = document.getElementById('privacyOverlay');
+          if(t) t.classList.remove('open');
+          if(p) p.classList.remove('open');
+        }
+      });
     },
     _setMode(mode) {
       this._mode = mode;
@@ -1394,12 +1508,16 @@ const _fbAuth = firebase.auth();
           document.getElementById('authPasswordInput').placeholder = 'Password (min 6 chars)'; 
           document.getElementById('gateTitle').textContent = "You've reached your daily limit";
           if(profInput) { profInput.style.display = 'block'; profInput.required = true; }
+          const legalWrap = document.getElementById('authLegalWrap');
+          if(legalWrap) { legalWrap.style.display = 'flex'; document.getElementById('authLegalCheckbox').required = true; }
       }
       else { 
           btn.textContent = 'Sign in'; 
           document.getElementById('authPasswordInput').placeholder = 'Password'; 
           document.getElementById('gateTitle').textContent = 'Welcome back';
           if(profInput) { profInput.style.display = 'none'; profInput.required = false; }
+          const legalWrap = document.getElementById('authLegalWrap');
+          if(legalWrap) { legalWrap.style.display = 'none'; document.getElementById('authLegalCheckbox').required = false; }
       }
 
       document.getElementById('authErrorMsg').style.display = 'none';
