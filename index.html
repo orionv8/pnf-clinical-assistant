@@ -1528,7 +1528,11 @@ const _fbAuth = firebase.auth();
          btn.textContent = 'Sign in'; 
          document.getElementById('authPasswordInput').placeholder = 'Password'; 
          document.getElementById('gateTitle').textContent = 'Welcome back';
-         document.getElementById('gateText').textContent = "Sign in to continue.";
+         
+         // Pick a random fact from the PNF
+         const randomFact = pnfFacts[Math.floor(Math.random() * pnfFacts.length)];
+         document.getElementById('gateText').textContent = randomFact;
+
          if(profInput) { profInput.style.display = 'none'; profInput.required = false; }
          const legalWrap = document.getElementById('authLegalWrap');
          if(legalWrap) { legalWrap.style.display = 'none'; document.getElementById('authLegalCheckbox').required = false; }
