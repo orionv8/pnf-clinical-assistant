@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#121212">
+    <link rel="apple-touch-icon" href="/icon.svg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>PNF Clinical Assistant</title>
@@ -1878,6 +1883,13 @@ const _fbAuth = firebase.auth();
   //   window.PNF.config                   — read/write CONFIG values
   window.PNF = { config: CONFIG, api: API, tries: tries, gate: gate };
 })();
+</script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
 </script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 # api.py — PNF Clinical Assistant API v4.1.0
 # Firebase Auth + Firestore caching/history + MIMS brand resolver
 
+from fastapi.responses import FileResponse
 from fastapi import FastAPI, HTTPException, Header, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
@@ -426,6 +427,19 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         except Exception as e: print(f"[Cache] Write error: {e}")
 
     return AskResponse(body=final_body, text="\n\n".join([r[1].get("clean_text","") for r in results]), sources=sources)
+
+
+@app.get("/manifest.json")
+async def get_manifest():
+    return FileResponse("manifest.json")
+
+@app.get("/sw.js")
+async def get_sw():
+    return FileResponse("sw.js", media_type="application/javascript")
+
+@app.get("/icon.svg")
+async def get_icon():
+    return FileResponse("icon.svg", media_type="image/svg+xml")
 
 if __name__ == "__main__":
     import uvicorn
