@@ -934,7 +934,7 @@
     /* Legal Modals */
     .legal-overlay {
       position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-      background: var(--bg-color); z-index: 2000;
+      background: rgba(0, 0, 0, 0.7); z-index: 99999;
       display: flex; flex-direction: column; align-items: center;
       padding: 40px 20px; overflow-y: auto;
       opacity: 0; visibility: hidden; transition: all 0.2s ease;
@@ -942,17 +942,17 @@
     .legal-overlay.open { opacity: 1; visibility: visible; }
     .legal-modal {
       width: 100%; max-width: 600px;
-      background: var(--box-bg); border: 1px solid var(--border-color);
+      background: var(--surface); border: 1px solid var(--border);
       border-radius: 12px; padding: 30px; position: relative;
     }
     .legal-close {
       position: absolute; top: 20px; right: 20px;
-      background: none; border: none; color: var(--text-color);
+      background: none; border: none; color: var(--text);
       opacity: 0.6; cursor: pointer; padding: 4px;
     }
     .legal-close:hover { opacity: 1; }
     .legal-title { font-size: 20px; font-weight: 600; margin: 0 0 20px 0; }
-    .legal-content { font-size: 14px; line-height: 1.6; color: var(--text-color); opacity: 0.9; }
+    .legal-content { font-size: 14px; line-height: 1.6; color: var(--text); opacity: 0.9; }
     .legal-content h3 { font-size: 15px; margin: 20px 0 10px 0; font-weight: 600; }
     .legal-content p { margin-bottom: 15px; }
     .legal-content ul { padding-left: 20px; margin-bottom: 15px; }
@@ -960,11 +960,11 @@
     /* Checkbox for Legal */
     .auth-checkbox-wrap {
       display: flex; align-items: flex-start; gap: 8px;
-      margin: 15px 0; font-size: 13px; color: var(--text-color); opacity: 0.8;
+      margin: 15px 0; font-size: 13px; color: var(--text); opacity: 0.8;
       text-align: left; line-height: 1.4;
     }
     .auth-checkbox-wrap input { margin-top: 2px; cursor: pointer; flex-shrink: 0; }
-    .auth-checkbox-wrap a { color: var(--primary-color); text-decoration: none; cursor: pointer; }
+    .auth-checkbox-wrap a { color: var(--accent); text-decoration: none; cursor: pointer; }
     .auth-checkbox-wrap a:hover { text-decoration: underline; }
 
 </style>
@@ -1086,8 +1086,8 @@
       </form>
       <div class="footer">
         PNF Assistant can make mistakes. Verify dosing against the current PNF.<br>
-        <a href="javascript:void(0)" onclick="document.getElementById('tosOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Terms of Service</a> &middot; 
-        <a href="javascript:void(0)" onclick="document.getElementById('privacyOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Privacy Policy</a> &middot; 
+        <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('tosOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Terms of Service</a> &middot; 
+        <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('privacyOverlay').classList.add('open')" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Privacy Policy</a> &middot; 
         <a href="mailto:hermesg042726@agentmail.to?subject=PNF%20Assistant%20-%20Bug%20Report" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Report an Issue</a>
       </div>
     </div>
@@ -1130,7 +1130,7 @@
           </select>
           <div class="auth-checkbox-wrap" id="authLegalWrap">
             <input type="checkbox" id="authLegalCheckbox" required>
-            <label for="authLegalCheckbox">I have read and agree to the <a href="javascript:void(0)" onclick="document.getElementById('tosOverlay').classList.add('open')">Terms of Service</a> and <a href="javascript:void(0)" onclick="document.getElementById('privacyOverlay').classList.add('open')">Privacy Policy</a>.</label>
+            <label for="authLegalCheckbox">I have read and agree to the <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('tosOverlay').classList.add('open')">Terms of Service</a> and <a href="javascript:void(0)" onclick="event.preventDefault(); event.stopPropagation(); document.getElementById('privacyOverlay').classList.add('open')">Privacy Policy</a>.</label>
           </div>
           <div class="auth-error" id="authErrorMsg"></div>
           <button class="gate-btn-primary" type="submit" id="authSubmitBtn"
