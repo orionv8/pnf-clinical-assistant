@@ -1667,7 +1667,7 @@ const _fbAuth = firebase.auth();
     
     // Add Copy button and render Markdown
     const copyBtn = '<button class="copy-btn" onclick="copyToClipboard(this, `' + (answer.text || '').replace(/`/g, '\\`') + '`)">Copy</button>';
-    body.innerHTML = copyBtn + renderAnswer(answer.body);
+    body.innerHTML = copyBtn + window.renderAnswer(answer.body);
 
 
     const sources = answer.sources || [];
