@@ -1462,7 +1462,13 @@ const _fbAuth = firebase.auth();
     const headers = { 'Content-Type': 'application/json' };
     if (token) headers['Authorization'] = 'Bearer ' + token;
     const res = await fetch(CONFIG.API_ENDPOINT, { method: 'POST', headers, body: JSON.stringify({ question }), signal });
-    if (res.status === 429) { const e = new Error('Rate limited'); e.code = 'RATE_LIMITED'; throw e; }
+    if (res.status === 429) {
+      let msg = 'Rate limit exceeded';
+      try { const data = await res.json(); if(data.detail) msg = data.detail; } catch(e){}
+      const e = new Error(msg);
+      e.code = 'RATE_LIMITED';
+      throw e;
+    }
     if (!res.ok) { const text = await res.text().catch(() => ''); throw new Error('Failed (' + res.status + '): ' + text); }
     return await res.json();
   };
@@ -1746,14 +1752,26 @@ const _fbAuth = firebase.auth();
       if (err && err.name === 'AbortError') return;
       // Server-side rate limit (429) takes precedence over local counter
       if (err && (err.code === 'RATE_LIMITED' || err.status === 429)) {
-        // Mark local counter as exhausted so the gate stays accurate
-        tries.setUsed(CONFIG.TRIES_LIMIT);
-        tries.updateDisplay();
-        // Remove the in-flight block (we never got an answer)
-        const block = document.getElementById(blockId);
-        if (block) block.remove();
-        gate.show();
-        return;
+        const token = auth.getToken();
+        if (!token) {
+          tries.setUsed(CONFIG.TRIES_LIMIT);
+          tries.updateDisplay();
+          const block = document.getElementById(blockId);
+          if (block) block.remove();
+          gate.show();
+          return;
+        } else {
+          // User is logged in but hit the server limit. Show message in chat.
+          renderErrorInBlock(blockId, new Error(err.message || "You have reached your daily limit of 100 queries."));
+          return;
+        }
+      }
+      if (err && err.message && err.message.includes("401")) {
+         // Unauthenticated
+         gate.show();
+         const block = document.getElementById(blockId);
+         if (block) block.remove();
+         return;
       }
       renderErrorInBlock(blockId, err);
     }
