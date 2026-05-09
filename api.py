@@ -167,8 +167,7 @@ def _search_index(query: str):
     q_norm = re.sub(r"[^a-z0-9 ]","",q).strip()
     if q_norm != q and q_norm in drug_index: return drug_index[q_norm]
     if q in prefix_index: return prefix_index[q][0]
-    if len(words) == 1 and words[0] not in drug_index:
-        if q_norm not in drug_index: return None
+    # Removed aggressive single-word early exit to allow fuzzy matching for short names
     if drug_names and len(words) <= 3:
         best, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
         if score >= 85: return drug_index[best]
@@ -391,20 +390,23 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
                 brand_target_generic = w
                 break
         if not brand_target_generic:
-            cleaned_q = " ".join([w for w in q_words if w not in _intent and w not in _qw])
+            cleaned_q = " ".join([w for w in q_words if w not in _intent and w not in _qw and w not in ["brand", "brands"]])
             if cleaned_q:
-                m = _search_index(cleaned_q)
-                if m:
-                    brand_target_generic = m.get("drug", "").lower()
+                if cleaned_q in drug_index:
+                    brand_target_generic = cleaned_q
+                else:
+                    best_match, score, _ = process.extractOne(cleaned_q, drug_names, scorer=fuzz.WRatio)
+                    if score >= 85:
+                        brand_target_generic = best_match
 
         if brand_target_generic and brand_target_generic in generic_to_brands:
             brands_found = sorted(generic_to_brands[brand_target_generic])
-            html_list = "<ul>" + "".join([f"<li>{b}</li>" for b in brands_found]) + "</ul>"
+            html_list = "<ul>" + "".join([f"<li>{b.title()}</li>" for b in brands_found]) + "</ul>"
             body_html = (
                 f"<h3>Available Brands for {brand_target_generic.title()}</h3>"
                 f"<p>The following brands are available according to the internal brand dictionary:</p>"
                 f"{html_list}"
-                f"<p><em>Note: This is based on the MIMS reference and may not be exhaustive.</em></p>"
+                f"<p><em>Note: This list may not be exhaustive.</em></p>"
             )
             if user: _save_chat(user["uid"], question, [brand_target_generic])
             if _FIRESTORE:
