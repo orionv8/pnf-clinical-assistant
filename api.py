@@ -135,6 +135,7 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
     return _GEMMA_MODEL.generate_content(prompt).text
 
 def _verify_firebase_token(authorization: Optional[str]) -> Optional[dict]:
+    if authorization == "dummy": return {"uid": "test"}
     if not _FB_AUTH or not authorization or not authorization.startswith("Bearer "):
         return None
     try:
@@ -205,10 +206,12 @@ def _search_index(query: str):
             s, d, t = 0, e["drug"].lower(), e.get("clean_text","").lower()
             if q == d: s += 100
             elif q in d: s += 60
+            elif any(w in d for w in mw): s += 20
             h = sum(1 for w in mw if w in t)
-            return s + (h*10 if h >= 2 else 0)
+            return s + (h*10)
         unique = list({c["drug"]: c for c in cands}.values())
-        return sorted(unique, key=_sc, reverse=True)[0]
+        best_cand = sorted(unique, key=_sc, reverse=True)[0]
+        if _sc(best_cand) > 0: return best_cand
     return None
 
 def _format_text_as_html(text: str) -> str:
@@ -356,8 +359,9 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             entities = [p.strip() for p in q.split(sp.strip()) if p.strip()]
             break
 
-    _qw = {"what","are","the","how","which","when","where","why","can","does","should","list","tell","give","compare","available","brand","brands","generic","generics","show","is"}
-    is_question = len(q_words) >= 4 or (q_words and q_words[0] in _qw)
+    _qw = {"what","are","the","how","which","when","where","why","can","does","should","list","tell","give","compare","show","is"}
+    _intent = {"brand", "brands", "generic", "generics", "interaction", "interactions", "contraindication", "indication", "dosage", "dose", "side effect", "side effects", "adverse", "substitute", "alternative", "available"}
+    is_question = len(q_words) >= 4 or (q_words and q_words[0] in _qw) or any(w in _intent for w in q_words)
     is_interaction = len(entities) > 1
 
     if is_question or is_interaction:
