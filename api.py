@@ -157,7 +157,7 @@ def _search_index(query: str):
         if q_norm not in drug_index: return None
     if drug_names and len(words) <= 3:
         best, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
-        if score >= 90: return drug_index[best]
+        if score >= 85: return drug_index[best]
     _stop = {"what","are","the","for","in","of","a","an","and","to","is","how","does","do","can","with","this","that","from","by","on","at","or"}
     _generic = {"first","line","second","third","use","used","drug","dose","treatment","treatments","adults","adult","children","patient","patients"}
     mw = [w for w in words if w not in _stop and len(w) >= 3]
@@ -178,7 +178,7 @@ def _search_index(query: str):
                         ind_boost = 500 # Massive boost for indications
             
             tn = re.sub(r"[^a-z0-9 ]"," ",e.get("clean_text","").lower())
-            if not any(w in tn for w in specific): continue
+            if not all(w in tn for w in specific): continue
             
             score = ind_boost
             # Extra points for proximity/phrase match
@@ -356,8 +356,8 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             entities = [p.strip() for p in q.split(sp.strip()) if p.strip()]
             break
 
-    _qw = {"what","how","which","when","where","why","can","does","should","list","tell","give","compare"}
-    is_question = len(q_words) > 4 or (q_words and q_words[0] in _qw)
+    _qw = {"what","are","the","how","which","when","where","why","can","does","should","list","tell","give","compare","available","brand","brands","generic","generics","show","is"}
+    is_question = len(q_words) >= 4 or (q_words and q_words[0] in _qw)
     is_interaction = len(entities) > 1
 
     if is_question or is_interaction:
