@@ -3,7 +3,7 @@
 
 from fastapi.responses import FileResponse
 from fastapi import FastAPI, HTTPException, Header, Request
-from fastapi.responses import HTMLResponse, JSONResponse
+from fastapi.responses import HTMLResponse, JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
@@ -282,6 +282,37 @@ async def serve_frontend():
             content=f.read(),
             headers={"Cache-Control": "no-cache, no-store, must-revalidate", "Pragma": "no-cache"}
         )
+
+@app.get("/manifest.json", include_in_schema=False)
+async def serve_manifest():
+    p = os.path.join(BASE_DIR, "manifest.json")
+    if not os.path.exists(p): raise HTTPException(404)
+    return FileResponse(p, media_type="application/manifest+json")
+
+@app.get("/icon.svg", include_in_schema=False)
+async def serve_icon_svg():
+    p = os.path.join(BASE_DIR, "icon.svg")
+    if not os.path.exists(p): raise HTTPException(404)
+    return FileResponse(p, media_type="image/svg+xml")
+
+@app.get("/icon-192.png", include_in_schema=False)
+async def serve_icon_192():
+    p = os.path.join(BASE_DIR, "icon-192.png")
+    if not os.path.exists(p): raise HTTPException(404)
+    return FileResponse(p, media_type="image/png")
+
+@app.get("/icon-512.png", include_in_schema=False)
+async def serve_icon_512():
+    p = os.path.join(BASE_DIR, "icon-512.png")
+    if not os.path.exists(p): raise HTTPException(404)
+    return FileResponse(p, media_type="image/png")
+
+@app.get("/sw.js", include_in_schema=False)
+async def serve_sw():
+    p = os.path.join(BASE_DIR, "sw.js")
+    if not os.path.exists(p): raise HTTPException(404)
+    return FileResponse(p, media_type="application/javascript",
+                        headers={"Service-Worker-Allowed": "/"})
 
 @app.get("/health")
 async def health():

@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="manifest" href="/manifest.json">
-    <meta name="theme-color" content="#121212">
-    <link rel="apple-touch-icon" href="/icon.svg">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- PWA -->
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#4a8b7e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="PNF">
+<link rel="apple-touch-icon" href="/icon-192.png">
+<link rel="icon" type="image/svg+xml" href="/icon.svg">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>PNF Clinical Assistant</title>
@@ -972,6 +976,169 @@
     .auth-checkbox-wrap a { color: var(--accent); text-decoration: none; cursor: pointer; }
     .auth-checkbox-wrap a:hover { text-decoration: underline; }
 
+/* ---------- Splash Screen ---------- */
+.splash-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #f0efe9 0%, #e8ede9 30%, #dde6e8 60%, #f2f0ec 100%);
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+html[data-theme="dark"] .splash-overlay {
+  background: linear-gradient(145deg, #0e1217 0%, #111820 30%, #0f171d 60%, #0e1217 100%);
+}
+.splash-overlay.hide {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.splash-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.35;
+  animation: splashFloat 20s ease-in-out infinite;
+}
+.splash-orb-1 {
+  width: 400px; height: 400px;
+  background: radial-gradient(circle, #4a8b7e44, transparent);
+  top: -100px; left: -80px;
+}
+.splash-orb-2 {
+  width: 350px; height: 350px;
+  background: radial-gradient(circle, #7ec4b644, transparent);
+  bottom: -80px; right: -60px;
+  animation-delay: -7s;
+}
+.splash-orb-3 {
+  width: 250px; height: 250px;
+  background: radial-gradient(circle, #b8d4ce33, transparent);
+  top: 40%; left: 60%;
+  animation-delay: -14s;
+}
+html[data-theme="dark"] .splash-orb { opacity: 0.2; }
+@keyframes splashFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -20px) scale(1.05); }
+  66% { transform: translate(-20px, 15px) scale(0.95); }
+}
+.splash-card {
+  position: relative;
+  z-index: 2;
+  width: 340px;
+  padding: 48px 36px 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(40px) saturate(1.6);
+  -webkit-backdrop-filter: blur(40px) saturate(1.6);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    0 8px 32px rgba(74, 139, 126, 0.08),
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  animation: splashCardIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+  transform: translateY(20px) scale(0.97);
+}
+html[data-theme="dark"] .splash-card {
+  background: rgba(22, 27, 34, 0.7);
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    0 1px 3px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+@keyframes splashCardIn {
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+.splash-icon {
+  width: 80px; height: 80px;
+  margin: 0 auto 24px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, var(--accent) 0%, #5fb3a1 100%);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow:
+    0 4px 16px rgba(74, 139, 126, 0.25),
+    0 1px 3px rgba(74, 139, 126, 0.15);
+  animation: splashIconIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+  opacity: 0;
+  transform: scale(0.8);
+}
+@keyframes splashIconIn {
+  to { opacity: 1; transform: scale(1); }
+}
+.splash-icon svg {
+  width: 40px; height: 40px;
+  color: white;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15));
+}
+.splash-title {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.3px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+  animation: splashTextIn 0.7s ease 0.4s forwards;
+  opacity: 0;
+}
+.splash-subtitle {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+  animation: splashTextIn 0.7s ease 0.55s forwards;
+  opacity: 0;
+}
+@keyframes splashTextIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.splash-dots {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  animation: splashTextIn 0.7s ease 0.7s forwards;
+  opacity: 0;
+}
+.splash-dots span {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.3;
+  animation: splashPulse 1.4s ease-in-out infinite;
+}
+.splash-dots span:nth-child(2) { animation-delay: 0.2s; }
+.splash-dots span:nth-child(3) { animation-delay: 0.4s; }
+@keyframes splashPulse {
+  0%, 80%, 100% { opacity: 0.3; transform: scale(0.85); }
+  40% { opacity: 1; transform: scale(1); }
+}
+.splash-badge {
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.3px;
+  animation: splashTextIn 0.7s ease 0.85s forwards;
+  opacity: 0;
+}
+.splash-badge-dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 4px rgba(74, 222, 128, 0.5);
+}
 </style>
 
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
@@ -981,6 +1148,28 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
 </head>
 <body>
+<!-- SPLASH SCREEN -->
+<div class="splash-overlay" id="splashOverlay">
+  <div class="splash-orb splash-orb-1"></div>
+  <div class="splash-orb splash-orb-2"></div>
+  <div class="splash-orb splash-orb-3"></div>
+  <div class="splash-card">
+    <div class="splash-icon">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 3v18M5 8c2.5 1.5 4.5 1.5 7 0s4.5-1.5 7 0M5 13c2.5 1.5 4.5 1.5 7 0s4.5-1.5 7 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="splash-title">PNF Clinical Assistant</div>
+    <div class="splash-subtitle">Reference-Grounded Medical AI</div>
+    <div class="splash-dots">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="splash-badge">
+      <span class="splash-badge-dot"></span>
+      Clinical Drug Reference
+    </div>
+  </div>
+</div>
   <div class="app">
     <!-- HEADER -->
     <header class="header">
@@ -1886,11 +2075,22 @@ const _fbAuth = firebase.auth();
 })();
 </script>
 <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js');
-    });
-  }
+// SPLASH SCREEN — auto-dismiss after animations complete
+function initSplash() {
+  var splash = document.getElementById('splashOverlay');
+  if (!splash) return;
+  setTimeout(function () {
+    splash.classList.add('hide');
+    setTimeout(function () { splash.remove(); }, 600);
+  }, 2500);
+}
+
+// SERVICE WORKER — register for PWA install + offline
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').catch(function () {});
+}
+
+initSplash();
 </script>
 </body>
 </html>
