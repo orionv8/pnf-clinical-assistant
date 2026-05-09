@@ -66,10 +66,23 @@ drug_index: dict = {}
 prefix_index: dict = {}
 content_index: dict = {}
 drug_names: list = []
+generic_to_brands: dict = {}
 
 def _clean_text(raw: str) -> str:
     cleaned = raw.lstrip("﻿")
     return re.sub(r"April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d","",cleaned)
+
+mims_path = os.path.join(BASE_DIR, "data", "mims_brand_generic_names.txt")
+if os.path.exists(mims_path):
+    with open(mims_path, "r", encoding="utf-8") as _f:
+        for line in _f:
+            if ":" in line:
+                brand, generic = line.split(":", 1)
+                brand, generic = brand.strip(), generic.strip().lower()
+                if generic in generic_to_brands:
+                    generic_to_brands[generic].append(brand)
+                else:
+                    generic_to_brands[generic] = [brand]
 
 index_path = os.path.join(BASE_DIR, "data", "pnf_index.json")
 if os.path.exists(index_path):
@@ -367,6 +380,41 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
     _intent = {"brand", "brands", "generic", "generics", "interaction", "interactions", "contraindication", "indication", "dosage", "dose", "side effect", "side effects", "adverse", "substitute", "alternative", "available"}
     is_question = len(q_words) >= 4 or (q_words and q_words[0] in _qw) or any(w in _intent for w in q_words)
     is_interaction = len(entities) > 1
+
+    # --- Brand Query Logic ---
+    is_brand_query = any(w in ["brand", "brands", "available brands"] for w in q_words) and "generic" not in q_words
+    if is_brand_query:
+        # Extract generic name
+        brand_target_generic = None
+        for w in q_words:
+            if w in drug_index and w not in _qw and w not in _intent:
+                brand_target_generic = w
+                break
+        if not brand_target_generic:
+            cleaned_q = " ".join([w for w in q_words if w not in _intent and w not in _qw])
+            if cleaned_q:
+                m = _search_index(cleaned_q)
+                if m:
+                    brand_target_generic = m.get("drug", "").lower()
+
+        if brand_target_generic and brand_target_generic in generic_to_brands:
+            brands_found = sorted(generic_to_brands[brand_target_generic])
+            html_list = "<ul>" + "".join([f"<li>{b}</li>" for b in brands_found]) + "</ul>"
+            body_html = (
+                f"<h3>Available Brands for {brand_target_generic.title()}</h3>"
+                f"<p>The following brands are available according to the internal brand dictionary:</p>"
+                f"{html_list}"
+                f"<p><em>Note: This is based on the MIMS reference and may not be exhaustive.</em></p>"
+            )
+            if user: _save_chat(user["uid"], question, [brand_target_generic])
+            if _FIRESTORE:
+                try:
+                    _FIRESTORE.collection("cache").document(question_hash).set({"body": body_html, "text": f"Brands for {brand_target_generic}: {', '.join(brands_found)}", "sources": []})
+                except Exception as e: print(f"[Cache] Write error: {e}")
+            return AskResponse(body=body_html, text=f"Brands for {brand_target_generic}: {', '.join(brands_found)}", sources=[])
+        elif brand_target_generic:
+            return AskResponse(body=f"<p>No brands found for <strong>{brand_target_generic}</strong>.</p>", text=f"No brands found for {brand_target_generic}.", sources=[])
+
 
     if is_question or is_interaction:
         try:
