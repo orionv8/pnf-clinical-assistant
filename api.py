@@ -265,7 +265,11 @@ def _save_chat(uid: str, question: str, drugs: list):
 async def serve_frontend():
     p = os.path.join(BASE_DIR, "index.html")
     if not os.path.exists(p): raise HTTPException(404, "index.html not found")
-    with open(p, "r", encoding="utf-8") as f: return HTMLResponse(content=f.read())
+    with open(p, "r", encoding="utf-8") as f:
+        return HTMLResponse(
+            content=f.read(),
+            headers={"Cache-Control": "no-cache, no-store, must-revalidate", "Pragma": "no-cache"}
+        )
 
 @app.get("/health")
 async def health():
