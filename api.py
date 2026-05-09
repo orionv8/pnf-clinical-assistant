@@ -406,7 +406,7 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
             entities = [p.strip() for p in q.split(sp.strip()) if p.strip()]
             break
 
-    _qw = {"what","are","the","how","which","when","where","why","can","does","should","list","tell","give","compare","show","is"}
+    _qw = {"what","are","the","how","which","when","where","why","can","does","should","list","tell","give","compare","show","is","for","of","names","name"}
     _intent = {"brand", "brands", "generic", "generics", "interaction", "interactions", "contraindication", "indication", "dosage", "dose", "side effect", "side effects", "adverse", "substitute", "alternative", "available"}
     is_question = len(q_words) >= 4 or (q_words and q_words[0] in _qw) or any(w in _intent for w in q_words)
     is_interaction = len(entities) > 1
@@ -417,13 +417,15 @@ async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
         # Extract generic name
         brand_target_generic = None
         for w in q_words:
-            if w in drug_index and w not in _qw and w not in _intent:
+            if (w in drug_index or w in generic_to_brands) and w not in _qw and w not in _intent:
                 brand_target_generic = w
                 break
         if not brand_target_generic:
             cleaned_q = " ".join([w for w in q_words if w not in _intent and w not in _qw and w not in ["brand", "brands"]])
             if cleaned_q:
-                if cleaned_q in drug_index:
+                if cleaned_q in generic_to_brands:
+                    brand_target_generic = cleaned_q
+                elif cleaned_q in drug_index:
                     brand_target_generic = cleaned_q
                 else:
                     best_match, score, _ = process.extractOne(cleaned_q, drug_names, scorer=fuzz.WRatio)
