@@ -346,29 +346,40 @@ async def get_chats(authorization: Optional[str] = Header(None)):
     except Exception as e: return {"chats": [], "error": str(e)}
 
 @app.post("/api/pnf/ask", response_model=AskResponse)
-async def ask(req: AskRequest, authorization: Optional[str] = Header(None)):
+async def ask(request: Request, req: AskRequest, authorization: Optional[str] = Header(None)):
 
 
     question = req.question.strip()
     if not question: raise HTTPException(422, "Empty query")
 
     user = _verify_firebase_token(authorization)
-    if not user:
-        raise HTTPException(401, "Please sign in to access the PNF Assistant.")
 
     if _FIRESTORE:
         try:
             from datetime import datetime, timezone
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-            usage_ref = _FIRESTORE.collection("users").document(user["uid"]).collection("usage").document(today)
-            usage_doc = usage_ref.get()
-            if usage_doc.exists:
-                count = usage_doc.to_dict().get("count", 0)
-                if count >= 100:
-                    raise HTTPException(429, "You have reached your daily limit of 100 queries. Please try again tomorrow.")
-                usage_ref.update({"count": firestore.Increment(1)})
+            
+            if user:
+                usage_ref = _FIRESTORE.collection("users").document(user["uid"]).collection("usage").document(today)
+                usage_doc = usage_ref.get()
+                if usage_doc.exists:
+                    count = usage_doc.to_dict().get("count", 0)
+                    if count >= 100:
+                        raise HTTPException(429, "You have reached your daily limit of 100 queries. Please try again tomorrow.")
+                    usage_ref.update({"count": firestore.Increment(1)})
+                else:
+                    usage_ref.set({"count": 1})
             else:
-                usage_ref.set({"count": 1})
+                ip = request.headers.get("X-Forwarded-For", request.client.host).split(",")[0].strip()
+                usage_ref = _FIRESTORE.collection("ip_usage").document(ip).collection("usage").document(today)
+                usage_doc = usage_ref.get()
+                if usage_doc.exists:
+                    count = usage_doc.to_dict().get("count", 0)
+                    if count >= 7:
+                        raise HTTPException(429, "Rate limit exceeded. Please sign up for a free account.")
+                    usage_ref.update({"count": firestore.Increment(1)})
+                else:
+                    usage_ref.set({"count": 1})
         except HTTPException:
             raise
         except Exception as e:
