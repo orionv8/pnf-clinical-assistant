@@ -258,8 +258,13 @@ def _resolve_one(term: str):
     from ai_resolver import MIMS_BRAND_TO_GENERIC
     mk = term.strip().upper()
     mh = MIMS_BRAND_TO_GENERIC.get(mk) or (MIMS_BRAND_TO_GENERIC.get(mk.split()[0]) if " " in mk else None)
-    if mh and mh.lower().strip() in drug_index:
-        return drug_index[mh.lower().strip()], "mims", mh.lower().strip()
+    if mh:
+        mh_lower = mh.lower().strip()
+        if mh_lower in drug_index:
+            return drug_index[mh_lower], "mims", mh_lower
+        m = _search_index(mh_lower)
+        if m:
+            return m, "mims", mh_lower
     m = _search_index(term)
     return (m, "none", None) if m else (None, None, None)
 
