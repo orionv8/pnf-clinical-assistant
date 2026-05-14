@@ -357,6 +357,25 @@ async def ask(request: Request, req: AskRequest, authorization: Optional[str] = 
     question = req.question.strip()
     if not question: raise HTTPException(422, "Empty query")
 
+    # Smart Intent Blocking to prevent database dumping
+    _block_patterns = [
+        r"\blist\b.*\ball\b.*\bdrug",
+        r"\blist\b.*\bpnf\b",
+        r"\blist\b.*\b(reference|database|formulary|index)\b",
+        r"\bshow\b.*\ball\b",
+        r"\bwhat\b.*\bdrugs\b.*\bpnf\b",
+        r"\ball\b.*\bdrugs\b",
+        r"\bentire pnf\b",
+        r"\ball generic names\b",
+        r"\bdump all drugs\b"
+    ]
+    if any(re.search(p, question, re.IGNORECASE) for p in _block_patterns):
+        return AskResponse(
+            body="<p>The PNF database contains hundreds of generics and brands. Listing them all is not supported. Please search for a specific drug, category, or clinical condition.</p>",
+            text="Listing the entire database is not supported. Please search for a specific drug or condition.",
+            sources=[]
+        )
+
     user = _verify_firebase_token(authorization)
 
     if _FIRESTORE:
