@@ -133,17 +133,35 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
     if _GEMMA_MODEL is None:
         raise RuntimeError("Gemini not configured.")
     pnf_list = ", ".join(drug_names)
+    
+    # Extract actual PNF monographs for context to provide dosage details
+    context_blocks = []
+    if drugs:
+        for d in drugs:
+            match = _search_index(d)
+            if match and "clean_text" in match:
+                context_blocks.append(f"--- {match['drug'].upper()} ---\n{match['clean_text']}")
+    
+    context_str = "\n\n".join(context_blocks)
+    
     if is_question:
-        prompt = (f"Answer the following clinical question based strictly on standard medical guidelines and the Philippine National Formulary context.\n\n"
+        prompt = (f"You are a Philippine National Formulary (PNF) Drug Specialist.\n\n"
                   f"AVAILABLE PNF DRUGS:\n{pnf_list}\n\n"
-                  f"IMPORTANT: If you recommend or suggest any medications, they MUST be chosen EXCLUSIVELY from the 'AVAILABLE PNF DRUGS' list above.\n\n"
+                  f"RULES:\n"
+                  f"1. Do NOT provide clinical management advice, diagnostic steps, or general treatment guidelines.\n"
+                  f"2. If asked about treatment for a condition, politely decline giving clinical management steps. INSTEAD, provide a list of available PNF drugs indicated for that condition.\n"
+                  f"3. For EVERY drug you mention, you MUST explicitly extract and list its dosage forms and strengths from the PNF Context provided below. If you suggest a drug but its details are missing from the context below, state 'Refer to full PNF monograph for specific dosage forms and strengths.'\n"
+                  f"4. All suggested medications MUST be chosen EXCLUSIVELY from the 'AVAILABLE PNF DRUGS' list.\n\n"
+                  f"PNF CONTEXT (Use this to find dosage forms/strengths):\n{context_str}\n\n"
                   f"Question: {full_query}\n\n"
-                  "Provide a concise, professional clinical response in plain text. "
+                  "Provide a concise, professional drug-focused response in plain text. "
                   "Do not include disclaimers — they are added by the UI.")
     else:
-        prompt = ("Provide a concise clinical drug interaction summary for the following "
-                  "medications: " + ", ".join(drugs) + ". Cover mechanism, severity, and clinical management in plain text.\n"
-                  "If you suggest alternative treatments, they MUST be chosen from this list: " + pnf_list + "\n"
+        prompt = ("You are a Philippine National Formulary (PNF) Drug Specialist. "
+                  "Provide a concise drug interaction summary for the following "
+                  "medications: " + ", ".join(drugs) + ". Cover mechanism, severity, and related adverse effects in plain text. "
+                  "Do NOT provide clinical management advice or general treatment guidelines.\n\n"
+                  "If you suggest alternative medications, they MUST be chosen from this list: " + pnf_list + "\n"
                   "Do not include disclaimers — they are added by the UI.")
     return _GEMMA_MODEL.generate_content(prompt).text
 
