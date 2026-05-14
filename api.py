@@ -170,7 +170,7 @@ def _search_index(query: str):
     # Removed aggressive single-word early exit to allow fuzzy matching for short names
     if drug_names and len(words) <= 3:
         best, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
-        if score >= 85: return drug_index[best]
+        if score >= 95: return drug_index[best]
     _stop = {"what","are","the","for","in","of","a","an","and","to","is","how","does","do","can","with","this","that","from","by","on","at","or"}
     _generic = {"first","line","second","third","use","used","drug","dose","treatment","treatments","adults","adult","children","patient","patients"}
     mw = [w for w in words if w not in _stop and len(w) >= 3]
