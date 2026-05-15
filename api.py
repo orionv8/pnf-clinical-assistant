@@ -216,8 +216,20 @@ def _search_index(query: str):
     if q in prefix_index: return prefix_index[q][0]
     # Removed aggressive single-word early exit to allow fuzzy matching for short names
     if drug_names and len(words) <= 3:
-        best, score, _ = process.extractOne(q, drug_names, scorer=fuzz.WRatio)
-        if score >= 95: return drug_index[best]
+        results = process.extract(q, drug_names, scorer=fuzz.WRatio, limit=5)
+        if results and results[0][1] >= 95:
+            # If the top match is >= 95, check for ties and prioritize exact substring matches or shorter names
+            top_score = results[0][1]
+            tied_matches = [r[0] for r in results if r[1] == top_score]
+            
+            best = tied_matches[0]
+            for match_str in tied_matches:
+                if q in match_str:
+                    best = match_str
+                    if match_str.startswith(q):
+                        break
+            
+            return drug_index[best]
     _stop = {"what","are","the","for","in","of","a","an","and","to","is","how","does","do","can","with","this","that","from","by","on","at","or"}
     _generic = {"first","line","second","third","use","used","drug","dose","treatment","treatments","adults","adult","children","patient","patients"}
     mw = [w for w in words if w not in _stop and len(w) >= 3]
@@ -246,8 +258,13 @@ def _search_index(query: str):
                 if mw[i]+" "+mw[i+1] in tn: score += 100
             
             # Bonus for generic name match
-            if any(w in e["drug"].lower() for w in specific):
+            drug_lower = e["drug"].lower()
+            if any(w in drug_lower for w in specific):
                 score += 50
+            if q in drug_lower:
+                score += 200
+            if drug_lower.startswith(q):
+                score += 300
                 
             if score > 0:
                 hits.append((score, e))
