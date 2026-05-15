@@ -140,7 +140,7 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
     
     q_lower = full_query.lower()
     for d in drug_names:
-        clean_d = d.split('(')[0].strip()
+        clean_d = re.sub(r'\s*\([^)]*\)$', '', d).strip()
         if len(clean_d) > 3 and re.search(rf"\b{re.escape(clean_d)}\b", q_lower):
             mentioned_drugs.add(d)
             
@@ -158,7 +158,7 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
         
     if drugs:
         for d in drugs:
-            if len(d.split()) <= 3:
+            if len(d.split()) <= 10:
                 d_lower = d.lower()
                 for dn in drug_names:
                     if dn.split('(')[0].strip() == d_lower:
@@ -515,7 +515,19 @@ async def ask(request: Request, req: AskRequest, authorization: Optional[str] = 
 
     _qw = {"what","are","the","how","which","when","where","why","can","does","should","list","tell","give","compare","show","is","for","of","names","name"}
     _intent = {"brand", "brands", "generic", "generics", "interaction", "interactions", "contraindication", "indication", "dosage", "dose", "side effect", "side effects", "adverse", "substitute", "alternative", "available"}
-    is_question = len(q_words) >= 4 or (q_words and q_words[0] in _qw) or any(w in _intent for w in q_words)
+    
+    # Check if query contains question words or intent keywords
+    has_qw_or_intent = (q_words and q_words[0] in _qw) or any(w in _intent for w in q_words)
+    
+    # Default is_question logic
+    is_question = len(q_words) >= 6 or has_qw_or_intent
+    
+    # If no explicit question/intent words, verify if it's just a long drug name
+    if is_question and not has_qw_or_intent:
+        test_m, _, _ = _resolve_one(q)
+        if test_m:
+            is_question = False
+
     is_interaction = len(entities) > 1
 
     # --- Brand Query Logic ---
