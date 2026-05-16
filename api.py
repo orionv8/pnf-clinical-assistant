@@ -165,10 +165,23 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
                         mentioned_drugs.add(dn)
                 mentioned_drugs.add(d_lower)
 
-    for d in mentioned_drugs:
-        match = _search_index(d)
-        if match and "clean_text" in match:
-            context_blocks.append(f"--- {match['drug'].upper()} ---\n{match['clean_text']}")
+    # If the user is asking a broad question (like a disease or condition), 
+    # we want to fetch multiple drugs to provide a comprehensive list, not just one.
+    if is_question and len(mentioned_drugs) == 0:
+        matches = _search_index(full_query, limit=7)
+        if matches and isinstance(matches, list):
+            for m in matches:
+                # Truncate at Adverse Drug Reactions to save tokens since we are loading multiple
+                ct = m.get('clean_text', '')
+                adr_idx = ct.lower().find("adverse drug reactions:")
+                if adr_idx != -1:
+                    ct = ct[:adr_idx] + "\n[TRUNCATED FOR CONTEXT]"
+                context_blocks.append(f"--- {m['drug'].upper()} ---\n{ct}")
+    else:
+        for d in mentioned_drugs:
+            match = _search_index(d)
+            if match and "clean_text" in match:
+                context_blocks.append(f"--- {match['drug'].upper()} ---\n{match['clean_text']}")
     
     context_str = "\n\n".join(context_blocks)
     
@@ -177,13 +190,18 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
                   f"AVAILABLE PNF DRUGS:\n{pnf_list}\n\n"
                   f"RULES:\n"
                   f"1. Do NOT provide clinical management advice, diagnostic steps, or general treatment guidelines.\n"
-                  f"2. If asked about treatment for a CONDITION, politely decline giving clinical management steps, and INSTEAD provide a list of available PNF drugs indicated for that condition.\n"
-                  f"3. If asked about a SPECIFIC DRUG (e.g., its indications, dosages, adverse effects), provide the exact information directly from the PNF Context provided below.\n"
-                  f"4. For EVERY drug you mention, you MUST explicitly extract and list its dosage forms and strengths from the PNF Context. If you suggest a drug but its details are missing from the context below, state 'Refer to full PNF monograph for specific dosage forms and strengths.'\n"
-                  f"5. All suggested medications MUST be chosen EXCLUSIVELY from the 'AVAILABLE PNF DRUGS' list.\n\n"
-                  f"PNF CONTEXT (Use this to find drug information and dosage forms):\n{context_str}\n\n"
+                  f"2. If asked about treatment for a CONDITION, politely decline clinical management steps, and INSTEAD provide a list of available PNF drugs.\n"
+                  f"3. FORMATTING RULE FOR CONDITIONS: If the user asks about a condition, you MUST use exactly this wording for the intro:\n"
+                  f"As a Philippine National Formulary Drug Specialist, I cannot provide clinical management advice, diagnostic steps, or general treatment guidelines, including specific first-line treatment recommendations. However, I can provide a list of available PNF drugs that are used for [Insert Condition Here].\n\n"
+                  f"The following PNF drugs are available for the treatment of [Insert Condition Here]:\n\n"
+                  f"*   [Drug Name 1]: Refer to full PNF monograph for specific dosage forms and strengths.\n"
+                  f"*   [Drug Name 2]: Refer to full PNF monograph for specific dosage forms and strengths.\n"
+                  f"(List all relevant drugs from the PNF Context below in this bulleted format).\n\n"
+                  f"4. If asked about a SPECIFIC DRUG (e.g., its indications, dosages), provide the exact information directly from the PNF Context.\n"
+                  f"5. All suggested medications MUST be chosen EXCLUSIVELY from the 'AVAILABLE PNF DRUGS' list and PNF Context.\n\n"
+                  f"PNF CONTEXT:\n{context_str}\n\n"
                   f"Question: {full_query}\n\n"
-                  "Provide a concise, professional drug-focused response in plain text. "
+                  "Provide a professional drug-focused response in plain text. "
                   "Do not include disclaimers — they are added by the UI.")
     else:
         prompt = ("You are a Philippine National Formulary (PNF) Drug Specialist. "
@@ -206,14 +224,14 @@ def _verify_firebase_token(authorization: Optional[str]) -> Optional[dict]:
         return None
 
 @lru_cache(maxsize=500)
-def _search_index(query: str):
+def _search_index(query: str, limit: int = 1):
     q = query.lower().strip()
     if not q: return None
     words = re.findall(r"\b\w+\b", q)
-    if q in drug_index: return drug_index[q]
+    if q in drug_index: return drug_index[q] if limit == 1 else [drug_index[q]]
     q_norm = re.sub(r"[^a-z0-9 ]","",q).strip()
-    if q_norm != q and q_norm in drug_index: return drug_index[q_norm]
-    if q in prefix_index: return prefix_index[q][0]
+    if q_norm != q and q_norm in drug_index: return drug_index[q_norm] if limit == 1 else [drug_index[q_norm]]
+    if q in prefix_index: return prefix_index[q][0] if limit == 1 else [prefix_index[q][0]]
     # Removed aggressive single-word early exit to allow fuzzy matching for short names
     if drug_names and len(words) <= 3:
         results = process.extract(q, drug_names, scorer=fuzz.WRatio, limit=5)
@@ -229,7 +247,7 @@ def _search_index(query: str):
                     if match_str.startswith(q):
                         break
             
-            return drug_index[best]
+            return drug_index[best] if limit == 1 else [drug_index[best]]
     _stop = {"what","are","the","for","in","of","a","an","and","to","is","how","does","do","can","with","this","that","from","by","on","at","or"}
     _generic = {"first","line","second","third","use","used","drug","dose","treatment","treatments","adults","adult","children","patient","patients"}
     mw = [w for w in words if w not in _stop and len(w) >= 3]
@@ -245,7 +263,12 @@ def _search_index(query: str):
             if "indications" in text_lower:
                 sections = text_lower.split("indications")
                 if len(sections) > 1:
-                    ind_part = sections[1].split("contraindications")[0] if "contraindications" in sections[1] else sections[1]
+                    ind_part = sections[1]
+                    for stop_word in ["contraindications", "precautions", "adverse drug reactions", "adverse effects", "dosage", "dose"]:
+                        stop_idx = ind_part.find(stop_word)
+                        if stop_idx != -1:
+                            ind_part = ind_part[:stop_idx]
+                            
                     if any(w in ind_part for w in specific):
                         ind_boost = 500 # Massive boost for indications
             
@@ -271,7 +294,9 @@ def _search_index(query: str):
         
         if hits:
             hits.sort(key=lambda x: x[0], reverse=True)
-            return hits[0][1]
+            if limit == 1:
+                return hits[0][1]
+            return [h[1] for h in hits[:limit]]
 
 
     cands = []
