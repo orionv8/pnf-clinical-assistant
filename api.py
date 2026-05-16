@@ -198,7 +198,8 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
                   f"*   [Drug Name 2]: Refer to full PNF monograph for specific dosage forms and strengths.\n"
                   f"(List all relevant drugs from the PNF Context below in this bulleted format).\n\n"
                   f"4. If asked about a SPECIFIC DRUG (e.g., its indications, dosages), provide the exact information directly from the PNF Context.\n"
-                  f"5. All suggested medications MUST be chosen EXCLUSIVELY from the 'AVAILABLE PNF DRUGS' list and PNF Context.\n\n"
+                  f"5. All suggested medications MUST be chosen EXCLUSIVELY from the 'AVAILABLE PNF DRUGS' list and PNF Context.\n"
+                  f"6. If the PNF Context for a specific drug is missing information (e.g., contraindications, interactions), you may use your general clinical knowledge to provide the information, but you MUST explicitly state that the information is not from the PNF. For example: 'The PNF monograph for [Drug Name] does not list contraindications. However, based on general clinical knowledge, contraindications for SGLT2 inhibitors include...'\n\n"
                   f"PNF CONTEXT:\n{context_str}\n\n"
                   f"Question: {full_query}\n\n"
                   "Provide a professional drug-focused response in plain text. "
@@ -208,6 +209,8 @@ def synthesize_interaction(drugs: list, is_question: bool = False, full_query: s
                   "Provide a concise drug interaction summary for the following "
                   "medications: " + ", ".join(drugs) + ". Cover mechanism, severity, and related adverse effects in plain text. "
                   "Do NOT provide clinical management advice or general treatment guidelines.\n\n"
+                  f"PNF CONTEXT:\n{context_str}\n\n"
+                  "Base your answer on the PNF Context if available. If the PNF Context is missing interaction data, you may use your general clinical knowledge, but explicitly state that it is not from the PNF.\n"
                   "If you suggest alternative medications, they MUST be chosen from this list: " + pnf_list + "\n"
                   "Do not include disclaimers — they are added by the UI.")
     return _GEMMA_MODEL.generate_content(prompt).text
