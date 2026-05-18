@@ -73,24 +73,6 @@ def _clean_text(raw: str) -> str:
     return re.sub(r"April.*?\n|https://.*?pnf\.doh\.gov\.ph\n+|ATC CODE\n+.*?\n+|Page \d of \d","",cleaned)
 
 
-dosage_forms_db = {}
-forms_path = os.path.join(BASE_DIR, "data", "extracted_mims_pnf.json")
-if os.path.exists(forms_path):
-    import json
-    with open(forms_path, "r", encoding="utf-8") as _f:
-        dosage_forms_db = json.load(_f)
-
-def render_brand_with_forms(brand, generic):
-    """Generates HTML details tag for a brand if dosage forms exist."""
-    brand_key = brand.upper()
-    if generic in dosage_forms_db and brand_key in dosage_forms_db[generic]:
-        forms = dosage_forms_db[generic][brand_key]
-        forms_html = "".join(f"<li style='margin-left:15px; color: var(--text-muted); font-size: 0.9em; list-style-type: disc;'>{f}</li>" for f in forms)
-        return f"""<details style='margin: 5px 0; border: 1px solid var(--border-soft); border-radius: 6px; padding: 5px 10px; background-color: var(--surface-low); cursor: pointer;'>
-<summary style='font-weight: 500; outline: none;'>{brand}</summary>
-<ul style='margin: 5px 0 0 0; padding: 0;'>{forms_html}</ul>
-</details>"""
-    return f"<li style='margin-left:15px; margin-bottom: 3px; font-weight: 500;'>{brand}</li>"
 
 mims_path = os.path.join(BASE_DIR, "data", "mims_brand_generic_names.txt")
 if os.path.exists(mims_path):
@@ -608,7 +590,7 @@ async def ask(request: Request, req: AskRequest, authorization: Optional[str] = 
 
         if brand_target_generic and brand_target_generic in generic_to_brands:
             brands_found = sorted(generic_to_brands[brand_target_generic])
-            html_list = "<ul>" + "".join([render_brand_with_forms(b.title(), brand_target_generic) for b in brands_found]) + "</ul>"
+            html_list = "<ul>" + "".join([f"<li style='margin-left:15px; margin-bottom: 3px; font-weight: 500;'>{b.title()}</li>" for b in brands_found]) + "</ul>"
             body_html = (
                 f"<h3>Available Brands for {brand_target_generic.title()}</h3>"
                 f"<p>The following brands are available according to the internal brand dictionary:</p>"
