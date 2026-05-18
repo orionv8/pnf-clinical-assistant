@@ -2123,25 +2123,5 @@ if ('serviceWorker' in navigator) {
 
 initSplash();
 </script>
-<script>
-function openPaymentModal() {
-    const modal = document.getElementById('paymentModal') || document.querySelector('.iosModalOverlay');
-    if (modal) {
-        modal.style.display = 'flex';
-        // Add a small delay for the transition if it uses opacity
-        setTimeout(() => modal.classList.add('open'), 10);
-    } else {
-        console.error('Payment modal element not found in the DOM.');
-    }
-}
-
-function closePaymentModal() {
-    const modal = document.getElementById('paymentModal') || document.querySelector('.iosModalOverlay');
-    if (modal) {
-        modal.classList.remove('open');
-        setTimeout(() => modal.style.display = 'none', 300); // Wait for transition
-    }
-}
-</script>
 </body>
 </html>
